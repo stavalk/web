@@ -63,7 +63,7 @@ export function Footer() {
         <FooterCol title={t('bench.footer.colProducts')}>
           <a className="foot-link" href={fl('/products')}>{t('bench.nav.productsDropdown.all')}</a>
           <a className="foot-link" href={fl('/customizer')}>{t('bench.nav.productsDropdown.customizer')}</a>
-          <a className="foot-link" href={fl('/sup-construction-comparison')}>{t('bench.nav.productsServicesDropdown.constructionComparison')}</a>
+          <a className="foot-link" href={fl('/solutions/construction-vise-supply')}>{t('bench.nav.productsServicesDropdown.constructionComparison')}</a>
           <a className="foot-link" href={fl('/product-development')}>{t('bench.footer.productDevelopment')}</a>
           <a className="foot-link" href={fl('/oem-odm-private-label-comparison')}>{t('bench.nav.productsServicesDropdown.comparison')}</a>
           <a className="foot-link" href={fl('/new-brand-trial-order')}>{t('bench.nav.oemDropdown.newBrandTrial')}</a>
@@ -75,7 +75,7 @@ export function Footer() {
           <a className="foot-link" href={fl('/factory/capacity')}>{t('bench.footer.factoryCapacity')}</a>
           <a className="foot-link" href={fl('/quality')}>{t('bench.nav.manufacturingDropdown.quality')}</a>
           <a className="foot-link" href={fl('/proof-center')}>{t('bench.nav.manufacturingDropdown.proofCenter')}</a>
-          <a className="foot-link" href={fl('/sup-compliance-by-market')}>{t('bench.nav.proofQualityDropdown.complianceByMarket')}</a>
+          <a className="foot-link" href={fl('/quality')}>{t('bench.nav.proofQualityDropdown.complianceByMarket')}</a>
           <a className="foot-link" href={fl('/factory-audit-checklist')}>{t('bench.nav.proofQualityDropdown.auditChecklist')}</a>
           <a className="foot-link" href={fl('/warranty')}>{t('bench.nav.manufacturingDropdown.warranty')}</a>
           <a className="foot-link" href={fl('/technology')}>{t('bench.nav.manufacturingDropdown.technology')}</a>
@@ -83,15 +83,15 @@ export function Footer() {
 
         {/* Solutions */}
         <FooterCol title={t('bench.footer.colSolutions')}>
-          <a className="foot-link" href={fl('/solutions/private-label-sup')}>{t('bench.footer.privateLabel')}</a>
-          <a className="foot-link" href={fl('/solutions/resort-sup')}>{t('bench.footer.resortSolutions')}</a>
-          <a className="foot-link" href={fl('/solutions/club-sup')}>{t('bench.footer.clubSup')}</a>
-          <a className="foot-link" href={fl('/solutions/school-sup')}>{t('bench.footer.schoolSup')}</a>
-          <a className="foot-link" href={fl('/solutions/distributors')}>{t('bench.nav.industriesDropdown.distributors')}</a>
-          <a className="foot-link" href={fl('/solutions/rental-operators')}>{t('bench.nav.industriesDropdown.rental')}</a>
+          <a className="foot-link" href={fl('/solutions/private-label-vises')}>{t('bench.footer.privateLabel')}</a>
+          <a className="foot-link" href={fl('/solutions')}>{t('bench.footer.resortSolutions')}</a>
+          <a className="foot-link" href={fl('/solutions')}>{t('bench.footer.clubSup')}</a>
+          <a className="foot-link" href={fl('/solutions')}>{t('bench.footer.schoolSup')}</a>
+          <a className="foot-link" href={fl('/solutions')}>{t('bench.nav.industriesDropdown.distributors')}</a>
+          <a className="foot-link" href={fl('/solutions')}>{t('bench.nav.industriesDropdown.rental')}</a>
           <a className="foot-link" href={fl('/b2b-solutions-matrix')}>{t('bench.footer.b2bMatrix')}</a>
-          <a className="foot-link" href={fl('/oem/sup-oem-north-america')}>{t('bench.footer.marketsNorthAmerica')}</a>
-          <a className="foot-link" href={fl('/oem/sup-oem-europe')}>{t('bench.footer.marketsEurope')}</a>
+          <a className="foot-link" href={fl('/oem-manufacturing')}>{t('bench.footer.marketsNorthAmerica')}</a>
+          <a className="foot-link" href={fl('/oem-manufacturing')}>{t('bench.footer.marketsEurope')}</a>
         </FooterCol>
 
         {/* Resources */}
@@ -100,7 +100,7 @@ export function Footer() {
           <a className="foot-link" href={fl('/faq')}>{t('bench.footer.faq')}</a>
           <a className="foot-link" href={fl('/oem-onboarding-guide')}>{t('bench.nav.resourcesDropdown.onboarding')}</a>
           <a className="foot-link" href={fl('/oem-moq-guide')}>{t('bench.nav.resourcesDropdown.moqGuide')}</a>
-          <a className="foot-link" href={fl('/what-is-sup')}>{t('bench.footer.whatIsSup')}</a>
+          <a className="foot-link" href={fl('/knowledge')}>{t('bench.footer.whatIsSup')}</a>
           <a className="foot-link" href={fl('/size-guide')}>{t('bench.nav.resourcesDropdown.sizeGuide')}</a>
           <a className="foot-link" href={fl('/news')}>{t('bench.footer.news')}</a>
         </FooterCol>

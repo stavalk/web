@@ -8,7 +8,7 @@ import { Reveal } from './reveal'
 /** Home: proof-of-work strip — featured project cases linking into /projects,
  *  each card carrying customer type, headline and requirement so buyers can
  *  self-qualify before clicking through. */
-const FEATURED = ['coastal-rental-fleet', 'eu-distributor-private-label', 'resort-sup-fleet', 'touring-sup-range']
+const FEATURED = ['german-hardware-brand-oem', 'us-tool-retailer-private-label', 'australian-construction-supply', 'japanese-automotive-plant']
 
 export function ProjectsShowcase() {
   const { locale, t } = useTranslation()

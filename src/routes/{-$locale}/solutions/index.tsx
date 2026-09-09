@@ -1,5 +1,4 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { createServerFn } from '@tanstack/react-start'
 import { ArrowRight } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -13,33 +12,6 @@ import { SolutionsSection } from '@/components/marketing/solutions-section'
 import { CtaBand } from '@/components/marketing/cta'
 import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 
-/** Program pages served by the afarer catch-all (not part of solutionPages). */
-const PROGRAM_PATHS = ['/solutions/distributors', '/solutions/rental-operators', '/solutions/retail-partners'] as const
-
-/**
- * Resolve the program-page cards (title + meta from the content corpus) on the
- * server: the loader it reads from is pulled in dynamically so the YAML corpus
- * and parser stay out of the client bundle.
- */
-const programCardsServerFn = createServerFn({ method: 'GET' })
-  .validator((locale: string) => locale)
-  .handler(async ({ data }) => {
-    const { getContentPage, brandify } = await import('@/features/content/loader')
-    const cards: { path: string; navLabel: string; metaDescription: string }[] = []
-    for (const path of PROGRAM_PATHS) {
-      const page = getContentPage(path, data as Locale)
-      if (!page) continue
-      const meta = page.content.meta as { title?: string; description?: string } | undefined
-      if (!meta?.title) continue
-      cards.push({
-        path,
-        navLabel: brandify(String(meta.title)).split('|')[0].trim(),
-        metaDescription: brandify(meta.description ?? ''),
-      })
-    }
-    return cards
-  })
-
 export const Route = createFileRoute('/{-$locale}/solutions/')({
   loader: async ({ params }) => {
     const origin = await getOrigin()
@@ -51,8 +23,7 @@ export const Route = createFileRoute('/{-$locale}/solutions/')({
       metaDescription: p.metaDescription,
       kicker: p.kicker,
     }))
-    const programPages = await programCardsServerFn({ data: locale })
-    return { origin, solutionCards, programPages }
+    return { origin, solutionCards }
   },
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''
@@ -72,13 +43,8 @@ export const Route = createFileRoute('/{-$locale}/solutions/')({
 
 function SolutionsIndex() {
   const { locale, t } = useTranslation()
-  const { solutionCards, programPages } = Route.useLoaderData()
+  const { solutionCards } = Route.useLoaderData()
   const c = pick(solutions, locale)
-  const programCards = programPages.map((p) => ({
-    ...p,
-    kicker: t('content.kickers.program'),
-  }))
-  const cards = [...solutionCards, ...programCards]
 
   return (
     <>
@@ -88,7 +54,7 @@ function SolutionsIndex() {
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
           <SectionHead kicker={t('bench.solutions.hubKicker')} title={t('bench.solutions.hubTitle')} />
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {cards.map((card) => (
+            {solutionCards.map((card) => (
               <a
                 key={card.path}
                 href={localizePath(locale, card.path)}
@@ -115,7 +81,7 @@ function SolutionsIndex() {
       />
       <JsonLd
         data={itemListLd(
-          cards.map((p) => ({ name: p.navLabel, path: p.path })),
+          solutionCards.map((p) => ({ name: p.navLabel, path: p.path })),
         )}
       />
     </>

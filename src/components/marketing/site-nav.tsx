@@ -56,7 +56,7 @@ export function SiteNav() {
         {
           label: t('bench.nav.productsServicesDropdown.startGroup'),
           items: [
-            { label: t('bench.nav.productsServicesDropdown.startProject'), href: '/start-sup-project', highlight: true },
+            { label: t('bench.nav.productsServicesDropdown.startProject'), href: '/product-development', highlight: true },
             { label: t('bench.nav.productsServicesDropdown.all'), href: '/products' },
             { label: t('bench.nav.productsServicesDropdown.customizer'), href: '/customizer' },
           ],
@@ -65,12 +65,12 @@ export function SiteNav() {
           label: t('bench.nav.productsServicesDropdown.exploreGroup'),
           items: [
             { label: t('bench.nav.productsServicesDropdown.manufacturer'), href: '/oem-manufacturing' },
-            { label: t('bench.nav.productsServicesDropdown.constructionComparison'), href: '/sup-construction-comparison' },
-            { label: t('bench.nav.productsServicesDropdown.privateLabel'), href: '/solutions/private-label-sup' },
+            { label: t('bench.nav.productsServicesDropdown.constructionComparison'), href: '/solutions/construction-vise-supply' },
+            { label: t('bench.nav.productsServicesDropdown.privateLabel'), href: '/solutions/private-label-vises' },
             { label: t('bench.nav.productsServicesDropdown.comparison'), href: '/oem-odm-private-label-comparison' },
             { label: t('bench.nav.productsServicesDropdown.productDevelopment'), href: '/product-development' },
             { label: t('bench.nav.productsServicesDropdown.newBrandTrial'), href: '/new-brand-trial-order' },
-            { label: t('bench.nav.productsServicesDropdown.oemPaddle'), href: '/oem-paddle' },
+            { label: t('bench.nav.productsServicesDropdown.oemPaddle'), href: '/oem-manufacturing' },
           ],
         },
       ],
@@ -87,11 +87,11 @@ export function SiteNav() {
         {
           label: t('bench.nav.industriesDropdown.verticalsGroup'),
           items: [
-            { label: t('bench.nav.industriesDropdown.resorts'), href: '/solutions/resort-sup' },
-            { label: t('bench.nav.industriesDropdown.clubs'), href: '/solutions/club-sup' },
-            { label: t('bench.nav.industriesDropdown.rental'), href: '/solutions/rental-operators' },
-            { label: t('bench.nav.industriesDropdown.distributors'), href: '/solutions/distributors' },
-            { label: t('bench.nav.industriesDropdown.retail'), href: '/solutions/retail-partners' },
+            { label: t('bench.nav.industriesDropdown.resorts'), href: '/solutions' },
+            { label: t('bench.nav.industriesDropdown.clubs'), href: '/solutions' },
+            { label: t('bench.nav.industriesDropdown.rental'), href: '/solutions' },
+            { label: t('bench.nav.industriesDropdown.distributors'), href: '/solutions' },
+            { label: t('bench.nav.industriesDropdown.retail'), href: '/solutions' },
           ],
         },
       ],
@@ -105,7 +105,7 @@ export function SiteNav() {
             { label: t('bench.nav.proofQualityDropdown.factory'), href: '/factory' },
             { label: t('bench.nav.proofQualityDropdown.proofCenter'), href: '/proof-center' },
             { label: t('bench.nav.proofQualityDropdown.quality'), href: '/quality' },
-            { label: t('bench.nav.proofQualityDropdown.complianceByMarket'), href: '/sup-compliance-by-market' },
+            { label: t('bench.nav.proofQualityDropdown.complianceByMarket'), href: '/quality' },
             { label: t('bench.nav.proofQualityDropdown.auditChecklist'), href: '/factory-audit-checklist' },
             { label: t('bench.nav.proofQualityDropdown.technology'), href: '/technology' },
           ],
@@ -144,7 +144,7 @@ export function SiteNav() {
   )
 
   const cta = (
-    <a href={fl('/start-sup-project')} className={buttonVariants({ size: 'sm' })}>
+    <a href={fl('/product-development')} className={buttonVariants({ size: 'sm' })}>
       {t('bench.nav.cta')}
     </a>
   )
