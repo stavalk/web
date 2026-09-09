@@ -3,7 +3,7 @@ import type { Localized } from './content'
 
 /**
  * Knowledge Center (/knowledge/*). Informational articles answer the
- * question-style queries around SUP product development and manufacturing —
+ * question-style queries around bench vise selection and manufacturing —
  * the queries buyers research before ever reaching out.
  */
 
@@ -21,123 +21,165 @@ export interface KnowledgeArticle {
 export const knowledge: Localized<KnowledgeArticle[]> = {
   en: [
     {
-      slug: 'how-custom-sup-boards-are-developed',
-      navLabel: 'How Custom SUP Boards Are Developed',
-      metaTitle: 'How Custom SUP Boards Are Developed | SUPsfactory',
+      slug: 'how-to-choose-a-bench-vise',
+      navLabel: 'How to Choose a Bench Vise',
+      metaTitle: 'How to Choose a Bench Vise | Jaw Width & Clamping Force',
       metaDescription:
-        'How a custom SUP moves from idea to factory: specification, design, prototyping, sampling and production — explained step by step.',
+        'How to choose a bench vise: jaw width, opening, clamping force, body material, swivel base and mounting — explained in plain language.',
       kicker: 'Knowledge',
-      h1: 'How Custom SUP Boards Are Developed',
+      h1: 'How to Choose a Bench Vise',
       intro:
-        'Before a custom paddle board ships to your customers, it travels a defined development path. Knowing each stage helps you brief the factory correctly, set realistic timelines, and avoid the classic mistakes first-time buyers make.',
+        'A bench vise is a long-term workshop investment. Getting the size, materials and features right the first time saves money and frustration. This guide walks through every deciding factor.',
       sections: [
         {
-          title: 'Step 1: Define the Requirement',
+          title: 'Jaw Width and Opening',
           body: [
-            'Every development project starts with the use case: who rides the board, where, and how often. A rental fleet board differs from a brand launch board or a school board — stability, durability and cost targets all shift with the answer.',
-            'Write down quantity, target price, and must-have features before contacting a factory. Clear requirements produce better first quotes and shorter back-and-forth.',
+            'Jaw width determines the size of workpieces you can grip and how evenly force distributes across them. A 4″-5″ light-duty vise suits hobby and small work; 6″-8″ medium-duty covers most workshop and auto repair tasks; 8″-10″ heavy-duty handles industrial fabrication.',
+            'Opening (maximum gap between closed and open jaws) must exceed your largest workpiece. Measure your biggest material before choosing.',
           ],
         },
         {
-          title: 'Step 2: Fix the Specification',
+          title: 'Clamping Force',
           body: [
-            'The specification turns the requirement into measurable values: length, width, thickness, volume, materials (drop-stitch density, fabric weight), fin setup, weight limit, and packaging.',
-            'This is the document that both sides quote against. Changes later in the process are slower and more expensive — a frozen spec is the cheapest thing you can control.',
+            'Clamping force — 1200-1500 lbs for light-duty up to 6000-8000 lbs for heavy-duty — determines what the vise can hold under work pressure. Beyond a point, more force can damage delicate workpieces, so match force to application.',
+            'Reputable manufacturers publish clamping force per model, measured under controlled torque. Ask for it when comparing suppliers.',
           ],
         },
         {
-          title: 'Step 3: Design and Graphics',
+          title: 'Body Material: Cast Iron vs. Forged Steel',
           body: [
-            'With the spec fixed, design work begins: shape adjustments, color schemes, logo placement, deck pad graphics, and accessory matching (leash, paddle, fin, bag).',
-            'Manufacturers can produce digital mockups so you approve the look before any physical sample is made — cheaper and faster than iterating on hardware.',
+            'Gray cast iron (HT200/HT250) resists compression and is economical — the standard choice for light to medium vises. Forged or cast carbon steel (45#) adds tensile strength and impact resistance, essential for heavy-duty and shock-load applications.',
+            'Jaw faces are hardened separately (58-62 HRC) so the gripping surface outlasts the body. Replaceable jaw inserts extend service life.',
           ],
         },
         {
-          title: 'Step 4: Prototype and Sample',
+          title: 'Swivel Base and Mounting',
           body: [
-            'The sample is the first physical proof. For inflatable boards this means a hand-built or pilot-run board that you can ride and test against the specification.',
-            'Test the sample as your end user will: stability, stiffness, tracking, weight, and how the graphics hold up. One thorough sample round typically catches most issues before production.',
-          ],
-        },
-        {
-          title: 'Step 5: Production and Delivery',
-          body: [
-            'After sample approval, production runs in batches with QC checkpoints. Factory inspection before shipment — photos, videos or third-party inspection — protects the batch you receive.',
-            'A good project schedule works backward from your launch date, not forward from the order.',
+            'A 360° swivel base repositions work without unbolting — ideal for shops that change work angles. A fixed base is more rigid for heavy hammering and is simpler and cheaper.',
+            'Mounting matters too: match bolt size and spacing to your workbench, and reinforce the top for heavy-duty vises. A thin, soft bench defeats an otherwise good vise.',
           ],
         },
       ],
     },
     {
-      slug: 'inflatable-sup-construction-explained',
-      navLabel: 'Inflatable SUP Construction Explained',
-      metaTitle: 'Inflatable SUP Construction: Materials & Layers | SUPsfactory',
+      slug: 'cast-iron-vs-steel-vises',
+      navLabel: 'Cast Iron vs. Steel Vises',
+      metaTitle: 'Cast Iron vs. Forged Steel Bench Vises Compared',
       metaDescription:
-        'What an inflatable SUP is made of — PVC layers, drop-stitch fabric, rails and quality indicators — to specify better boards for your project.',
+        'Cast iron vs. forged steel bench vises: cost, durability, weight, impact resistance and which applications each suits best.',
       kicker: 'Knowledge',
-      h1: 'Inflatable SUP Construction Explained',
+      h1: 'Cast Iron vs. Forged Steel Bench Vises Compared',
       intro:
-        'Most custom SUP projects today are inflatable boards. They are lighter, easier to store and ship, and more forgiving for beginners. This guide explains the construction so you can specify quality with confidence.',
+        'The two materials that dominate bench vise bodies behave very differently under load. This comparison helps you specify the right body for the job.',
       sections: [
         {
-          title: 'The Core: Drop-Stitch Fabric',
+          title: 'Why Cast Iron Is the Workhorse',
           body: [
-            'An inflatable board is built around drop-stitch fabric: thousands of polyester threads connecting the top and bottom PVC layers. When inflated, those threads keep the board at a fixed thickness — this is what gives an iSUP its shape and rigidity.',
-            'Higher thread density (stitches per square inch) means a firmer, more stable board at the same pressure. Budget boards use lower densities; premium boards use higher ones.',
+            'Gray cast iron (HT200/HT250) is cast at relatively low cost, damps vibration better than steel, and resists compression well. It is the standard for light-, medium- and most heavy-duty vises.',
+            'Its weakness is tension and impact: a hard hammer strike near the corner of a cast iron vise can crack it. That is why heavy hammering applications favor steel.',
           ],
         },
         {
-          title: 'PVC Layers and Rails',
+          title: 'Why Forged Steel Wins on Impact',
           body: [
-            'The fabric is sandwiched between PVC layers, which protect it from abrasion, UV and impacts. Heavier PVC (more mils or mm) resists punctures better but adds weight.',
-            'The rails — the edges of the board — absorb the most impact in everyday use. Double- or triple-layer rail construction is a strong indicator of durability and rental suitability.',
+            'Forged or cast carbon steel bodies (45# or better) have substantially higher tensile strength and toughness. They resist cracking under shock loads and extreme clamping forces, making them the choice for mining, shipyard and heavy fabrication work.',
+            'The trade-off is cost and weight. Steel vises are more expensive to produce and heavier to mount, so buyers pay for what they actually need.',
           ],
         },
         {
-          title: 'What Adds Weight vs. What Adds Strength',
+          title: 'Jaw Material Is Separate',
           body: [
-            'Weight is a trade-off: thicker PVC adds durability and weight; lighter layups suit riders who carry their boards far. This is one of the clearest ways a custom spec is tuned to the buyer\u2019s reality.',
-            'Quality indicators to ask for: inflation pressure rating, seam construction, valve type, and the drop-stitch density. Reputable factories publish these numbers.',
+            'Regardless of body material, the jaw faces are heat-treated to 58-62 HRC for wear resistance. GCr15 bearing steel and Cr12MoV tool steel are common choices; both hold an edge under repeated clamping.',
+            'Contoured, V-groove or soft aluminum jaws protect delicate workpieces — a common OEM customization.',
+          ],
+        },
+        {
+          title: 'Choosing Between Them',
+          body: [
+            'For general workshop, woodworking, auto repair and light industrial use, cast iron is the right cost-performance pick. For extreme force, hammering or harsh industrial environments, forged steel is the investment that pays back in fewer broken vises.',
+            'When sourcing OEM, ask the factory to specify exact material grade — HT200 vs. HT250 vs. 45# steel — rather than just "cast iron" or "steel".',
           ],
         },
       ],
     },
     {
-      slug: 'how-organizations-choose-sup-equipment',
-      navLabel: 'How Organizations Choose SUP Equipment',
-      metaTitle: 'How Resorts, Clubs and Schools Choose SUP Equipment',
+      slug: 'bench-vise-maintenance',
+      navLabel: 'Bench Vise Maintenance',
+      metaTitle: 'Bench Vise Maintenance: Lubrication & Care',
       metaDescription:
-        'How resorts, clubs and schools choose SUP equipment: fleet sizing, board types, durability, storage and budgeting for a program that lasts.',
+        'How to maintain a bench vise: thread lubrication, jaw alignment, swivel base care, anvil maintenance and storage for long service life.',
       kicker: 'Knowledge',
-      h1: 'How Organizations Choose SUP Equipment',
+      h1: 'Bench Vise Maintenance: What Keeps a Vise Working for Decades',
       intro:
-        'Resorts, clubs and schools buy differently from consumer brands: equipment must survive daily use, serve mixed skill levels, and fit a program budget. This framework covers the decisions that matter.',
+        'A quality bench vise is meant to last a generation. Most premature failures come from neglect, not use. This guide covers the maintenance that keeps vises from seizing up and wearing out.',
       sections: [
         {
-          title: 'Size the Fleet Around Usage',
+          title: 'Lubricate the Screw Thread',
           body: [
-            'Count how many riders will be on the water simultaneously, not how many guests you have. A resort renting in rotation needs fewer boards than a school running simultaneous classes — and more spares.',
-            'A good rule of thumb: one board per simultaneous rider, plus 10–15% spare capacity for maintenance and growth.',
+            'The main screw is the vise\'s only precision moving part. Keep it lightly greased — lithium or general-purpose grease works — and wipe off dirt before it packs into the threads.',
+            'Lubricate the slide channel too. A seized or gritty slide is the most common cause of a "stuck" vise.',
           ],
         },
         {
-          title: 'Match Board Types to Skill Levels',
+          title: 'Keep Jaws Aligned',
           body: [
-            'Beginners benefit from wider, more voluminous boards that feel stable; experienced riders prefer narrower boards that paddle faster. A mixed fleet — mostly beginner-friendly with a few performance boards — serves most programs.',
-            'Multi-person boards earn their place in schools and group experiences: they let instructors teach and can replace several single boards in class rotations.',
+            'Jaw faces wear with use; serrations flatten and faces drift out of parallel. Check alignment periodically by clamping a flat piece and inspecting whether it presses evenly.',
+            'On vises with replaceable jaw inserts, swap worn faces rather than the whole vise. This is the cheapest way to restore grip.',
           ],
         },
         {
-          title: 'Durability Is a Budget Decision',
+          title: 'Care for the Swivel Base',
           body: [
-            'Rental-grade construction costs more upfront and saves money over two to three seasons. Ask about rail reinforcement, PVC thickness, and what warranty the factory provides on fleet orders.',
-            'Also plan storage and inflation: compressors, racks, and packing routines set how much daily work the program is. Fleet-friendly suppliers include these in the package.',
+            'Tighten the swivel locking handle firmly to avoid vibration loosening during work. Periodically clean the base teeth and re-apply grease so rotation stays smooth.',
+            'Avoid using the swivel as a workstop: hard lateral force works against the base lock and can strip it.',
           ],
         },
         {
-          title: 'Plan the Program, Not Just the Order',
+          title: 'Anvil and Storage',
           body: [
-            'The best equipment orders are part of a program plan: instructor training, maintenance routines, and a replacement cycle for worn boards. Organizations that plan the program renew equipment on schedule; those that don\u2019t buy emergency replacements at full price.',
+            'The anvil surface is for light hammering, not heavy forging — treating it as a forging anvil cracks cast iron bodies. Keep it clean and lightly oiled to prevent rust.',
+            'Store vises under cover in humid environments. A light coat of oil on unpainted surfaces prevents corrosion and keeps the finish fresh.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'oem-bench-vise-manufacturing',
+      navLabel: 'OEM Bench Vise Manufacturing',
+      metaTitle: 'OEM Bench Vise Manufacturing: MOQ, Customization & QC',
+      metaDescription:
+        'Guide to OEM bench vise manufacturing: minimum order quantities, jaw customization, swivel base options, quality standards and certifications.',
+      kicker: 'Knowledge',
+      h1: 'OEM Bench Vise Manufacturing: How Custom Vises Get Made',
+      intro:
+        'Whether you need a branded private label run or a fully custom vise, understanding the manufacturing pipeline — from casting to quality testing — sets the right expectations for cost, lead time and MOQ.',
+      sections: [
+        {
+          title: 'The Manufacturing Pipeline',
+          body: [
+            'Vise production starts with casting: sand-cast gray iron or forged steel blanks, then precision CNC machining of jaw faces, slides and screw seats. Heat treatment hardens jaw faces to 58-62 HRC, followed by surface grinding and final assembly.',
+            'Powder coating or spray paint finishes the body, and branding (laser engraving, casting marks or labels) is applied per your artwork.',
+          ],
+        },
+        {
+          title: 'MOQ and Lead Times',
+          body: [
+            'Standard models run from 50-200 pcs depending on series; custom-tooling runs start higher. Samples ship in 7-14 days and bulk production runs 25-35 days after confirmed PO and deposit.',
+            'Combining several models in one order spreads fixed costs and improves unit pricing — a common way brands test multiple SKUs at once.',
+          ],
+        },
+        {
+          title: 'Customization Options',
+          body: [
+            'Jaw width and opening, jaw surface pattern (serrated, smooth, V-groove), swivel base angle, anvil shape, handle style, body color and branding are all specifiable.',
+            'Custom-tooling projects add shaped bodies, branded castings and unique jaw geometries, starting from higher quantities to amortize the tooling cost.',
+          ],
+        },
+        {
+          title: 'Quality Standards',
+          body: [
+            'Reputable factories verify jaw hardness (58-62 HRC), clamping force per model, swivel torque, and run cyclic durability testing (10,000+ open/close cycles) plus salt-spray corrosion testing.',
+            'Certifications to look for: CE marking, ISO 9001 quality management, ISO 14001 environmental management and RoHS material compliance.',
           ],
         },
       ],
@@ -145,123 +187,165 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
   ],
   es: [
     {
-      slug: 'how-custom-sup-boards-are-developed',
-      navLabel: 'Cómo se desarrollan las tablas de SUP personalizadas',
-      metaTitle: 'Cómo se desarrollan tablas de SUP personalizadas | SUPsfactory',
+      slug: 'how-to-choose-a-bench-vise',
+      navLabel: 'Cómo elegir una mordaza de banco',
+      metaTitle: 'Cómo elegir una mordaza de banco | Boca y fuerza',
       metaDescription:
-        'Cómo pasa un producto SUP personalizado de la idea a la fábrica: requisitos, especificaciones, diseño, muestras y producción en serie — paso a paso.',
+        'Cómo elegir una mordaza de banco: ancho de boca, abertura, fuerza de sujeción, material del cuerpo, base giratoria y montaje — explicado con claridad.',
       kicker: 'Centro de conocimiento',
-      h1: 'Cómo se desarrollan las tablas de SUP personalizadas',
+      h1: 'Cómo elegir una mordaza de banco',
       intro:
-        'Antes de que tu tabla personalizada llegue a tu cliente, recorre una ruta de desarrollo clara. Comprender cada fase te permite comunicar bien tus requisitos a la fábrica, fijar plazos realistas y evitar los errores más comunes de las primeras compras.',
+        'Una mordaza de banco es una inversión a largo plazo en el taller. Acertar con el tamaño, los materiales y las funciones desde el principio ahorra dinero y frustraciones. Esta guía repasa cada factor decisivo.',
       sections: [
         {
-          title: 'Paso 1: Define el requisito',
+          title: 'Ancho y abertura de boca',
           body: [
-            'Todo proyecto de desarrollo empieza por el caso de uso: quién usa la tabla, dónde y con qué frecuencia. Las flotas de alquiler, las tablas de lanzamiento de marca y las tablas escolares tienen requisitos distintos: la estabilidad, la durabilidad y el objetivo de coste cambian con cada uno.',
-            'Antes de contactar con la fábrica, escribe la cantidad, el precio objetivo y las funciones imprescindibles. Un requisito claro consigue mejores cotizaciones en la primera ronda y ciclos de comunicación más cortos.',
+            'El ancho de boca determina el tamaño de las piezas que puedes sujetar y cómo se distribuye la fuerza. Las de 4″-5″ ligeras sirven para aficionados y trabajo pequeño; las de 6″-8″ medias cubren taller y reparación de coches; las de 8″-10″ pesadas aguantan fabricación industrial.',
+            'La abertura (máximo entre mordazas) debe superar tu pieza más grande. Mide tu material más grande antes de elegir.',
           ],
         },
         {
-          title: 'Paso 2: Fija las especificaciones',
+          title: 'Fuerza de sujeción',
           body: [
-            'Las especificaciones convierten el requisito en números medibles: largo, ancho, grosor, volumen, materiales (densidad del tejido, gramaje de la lona), configuración de quillas, capacidad de peso y embalaje.',
-            'Ambas partes cotizan sobre este documento. Cuanto más tarde cambies las especificaciones, más lento y caro será: congelar las especificaciones es tu palanca de ahorro más potente.',
+            'La fuerza de sujeción — 1200-1500 lbs (ligera) hasta 6000-8000 lbs (pesada) — determina qué puede retener la mordaza bajo presión de trabajo. Más fuerza puede dañar piezas delicadas, así que ajusta la fuerza a la aplicación.',
+            'Los fabricantes serios publican la fuerza por modelo, medida bajo par controlado. Pídelo al comparar proveedores.',
           ],
         },
         {
-          title: 'Paso 3: Diseño y arte',
+          title: 'Material del cuerpo: fundición vs. acero',
           body: [
-            'Con las especificaciones fijadas, llega el diseño: ajuste de la forma, colores, posición del logo, arte del piso y accesorios a juego (leash, remo, quillas, bolsa).',
-            'La fábrica puede ofrecer renderizados digitales para confirmar el aspecto antes de fabricar la muestra física: más barato y rápido que iterar sobre el hardware.',
+            'La fundición gris (HT200/HT250) resiste compresión y es económica: la elección estándar para mordazas ligeras y medias. El acero al carbono (45#) añade resistencia a la tracción y al impacto, esencial en aplicaciones pesadas.',
+            'Las caras de mordaza se endurecen aparte (58-62 HRC) para que la superficie de agarre dure más que el cuerpo. Los insertos reemplazables alargan la vida.',
           ],
         },
         {
-          title: 'Paso 4: Prototipo y muestra',
+          title: 'Base giratoria y montaje',
           body: [
-            'La muestra es la primera prueba física. Las muestras de tablas hinchables suelen fabricarse a mano o en series pequeñas, así puedes probarlas en el agua y verificarlas contra las especificaciones.',
-            'Prueba la muestra como lo haría un usuario final: estabilidad, rigidez, planeo en línea recta, peso y durabilidad del arte. Una buena ronda de aprobación de muestras descubre la mayoría de los problemas antes de la producción.',
-          ],
-        },
-        {
-          title: 'Paso 5: Producción y entrega',
-          body: [
-            'Con la muestra aprobada, la producción avanza por lotes con puntos de control de calidad. La inspección previa al envío — fotos, vídeo o verificación por terceros — protege la calidad del lote completo que recibes.',
-            'Planifica la logística: la mayor parte del volumen viaja por mar; los pedidos urgentes y pequeños, por aire. Un buen plan de proyecto se calcula hacia atrás desde tu fecha de lanzamiento, no hacia delante desde la fecha del pedido.',
+            'Una base giratoria de 360° reposiciona la pieza sin desatornillar — ideal para talleres que cambian de ángulo. La base fija es más rígida para martillar y más simple.',
+            'El montaje también importa: ajusta el tamaño de pernos a tu banco y refuerza la tapa para mordazas pesadas.',
           ],
         },
       ],
     },
     {
-      slug: 'inflatable-sup-construction-explained',
-      navLabel: 'La estructura de los SUP hinchables, explicada',
-      metaTitle: 'La estructura de los SUP hinchables: materiales y capas',
+      slug: 'cast-iron-vs-steel-vises',
+      navLabel: 'Fundición vs. acero',
+      metaTitle: 'Mordazas de fundición vs. acero forjado',
       metaDescription:
-        'De qué está hecho un SUP hinchable: capas de PVC, tejido, rails e indicadores de calidad, para especificar mejores tablas en tu proyecto.',
+        'Mordazas de banco de fundición vs. acero forjado: coste, durabilidad, peso, resistencia al impacto y aplicaciones ideales.',
       kicker: 'Centro de conocimiento',
-      h1: 'La estructura de los SUP hinchables, explicada',
+      h1: 'Mordazas de fundición vs. acero forjado, comparadas',
       intro:
-        'La mayoría de los proyectos SUP personalizados actuales son hinchables. Son más ligeros, más fáciles de almacenar y transportar, y más amables con los principiantes. Este artículo desglosa su construcción para que especifiques calidad con confianza.',
+        'Los dos materiales que dominan los cuerpos de las mordazas se comportan de forma muy distinta bajo carga. Esta comparación te ayuda a especificar el cuerpo adecuado.',
       sections: [
         {
-          title: 'El núcleo: la estructura de tejido',
+          title: 'Por qué la fundición es el caballo de batalla',
           body: [
-            'Los hinchables se construyen alrededor de una estructura de tejido: miles de hilos de poliéster unen las dos capas de PVC. Al inflar, esos hilos mantienen la tabla a un grosor fijo: así es como un iSUP gana su forma y su rigidez.',
-            'Cuanto mayor es la densidad de hilos (puntadas por pulgada cuadrada), más rígida y estable es la tabla a la misma presión. Las tablas de entrada usan densidades más bajas; las premium, más altas.',
+            'La fundición gris (HT200/HT250) se cuela a bajo costo, amortigua la vibración mejor que el acero y resiste bien la compresión. Es el estándar para mordazas ligeras, medias y la mayoría de las pesadas.',
+            'Su punto débil es la tensión y el impacto: un golpe fuerte en una esquina puede agrietarla. Por eso las aplicaciones de martilleo prefieren acero.',
           ],
         },
         {
-          title: 'Capas de PVC y rails',
+          title: 'Por qué el acero forjado gana en impacto',
           body: [
-            'El tejido va intercalado entre capas de PVC que lo protegen de la abrasión, los rayos UV y los impactos. Un PVC más grueso resiste mejor los pinchazos, pero añade peso.',
-            'Los rails son la zona que más impactos recibe en el uso diario. Una construcción de doble o triple capa en los rails es una señal fuerte de durabilidad y aptitud para alquiler.',
+            'Los cuerpos de acero al carbono forjado tienen resistencia a la tracción y tenacidad muy superiores. Resisten grietas bajo cargas de choque, ideales para minería, astilleros y fabricación pesada.',
+            'La contra es el coste y el peso. El acero es más caro de producir y más pesado de montar.',
           ],
         },
         {
-          title: 'Qué añade peso y qué añade resistencia',
+          title: 'El material de las mordazas es aparte',
           body: [
-            'El peso es una compensación: un PVC más grueso aumenta la durabilidad y también el peso; las combinaciones ligeras sirven a quienes cargan la tabla durante largas distancias. Aquí es donde la especificación personalizada mejor se adapta a la realidad del comprador.',
-            'Indicadores de calidad que vale la pena preguntar: presión de inflado nominal, construcción de las costuras, tipo de válvula y densidad del tejido. Las fábricas serias publican estas cifras.',
+            'Independientemente del cuerpo, las caras de mordaza se tratan térmicamente a 58-62 HRC. El acero de rodamientos GCr15 y el acero de herramientas Cr12MoV son opciones comunes.',
+            'Las mordazas de perfil, V o aluminio blando protegen piezas delicadas — una personalización OEM habitual.',
+          ],
+        },
+        {
+          title: 'Cómo elegir',
+          body: [
+            'Para taller general, carpintería, reparación de coches y uso ligero industrial, la fundición es la elección calidad-precio. Para fuerza extrema o entornos duros, el acero forjado es la inversión que se paga con menos mordazas rotas.',
+            'Al abastecerte, pide la calidad exacta del material (HT200, HT250 o 45#), no solo "fundición" o "acero".',
           ],
         },
       ],
     },
     {
-      slug: 'how-organizations-choose-sup-equipment',
-      navLabel: 'Cómo eligen las organizaciones el equipamiento SUP',
-      metaTitle: 'Cómo eligen el equipamiento SUP resorts, clubes y escuelas',
+      slug: 'bench-vise-maintenance',
+      navLabel: 'Mantenimiento de mordazas',
+      metaTitle: 'Mantenimiento de mordazas de banco: cuidado y lubricación',
       metaDescription:
-        'Cómo elegir equipamiento SUP para resorts, clubes y escuelas: tamaño de la flota, tipos de tabla, durabilidad, almacenamiento y presupuesto.',
+        'Cómo mantener una mordaza de banco: lubricación del husillo, alineación de mordazas, base giratoria, yunque y almacenamiento.',
       kicker: 'Centro de conocimiento',
-      h1: 'Cómo eligen las organizaciones el equipamiento SUP',
+      h1: 'Mantenimiento de mordazas: qué mantiene una mordaza en uso durante décadas',
       intro:
-        'Resorts, clubes y escuelas compran distinto a las marcas de consumo: el equipamiento debe aguantar el uso diario, servir a niveles mixtos y encajar en un presupuesto de programa. Este marco cubre las decisiones que importan.',
+        'Una mordaza de calidad está pensada para durar toda una generación. La mayoría de fallos prematuros vienen de la negligencia, no del uso. Esta guía cubre el mantenimiento que evita que las mordazas se atasquen.',
       sections: [
         {
-          title: 'Dimensiona la flota según el uso',
+          title: 'Lubrica el husillo',
           body: [
-            'Cuenta cuántos remadores estarán en el agua a la vez, no cuántos huéspedes tienes. Un resort que alquila en rotación necesita menos tablas que una escuela con clases simultáneas — y más de repuesto.',
-            'Una buena regla: una tabla por remador simultáneo, más un 10–15% de capacidad extra para mantenimiento y crecimiento.',
+            'El husillo es la única pieza de precisión. Manténlo engrasado ligeramente y limpia la suciedad antes de que se acumule en las roscas.',
+            'Lubrica también la corredera. Un deslizamiento atascado es la causa más común de una mordaza "trabada".',
           ],
         },
         {
-          title: 'Ajusta los tipos de tabla a los niveles',
+          title: 'Mantén las mordazas alineadas',
           body: [
-            'Los principiantes se benefician de tablas más anchas y voluminosas que resultan estables; los remadores experimentados prefieren tablas más estrechas que reman más rápido. Una flota mixta — sobre todo apta para principiantes, con unas pocas tablas de rendimiento — sirve a la mayoría de los programas.',
-            'Las tablas multiusuario valen su lugar en escuelas y experiencias grupales: permiten enseñar y pueden sustituir a varias tablas individuales en las rotaciones de clase.',
+            'Las caras se desgastan con el uso y pierden paralelismo. Comprueba la alineación sujetando una pieza plana y observando si presiona de forma uniforme.',
+            'En mordazas con insertos reemplazables, cambia la cara desgastada en lugar de toda la mordaza.',
           ],
         },
         {
-          title: 'La durabilidad es una decisión de presupuesto',
+          title: 'Cuida la base giratoria',
           body: [
-            'La construcción de grado alquiler cuesta más por adelantado y ahorra dinero a lo largo de dos o tres temporadas. Pregunta por el refuerzo de los rails, el grosor del PVC y la garantía que ofrece la fábrica en los pedidos de flota.',
-            'También planifica almacenamiento e inflado: compresores, estanterías y rutinas de embalaje determinan el trabajo diario del programa. Los proveedores orientados a flotas incluyen esto en el paquete.',
+            'Aprieta bien el bloqueo para evitar que la vibración afloje la base. Limpia los dientes y vuelve a engrasar para que el giro siga siendo suave.',
+            'No uses la base como tope de trabajo: la fuerza lateral puede dañar el bloqueo.',
           ],
         },
         {
-          title: 'Planifica el programa, no solo el pedido',
+          title: 'Yunque y almacenamiento',
           body: [
-            'Los mejores pedidos de equipamiento forman parte de un plan de programa: formación de instructores, rutinas de mantenimiento y un ciclo de sustitución para las tablas desgastadas. Las organizaciones que planifican el programa renuevan el equipamiento según calendario; las que no, compran sustituciones de emergencia a precio completo.',
+            'El yunque es para martillar ligero, no para forja pesada. Mantenlo limpio y ligeramente aceitado contra el óxido.',
+            'Guarda las mordazas a cubierto en ambientes húmedos. Una capa ligera de aceite previene la corrosión.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'oem-bench-vise-manufacturing',
+      navLabel: 'Fabricación OEM de mordazas',
+      metaTitle: 'Fabricación OEM de mordazas: MOQ, personalización y control',
+      metaDescription:
+        'Guía de fabricación OEM de mordazas de banco: pedidos mínimos, personalización de boca, opciones de base y certificaciones.',
+      kicker: 'Centro de conocimiento',
+      h1: 'Fabricación OEM de mordazas: cómo se fabrican las mordazas personalizadas',
+      intro:
+        'Necesites una tirada de marca privada o una mordaza totalmente personalizada, entender el proceso de fabricación — de la fundición a las pruebas de calidad — fija expectativas correctas de coste y plazo.',
+      sections: [
+        {
+          title: 'El proceso de fabricación',
+          body: [
+            'La producción empieza en la fundición: piezas de fundición gris o acero forjado, luego mecanizado CNC de caras, deslizaderas y asientos de husillo. El tratamiento térmico endurece las mordazas a 58-62 HRC, seguido de rectificado y ensamblaje.',
+            'El acabado en polvo o pintura termina el cuerpo y se aplica la marca (grabado láser o etiqueta).',
+          ],
+        },
+        {
+          title: 'Pedidos mínimos y plazos',
+          body: [
+            'Los modelos estándar van de 50-200 uds. según la serie; el utillaje personalizado parte de más. Las muestras salen en 7-14 días y la producción en 25-35 días tras el PO y el depósito.',
+            'Combinar varios modelos en un pedido reparte los costes fijos y mejora el precio unitario.',
+          ],
+        },
+        {
+          title: 'Opciones de personalización',
+          body: [
+            'Ancho y abertura de boca, patrón de la superficie (ranurada, lisa, V), ángulo de la base, forma del yunque, estilo de manija, color y marca son especificables.',
+            'Los proyectos con utillaje añaden cuerpos con forma y fundiciones de marca, con cantidades mayores para amortizar el utillaje.',
+          ],
+        },
+        {
+          title: 'Estándares de calidad',
+          body: [
+            'Las fábricas solventes verifican dureza de boca (58-62 HRC), fuerza de sujeción, par de la base y pruebas cíclicas (10.000+ ciclos) y de salmuera.',
+            'Certificaciones a buscar: marcado CE, ISO 9001, ISO 14001 y cumplimiento RoHS.',
           ],
         },
       ],
@@ -269,132 +353,170 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
   ],
   fr: [
     {
-      slug: 'how-custom-sup-boards-are-developed',
-      navLabel: 'Comment les planches de SUP personnalisées sont développées',
-      metaTitle: 'Comment les planches de SUP personnalisées sont développées | SUPsfactory',
+      slug: 'how-to-choose-a-bench-vise',
+      navLabel: "Comment choisir un étau d'établi",
+      metaTitle: "Comment choisir un étau d'établi | Largeur de mâchoire et force de serrage",
       metaDescription:
-        "Comment un SUP personnalisé passe de l'idée à l'usine : spécifications, design, prototypage, échantillonnage et production — expliqué étape par étape.",
-      kicker: 'Connaissances',
-      h1: 'Comment les planches de SUP personnalisées sont développées',
+        "Comment choisir un étau d'établi : largeur de mâchoire, ouverture, force de serrage, matériau du corps, base orientable et montage — expliqué clairement.",
+      kicker: 'Knowledge',
+      h1: "Comment choisir un étau d'établi",
       intro:
-        "Avant qu'un paddle board personnalisé ne soit expédié à vos clients, il suit un parcours de développement bien défini. Connaître chaque étape permet de brief correctement l'usine, de fixer des délais réalistes et d'éviter les erreurs classiques des premiers acheteurs.",
+        "Un étau d'établi est un investissement à long terme pour l'atelier. Bien choisir la taille, les matériaux et les fonctionnalités dès le départ évite dépenses et frustration. Ce guide passe en revue chaque critère de décision.",
       sections: [
         {
-          title: 'Étape 1 : Définir le besoin',
+          title: 'Largeur et ouverture de mâchoire',
           body: [
-            "Chaque projet de développement commence par l'usage : qui utilise la planche, où et à quelle fréquence. Une planche pour parc de location diffère d'une planche de lancement de marque ou d'une planche scolaire — les objectifs de stabilité, de durabilité et de coût changent tous avec la réponse.",
-            "Notez la quantité, le prix cible et les caractéristiques indispensables avant de contacter une usine. Des besoins clairs produisent de meilleurs premiers devis et réduisent les allers-retours.",
+            "La largeur de mâchoire détermine la taille des pièces que vous pouvez saisir et la répartition de la force. Les 4″-5″ légers conviennent aux amateurs et aux petits travaux ; les 6″-8″ moyens couvrent la plupart des ateliers et de la réparation automobile ; les 8″-10″ lourds supportent la fabrication industrielle.",
+            "L'ouverture (écart maximum entre mâchoires fermées et ouvertes) doit dépasser votre pièce la plus grande. Mesurez votre matériau le plus volumineux avant de choisir.",
           ],
         },
         {
-          title: 'Étape 2 : Fixer la spécification',
+          title: 'Force de serrage',
           body: [
-            "La spécification transforme le besoin en valeurs mesurables : longueur, largeur, épaisseur, volume, matériaux (densité du tissu, grammage), configuration des ailerons, charge maximale et emballage.",
-            "C'est le document sur lequel les deux parties font leur devis. Les modifications plus tard dans le processus sont plus lentes et plus coûteuses — une spécification figée est la chose la moins chère que vous puissiez contrôler.",
+            'La force de serrage — de 1200-1500 lbs pour les légers jusqu\'à 6000-8000 lbs pour les lourds — détermine ce que l\'étau peut retenir sous pression de travail. Au-delà d\'un certain seuil, une force excessive peut endommager les pièces délicates, il faut donc adapter la force à l\'application.',
+            "Les fabricants réputés publient la force de serrage par modèle, mesurée sous couple contrôlé. Exigez-la lors de la comparaison entre fournisseurs.",
           ],
         },
         {
-          title: 'Étape 3 : Design et graphismes',
+          title: "Matériau du corps : fonte vs acier forgé",
           body: [
-            "Une fois la spécification fixée, le travail de design commence : ajustements de forme, schémas de couleurs, placement du logo, graphismes du deck pad et choix des accessoires assortis (leash, pagaie, aileron, sac).",
-            "Les fabricants peuvent produire des maquettes numériques pour que vous approuviez le rendu avant qu'aucun échantillon physique ne soit fabriqué — plus économique et plus rapide que d'itérer sur le matériel.",
+            "La fonte grise (HT200/HT250) résiste à la compression et est économique — le choix standard pour les étaux légers et moyens. L'acier forgé ou moulé au carbone (45#) apporte une résistance à la traction et des propriétés de choc supérieures, indispensables pour les étaux lourds et les applications à chocs.",
+            "Les faces des mâchoires sont trempées séparément (58-62 HRC) pour que la surface de prise dure plus longtemps que le corps. Les inserts de mâchoires remplaçables prolongent la durée de vie.",
           ],
         },
         {
-          title: 'Étape 4 : Prototype et échantillon',
+          title: 'Base orientable et montage',
           body: [
-            "L'échantillon est la première preuve physique. Pour les planches gonflables, cela signifie une planche fabriquée à la main ou issue d'un pilote que vous pouvez utiliser et tester par rapport à la spécification.",
-            "Testez l'échantillon comme le ferait votre utilisateur final : stabilité, rigidité, tenue de cap, poids et résistance des graphismes. Un cycle d'échantillonnage approfondi permet généralement de détecter la plupart des problèmes avant la production.",
-          ],
-        },
-        {
-          title: 'Étape 5 : Production et livraison',
-          body: [
-            "Après approbation de l'échantillon, la production se déroule par lots avec des points de contrôle qualité. L'inspection en usine avant expédition — photos, vidéos ou inspection par un tiers — protège le lot que vous recevez.",
-            "Un bon calendrier de projet se calcule à rebours depuis votre date de lancement, et non pas en avant depuis la commande.",
+            "Une base orientable à 360° repositionne la pièce sans déboulonner — idéale pour les ateliers qui changent d'angle de travail. Une base fixe est plus rigide pour le martelage lourd, plus simple et moins coûteuse.",
+            "Le montage est également important : adaptez la taille des boulons à votre établi et renforcez le plateau pour les étaux lourds. Un établi fin et mou réduit à néant les mérites d'un bon étau.",
           ],
         },
       ],
     },
     {
-      slug: 'inflatable-sup-construction-explained',
-      navLabel: 'La construction des SUP gonflables, expliquée',
-      metaTitle: 'Construction des SUP gonflables : matériaux et couches | SUPsfactory',
+      slug: 'cast-iron-vs-steel-vises',
+      navLabel: 'Fonte vs acier forgé',
+      metaTitle: "Étaux d'établi en fonte vs acier forgé, comparés",
       metaDescription:
-        "De quoi est fait un SUP gonflable — couches de PVC, tissu drop-stitch, boudins et indicateurs de qualité — pour mieux spécifier vos planches de projet.",
-      kicker: 'Connaissances',
-      h1: 'La construction des SUP gonflables, expliquée',
+        "Étaux d'établi en fonte vs acier forgé : coût, durabilité, poids, résistance aux chocs et applications adaptées à chaque matériau.",
+      kicker: 'Knowledge',
+      h1: "Étaux d'établi en fonte vs acier forgé, comparés",
       intro:
-        "La plupart des projets SUP personnalisés actuels sont des planches gonflables. Elles sont plus légères, plus faciles à stocker et à expédier, et plus indulgentes pour les débutants. Ce guide explique leur construction afin que vous puissiez spécifier la qualité en toute confiance.",
+        "Les deux matériaux qui dominent les corps d'étaux se comportent très différemment sous charge. Cette comparaison vous aide à spécifier le bon corps pour le job.",
       sections: [
         {
-          title: 'Le cœur : le tissu drop-stitch',
+          title: 'Pourquoi la fonte est le pilier de l\'atelier',
           body: [
-            "Une planche gonflable est construite autour d'un tissu drop-stitch : des milliers de fils de polyester relient les couches de PVC supérieure et inférieure. Une fois gonflés, ces fils maintiennent la planche à une épaisseur fixe — c'est ce qui donne à un iSUP sa forme et sa rigidité.",
-            "Une densité de fils plus élevée (points par pouce carré) signifie une planche plus ferme et plus stable à pression égale. Les planches d'entrée de gamme utilisent des densités plus faibles ; les planches haut de gamme, des densités plus élevées.",
+            "La fonte grise (HT200/HT250) est coulée à coût relativement faible, amortit mieux les vibrations que l'acier et résiste bien à la compression. C'est le standard pour les étaux légers, moyens et la plupart des lourds.",
+            "Sa faiblesse est la traction et le choc : un coup violent sur un coin peut la fissurer. C'est pourquoi les applications à martelage lourd préfèrent l'acier.",
           ],
         },
         {
-          title: 'Couches de PVC et boudins',
+          title: 'Pourquoi l\'acier forgé l\'emporte sur les chocs',
           body: [
-            "Le tissu est pris en sandwich entre des couches de PVC, qui le protègent contre l'abrasion, les UV et les chocs. Un PVC plus épais (plus de mils ou de mm) résiste mieux aux perforations, mais ajoute du poids.",
-            "Les boudins — les bords de la planche — absorbent le plus de chocs en usage quotidien. Une construction à double ou triple épaisseur des boudins est un indicateur fort de durabilité et de convenance à la location.",
+            "Les corps en acier au carbone forgé (45# ou supérieur) offrent une résistance à la traction et une ténacité nettement supérieures. Ils résistent à la fissuration sous charges de choc et forces de serrage extrêmes, ce qui en fait le choix pour les mines, les chantiers navals et la fabrication lourde.",
+            "L'inconvénient est le coût et le poids. Les étaux en acier sont plus coûteux à produire et plus lourds à installer.",
           ],
         },
         {
-          title: "Ce qui ajoute du poids contre ce qui ajoute de la résistance",
+          title: 'Le matériau des mâchoires est distinct',
           body: [
-            "Le poids est un compromis : un PVC plus épais ajoute de la durabilité et du poids ; les stratifications plus légères conviennent aux pratiquants qui transportent leur planche loin. C'est l'un des moyens les plus clairs par lesquels une spécification personnalisée est adaptée à la réalité de l'acheteur.",
-            "Indicateurs de qualité à demander : pression d'inflation nominale, construction des coutures, type de valve et densité du drop-stitch. Les usines réputées publient ces chiffres.",
+            "Quel que soit le corps, les faces des mâchoires sont traitées thermiquement à 58-62 HRC pour résister à l'usure. L'acier à roulements GCr15 et l'acier à outils Cr12MoV sont des choix courants ; les deux conservent leur arête après serrages répétés.",
+            "Les mâchoires profilées, à rainure V ou en aluminium mou protègent les pièces délicates — une personnalisation OEM fréquente.",
+          ],
+        },
+        {
+          title: 'Comment choisir entre les deux',
+          body: [
+            "Pour l'atelier général, la menuiserie, la réparation automobile et l'usage industriel léger, la fonte est le bon choix rapport qualité-pour. Pour les forces extrêmes, le martelage ou les environnements industriels difficiles, l'acier forgé est l'investissement qui s'amortit en étaux moins cassés.",
+            "Lors d'approvisionnement OEM, demandez à l'usine de spécifier la qualité exacte du matériau — HT200 vs HT250 vs acier 45# — plutôt que simplement « fonte » ou « acier ».",
           ],
         },
       ],
     },
     {
-      slug: 'how-organizations-choose-sup-equipment',
-      navLabel: 'Comment les organisations choisissent leur équipement SUP',
-      metaTitle: 'Comment les resorts, clubs et écoles choisissent leur équipement SUP',
+      slug: 'bench-vise-maintenance',
+      navLabel: "Entretien de l'étau d'établi",
+      metaTitle: "Entretien de l'étau d'établi : lubrification et soins",
       metaDescription:
-        "Comment les resorts, clubs et écoles choisissent leur équipement SUP : dimensionnement de la flotte, types de planches, durabilité, stockage et budget pour un programme durable.",
-      kicker: 'Connaissances',
-      h1: 'Comment les organisations choisissent leur équipement SUP',
+        "Comment entretenir un étau d'établi : lubrification du filet, alignement des mâchoires, entretien de la base orientable, soins de l'enclume et stockage pour une longue durée de vie.",
+      kicker: 'Knowledge',
+      h1: "Entretien de l'étau d'établi : ce qui fait durer un étau pendant des décennies",
       intro:
-        "Les resorts, clubs et écoles achètent différemment des marques grand public : l'équipement doit supporter un usage quotidien, convenir à des niveaux variés et s'adapter au budget du programme. Ce cadre couvre les décisions qui comptent.",
+        "Un étau d'établi de qualité est conçu pour durer une génération. La plupart des défaillances prématurées viennent de la négligence, pas de l'usage. Ce guide couvre l'entretien qui empêche les étaux de se gripper et de s'user.",
       sections: [
         {
-          title: 'Dimensionner la flotte selon l\u2019usage',
+          title: 'Lubrifier le filet de la vis',
           body: [
-            "Comptez combien de pratiquants seront sur l'eau en même temps, et non combien de clients vous avez. Un resort qui loue en rotation a besoin de moins de planches qu'une école qui organise des cours simultanés — et plus de pièces de rechange.",
-            "Une bonne règle empirique : une planche par pratiquant simultané, plus 10–15 % de capacité de réserve pour la maintenance et la croissance.",
+            "La vis principale est la seule pièce mobile de précision de l'étau. Maintenez-la légèrement graissée — la graisse au lithium ou multi-usages convient — et enlevez la saleté avant qu'elle ne s'incruste dans les filets.",
+            "Lubrifiez aussi le guide de coulissement. Un coulissement grippé ou sablonneux est la cause la plus fréquente d'un étau « bloqué ».",
           ],
         },
         {
-          title: 'Adapter les types de planches aux niveaux',
+          title: 'Maintenir l\'alignement des mâchoires',
           body: [
-            "Les débutants profitent de planches plus larges et plus volumineuses qui paraissent stables ; les pratiquants expérimentés préfèrent des planches plus étroites qui pagayent plus vite. Une flotte mixte — principalement adaptée aux débutants, avec quelques planches de performance — convient à la plupart des programmes.",
-            "Les planches multi-personnes ont toute leur place dans les écoles et les expériences de groupe : elles permettent aux instructeurs d'enseigner et peuvent remplacer plusieurs planches individuelles lors des rotations de cours.",
+            "Les faces des mâchoires s'usent avec le temps ; les crans s'aplatissent et les surfaces dévient du parallélisme. Vérifiez l'alignement en serrant une pièce plate et en observant si la pression est uniforme.",
+            "Sur les étaux à inserts de mâchoires remplaçables, remplacez les faces usées plutôt que tout l'étau. C'est le moyen le plus économique de restaurer la prise.",
           ],
         },
         {
-          title: 'La durabilité est une décision budgétaire',
+          title: 'Soigner la base orientable',
           body: [
-            "Une construction de qualité location coûte plus cher à l'achat mais permet d'économiser sur deux à trois saisons. Renseignez-vous sur le renforcement des boudins, l'épaisseur du PVC et la garantie que l'usine offre sur les commandes de flotte.",
-            "Prévoyez aussi le stockage et le gonflage : compresseurs, râteliers et routines de rangement déterminent la charge de travail quotidienne du programme. Les fournisseurs orientés flotte incluent tout cela dans le package.",
+            "Serrez fermement le levier de blocage de la base orientable pour éviter que les vibrations ne l'endent pendant le travail. Nettoyez périodiquement les dents de la base et réappliquez de la graisse pour maintenir la rotation en douceur.",
+            "N'utilisez pas la base comme butée de travail : une force latérale excessive agit contre le mécanisme de blocage et peut l'abîmer.",
           ],
         },
         {
-          title: 'Planifier le programme, pas seulement la commande',
+          title: 'Enclume et stockage',
           body: [
-            "Les meilleures commandes d'équipement s'inscrivent dans un plan de programme : formation des instructeurs, routines de maintenance et cycle de remplacement des planches usées. Les organisations qui planifient le programme renouvellent leur équipement selon le calendrier ; celles qui ne le font pas achètent des remplacements d'urgence à plein tarif.",
+            "La surface de l'enclume est destinée au martelage léger, pas à la forge lourde — l'utiliser comme enclume de forge fissure les corps en fonte. Gardez-la propre et légèrement huilée pour prévenir la rouille.",
+            "Rangez les étaux à l'abri dans les environnements humides. Une fine couche d'huile sur les surfaces non peintes prévient la corrosion et maintient la finition.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'oem-bench-vise-manufacturing',
+      navLabel: "Fabrication OEM d'étaux d'établi",
+      metaTitle: "Fabrication OEM d'étaux d'établi : MOQ, personnalisation et contrôle qualité",
+      metaDescription:
+        "Guide de fabrication OEM d'étaux d'établi : quantités minimales, personnalisation de mâchoires, options de base orientable, normes de qualité et certifications.",
+      kicker: 'Knowledge',
+      h1: "Fabrication OEM d'étaux d'établi : comment les étaux personnalisés sont fabriqués",
+      intro:
+        "Que vous ayez besoin d'une production à marque privée ou d'un étau entièrement personnalisé, comprendre le processus de fabrication — de la fonderie aux tests de qualité — fixe les bonnes attentes en termes de coût, délai et MOQ.",
+      sections: [
+        {
+          title: 'Le processus de fabrication',
+          body: [
+            "La production commence par la coulée : pièces en fonte grise ou acier forgé, puis usinage CNC de précision des faces de mâchoires, des glissières et des sièges de vis. Le traitement thermique durcit les faces des mâchoires à 58-62 HRC, suivi du rectifage et de l'assemblage final.",
+            "Le revêtement en poudre ou la peinture termine le corps, et le marquage (gravure laser, marques de moulage ou étiquettes) est appliqué selon vos graphiques.",
+          ],
+        },
+        {
+          title: 'MOQ et délais de livraison',
+          body: [
+            "Les modèles standard vont de 50 à 200 pièces selon la série ; les outillages personnalisés partent de quantités supérieures. Les échantillons sont expédiés en 7 à 14 jours et la production en série prend 25 à 35 jours après confirmation du PO et du versement.",
+            "Combiner plusieurs modèles dans une seule commande répartit les coûts fixes et améliore le prix unitaire — un moyen courant pour les marques de tester plusieurs SKUs à la fois.",
+          ],
+        },
+        {
+          title: 'Options de personnalisation',
+          body: [
+            "Largeur et ouverture de mâchoire, motif de surface des mâchoires (serré, lisse, rainure V), angle de la base orientable, forme de l'enclume, style de manivelle, couleur du corps et marquage sont tous spécifiables.",
+            "Les projets avec outillage personnalisé ajoutent des corps profilés, des fontes de marque et des géométries de mâchoires uniques, à partir de quantités supérieures pour amortir le coût de l'outillage.",
+          ],
+        },
+        {
+          title: 'Normes de qualité',
+          body: [
+            "Les usines réputées vérifient la dureté des mâchoires (58-62 HRC), la force de serrage par modèle, le couple de la base orientable et effectuent des tests de durabilité cyclique (10 000+ cycles ouverture/fermeture) ainsi que des tests de corrosion en brouillard salin.",
+            "Certifications à rechercher : marquage CE, ISO 9001 pour la gestion de la qualité, ISO 14001 pour la gestion environnementale et conformité RoHS.",
           ],
         },
       ],
     },
   ],
-}
-
-export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
-  return (knowledge[locale] ?? knowledge.en).find((a) => a.slug === slug)
 }
 
 export interface KnowledgeMeta {
@@ -405,21 +527,25 @@ export interface KnowledgeMeta {
 
 export const knowledgeMeta: Localized<KnowledgeMeta> = {
   en: {
-    metaTitle: 'Knowledge Center: SUP Product Development Guides | SUPsfactory',
+    metaTitle: 'Bench Vise Knowledge Center | Selection & Manufacturing Guides',
     metaDescription:
-      'Practical guides on custom SUP product development, inflatable board construction, and choosing SUP equipment for resorts, clubs and schools.',
-    h1: 'Knowledge Center — Product Development, Explained',
+      'How to choose a bench vise, cast iron vs steel, jaw hardness and OEM manufacturing — plain-language guides for buyers and sourcing teams.',
+    h1: 'Bench Vise Knowledge Center',
   },
   es: {
-    metaTitle: 'Centro de conocimiento — guías de productos | SUPsfactory',
+    metaTitle: 'Centro de conocimiento | Guías de selección y fabricación de mordazas',
     metaDescription:
-      'Guías prácticas sobre desarrollo de productos SUP personalizados y construcción de tablas hinchables.',
-    h1: 'Centro de conocimiento — desarrollo de producto, explicado',
+      'Cómo elegir una mordaza de banco, hierro fundido vs acero, dureza de boca y fabricación OEM — guías claras para compradores.',
+    h1: 'Centro de conocimiento sobre mordazas de banco',
   },
   fr: {
-    metaTitle: 'Centre de connaissances — guides de développement de produits | SUPsfactory',
+    metaTitle: "Centre de connaissances | Guides de sélection et de fabrication d'étaux d'établi",
     metaDescription:
-      "Guides pratiques sur le développement de produits SUP personnalisés, la construction de planches gonflables et le choix d'un équipement SUP pour les resorts, clubs et écoles.",
-    h1: 'Centre de connaissances — développement de produit, expliqué',
+      "Comment choisir un étau d'établi, fonte vs acier, dureté des mâchoires et fabrication OEM — des guides simples pour les acheteurs.",
+    h1: "Centre de connaissances sur les étaux d'établi",
   },
+}
+
+export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
+  return (knowledge[locale] ?? knowledge.en).find((a) => a.slug === slug)
 }

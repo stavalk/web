@@ -1,25 +1,25 @@
 meta:
-  title: 'Factory Audit Checklist — What to Verify Before Choosing a SUP Manufacturer | SUPsfactory'
-  description: 'Factory audit checklist for inflatable SUP buyers: quality system, capacity, material traceability, pressure testing, social compliance and documentation.'
-  dateModified: '2026-08-21'
+  title: 'Factory Audit Checklist — What to Verify Before Choosing a Bench Vise Manufacturer | Stavalk'
+  description: 'Factory audit checklist for bench vise buyers: quality system, capacity, material traceability, hardness and clamping-force testing, social compliance and documentation.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'SUP factory audit checklist'
-    - 'inflatable board manufacturer audit'
-    - 'SUP factory verification'
-    - 'OEM factory inspection'
-    - 'SUP quality audit'
-    - 'SUP manufacturer due diligence'
-    - 'inflatable SUP production audit'
+    - 'bench vise factory audit checklist'
+    - 'bench vise manufacturer audit'
+    - 'bench vise factory verification'
+    - 'oem factory inspection'
+    - 'bench vise quality audit'
+    - 'bench vise manufacturer due diligence'
+    - 'bench vise production audit'
 
 hero:
   tagline: 'Due Diligence'
   title: 'Factory Audit Checklist'
-  subtitle: 'Before you commit to a SUP manufacturer, verify the fundamentals. This checklist covers the eight areas a professional buyer should audit — from quality management and production capacity to material traceability and social compliance. Every item on this list is something we can demonstrate with records, not just claims.'
+  subtitle: 'Before you commit to a bench vise manufacturer, verify the fundamentals. This checklist covers the eight areas a professional buyer should audit — from quality management and production capacity to material traceability and social compliance. Every item on this list is something we can demonstrate with records, not just claims.'
 
 answer:
   label: 'Quick answer'
-  text: 'The eight audit areas that matter most: (1) Quality management system — ISO 9001 certification and actual gate-by-gate inspection records, not just a certificate on the wall. (2) Production capacity — real output numbers, not nameplate. (3) Material traceability — batch-level incoming inspection and test reports. (4) Pressure and structural testing — documented hold-test protocols. (5) Welding and assembly controls — RF welding parameters and seam inspection. (6) Social compliance — BSCI or equivalent audit. (7) Documentation and traceability — batch records, inspection logs, conformity certificates. (8) Post-delivery support — warranty process, spare parts, communication responsiveness.'
-  verified: '2026-08'
+  text: 'The eight audit areas that matter most: (1) Quality management system — ISO 9001 certification and actual gate-by-gate inspection records, not just a certificate on the wall. (2) Production capacity — real output numbers, not nameplate. (3) Material traceability — batch-level incoming inspection and test reports. (4) Hardness and clamping-force testing — documented test protocols. (5) Casting, machining and assembly controls — heat-treatment parameters and dimensional inspection. (6) Social compliance — BSCI or equivalent audit. (7) Documentation and traceability — batch records, inspection logs, conformity certificates. (8) Post-delivery support — warranty process, spare parts, communication responsiveness.'
+  verified: '2026-09'
 
 audit_areas:
   tagline: Eight Audit Areas
@@ -34,19 +34,19 @@ audit_areas:
     - icon: C
       icon_bg: green
       title: '2. Production Capacity'
-      desc: 'Ask for: Monthly output figures by product type, production schedule showing current utilization, tooling capacity (number of moulds, CNC machines, RF welders). Red flag: Nameplate capacity only, no utilization data or production schedule.'
+      desc: 'Ask for: Monthly output figures by product type, production schedule showing current utilization, tooling capacity (number of casting lines, CNC machines, heat-treatment furnaces). Red flag: Nameplate capacity only, no utilization data or production schedule.'
     - icon: M
       icon_bg: purple
       title: '3. Material Traceability'
-      desc: 'Ask for: Incoming material inspection records, PVC and drop-stitch supplier certificates, batch traceability from raw material to finished board, REACH/RoHS substance declarations. Red flag: No batch-level traceability, material certificates not available.'
+      desc: 'Ask for: Incoming material inspection records, HT200/HT250 cast iron and 45# forged steel supplier certificates, batch traceability from raw material to finished vise, REACH/RoHS substance declarations. Red flag: No batch-level traceability, material certificates not available.'
     - icon: P
       icon_bg: orange
-      title: '4. Pressure & Structural Testing'
-      desc: 'Ask for: Pressure test protocol (PSI, duration, pass/fail criteria), test logs for recent production batches, structural test records (drop, impact, rail stress). Red flag: "Visual inspection only" or no documented test protocol with quantitative pass/fail.'
+      title: '4. Hardness & Clamping-Force Testing'
+      desc: 'Ask for: Hardness test protocol (58–62 HRC for jaws, test positions), clamping-force test protocol (rated capacity, pass/fail criteria), test logs for recent production batches. Red flag: "Visual inspection only" or no documented test protocol with quantitative pass/fail.'
     - icon: W
       icon_bg: blue
-      title: '5. Welding & Assembly Controls'
-      desc: 'Ask for: RF welding parameter records (temperature, pressure, dwell time), seam inspection criteria and reject rates, assembly sequence documentation. Red flag: No welding parameter logs, high seam reject rate with no CAPA.'
+      title: '5. Casting, Machining & Assembly Controls'
+      desc: 'Ask for: Heat-treatment parameter records (temperature, hold time), CNC machining and dimensional inspection records, jaw alignment and thread inspection criteria with reject rates. Red flag: No parameter logs, high reject rate with no CAPA.'
     - icon: S
       icon_bg: green
       title: '6. Social Compliance'
@@ -66,10 +66,10 @@ our_position:
     We do not just claim compliance — we provide the records. Here is our position on each of the eight audit areas:
 
     - **Quality management**: ISO 9001:2015 certified, audited annually by accredited third party. 7-stage inspection gate system with documented pass/fail criteria at every gate. CAPA log maintained and reviewed quarterly.
-    - **Production capacity**: 30,000+ boards annual capacity, 2,500+ monthly output. Production schedule available for review during factory visit. 4 production lines, 3 CNC machines, 5 RF welders.
-    - **Material traceability**: Batch-level traceability from incoming material to finished board. PVC and drop-stitch supplier certificates on file. REACH and RoHS substance declarations available per batch.
-    - **Pressure testing**: 18.0 PSI hold test with auto-reject above 0.50 PSI drop over 24 hours. Test logs available for every production batch. Structural and impact testing per construction type.
-    - **Welding controls**: RF welding parameters logged per production run. Seam inspection at gate 3 with documented reject rates. CAPA initiated for reject rates above threshold.
+    - **Production capacity**: 80,000+ bench vises annual capacity, production schedule available for review during factory visit. Casting, CNC machining and heat-treatment lines with IATF-equivalent process controls.
+    - **Material traceability**: Batch-level traceability from incoming material to finished vise. HT200/HT250 cast iron and 45# forged steel supplier certificates on file. GCr15/Cr12MoV jaw material certificates and REACH/RoHS substance declarations available per batch.
+    - **Hardness & clamping-force testing**: Jaw hardness verified to 58–62 HRC with calibrated testers. Clamping-force test at rated capacity with documented pass/fail. Test logs available for every production batch.
+    - **Casting, machining & assembly controls**: Heat-treatment parameters logged per production run. Jaw alignment and thread inspection at defined gates with documented reject rates. CAPA initiated for reject rates above threshold.
     - **Social compliance**: BSCI audited. Working hours, wage and safety records available for inspection during factory visit.
     - **Documentation**: Batch production records, inspection logs per gate, certificates of conformity and packing lists with batch references shipped with every order. Warranty claim tracking system maintained.
     - **Post-delivery support**: Warranty terms documented per contract. Average claim resolution under 14 business days. Spare parts available from stock. Post-delivery review offered for every first order.
@@ -77,7 +77,7 @@ our_position:
 evidence_review:
   tagline: 'Evidence & Verification'
   title: 'SPECIFICATIONS VERIFIED'
-  body: 'All manufacturing and quality claims on this page are verified by our manufacturing engineering team at the Laixi, Qingdao factory. Certificates, QC inspection records, pressure and structural test reports, and batch traceability logs are available on request. Specifications last verified 2026-08.'
+  body: 'All manufacturing and quality claims on this page are verified by our manufacturing engineering team at the Qingdao (Jimo) factory. Certificates, QC inspection records, hardness and clamping-force test reports, and batch traceability logs are available on request. Specifications last verified 2026-09.'
 
 faqs:
   tagline: FAQ
@@ -86,11 +86,11 @@ faqs:
     - q: 'Can I visit the factory for an on-site audit?'
       a: 'Yes. We welcome factory visits and can arrange a structured audit covering all eight areas. Typical visit includes production floor walkthrough, QC gate observation, material warehouse inspection, document review and Q&A with the quality manager. Allow a full day. Contact us to schedule.'
     - q: 'Do you provide audit documentation before a visit?'
-      a: 'Yes. We can share ISO 9001 certificate, BSCI report, production capacity summary, pressure test protocol and sample inspection records before your visit — so you can prepare targeted questions. Full batch records are available on-site during the visit.'
+      a: 'Yes. We can share ISO 9001 certificate, BSCI report, production capacity summary, hardness and clamping-force test protocol and sample inspection records before your visit — so you can prepare targeted questions. Full batch records are available on-site during the visit.'
     - q: 'What third-party inspections do you use?'
       a: 'We work with SGS, Intertek and TUV for third-party inspections and certifications. Third-party pre-shipment inspection is available on request for any order. Inspection scope and costs are confirmed during the quotation phase.'
     - q: 'How do I know your quality system is actually enforced, not just documented?'
-      a: 'Every board passes 7 inspection gates with quantitative pass/fail criteria — not visual checklists. Pressure test data, welding parameters and reject rates are logged per batch and available for your review. CAPA is triggered automatically for out-of-spec results. We encourage you to audit the live process during a factory visit.'
+      a: 'Every bench vise passes 7 inspection gates with quantitative pass/fail criteria — not visual checklists. Hardness data, clamping-force test data and reject rates are logged per batch and available for your review. CAPA is triggered automatically for out-of-spec results. We encourage you to audit the live process during a factory visit.'
 
 cta:
   title: 'Schedule a Factory Audit'

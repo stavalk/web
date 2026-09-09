@@ -1,111 +1,49 @@
-meta:
-  title: 'Conocimiento — Guías de SUP y embarcaciones | {SITE}'
-  description: 'Guías sobre SUP hinchables, materiales, selección de embarcaciones y análisis del sector para marcas y profesionales.'
+﻿meta:
+  title: 'Conocimiento — Guías de compra, tamaño y mantenimiento de tornillos de banco | {SITE}'
+  description: 'Guías y conocimiento de Stavalk: elegir un tornillo de banco, dimensionar el ancho de mandíbula, materiales y dureza, mantenimiento, y trabajar con un fabricante OEM de tornillos de banco.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'conocimiento sup'
-    - 'guía sup hinchable'
-    - 'materiales paddle board'
-    - 'análisis industria sup'
-  dateModified: '2026-08'
+    - 'conocimiento tornillo de banco'
+    - 'cómo elegir un tornillo de banco'
+    - 'mantenimiento tornillo de banco'
+    - 'guías tornillo de banco'
 hero:
-  tagline: 'Gráfico de conocimiento'
-  title: 'Conocimiento para explorar el agua'
-  subtitle: |
-    Una base de conocimiento estructurada que cubre la tecnología del SUP hinchable,
-    la seguridad en el agua, la ingeniería de embarcaciones y la planificación de aventuras.
-  taglineSection: 'Explora. Aprende. Navega con confianza.'
-
-clusters:
-  tagline: 'Grupos de conocimiento'
-  title: 'Explora por tema'
-  subtitle: 'Análisis en profundidad de la tecnología, la seguridad y las habilidades que hay detrás de cada producto afarer.'
-  items:
-    - title: 'Guías de compra de SUP'
-      description: 'Desde elegir tu primera tabla hasta técnicas avanzadas de travesía: todo sobre el paddle surf.'
-      icon: 'tabler:lifebuoy'
-      topics:
-        - 'Cómo elegir tu primer SUP hinchable'
-        - 'Guía de tallas y capacidad de peso del SUP'
-        - 'Mejor SUP para principiantes, travesías, yoga y competición'
-        - 'Errores de compra de SUP que debes evitar'
-        - 'Comparativa: hinchable frente a tabla rígida'
-    - title: 'Ingeniería y tecnología del SUP'
-      description: 'Guías técnicas sobre tablas SUP hinchables: materiales, métodos de construcción y procesos de fabricación.'
-      icon: 'tabler:microscope'
-      topics:
-        - 'Tecnología drop-stitch en profundidad'
-        - 'Especificaciones del PVC de grado militar'
-        - 'Laminación por fusión frente a unión adhesiva'
-        - 'Tecnología de espuma EVA y métodos de arte'
-        - 'Tipos de válvulas y sistemas de quillas para SUP'
-    - title: 'Seguridad y mantenimiento del SUP'
-      description: 'Conocimientos de seguridad esenciales para cada paddler: desde la elección del chaleco hasta la lectura del clima y el cuidado y reparación de la tabla.'
-      icon: 'tabler:shield'
-      topics:
-        - 'Lista de seguridad para SUP y requisitos de chalecos'
-        - 'Seguridad multicámara en aguas remotas'
-        - 'Guía de PSI de inflado del SUP'
-        - 'Almacenamiento y cuidado invernal de la tabla'
-        - 'Técnicas de reparación de hinchables'
-    - title: 'Habilidades y técnicas de SUP'
-      description: 'Técnicas de paleo, habilidades de travesía y entrenamiento físico para todos los niveles.'
-      icon: 'tabler:waves'
-      topics:
-        - 'Técnicas de paleo para principiantes'
-        - 'Dominio de la brazada intermedia'
-        - 'Planificación de travesías y expediciones'
-        - 'Entrenamiento de fitness y competición en SUP'
-        - 'Habilidades en aguas bravas y ríos'
-    - title: 'Estilo de vida y usos especiales del SUP'
-      description: 'Actividades especializadas de SUP: yoga, pesca, perros, familias y consejos de viaje.'
-      icon: 'tabler:heart'
-      topics:
-        - 'Yoga y meditación sobre el agua'
-        - 'Pesca desde un SUP hinchable'
-        - 'Paddle surf con perros y niños'
-        - 'Viajar con tu SUP en avión y coche'
-        - 'Accesorios y equipo esencial de SUP'
-    - title: 'Comparativas y referencias de SUP'
-      description: 'Comparativas lado a lado para ayudarte a tomar decisiones informadas.'
-      icon: 'tabler:chart-bar'
-      topics:
-        - 'SUP frente a kayak: ¿cuál te conviene?'
-        - 'Comparativa de materiales: PVC frente a Hypalon'
-        - 'Seguridad de una cámara frente a multicámara'
-        - 'Materiales de tablas SUP explicados'
-        - 'Impresión UV frente a arte en bloque EVA'
-
-featured_guides:
-  tagline: 'Guías destacadas'
-  title: 'Los recursos de conocimiento más populares'
-  items:
-    - title: 'Nociones de SUP'
-      href: '/es/knowledge'
-    - title: 'Tabla hinchable vs. rígida'
-      href: '/es/inflatable-vs-hardboard'
-    - title: 'Guía de seguridad en el agua'
-      href: '/es/guides/safety-tips'
-    - title: 'Referencia de materiales'
-      href: '/es/knowledge'
-    - title: 'Guía de compra de SUP'
-      href: '/es/knowledge'
-    - title: 'Guía de tallas de SUP'
-      href: '/es/size-guide'
-    - title: 'Centro técnico de SUP'
-      href: '/es/technology'
-    - title: 'Mantenimiento del SUP'
-      href: '/es/knowledge'
-    - title: 'Guía de travesías'
-      href: '/es/products/touring'
-    - title: 'Técnicas de paleo'
-      href: '/es/knowledge'
-
-cta:
-  title: 'Empieza a explorar'
-  subtitle: 'Sumérgete en nuestra base de conocimiento y obtén la información que necesitas para tu próxima aventura en el agua.'
+  tagline: Conocimiento
+  title: Centro de conocimiento de tornillos de banco
+  subtitle: Guías prácticas para comprar, dimensionar, usar y mantener tornillos de banco — además de cómo funcionan el abastecimiento OEM y la producción de marca privada con Stavalk.
   actions:
     - variant: primary
-      text: 'Ver todas las guías'
-      href: '/es/knowledge'
-    - text: 'Explorar el gráfico de conocimiento'
-      href: '/es/knowledge'
+      text: Leer las guías principales
+      href: /es/knowledge
+clusters:
+  title: Qué encontrarás aquí
+  subtitle: Respuestas directas a las preguntas que más oímos de talleres, distribuidores y marcas.
+  items:
+    - title: Elegir un tornillo de banco
+      description: Cómo escoger el tornillo adecuado para tu banco — ancho de mandíbula, serie, materiales y clase de uso.
+    - title: Dimensiones y montaje
+      description: Referencia de ancho de mandíbula, rangos de apertura, peso, tamaños de perno y montaje en banco.
+    - title: Materiales y dureza
+      description: Cuerpos de hierro gris, acero forjado y mandíbulas de GCr15/Cr12MoV endurecidas a 58–62 HRC.
+    - title: Mantenimiento y cuidado
+      description: Lubricación, protección contra la corrosión y mantenimiento del husillo y las mandíbulas.
+    - title: OEM y marca privada
+      description: MOQ, plazos, muestras, certificaciones y cómo construir tu propia marca de tornillos de banco.
+featured_guides:
+  title: Empieza aquí
+  body: |
+    - [Cómo elegir un tornillo de banco](/es/guides/how-to-choose-a-bench-vise)
+    - [Guía de tamaños de tornillo de banco](/es/guides/bench-vise-size-guide)
+    - [Guía de mantenimiento de tornillos de banco](/es/guides/bench-vise-maintenance-guide)
+    - [Guía de tornillos para tubería](/es/guides/pipe-vise-guide)
+    - [Guía de pedidos OEM de tornillos de banco](/es/guides/oem-bench-vise-order-guide)
+    - [Guía de tornillos de precisión](/es/guides/precision-vise-guide)
+cta:
+  title: '¿Aún indeciso? Habla con un ingeniero de tornillos de banco'
+  subtitle: 'Envíanos tu mix de piezas de trabajo y configuración de taller, y te recomendaremos la serie, el ancho de mandíbula y el acabado adecuados para tu proyecto.'
+  actions:
+    - variant: primary
+      text: Obtener una recomendación
+      href: /es/contact
+    - text: Ver series de tornillos de banco
+      href: /es/products

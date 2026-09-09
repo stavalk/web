@@ -1,5 +1,5 @@
-/**
- * Navigation configuration — site structure and page hierarchy.
+﻿/**
+ * Navigation configuration �?site structure and page hierarchy.
  *
  * Defines the navigation tree, footer links, and page metadata that
  * previously were hardcoded across multiple marketing components.
@@ -12,16 +12,16 @@
 
 import { BRAND_PARENT_URL } from './branding'
 
-export const ENTITY_PAGE_PATH = '/about/supsfactory-entity' as const
+export const ENTITY_PAGE_PATH = '/about/stavalk-entity' as const
 
-export const ABOUT_BRAND_PATH = '/about/afarer' as const
+export const ABOUT_BRAND_PATH = '/about/stavalk' as const
 
 export const LEGACY_REDIRECTS: Record<string, string> = {
-  '/about/afarer-brand': '/about',
-  '/afarer-story': ABOUT_BRAND_PATH,
+  '/about/stavalk-brand': '/about',
+  '/stavalk-brand': ABOUT_BRAND_PATH,
   '/brand-global-presence': '/about',
   '/brand-marine-expertise': '/about',
-  '/brand-why-afarer': ABOUT_BRAND_PATH,
+  '/brand-why-stavalk': ABOUT_BRAND_PATH,
   '/aquafarer': '/about',
   '/people': '/about',
   '/geo-report': ABOUT_BRAND_PATH,
@@ -41,7 +41,7 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/ultra-stable-sup': '/products',
   '/whitewater-sup': '/products',
   '/yoga-sup': '/products',
-  '/products/compare': '/inflatable-vs-hardboard',
+  '/products/compare': '/products',
   '/tech-specs': '/technology',
   '/odm-sup-board': '/odm-development',
   '/oem-sup-board': '/oem-manufacturing',
@@ -51,28 +51,28 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/solutions/by-use-case': '/solutions',
   '/solutions/oem-brands': '/oem-manufacturing',
   '/solutions/diving-center-boats': '/solutions',
-  '/solutions/fishing-boat-solutions': '/fishing',
-  '/solutions/marine-tourism-equipment': '/tourism-recreation',
+  '/solutions/fishing-boat-solutions': '/solutions',
+  '/solutions/marine-tourism-equipment': '/solutions',
   '/solutions/rescue-watercraft': `${BRAND_PARENT_URL}/search-and-rescue`,
-  '/solutions/yacht-tender-solutions': '/tourism-recreation',
+  '/solutions/yacht-tender-solutions': '/solutions',
   '/solutions-diving-center-boats': '/solutions',
-  '/solutions-fishing-boat-solutions': '/fishing',
-  '/solutions-marine-tourism-equipment': '/tourism-recreation',
+  '/solutions-fishing-boat-solutions': '/solutions',
+  '/solutions-marine-tourism-equipment': '/solutions',
   '/solutions-rescue-watercraft': `${BRAND_PARENT_URL}/search-and-rescue`,
-  '/solutions-yacht-tender-solutions': '/tourism-recreation',
+  '/solutions-yacht-tender-solutions': '/solutions',
   '/buyer-center': '/solutions',
   '/marine-industry': '/solutions',
   '/v2': '/products',
   '/use-cases': '/solutions',
   '/use-cases/commercial-workboats': `${BRAND_PARENT_URL}/commercial-workboats`,
   '/use-cases/disaster-relief': `${BRAND_PARENT_URL}/disaster-relief-humanitarian-aid`,
-  '/use-cases/fishing': '/fishing',
+  '/use-cases/fishing': '/solutions',
   '/use-cases/maritime-safety-defense': `${BRAND_PARENT_URL}/maritime-safety-defense`,
   '/use-cases/search-and-rescue': `${BRAND_PARENT_URL}/search-and-rescue`,
-  '/use-cases/tourism-recreation': '/tourism-recreation',
-  '/compare': '/inflatable-vs-hardboard',
-  '/compare/inflatable-vs-hardboard': '/inflatable-vs-hardboard',
-  '/compare/afarer-vs-traditional-manufacturers': '/about',
+  '/use-cases/tourism-recreation': '/solutions',
+  '/compare': '/products',
+  '/compare/inflatable-vs-hardboard': '/products',
+  '/compare/stavalk-vs-traditional-manufacturers': '/about',
   '/compare/pvc-vs-hypalon': '/knowledge',
   '/compare/single-chamber-vs-multi-chamber': '/knowledge',
   '/design-powerhouse': '/technology',
@@ -101,12 +101,43 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/research/fin-systems-guide': '/knowledge',
   '/research/fusion-lamination-vs-glue': '/knowledge',
   '/research/military-grade-pvc-specs': '/knowledge',
-  '/research/quality-testing-standards': '/knowledge',
   '/research/sup-manufacturing-process': '/knowledge',
   '/research/sup-paddle-technology': '/knowledge',
   '/research/sup-valve-types': '/knowledge',
   '/research/uv-printing-vs-eva-block': '/knowledge',
   '/resources/download-catalog': '/products',
+  '/sup-oem-moq-lead-time': '/oem-moq-guide',
+  '/oem-sup-moq': '/oem-moq-guide',
+  '/inflatable-sup-certification': '/quality',
+  '/b2b-solutions-matrix': '/solutions',
+  '/sup-construction-comparison': '/products',
+  '/sup-compliance-by-market': '/quality',
+  '/about/afarer': '/about/stavalk',
+  '/fishing': '/solutions',
+  '/tourism-recreation': '/solutions',
+  '/inflatable-vs-hardboard': '/products',
+  '/what-is-sup': '/knowledge',
+  '/solutions/club-sup': '/solutions',
+  '/solutions/rental-operators': '/solutions',
+  '/solutions/retail-partners': '/solutions',
+  '/solutions/distributors': '/solutions',
+  '/private-label-sup': '/solutions',
+  '/randdcenter/hull-engineering': '/randdcenter',
+  '/randdcenter/hydrodynamic-test-tank': '/randdcenter',
+  '/randdcenter/prototype-workshop': '/randdcenter',
+  '/randdcenter/pvc-fabric-lab': '/randdcenter',
+  '/randdcenter/quality-inspection-lab': '/randdcenter',
+  '/randdcenter/rf-welding': '/randdcenter',
+  '/research/drop-stitch-technology': '/knowledge',
+  '/research/pvc-vs-hypalon': '/knowledge',
+  '/research/sup-thickness-guide': '/size-guide',
+  '/oem/sup-oem-north-america': '/oem-manufacturing',
+  '/oem/sup-oem-europe': '/oem-manufacturing',
+  '/oem/sup-oem-australia': '/oem-manufacturing',
+  '/oem/sup-oem-canada': '/oem-manufacturing',
+  '/guides/beginner-guide': '/knowledge',
+  '/guides/inflatable-vs-hard': '/knowledge',
+  '/guides/how-to-choose-your-sup': '/guides/how-to-choose-a-bench-vise',
 }
 
 export const GONE_PATHS: string[] = [

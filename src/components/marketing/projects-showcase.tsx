@@ -21,9 +21,9 @@ export function ProjectsShowcase() {
     <section className="border-y border-border bg-bg-alt">
       <div className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">
         <SectionHead
-          kicker={t('sup.projects.showcaseKicker')}
-          title={t('sup.projects.showcaseTitle')}
-          sub={t('sup.projects.showcaseBody')}
+          kicker={t('bench.projects.showcaseKicker')}
+          title={t('bench.projects.showcaseTitle')}
+          sub={t('bench.projects.showcaseBody')}
         />
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {items.map((p, i) => (
@@ -38,7 +38,7 @@ export function ProjectsShowcase() {
                   <p className="mt-3 text-[13.5px] leading-relaxed text-fg-2">{p.requirement}</p>
                 </div>
                 <span className="inline-flex items-center gap-1.5 text-[13px] font-bold text-primary group-hover:underline">
-                  {t('sup.projects.viewCase')} <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+                  {t('bench.projects.viewCase')} <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
                 </span>
               </a>
             </Reveal>
@@ -46,7 +46,7 @@ export function ProjectsShowcase() {
         </div>
         <p className="mt-10 text-center">
           <a href={fl('/projects')} className="inline-flex items-center gap-1.5 text-[14px] font-bold text-primary hover:underline">
-            {t('sup.projects.seeAll')} <ArrowRight size={14} />
+            {t('bench.projects.seeAll')} <ArrowRight size={14} />
           </a>
         </p>
       </div>

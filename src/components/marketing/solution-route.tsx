@@ -8,8 +8,8 @@ import { MarketingShell } from './shell'
 
 /**
  * Shared route factory for the Solutions system pages. The canonical URL of a
- * page comes from solutionPath(slug) — the flagship custom-SUP page lives at
- * /custom-sup-development (keyword-first URL), the rest under /solutions/*.
+ * page comes from solutionPath(slug) — the flagship custom-vise page lives at
+ * /custom-bench-vise (keyword-first URL), the rest under /solutions/*.
  * The page data is resolved in the loader via a dynamic import so the
  * solution-pages module stays out of the eager client bundle.
  */

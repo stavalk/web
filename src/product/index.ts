@@ -152,7 +152,6 @@ export {
   getGuideBySlug,
   type GuideCard,
   GUIDE_CARDS,
-  guideCard,
 } from './guide-content'
 
 // Hub pages

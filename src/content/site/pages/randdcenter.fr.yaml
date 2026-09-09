@@ -1,131 +1,98 @@
-meta:
-  title: 'Centre de R&D — Ingénierie de SUP gonflables | {SITE}'
-  description: 'Recherche et développement — test des tissus PVC, ingénierie de coque, soudure RF, test hydrodynamique et contrôle qualité. Services R&D personnalisés disponibles.'
-  dateModified: '2026-08'
-
+﻿meta:
+  title: 'Centre de R&D — Ingénierie et laboratoire de matériaux des serre-joints | {SITE}'
+  description: 'R&D Stavalk : science des matériaux, ingénierie de coulée et traitement thermique, et développement de serre-joints personnalisés. Les ressources d''ingénierie derrière chaque série de serre-joints.'
+  dateModified: '2026-09-01'
+  keywords:
+    - 'R&D serre-joints'
+    - 'ingénierie serre-joints'
+    - 'développement serre-joints'
+    - 'centre de R&D Stavalk'
 hero:
   tagline: Centre de R&D
-  title: Centre de R et D
-  subtitle: Focalisés sur le progrès
-
+  title: Ingénierie, matériaux et conception au même endroit
+  subtitle: Le centre de R&D de Stavalk développe des serre-joints grâce à l''ingénierie de coulée, la métallurgie du traitement thermique et la conception mécanique — transformant l''esquisse d''un acheteur en une série certifiée et productive.
+  actions:
+    - variant: primary
+      text: Démarrer un projet de développement
+      href: /fr/contact
 intro:
-  - Le Centre de Recherche et de Développement (R&D) d'Afarer est la force motrice de notre mission de révolutionner l'équipement de sports nautiques. Nous donnons aux passionnés de sports nautiques du monde entier des produits plus sûrs, plus confortables et plus agréables grâce à une innovation constante dans les planches de stand-up paddle (SUP) et les bateaux gonflables. Notre équipe dédiée d'ingénieurs, de designers et d'experts passionnés des sports nautiques façonne l'avenir de l'industrie, élevant constamment le niveau de la qualité, de la performance et de la durabilité.
-  - Notre installation de R&D réunit sous un même toit des scientifiques des matériaux, des architectes navals et des ingénieurs de production. De la formulation des tissus et de la simulation de coque au développement des processus de soudure et aux essais en mer à grande échelle, chaque étape du développement produit est pilotée par les données et validée par les tests.
+  title: Introduction
+  body: |
+    Le centre de R&D de Stavalk se trouve dans notre usine à Qingdao, en Chine, de sorte que les équipes de conception, de prototypage et de production travaillent sur le même étage. Les ingénieurs couvrent la conception de coulée, la programmation CNC, le traitement thermique et la finition de surface, ainsi que le laboratoire de métrologie qui vérifie chaque prototype par rapport à la spécification.
 
+    Le centre soutient à la fois nos cinq séries standard de serre-joints et les projets OEM personnalisés — d''un simple changement de largeur de mâchoire à une gamme industrielle entièrement co-développée.
 mission:
-  tagline: Notre mission
-  title: Innover l'avenir des sports nautiques
-  pillars:
-    - icon: lightning
-      title: Avancement technologique
-      desc: Innover de nouveaux matériaux, designs et fabrications pour une performance et une longévité supérieures du produit.
-    - icon: design
-      title: Design centré sur l'utilisateur
-      desc: Comprendre et dépasser profondément les besoins des utilisateurs grâce à un design de produit ergonomique et intuitif.
-    - icon: globe
-      title: Pratiques durables
-      desc: Minimiser notre empreinte environnementale en utilisant des matériaux et processus écologiques.
-    - icon: shield
-      title: Sécurité sans compromis
-      desc: Garantir les plus hauts standards de sécurité grâce à des tests et une certification rigoureux.
-
+  title: Mission
+  body: |
+    Transformer les exigences des clients en serre-joints qui maintiennent le travail en toute sécurité, durent des années d''usage en atelier et expédient avec une qualité entièrement documentée. Nous concevons pour la performance de serrage, la dureté de mâchoire et la résistance à la corrosion tout en gardant le développement en marque privée rentable et rapide.
 pillars:
-  - title: Avancement technologique
-    desc: Innover de nouveaux matériaux, designs et processus de fabrication pour offrir une performance et une longévité supérieures du produit.
-    icon: tech
-  - title: Matériaux avancés
-    desc: Rechercher des PVC, Hypalon, composites de pointe et des alternatives durables pour améliorer les caractéristiques du produit.
-    icon: materials
-  - title: Durabilité
-    desc: 'Un engagement central : nous sommes dédiés à la gestion environnementale grâce à une fabrication durable et des matériaux recyclables.'
-    icon: sustainability
-
+  title: Piliers d''ingénierie
+  subtitle: Les quatre principes qui guident chaque projet.
+  items:
+    - title: Le matériau d''abord
+      description: Le bon alliage de fonte grise, d''acier forgé et de durcissement pour chaque classe d''usage et application.
+    - title: Usinage de précision
+      description: Tolérances CNC qui maintiennent les faces de mâchoire parallèles et la vis stable sous charge.
+    - title: Contrôle de dureté
+      description: Trempe à l''huile et revenu qui maintiennent les mâchoires à 58–62 HRC, vérifiées par essai Rockwell.
+    - title: Conception validée par essais
+      description: Chaque prototype est validé pour la force de serrage, le couple de pivotement et la durée de vie avant production.
 capabilities:
-  tagline: Capacités
-  title: Capacités de R&D
-  subtitle: Quatre disciplines clés qui nous donnent un contrôle de bout en bout sur le développement produit —de la recherche sur les matières premières à la certification finale.
+  title: Capacités
+  subtitle: Ce que nos ingénieurs et notre laboratoire peuvent faire en interne.
   groups:
-    - title: Science des matériaux et technologie du tissu
+    - title: Coulée et usinage
       items:
-        - Analyse et optimisation des formulations de PVC et Hypalon
-        - Développement d'additifs de stabilisation UV, de résistance aux flammes et antimicrobiens
-        - Ingénierie de laminage multicouche et de liaison adhésive
-        - Tests de vieillissement accéléré (UV, thermique, humidité, brouillard salin)
-    - title: Ingénierie de coque et hydrodynamique
+        - Modèles en sable vert et aggloméré, canaux d''alimentation et masselottes pour corps en fonte grise HT200/HT250
+        - Faces de mâchoire, vis, bases et accessoires usinés avec une précision dimensionnelle constante
+        - Géométrie de mâchoire et de base personnalisée développée à partir de votre dessin
+    - title: Métallurgie et laboratoire
       items:
-        - Conception de coque 3D paramétrique et optimisation CFD
-        - Analyse par éléments finis pour les charges structurelles et d'impact
-        - Tests en bassin de remorquage sur modèle réduit et validation de performance
-        - Développement de coque personnalisée pour des profils de mission spéciaux
-    - title: Technologie de soudure et d'assemblage
-      items:
-        - Développement et optimisation des processus de soudure diélectrique RF
-        - Méthodes de soudure à air chaud, cale chaude et ultrasonique
-        - Qualification des liaisons adhésives et des bandes de couture
-        - Modélisation de la résistance de soudure et prédiction de durée de vie
-    - title: Test, certification et conformité
-      items:
-        - Management de la qualité et test de conformité CE
-        - Support de test et de certification tierce partie indépendante
-        - Développement de protocoles de test personnalisés pour la qualification d'approvisionnement
-        - Analyse des défaillances en service et investigation des causes racines
-
+        - Lignes de trempe à l''huile et de revenu pour mâchoires GCr15/Cr12MoV à 58–62 HRC
+        - Finition par pulvérisation, poudre et Parkerizing validée au brouillard salin
+        - Spectromètre, CMM, dureté, couple et équipements d''essais de cycle pour valider chaque conception
 rd_numbers:
-  tagline: Innovation
-  title: La R&D en chiffres
-  stats:
-    - value: '14'
-      label: Ingénieurs et scientifiques R&D
-    - value: '8'
-      label: Brevets et dépôts actifs
-    - value: '6'
-      label: Laboratoires spécialisés
-    - value: 12 ans
-      label: Expérience moyenne de l'équipe
-
+  title: R&D en chiffres
+  items:
+    - value: 5
+      label: Séries standard
+      detail: Léger, moyen, lourd, tuberie et précision
+    - value: 80,000+
+      label: Serre-joints par an
+      detail: Capacité de l''usine
+    - value: 200+
+      label: Ouvriers
+      detail: Coulée, usinage et montage
+    - value: 58–62
+      label: Dureté de mâchoire HRC
+      detail: Mâchoires trempées GCr15 / Cr12MoV
 rd_services:
-  tagline: R&D personnalisée
-  title: Services de R&D pour les partenaires
+  title: Services de R&D
+  subtitle: Support de développement disponible pour les partenaires OEM et de marque privée.
   services:
-    - title: Développement de matériaux personnalisés
-      desc: Nous développons des formulations de tissu, des empilements de laminé et des systèmes adhésifs personnalisés adaptés à votre environnement d'exploitation et à vos objectifs de performance.
-    - title: Ingénierie de produit OEM / ODM
-      desc: Nous développons des formulations de tissu, des empilements de laminé et des systèmes adhésifs personnalisés adaptés à votre environnement d'exploitation et à vos objectifs de performance.
-    - title: Test et certification tierce partie
-      desc: Utilisez nos installations de test conformes ISO pour les tests de matériaux indépendants, la validation de produit et le support de certification.
-  cta: Discutez de vos exigences de R&D →
+    - title: Conception de mâchoire et de base personnalisée
+      desc: Adaptez la largeur de mâchoire, l''ouverture et le montage à votre application et à votre établi.
+    - title: Sélection de matériaux et de finition
+      desc: Choisissez le grade du corps, l''acier de mâchoire et le revêtement pour la résistance, la dureté et la protection contre la corrosion appropriées.
+    - title: Du dessin à l''échantillon
+      desc: Nos ingénieurs transforment votre esquisse ou référence en prototype vérifié.
+    - title: Support de certification
+      desc: Concevez le produit pour respecter CE, ISO et RoHS dès la phase de dessin, pas après.
+  cta: Démarrer un projet de développement
   cta_link: /fr/contact
-
 vision:
-  tagline: Notre vision
-  title: Façonner l'avenir des sports nautiques
-  body: Afarer s'efforce de leader l'industrie des bateaux et SUP gonflables grâce à une innovation continue, une qualité inébranlable et un engagement ferme envers la sécurité et la durabilité —enrichissant en définitive les expériences des passionnés de sports nautiques du monde entier. Le Centre de R&D d'Afarer est là où la passion rencontre l'innovation, établissant de nouvelles normes pour l'industrie des sports nautiques.
-
+  title: Vision
+  body: |
+    Être le partenaire de R&D de serre-joints privilégié des marques de maintien du travail dans le monde entier — combinant fabrication certifiée avec la profondeur d''ingénierie pour construire leur produit exact, à chaque fois.
 labs_section:
-  tagline: Laboratoires
-  title: Nos laboratoires
-  labs:
-    - image: https://assets.afarer.com/images/afarer/randd/afarer-pvc-material-lab.webp
-      title: Laboratoire de tissus PVC
-      description: Recherche et test continus des tissus de tube PVC et Hypalon pour la résistance à la traction, la résistance UV, l'abrasion et la flexibilité à basse température afin de garantir une fiabilité à long terme dans les environnements marins.
-      href: /fr/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-design-discussion-2.webp
-      title: Studio d'ingénierie de coque
-      description: Design piloté par CAO et analyse par éléments finis des coques en HDPE, aluminium et fibre de verre. Chaque coque est simulée numériquement pour la distribution des contraintes et la résistance aux impacts avant la construction du premier prototype.
-      href: /fr/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing-3.webp
-      title: Centre de soudure RF
-      description: Installation dédiée de soudure par radiofréquence avec contrôle de précision de la température et de la pression, produisant des coutures étanches à haute résistance qui répondent aux normes de l'industrie marine pour les embarcations gonflables.
-      href: /fr/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-design-discussion-original.webp
-      title: Bassin d'essais hydrodynamiques
-      description: Test sur modèle réduit dans notre bassin d'essais interne pour optimiser la forme de coque, la performance de planage, la stabilité et l'efficacité du carburant sur une gamme de conditions de charge et de mer.
-      href: /fr/randdcenter
-    - image: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp
-      title: Atelier de prototypes
-      description: Installation de prototypage et de gréement à grande échelle où les nouveaux modèles sont construits, équipés et essayés en mer. Chaque prototype subit un programme de test sur l'eau d'au moins 20 heures avant l'approbation de production.
-      href: /fr/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-uv-resistance-testing.webp
-      title: Laboratoire de qualité et d'inspection
-      description: Laboratoire d'assurance qualité dédié effectuant des tests de traction, des cycles de rétention d'air, des tests de pelage de couture et la certification des matériaux pour garantir que chaque bateau quittant l'atelier répond à nos spécifications publiées.
-      href: /fr/randdcenter
+  title: Laboratoires et équipements
+  subtitle: Installations internes qui maintiennent un développement rapide et une qualité documentée.
+  items:
+    - title: Laboratoire spectromètre
+      description: Valide la chimie de la fonte grise et de l''acier selon spécification avant d''usiner une seule pièce.
+    - title: Laboratoire de métrologie
+      description: La CMM et les étalons de précision vérifient chaque dimension critique sur les prototypes et les lots de production.
+    - title: Laboratoire de dureté et matériaux
+      description: L''essai Rockwell confirme la dureté de mâchoire dans la trempe à l''huile et le revenu.
+    - title: Laboratoire de durabilité
+      description: Les essais de force de serrage, de couple de pivotement et de cycle de 10 000+ confirment une longue durée de vie.

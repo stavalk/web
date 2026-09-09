@@ -11,12 +11,12 @@ import { execSync } from 'node:child_process'
  *   npx playwright install chromium
  *   pnpm e2e
  *
- * Auth: signs up an admin (admin@example.com is in ADMIN_EMAILS → admin role),
+ * Auth: signs up an admin (admin@example.com is in ADMIN_EMAILS 鈫?admin role),
  * marks the email verified directly in the local D1 (a dev-only shortcut so we
  * don't have to scrape the verification link from the server console), then
  * signs in. better-auth requires an Origin header on these POSTs.
  *
- * NOTE: authored without a browser available in the dev sandbox — selectors are
+ * NOTE: authored without a browser available in the dev sandbox 鈥?selectors are
  * derived from the source (theme toggle aria-label "Toggle theme"; rows are
  * `tr.cursor-pointer`) but may need a small tweak on first real run.
  */
@@ -33,7 +33,7 @@ async function loginAsAdmin(context: BrowserContext, baseURL: string) {
   })
   // Dev shortcut: mark verified in local D1 so sign-in is allowed.
   execSync(
-    `npx wrangler d1 execute supsfactory-db --local --command ` +
+    `npx wrangler d1 execute Stavalk-db --local --command ` +
       `"UPDATE user SET email_verified = 1 WHERE email = '${ADMIN.email}'"`,
     { stdio: 'ignore' },
   )
@@ -45,7 +45,7 @@ async function loginAsAdmin(context: BrowserContext, baseURL: string) {
   // Cookies set on context.request are shared with pages in the same context.
 }
 
-test('admin /admin/users — visual sweep (light + dark) + detail drawer', async ({
+test('admin /admin/users 鈥?visual sweep (light + dark) + detail drawer', async ({
   page,
   context,
   baseURL,

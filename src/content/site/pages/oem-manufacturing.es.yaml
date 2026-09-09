@@ -1,48 +1,48 @@
-﻿meta:
-  title: 'Fabricante OEM de SUP hinchables | Producción de paddle boards a medida'
-  description: 'Fábrica OEM de SUP hinchables: fabricamos tu diseño — revisión de ingeniería, muestras en 7–12 días, producción en 25–35 días, cumplimiento CE/ISO/BSCI.'
-  dateModified: '2026-08-16'
+meta:
+  title: 'Fabricante OEM de tornillos de banco | Producción de tornillos a medida'
+  description: 'Fábrica OEM de tornillos de banco: fabricamos a tu especificación existente, revisión de ingeniería en un día hábil, muestras en 7-12 días, producción en 25-35 días, certificación CE/ISO.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'fabricante OEM de SUP'
-    - 'SUP OEM inflable'
-    - 'producción de SUP personalizada'
-    - 'fábrica de SUP en China'
-    - 'fábrica de paddle boards a medida'
+    - 'fabricante OEM de tornillos de banco'
+    - 'fábrica OEM de tornillos'
+    - 'producción de tornillos de banco a medida'
+    - 'fábrica de tornillos en China'
+    - 'fabricante de tornillos a medida'
 
 hero:
   tagline: Fabricación OEM
-  title: 'Fabricación OEM de SUP a medida — Tu especificación, nuestra fábrica'
-  subtitle: 'Tú aportas el diseño, los planos o una plataforma probada — nosotros fabricamos a escala de contenedor. Revisión de ingeniería en un día laborable, muestras en 7–12 días y producción en 25–35 días tras confirmar el pedido y el depósito, enviada bajo tu marca.'
+  title: 'Fabricación OEM de tornillos de banco a medida - Tu especificación, nuestra fábrica'
+  subtitle: 'Tú aportas el diseño, los planos o una plataforma probada - nosotros fabricamos a escala. Revisión de ingeniería en un día hábil, muestras en 7-12 días y producción en 25-35 días tras confirmar el pedido y el depósito, enviada bajo tu marca.'
 
 answer:
   label: 'Respuesta directa'
-  text: 'La producción OEM parte de tu especificación. El MOQ se confirma por configuración del proyecto y no es un número fijo: la producción de volumen estándar corre de 90–100 unidades por lote a partir de un rollo de drop-stitch de 150 m, los lotes piloto parten de 20–50 unidades sobre plataformas existentes y cada proyecto pasa por una muestra (1–2 unidades) antes del volumen. Las muestras salen en 7–12 días; la producción corre en 25–35 días tras confirmar el pedido y el depósito, más 15–20 días cuando se requiere utillaje nuevo.'
+  text: 'La producción OEM parte de tu especificación. El MOQ se confirma por configuración del proyecto y no es un número fijo: la producción de volumen estándar corre de 50-200 unidades por lote para tornillos de gama media, los lotes piloto parten de 20-50 unidades sobre modelos existentes y cada proyecto pasa por una muestra (1-2 unidades) antes del volumen. Las muestras salen en 7-12 días; la producción corre en 25-35 días tras confirmar el pedido y el depósito, más 15-20 días cuando se requiere utillaje nuevo.'
   verified: '2026-08'
 
 features:
   title: Capacidades OEM
-  subtitle: 'Todo lo necesario para convertir tu especificación, plano o plataforma existente en un contenedor enviado.'
+  subtitle: 'Todo lo necesario para convertir tu especificación, plano o plataforma existente en un pedido enviado.'
   items:
     - title: Fabricación desde tu especificación
-      description: 'Tus planos, dimensiones, calidades de material y arte se ejecutan tal cual — nuestros ingenieros revisan la fabricabilidad antes de cotizar.'
+      description: 'Tus planos, dimensiones, calidades de material y arte se ejecutan tal cual - nuestros ingenieros revisan la fabricabilidad antes de cotizar.'
       icon: 'tabler:file-check'
     - title: Adaptación de plataformas
-      description: 'Plataformas de producción probadas pueden adaptarse con tus cambios de forma, especificación de raíl, posición de válvulas y accesorios — sin desarrollo de molde completo.'
+      description: 'Nuestras cinco series de tornillos pueden adaptarse con tus requisitos de mandíbula, base giratoria, color y marca - sin desarrollo de molde completo.'
       icon: 'tabler:arrows-diff'
-    - title: Moldes a medida
-      description: 'Nuevas formas de tabla a partir de tus planos o CAD — diseño e ingeniería de moldes en casa. El utillaje añade 15–20 días al plazo del proyecto.'
+    - title: Utillaje a medida
+      description: 'Nuevos cuerpos de tornillo fundidos a partir de tus planos o CAD - taller interno de patrones y utillaje. El utillaje añade 15-20 días al plazo del proyecto.'
       icon: 'tabler:shapes'
     - title: Prototipo y muestra
-      description: 'Se produce y aprueba una muestra física antes de cualquier tirada, normalmente en 7–12 días, con pruebas en el agua para formas nuevas.'
+      description: 'Se produce y aprueba una muestra física antes de cualquier tirada, normalmente en 7-12 días, con verificación dimensional y de dureza.'
       icon: 'tabler:tools'
-    - title: Producción a escala de contenedor
-      description: 'Lotes de volumen estándar de 90–100 unidades por diseño (un rollo completo de 150 m), pilotos desde 20–50 uds. y 25–35 días de plazo tras confirmar el pedido.'
+    - title: Producción a escala
+      description: 'Lotes de volumen estándar de 50-200 unidades por diseño para tornillos de gama media, pilotos desde 20-50 uds. y 25-35 días de plazo tras confirmar el pedido.'
       icon: 'tabler:package'
     - title: Certificación CE
-      description: 'CE, ISO 9001, BSCI, REACH y RoHS — documentación de cumplimiento preparada para cada mercado al que exportas.'
+      description: 'CE (EN ISO 12100, Directiva de Máquinas 2006/42/CE), ISO 9001:2015, ISO 14001 y RoHS - documentación de cumplimiento preparada para cada mercado al que exportas.'
       icon: 'tabler:certificate'
     - title: Inspección y trazabilidad
-      description: 'Prueba de retención de presión de 24 horas a 18.0 PSI con auto-rechazo por encima de 0.50 PSI de caída, lista de comprobación de 100 puntos y trazabilidad ERP de 10 años.'
+      description: 'Ensayo de fuerza de apriete, verificación de dureza de mandíbula (58-62 HRC), pruebas de durabilidad de más de 10.000 ciclos, ensayo de salinidad de más de 48 horas e inspección de 7 etapas con trazabilidad ERP.'
       icon: 'tabler:shield-check'
     - title: Logística global
       description: 'FOB Qingdao, CIF y DDP a más de 50 países, con embalaje de exportación y despacho de aduanas gestionados por nuestro equipo de logística.'
@@ -51,67 +51,67 @@ features:
 customization:
   tagline: Hecho a tu especificación
   title: Puntos de especificación OEM
-  subtitle: 'Estos son los puntos de especificación que controlas en un proyecto OEM — tu documento de especificación es el contrato de producción:'
+  subtitle: 'Estos son los puntos de especificación que controlas en un proyecto OEM - tu documento de especificación es el contrato de producción:'
   items:
-    - 'Dimensiones de la tabla — largo, ancho, grosor, rocker y volumen según tus planos o tus riders objetivo'
-    - 'Estructura del material — número y calidad de capas de PVC, densidad del drop-stitch, rigidizadores y refuerzos de raíl'
-    - 'Gráfica y colores — tu arte aplicado con paletas ilimitadas, o soporte de nuestro equipo de diseño interno'
-    - 'Plataforma de agarre EVA — deck pads cortados a medida, logotipos y colores en cada tabla'
-    - 'Asas y anillas D — posición, cantidad y especificación de herrajes según tu uso'
-    - 'Sistemas de quillas — configuraciones de una, dos o tres quillas y cajas de quilla a tu especificación'
-    - 'Palas, bombas, correas y accesorios — tu paquete, tu marca'
-    - 'Embalaje y presentación retail — cajas retail, embalaje marítimo y displays para punto de venta bajo tu marca'
-    - 'Etiquetas y marcas de cumplimiento — etiquetas de serie, logotipos y documentación por mercado preparada para tu región de exportación'
+    - 'Material del cuerpo - hierro fundido gris HT200 o HT250, o acero forjado según tus planos'
+    - 'Material y dureza de la mandíbula - acero endurecido GCr15 o Cr12MoV a 58-62 HRC'
+    - 'Apertura de mandíbula y profundidad de garganta - dimensiones según tus planos o aplicación objetivo'
+    - 'Ángulo de base giratoria y mecanismo de bloqueo - rotación de 360° o base fija'
+    - 'Selección de serie de tornillo - ligera (4"-5"), media (6"-8"), pesada (8"-10"), de tubo o especial'
+    - 'Acabado superficial - pintura, recubrimiento en polvo o parkerizado según tu especificación'
+    - 'Herrajes y accesorios - superficie de yunque, mandíbulas de tubo, mecanismos de liberación rápida'
+    - 'Marca y embalaje - logotipo en la fundición, color de pintura, etiqueta y embalaje retail bajo tu marca'
+    - 'Marcas de cumplimiento - etiquetas CE, números de serie y documentación por mercado preparada para tu región de exportación'
 
 faq_section:
   tagline: FAQ
   title: Preguntas sobre fabricación OEM
   questions:
-    - q: '¿Cómo inicio un proyecto OEM con mi propio diseño?'
-      a: 'Envía tus planos, una tabla de referencia o una especificación escrita. Nuestra revisión de ingeniería confirma la fabricabilidad y devuelve un presupuesto en un día laborable — es nuestro compromiso estándar, y se firma un NDA antes de cualquier intercambio de archivos cuando sea necesario.'
-    - q: '¿Cuál es el MOQ para un SUP OEM hinchable?'
-      a: 'El MOQ se confirma por configuración del proyecto — casco y utillaje, colores y PVC, arte, embalaje y accesorios. La producción de volumen estándar corre de 90–100 unidades por lote (un rollo de drop-stitch de 150 m), y los pilotos parten de 20–50 unidades sobre plataformas existentes. Consulta la lógica completa en nuestra Guía de MOQ y branding flexible.'
-    - q: '¿Cuál es el plazo típico de un pedido OEM?'
-      a: 'La producción corre en 25–35 días desde el pedido confirmado y el depósito. El desarrollo de moldes a medida añade 15–20 días de utillaje. Las muestras de prototipo suelen enviarse en 7–12 días.'
-    - q: '¿Podéis fabricar solo a partir de mis planos?'
-      a: 'Sí. OEM construye desde tu especificación tal cual — tú eres dueño del diseño. Nuestros ingenieros revisan los planos para viabilidad de producción, señalan cualquier conflicto de especificación antes de empezar el utillaje o el corte, y la muestra aprobada se convierte en la referencia de producción.'
-    - q: '¿Proporcionáis muestras antes de la producción?'
-      a: 'Sí. Se produce y aprueba una muestra física antes de cualquier tirada, normalmente en 7–12 días, y es la referencia para todos los controles de calidad posteriores.'
-    - q: '¿Qué certificaciones tiene la fábrica?'
-      a: 'CE, ISO 9001, BSCI, REACH y RoHS. Con cada envío OEM se entrega documentación completa de cumplimiento, preparada para tus mercados objetivo.'
-    - q: '¿Cómo se controla la calidad en una tirada OEM?'
-      a: 'La producción corre bajo control de calidad multipunto — material entrante, proceso y inspección final — con prueba de retención de presión de 24 horas a 18.0 PSI (auto-rechazo por encima de 0.50 PSI de caída), lista de comprobación de 100 puntos y trazabilidad ERP de 10 años por número de serie.'
-    - q: '¿Cuáles son vuestros términos de envío?'
+    - q: ¿Cómo inicio un proyecto OEM con mi propio diseño?
+      a: 'Envía tus planos, un tornillo de referencia o una especificación escrita. Nuestra revisión de ingeniería confirma la fabricabilidad y devuelve un presupuesto en un día hábil - es nuestro compromiso estándar, y se firma un NDA antes de cualquier intercambio de archivos cuando sea necesario.'
+    - q: ¿Cuál es el MOQ para tornillos de banco OEM?
+      a: 'El MOQ se confirma por configuración del proyecto - cuerpo fundido, especificación de mandíbula, acabado superficial, marca y embalaje. La producción de volumen estándar corre de 50-200 unidades por lote para tornillos de gama media, y los tornillos pesados y especiales corren de 20-50 unidades. Los pilotos parten de 20-50 unidades sobre modelos existentes.'
+    - q: ¿Cuál es el plazo típico de un pedido OEM?
+      a: 'La producción corre en 25-35 días desde el pedido confirmado y el depósito. El desarrollo de utillaje a medida añade 15-20 días. Las muestras de prototipo suelen enviarse en 7-12 días.'
+    - q: ¿Podéis fabricar solo a partir de mis planos?
+      a: 'Sí. OEM construye desde tu especificación tal cual - tú eres dueño del diseño. Nuestros ingenieros revisan los planos para viabilidad de producción, señalan cualquier conflicto de especificación antes de empezar el utillaje, y la muestra aprobada se convierte en la referencia de producción.'
+    - q: ¿Proporcionáis muestras antes de la producción?
+      a: 'Sí. Se produce y aprueba una muestra física antes de cualquier tirada, normalmente en 7-12 días, y es la referencia para todos los controles de calidad posteriores.'
+    - q: ¿Qué certificaciones tiene la fábrica?
+      a: 'CE (EN ISO 12100, Directiva de Máquinas 2006/42/CE), ISO 9001:2015, ISO 14001 y RoHS. Con cada envío OEM se entrega documentación completa de cumplimiento, preparada para tus mercados objetivo.'
+    - q: ¿Cómo se controla la calidad en una tirada OEM?
+      a: 'La producción corre bajo control de calidad multipunto - material entrante, proceso e inspección final - con ensayo de fuerza de apriete, verificación de dureza de mandíbula (58-62 HRC), controles de torque de giro, pruebas de durabilidad de más de 10.000 ciclos, ensayo de salinidad de más de 48 horas e inspección de 7 etapas con trazabilidad ERP.'
+    - q: ¿Cuáles son vuestros términos de envío?
       a: 'FOB Qingdao, CIF a los principales puertos globales, o DDP para socios cualificados. Enviamos a más de 50 países en los mercados de la UE, EE. UU., AU y Asia.'
 
 process:
-  title: 'El proceso OEM — De la especificación al contenedor enviado'
-  subtitle: 'Siete fases controladas dirigidas por un solo equipo de fábrica, para que cada paso desde tu primera especificación hasta el contenedor embalado quede documentado y a tiempo.'
+  title: 'El proceso OEM - De la especificación al pedido enviado'
+  subtitle: 'Siete fases controladas dirigidas por un solo equipo de fábrica, para que cada paso desde tu primera especificación hasta el cartón embalado quede documentado y a tiempo.'
   steps:
     - phase: '01'
       title: Revisión de especificación y presupuesto
-      period: 1 día laborable
+      period: 1 día hábil
       items:
-        - 'Comparte tus planos, especificación o tablas de referencia — nuestros ingenieros comprueban la fabricabilidad.'
-        - 'Recibes un presupuesto detallado y un plan de proyecto en un día laborable.'
+        - 'Comparte tus planos, especificación o tornillo de referencia - nuestros ingenieros comprueban la fabricabilidad.'
+        - 'Recibes un presupuesto detallado y un plan de proyecto en un día hábil.'
     - phase: '02'
       title: Confirmación de ingeniería
       period: Semana 1
       items:
-        - 'Las dimensiones del casco, la calidad del drop-stitch, las especificaciones de PVC y la construcción del raíl se confirman contra tu documento.'
-        - 'Se cierran las decisiones de molde o plataforma — el utillaje del molde a medida empieza aquí cuando se requiere.'
+        - 'Las dimensiones del cuerpo, especificación de mandíbula, calidades de material y construcción giratoria se confirman contra tu documento.'
+        - 'Se cierran las decisiones de patrón o utillaje - el desarrollo de patrón a medida empieza aquí cuando se requiere.'
     - phase: '03'
       title: Prototipo y muestra
-      period: 7–12 días
+      period: 7-12 días
       items:
-        - 'Se produce una muestra física y se envía para tu revisión — pruebas en el agua incluidas para formas nuevas.'
-        - 'La muestra (1–2 unidades) valida tu especificación antes de cualquier compromiso de volumen.'
+        - 'Se produce una muestra física y se envía para tu revisión - comprobaciones dimensionales y de dureza incluidas.'
+        - 'La muestra (1-2 unidades) valida tu especificación antes de cualquier compromiso de volumen.'
     - phase: '04'
       title: Ensayos y validación
       period: En paralelo
       items:
-        - 'Controles de retención de aire, presión, resistencia de costuras, carga y UV por línea de producción.'
-        - 'Documentación CE, ISO 9001, BSCI, REACH y RoHS preparada para tus mercados de exportación.'
+        - 'Ensayos de fuerza de apriete, dureza de mandíbula, torque de giro, más de 10.000 ciclos de durabilidad y más de 48 horas de salinidad por línea de producción.'
+        - 'Documentación CE, ISO 9001:2015, ISO 14001 y RoHS preparada para tus mercados de exportación.'
     - phase: '05'
       title: Aprobación y confirmación
       period: Tras el visto bueno de la muestra
@@ -120,10 +120,10 @@ process:
         - 'Un plan de preproducción confirma fechas, cantidades, embalaje y puerto de carga.'
     - phase: '06'
       title: Producción
-      period: 25–35 días
+      period: 25-35 días
       items:
-        - 'La producción corre bajo control de calidad multipunto — material entrante, proceso e inspección final.'
-        - 'Desde pedidos piloto (20–50 unidades) sobre plataformas existentes hasta lotes completos de 150 m (90–100+ unidades) para volumen estándar.'
+        - 'La producción corre bajo control de calidad multipunto - material entrante, proceso e inspección final.'
+        - 'Desde pedidos piloto (20-50 unidades) sobre modelos existentes hasta lotes completos (50-200 unidades) para volumen estándar.'
     - phase: '07'
       title: Embalaje y envío
       period: 1 día + tránsito
@@ -133,17 +133,17 @@ process:
 
 geo:
   tagline: Con quién trabajamos
-  title: Socios OEM en toda la industria del SUP
-  sentence: 'Cada proyecto OEM en SUPsfactory se asigna a un equipo que ya ha construido tablas para el mismo tipo de negocio — estos son a quienes servimos.'
+  title: Socios OEM en toda la industria del tornillo
+  sentence: 'Cada proyecto OEM en Stavalk se asigna a un equipo que ya ha fabricado tornillos para el mismo tipo de negocio - estos son a quienes servimos.'
   audiences:
-    - 'Marcas de SUP'
-    - 'Empresas de outdoor y deportes acuáticos'
-    - 'Distribuidores y minoristas'
-    - 'Resorts, clubes y organizaciones'
+    - 'Marcas de herramientas e hardware'
+    - 'Distribuidores de equipos industriales'
+    - 'Importadores mayoristas y minoristas'
+    - 'Proveedores de talleres y garajes'
 
 cta:
-  title: '¿Listo para producir tu línea de SUP?'
-  subtitle: 'Recibe un presupuesto OEM detallado en un día laborable — envía tu especificación o planos.'
+  title: '¿Listo para producir tu línea de tornillos?'
+  subtitle: 'Recibe un presupuesto OEM detallado en un día hábil - envía tu especificación o planos.'
   actions:
     - variant: primary
       text: Solicitar un presupuesto OEM
@@ -154,11 +154,11 @@ cta:
       href: /es/quality
     - text: Guía de MOQ y branding flexible
       href: /es/oem-moq-guide
-    - text: Desglose de MOQ y plazos para SUP personalizados
-      href: /es/sup-oem-moq-lead-time
+    - text: Comparación de Series de Tornillos
+      href: /es/products
     - text: Lanza una nueva marca con un pedido de prueba
       href: /es/new-brand-trial-order
-    - text: Comparación de Construcción SUP
-      href: /es/sup-construction-comparison
-    - text: Cumplimiento SUP por Mercado
-      href: /es/sup-compliance-by-market
+    - text: Desglose de capacidad y plazos
+      href: /es/factory/capacity
+    - text: Cumplimiento de Tornillos por Mercado
+      href: /es/quality

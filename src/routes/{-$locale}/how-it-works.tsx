@@ -63,7 +63,7 @@ function WorksPage() {
       </section>
 
       <CtaBand />
-      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('sup.nav.process'), path: '/how-it-works' }])} />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('bench.nav.process'), path: '/how-it-works' }])} />
     </MarketingShell>
   )
 }

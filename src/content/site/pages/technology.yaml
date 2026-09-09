@@ -1,53 +1,46 @@
-meta:
-  title: 'Technology — Drop Stitch & Marine PVC | {SITE}'
-  description: 'Afarer technologies: drop stitch construction, marine PVC, double-layer builds, and high pressure. Innovation from a professional inflatable SUP manufacturer.'
-  dateModified: '2026-08'
+﻿meta:
+  title: 'Technology — Casting, Machining, Heat Treatment & Coating | {SITE}'
+  description: 'Stavalk bench vise technologies: green sand casting, CNC machining, oil-quench heat treatment and surface coating. Innovation from a professional bench vise manufacturer.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'sup technology'
-    - 'drop stitch construction'
-    - 'high pressure sup'
-    - 'inflatable sup materials'
+    - 'bench vise technology'
+    - 'gray cast iron casting'
+    - 'jaw hardness heat treatment'
+    - 'bench vise materials'
 hero:
   tagline: Technology
-  title: Built for Performance
-  subtitle: Every Afarer inflatable SUP is engineered with drop-stitch construction and marine-grade PVC —precision materials and manufacturing methods tested for demanding marine environments.
-
+  title: Built for Precision and Strength
+  subtitle: Every Stavalk bench vise is engineered through green-sand and resin-sand casting, CNC machining, oil-quench heat treatment and precision coating — production methods tested for clamping force, durability and hardness.
+  actions:
+    - variant: primary
+      text: R&D Center
+      href: /randdcenter
 sections:
-  - title: Drop-Stitch Core
-    description: Thousands of internal polyester threads connect the top and bottom layers, creating a rigid structure at 12-15 PSI. This is the same technology used in professional paddle boards and inflatable racing SUPs.
-    imageAlt: DS Core Diagram
-  - title: Marine-Grade PVC
-    description: Multi-layer laminated PVC fabric rated for marine environments. Each layer is fusion-welded rather than glued, eliminating delamination risks. Tested for UV resistance, saltwater corrosion, and abrasion.
-    imageAlt: PVC Layer
-  - title: Military-Grade PVC
-    description: Used on all SUP models, premium PVC provides superior UV and chemical resistance. Maintains flexibility in extreme temperatures and resists degradation.
-    imageAlt: PVC
-  - title: Air Deck Floor
-    description: High-pressure inflatable drop-stitch construction providing exceptional rigidity for standing, fishing, and yoga. Reduces setup time, overall weight, and storage volume.
-    imageAlt: Air Deck
-
+  title: The Processes Behind a Stavalk Vise
+  subtitle: Four production technologies combine to deliver consistent clamping force, jaw hardness and corrosion resistance in every series.
+  items:
+    - title: Sand Casting Process
+      description: HT200/HT250 gray cast iron bodies are poured through green-sand and resin-sand lines, validated per spec with a spectrometer. The result is a strong, vibration-damping body that is the backbone of every vise.
+      link: /technology/sand-casting-process
+      link_label: Read article
+    - title: CNC Machining Precision
+      description: Jaw faces, spindles and bases are machined on CNC lathes and milling centers for consistent dimensional accuracy, with CMM and caliper metrology verifying every critical dimension.
+      link: /technology/cnc-machining-precision
+      link_label: Read article
+    - title: Heat Treatment Jaw Hardness
+      description: GCr15 and Cr12MoV hardened steel jaws are oil-quenched and tempered to 58–62 HRC, verified by Rockwell hardness testing for wear resistance and long service life.
+      link: /technology/heat-treatment-jaw-hardness
+      link_label: Read article
+    - title: Surface Coating & Finishing
+      description: Spray paint, powder coat and Parkerizing lines protect bodies and jaws from corrosion and wear. Finishes are salt-spray tested for 48+ hours to confirm durability.
+      link: /technology/surface-coating-and-finishing
+      link_label: Read article
 related:
   title: Related
-  links:
-    - text: R&D Center
-      url: /randdcenter
-    - text: Quality Testing
-      url: /quality
-    - text: Safety Standards
-      url: /quality
-    - text: Warranty
-      url: /warranty
-    - text: Commercial Workboats
-      url: https://afarer.com/commercial-workboats
-    - text: Search & Rescue
-      url: https://afarer.com/search-and-rescue
-    - text: Tourism & Recreation
-      url: /tourism-recreation
-    - text: Disaster Relief
-      url: https://afarer.com/disaster-relief-humanitarian-aid
-    - text: Maritime Safety & Defense
-      url: https://afarer.com/maritime-safety-defense
-    - text: Guides
-      url: /knowledge
-    - text: Products
-      url: /products
+  body: |
+    - [R&D Center](/randdcenter) — engineering, material science and tooling development
+    - [Quality & Testing](/quality) — the tests behind every Stavalk bench vise
+    - [Warranty](/warranty) — coverage and claims process
+    - [Knowledge](/knowledge) — workholding guides and size advice
+    - [Products](/products) — browse bench vise series by size and duty
+    - [Size Guide](/size-guide) — how to choose jaw width

@@ -13,18 +13,18 @@ export function HowItWorks() {
   const fl = useLocalizePath()
 
   const deepLinks = [
-    { label: t('sup.nav.manufacturingDropdown.quality'), href: '/quality' },
-    { label: t('sup.nav.manufacturingDropdown.qualityInspection'), href: '/factory/quality-inspection' },
-    { label: t('sup.nav.manufacturingDropdown.changeControl'), href: '/factory/quality-change-control' },
-    { label: t('sup.nav.manufacturingDropdown.nonConformingControl'), href: '/factory/non-conforming-control' },
-    { label: t('sup.footer.factoryCapacity'), href: '/factory/capacity' },
-    { label: t('sup.nav.oemDropdown.trust'), href: '/oem-trust-assurance' },
-    { label: t('sup.nav.caseStudiesDropdown.projects'), href: '/projects' },
+    { label: t('bench.nav.manufacturingDropdown.quality'), href: '/quality' },
+    { label: t('bench.nav.manufacturingDropdown.qualityInspection'), href: '/factory/quality-inspection' },
+    { label: t('bench.nav.manufacturingDropdown.changeControl'), href: '/factory/quality-change-control' },
+    { label: t('bench.nav.manufacturingDropdown.nonConformingControl'), href: '/factory/non-conforming-control' },
+    { label: t('bench.footer.factoryCapacity'), href: '/factory/capacity' },
+    { label: t('bench.nav.oemDropdown.trust'), href: '/oem-trust-assurance' },
+    { label: t('bench.nav.caseStudiesDropdown.projects'), href: '/projects' },
   ]
 
   const pdfLinks = [
-    { label: t('sup.nav.oemDropdown.trustPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf` },
-    { label: t('sup.nav.oemDropdown.moqPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/flexible-branding-and-moq-guide.pdf` },
+    { label: t('bench.nav.oemDropdown.trustPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf` },
+    { label: t('bench.nav.oemDropdown.moqPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/flexible-branding-and-moq-guide.pdf` },
   ]
 
   return (

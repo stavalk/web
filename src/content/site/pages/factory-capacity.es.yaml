@@ -1,34 +1,29 @@
-meta:
-  title: 'Capacidad de producción — Fábrica de 12.500 m² | {SITE}'
-  description: 'La capacidad de la fábrica de Afarer: 12.500 m² que producen más de 120.000 tablas de SUP al año. Fabricación OEM/ODM a gran escala.'
-  dateModified: '2026-08-07'
+﻿meta:
+  title: 'Capacidad de producción — Fábrica de 8.000 m² | {SITE}'
+  description: 'Capacidad de la fábrica de Stavalk: instalación de 8.000 m² que produce más de 80.000 tornillos de banco al año, con margen para escalar. Fabricación OEM/ODM a gran escala de tornillos de banco.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'capacidad de producción de sup'
-    - 'fábrica de SUP hinchables'
-    - 'producción de paddle boards'
-    - 'fábrica de sup china'
+    - 'capacidad de producción de tornillos de banco'
+    - 'fábrica de tornillos de banco'
+    - 'fabricación de tornillos de banco'
+    - 'fábrica de tornillos de banco china'
 hero:
   tagline: Capacidad de producción
   title: Capacidad de fabricación y producción anual
-  subtitle: 'Instalación de 12.500 m² que produce más de 120.000 tablas de SUP al año, con margen para escalar'
+  subtitle: 'Instalación de 8.000 m² que produce más de 80.000 tornillos de banco al año, con margen para escalar'
 
-answer:
-  label: 'Respuesta directa'
-  text: 'Capacidad de la fábrica: 12.500 m² repartidos en cuatro talleres especializados, más de 120.000 tablas de SUP al año, más de 350 trabajadores en dos turnos y exportación a más de 50 países. El MOQ se confirma según la configuración del proyecto — muestra (1–2 unidades), piloto (20–50 unidades) y volumen estándar (90–100+ unidades por rollo de 150 m); consulta nuestra Guía de MOQ y Branding Flexible para la lógica completa. Plazo de entrega de 25–35 días y muestras en 7–12 días.'
-  verified: '2026-08'
-
-intro: Afarer opera una de las instalaciones dedicadas más grandes de fabricación de SUP hinchables en Qingdao, China. Nuestra fábrica de 12.500 m² está organizada en cuatro talleres especializados que trabajan en paralelo, lo que nos da la capacidad de producir más de 120.000 tablas al año en las líneas de SUP y equipo de seguridad.
+intro: Stavalk opera una fábrica autosuficiente de 8.000 m² en Qingdao (China). La fundición en arena, el mecanizado CNC, el temple por inducción, el acabado de superficies, el ensamblaje de platos giratorios y el embalaje de exportación se gestionan en casa, con capacidad para más de 80.000 tornillos de banco al año.
 
 highlights:
-  - value: 12,500 m2
+  - value: 8,000 m²
     label: Superficie total de fabricación
     detail: En 4 talleres especializados
-  - value: 120,000+
-    label: Tablas producidas al año
-    detail: SUP y equipo de seguridad
-  - value: 350+
+  - value: 80,000+
+    label: Tornillos producidos al año
+    detail: Series ligera, media, pesada, de tubo y especial
+  - value: 200+
     label: Plantilla cualificada
-    detail: Más de 25 ingenieros, 2 turnos al día
+    detail: Más de 20 ingenieros, 2 turnos al día
   - value: 50+
     label: Países de exportación
     detail: UE, EE. UU., AU, Oriente Medio, Asia
@@ -40,22 +35,22 @@ highlights:
     detail: Desde 2012
 
 workshops:
-  - title: Producción de tablas de SUP
-    description: '4 líneas de ensamblaje automatizadas para tablas de SUP hinchables con una producción combinada de unas 10.000 tablas al mes. Las estaciones de impresión digital y serigrafía funcionan simultáneamente. Capacidad anual de SUP: más de 120.000 tablas.'
-    output: 'Más de 120.000 SUP al año'
-  - title: Producción de tablas de SUP
-    description: 'Capacidad de producción ampliada para tablas de SUP con líneas de ensamblaje adicionales. La unión de núcleos drop-stitch, la impresión digital y las estaciones de ensamblaje funcionan en paralelo.'
-    output: 'Capacidad de SUP ampliada'
-  - title: Tablas y accesorios SUP
-    description: 'Líneas de producción polivalentes para tablas de SUP y accesorios. Las estaciones de soldadura de aire caliente, las prensas dieléctricas RF y los puestos de ensamblaje se reconfiguran según la mezcla de pedidos. Capacidad anual: más de 5.000 unidades.'
-    output: 'Más de 5.000 unidades al año'
-  - title: Equipo de seguridad
-    description: 'Área de producción de sala limpia independiente para chalecos salvavidas y equipo de seguridad. Estaciones dedicadas de costura, inserción de espuma y ensayos. Capacidad anual de chalecos salvavidas: más de 50.000 unidades.'
-    output: 'Más de 50.000 chalecos salvavidas al año'
+  - title: Taller de fundición
+    description: 'Línea automática de fundición en arena que produce cuerpos, deslizaderas y bases de hierro gris HT200/HT250. La fusión, la colada, el desmoldeo y el granallado se ejecutan en paralelo con muestreo QC por colada. Capacidad anual de fundición: más de 80.000 unidades.'
+    output: 'Más de 80.000 piezas fundidas al año'
+  - title: Taller de mecanizado CNC
+    description: 'Centros de mecanizado y tornos CNC para cuerpos, deslizaderas, husillos y asientos de mordaza, con roscado sobre acero forjado 45#. El mecanizado corre en paralelo con el tratamiento térmico para un flujo continuo.'
+    output: 'Capacidad de mecanizado ampliada'
+  - title: Línea de tratamiento térmico y acabado
+    description: 'Endurecimiento por inducción de mordazas GCr15 / Cr12MoV a 58–62 HRC, además de líneas de recubrimiento electrostático en polvo y galvanizado en zinc. Todas las estaciones de acabado se reconfiguran según la mezcla de pedidos. Capacidad anual: más de 80.000 unidades.'
+    output: 'Más de 80.000 unidades al año'
+  - title: Ensamblaje, mordazas de tubo y embalaje
+    description: 'Área de ensamblaje dedicada a platos giratorios, juegos de mordazas de tubo (cadena y trípode), montaje de husillo/guía y ajuste final, además de estaciones de embalaje de exportación. Capacidad anual de ensamblaje: más de 80.000 unidades.'
+    output: 'Más de 80.000 tornillos al año'
 
 oem_capacity:
-  moq: 'SUP: muestra 1–2 | piloto 20–50 | volumen 90–100+ (por rollo de 150 m)'
-  lead_time: 'Estándar de 25–35 días. Muestras en 7–12 días. Acelerado disponible.'
+  moq: 'Modelos estándar 50–200 | pesados/especiales 20–50 uds. por modelo'
+  lead_time: 'Estándar de 25–35 días. Muestras en 7–14 días. Acelerado disponible.'
   payment: 'T/T 30% de depósito + 70% de saldo. Se aceptan L/C y Western Union.'
 
 lead_time_explainer:
@@ -64,22 +59,22 @@ lead_time_explainer:
   subtitle: 'La capacidad no es un número único: así se asignan realmente los plazos.'
   items:
     - title: 'La capacidad varía según tu especificación'
-      body: 'Los huecos disponibles cambian según el tipo de tabla, la complejidad de construcción, el packaging y la demanda estacional. Durante el pico de primavera/verano, las líneas están al máximo y los huecos de muestras se reservan primero.'
+      body: 'Los huecos disponibles cambian según el modelo de tornillo, la anchura de mordaza, la complejidad del recubrimiento y el acabado, el packaging y la demanda estacional. Durante el pico de primavera/verano, las líneas están al máximo y los huecos de muestras se reservan primero.'
     - title: 'Planifica antes de tu temporada de lanzamiento'
-      body: 'Fija pronto la confirmación de muestras y el cierre de arte. Los pedidos repetidos se programan en tu hueco recurrente acordado una vez archivada la muestra dorada.'
+      body: 'Fija pronto la confirmación de muestras y el cierre de recubrimiento/acabado. Los pedidos repetidos se programan en tu hueco recurrente acordado una vez archivada la muestra dorada.'
     - title: 'Tres vías de programación'
       body: 'Las muestras entran primero en la línea de prototipos, los pedidos iniciales se colocan en la ventana de ensamblaje abierta más próxima y los pedidos repetidos se ejecutan en su hueco recurrente.'
     - title: 'Plazos firmes tras la revisión'
-      body: 'Confirmamos un plazo firme solo después de revisar especificación, arte, packaging y cantidad — nunca como una promesa fija a priori.'
+      body: 'Confirmamos un plazo firme solo después de revisar especificación, patrón de fundición, recubrimiento, packaging y cantidad — nunca como una promesa fija a priori.'
 
 cta:
   title: 'Comprueba la disponibilidad de producción para tu fecha de lanzamiento'
-  subtitle: 'Envía tu tipo de tabla, cantidad y fecha de lanzamiento objetivo — respondemos con la próxima ventana de producción abierta y una estimación de plazo firme.'
+  subtitle: 'Envía tu modelo de tornillo, cantidad y fecha de lanzamiento objetivo — respondemos con la próxima ventana de producción abierta y una estimación de plazo firme.'
   actions:
     - variant: primary
       text: Comprobar disponibilidad
       href: /es/contact#production-availability
     - text: Ver el resumen completo de la fábrica
       href: /es/factory
-    - text: Cómo se fabrican las tablas
+    - text: Cómo se fabrican los tornillos
       href: /es/factory/process

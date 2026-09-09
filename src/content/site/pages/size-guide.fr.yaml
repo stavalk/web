@@ -1,86 +1,84 @@
-meta:
-  title: 'Guide des tailles et specs SUP — Planches à pagaie gonflables | {SITE}'
-  description: 'Dimensions, capacités et usages recommandés pour chaque planche Afarer. Trouvez la bonne taille de SUP gonflable pour vos besoins.'
-  dateModified: '2026-08'
+﻿meta:
+  title: 'Guide des tailles de serre-joint — Largeur de mâchoire et spécifications | {SITE}'
+  description: 'Dimensions, gammes de poids et usages recommandés pour chaque serre-joint Stavalk. Trouvez la largeur de mâchoire adaptée à votre établi et à votre pièce.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'guide des tailles sup'
-    - 'dimensions planche à pagaie'
-    - 'specs sup gonflable'
-    - 'tableau des tailles sup'
-
+    - 'guide tailles serre-joint'
+    - 'largeur mâchoire serre-joint'
+    - 'dimensions serre-joint'
+    - 'tableau tailles serre-joint'
 hero:
-  title: Guide des tailles et specs
-  subtitle: Dimensions, capacités et usages recommandés pour chaque produit Afarer.
-
-categories:
-  inflatable: SUP gonflables conçus pour la portabilité sans sacrifier la performance. Associez la bonne taille à votre poids et votre style de pagaie.
-  sup: Planches stand-up paddle pour le touring, le yoga, le fitness et la pagaie récréative. Choisissez selon la longueur et le poids du pagayeur.
-  accessory: Accessoires et équipements de sécurité pour compléter votre planche SUP. Tailles universelles avec plusieurs options.
-
-table:
-  headers:
-    product: Produit
-    length: Longueur
-    width: Largeur
-    weight: Poids
-    max_load: Charge max.
-    best_for: Idéal pour
-  rows:
-    - product: 'SUP tout-terrain (Explorer 11 pi)'
-      length: '11''0" (335 cm)'
-      width: '32" (81 cm)'
-      weight: 19 lbs (8,6 kg)
-      max_load: 220 lbs (100 kg)
-      best_for: Débutants, récréation, pagaie en famille sur lacs et rivières calmes
-    - product: 'SUP tout-terrain (10''6")'
-      length: '10''6" (320 cm)'
-      width: '32" (81 cm)'
-      weight: 18 lbs (8,2 kg)
-      max_load: 200 lbs (90 kg)
-      best_for: Pagayeurs plus légers, yoga et récréation générale
-    - product: 'SUP touring (12 pi)'
-      length: '12''0" (366 cm)'
-      width: '30" (76 cm)'
-      weight: 23 lbs (10,4 kg)
-      max_load: 260 lbs (118 kg)
-      best_for: Pagaie en distance, vitesse et touring côtier
-    - product: 'SUP touring (14 pi)'
-      length: '14''0" (427 cm)'
-      width: '28" (71 cm)'
-      weight: 26 lbs (11,8 kg)
-      max_load: 275 lbs (125 kg)
-      best_for: Course et expéditions en longue distance
-    - product: 'SUP surf (8–10 pi)'
-      length: '8''0"–10''0" (244–305 cm)'
-      width: '30" (76 cm)'
-      weight: 17 lbs (7,7 kg)
-      max_load: 180 lbs (82 kg)
-      best_for: Surf et maniabilité en vague
-    - product: 'SUP yoga / fitness (11 pi)'
-      length: '11''0" (335 cm)'
-      width: '34" (86 cm)'
-      weight: 22 lbs (10 kg)
-      max_load: 240 lbs (109 kg)
-      best_for: Yoga, fitness et récréation stable
-
-how_to_choose:
-  title: Comment choisir la bonne taille
-  cards:
-    - title: Planches SUP
-      description: Choisissez la longueur selon votre poids et votre usage prévu. Les planches plus larges (32"+) offrent plus de stabilité. Les planches plus longues (11-12 pi) tiennent mieux leur cap pour le touring. Les pagayeurs lourds ont besoin de planches à plus grand volume.
-    - title: SUP touring
-      description: Les planches plus longues (11–12 pi) sont idéales pour couvrir de la distance et le touring. Les planches plus larges (32"+) offrent plus de stabilité. Vérifiez la capacité de charge pour la charge totale incluant l'équipement.
-    - title: SUP tout-terrain
-      description: Choisissez la longueur selon le poids du pagayeur et l'usage prévu. Les planches tout-terrain conviennent à la récréation, au fitness et au yoga. Les planches plus petites sont plus maniables.
-
-cta:
-  title: 'Parcourez les planches par taille, ou parlez à un ingénieur'
-  subtitle: 'Comparez les modèles touring, tout-terrain et yoga dans notre gamme de produits — ou envoyez votre mix de pagayeurs et nous recommanderons les bonnes tailles pour votre projet.'
+  title: Guide des tailles de serre-joint
+  subtitle: Largeur de mâchoire, ouverture, poids et usages recommandés pour chaque serre-joint Stavalk.
   actions:
     - variant: primary
-      text: Parcourir les produits SUP
+      text: Voir les séries de serre-joints
       href: /fr/products
-    - text: Plus de connaissances sur la pagaie
+categories:
+  title: Catégories de tailles
+  subtitle: Faites correspondre la série de mâchoires à votre établi et à votre plus grande pièce de travail habituelle.
+  items:
+    - title: Léger — 4″–5″
+      description: Serre-joints à mâchoires remplaçables pour l''électronique, la joaillerie, l''artisanat, le petit travail du bois et les maquettes. Compacts, portables et doux pour les petites pièces.
+    - title: Moyen — 6″–8″
+      description: Le choix le plus polyvalent pour la métallurgie générale, la réparation auto, la fabrication et le travail du bois. Couvre la plupart des besoins d''ateliers et de garages à un poids raisonnable.
+    - title: Lourd — 8″–10″
+      description: Corps en acier forgé, faces d''enclume et force de serrage maximale pour la plomberie, le travail naval, la maintenance minière et la fabrication lourde.
+    - title: Serre-joint à tuberie
+      description: Mâchoires en V trempées et dentelées qui acceptent les tuyaux de 1/8″–2″ pour une prise sûre et sans glissement sur le stock rond.
+table:
+  title: Tableau de référence des tailles
+  headers:
+    duty: Catégorie
+    jaws: Largeur de mâchoire
+    opening: Ouverture
+    weight: Poids
+    suited: Idéal pour
+  rows:
+    - duty: Léger
+      jaws: 4″–5″
+      opening: 3″–4″
+      weight: 3–5 kg
+      suited: Électronique, joaillerie, artisanat, maquettes, petit travail du bois
+    - duty: Moyen
+      jaws: 6″–8″
+      opening: 4″–7″
+      weight: 5–8 kg
+      suited: Métallurgie générale, réparation auto, fabrication, travail du bois
+    - duty: Lourd
+      jaws: 8″–10″
+      opening: 7″–10″
+      weight: 8–14 kg
+      suited: Plomberie, travail naval, maintenance minière, fabrication lourde
+    - duty: Tuyau
+      jaws: —
+      opening: tuyau de 1/8″–2″
+      weight: 6–12 kg
+      suited: Stock rond — tuyaux, barres et filetage de tubes
+how_to_choose:
+  title: Comment choisir la bonne taille
+  body: |
+    Faites correspondre la largeur de mâchoire à votre établi et à votre plus grande pièce de travail habituelle :
+
+    - **Largeur de mâchoire** détermine la pièce maximale que vous pouvez maintenir en toute sécurité. Un serre-joint léger de 4″–5″ convient au travail de loisir et de petite taille ; le moyen 6″–8″ couvre la plupart des ateliers ; le lourd 8″–10″ est pour la fabrication industrielle.
+    - **Gamme d''ouverture** doit dépasser votre plus grand matériau. Vérifiez l''ouverture maximale par rapport à votre stock le plus épais avant de choisir une série.
+    - **Poids et établi** — les serre-joints légers font 3–5 kg, les moyens 5–8 kg, les lourds 8–14 kg. Renforcez le dessus de l''établi pour les serre-joints lourds.
+    - **Montage** — faites correspondre la taille des boulons (typiquement 4–12 mm) et l''espacement avec votre établi. Une base pivotante à 360° ajoute de la flexibilité de serrage ; une base fixe est plus rigide pour les martèlements lourds.
+    - **Mâchoires à tuberie** — si vous tenez régulièrement du stock rond, choisissez un modèle avec mâchoires à tuberie ou un serre-joint dédié acceptant les tuyaux de 1/8″–2″.
+
+    ### Choix courants
+    - Travail petit et de précision → 4″–5″ léger avec mâchoires remplaçables
+    - Usage général d''atelier → 6″ moyen
+    - Travail lourd et industriel → 8″–10″ lourd avec face d''enclume
+    - Stock rond → mâchoires à tuberie ou serre-joint dédié
+cta:
+  title: 'Parcourez les serre-joints par taille, ou parlez à un ingénieur'
+  subtitle: 'Comparez les modèles légers, moyens et lourds dans notre gamme — ou envoyez votre mix de pièces et nous recommanderons les largeurs de mâchoire adaptées à votre projet.'
+  actions:
+    - variant: primary
+      text: Voir les séries de serre-joints
+      href: /fr/products
+    - text: Plus de connaissances sur le maintien du travail
       href: /fr/knowledge
-    - text: Comment les planches sont construites
-      href: /fr/factory/process
+    - text: Comment les serre-joints sont fabriqués
+      href: /fr/quality

@@ -1,348 +1,349 @@
 meta:
-  title: 'Contrôle et validation des modifications de paramètres de reprise | SUPsfactory'
-  description: 'Contrôle des modifications de paramètres de reprise selon ISO 9001 : ECR, classification des risques, matrice d''approbation, validation et ré-inspection pour la production de SUP.'
-  dateModified: '2026-08-14'
+  title: 'Maîtrise des Changements de Paramètres de Retouche et Validation | Stavalk'
+  description: 'Maîtrise des modifications de paramètres de retouche selon ISO 9001 : ECR, classification des risques, matrice d’approbation, validation et contre-inspection pour la production d’étaux d’établi.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'contrôle modifications reprise sup'
-    - 'iso 9001 contrôle modifications fabrication'
-    - 'management qualité oem sup gonflable'
-    - 'ecr demande modification ingénierie sup'
-    - 'norme validation étanchéité à l''air'
-    - 'assurance qualité usine sup'
+    - 'maîtrise des changements de retouche étau'
+    - 'maîtrise des changements iso 9001 fabrication'
+    - 'gestion qualité oem étau d’établi'
+    - 'ecr demande de changement d’ingénierie étau'
+    - 'norme de validation de dureté'
+    - 'assurance qualité usine d’étaux'
 
 hero:
-  tagline: Contrôle des modifications de paramètres de reprise
-  title: Norme de contrôle et de validation des modifications de paramètres de processus de reprise
-  subtitle: 'Chez QINGDAO VATRAD GROUP.,LTD., aucun opérateur, chef d''équipe ni service unique ne peut modifier sur place un paramètre de reprise approuvé. Toute modification proposée des matériaux de reprise approuvés, des conditions de processus, de l''outillage, des méthodes de test, des critères d''inspection ou du personnel autorisé est gérée par un contrôle documenté des modifications — demande de modification d''ingénierie, évaluation d''impact et de risque, approbation interfonctionnelle, plan de validation, mise en œuvre contrôlée, ré-inspection et revue d''efficacité, puis clôture et conservation des enregistrements. Cette page présente notre norme contrôlée QMS-SOP-QC-CC-001 (Rev 2.0, basée sur ISO 9001:2015) et les preuves d''ingénierie qui la soutiennent.'
+  tagline: Maîtrise des Changements de Paramètres de Retouche
+  title: Norme de Maîtrise des Changements de Paramètres de Retouche et de Validation
+  subtitle: 'Chez Stavalk, aucun opérateur, chef d’équipe ou service individuel ne peut modifier un paramètre de retouche approuvé sur-le-champ. Tout changement proposé aux matériaux de retouche approuvés, conditions de procédé, outillage, méthodes d’essai, critères d’inspection ou personnel autorisé est géré par une maîtrise des changements documentée — Demande de Changement d’Ingénierie, évaluation d’impact et de risque, approbation plurifonctionnelle, plan de validation, mise en œuvre contrôlée, contre-inspection et revue d’efficacité, puis clôture et conservation des enregistrements. Cette page présente notre norme contrôlée QMS-SOP-QC-CC-001 (Rev 2.0, basée sur ISO 9001:2015) et les preuves d’ingénierie qui la soutiennent.'
   actions:
-    - text: Télécharger la SOP de contrôle des modifications (PDF)
+    - text: Télécharger le SOP de Maîtrise des Changements (PDF)
       variant: primary
-      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
-    - text: Télécharger l'annexe d'exécution A (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
-    - text: Demander une revue qualité
+      href: 'https://assets.Stavalk.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Télécharger l’Annexe d’Exécution A (PDF)
+      href: 'https://assets.Stavalk.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Demander une Revue Qualité
       href: /fr/contact
 
 answer:
   label: 'Réponse directe'
-  text: 'Les modifications de paramètres de reprise ne sont jamais décidées verbalement ou rétroactivement chez QINGDAO VATRAD GROUP.,LTD. Chaque modification proposée des matériaux de reprise approuvés, des conditions de processus, de l''équipement, des méthodes de test, des critères d''inspection ou du personnel autorisé doit passer un contrôle documenté des modifications avant mise en œuvre : une demande de modification d''ingénierie (ECR) documentée, une évaluation d''impact et de risque, une revue interfonctionnelle par l''Ingénierie, la Qualité, la Production, les Achats et le Projet, une approbation au niveau fixé par notre matrice d''autorisation, un plan de validation approuvé pour les modifications à haut risque, une mise en œuvre pilote contrôlée, une ré-inspection et une revue d''efficacité, et une clôture uniquement après révision des documents et formation. Toute modification affectant les spécifications, échantillons, BOM, graphismes ou critères d''acceptation approuvés par le client exige en outre une approbation écrite du client.'
-  verified: '2026-08'
+  text: 'Les changements de paramètres de retouche ne sont jamais décidés verbalement ni rétroactivement chez Stavalk. Chaque changement proposé aux matériaux de retouche approuvés, conditions de procédé, équipements, méthodes d’essai, critères d’inspection ou personnel autorisé doit passer une maîtrise des changements formelle avant mise en œuvre : une Demande de Changement d’Ingénierie (ECR) documentée, une évaluation d’impact et de risque, une revue plurifonctionnelle par Ingénierie, Qualité, Production, Achats et Projets, une approbation au niveau fixé par notre matrice d’autorisation, un plan de validation approuvé pour les changements à haut risque, une mise en œuvre pilote contrôlée, une contre-inspection et une revue d’efficacité, puis une clôture après révision des documents et formation. Tout changement affectant des spécifications, échantillons, nomenclatures, œuvres ou critères d’acceptation approuvés par le client exige en outre son approbation écrite.'
+  verified: '2026-09'
 
 stats:
-  tagline: En un coup d'œil
-  title: Le contrôle des modifications en chiffres
+  tagline: En Un Coup d’Œil
+  title: La Maîtrise des Changements en Chiffres
   stats:
     - value: '9'
-      label: Étapes de la boucle fermée de contrôle des modifications
+      label: Étapes de la boucle fermée de maîtrise des changements
     - value: '6'
-      label: Catégories de modification exigeant un contrôle formel
+      label: Catégories de changement exigeant une maîtrise formelle
     - value: '4'
-      label: Processus de reprise principaux avec paramètres quantifiés
-    - value: '≥ 5'
-      label: Planches échantillons + 2 QC indépendants pour validation à haut risque
+      label: Procédés de retouche de base à paramètres quantifiés
+    - value: '≥5'
+      label: Étaux d’échantillon + 2 QC indépendants pour validation à haut risque
+
 
 cc_intro:
-  tagline: Périmètre et politique
-  title: Principes de gouvernance essentiels
+  tagline: Portée et Politique
+  title: Principes Fondamentaux de Gouvernance
   body: |
-    **Document :** QMS-SOP-QC-CC-001 — *Norme de contrôle des modifications de paramètres de processus de reprise* (Rev 2.0, publication officielle). **Fabricant :** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Référence de norme :** Systèmes de management de la qualité ISO 9001:2015.
+    **Document :** QMS-SOP-QC-CC-001 — *Norme de Maîtrise des Changements de Paramètres de Retouche* (Rev 2.0, Publication Officielle). **Fabricant :** Stavalk, fabricant d’étaux d’établi à Qingdao, Chine (district de Jimo). **Référence norme :** ISO 9001:2015 Systèmes de Management de la Qualité.
 
-    - **Aucune modification non contrôlée.** Les modifications de paramètres de reprise doivent passer par un contrôle formel des modifications. Les opérateurs sur site, les chefs d'équipe ou un service unique ne sont jamais autorisés à modifier des paramètres de reprise approuvés par accord verbal ou par écriture manuscrite sur un enregistrement de reprise.
-    - **Couverture complète des éléments.** Le périmètre contrôlé couvre l'étanchéité à l'air, les sièges de valves, les bandes de rail, l'assemblage des coutures, le durcissement à l'air chaud et le test de maintien de pression — chaque paramètre pouvant influencer l'étanchéité, la durabilité structurelle, l'apparence, l'acceptation client ou la traçabilité.
-    - **Ligne de base d'approbation client.** Toute modification qui éloigne un produit de l'échantillon approuvé par le client, de la spécification technique, de la BOM, des graphismes, de l'exigence d'emballage ou des critères d'acceptation n'est mise en œuvre qu'avec l'approbation écrite du client. Sans elle, la planche est reprise selon l'exigence d'origine, remplacée ou rejetée — jamais « assouplie » par l'usine seule.
+    - **Aucun changement non maîtrisé.** Les changements de paramètres de retouche doivent passer une maîtrise des changements formelle. Les opérateurs de l’atelier, les chefs d’équipe ou un seul service ne sont jamais autorisés à modifier des paramètres de retouche approuvés par accord verbal ou par annotation manuscrite sur un enregistrement de retouche.
+    - **Couverture complète des éléments.** La portée maîtrisée couvre la fonderie, le forgeage, l’usinage CNC, le traitement thermique, le revêtement de surface et l’assemblage — tout paramètre pouvant influencer la précision dimensionnelle, la dureté, la force de serrage, l’état de surface, l’acceptation du client ou la traçabilité.
+    - **Ligne rouge de l’approbation client.** Tout changement qui éloigne le produit de l’échantillon approuvé par le client, de la spécification technique, de la nomenclature, de l’œuvre, de l’exigence d’emballage ou du critère d’acceptation n’est mis en œuvre qu’avec l’approbation écrite du client. Sans elle, l’étau est retouché selon l’exigence d’origine, remplacé ou rejeté — jamais « assoupli » par la seule usine.
 
 cc_scope:
-  tagline: Classification des risques
-  title: Périmètre de modification et classification des risques
-  subtitle: Chacun des éléments suivants déclenche un contrôle formel des modifications — il n'est jamais traité en écrivant une note dans l'enregistrement de reprise. Le niveau de risque détermine qui approuve et la quantité de validation requise.
+  tagline: Classification des Risques
+  title: Portée du Changement et Classification des Risques
+  subtitle: 'L’un des éléments suivants déclenche une maîtrise des changements formelle — il n’est jamais géré en écrivant une note dans l’enregistrement de retouche. Le niveau de risque détermine qui approuve et à quel point la validation est exigée.'
   headers:
-    category: Catégorie de modification
-    examples: Exemples typiques
+    category: Catégorie de Changement
+    examples: Exemples Types
     risk: Risque
-    requirements: Exigences de contrôle et d'approbation
+    requirements: Exigences de Maîtrise et d’Approbation
   rows:
-    - category: 'Matériaux de reprise'
-      examples: 'Adhésif, nettoyant, matériau de patch, joint de valve, primaire ou changement de fournisseur'
+    - category: 'Matériaux de Retouche'
+      examples: 'Matériau de revêtement, abrasif, nuance d’acier de trempe, milieu de traitement thermique ou changement de fournisseur'
       risk: 'Élevé'
-      requirements: 'Revue interdépartementale + validation de compatibilité des matériaux et de maintien de pression + validation client le cas échéant'
-    - category: 'Conditions de processus'
-      examples: 'Préparation de surface, température/humidité de durcissement à l''air chaud, pression de serrage, durée de maintien'
+      requirements: 'Revue inter-services + validation de compatibilité du matériau et de dureté + accord client le cas échéant'
+    - category: 'Conditions de Procédé'
+      examples: 'Température/temps de maintien du traitement thermique, épaisseur de revêtement, pression de serrage, température de cuisson'
       risk: 'Élevé'
-      requirements: 'Approbation Ingénierie + Qualité avec validation de fenêtre de température et d''humidité définie'
-    - category: 'Outillage et jauges'
-      examples: 'Manomètres, détecteurs de fuite, pistolets thermiques, outils de valve, logiciels de test'
+      requirements: 'Approbation Ingénierie + Qualité avec validation de la fenêtre de température et de temps définie'
+    - category: 'Outillage et Instruments'
+      examples: 'Dynamomètres, duromètres, fours de traitement thermique, outillage CNC, clés dynamométriques'
       risk: 'Moyen/Élevé'
-      requirements: 'Contrôle de validité d''étalonnage + évaluation de l''aptitude de l''équipement'
-    - category: 'Périmètre du défaut'
-      examples: 'Extension de la zone de reprise ; micro-fuite de surface s''étendant vers les zones critiques du rail, de la couture ou du siège de valve'
+      requirements: 'Vérification de validité d’étalonnage + évaluation de l’aptitude de l’équipement'
+    - category: 'Étendue du Défaut'
+      examples: 'Extension de la zone de retouche ; défaut de surface progressant vers les zones critiques structurelles du corps ou des mâchoires'
       risk: 'Élevé'
-      requirements: 'Surfaces structurelles porteuses : arrêt obligatoire et ré-évaluation'
-    - category: 'Méthodes d''inspection'
-      examples: 'Méthode de détection de fuite, pression de test (18,0 PSI), durée de maintien (24 h)'
+      requirements: 'Surfaces portantes structurelles : arrêt obligatoire et réévaluation'
+    - category: 'Méthodes d’Inspection'
+      examples: 'Méthode d’essai de dureté, essai de force de serrage sous charge nominale, essai de couple de rotation'
       risk: 'Élevé'
-      requirements: 'Approbation Qualité + confirmation d''accord technique client'
-    - category: 'Documentation et autorisation'
-      examples: 'Instruction de reprise, feuilles d''inspection, logique de disposition NCR, qualification des opérateurs'
+      requirements: 'Approbation Qualité + confirmation de l’accord technique client'
+    - category: 'Documentation et Autorisation'
+      examples: 'Instruction de retouche, feuilles d’inspection, logique de disposition du NCR, qualification de l’opérateur'
       risk: 'Moyen'
-      requirements: 'Révision documentaire contrôlée (Rev A → Rev B) + enregistrements de formation'
+      requirements: 'Révision de document contrôlée (Rev A — Rev B) + enregistrements de formation'
 
 cc_containment:
-  tagline: Règle d'arrêt dur
-  title: Confinement immédiat quand les conditions deviennent sérieuses
+  tagline: Règle de Stop Net
+  title: Contention Immédiate Quand les Conditions s’Aggravent
   body: |
-    > « La méthode de reprise existante doit être placée sous revue et ne doit pas être appliquée à des produits affectés supplémentaires jusqu'à ce que la modification soit évaluée et autorisée, sauf si un écart temporaire documenté est approuvé par la Qualité et l'Ingénierie. »
+    > « La méthode de retouche existante doit être placée sous revue et ne doit pas être appliquée à des produits affectés supplémentaires tant que le changement n’est pas évalué et autorisé, sauf si une déviation temporaire documentée est approuvée par la Qualité et l’Ingénierie. »
 
-    La méthode de reprise actuelle doit être suspendue immédiatement lorsque la ré-inspection de reprise continue d'échouer, lorsque le défaut implique des zones structurelles porteuses (base de valve, rails, coutures, zones de pression nez/queue), lorsqu'un matériau de substitution n'est pas encore validé, ou lorsque les paramètres actuels entrent en conflit avec la spécification approuvée par le client.
+    La méthode de retouche actuelle doit être suspendue immédiatement lorsque la contre-inspection de la retouche échoue à répétition, lorsque le défaut touche des zones portantes structurelles (corps, mâchoires, filetages, faces de serrage), lorsqu’un matériau de substitution n’est pas encore validé, ou lorsque les paramètres actuels entrent en conflit avec la spécification approuvée par le client.
 
-    Les écarts temporaires ne deviennent jamais une pratique permanente : chacun porte une fenêtre de validité définie, un périmètre de lot applicable, un plafond de quantité, des exigences de validation et un mécanisme d'expiration automatique. Une exception verbale n'est pas une exception — si elle n'est pas documentée avec son expiration, elle n'existe pas.
+    Les déviations temporaires ne deviennent jamais une pratique permanente : chacune porte une fenêtre de validité définie, une portée de lot applicable, un plafond de quantité, des exigences de validation et un mécanisme d’expiration automatique. Une exception verbale n’est pas une exception — si elle n’est pas documentée avec sa date d’expiration, elle n’existe pas.
 
 cc_flow:
-  tagline: Boucle fermée standard en 9 étapes
-  title: De la demande de modification à la clôture et la conservation
-  subtitle: 'Une boucle documentée pour chaque modification de paramètre : proposer, filtrer, évaluer, approuver, valider, piloter, vérifier, réviser, clôturer.'
+  tagline: Boucle Fermée Standard en 9 Étapes
+  title: De la Demande de Changement à la Clôture et la Conservation
+  subtitle: 'Une boucle documentée pour chaque changement de paramètre : proposer, examiner, évaluer, approuver, valider, piloter, vérifier, réviser, clôturer.'
   steps:
     - step: '01'
-      title: Demande de modification (ECR)
-      desc: 'Tout service peut soumettre une demande, mais la direction Ingénierie, Qualité ou Production la parraine. L''ECR répond pourquoi la modification est proposée, ce qui change, ce qui est affecté et comment elle sera vérifiée — avec numéro de contrôle des modifications, NCR/CAPA connexes, paramètre actuel vs proposé, lots affectés et classification temporaire/permanente.'
+      title: Demande de Changement (ECR)
+      desc: 'Tout service peut déposer une demande, mais c’est l’Ingénierie, la Qualité ou la Direction de Production qui la parraine. L’ECR répond pourquoi le changement est proposé, ce qui change, ce qui est affecté et comment il sera vérifié — avec numéro de maîtrise des changements, NCR/CAPA associé, paramètre actuel vs proposé, lots affectés et classification temporaire/permanente.'
     - step: '02'
-      title: Filtrage initial et confinement
-      desc: 'La demande est d''abord filtrée pour le confinement immédiat : la méthode actuelle doit-elle s''arrêter maintenant ? Si un écart temporaire est autorisé, il est borné par la fenêtre de validité, le périmètre de lot, le plafond de quantité et l''expiration automatique.'
+      title: Examen Initial et Contention
+      desc: 'La demande est d’abord examinée pour la contention immédiate : la méthode actuelle doit-elle s’arrêter maintenant ? Si une déviation temporaire est autorisée, elle est bornée par la fenêtre de validité, la portée de lot, le plafond de quantité et l’expiration automatique.'
     - step: '03'
-      title: Évaluation d'impact et de risque
-      desc: 'L''Ingénierie, la Qualité, la Production, les Achats/Chaîne d''approvisionnement et le Projet évaluent la performance produit, les critères d''acceptation, la compatibilité des matériaux, l''apparence, la capacité de processus, l''équipement et les jauges, la qualification du personnel, les exigences client, la conformité et le périmètre de traçabilité.'
+      title: Évaluation d’Impact et de Risque
+      desc: 'L’Ingénierie, la Qualité, la Production, les Achats/Supply Chain et les Projets évaluent la performance du produit, les critères d’acceptation, la compatibilité des matériaux, l’état de surface, la capabilité du procédé, l’équipement et les instruments, la qualification du personnel, les exigences client, la conformité et la portée de traçabilité.'
     - step: '04'
-      title: Revue conjointe et approbation
-      desc: 'L''approbation suit la matrice d''autorisation fixe — pas « celui qui parle le plus fort ». Les modifications à haut risque exigent une approbation interdépartementale et, là où requis, une approbation écrite du client avant tout essai.'
+      title: Revue Conjointe et Approbation
+      desc: 'L’approbation suit la matrice d’autorisation fixe — pas « celui qui parle le plus fort ». Les changements à haut risque exigent une approbation inter-services et, le cas échéant, l’approbation écrite du client avant tout essai.'
     - step: '05'
-      title: Plan de validation
-      desc: 'Pour les modifications à haut risque, un plan de validation approuvé est requis avant application de routine : planches échantillons représentatives, méthode actuelle vs proposée, méthodes de test, critères d''acceptation, étapes d''inspection, personnes responsables et calendrier.'
+      title: Plan de Validation
+      desc: 'Pour les changements à haut risque, un plan de validation approuvé est exigé avant l’application de routine : étaux d’échantillon représentatifs, méthode actuelle vs proposée, méthodes d’essai, critères d’acceptation, étapes d’inspection, responsables et calendrier.'
     - step: '06'
-      title: Mise en œuvre pilote contrôlée
-      desc: 'Les nouveaux documents sont publiés et les versions obsolètes retirées et marquées OBSOLÈTES ; les nouveaux matériaux et jauges sont vérifiés et étalonnés ; les opérateurs sont formés et qualifiés ; le premier lot tourne sous inspection renforcée avec identification claire du statut.'
+      title: Pilote Contrôlé et Mise en Œuvre
+      desc: 'Les nouveaux documents sont publiés et les documents obsolètes retirés et marqués OBSOLÈTE ; les nouveaux matériaux et instruments sont vérifiés et étalonnés ; les opérateurs sont formés et qualifiés ; le premier lot est exécuté sous inspection renforcée avec identification claire de l’état.'
     - step: '07'
-      title: Ré-inspection et revue d'efficacité
-      desc: 'Le taux de reprise au premier passage, le taux de réussite de ré-inspection, le taux de récurrence et l''acceptation de l''apparence sont mesurés et revus avant que la modification puisse être considérée comme efficace — une planche réparée n''est jamais traitée comme une validation de processus.'
+      title: Contre-Inspection et Revue d’Efficacité
+      desc: 'Le taux de retouche à la première passe, le taux de réussite de la contre-inspection, le taux de récurrence et l’acceptation de surface sont mesurés et revus avant de considérer le changement efficace — un étau réparé n’est jamais traité comme une validation de procédé.'
     - step: '08'
-      title: Révision documentaire et formation
-      desc: 'Les instructions de travail, feuilles d''inspection, options de disposition NCR, cartes de paramètres et supports de formation sont mis à jour à la nouvelle révision avec formation pratique enregistrée et qualification des opérateurs.'
+      title: Révision du Document et Formation
+      desc: 'Les instructions de travail, feuilles d’inspection, options de disposition du NCR, cartes de paramètres et supports de formation sont mis à jour à la nouvelle révision avec formation pratique enregistrée et qualification de l’opérateur.'
     - step: '09'
-      title: Clôture et conservation des enregistrements
-      desc: 'La modification n''est clôturée qu''après revue et approbation des preuves de validation, des mises à jour documentaires, des enregistrements de formation et de l''efficacité de la mise en œuvre. Si le résultat visé n''est pas atteint, la modification est révisée, prolongée, suspendue ou retirée.'
+      title: Clôture et Conservation des Enregistrements
+      desc: 'Le changement n’est clôturé qu’après revue et approbation des preuves de validation, des mises à jour de documents, des enregistrements de formation et de l’efficacité de la mise en œuvre. Si le résultat visé n’est pas atteint, le changement est révisé, prolongé, suspendu ou retiré.'
 
 cc_approval:
-  tagline: Matrice d'approbation
-  title: Matrice d'autorisation interdépartementale
-  subtitle: 'Un tableau d''autorisation fixe empêche la prise de décision ad hoc : chaque type de modification a ses approbateurs requis, de la clarification au niveau documentaire jusqu''à la validation client.'
+  tagline: Matrice d’Approbation
+  title: Matrice d’Autorisation Inter-Services
+  subtitle: 'Un tableau d’autorisation fixe empêche les décisions ad hoc : chaque type de changement a ses approbateurs requis, de la clarification documentaire jusqu’à la signature client.'
   headers:
-    change: Contenu de la modification
+    change: Contenu du Changement
     engineering: Ingénierie
     quality: Qualité
     production: Production
     procurement: Achats
-    project: Projet / Ventes
+    project: Projets / Ventes
     customer: Client
   rows:
-    - change: 'Clarification de la formulation du document (sans impact sur les paramètres)'
+    - change: 'Clarification de rédaction de document (sans impact paramètre)'
       engineering: Revue
       quality: 'Approuver'
-      production: Informer
-      procurement: '—'
-      project: '—'
-      customer: '—'
-    - change: 'Ajustement de la séquence des opérations de reprise'
+      production: Notifier
+      procurement: Notifier
+      project: Notifier
+      customer: Selon le cas
+    - change: 'Ajustement de la séquence des opérations de retouche'
       engineering: 'Approuver'
       quality: 'Approuver'
-      production: Contre-signer
-      procurement: '—'
-      project: Informer
-      customer: Selon exigence
-    - change: 'Qualification d''un nouvel opérateur de reprise'
+      production: Contresigner
+      procurement: Notifier
+      project: Notifier
+      customer: Selon le cas
+    - change: 'Nouvelle qualification d’opérateur de retouche'
       engineering: Revue
       quality: 'Approuver'
       production: 'Approuver'
-      procurement: '—'
-      project: '—'
-      customer: '—'
-    - change: 'Modification d''outillage / d''équipement de test'
+      procurement: Le cas échéant
+      project: Notifier
+      customer: Selon le cas
+    - change: 'Changement d’outillage / équipement d’essai'
       engineering: 'Approuver'
       quality: 'Approuver'
-      production: Contre-signer
-      procurement: Selon besoin
-      project: '—'
-      customer: Selon exigence
-    - change: 'Matériau de reprise de substitution / fournisseur'
+      production: Contresigner
+      procurement: Le cas échéant
+      project: Notifier
+      customer: Selon le cas
+    - change: 'Matériau de retouche de substitution / fournisseur'
       engineering: 'Approuver'
       quality: 'Approuver'
-      production: Contre-signer
-      procurement: Contre-signer
-      project: Informer
+      production: Contresigner
+      procurement: Contresigner
+      project: Notifier
       customer: Peut être requis
-    - change: 'Modification des paramètres de pression / maintien / durcissement'
+    - change: 'Changement de paramètre traitement thermique / revêtement / serrage'
       engineering: 'Approuver'
       quality: 'Approuver'
-      production: Contre-signer
-      procurement: '—'
-      project: Informer
-      customer: Quand le projet l'exige
-    - change: 'Modification de la méthode de reprise rail / couture / siège de valve'
+      production: Contresigner
+      procurement: Le cas échéant
+      project: Notifier
+      customer: Quand le projet l’exige
+    - change: 'Changement de méthode de retouche corps / mâchoire / filetage'
       engineering: 'Approuver'
       quality: 'Approuver'
-      production: Contre-signer
-      procurement: Selon besoin
-      project: Informer
+      production: Contresigner
+      procurement: Le cas échéant
+      project: Notifier
       customer: Généralement recommandé
-    - change: 'Modification de la spécification client, de l''échantillon d''approbation ou des critères d''acceptation'
+    - change: 'Changement de spécification client, échantillon d’approbation ou critère d’acceptation'
       engineering: 'Approuver'
       quality: 'Approuver'
-      production: Contre-signer
-      procurement: '—'
-      project: Contre-signer
+      production: Contresigner
+      procurement: Le cas échéant
+      project: Contresigner
       customer: 'Approbation écrite obligatoire'
 
 cc_validation:
-  tagline: Validation d'ingénierie
-  title: Protocole de validation et d'acceptation — des preuves plutôt que des affirmations
+  tagline: Validation d’Ingénierie
+  title: Protocole de Validation et d’Acceptation — Preuves Plutôt que Déclarations
   body: |
-    Les formulations d'acceptation vagues telles que *« la planche réparée doit être bonne »* ne sont pas acceptées. La formulation contrôlée est :
+    Les formulations d’acceptation vagues telles que *« l’étau réparé doit être bon »* ne sont pas acceptées. La formulation maîtrisée est :
 
-    > « L'échantillon repris doit satisfaire les mêmes critères d'acceptation applicables d'étanchéité à l'air, de finition visuelle, de fonction de valve et de spécifiques au projet qu'une planche conforme, sauf si un écart approuvé par le client définit spécifiquement un critère alternatif. »
+    > « L’échantillon retouché doit satisfaire aux mêmes critères applicables de dimension, de dureté, de force de serrage, de finition visuelle et d’acceptation spécifique au projet qu’un étau d’établi conforme, sauf si une déviation approuvée par le client définit spécifiquement un critère alternatif. »
 
-    Les preuves de validation sont quantitatives, et la base d'ingénierie pour la reprise d'étanchéité à l'air comprend :
+    Les preuves de validation sont quantitatives, et la base d’ingénierie pour la retouche d’étaux d’établi comprend :
 
-    - **Élimination de la fuite et maintien de pression.** La fuite d'origine est éliminée sans bulles persistantes dans la détection de fuite à l'eau savonneuse ; la planche tient à la pression de test standard de 18,0 PSI pendant 24 heures, avec une chute de pression nette ΔP ≤ 0,2 PSI après compensation de température/humidité.
-    - **Fonction de valve.** Le couple du noyau de valve respecte la spécification de 15–20 N·m, sans micro-fuite au joint sous gonflage haute pression et pressage dynamique.
-    - **Assemblage et durabilité des coutures.** Les bords liés ne montrent aucun soulèvement, blanchiment ou délamination ; après cycles de vieillissement chaleur-humidité, la couche adhésive ne montre aucun ramollissement ni fissuration fragile.
-    - **Apparence et finition.** Aucune trace de coulure d'adhésif, aucun dommage EVA, aucune déformation de planche, aucun déplacement de logo ni rayure de surface imprimée.
+    - **Force de serrage et maintien sous pression.** La force de serrage des mâchoires satisfait la spécification de capacité nominale sans glissement soutenu sous charge ; le mécanisme de filetage et de rotation maintient la charge nominale sans jeu mesurable.
+    - **Dureté.** Les inserts de mâchoire (GCr15/Cr12MoV) atteignent 58–62 HRC, vérifiés avec des duromètres étalonnés après re-traitement thermique.
+    - **Précision dimensionnelle.** Le parallélisme des mâchoires, les diamètres d’alésage et le pas de filetage restent dans les tolérances approuvées après la retouche, vérifiés avec des instruments de mesure étalonnés.
+    - **Aspect et finition.** Aucun défaut de revêtement, aucune marque d’usinage hors tolérance, aucune distorsion du corps, et aucun désalignement des mâchoires ou de la base pivotante.
 
 cc_engineering:
-  tagline: Matrice d'exécution d'ingénierie
-  title: Paramètres quantifiés pour les quatre processus de reprise principaux
-  subtitle: 'Chaque processus de reprise contrôlé porte des paramètres, une méthodologie et des critères d''acceptation définis — les mêmes chiffres que nos opérateurs suivent et que nos clients peuvent vérifier lors des audits.'
+  tagline: Matrice d’Exécution d’Ingénierie
+  title: Paramètres Quantifiés des Quatre Procédés de Retouche de Base
+  subtitle: 'Chaque procédé de retouche maîtrisé porte des paramètres, une méthodologie et des critères d’acceptation définis — les mêmes chiffres que suivent nos opérateurs et que nos clients peuvent vérifier lors des audits.'
   headers:
-    process: Processus de reprise
-    parameters: Paramètres contrôlés
-    methodology: Méthodologie de test
-    acceptance: Critères d'acceptation
+    process: Procédé de Retouche
+    parameters: Paramètres Maîtrisés
+    methodology: Méthodologie d’Essai
+    acceptance: Critères d’Acceptation
   rows:
-    - process: 'Réparation de patch de trou d''épingle / micro-fuite'
-      parameters: 'Nettoyage au solvant et séchage 3–5 min ; activation à l''air chaud 60 °C ± 5 °C ; rouleau presseur ≥ 0,4 MPa'
-      methodology: 'Gonfler à 18 PSI ; immersion complète dans l''eau ou application de savon ; observer pendant 10 minutes'
-      acceptance: 'Zéro émission de bulles ; pelage des bords à 180° sans soulèvement et sans trace de coulure d''adhésif'
-    - process: 'Re-assemblage de bande de rail / couture'
-      parameters: 'Rapport d''adhésif bicomposant strictement contrôlé ; environnement 22–28 °C, ≤ 65 % HR ; serrage au gabarit ≥ 4 h'
-      methodology: 'Test de surpression à 22 PSI pendant 2 h ; puis cuisson en étuve 50 °C 6 h et repos 2 h à température ambiante'
-      acceptance: 'Zéro séparation, zéro fissure ; chute de pression nette ΔP ≤ 0,1 PSI ; couche adhésive sans blanchiment ni fragilisation'
-    - process: 'Desserrage / micro-fuite de base de valve'
-      parameters: 'Couple de clé dédiée 18–20 N·m ; joint d''étanchéité plat sans déformation ; propreté des filetages confirmée'
-      methodology: 'Gonfler à 15 PSI ; 20 cycles de gonflage/dégonflage ; observation par immersion dans l''eau'
-      acceptance: 'Zéro bulle au noyau et à la périphérie de la base de valve ; couple après cycles ≥ 16 N·m'
-    - process: 'Test final de maintien de pression de 24 h'
-      parameters: 'Gonflage de référence 18,0 PSI ; jauge numérique Classe 1.0 / ±0,5 % ; température et humidité ambiantes enregistrées et compensées'
-      methodology: 'Enregistreur de pression numérique ; courbe de pression continue de 24 h'
-      acceptance: 'Chute de pression nette ΔP ≤ 0,20 PSI / 24 h après compensation ; aucun gonflement ni déformation de planche'
+    - process: 'Réparation de Finition / Revêtement de Surface'
+      parameters: 'Préparation de surface à Sa2,5 ; épaisseur de revêtement 60–80 µm ; cuisson à 180°C ± 10°C'
+      methodology: 'Inspection visuelle sous lumière du jour ; mesure avec appareil d’épaisseur de film en 3 points'
+      acceptance: 'Zéro zone découverte, zéro coulure ; épaisseur dans 55–85 µm ; aucune cloque ni perte d’adhérence'
+    - process: 'Re-Traitement de Dureté des Mâchoires'
+      parameters: 'Austénitisation 820–860°C ; trempe à l’huile ; revenu 150–200°C pour inserts de mâchoire GCr15/Cr12MoV'
+      methodology: 'Essai de dureté Rockwell en 3 positions par insert ; contrôle métallographique de l’austénite résiduelle'
+      acceptance: '58–62 HRC à toutes les positions d’essai ; aucune fissure ni point mou ; structure de grain selon référence ASTM'
+    - process: 'Re-Filetage et Réalignement des Mâchoires'
+      parameters: 'Pas de filetage selon spécification ; fixation à couple contrôlé ; parallélisme des mâchoires ≤ 0,05 mm'
+      methodology: 'Inspection au calibre de filetage ; mesure au comparateur à cadran sur les faces des mâchoires sous charge nominale'
+      acceptance: 'Le calibre de filetage s’engage proprement ; parallélisme dans 0,05 mm ; aucun grippage de rotation ou de poignée'
+    - process: 'Vérification Finale de Force de Serrage et de Rotation'
+      parameters: 'Force de serrage nominale par modèle ; couple de rotation dans 8–15 N·m pour la gamme moyenne'
+      methodology: 'Dynamomètre étalonné en face de mâchoire ; clé dynamométrique sur la base pivotante sur toute la rotation'
+      acceptance: 'Force de serrage ≥ spécification nominale ; couple de rotation dans la fenêtre ; aucun jeu latéral sous charge'
 
 cc_photos:
-  tagline: Sur le sol d'usine
-  title: Reconstruction, re-test, libération — documenté à chaque étape
-  subtitle: Les photos de notre atelier de Qingdao montrent chaque processus de reprise contrôlé avec ses jauges calibrées, ses paramètres définis et ses enregistrements sur site — les mêmes preuves que les inspecteurs peuvent demander à tout moment.
+  tagline: Sur le Plancher d’Usine
+  title: Reconstruire, Re-Tester, Libérer — Documenté à Chaque Étape
+  subtitle: Les photos de notre atelier à Qingdao montrent chaque procédé de retouche maîtrisé avec ses instruments étalonnés, ses paramètres définis et ses enregistrements sur site — les mêmes preuves que les inspecteurs peuvent demander à tout moment.
   grid: 'sm:grid-cols-2'
   features:
-    - image: https://assets.supsfactory.com/site/quality/cc-pinhole-repair.avif
-      alt: Technicien réparant un trou d'épingle micro-fuite sur un SUP gonflable avec un pistolet thermique et un rouleau presseur
-      title: Réparation de trou d'épingle
-      desc: 'Un technicien traite une micro-fuite marquée avec un pistolet thermique réglé à la spécification de 60 °C et un rouleau presseur ; l''eau savonneuse confirme l''emplacement de la fuite, et le ticket ECR signé QC sur l''établi montre la porte de contrôle des modifications (Poka-Yoke n°1).'
-    - image: https://assets.supsfactory.com/site/quality/cc-rail-seam-bonding.avif
-      alt: Technicien appliquant de l'adhésif PU bicomposant sur une couture de rail avec un pinceau de précision sous climat contrôlé
-      title: Assemblage de couture de rail
-      desc: 'L''adhésif PU bicomposant est appliqué sur la couture de rail avec un pinceau de précision pendant que la planche est maintenue dans un serrage au gabarit ; le thermomètre/hygromètre sur site montre la fenêtre contrôlée de 24 °C / 55 % HR.'
-    - image: https://assets.supsfactory.com/site/quality/cc-valve-base-integrity.avif
-      alt: Clé dynamométrique numérique réglée à 19 N·m serrant le noyau de valve contre le matériau drop-stitch
-      title: Intégrité de la base de valve
-      desc: 'Une clé dynamométrique numérique réglée à la spécification de 19 N·m effectue le serrage final du noyau de valve, scellant la base contre le matériau drop-stitch — la jauge porte l''étiquette verte CALIBRÉE.'
-    - image: https://assets.supsfactory.com/site/quality/cc-pressure-hold-testing.avif
-      alt: Planches de SUP gonflables finies connectées à des enregistreurs de pression numériques dans la zone de test final de maintien de pression
-      title: Test final de maintien de pression
-      desc: 'Les planches finies sont connectées à des enregistreurs de pression numériques haute précision ; la jauge maître lit la référence de 18,00 PSI, et toutes les données de test sont automatiquement téléversées et reliées au système de traçabilité du contrat.'
+    - image: https://assets.Stavalk.com/site/quality/cc-hardness-treatment.avif
+      alt: Technicien réalisant un traitement thermique maîtrisé sur un insert de mâchoire d’étau avec un four étalonné
+      title: Re-Traitement de Dureté
+      desc: 'Un technicien re-traite un insert de mâchoire marqué dans un four étalonné réglé à la spécification d’austénitisation, puis confirme 58–62 HRC avec un duromètre ; le ticket ECR signé par le QC sur l’établi montre le passage de la maîtrise des changements (Poka-Yoke #1).'
+    - image: https://assets.Stavalk.com/site/quality/cc-surface-coating.avif
+      alt: Technicien appliquant un revêtement poudre maîtrisé sur le corps d’un étau sous conditions de procédé contrôlées
+      title: Retouche de Revêtement de Surface
+      desc: 'Le revêtement poudre est appliqué sur le corps avec une pulvérisation contrôlée pendant que l’étau est maintenu dans un gabarit ; le thermo-hygromètre sur site montre la fenêtre de cuisson maîtrisée.'
+    - image: https://assets.Stavalk.com/site/quality/cc-jaw-realignment.avif
+      alt: Comparateur à cadran numérique vérifiant le parallélisme des mâchoires d’un étau pendant la retouche
+      title: Réalignement des Mâchoires
+      desc: 'Un comparateur à cadran étalonné vérifie le parallélisme des mâchoires après re-filetage et re-fixation — l’instrument porte l’étiquette verte ÉTALONNÉ.'
+    - image: https://assets.Stavalk.com/site/quality/cc-clamping-force-testing.avif
+      alt: Étaux d’établi finis connectés à des dynamomètres étalonnés dans la zone d’essai final de force de serrage
+      title: Essai Final de Force de Serrage
+      desc: 'Les étaux finis sont connectés à des dynamomètres étalonnés de haute précision ; le dynamomètre maître lit la référence de capacité nominale, et toutes les données d’essai sont téléversées automatiquement et liées au système de traçabilité du contrat.'
 
 cc_pokayoke:
-  tagline: Garde-fous anti-erreur
-  title: 'Poka-Yoke : des blocages durs qui empêchent la modification non contrôlée'
-  subtitle: La norme est appliquée non seulement par des procédures mais aussi par des blocages physiques et au niveau système qui rendent les modifications non contrôlées impossibles à exécuter.
+  tagline: Garde-Fous Anti-Erreur
+  title: 'Poka-Yoke : des Blocs Durs qui Arrêtent le Changement Non Maîtrisé'
+  subtitle: La norme est appliquée non seulement par des procédures, mais par des blocs physiques et système qui rendent impossible d’exécuter des changements non maîtrisés.
   features:
     - icon: 1
       icon_bg: blue
-      title: Porte ECR pour déverrouillage de l'outillage
-      desc: 'Les postes de reprise lisent un code-barres ECR signé QA avant que les valves de gonflage pneumatiques et les mélangeurs de colle se déverrouillent. Pas d''enregistrement de contrôle des modifications approuvé, pas d''alimentation — la validation rétroactive (« modifier d''abord, signer ensuite ») est physiquement bloquée.'
+      title: Passage ECR pour le Déverrouillage de l’Outillage
+      desc: 'Les postes de retouche lisent un code-barres ECR signé par l’AQ avant que les fours de traitement thermique et les lignes de revêtement se déverrouillent. Pas d’enregistrement de maîtrise des changements approuvé, pas d’approvisionnement — la signature rétroactive (« changer d’abord, signer ensuite ») est physiquement bloquée.'
     - icon: 2
       icon_bg: green
-      title: Expiration automatique des écarts temporaires
-      desc: 'Les écarts temporaires sont plafonnés en dur dans le système (par exemple un maximum de 50 planches ou 7 jours calendaires). Atteindre le plafond verrouille le lot et bloque l''impression de l''étiquette de passe d''expédition jusqu''à ce que la modification soit formellement évaluée.'
+      title: Expiration Automatique de la Déviation Temporaire
+      desc: 'Les déviations temporaires sont plafonnées dans le système (par exemple un maximum de 50 étaux ou 7 jours calendaires). Atteindre le plafond verrouille le lot et bloque l’impression de l’étiquette de passe d’expédition jusqu’à ce que le changement soit évalué formellement.'
     - icon: 3
       icon_bg: purple
-      title: Preuves de validation minimales
-      desc: 'Les modifications à haut risque exigent au moins 5 planches échantillons représentatives couvrant les limites de tolérance supérieure et inférieure, entièrement inspectées par 2 inspecteurs QC indépendants, avant qu''un rapport de validation puisse être émis — une planche réparée n''est jamais traitée comme une validation de processus.'
+      title: Preuve Minimale de Validation
+      desc: 'Les changements à haut risque exigent au moins 5 étaux d’échantillon représentatifs couvrant les limites de tolérance supérieure et inférieure, entièrement inspectés par 2 contrôleurs QC indépendants, avant qu’un rapport de validation puisse être émis — un étau réparé n’est jamais traité comme une validation de procédé.'
     - icon: 4
       icon_bg: orange
-      title: Contrôle documentaire 1-pour-1
-      desc: 'Les cartes de poste de travail obsolètes sont physiquement collectées et annulées (perforées) avant que la nouvelle carte estampillée du sceau rouge contrôlé soit émise — les anciennes et nouvelles versions ne partagent jamais un poste de travail.'
+      title: Maîtrise Documentaire 1-Sorti-1-Entré
+      desc: 'Les cartes de poste obsolètes sont physiquement récupérées et annulées (perforées) avant que la nouvelle carte timbrée du sceau rouge maîtrisé soit délivrée — les versions ancienne et nouvelle ne partagent jamais un même poste.'
 
 cc_downloads:
-  tagline: Documents QMS téléchargeables
-  title: Documents bilingues contrôlés (PDF)
-  subtitle: Documents bilingues officiels EN/ZH de QINGDAO VATRAD GROUP.,LTD. — prêts pour les audits clients, les livres blancs techniques B2B et la distribution contrôlée en atelier.
+  tagline: Documents QMS Téléchargeables
+  title: Documents Bilingues Maîtrisés (PDF)
+  subtitle: 'Les documents officiels bilingues EN/ZH de Stavalk — prêts pour les audits clients, les livres blancs techniques B2B et la distribution maîtrisée sur le plancher d’usine.'
   features:
     - icon: S
       icon_bg: blue
-      title: SOP de contrôle des modifications de reprise (PDF)
-      desc: 'QMS-SOP-QC-CC-001 Rev 2.0 : tableau de classification des modifications, matrice d''autorisation interdépartementale, paramètres de validation d''ingénierie, lignes rouges de confinement et blocs de signature qualité.'
-      link: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      title: SOP de Maîtrise des Changements de Retouche (PDF)
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0 : tableau de classification des changements, matrice d’autorisation inter-services, paramètres de validation d’ingénierie, lignes rouges de contention et blocs de signature qualité.'
+      link: 'https://assets.Stavalk.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
       link_label: Télécharger le PDF
     - icon: A
       icon_bg: green
-      title: Annexe d'exécution A (PDF)
-      desc: 'Schéma de données ECR, la matrice d''exécution d''ingénierie quantifiée pour les quatre processus de reprise principaux, la logique de blocage Poka-Yoke et le bloc de signature de libération tripartite.'
-      link: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      title: Annexe d’Exécution A (PDF)
+      desc: 'Schéma de données ECR, la matrice d’exécution d’ingénierie quantifiée pour les quatre procédés de retouche de base, la logique de blocage Poka-Yoke et le bloc de signature de libération tripartite.'
+      link: 'https://assets.Stavalk.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
       link_label: Télécharger le PDF
     - icon: R
       icon_bg: purple
-      title: Gouvernance de la reprise contrôlée (page)
-      desc: 'Page compagnon du système de reprise d''étanchéité à l''air : classification des défauts A–G, cartes de méthode approuvées MC-RW-01 à MC-RW-06, et le flux de travail de reprise contrôlée en 7 étapes.'
-      link: /fr/factory/quality-inspection
+      title: Gouvernance de Retouche Maîtrisée (Page)
+      desc: 'Page compagne du système de retouche : classification des défauts A–G, cartes de méthode approuvées MC-RW-01 à MC-RW-06, et le flux de retouche maîtrisé en 7 étapes.'
+      link: '/fr/factory/quality-inspection'
       link_label: Voir la page
     - icon: N
       icon_bg: orange
-      title: Contrôle des produits non conformes (page)
-      desc: 'Contrôle des sorties non conformes selon ISO 9001:2015 clause 8.7 : enregistrement NCR, quarantaine, autorité de disposition selon la gravité, reprise contrôlée sous instructions SRI, ré-inspection indépendante et protocole de destruction attestée.'
-      link: /fr/factory/non-conforming-control
+      title: Maîtrise des Produits Non Conformes (Page)
+      desc: 'Maîtrise des sorties non conformes selon ISO 9001:2015 Clause 8.7 : enregistrement NCR, mise en quarantaine, autorité de disposition selon gravité, retouche maîtrisée sous instructions SRI, contre-inspection indépendante et protocole de destruction témoignée.'
+      link: '/fr/factory/non-conforming-control'
       link_label: Voir la page
 
 faqs:
   tagline: FAQ
-  title: Questions fréquentes sur le contrôle des modifications de reprise
+  title: Questions Fréquentes sur la Maîtrise des Changements de Retouche
   items:
-    - q: 'L''usine peut-elle modifier les paramètres de reprise sans nous en informer ?'
-      a: 'Non. Toute modification proposée des matériaux de reprise approuvés, des conditions de processus, de l''outillage, des méthodes de test, des critères d''inspection ou du personnel autorisé doit d''abord passer un contrôle documenté des modifications. Les modifications affectant les spécifications, échantillons, BOM, graphismes ou critères d''acceptation approuvés par le client exigent une approbation écrite du client.'
-    - q: 'Qu''est-ce qui compte comme une modification à haut risque ?'
-      a: 'Les modifications des matériaux ou fournisseurs de reprise, des conditions de pression/maintien ou de durcissement, des méthodes de reprise de valve/rail/couture, des critères d''inspection ou d''acceptation, et l''extension du périmètre du défaut dans les zones structurelles sont classées à haut risque. Elles exigent une revue interdépartementale, un plan de validation approuvé et une mise en œuvre pilote contrôlée avant usage de routine.'
-    - q: 'Un écart temporaire peut-il être utilisé indéfiniment ?'
-      a: 'Non. Chaque écart temporaire porte une fenêtre de validité définie, un périmètre de lot, un plafond de quantité et des exigences de validation, avec expiration automatique. Atteindre le plafond verrouille le lot et bloque l''impression de l''étiquette de passe jusqu''à ce que la modification soit formellement évaluée.'
-    - q: 'Comment une méthode modifiée est-elle prouvée efficace avant usage complet ?'
-      a: 'Les modifications à haut risque exigent un plan de validation : au moins 5 planches échantillons représentatives couvrant les limites de tolérance, testées par 2 inspecteurs QC indépendants selon des critères d''acceptation quantifiés (élimination de fuite, maintien de pression, fonction de valve, durabilité de couture, apparence). L''approbation de validation n''est pas une approbation d''application.'
-    - q: 'Devons-nous approuver chaque modification ?'
-      a: 'Pas chaque modification, mais toute modification qui éloigne le produit de l''échantillon approuvé par le client, de la spécification technique, de la BOM, des graphismes, de l''emballage ou des critères d''acceptation n''est mise en œuvre qu''avec l''approbation écrite du client. Sans elle, les planches sont reprises selon l''exigence d''origine, remplacées ou rejetées.'
-    - q: 'Que deviennent les anciens documents quand une modification est approuvée ?'
-      a: 'Les anciennes instructions de travail, cartes de paramètres et feuilles d''inspection sont physiquement collectées et annulées (1-pour-1), marquées OBSOLÈTES, et remplacées par la nouvelle révision contrôlée après formation. Les anciennes et nouvelles versions ne partagent jamais un poste de travail.'
-    - q: 'Combien de temps les enregistrements de contrôle des modifications sont-ils conservés ?'
-      a: 'Les enregistrements de clôture — preuves de validation, révisions documentaires, enregistrements de formation et revues d''efficacité — sont conservés selon notre politique de conservation des enregistrements (minimum 3 ans pour les enregistrements de clôture), afin que chaque modification reste traçable pour les audits et les revues de traçabilité.'
+    - q: 'L’usine peut-elle modifier les paramètres de retouche sans nous prévenir ?'
+      a: 'Non. Tout changement proposé aux matériaux de retouche approuvés, conditions de procédé, outillage, méthodes d’essai, critères d’inspection ou personnel autorisé doit d’abord passer la maîtrise des changements documentée. Les changements affectant des spécifications, échantillons, nomenclatures, œuvres ou critères d’acceptation approuvés par le client exigent son approbation écrite.'
+    - q: 'Qu’est-ce qui compte comme changement à haut risque ?'
+      a: 'Les changements de matériaux de retouche ou de fournisseurs, de conditions de traitement thermique ou de revêtement, de méthodes de retouche mâchoire/filetage/corps, de critères d’inspection ou d’acceptation, et l’extension de l’étendue du défaut vers des zones structurelles sont classés à haut risque. Ils exigent une revue inter-services, un plan de validation approuvé et une mise en œuvre pilote maîtrisée avant l’usage de routine.'
+    - q: 'Peut-on utiliser une déviation temporaire indéfiniment ?'
+      a: 'Non. Chaque déviation temporaire porte une fenêtre de validité définie, une portée de lot, un plafond de quantité et des exigences de validation, avec expiration automatique. Atteindre le plafond verrouille le lot et bloque l’impression de l’étiquette de passe jusqu’à ce que le changement soit évalué formellement.'
+    - q: 'Comment prouve-t-on qu’une méthode changée fonctionne avant l’usage complet ?'
+      a: 'Les changements à haut risque exigent un plan de validation : au moins 5 étaux d’échantillon représentatifs couvrant les limites de tolérance, testés par 2 contrôleurs QC indépendants contre des critères d’acceptation quantifiés (force de serrage, dureté, précision dimensionnelle, état de surface). Approuver la validation n’est pas approuver l’application.'
+    - q: 'Devons-nous approuver chaque changement ?'
+      a: 'Pas chaque changement, mais tout changement qui éloigne le produit de l’échantillon approuvé par le client, de la spécification technique, de la nomenclature, de l’œuvre, de l’emballage ou du critère d’acceptation n’est mis en œuvre qu’avec l’approbation écrite du client. Sans elle, les étaux sont retouchés selon l’exigence d’origine, remplacés ou rejetés.'
+    - q: 'Que deviennent les documents anciens quand un changement est approuvé ?'
+      a: 'Les instructions de travail, cartes de paramètres et feuilles d’inspection anciennes sont physiquement récupérées et annulées (1-sorti-1-entré), marquées OBSOLÈTE, et remplacées par la nouvelle révision maîtrisée après formation. Les versions ancienne et nouvelle ne partagent jamais un même poste.'
+    - q: 'Combien de temps les enregistrements de maîtrise des changements sont-ils conservés ?'
+      a: 'Les enregistrements de clôture — preuves de validation, révisions de documents, enregistrements de formation et revues d’efficacité — sont conservés selon notre politique de rétention des enregistrements (minimum 3 ans pour les enregistrements de clôture) afin que chaque changement reste traçable pour les audits et les revues de traçabilité.'
 
 cta:
-  title: Besoin de documents de contrôle des modifications pour votre audit ?
-  desc: 'Téléchargez la SOP de contrôle des modifications et l''annexe d''exécution bilingues, ou demandez un échantillon anonymisé de notre modèle ECR et de notre plan de validation pour votre projet OEM/ODM.'
+  title: 'Besoin des Documents de Maîtrise des Changements pour votre Audit ?'
+  desc: 'Téléchargez le SOP de Maîtrise des Changements et l’Annexe d’Exécution bilingues, ou demandez un échantillon anonymisé de notre modèle ECR et de notre plan de validation pour votre projet OEM/ODM.'
   actions:
-    - text: Demander une revue qualité
+    - text: Demander une Revue Qualité
       variant: primary
       href: /fr/contact
-    - text: Télécharger la SOP de contrôle des modifications (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
-    - text: Télécharger l'annexe d'exécution A (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Télécharger le SOP de Maîtrise des Changements (PDF)
+      href: 'https://assets.Stavalk.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Télécharger l’Annexe d’Exécution A (PDF)
+      href: 'https://assets.Stavalk.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

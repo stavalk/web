@@ -225,17 +225,16 @@ test('fr solution pages are French with en slug parity', () => {
   expect(failures).toEqual([])
 })
 
-test('fr guides are French with en slug parity', () => {
+test('fr guides fall back to en content with matching slug parity (guides are en-only)', () => {
   const en = localizedGuides('en')
   const fr = localizedGuides('fr')
-  const failures: string[] = []
   expect(fr.length).toBe(en.length)
   for (const g of en) {
     const f = fr.find((x) => x.slug === g.slug)
-    if (!f) { failures.push(`${g.slug}: missing in fr`); continue }
-    assertFrench(failures, `${g.slug}.intro`, `${f.title} ${f.intro}`)
+    expect(f, g.slug).toBeDefined()
+    expect(f?.title).toBe(g.title)
+    expect(f?.intro).toEqual(g.intro)
   }
-  expect(failures).toEqual([])
   const cards = GUIDE_CARDS.fr
   expect(cards.length).toBe(GUIDE_CARDS.en.length)
 })

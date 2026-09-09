@@ -34,7 +34,7 @@ export const Route = createFileRoute('/{-$locale}/customizer')({
   component: CustomizerPage,
 })
 
-/** SUP Design Studio: clean white configurator layout with a live color-picking preview. */
+/** Vise Design Studio: clean white configurator layout with a live color-picking preview. */
 function CustomizerPage() {
   const { locale, t } = useTranslation()
   const fl = useLocalizePath()
@@ -117,7 +117,7 @@ function CustomizerPage() {
           </div>
         </div>
       </section>
-      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('sup.nav.customizer'), path: '/customizer' }])} />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('bench.nav.customizer'), path: '/customizer' }])} />
     </MarketingShell>
   )
 }

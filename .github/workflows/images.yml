@@ -1,15 +1,10 @@
-name: Process & publish images / PDFs
+﻿name: Process & publish images / PDFs
 
-# 手动触发：用开源 sharp 给源图批量生成响应式变体（webp/avif × 原图/-768/-480），
-# 并用 Ghostscript (gs) 压缩 public/downloads 下的 PDF，全部上传到 R2。
-#
-# 背景：Cloudflare R2 免费套餐「原样」提供对象，不具备图片缩放/处理能力
-# （缩放属付费 Images 产品），所以响应式变体在本机(CI)用 sharp 批量生成后再落地，
-# 让 CDN 直接按尺寸出图。PDF 同理——R2 无 PDF 处理能力，用 gs 离线压缩后上传。
-#
-# 依赖仓库 secrets：CLOUDFLARE_API_TOKEN（Account › R2 Storage › Edit）、
-# CLOUDFLARE_ACCOUNT_ID。未配置时优雅跳过。
-
+# 手动触发：用开�?sharp 给源图批量生成响应式变体（webp/avif × 原图/-768/-480），
+# 并用 Ghostscript (gs) 压缩 public/downloads 下的 PDF，全部上传到 R2�?#
+# 背景：Cloudflare R2 免费套餐「原样」提供对象，不具备图片缩�?处理能力
+# （缩放属付费 Images 产品），所以响应式变体在本�?CI)�?sharp 批量生成后再落地�?# �?CDN 直接按尺寸出图。PDF 同理——R2 �?PDF 处理能力，用 gs 离线压缩后上传�?#
+# 依赖仓库 secrets：CLOUDFLARE_API_TOKEN（Account �?R2 Storage �?Edit）�?# CLOUDFLARE_ACCOUNT_ID。未配置时优雅跳过�?
 on:
   workflow_dispatch:
 
@@ -27,8 +22,8 @@ jobs:
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
           SITE_ID: ${{ vars.SITE_ID }}
         run: |
-          R2_BUCKET="${CF_PROD_R2_BUCKET:-${SITE_ID:-supsfactory}-files-prod}"
-          CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-${SITE_ID:-supsfactory}.com}"
+          R2_BUCKET="${CF_PROD_R2_BUCKET:-${SITE_ID:-Stavalk}-files-prod}"
+          CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-${SITE_ID:-Stavalk}.com}"
           echo "r2_bucket=$R2_BUCKET" >> "$GITHUB_OUTPUT"
           echo "cdn_domain=$CDN_DOMAIN" >> "$GITHUB_OUTPUT"
 
@@ -42,7 +37,7 @@ jobs:
             echo "enabled=true" >> "$GITHUB_OUTPUT"
           else
             echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID 未配置，跳过。"
+            echo "::notice::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID 未配置，跳过�?
           fi
 
       - if: steps.guard.outputs.enabled == 'true'
@@ -56,8 +51,7 @@ jobs:
           node-version: 22
           cache: pnpm
 
-      # 安装依赖（含 sharp）。sharp 在 CI 上由 pnpm rebuild 本地重建原生模块。
-      - if: steps.guard.outputs.enabled == 'true'
+      # 安装依赖（含 sharp）。sharp �?CI 上由 pnpm rebuild 本地重建原生模块�?      - if: steps.guard.outputs.enabled == 'true'
         name: Install dependencies
         run: pnpm install --frozen-lockfile
 
@@ -83,11 +77,11 @@ jobs:
               echo "bucket_exists=true" >> "$GITHUB_OUTPUT"
             else
               echo "bucket_exists=false" >> "$GITHUB_OUTPUT"
-              echo "::notice::桶 $R2_BUCKET 不存在，将尝试创建。"
+              echo "::notice::�?$R2_BUCKET 不存在，将尝试创建�?
             fi
           else
             echo "r2_ok=false" >> "$GITHUB_OUTPUT"
-            echo "::error::R2 API probe failed (HTTP $HTTP). CLOUDFLARE_API_TOKEN 需要 Account › R2 Storage › Edit 权限。$(jq -c '.errors' /tmp/r2buckets.json 2>/dev/null)"
+            echo "::error::R2 API probe failed (HTTP $HTTP). CLOUDFLARE_API_TOKEN 需�?Account �?R2 Storage �?Edit 权限�?(jq -c '.errors' /tmp/r2buckets.json 2>/dev/null)"
           fi
 
       - name: Create R2 bucket if missing
@@ -110,7 +104,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
         run: |
-          node scripts/process-and-publish-images.mjs --http --src scripts/afarer-images --prefix images/sups/ --widths 768,480 --formats webp,avif --missing
+          node scripts/process-and-publish-images.mjs --http --src scripts/stavalk-images --prefix images/sups/ --widths 768,480 --formats webp,avif --missing
 
       # ── Step 2: PDF compression (Ghostscript) ─────────────────────────
       - name: Install Ghostscript
@@ -137,7 +131,7 @@ jobs:
           CDN_DOMAIN: ${{ steps.config.outputs.cdn_domain }}
         run: |
           echo "--- images/sups/products (sample) ---"
-          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/products/afarer-og-default&per_page=20" \
+          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/products/stavalk-og-default&per_page=20" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             | jq '{success, keys: [.result[].key]}'
           echo "--- site/downloads (compressed PDFs) ---"
@@ -145,7 +139,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             | jq '{success, keys: [.result[].key]}'
           echo "--- CDN reachability (hero responsive variants) ---"
-          for f in afarer-og-default.avif afarer-og-default-768.avif afarer-og-default-480.avif afarer-og-default.webp; do
+          for f in stavalk-og-default.avif stavalk-og-default-768.avif stavalk-og-default-480.avif stavalk-og-default.webp; do
             code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/sups/products/$f?v=$(date +%s)")
             echo "$code https://$CDN_DOMAIN/images/sups/products/$f"
           done

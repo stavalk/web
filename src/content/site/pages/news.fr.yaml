@@ -1,14 +1,15 @@
-meta:
-  title: 'Actualités — Fabricant de SUP et nouvelles nautiques | {SITE}'
-  description: 'Dernières actualités d''Afarer : mises à jour d''usine, nouveaux modèles de SUP gonflable, certifications et annonces de l''industrie nautique.'
+﻿meta:
+  title: 'Actualités — Mises à jour de fabrication de serre-joints | {SITE}'
+  description: 'Dernières nouvelles de Stavalk : mises à jour d''usine, nouveaux modèles de serre-joints, certifications et annonces du secteur industriel.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'actualités fabricant de sup'
-    - 'mises à jour Afarer'
-    - 'annonces sup gonflable'
-    - 'actualités industrie nautique'
+    - 'actualités fabricant serre-joint'
+    - 'mises à jour Stavalk'
+    - 'annonces fabrication serre-joint'
+    - 'actualités industrie outillage'
 hero_text:
   tagline: ''
   title: Actualités
-  subtitle: Les dernières d'Afarer —lancements de produits, mises à jour d'entreprise, guides et récits de l'eau
+  subtitle: Les dernières nouvelles de Stavalk — lancements de produits, mises à jour d''entreprise, connaissances qualité et nouvelles de l''atelier de production
 news_list:
   limit: 100

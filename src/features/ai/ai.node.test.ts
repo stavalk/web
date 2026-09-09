@@ -29,7 +29,7 @@ describe('makeChunk', () => {
 
 describe('normalizeQuestion', () => {
   test('lowers case, strips punctuation, keeps letters/numbers', () => {
-    expect(normalizeQuestion('  MOQ, for SUP-boards?  ')).toBe('moq for sup boards')
+    expect(normalizeQuestion('  What,   is  the MOQ?  ')).toBe('what is the moq')
   })
 })
 
@@ -56,17 +56,17 @@ describe('buildAskPrompt', () => {
 
 describe('matchFaq', () => {
   const faqs = [
-    { q: 'Where is your company and factory located?', a: 'We are based in Qingdao, China. A 12,500 m² inflatable manufacturing plant in the Laixi Economic Development Zone, producing since 2012.' },
-    { q: 'What is the minimum order quantity (MOQ) for OEM inflatable paddle boards?', a: 'Minimum order quantity is 90–100+ pieces per standard production run.' },
-    { q: 'How long does a sample take?', a: 'Samples ship in 7–12 days.' },
+    { q: 'Where is your company and factory located?', a: 'We are based in Qingdao, China. An 8,000 m² bench-vise plant in Jimo, Qingdao, producing since 2012.' },
+    { q: 'What is the minimum order quantity (MOQ) for OEM bench vises?', a: 'Minimum order quantity is 50–200 pieces per standard production run.' },
+    { q: 'How long does a sample take?', a: 'Samples ship in 7–14 days.' },
     { q: 'What is the lead time for OEM production?', a: 'Standard OEM production lead time is 25–35 days from confirmed PO.' },
-    { q: 'What certifications do you hold?', a: 'CE standards and BSCI social compliance certification.' },
-    { q: 'Do you offer custom OEM/ODM?', a: 'Full-scale OEM and ODM customization from 3D blueprints to bulk production.' },
+    { q: 'What certifications do you hold?', a: 'CE (EN ISO 12100, Machinery Directive), ISO 9001:2015, ISO 14001 and RoHS compliance.' },
+    { q: 'Do you offer custom OEM/ODM?', a: 'Full-scale OEM and ODM customization from casting, machining and heat treatment to bulk production.' },
   ]
   test('hits the right FAQ by keyword overlap', () => {
     const hit = matchFaq('What is your minimum order quantity?', faqs)
     expect(hit).not.toBeNull()
-    expect(hit!.answer).toContain('90–100')
+    expect(hit!.answer).toContain('50–200')
   })
   test('no match for unrelated input', () => {
     expect(matchFaq('quark traversal photon tachyon', faqs)).toBeNull()
@@ -85,7 +85,7 @@ describe('matchFaq', () => {
   test('Chinese question about MOQ matches English FAQ', () => {
     const hit = matchFaq('最低起订量是多少', faqs)
     expect(hit).not.toBeNull()
-    expect(hit!.answer).toContain('90–100')
+    expect(hit!.answer).toContain('50–200')
   })
   test('Chinese question about certifications matches English FAQ', () => {
     const hit = matchFaq('有什么认证', faqs)
@@ -106,20 +106,20 @@ describe('matchFaq', () => {
 
 describe('matchCorpus', () => {
   const chunks = [
-    { id: '1', text: 'MOQ for standard volume production starts at 90–100+ pcs per 150 m drop-stitch roll. Pilot batches from 20–50 pcs.', url: '/oem-sup-moq', title: 'Inflatable SUP MOQ' },
-    { id: '2', text: 'We hold BSCI, ISO 9001, ISO 25649, CE, REACH and RoHS certifications for our Qingdao factory.', url: '/inflatable-sup-certification', title: 'SUP Certification Guide' },
-    { id: '3', text: 'Sample lead time is 7–12 days after artwork confirmation. Production is 25–35 days from confirmed PO.', url: '/faq', title: 'FAQ' },
+    { id: '1', text: 'MOQ for standard volume production starts at 50–200 pcs per model. Pilot batches from 20–50 pcs.', url: '/oem-moq-guide', title: 'Bench Vise MOQ Guide' },
+    { id: '2', text: 'We hold CE (EN ISO 12100), ISO 9001:2015, ISO 14001 and RoHS certifications for our Qingdao factory.', url: '/quality', title: 'Certifications' },
+    { id: '3', text: 'Sample lead time is 7–14 days after artwork confirmation. Production is 25–35 days from confirmed PO.', url: '/faq', title: 'FAQ' },
   ]
   test('matches corpus chunk by keyword overlap', () => {
     const hit = matchCorpus('What certifications do you have?', chunks)
     expect(hit).not.toBeNull()
-    expect(hit!.chunk.url).toBe('/inflatable-sup-certification')
-    expect(hit!.answer).toContain('BSCI')
+    expect(hit!.chunk.url).toBe('/quality')
+    expect(hit!.answer).toContain('CE')
   })
   test('matches MOQ question against corpus', () => {
     const hit = matchCorpus('What is your MOQ?', chunks)
     expect(hit).not.toBeNull()
-    expect(hit!.answer).toContain('90–100')
+    expect(hit!.answer).toContain('50–200')
   })
   test('no match for unrelated input', () => {
     expect(matchCorpus('quark traversal photon tachyon', chunks)).toBeNull()
@@ -130,7 +130,7 @@ describe('matchCorpus', () => {
   test('Chinese question matches English corpus', () => {
     const hit = matchCorpus('有什么认证', chunks)
     expect(hit).not.toBeNull()
-    expect(hit!.answer).toContain('BSCI')
+    expect(hit!.answer).toContain('CE')
   })
 })
 
@@ -170,7 +170,7 @@ describe('buildChunks', () => {
   })
   test('yaml page section text is chunked (e.g. factory capacity numbers)', () => {
     const chunks = buildChunks('en')
-    expect(chunks.some((c) => c.text.includes('12,500'))).toBe(true)
+    expect(chunks.some((c) => c.text.includes('8,000'))).toBe(true)
   })
   test('full-body corpus is substantially larger than the summary-only one', () => {
     expect(buildChunks('en').length).toBeGreaterThan(300)

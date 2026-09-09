@@ -1,0 +1,15 @@
+label: Research
+headline: '<strong>Usinage CNC</strong> — Précision sur chaque composant d''étau'
+subtitle: ' Tours et centres d''usinage CNC offrent des tolérances précises sur les mâchoires, bases, broches et manivelles pour un serrage constant.'
+seo:
+  title: 'Usinage CNC pour composants d''étau de banc'
+  description: 'Stavalk usine mâchoires, broches et bases sur tours et centres CNC à des tolérances de ±0,1 mm pour un serrage fiable et répétable.'
+body: >-
+  Après la coulée, chaque composant critique de l''étau passe à l''atelier d''usinage CNC, où des tours et centres d''usinage façonnent les mâchoires, les plaques de base, les broches et les manivelles selon les tolérances publiées. Les faces et tiges de mâchoire usinées à partir d''acier forgé 45# ou de barre GCr45 reçoivent un parallélisme de glissière compris dans ±0,1 mm, tandis que les alésages de montage de broche et les filetages sont taillés avec des ajustements de classe de précision assurant une rotation douce sous charge. Les filetages des manivelles sont produits par roulage pour un pas constant et une durée de fatigue supérieure aux filetages taillés. La combinaison d''une précision CNC et d''opérations secondaires conventionnelles donne à Stavalk un contrôle total de la chaîne dimensionnelle de la coulée brute à l''étau terminé.
+faqs:
+  - q: 'Quels composants sont usinés CNC par rapport aux tournages conventionnels ?'
+    a: 'Les faces de mâchoire, les tiges de mâchoire, les glissières de base, les alésages de montage de broche et les profils de filetage sont tous usinés CNC pour des tolérances serrées et une qualité de surface. Les manivelles et les caractéristiques secondaires peuvent êtreproduites sur des tours conventionnels ou des équipements de roulage lorsque la précision requise est atteignable sans CNC.'
+  - q: 'Quelles tolérances Stavalk maintient-il sur les pièces usinées ?'
+    a: 'Le parallélisme des glissières, la planitude des faces de mâchoire et l''alignement des alésages de broche sont maintenus à ±0,1 mm ou plus strict. Les filetages de broche sont usinés avec une classe de filetage définie assurant une rotation sans jeu. Ces tolérances sont vérifiées par MMT lors de l''inspection de première pièce et par jaugage en cours de production.'
+  - q: 'Le traitement thermique est-il effectué avant ou après l''usinage ?'
+    a: 'Les insertions de mâchoire et autres composants durcis sont d''abord usinés à des dimensions presque finales, puis traités thermiquement et rectifiés si nécessaire. Cette séquence minimise la distorsion du cycle de trempe et de revenu, garantissant que la géométrie finale respecte les tolérances après le durcissement.'

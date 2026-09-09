@@ -1,0 +1,15 @@
+label: Research
+headline: '<strong>Traitement thermique</strong> — Mâchoires durcies pour un serrage durable'
+subtitle: 'La trempe à l''huile et le revenu portent les insertions de mâchoire en GCr15 à 58–62 HRC, résistant à l''indentation sous serrage répété.'
+seo:
+  title: 'Traitement thermique de dureté mâchoire — 58–62 HRC'
+  description: 'Stavalk trempe et revit les insertions de mâchoire en GCr15 à 58–62 HRC, vérifié par essai Rockwell, pour une prise durable.'
+body: >-
+  Les insertions de mâchoire sont les seuls composants d''étau qui reçoivent un traitement thermique complet chez Stavalk, car seules les faces de serrage doivent résister à l''indentation des pièces durcies. Les insertions en acier au carbone GCr15 ou acier à outils Cr12MoV sont chauffées, tremées à l''huile et revenues pour atteindre une dureté Rockwell C de 58–62 HRC. La profondeur de la couche est contrôlée pour assurer la résistance à l''usure sans fragilité sur le bord de la mâchoire. Chaque lot est vérifié par essai à la lime et duretomètre Rockwell, avec les résultats enregistrés par lot de production pour la traçabilité. Le corps de l''étau, coulé en fonte grise HT200/HT250, ne reçoit pas de traitement thermique — son rôle est la rigidité et l''amortissement des vibrations, non la dureté de surface.
+faqs:
+  - q: 'Quelle dureté cible Stavalk atteint-il sur les insertions de mâchoire ?'
+    a: 'Les insertions de mâchoire en GCr15 et Cr12MoV sont durcies à 58–62 HRC, évaluées par l''échelle Rockwell C. Cette plage fournit la dureté nécessaire pour résister à l''indentation de la pièce tout en maintenant une ténacité suffisante pour éviter les éclats sous impact.'
+  - q: 'Pourquoi seules les insertions de mâchoire sont-elles durcies et non l''ensemble de l''étau ?'
+    a: 'Le corps de l''étau est en fonte grise HT200/HT250, choisi pour sa rigidité et son amortissement de vibrations, des propriétés qui seraient compromises par le durcissement. Seules les faces de serrage des insertions nécessitent une dureté de surface pour serrer les pièces durcies, le traitement thermique est donc concentré là où il est utile.'
+  - q: 'Existe-t-il une traçabilité par lot pour les composants traités thermiquement ?'
+    a: 'Oui. Chaque lot de production porte un numéro de lot de traitement thermique lié au journal du four, au milieu de trempe, au cycle de revenu et aux résultats de dureté. Cette traçabilité fait partie du système qualité ISO 9001 de Stavalk et est disponible pour les acheteurs sur demande.'

@@ -1,14 +1,15 @@
-meta:
-  title: 'News — SUP Manufacturer & Nautical Updates | {SITE}'
-  description: 'Latest news from Afarer: factory updates, new inflatable SUP models, certifications, and nautical industry announcements.'
+﻿meta:
+  title: 'News — Bench Vise Manufacturing Updates | {SITE}'
+  description: 'Latest news from Stavalk: factory updates, new bench vise models, certifications, quality tests and manufacturing industry announcements.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'sup manufacturer news'
-    - 'Afarer updates'
-    - 'inflatable sup announcements'
-    - 'nautical industry news'
+    - 'bench vise manufacturer news'
+    - 'Stavalk updates'
+    - 'bench vise manufacturing announcements'
+    - 'industrial tooling news'
 hero_text:
   tagline: ''
   title: News
-  subtitle: The latest from Afarer —product launches, company updates, guides, and stories from the water
+  subtitle: The latest from Stavalk — product launches, company updates, quality insights and stories from the factory floor
 news_list:
   limit: 100

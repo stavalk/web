@@ -39,28 +39,29 @@ test('factory intelligence cards render (bare array shape)', () => {
 test('/quality renders all 7 inspection gates and the documentation samples', () => {
   const out = html('/quality')
   for (const t of [
-    'Project Quality Planning (PPM)',
-    'Incoming Material Inspection (IQC)',
-    'In-Process Control &amp; First Article (IPQC / FAI)',
-    'Inflation &amp; Air-Tightness Testing',
-    'Final Product Inspection (FQC)',
-    'Packaging &amp; Pre-Shipment Inspection (PSI)',
-    'Shipment Release &amp; Traceability',
+    'Incoming Material',
+    'Casting Inspection',
+    'Machining Inspection',
+    'Heat Treatment',
+    'Surface Coating',
+    'Assembly &amp; Functional Test',
+    'Final Inspection &amp; Packing',
   ]) {
     expect(out, `gate "${t}" not rendered`).toContain(t)
   }
-  expect(out).toContain('Quality Records That Support Project Traceability')
-  expect(out).toContain('Incoming Material Inspection Record')
-  expect(out).toContain('Download QIP (PDF)')
-  expect(out).toContain('Download release reports (PDF)')
+  expect(out).toContain('Documentation &amp; Traceability')
+  expect(out).toContain('Controlled Document Register')
+  expect(out).toContain('Traceability Matrix')
+  expect(out).toContain('Non-Conformance Control')
 })
 
 test('/quality es twin renders gates in Spanish', () => {
   const out = html('/quality', 'es')
   for (const t of [
-    'Planificación de calidad del proyecto (PPM)',
-    'Liberación de envío y trazabilidad',
-    'Registros de calidad que respaldan la trazabilidad del proyecto',
+    'Material entrante',
+    'Inspección de mecanizado',
+    'Montaje y ensayo funcional',
+    'Inspección final y embalaje',
   ]) {
     expect(out, `es gate "${t}" not rendered`).toContain(t)
   }

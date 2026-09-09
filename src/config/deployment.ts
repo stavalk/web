@@ -1,5 +1,5 @@
 /**
- * Deployment configuration — Cloudflare resource naming and GitHub CI/CD.
+ * Deployment configuration 鈥?Cloudflare resource naming and GitHub CI/CD.
  *
  * All Cloudflare resource names (D1, KV, R2, Vectorize, Worker) are derived
  * from SITE_ID so that each product deployment has isolated resources.
@@ -70,12 +70,12 @@ export const deploymentConfig: DeploymentConfig = {
 
 /**
  * GitHub repository variable names used by gen-wrangler.mjs and deploy.yml.
- * These are identifiers (not secrets) stored in Settings → Variables.
+ * These are identifiers (not secrets) stored in Settings 鈫?Variables.
  *
  * Required variables:
  * - CF_PROD_D1_ID: Cloudflare D1 database ID for production
  * - CF_PROD_KV_ID: Cloudflare KV namespace ID for production
- * - CF_PROD_DOMAIN: Production domain (e.g., supsfactory.com)
+ * - CF_PROD_DOMAIN: Production domain (e.g., Stavalk.com)
  *
  * Optional variables (defaults derived from SITE_ID if not set):
  * - CF_PROD_D1_NAME: D1 database name for migrations (default: ${SITE_ID}-db-prod)
@@ -99,7 +99,7 @@ export const CF_REPO_VARS = {
 
 /**
  * GitHub repository secret names.
- * These are sensitive values stored in Settings → Secrets.
+ * These are sensitive values stored in Settings 鈫?Secrets.
  */
 export const CF_REPO_SECRETS = [
   'CLOUDFLARE_API_TOKEN',

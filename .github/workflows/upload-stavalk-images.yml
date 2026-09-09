@@ -1,0 +1,153 @@
+name: Upload site images to R2
+
+# Manual trigger: uploads the committed scripts/stavalk-images/* tree into the
+# `images/sups/` prefix of the R2 bucket, and tries to bind the custom domain
+# to the bucket. Bucket name and domain come from GitHub Variables, or fall
+# back to values derived from SITE_ID.
+#
+# Requires repo secrets: CLOUDFLARE_API_TOKEN (Account > R2 Storage > Edit)
+# and CLOUDFLARE_ACCOUNT_ID.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set resource names from variables
+        id: config
+        env:
+          CF_PROD_R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET }}
+          CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
+          SITE_ID: ${{ vars.SITE_ID }}
+        run: |
+          R2_BUCKET="${CF_PROD_R2_BUCKET:-${SITE_ID:-Stavalk}-files-prod}"
+          CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-${SITE_ID:-Stavalk}.com}"
+          CDN_ZONE="${CF_PROD_DOMAIN:-${SITE_ID:-Stavalk}.com}"
+          echo "r2_bucket=$R2_BUCKET" >> "$GITHUB_OUTPUT"
+          echo "cdn_domain=$CDN_DOMAIN" >> "$GITHUB_OUTPUT"
+          echo "cdn_zone=$CDN_ZONE" >> "$GITHUB_OUTPUT"
+      # Gracefully skip when credentials are missing so CI stays green.
+      - name: Check for Cloudflare credentials
+        id: guard
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID not set, skipping."
+          fi
+
+      - if: steps.guard.outputs.enabled == 'true'
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
+
+      # Probe token R2 access, bucket existence, and resolve the custom
+      # domain's zone.
+      - name: Preflight R2 access
+        id: preflight
+        if: steps.guard.outputs.enabled == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+          CDN_ZONE: ${{ steps.config.outputs.cdn_zone }}
+        run: |
+          API="https://api.cloudflare.com/client/v4"
+          AUTH="Authorization: Bearer ${CLOUDFLARE_API_TOKEN}"
+
+          HTTP=$(curl -sS -o /tmp/r2buckets.json -w '%{http_code}' \
+            "$API/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets?per_page=100" -H "$AUTH")
+          if [ "$HTTP" = "200" ]; then
+            echo "r2_ok=true" >> "$GITHUB_OUTPUT"
+            if jq -e --arg b "$R2_BUCKET" '.result.buckets | any(.name == $b)' /tmp/r2buckets.json >/dev/null; then
+              echo "bucket_exists=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "bucket_exists=false" >> "$GITHUB_OUTPUT"
+              echo "::notice::$R2_BUCKET does not exist, will try to create it."
+            fi
+          else
+            echo "r2_ok=false" >> "$GITHUB_OUTPUT"
+            echo "::error::R2 API probe failed (HTTP $HTTP). CLOUDFLARE_API_TOKEN needs Account > R2 Storage > Edit permission." && (jq -c '.errors' /tmp/r2buckets.json 2>/dev/null)
+          fi
+
+          ZHTTP=$(curl -sS -o /tmp/zones.json -w '%{http_code}' \
+            "$API/zones?name=$CDN_ZONE&per_page=1" -H "$AUTH")
+          if [ "$ZHTTP" = "200" ]; then
+            ZID=$(jq -r '.result[0].id // ""' /tmp/zones.json)
+            if [ -n "$ZID" ]; then
+              echo "zone_id=$ZID" >> "$GITHUB_OUTPUT"
+              echo "zone_found=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "zone_found=false" >> "$GITHUB_OUTPUT"
+              echo "::warning::Zone $CDN_ZONE is not in this account; custom domain binding will be skipped."
+            fi
+          else
+            echo "zone_found=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Zone lookup failed (HTTP $ZHTTP)."
+          fi
+
+      - name: Create R2 bucket if missing
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true' && steps.preflight.outputs.bucket_exists == 'false'
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+        run: |
+          curl -sS -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
+            -d "{\"name\":\"$R2_BUCKET\"}" | jq .
+
+      # --missing: only upload objects absent from R2; existing ones are
+      # skipped (PUT is idempotent but wastes ~12.9MiB of traffic otherwise).
+      # This also covers newly added images that the deploy backfill runs.
+      - name: Upload missing images to R2
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: node scripts/upload-stavalk-images.mjs --http --missing --src scripts/stavalk-images
+
+      - name: Attach custom domain to R2 bucket
+        id: cdn
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true' && steps.preflight.outputs.zone_found == 'true'
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          ZONE_ID: ${{ steps.preflight.outputs.zone_id }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+          CDN_DOMAIN: ${{ steps.config.outputs.cdn_domain }}
+        run: |
+          RESP=$(curl -sS -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/domains/custom" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
+            -d "{\"domain\":\"$CDN_DOMAIN\",\"enabled\":true,\"zoneId\":\"$ZONE_ID\"}")
+          echo "$RESP" | jq .
+          if echo "$RESP" | jq -e '.success == true' >/dev/null 2>&1; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::Custom domain binding did not succeed (ignore if already bound). Otherwise bind it manually: https://dash.cloudflare.com/$CLOUDFLARE_ACCOUNT_ID/r2/default/buckets/$R2_BUCKET/settings"
+          fi
+
+      - name: Verify upload
+        if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
+          CDN_DOMAIN: ${{ steps.config.outputs.cdn_domain }}
+        run: |
+          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/products/stavalk-og-default&per_page=20" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            | jq '{success, keys: [.result[].key]}'
+          echo "--- CDN reachability (the 3 hero AVIFs that silently 404'd before) ---"
+          for f in stavalk-og-default.avif stavalk-og-default-768.avif stavalk-og-default-480.avif stavalk-og-default.webp; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/sups/products/$f?v=$(date +%s)")
+            echo "$code https://$CDN_DOMAIN/images/sups/products/$f"
+          done

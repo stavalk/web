@@ -73,27 +73,17 @@ function breadcrumbEntries(origin: string, path: string, title: string, t: (k: s
 }
 
 const SERVICE_SCHEMA_PAGES: Record<string, { serviceType: string; description: string }> = {
-  '/oem-manufacturing': { serviceType: 'OEM Manufacturing', description: 'Full OEM manufacturing for SUP and marine inflatable products — buyer-owned designs, custom tooling, and production under your brand.' },
+  '/oem-manufacturing': { serviceType: 'OEM Manufacturing', description: 'OEM bench vise manufacturing — buyer-owned designs, custom tooling, and production under your brand.' },
   '/odm-development': { serviceType: 'ODM Development', description: 'ODM product development — factory engineering team designs from your brief, you approve every element before production.' },
   '/oem-odm-private-label-comparison': { serviceType: 'OEM / ODM / Private Label Comparison', description: 'Side-by-side comparison of OEM manufacturing, ODM development, and private-label co-branding collaboration models.' },
-  '/factory/oem-capability': { serviceType: 'Factory OEM Capability', description: 'Factory OEM capabilities: production lines, CNC precision, RF welding, quality gates, and capacity for custom board manufacturing.' },
-  '/oem-moq-guide': { serviceType: 'OEM MOQ Guide', description: 'Minimum order quantities for OEM manufacturing: per-configuration thresholds, pilot batch options, and material-roll considerations.' },
+  '/factory/oem-capability': { serviceType: 'Factory OEM Capability', description: 'Factory OEM capabilities: sand casting, CNC machining, heat treatment, and quality gates for custom bench vise manufacturing.' },
+  '/oem-moq-guide': { serviceType: 'OEM MOQ Guide', description: 'Minimum order quantities for OEM manufacturing: per-configuration thresholds, pilot batch options, and tooling considerations.' },
   '/oem-trust-assurance': { serviceType: 'OEM Trust Assurance', description: 'Trust assurance for OEM buyers: third-party inspections, quality control gates, certifications, and factory audit transparency.' },
-  '/sup-oem-moq-lead-time': { serviceType: 'SUP OEM MOQ & Lead Time', description: 'SUP-specific OEM minimum order quantities and lead times — per-configuration MOQ, tooling timelines, and sample turnaround.' },
-  '/oem-onboarding-guide': { serviceType: 'OEM Onboarding', description: 'Step-by-step OEM onboarding: 7-gate process from initial inquiry through first production run and ongoing partnership.' },
-  '/sup-construction-comparison': { serviceType: 'SUP Construction Comparison', description: 'Technical comparison of single-layer, double-layer and drop-stitch SUP construction types — rigidity, weight, durability and use-case guidance.' },
-  '/sup-compliance-by-market': { serviceType: 'SUP Compliance by Market', description: 'Market-by-market certification and compliance guide: CE, CPSIA, AS/NZS, ISO 9001, BSCI, REACH, RoHS requirements for inflatable SUP boards.' },
-  '/factory-audit-checklist': { serviceType: 'Factory Audit Checklist', description: 'Eight-area factory audit checklist for SUP buyers: quality system, capacity, traceability, pressure testing, welding controls, social compliance, documentation, and post-delivery support.' },
-  '/product-development': { serviceType: 'Product Development', description: 'Custom SUP product development service — from concept and design through prototyping, testing, and first production run.' },
-  '/oem-paddle': { serviceType: 'OEM Paddle Manufacturing', description: 'OEM paddle manufacturing: adjustable and fixed-length SUP paddles in carbon fiber, fiberglass, and aluminum for brand partners.' },
-  '/b2b-solutions-matrix': { serviceType: 'B2B Solutions Matrix', description: 'Structured overview of OEM, ODM, private-label, distributor, and resort-operator partnership models for SUP brands.' },
-  '/solutions/rental-operators': { serviceType: 'Rental Operator Solutions', description: 'SUP equipment programs for rental operators: bulk fleet pricing, custom branding, and durable construction for high-use environments.' },
-  '/solutions/retail-partners': { serviceType: 'Retail Partner Solutions', description: 'Retail partnership program for SUP dealers: wholesale pricing, display packages, and territory protection.' },
-  '/solutions/distributors': { serviceType: 'Distributor Solutions', description: 'Global SUP distribution network: exclusive territories, complete product portfolio, and dedicated account management.' },
-  '/oem/sup-oem-north-america': { serviceType: 'SUP OEM North America', description: 'OEM SUP manufacturing for North American brands: CPSIA compliance, USMCA logistics, and region-specific MOQ tiers.' },
-  '/oem/sup-oem-europe': { serviceType: 'SUP OEM Europe', description: 'OEM SUP manufacturing for European brands: CE certification, REACH compliance, and EU-specific logistics.' },
-  '/oem/sup-oem-australia': { serviceType: 'SUP OEM Australia', description: 'OEM SUP manufacturing for Australian brands: AS/NZS compliance, local standards, and Oceania logistics.' },
-  '/oem/sup-oem-canada': { serviceType: 'SUP OEM Canada', description: 'OEM SUP manufacturing for Canadian brands: CPSIA/CCPSA compliance, NAFTA logistics, and cold-climate testing.' },
+  '/oem-onboarding-guide': { serviceType: 'OEM Onboarding', description: 'Step-by-step OEM onboarding: gate process from initial inquiry through first production run and ongoing partnership.' },
+  '/factory-audit-checklist': { serviceType: 'Factory Audit Checklist', description: 'Eight-area factory audit checklist for bench vise buyers: quality system, capacity, traceability, hardness testing, machining controls, social compliance, documentation, and post-delivery support.' },
+  '/product-development': { serviceType: 'Product Development', description: 'Custom bench vise product development — from concept and design through prototyping, testing, and first production run.' },
+  '/factory-quality-inspection': { serviceType: 'Quality Inspection', description: 'Stage-gated quality inspection for bench vises: clamping force, jaw hardness, swivel torque and cycle durability per batch.' },
+  '/size-guide': { serviceType: 'Bench Vise Size Guide', description: 'Bench vise sizing by jaw width and clamping force: light, medium, heavy and pipe vise series for the right workholding job.' },
 }
 
 /** Minimal product card for the "related platforms" strip on product pages. */
@@ -600,7 +590,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                 {t('content.product.supDevDesc')}
               </p>
             </a>
-            <a href={fl('/solutions/private-label-sup')} className="marine-card p-5">
+            <a href={fl('/solutions/private-label-vises')} className="marine-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.privateLabelTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.privateLabelDesc')}
@@ -619,38 +609,38 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
   const pool: { q: string; a: string }[] = locale !== 'en'
     ? [
         {
-          q: '¿Cuál es el pedido mínimo para personalizar esta tabla?',
-          a: `El MOQ de volumen es de ${MOQ_SHORT.standardRun} por rollo de 150 m para la producción estándar, con pilotos desde ${MOQ_SHORT.trialStandard} y ${MOQ_SHORT.customMould} para un molde a medida.`,
+          q: '¿Cuál es el pedido mínimo para personalizar este torno de banco?',
+          a: `El MOQ de producción estándar es de ${MOQ_SHORT.standardRun} por modelo aprobado, con lotes piloto desde ${MOQ_SHORT.trialStandard} y ${MOQ_SHORT.customMould} para un nuevo molde a medida.`,
         },
         {
           q: '¿Cuánto tardan las muestras y la producción?',
           a: `Las muestras tardan ${FACTS.sampleTime}; la producción en serie se completa en ${FACTS.leadTime} tras confirmar el pedido y el depósito.`,
         },
         {
-          q: '¿Puedo cambiar los colores, el arte y el logo?',
-          a: 'Sí — gráficos, colores, EVA, logotipo, embalaje y accesorios se personalizan en cada plataforma. Comparte tu logo y te haremos una prueba visual antes de la producción.',
+          q: '¿Puedo cambiar colores, acabado y el logo?',
+          a: 'Sí — el acabado, el color de pintura, el grabado del logo, el embalaje y los accesorios se personalizan en cada modelo. Comparte tu logo y te haremos una prueba visual antes de la producción.',
         },
         {
           q: '¿Cómo se controla la calidad antes del envío?',
-          a: `Cada tabla pasa por una lista de verificación de ${FACTS.assemblyChecklist} y una prueba de presión de ${FACTS.pressureTest} antes de empaquetar; las piezas que superen una caída de presión mayor al 5% se rechazan automáticamente.`,
+          a: `Cada torno pasa por una lista de verificación de ${FACTS.assemblyChecklist} y una prueba de ${FACTS.pressureTest} antes de empaquetar; los fallos de apriete o dureza se rechazan automáticamente.`,
         },
       ]
     : [
         {
-          q: 'What is the minimum order to customize this board?',
-          a: `MOQ is ${MOQ_SHORT.standardRun} per 150 m roll for standard volume production, with pilot runs from ${MOQ_SHORT.trialStandard} and ${MOQ_SHORT.customMould} for a custom mould.`,
+          q: 'What is the minimum order to customize this bench vise?',
+          a: `MOQ is ${MOQ_SHORT.standardRun} per approved model for standard volume production, with pilot runs from ${MOQ_SHORT.trialStandard} and ${MOQ_SHORT.customMould} for a new custom mould.`,
         },
         {
           q: 'How long do samples and production take?',
           a: `Samples are ready in ${FACTS.sampleTime}; batch production completes in ${FACTS.leadTime} after confirmed PO and deposit.`,
         },
         {
-          q: 'Can I change colors, artwork and the logo?',
-          a: 'Yes — graphics, colors, EVA traction, logo, packaging and accessories are all customizable on every platform. Share your logo and we produce a visual proof before production.',
+          q: 'Can I change finish, color and the logo?',
+          a: 'Yes — finish, paint color, engraved logo, packaging and accessories are all customizable on every model. Share your logo and we produce a visual proof before production.',
         },
         {
           q: 'How is quality controlled before shipment?',
-          a: `Every board passes a ${FACTS.assemblyChecklist} assembly checklist and a ${FACTS.pressureTest} pressure test before packing; units exceeding a 5% pressure drop are auto-rejected.`,
+          a: `Every vise passes a ${FACTS.assemblyChecklist} assembly checklist and a ${FACTS.pressureTest} before packing; units failing clamping force or jaw hardness checks are auto-rejected.`,
         },
       ]
   return [...specific, ...pool]

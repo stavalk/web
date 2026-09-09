@@ -1,349 +1,349 @@
-﻿meta:
-  title: 'Control de cambios y validación de retrabajo | SUPsfactory'
-  description: 'QINGDAO VATRAD GROUP gestiona cambios de parámetros de retrabajo con control de cambios ISO 9001: ECR, riesgos, aprobación, validación y reinspección.'
-  dateModified: '2026-08-14'
+meta:
+  title: 'Control de Cambios de Parámetros de Retrabajo y Validación | Stavalk'
+  description: 'Control de cambios de parámetros de retrabajo según ISO 9001: ECR, clasificación de riesgos, matriz de aprobación, validación y reinspección para la producción de tornillos de banco.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'control de cambios de retrabajo sup'
-    - 'control de cambios iso 9001 fabricación'
-    - 'gestión de calidad oem sup hinchable'
-    - 'ecr solicitud de cambio de ingeniería sup'
-    - 'estándar de validación de estanqueidad al aire'
-    - 'garantía de calidad fábrica sup'
+    - 'control de cambios de retrabajo tornillo de banco'
+    - 'control de cambios iso 9001 fabricacion'
+    - 'gestion de calidad oem tornillo de banco'
+    - 'ecr solicitud de cambio de ingenieria tornillo de banco'
+    - 'estandar de validacion de dureza'
+    - 'aseguramiento de calidad fabrica de tornillos de banco'
 
 hero:
-  tagline: Control de cambios de parámetros de retrabajo
-  title: Estándar de control de cambios y validación de parámetros de retrabajo
-  subtitle: 'En QINGDAO VATRAD GROUP.,LTD., ningún operador, jefe de turno o departamento individual puede cambiar sobre la marcha un parámetro de retrabajo aprobado. Cualquier cambio propuesto en materiales de retrabajo aprobados, condiciones de proceso, herramientas, métodos de ensayo, criterios de inspección o personal autorizado se gestiona mediante control de cambios documentado — solicitud de cambio de ingeniería, evaluación de impacto y riesgos, aprobación interdepartamental, plan de validación, implementación controlada, reinspección y revisión de eficacia, y cierre con retención de registros. Esta página presenta nuestro estándar controlado QMS-SOP-QC-CC-001 (Rev 2.0, basado en ISO 9001:2015) y la evidencia de ingeniería que lo respalda.'
+  tagline: Control de Cambios de Parámetros de Retrabajo
+  title: Estándar de Control de Cambios de Parámetros de Retrabajo y Validación
+  subtitle: 'En Stavalk, ningún operario, jefe de turno ni departamento individual puede modificar un parámetro de retrabajo aprobado en el momento. Cualquier cambio propuesto a materiales de retrabajo aprobados, condiciones de proceso, utillaje, métodos de prueba, criterios de inspección o personal autorizado se gestiona mediante control de cambios documentado — Solicitud de Cambio de Ingeniería, evaluación de impacto y riesgo, aprobación multifuncional, plan de validación, implementación controlada, reinspección y revisión de eficacia, y cierre con conservación de registros. Esta página presenta nuestro estándar controlado QMS-SOP-QC-CC-001 (Rev 2.0, basado en ISO 9001:2015) y la evidencia de ingeniería que lo respalda.'
   actions:
-    - text: Descargar SOP de control de cambios (PDF)
+    - text: Descargar SOP de Control de Cambios (PDF)
       variant: primary
-      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
-    - text: Descargar Anexo de ejecución A (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
-    - text: Solicitar revisión de calidad
+      href: 'https://assets.Stavalk.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Descargar Anexo de Ejecución A (PDF)
+      href: 'https://assets.Stavalk.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Solicitar Revisión de Calidad
       href: /es/contact
 
 answer:
   label: 'Respuesta directa'
-  text: 'Los cambios de parámetros de retrabajo nunca se deciden verbalmente ni de forma retroactiva en QINGDAO VATRAD GROUP.,LTD. Todo cambio propuesto en materiales de retrabajo aprobados, condiciones de proceso, equipos, métodos de ensayo, criterios de inspección o personal autorizado debe pasar un control de cambios formal antes de su implementación: una solicitud de cambio de ingeniería (ECR) documentada, evaluación de impacto y riesgos, revisión interdepartamental por Ingeniería, Calidad, Producción, Compras y Proyecto, aprobación al nivel fijado por nuestra matriz de autorización, un plan de validación aprobado para cambios de alto riesgo, implementación piloto controlada, reinspección y revisión de eficacia, y cierre solo tras la revisión de documentos y la formación. Cualquier cambio que afecte a especificaciones, muestras, BOM, arte o criterios de aceptación aprobados por el cliente requiere además su aprobación escrita.'
-  verified: '2026-08'
+  text: 'Los cambios de parámetros de retrabajo nunca se deciden verbalmente ni de forma retroactiva en Stavalk. Cada cambio propuesto a materiales de retrabajo aprobados, condiciones de proceso, equipos, métodos de prueba, criterios de inspección o personal autorizado debe pasar un control de cambios formal antes de su implementación: una Solicitud de Cambio de Ingeniería (ECR) documentada, evaluación de impacto y riesgo, revisión multifuncional por Ingeniería, Calidad, Producción, Compras y Proyectos, aprobación al nivel fijado por nuestra matriz de autorización, un plan de validación aprobado para cambios de alto riesgo, implementación piloto controlada, reinspección y revisión de eficacia, y cierre solo tras la revisión de documentos y la formación. Cualquier cambio que afecte a especificaciones, muestras, BOM, arte u criterios de aceptación aprobados por el cliente requiere además su aprobación escrita.'
+  verified: '2026-09'
 
 stats:
-  tagline: De un vistazo
-  title: El control de cambios en cifras
+  tagline: De un Vistazo
+  title: Control de Cambios en Cifras
   stats:
     - value: '9'
       label: Pasos del bucle cerrado de control de cambios
     - value: '6'
       label: Categorías de cambio que requieren control de cambios formal
     - value: '4'
-      label: Procesos básicos de retrabajo con parámetros cuantificados
-    - value: '≥ 5'
-      label: Tablas de muestra + 2 inspectores de Calidad para validación de alto riesgo
+      label: Procesos de retrabajo básicos con parámetros cuantificados
+    - value: '≥5'
+      label: Tornillos de banco de muestra + 2 QC independientes para validación de alto riesgo
 
 
 cc_intro:
-  tagline: Alcance y política
-  title: Principios básicos de gobernanza
+  tagline: Alcance y Política
+  title: Principios Básicos de Gobernanza
   body: |
-    **Documento:** QMS-SOP-QC-CC-001 — *Estándar de control de cambios de parámetros de retrabajo* (Rev 2.0, lanzamiento oficial). **Fabricante:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Referencia normativa:** ISO 9001:2015 Sistemas de gestión de la calidad.
+    **Documento:** QMS-SOP-QC-CC-001 — *Estándar de Control de Cambios de Parámetros de Retrabajo* (Rev 2.0, Publicación Oficial). **Fabricante:** Stavalk, fabricante de tornillos de banco en Qingdao, China (distrito de Jimo). **Referencia de norma:** ISO 9001:2015 Sistemas de Gestión de la Calidad.
 
-    - **Sin cambios no controlados.** Los cambios de parámetros de retrabajo deben pasar por el control de cambios formal. Los operadores en planta, jefes de turno o un departamento individual nunca pueden modificar parámetros de retrabajo aprobados mediante acuerdos verbales o anotaciones a mano en el registro de retrabajo.
-    - **Cobertura de todos los elementos.** El alcance controlado cubre la estanqueidad al aire, los asientos de válvula, los raíles, la unión de costuras, el curado con aire caliente y las pruebas de retención de presión — todo parámetro que pueda influir en el sellado, la durabilidad estructural, la apariencia, la aceptación del cliente o la trazabilidad.
-    - **Límite de aprobación del cliente.** Cualquier cambio que aleje el producto de la muestra aprobada por el cliente, la especificación técnica, la BOM, el arte, el requisito de embalaje o los criterios de aceptación solo se implementa con aprobación escrita del cliente. Sin ella, la tabla se retrabaja según el requisito original, se reemplaza o se rechaza — la fábrica nunca "relaja" el estándar por sí sola.
+    - **Sin cambios no controlados.** Los cambios de parámetros de retrabajo deben pasar por control de cambios formal. A los operarios del taller, jefes de turno o un solo departamento nunca se les permite modificar parámetros de retrabajo aprobados por acuerdo verbal o anotación manuscrita en un registro de retrabajo.
+    - **Cobertura completa de elementos.** El alcance controlado cubre fundición, forja, mecanizado CNC, tratamiento térmico, recubrimiento de superficie y ensamblaje — todo parámetro que pueda influir en la precisión dimensional, la dureza, la fuerza de sujeción, el acabado superficial, la aceptación del cliente o la trazabilidad.
+    - **Límite de la aprobación del cliente.** Cualquier cambio que aleje el producto de la muestra aprobada por el cliente, especificación técnica, BOM, arte, requisito de embalaje o criterio de aceptación se implementa solo con aprobación escrita del cliente. Sin ella, el tornillo de banco se retrabaja según el requisito original, se sustituye o se rechaza — nunca se "relaja" por la fábrica sola.
 
 cc_scope:
-  tagline: Clasificación de riesgos
-  title: Alcance del cambio y clasificación de riesgos
-  subtitle: Cualquiera de los siguientes casos activa el control de cambios formal — nunca se gestiona anotándolo en el registro de retrabajo. El nivel de riesgo determina quién aprueba y cuánta validación se requiere.
+  tagline: Clasificación de Riesgo
+  title: Alcance del Cambio y Clasificación de Riesgo
+  subtitle: 'Cualquiera de los siguientes activa control de cambios formal — nunca se gestiona anotando una nota en el registro de retrabajo. El nivel de riesgo determina quién aprueba y cuánta validación se requiere.'
   headers:
-    category: Categoría de cambio
-    examples: Ejemplos típicos
+    category: Categoría de Cambio
+    examples: Ejemplos Típicos
     risk: Riesgo
-    requirements: Requisitos de control y aprobación
+    requirements: Requisitos de Control y Aprobación
   rows:
-    - category: 'Materiales de retrabajo'
-      examples: 'Cambio de adhesivo, limpiador, material de parche, sello de válvula, imprimación o proveedor'
+    - category: 'Materiales de Retrabajo'
+      examples: 'Material de recubrimiento, abrasivo, grado de acero de templado, medio de tratamiento térmico o cambio de proveedor'
       risk: 'Alto'
-      requirements: 'Revisión interdepartamental + validación de compatibilidad de materiales y retención de presión + firma del cliente cuando aplique'
-    - category: 'Condiciones de proceso'
-      examples: 'Preparación de superficie, temperatura/humedad de curado con aire caliente, presión de sujeción, tiempo de retención'
+      requirements: 'Revisión interdepartamental + validación de compatibilidad de material y dureza + visto bueno del cliente cuando corresponda'
+    - category: 'Condiciones de Proceso'
+      examples: 'Temperatura/tiempo de retención del tratamiento térmico, espesor de recubrimiento, presión de sujeción, temperatura de curado'
       risk: 'Alto'
-      requirements: 'Aprobación de Ingeniería y Calidad con validación de la ventana de temperatura y humedad definida'
-    - category: 'Herramientas e instrumentos'
-      examples: 'Manómetros, detectores de fugas, pistolas de calor, llaves de válvula, software de ensayo'
+      requirements: 'Aprobación de Ingeniería + Calidad con validación de la ventana definida de temperatura y tiempo'
+    - category: 'Utillaje y Calibres'
+      examples: 'Galgas de fuerza, durómetros, hornos de tratamiento térmico, utillaje CNC, llaves dinamométricas'
       risk: 'Medio/Alto'
-      requirements: 'Verificación de validez de calibración + evaluación de idoneidad del equipo'
-    - category: 'Alcance del defecto'
-      examples: 'Ampliación del área de retrabajo; micro-fuga superficial que crece a zonas críticas de raíl, costura o asiento de válvula'
+      requirements: 'Comprobación de validez de calibración + evaluación de idoneidad del equipo'
+    - category: 'Alcance del Defecto'
+      examples: 'Ampliación del área de retrabajo; defecto superficial que crece hacia zonas críticas estructurales del cuerpo o de las mordazas'
       risk: 'Alto'
-      requirements: 'Superficies estructurales portantes: parada obligatoria y re-evaluación'
-    - category: 'Métodos de inspección'
-      examples: 'Método de detección de fugas, presión de ensayo (18,0 PSI), duración de retención (24h)'
+      requirements: 'Superficies estructurales portantes: detención obligatoria y reevaluación'
+    - category: 'Métodos de Inspección'
+      examples: 'Método de prueba de dureza, prueba de fuerza de sujeción con carga nominal, prueba de par del giro'
       risk: 'Alto'
-      requirements: 'Aprobación de Calidad + confirmación del acuerdo técnico del cliente'
-    - category: 'Documentación y autorización'
-      examples: 'Instrucción de retrabajo, hojas de inspección, lógica de disposición NCR, cualificación de operadores'
+      requirements: 'Aprobación de Calidad + confirmación del acuerdo técnico con el cliente'
+    - category: 'Documentación y Autorización'
+      examples: 'Instrucción de retrabajo, hojas de inspección, lógica de disposición del NCR, cualificación del operario'
       risk: 'Medio'
-      requirements: 'Revisión controlada de documentos (Rev A → Rev B) + registros de formación'
+      requirements: 'Revisión controlada del documento (Rev A — Rev B) + registros de formación'
 
 cc_containment:
-  tagline: Regla de parada dura
-  title: Contención inmediata cuando las condiciones son graves
+  tagline: Regla de Detención Total
+  title: Contención Inmediata Cuando las Condiciones se Agravan
   body: |
-    > "El método de retrabajo existente se someterá a revisión y no se aplicará a producto adicional afectado hasta que el cambio sea evaluado y autorizado, salvo que una desviación temporal documentada sea aprobada por Calidad e Ingeniería."
+    > "El método de retrabajo existente se someterá a revisión y no se aplicará a producto afectado adicional hasta que el cambio sea evaluado y autorizado, salvo que una desviación temporal documentada sea aprobada por Calidad e Ingeniería."
 
-    El método de retrabajo actual debe suspenderse de inmediato cuando la reinspección del retrabajo sigue fallando, cuando el defecto afecta zonas estructurales portantes (asiento de válvula, raíles, costuras, áreas de presión de proa/popa), cuando un material sustituto aún no está validado o cuando los parámetros actuales entran en conflicto con la especificación aprobada por el cliente.
+    El método de retrabajo actual debe suspenderse inmediatamente cuando la reinspección del retrabajo sigue fallando, cuando el defecto afecta zonas estructurales portantes (cuerpo, mordazas, roscas, caras de sujeción), cuando un material sustitutivo aún no está validado, o cuando los parámetros actuales entran en conflicto con la especificación aprobada por el cliente.
 
-    Las desviaciones temporales nunca se convierten en práctica permanente: cada una lleva una ventana de validez definida, alcance de lote aplicable, límite de cantidad, requisitos de validación y un mecanismo de expiración automática. Una excepción verbal no es una excepción — si no está documentada con su caducidad, no existe.
+    Las desviaciones temporales nunca se convierten en práctica permanente: cada una lleva una ventana de validez definida, alcance de lote aplicable, límite de cantidad, requisitos de validación y un mecanismo de expiración automática. Una excepción verbal no es una excepción — si no está documentada con su vencimiento, no existe.
 
 cc_flow:
-  tagline: Bucle cerrado estándar de 9 pasos
-  title: De la solicitud de cambio al cierre y retención
+  tagline: Bucle Cerrado Estándar de 9 Pasos
+  title: De la Solicitud de Cambio al Cierre y Conservación
   subtitle: 'Un bucle documentado para cada cambio de parámetro: proponer, cribar, evaluar, aprobar, validar, pilotar, verificar, revisar, cerrar.'
   steps:
     - step: '01'
-      title: Solicitud de cambio (ECR)
-      desc: 'Cualquier departamento puede presentar una solicitud, pero Ingeniería, Calidad o la dirección de Producción la patrocinan. La ECR responde por qué se propone el cambio, qué cambia, qué se ve afectado y cómo se verificará — con número de control de cambios, NCR/CAPA relacionado, parámetro actual vs propuesto, lotes afectados y clasificación temporal/permanente.'
+      title: Solicitud de Cambio (ECR)
+      desc: 'Cualquier departamento puede presentar una solicitud, pero Ingeniería, Calidad o Dirección de Producción la patrocinan. La ECR responde por qué se propone el cambio, qué cambia, qué se ve afectado y cómo se verificará — con número de control de cambios, NCR/CAPA relacionado, parámetro actual frente a propuesto, lotes afectados y clasificación temporal/permanente.'
     - step: '02'
-      title: Cribado inicial y contención
-      desc: 'La solicitud se criba primero para determinar la contención inmediata: ¿debe detenerse el método actual ahora? Si se permite una desviación temporal, queda limitada por ventana de validez, alcance de lote, límite de cantidad y expiración automática.'
+      title: Cribado Inicial y Contención
+      desc: 'La solicitud se criba primero para la contención inmediata: ¿debe detenerse el método actual ahora? Si se permite una desviación temporal, se limita por ventana de validez, alcance de lote, límite de cantidad y expiración automática.'
     - step: '03'
-      title: Evaluación de impacto y riesgos
-      desc: 'Ingeniería, Calidad, Producción, Compras/Cadena de suministro y Proyecto evalúan el rendimiento del producto, los criterios de aceptación, la compatibilidad de materiales, la apariencia, la capacidad del proceso, los equipos e instrumentos, la cualificación del personal, los requisitos del cliente, el cumplimiento normativo y el alcance de trazabilidad.'
+      title: Evaluación de Impacto y Riesgo
+      desc: 'Ingeniería, Calidad, Producción, Compras/Cadena de Suministro y Proyectos evalúan el rendimiento del producto, los criterios de aceptación, la compatibilidad de materiales, el acabado superficial, la capacidad del proceso, el equipo y los calibres, la cualificación del personal, los requisitos del cliente, el cumplimiento y el alcance de trazabilidad.'
     - step: '04'
-      title: Revisión y aprobación conjunta
-      desc: 'La aprobación sigue la matriz de autorización fija — no "quien grita más". Los cambios de alto riesgo requieren aprobación interdepartamental y, cuando corresponde, aprobación escrita del cliente antes de cualquier prueba.'
+      title: Revisión Conjunta y Aprobación
+      desc: 'La aprobación sigue la matriz de autorización fija — no "el que más grite". Los cambios de alto riesgo requieren aprobación interdepartamental y, cuando se requiere, aprobación escrita del cliente antes de cualquier prueba.'
     - step: '05'
-      title: Plan de validación
-      desc: 'Para cambios de alto riesgo se requiere un plan de validación aprobado antes de la aplicación rutinaria: tablas de muestra representativas, método actual vs propuesto, métodos de ensayo, criterios de aceptación, etapas de inspección, responsables y calendario.'
+      title: Plan de Validación
+      desc: 'Para cambios de alto riesgo, se requiere un plan de validación aprobado antes de la aplicación rutinaria: tornillos de banco de muestra representativos, método actual frente a propuesto, métodos de prueba, criterios de aceptación, etapas de inspección, responsables y cronograma.'
     - step: '06'
-      title: Piloto controlado e implementación
-      desc: 'Se publican los nuevos documentos y se retiran y marcan como OBSOLETOS los obsoletos; se verifican y calibran los nuevos materiales e instrumentos; se forma y cualifica a los operadores; el primer lote se ejecuta bajo inspección intensificada con identificación de estado clara.'
+      title: Piloto Controlado e Implementación
+      desc: 'Se publican los nuevos documentos y se retiran los obsoletos marcados como OBSOLETO; los nuevos materiales y calibres se verifican y calibran; los operarios se forman y cualifican; el primer lote se ejecuta bajo inspección reforzada con identificación de estado clara.'
     - step: '07'
-      title: Reinspección y revisión de eficacia
-      desc: 'Se miden y revisan la tasa de primera pasada del retrabajo, la tasa de aprobación de la reinspección, la tasa de recurrencia y la aceptación de apariencia antes de considerar eficaz el cambio — una tabla reparada nunca se trata como validación del proceso.'
+      title: Reinspección y Revisión de Eficacia
+      desc: 'La tasa de retrabajo a la primera, la tasa de aprobación de reinspección, la tasa de recurrencia y la aceptación superficial se miden y revisan antes de considerar eficaz el cambio — un tornillo de banco reparado nunca se trata como validación de proceso.'
     - step: '08'
-      title: Revisión de documentos y formación
-      desc: 'Las instrucciones de trabajo, hojas de inspección, opciones de disposición NCR, tarjetas de parámetros y materiales de formación se actualizan a la nueva revisión con formación práctica registrada y cualificación de operadores.'
+      title: Revisión de Documento y Formación
+      desc: 'Las instrucciones de trabajo, hojas de inspección, opciones de disposición del NCR, tarjetas de parámetros y materiales de formación se actualizan a la nueva revisión con formación práctica registrada y cualificación del operario.'
     - step: '09'
-      title: Cierre y retención de registros
-      desc: 'El cambio se cierra solo tras revisar y aprobar la evidencia de validación, las actualizaciones documentales, los registros de formación y la eficacia de la implementación. Si no se logra el resultado previsto, el cambio se revisa, extiende, suspende o retira.'
+      title: Cierre y Conservación de Registros
+      desc: 'El cambio se cierra solo tras revisar y aprobar la evidencia de validación, las actualizaciones de documentos, los registros de formación y la eficacia de la implementación. Si no se logra el resultado previsto, el cambio se revisa, se amplía, se suspende o se retira.'
 
 cc_approval:
-  tagline: Matriz de aprobación
-  title: Matriz de autorización interdepartamental
-  subtitle: 'Una tabla de autorización fija evita decisiones ad-hoc: cada tipo de cambio tiene sus aprobadores requeridos, desde la aclaración a nivel de documento hasta la firma del cliente.'
+  tagline: Matriz de Aprobación
+  title: Matriz de Autorización Interdepartamental
+  subtitle: 'Una tabla de autorización fija impide la toma de decisiones ad hoc: cada tipo de cambio tiene sus aprobadores requeridos, desde la aclaración a nivel de documento hasta el visto bueno del cliente.'
   headers:
-    change: Contenido del cambio
+    change: Contenido del Cambio
     engineering: Ingeniería
     quality: Calidad
     production: Producción
     procurement: Compras
-    project: Proyecto / Ventas
+    project: Proyectos / Ventas
     customer: Cliente
   rows:
-    - change: 'Aclaración de redacción documental (sin impacto en parámetros)'
+    - change: 'Aclaración de redacción de documento (sin impacto en parámetros)'
       engineering: Revisión
-      quality: 'Aprueba'
-      production: Notifica
-      procurement: '—'
-      project: '—'
-      customer: '—'
+      quality: 'Aprobar'
+      production: Notificar
+      procurement: Notificar
+      project: Notificar
+      customer: Según se requiera
     - change: 'Ajuste de la secuencia de operaciones de retrabajo'
-      engineering: 'Aprueba'
-      quality: 'Aprueba'
-      production: Conforma
-      procurement: '—'
-      project: Notifica
-      customer: Según proyecto
-    - change: 'Nueva cualificación de operador de retrabajo'
+      engineering: 'Aprobar'
+      quality: 'Aprobar'
+      production: Cofirmar
+      procurement: Notificar
+      project: Notificar
+      customer: Según se requiera
+    - change: 'Nueva cualificación de operario de retrabajo'
       engineering: Revisión
-      quality: 'Aprueba'
-      production: 'Aprueba'
-      procurement: '—'
-      project: '—'
-      customer: '—'
-    - change: 'Cambio de herramientas / equipos de ensayo'
-      engineering: 'Aprueba'
-      quality: 'Aprueba'
-      production: Conforma
-      procurement: Según necesidad
-      project: '—'
-      customer: Según proyecto
-    - change: 'Material de retrabajo / proveedor sustituto'
-      engineering: 'Aprueba'
-      quality: 'Aprueba'
-      production: Conforma
-      procurement: Conforma
-      project: Notifica
-      customer: Puede ser necesario
-    - change: 'Cambio de presión / retención / parámetros de curado'
-      engineering: 'Aprueba'
-      quality: 'Aprueba'
-      production: Conforma
-      procurement: '—'
-      project: Notifica
-      customer: Cuando el proyecto lo exige
-    - change: 'Cambio del método de retrabajo de raíl / costura / asiento de válvula'
-      engineering: 'Aprueba'
-      quality: 'Aprueba'
-      production: Conforma
-      procurement: Según necesidad
-      project: Notifica
-      customer: Normalmente recomendado
-    - change: 'Cambio de especificación del cliente, muestra aprobada o criterios de aceptación'
-      engineering: 'Aprueba'
-      quality: 'Aprueba'
-      production: Conforma
-      procurement: '—'
-      project: Conforma
+      quality: 'Aprobar'
+      production: 'Aprobar'
+      procurement: Según se necesite
+      project: Notificar
+      customer: Según se requiera
+    - change: 'Cambio de utillaje / equipo de prueba'
+      engineering: 'Aprobar'
+      quality: 'Aprobar'
+      production: Cofirmar
+      procurement: Según se necesite
+      project: Notificar
+      customer: Según se requiera
+    - change: 'Material sustitutivo de retrabajo / proveedor'
+      engineering: 'Aprobar'
+      quality: 'Aprobar'
+      production: Cofirmar
+      procurement: Cofirmar
+      project: Notificar
+      customer: Puede ser requerido
+    - change: 'Cambio de parámetro de tratamiento térmico / recubrimiento / sujeción'
+      engineering: 'Aprobar'
+      quality: 'Aprobar'
+      production: Cofirmar
+      procurement: Según se necesite
+      project: Notificar
+      customer: Cuando el proyecto lo requiera
+    - change: 'Cambio de método de retrabajo de cuerpo / mordaza / rosca'
+      engineering: 'Aprobar'
+      quality: 'Aprobar'
+      production: Cofirmar
+      procurement: Según se necesite
+      project: Notificar
+      customer: Generalmente recomendado
+    - change: 'Cambio de especificación del cliente, muestra de aprobación o criterio de aceptación'
+      engineering: 'Aprobar'
+      quality: 'Aprobar'
+      production: Cofirmar
+      procurement: Según se necesite
+      project: Cofirmar
       customer: 'Aprobación escrita obligatoria'
 
 cc_validation:
-  tagline: Validación de ingeniería
-  title: Protocolo de validación y aceptación — evidencia sobre declaraciones
+  tagline: Validación de Ingeniería
+  title: Protocolo de Validación y Aceptación — Evidencia Sobre Afirmaciones
   body: |
-    La redacción de aceptación vaga como *"la tabla reparada debe estar bien"* no se acepta. La redacción controlada es:
+    La redacción de aceptación vaga como *"el tornillo de banco reparado debe estar bien"* no se acepta. La redacción controlada es:
 
-    > "La muestra retrabajada cumplirá los mismos criterios de aceptación aplicables de estanqueidad al aire, mano de obra visual, función de válvula y específicos del proyecto que una tabla conforme, salvo que una desviación aprobada por el cliente defina específicamente un criterio alternativo."
+    > "La muestra retrabajada deberá cumplir los mismos criterios aplicables de dimensión, dureza, fuerza de sujeción, mano de obra visual y aceptación específica del proyecto que un tornillo de banco conforme, salvo que una desviación aprobada por el cliente defina específicamente un criterio alternativo."
 
-    La evidencia de validación es cuantitativa, y la base de ingeniería para el retrabajo de estanqueidad incluye:
+    La evidencia de validación es cuantitativa, y la base de ingeniería para el retrabajo de tornillos de banco incluye:
 
-    - **Eliminación de fugas y retención de presión.** La fuga original se elimina sin burbujas sostenidas en la detección con agua jabonosa; la tabla mantiene la presión de ensayo estándar de 18,0 PSI durante 24 horas, con caída neta de presión ΔP ≤ 0,2 PSI tras compensación de temperatura/humedad.
-    - **Función de la válvula.** El par del núcleo de válvula cumple la especificación de 15–20 N·m, sin micro-fugas en el sello bajo inflado a alta presión y presión dinámica.
-    - **Unión de costuras y durabilidad.** Los bordes de la unión no presentan levantamientos, blanqueamiento ni delaminación; tras ciclos de envejecimiento por calor-humedad, la capa adhesiva no muestra ablandamiento ni grietas frágiles.
-    - **Apariencia y mano de obra.** Sin marcas de exudación de adhesivo, sin daños en EVA, sin deformación de la tabla y sin desplazamiento del logo ni rayones en la superficie impresa.
+    - **Fuerza de sujeción y retención de presión.** La fuerza de sujeción de las mordazas cumple la especificación de capacidad nominal sin deslizamiento sostenido bajo carga; el mecanismo de rosca y giro mantiene la carga nominal sin juego medible.
+    - **Dureza.** Los insertos de mordaza (GCr15/Cr12MoV) alcanzan 58–62 HRC, verificados con durómetros calibrados tras el re-tratamiento térmico.
+    - **Precisión dimensional.** El paralelismo de las mordazas, los diámetros de los orificios y el paso de rosca permanecen dentro de las tolerancias aprobadas tras el retrabajo, verificados con instrumentos de medición calibrados.
+    - **Apariencia y mano de obra.** Sin defectos de recubrimiento, sin marcas de mecanizado fuera de tolerancia, sin distorsión del cuerpo, y sin desalineación de mordazas o base giratoria.
 
 cc_engineering:
-  tagline: Matriz de ejecución de ingeniería
-  title: Parámetros cuantificados de los cuatro procesos básicos de retrabajo
-  subtitle: 'Cada proceso de retrabajo controlado lleva parámetros, metodología y criterios de aceptación definidos — los mismos números que siguen nuestros operadores y que los clientes pueden verificar durante las auditorías.'
+  tagline: Matriz de Ejecución de Ingeniería
+  title: Parámetros Cuantificados de los Cuatro Procesos Básicos de Retrabajo
+  subtitle: 'Cada proceso de retrabajo controlado lleva parámetros, metodología y criterios de aceptación definidos — los mismos números que siguen nuestros operarios y que nuestros clientes pueden verificar durante las auditorías.'
   headers:
-    process: Proceso de retrabajo
-    parameters: Parámetros controlados
-    methodology: Metodología de ensayo
-    acceptance: Criterios de aceptación
+    process: Proceso de Retrabajo
+    parameters: Parámetros Controlados
+    methodology: Metodología de Prueba
+    acceptance: Criterios de Aceptación
   rows:
-    - process: 'Reparación de parche para micro-fuga / poro'
-      parameters: 'Limpieza y secado con solvente 3–5 min; activación con aire caliente 60°C ± 5°C; rodillo de presión ≥ 0,4 MPa'
-      methodology: 'Inflar a 18 PSI; inmersión total en agua o aplicación de jabón; observar durante 10 minutos'
-      acceptance: 'Cero emisión de burbujas; pelado de borde a 180° sin levantamientos y sin marcas de exudación de adhesivo'
-    - process: 'Re-unión de raíl / costura'
-      parameters: 'Proporción de adhesivo de dos componentes estrictamente controlada; entorno 22–28°C, ≤ 65% HR; sujeción con fijación ≥ 4 h'
-      methodology: 'Ensayo de sobrepresión a 22 PSI durante 2 h; después horneado en caja térmica a 50°C durante 6 h y reposo a temperatura ambiente 2 h'
-      acceptance: 'Cero separación, cero grietas; caída neta de presión ΔP ≤ 0,1 PSI; capa adhesiva sin blanqueamiento ni fragilidad'
-    - process: 'Aflojamiento / micro-fuga del asiento de válvula'
-      parameters: 'Par con llave dedicada 18–20 N·m; junta de sellado plana sin distorsión; limpieza de rosca confirmada'
-      methodology: 'Inflar a 15 PSI; 20 ciclos de inflado/desinflado; observación por inmersión bajo agua'
-      acceptance: 'Cero burbujas en el núcleo y la periferia de la base; par tras ciclos ≥ 16 N·m'
-    - process: 'Ensayo final de retención de presión 24h'
-      parameters: 'Inflado de referencia 18,0 PSI; manómetro digital Clase 1,0 / ±0,5%; temperatura y humedad ambiente registradas y compensadas'
-      methodology: 'Registrador digital de presión; curva continua de presión de 24 h'
-      acceptance: 'Caída neta de presión ΔP ≤ 0,20 PSI / 24 h tras compensación; sin abombamiento ni deformación de la tabla'
+    - process: 'Reparación de Acabado / Recubrimiento Superficial'
+      parameters: 'Preparación superficial a Sa2.5; espesor de recubrimiento 60–80 µm; curado a 180°C ± 10°C'
+      methodology: 'Inspección visual bajo luz diurna; medición con medidor de espesor de película en 3 puntos'
+      acceptance: 'Cero zonas descubiertas, cero chorreados; espesor dentro de 55–85 µm; sin ampollas ni pérdida de adherencia'
+    - process: 'Re-Tratamiento de Dureza de Mordazas'
+      parameters: 'Austenización 820–860°C; temple en aceite; revenido 150–200°C para insertos de mordaza GCr15/Cr12MoV'
+      methodology: 'Prueba de dureza Rockwell en 3 posiciones por inserto; comprobación metalográfica de austenita retenida'
+      acceptance: '58–62 HRC en todas las posiciones de prueba; sin grietas ni puntos blandos; estructura de grano según referencia ASTM'
+    - process: 'Re-Roscado y Realineación de Mordazas'
+      parameters: 'Paso de rosca según especificación; fijación con control de par; paralelismo de mordazas ≤ 0.05 mm'
+      methodology: 'Inspección con calibre de rosca; medición con comparador de dial a través de las caras de las mordazas bajo carga nominal'
+      acceptance: 'El calibre de rosca encaja limpiamente; paralelismo dentro de 0.05 mm; sin agarrotamiento en el giro o el mango'
+    - process: 'Verificación Final de Fuerza de Sujeción y Giro'
+      parameters: 'Fuerza de sujeción nominal por modelo; par del giro dentro de 8–15 N·m para gama media'
+      methodology: 'Galga de fuerza calibrada en la cara de la mordaza; llave dinamométrica en la base giratoria en todo el giro'
+      acceptance: 'Fuerza de sujeción ≥ especificación nominal; par del giro dentro de la ventana; sin juego lateral bajo carga'
 
 cc_photos:
-  tagline: En la planta
-  title: Reparar, re-ensayar, liberar — documentado en cada paso
-  subtitle: Fotografías de nuestro taller en Qingdao muestran cada proceso de retrabajo controlado con sus instrumentos calibrados, parámetros definidos y registros en planta — la misma evidencia que los inspectores pueden solicitar en cualquier momento.
+  tagline: En la Planta de Producción
+  title: Reconstruir, Re-Probar, Liberar — Documentado en Cada Paso
+  subtitle: Fotos de nuestro taller en Qingdao muestran cada proceso de retrabajo controlado con sus calibres calibrados, parámetros definidos y registros en sitio — la misma evidencia que los inspectores pueden solicitar en cualquier momento.
   grid: 'sm:grid-cols-2'
   features:
-    - image: https://assets.supsfactory.com/site/quality/cc-pinhole-repair.avif
-      alt: Técnico reparando una micro-fuga tipo poro en un SUP hinchable con pistola de aire caliente y rodillo de presión
-      title: Reparación de poro
-      desc: 'Un técnico trata una micro-fuga marcada con una pistola de aire caliente ajustada a la especificación de 60°C y un rodillo de presión; el agua jabonosa confirma la ubicación de la fuga, y la ECR firmada por Calidad en el banco muestra el control de cambios (Poka-Yoke nº 1).'
-    - image: https://assets.supsfactory.com/site/quality/cc-rail-seam-bonding.avif
-      alt: Técnico aplicando adhesivo PU de dos componentes a una costura de raíl con brocha de precisión en clima controlado
-      title: Unión de costura de raíl
-      desc: 'Se aplica adhesivo PU de dos componentes a la costura del raíl con una brocha de precisión mientras la tabla se mantiene en una fijación; el termohigrómetro de planta muestra la ventana controlada de 24°C / 55% HR.'
-    - image: https://assets.supsfactory.com/site/quality/cc-valve-base-integrity.avif
-      alt: Llave dinamométrica digital ajustada a 19 N·m asegurando el núcleo de válvula contra el material drop-stitch
-      title: Integridad del asiento de válvula
-      desc: 'Una llave dinamométrica digital ajustada a la especificación de 19 N·m realiza el apriete final del núcleo de válvula, sellando la base contra el material drop-stitch — el instrumento lleva la etiqueta verde CALIBRADO.'
-    - image: https://assets.supsfactory.com/site/quality/cc-pressure-hold-testing.avif
-      alt: Tablas de SUP hinchables terminadas conectadas a registradores digitales de presión en la zona de prueba final de retención
-      title: Prueba final de retención de presión
-      desc: 'Las tablas terminadas se conectan a registradores digitales de alta precisión; el manómetro maestro indica la referencia de 18,00 PSI, y todos los datos de ensayo se cargan automáticamente y se vinculan al sistema de trazabilidad del contrato.'
+    - image: https://assets.Stavalk.com/site/quality/cc-hardness-treatment.avif
+      alt: Técnico realizando tratamiento térmico controlado en un inserto de mordaza de tornillo de banco con un horno calibrado
+      title: Re-Tratamiento de Dureza
+      desc: 'Un técnico re-trata un inserto de mordaza marcado en un horno calibrado ajustado a la especificación de austenización, y luego confirma 58–62 HRC con un durómetro; el ticket ECR firmado por QC en el banco muestra la puerta de control de cambios (Poka-Yoke #1).'
+    - image: https://assets.Stavalk.com/site/quality/cc-surface-coating.avif
+      alt: Técnico aplicando recubrimiento en polvo controlado al cuerpo de un tornillo de banco bajo condiciones de proceso controladas
+      title: Retrabajo de Recubrimiento Superficial
+      desc: 'El recubrimiento en polvo se aplica al cuerpo con una pistola controlada mientras el tornillo de banco se mantiene en un dispositivo; el termohigrómetro en sitio muestra la ventana de curado controlado.'
+    - image: https://assets.Stavalk.com/site/quality/cc-jaw-realignment.avif
+      alt: Comparador de dial digital verificando el paralelismo de las mordazas en un tornillo de banco durante el retrabajo
+      title: Realineación de Mordazas
+      desc: 'Un comparador de dial calibrado verifica el paralelismo de las mordazas tras el re-roscado y la refijación — el calibre lleva la etiqueta verde CALIBRADO.'
+    - image: https://assets.Stavalk.com/site/quality/cc-clamping-force-testing.avif
+      alt: Tornillos de banco terminados conectados a galgas de fuerza calibradas en el área de prueba final de fuerza de sujeción
+      title: Prueba Final de Fuerza de Sujeción
+      desc: 'Los tornillos de banco terminados se conectan a galgas de fuerza de alta precisión calibradas; la galga maestra lee la referencia de capacidad nominal, y todos los datos de prueba se suben automáticamente y se vinculan al sistema de trazabilidad del contrato.'
 
 cc_pokayoke:
-  tagline: Salvaguardas anti-error
-  title: 'Poka-Yoke: bloques duros que detienen el cambio no controlado'
-  subtitle: El estándar no se aplica solo con procedimientos, sino con bloqueos físicos y de sistema que hacen imposible ejecutar un cambio no controlado.
+  tagline: Salvaguardas Antierror
+  title: 'Poka-Yoke: Bloques Duros que Detienen el Cambio No Controlado'
+  subtitle: La norma se aplica no solo mediante procedimientos, sino mediante bloqueos físicos y a nivel de sistema que hacen imposible ejecutar cambios no controlados.
   features:
     - icon: 1
       icon_bg: blue
-      title: Puerta ECR para desbloqueo de herramientas
-      desc: 'Las estaciones de retrabajo leen un código de barras ECR firmado por Calidad antes de que se desbloqueen las válvulas de inflado neumático y las mezcladoras de adhesivo. Sin registro de control de cambios aprobado, sin suministro — la firma retroactiva ("cambiar primero, firmar después") queda bloqueada físicamente.'
+      title: Puerta ECR para el Desbloqueo de Utillaje
+      desc: 'Las estaciones de retrabajo leen un código de barras ECR firmado por QA antes de que se desbloqueen los hornos de tratamiento térmico y las líneas de recubrimiento. Sin registro de control de cambios aprobado, sin suministro — la firma retroactiva ("cambiar primero, firmar después") se bloquea físicamente.'
     - icon: 2
       icon_bg: green
-      title: Expiración automática de la desviación temporal
-      desc: 'Las desviaciones temporales tienen un tope duro en el sistema (por ejemplo, un máximo de 50 tablas o 7 días naturales). Al alcanzar el tope, el lote se bloquea y se impide imprimir la etiqueta de liberación del envío hasta que el cambio se evalúe formalmente.'
+      title: Expiración Automática de la Desviación Temporal
+      desc: 'Las desviaciones temporales están limitadas a tope en el sistema (por ejemplo un máximo de 50 tornillos de banco o 7 días naturales). Alcanzar el límite bloquea el lote e impide imprimir la etiqueta de pase de envío hasta que el cambio se evalúe formalmente.'
     - icon: 3
       icon_bg: purple
-      title: Evidencia mínima de validación
-      desc: 'Los cambios de alto riesgo requieren al menos 5 tablas de muestra representativas que cubran los límites de tolerancia superior e inferior, inspeccionadas por completo por 2 inspectores de Calidad independientes, antes de poder emitir un informe de validación — una tabla reparada nunca se trata como validación del proceso.'
+      title: Evidencia Mínima de Validación
+      desc: 'Los cambios de alto riesgo requieren al menos 5 tornillos de banco de muestra representativos que cubran los límites de tolerancia superior e inferior, inspeccionados completamente por 2 inspectores de QC independientes, antes de poder emitir un informe de validación — un tornillo de banco reparado nunca se trata como validación de proceso.'
     - icon: 4
       icon_bg: orange
-      title: Control documental 1-a-1
-      desc: 'Las tarjetas de estación obsoletas se recogen físicamente y se cancelan (perforadas) antes de emitir la nueva tarjeta sellada con el sello rojo controlado — las versiones antigua y nueva nunca comparten una estación de trabajo.'
+      title: Control de Documentos 1-A-Fuera-1-Adentro
+      desc: 'Las tarjetas obsoletas de la estación de trabajo se recogen y cancelan físicamente (perforadas) antes de emitirse la nueva tarjeta sellada con el sello rojo controlado — las versiones antigua y nueva nunca comparten una estación de trabajo.'
 
 cc_downloads:
-  tagline: Documentos QMS descargables
-  title: Documentos controlados bilingües (PDF)
-  subtitle: Documentos oficiales bilingües EN/ZH de QINGDAO VATRAD GROUP.,LTD. — listos para auditorías de clientes, documentos técnicos B2B y distribución controlada en planta.
+  tagline: Documentos QMS Descargables
+  title: Documentos Bilingües Controlados (PDF)
+  subtitle: 'Documentos oficiales EN/ZH bilingües de Stavalk — listos para auditorías de clientes, documentos técnicos B2B y distribución controlada en el taller.'
   features:
     - icon: S
       icon_bg: blue
-      title: SOP de control de cambios de retrabajo (PDF)
-      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: tabla de clasificación de cambios, matriz de autorización interdepartamental, parámetros de validación de ingeniería, líneas rojas de contención y bloques de firmas de calidad.'
-      link: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      title: SOP de Control de Cambios de Retrabajo (PDF)
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: tabla de clasificación de cambios, matriz de autorización interdepartamental, parámetros de validación de ingeniería, líneas rojas de contención y bloques de firma de calidad.'
+      link: 'https://assets.Stavalk.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
       link_label: Descargar PDF
     - icon: A
       icon_bg: green
-      title: Anexo de ejecución A (PDF)
-      desc: 'Esquema de datos ECR, la matriz de ejecución de ingeniería cuantificada de los cuatro procesos básicos de retrabajo, la lógica de bloqueo Poka-Yoke y el bloque de liberación con firma tripartita.'
-      link: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      title: Anexo de Ejecución A (PDF)
+      desc: 'Esquema de datos ECR, la matriz de ejecución de ingeniería cuantificada para los cuatro procesos básicos de retrabajo, lógica de bloqueo Poka-Yoke y el bloque de firma de liberación tripartita.'
+      link: 'https://assets.Stavalk.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
       link_label: Descargar PDF
     - icon: R
       icon_bg: purple
-      title: Gobernanza controlada de retrabajo (página)
-      desc: 'Página complementaria del sistema de retrabajo de estanqueidad: clasificación de defectos A–G, tarjetas de método aprobadas MC-RW-01 a MC-RW-06 y el flujo de retrabajo controlado de 7 pasos.'
+      title: Gobernanza de Retrabajo Controlado (Página)
+      desc: 'Página complementaria del sistema de retrabajo: clasificación de defectos A–G, tarjetas de método aprobadas MC-RW-01 a MC-RW-06, y el flujo de retrabajo controlado en 7 pasos.'
       link: '/es/factory/quality-inspection'
       link_label: Ver página
     - icon: N
       icon_bg: orange
-      title: Control de productos no conformes (página)
-      desc: 'Control de salidas no conformes según la ISO 9001:2015 Cláusula 8.7: registro NCR, cuarentena, autoridad de disposición por gravedad, retrabajo controlado bajo instrucciones SRI, reinspección independiente y el protocolo de destrucción presenciada.'
+      title: Control de Producto No Conforme (Página)
+      desc: 'Control de salidas no conformes según ISO 9001:2015 Cláusula 8.7: registro NCR, cuarentena, autoridad de disposición según severidad, retrabajo controlado bajo instrucciones SRI, reinspección independiente y el protocolo de destrucción presenciada.'
       link: '/es/factory/non-conforming-control'
       link_label: Ver página
 
 faqs:
   tagline: FAQ
-  title: Preguntas frecuentes sobre el control de cambios de retrabajo
+  title: Preguntas Frecuentes Sobre el Control de Cambios de Retrabajo
   items:
     - q: '¿Puede la fábrica cambiar los parámetros de retrabajo sin avisarnos?'
-      a: 'No. Cualquier cambio propuesto en materiales de retrabajo aprobados, condiciones de proceso, herramientas, métodos de ensayo, criterios de inspección o personal autorizado debe pasar primero el control de cambios documentado. Los cambios que afectan a especificaciones, muestras, BOM, arte o criterios de aceptación aprobados por el cliente requieren su aprobación escrita.'
+      a: 'No. Cualquier cambio propuesto a materiales de retrabajo aprobados, condiciones de proceso, utillaje, métodos de prueba, criterios de inspección o personal autorizado debe pasar el control de cambios documentado primero. Los cambios que afectan especificaciones, muestras, BOM, arte o criterios de aceptación aprobados por el cliente requieren su aprobación escrita.'
     - q: '¿Qué cuenta como cambio de alto riesgo?'
-      a: 'Los cambios en materiales o proveedores de retrabajo, en las condiciones de presión/retención o curado, en los métodos de retrabajo de válvula/raíl/costura, en los criterios de inspección o aceptación, y la ampliación del alcance del defecto a zonas estructurales se clasifican como alto riesgo. Requieren revisión interdepartamental, un plan de validación aprobado e implementación piloto controlada antes de su uso rutinario.'
-    - q: '¿Puede usarse indefinidamente una desviación temporal?'
-      a: 'No. Toda desviación temporal lleva una ventana de validez definida, alcance de lote, límite de cantidad y requisitos de validación, con expiración automática. Al alcanzar el tope, el lote se bloquea y se impide imprimir la etiqueta de liberación hasta que el cambio se evalúe formalmente.'
-    - q: '¿Cómo se demuestra que un método cambiado funciona antes de su uso pleno?'
-      a: 'Los cambios de alto riesgo requieren un plan de validación: al menos 5 tablas de muestra representativas que cubran los límites de tolerancia, ensayadas por 2 inspectores de Calidad independientes contra criterios de aceptación cuantificados (eliminación de fugas, retención de presión, función de válvula, durabilidad de costuras, apariencia). Aprobar la validación no es aprobar la aplicación.'
-    - q: '¿Necesitamos aprobar todos los cambios?'
-      a: 'No todos, pero cualquier cambio que aleje el producto de la muestra aprobada por el cliente, la especificación técnica, la BOM, el arte, el embalaje o los criterios de aceptación solo se implementa con aprobación escrita del cliente. Sin ella, las tablas se retrabajan según el requisito original, se reemplazan o se rechazan.'
+      a: 'Los cambios a materiales o proveedores de retrabajo, condiciones de tratamiento térmico o recubrimiento, métodos de retrabajo de mordaza/rosca/cuerpo, criterios de inspección o aceptación, y la expansión del alcance del defecto hacia zonas estructurales se clasifican como de alto riesgo. Requieren revisión interdepartamental, plan de validación aprobado e implementación piloto controlada antes del uso rutinario.'
+    - q: '¿Se puede usar una desviación temporal indefinidamente?'
+      a: 'No. Cada desviación temporal lleva una ventana de validez definida, alcance de lote, límite de cantidad y requisitos de validación, con expiración automática. Alcanzar el límite bloquea el lote e impide imprimir la etiqueta de pase hasta que el cambio se evalúe formalmente.'
+    - q: '¿Cómo se demuestra que un método cambiado funciona antes del uso completo?'
+      a: 'Los cambios de alto riesgo requieren un plan de validación: al menos 5 tornillos de banco de muestra representativos que cubran los límites de tolerancia, probados por 2 inspectores de QC independientes contra criterios de aceptación cuantificados (fuerza de sujeción, dureza, precisión dimensional, acabado superficial). Aprobar la validación no es aprobar la aplicación.'
+    - q: '¿Necesitamos aprobar cada cambio?'
+      a: 'No cada cambio, pero cualquier cambio que aleje el producto de la muestra aprobada por el cliente, especificación técnica, BOM, arte, embalaje o criterio de aceptación se implementa solo con aprobación escrita del cliente. Sin ella, los tornillos de banco se retrabajan según el requisito original, se sustituyen o se rechazan.'
     - q: '¿Qué ocurre con los documentos antiguos cuando se aprueba un cambio?'
-      a: 'Las instrucciones de trabajo, tarjetas de parámetros y hojas de inspección antiguas se recogen físicamente y se cancelan (1-a-1), se marcan como OBSOLETAS y se sustituyen por la nueva revisión controlada tras la formación. Las versiones antigua y nueva nunca comparten una estación de trabajo.'
+      a: 'Las instrucciones de trabajo antiguas, tarjetas de parámetros y hojas de inspección se recogen y cancelan físicamente (1-a-fuera-1-adentro), se marcan como OBSOLETO, y se sustituyen por la nueva revisión controlada tras la formación. Las versiones antigua y nueva nunca comparten una estación de trabajo.'
     - q: '¿Cuánto tiempo se conservan los registros de control de cambios?'
-      a: 'Los registros de cierre — evidencia de validación, revisiones documentales, registros de formación y revisiones de eficacia — se conservan según nuestra política de retención de registros (mínimo 3 años para registros de cierre), de modo que cada cambio siga siendo trazable para auditorías y revisiones de trazabilidad.'
+      a: 'Los registros de cierre — evidencia de validación, revisiones de documentos, registros de formación y revisiones de eficacia — se conservan según nuestra política de retención de registros (mínimo 3 años para registros de cierre) para que cada cambio siga siendo trazable para auditorías y revisiones de trazabilidad.'
 
 cta:
-  title: '¿Necesita documentos de control de cambios para su auditoría?'
-  desc: 'Descargue el SOP bilingüe de control de cambios y el Anexo de ejecución, o solicite una muestra anonimizada de nuestra plantilla ECR y del plan de validación para su proyecto OEM/ODM.'
+  title: '¿Necesitas Documentos de Control de Cambios para tu Auditoría?'
+  desc: 'Descarga el SOP de Control de Cambios y el Anexo de Ejecución bilingües, o solicita una muestra anonimizada de nuestra plantilla ECR y plan de validación para tu proyecto OEM/ODM.'
   actions:
-    - text: Solicitar revisión de calidad
+    - text: Solicitar Revisión de Calidad
       variant: primary
       href: /es/contact
-    - text: Descargar SOP de control de cambios (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
-    - text: Descargar Anexo de ejecución A (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Descargar SOP de Control de Cambios (PDF)
+      href: 'https://assets.Stavalk.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Descargar Anexo de Ejecución A (PDF)
+      href: 'https://assets.Stavalk.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

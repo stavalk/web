@@ -1,111 +1,49 @@
-meta:
-  title: 'Knowledge — Inflatable SUP & OEM Guides | {SITE}'
-  description: 'Afarer knowledge base: guides on inflatable SUPs, paddle board materials, board selection, and industry insights for brands and professionals.'
-  dateModified: '2026-08'
+﻿meta:
+  title: 'Knowledge — Bench Vise Buying, Sizing & Maintenance Guides | {SITE}'
+  description: 'Guides and knowledge from Stavalk: choosing a bench vise, sizing jaw width, materials and hardness, maintenance, and working with an OEM bench vise manufacturer.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'sup knowledge'
-    - 'inflatable sup guide'
-    - 'paddle board materials'
-    - 'sup industry insights'
+    - 'bench vise knowledge'
+    - 'how to choose a bench vise'
+    - 'bench vise maintenance'
+    - 'bench vise guides'
 hero:
-  tagline: 'Knowledge Center'
-  title: 'SUP Knowledge Center'
-  subtitle: |
-    A structured knowledge base covering inflatable SUP technology, 
-    water safety, board engineering, and adventure planning.
-  taglineSection: 'Explore. Learn. Go with confidence.'
-
-clusters:
-  tagline: 'Knowledge Clusters'
-  title: 'Explore by topic'
-  subtitle: 'Deep dives into the technology, safety, and skills behind every Afarer product.'
-  items:
-    - title: 'SUP Buying Guides'
-      description: 'From choosing your first board to advanced touring techniques —everything about stand-up paddle boarding.'
-      icon: 'tabler:lifebuoy'
-      topics:
-        - 'How to choose your first inflatable SUP'
-        - 'SUP size and weight capacity guide'
-        - 'Best SUP for beginners, touring, yoga, and racing'
-        - 'Common SUP buying mistakes to avoid'
-        - 'Inflatable vs hard board comparison'
-    - title: 'SUP Engineering & Technology'
-      description: 'Technical guides on inflatable SUP boards —materials, construction methods, and manufacturing processes.'
-      icon: 'tabler:microscope'
-      topics:
-        - 'Drop-stitch technology deep dive'
-        - 'Military-grade PVC specifications'
-        - 'Fusion lamination vs adhesive bonding'
-        - 'EVA foam technology and artwork methods'
-        - 'SUP valve types and fin systems'
-    - title: 'SUP Safety & Maintenance'
-      description: 'Essential safety knowledge for every paddler —from PFD selection to weather reading to board care and repair.'
-      icon: 'tabler:shield'
-      topics:
-        - 'SUP safety checklist and PFD requirements'
-        - 'Multi-chamber safety for remote water'
-        - 'SUP inflation PSI guide'
-        - 'Board storage and winter care'
-        - 'Inflatable repair techniques'
-    - title: 'SUP Skills & Techniques'
-      description: 'Paddling techniques, touring skills, and fitness training for all skill levels.'
-      icon: 'tabler:sailboat'
-      topics:
-        - 'Beginner paddling techniques'
-        - 'Intermediate stroke mastery'
-        - 'Touring and expedition planning'
-        - 'SUP fitness and racing training'
-        - 'Whitewater and river running skills'
-    - title: 'SUP Lifestyle & Special Uses'
-      description: 'Specialized SUP activities —yoga, fishing, dogs, families, and travel tips.'
-      icon: 'tabler:heart'
-      topics:
-        - 'SUP yoga and meditation on water'
-        - 'Fishing from an inflatable SUP'
-        - 'Paddle boarding with dogs and kids'
-        - 'Traveling with your SUP by air and car'
-        - 'SUP accessories and gear essentials'
-    - title: 'SUP Comparisons & References'
-      description: 'Side-by-side comparisons to help you make informed decisions.'
-      icon: 'tabler:chart-bar'
-      topics:
-        - 'SUP vs kayak — which is right for you?'
-        - 'PVC vs Hypalon material comparison'
-        - 'Single chamber vs multi-chamber safety'
-        - 'SUP board materials explained'
-        - 'UV printing vs EVA block artwork'
-
-featured_guides:
-  tagline: 'Featured Guides'
-  title: 'Most popular knowledge resources'
-  items:
-    - title: 'SUP Basics'
-      href: '/knowledge'
-    - title: 'Inflatable vs Hard Board'
-      href: '/inflatable-vs-hardboard'
-    - title: 'Water Safety Guide'
-      href: '/guides/safety-tips'
-    - title: 'Materials Reference'
-      href: '/knowledge'
-    - title: 'SUP Buying Guide'
-      href: '/guides/how-to-choose-your-sup'
-    - title: 'SUP Size Guide'
-      href: '/size-guide'
-    - title: 'SUP Tech Center'
-      href: '/technology'
-    - title: 'SUP Maintenance'
-      href: '/knowledge'
-    - title: 'Touring Guide'
-      href: '/products/touring'
-    - title: 'Paddle Techniques'
-      href: '/knowledge'
-
-cta:
-  title: 'Start exploring'
-  subtitle: 'Dive into our knowledge base and get the information you need for your next water adventure.'
+  tagline: Knowledge
+  title: Bench Vise Knowledge Hub
+  subtitle: Practical guides for buying, sizing, using and maintaining bench vises — plus how OEM sourcing and private-label production work with Stavalk.
   actions:
     - variant: primary
-      text: 'Browse all guides'
-      href: '/knowledge'
-    - text: 'Explore Knowledge Graph'
-      href: '/knowledge'
+      text: Read the top guides
+      href: /knowledge
+clusters:
+  title: What you will find here
+  subtitle: Straightforward answers to the questions we hear most from workshops, distributors and brands.
+  items:
+    - title: Choosing a Bench Vise
+      description: How to pick the right vice for your workbench — jaw width, series, materials and duty class.
+    - title: Sizing & Mounting
+      description: Jaw-width reference, opening ranges, weight, bolt sizes and bench mounting.
+    - title: Materials & Hardness
+      description: Gray cast iron gray cast bodies, forged steel, and GCr15/Cr12MoV jaws hardened to 58–62 HRC.
+    - title: Maintenance & Care
+      description: Lubrication, corrosion protection and keeping the screw and jaws in good working order.
+    - title: OEM & Private Label
+      description: MOQ, lead times, sampling, certification and how to build your own bench vise brand.
+featured_guides:
+  title: Start here
+  body: |
+    - [How to Choose a Bench Vise](/guides/how-to-choose-a-bench-vise)
+    - [Bench Vise Size Guide](/guides/bench-vise-size-guide)
+    - [Bench Vise Maintenance Guide](/guides/bench-vise-maintenance-guide)
+    - [Pipe Vise Guide](/guides/pipe-vise-guide)
+    - [OEM Bench Vise Order Guide](/guides/oem-bench-vise-order-guide)
+    - [Precision Vise Guide](/guides/precision-vise-guide)
+cta:
+  title: 'Still deciding? Talk to a bench vise engineer'
+  subtitle: 'Send us your workpiece mix and workshop setup, and we will recommend the right series, jaw width and finish for your project.'
+  actions:
+    - variant: primary
+      text: Get a recommendation
+      href: /contact
+    - text: Browse bench vise series
+      href: /products

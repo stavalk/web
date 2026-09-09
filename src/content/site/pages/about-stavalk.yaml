@@ -1,0 +1,164 @@
+meta:
+  title: 'About Stavalk — Bench Vise Manufacturer in Qingdao, China'
+  description: 'Stavalk is a bench vise manufacturer in Jimo, Qingdao, China — 8,000 m², 200+ workers, 80,000+ vises/year. OEM, ODM and private-label bench vises.'
+  dateModified: '2026-09-01'
+  keywords:
+    - 'stavalk'
+    - 'bench vise manufacturer china'
+    - 'bench vise factory qingdao'
+    - 'oem bench vise'
+hero:
+  tagline: About Stavalk
+  title: 'Stavalk — the Bench Vise Manufacturer Behind {SITE}'
+  subtitle: 'Founded in Jimo, Qingdao, China, Stavalk engineers and manufactures bench vises for OEM, ODM and private-label clients across 50+ countries — an 8,000 m² facility, 200+ workers and 80,000+ vises of annual capacity.'
+  actions:
+    - text: 'Start an OEM Project'
+      href: /contact
+      variant: primary
+    - text: 'See the Factory'
+      href: /factory
+      variant: secondary
+intro: |
+  <p><strong>Stavalk</strong> is a bench vise manufacturer based in Jimo, Qingdao, Shandong, China. Operating from an 8,000 m² production facility, the company produces bench vises ranging from light-duty 4″ models to heavy-duty 10″ vises, plus pipe vises and specialty workholding tools.</p>
+  <p>Every Stavalk project — from a first sample through full-volume OEM production — is manufactured in the same facility, by the same teams, and under the same quality system described here. We manufacture exclusively for our clients and never compete with them under our own brand.</p>
+  <p>The factory covers 8,000 m² with dedicated workshops for green-sand and resin-sand casting, CNC and conventional machining, heat treatment, surface coating, and assembly. Annual capacity exceeds 80,000 bench vises, and the facility operates under ISO 9001:2015 quality management with CE (EN ISO 12100, Machinery Directive 2006/42/EC) and RoHS compliance.</p>
+  <p>More than 200 skilled workers and a dedicated R&D team support the full production chain: casting HT200/HT250 gray cast iron bodies, machining 45# forged steel spindles, hardening GCr15/Cr12MoV jaw faces to 58–62 HRC, applying surface coatings, and conducting 7-stage inspection before shipment. An in-house metallurgical lab, CMM metrology station and hardness testing facility ensure every vise meets published specifications before it leaves the factory.</p>
+stats:
+  title: Stavalk by the Numbers
+  stats:
+    - title: Founded
+      amount: 2012
+    - title: Facility
+      amount: '8,000 m²'
+    - title: Countries Served
+      amount: '50+'
+    - title: Annual Capacity
+      amount: '80,000+ vises'
+    - title: Employees
+      amount: '200+'
+    - title: Product Series
+      amount: '5'
+factory_details:
+  title: Manufacturing Capability
+  body: |
+    The Stavalk factory operates five specialized workshops under one roof:
+
+    - **Casting Workshop**: Green-sand and resin-sand casting lines pouring 100% HT200/HT250 gray cast iron per specification, with spectrometer verification of alloy composition.
+    - **Machining Workshop**: CNC lathes and milling centers for jaw faces, spindles and bases, plus conventional machining for secondary operations.
+    - **Heat Treatment Workshop**: Oil-quench and temper lines producing jaw hardness of 58–62 HRC on GCr15 and Cr12MoV hardened steel.
+    - **Coating Workshop**: Spray paint, powder coat and Parkerizing lines for corrosion protection and finish quality.
+    - **Assembly & Test**: Manual assembly lines with hydraulic press stations for clamping force verification, swivel torque checks and 10,000+ cycle durability testing.
+factory_section:
+  title: Factory at a Glance
+  body: |
+    The Jimo, Qingdao facility is purpose-built for bench vise production. Raw materials — HT200/HT250 cast iron, 45# forged steel, GCr15 and Cr12MoV jaw steel — are sourced from certified Chinese mills and verified by spectrometer on arrival. Every batch is traceable to its material lot and production run through a 10-year ERP traceability system.
+
+    Third-party inspections from SGS, TÜV, Bureau Veritas and Intertek are welcome and routinely accommodated. Buyers receive a complete documentation pack with each shipment: Certificate of Conformance, material certificate, dimensional report and inspection records.
+values_section:
+  title: How the Factory Works With Brands
+  subtitle: 'Three principles that shape every project built by Stavalk.'
+  columns: 3
+  items:
+    - title: Engineering Before Production
+      description: 'Every project starts with requirements, drawings and a physical sample — jaw width, body material, jaw hardness, finish and packaging are validated before any production run, not discovered on the line.'
+      icon: 'tabler:settings'
+    - title: One Team, One Facility
+      description: 'Casting, machining, heat treatment, coating, assembly and testing happen in one 8,000 m² facility. No trading-company handoffs: the people who answer your questions are the people who build your vises.'
+      icon: 'tabler:building-factory-2'
+    - title: Small First Runs
+      description: 'Standard MOQ starts at 50–200 pieces; heavy-duty and specialty vises from 20–50 pieces. Samples ship in 7–14 days, bulk production in 25–35 days, so brands validate the market before committing to full volume.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: What the Factory Delivers
+  subtitle: 'Manufacturing services available to Stavalk clients.'
+  columns: 2
+  items:
+    - title: Custom Bench Vise Development
+      description: 'Requirement evaluation, specification, material selection, prototyping, sample approval and production for custom bench vises with your branding and packaging.'
+      icon: 'tabler:bulb'
+    - title: Private Label Production
+      description: 'Your logo, colors and packaging on proven bench vise platforms — body, jaws, spindle, swivel base and cartons all carry your identity, with no factory branding.'
+      icon: 'tabler:tag'
+    - title: OEM / ODM Manufacturing
+      description: 'Full OEM and ODM bench vise manufacturing from client drawings or co-developed designs, including custom jaw profiles, spindle geometries and swivel base configurations.'
+      icon: 'tabler:package'
+    - title: Fleet & Volume Supply
+      description: 'Volume bench vise supply for hardware chains, industrial distributors and institutional buyers, with consistent quality across multi-batch reorders.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: Certification & Compliance
+  subtitle: 'The factory ships to the EU, US and Asia-Pacific under a documented compliance system.'
+  columns: 2
+  items:
+    - title: CE Marking
+      description: 'Bench vises comply with EN ISO 12100 and Machinery Directive 2006/42/EC for the EU market. Documentation provided for each order.'
+      icon: 'tabler:certificate'
+    - title: ISO 9001:2015
+      description: 'Quality management system certified to ISO 9001:2015, covering incoming material, in-process and final inspection across all five product series.'
+      icon: 'tabler:badge-check'
+    - title: ISO 14001
+      description: 'Environmental management system certification, covering waste handling, emissions and resource efficiency across the production process.'
+      icon: 'tabler:leaf'
+    - title: RoHS Compliance
+      description: 'Restricted-hazardous-substance compliance documented per RoHS for applicable components and surface coatings.'
+      icon: 'tabler:flask'
+    - title: Third-Party Inspection
+      description: 'SGS, TÜV, Bureau Veritas and Intertek pre-shipment inspection available per ISO 2859-1 Level II, scheduled at the buyer''s choice.'
+      icon: 'tabler:shield-check'
+    - title: Product Testing
+      description: 'Clamping force, jaw hardness, swivel torque, 10,000+ cycle durability and 48-hour salt spray testing conducted on every production batch.'
+      icon: 'tabler:test-pipe'
+values:
+  tagline: Core Values
+  title: What Drives Stavalk
+  items:
+    - title: Precision Engineering
+      description: 'CNC machining, Rockwell hardness testing and CMM dimensional verification ensure every vise meets published tolerances.'
+      icon: 'tabler:ruler'
+    - title: Material Integrity
+      description: 'HT200/HT250 cast iron, 45# forged steel, GCr15/Cr12MoV hardened jaws — no material shortcuts, ever.'
+      icon: 'tabler:metal'
+    - title: Buyer Confidentiality
+      description: 'We never sell under our own brand. Every vise carries your identity. Your designs and specifications are protected under NDA.'
+      icon: 'tabler:lock'
+    - title: Continuous Improvement
+      description: 'R&D investment in jaw materials, spindle geometry, coating technology and clamping-force optimization drives every product generation forward.'
+      icon: 'tabler:trending-up'
+services:
+  tagline: Services
+  title: Manufacturing Services
+  items:
+    - title: OEM Manufacturing
+      description: 'Produce vises to your specifications, materials, finish and branding. Full documentation and traceability with every shipment.'
+      icon: 'tabler:package'
+    - title: ODM Development
+      description: 'Co-develop new vise designs from your concept brief through prototyping, testing and production release.'
+      icon: 'tabler:pencil'
+    - title: Private Label
+      description: 'Apply your brand to our proven bench vise platforms. Custom packaging, manuals and labeling available.'
+      icon: 'tabler:tag'
+    - title: After-Sales Support
+      description: 'Replacement parts, warranty service and technical support for every vise we ship, with response within 48 hours.'
+      icon: 'tabler:headset'
+certifications:
+  tagline: Certifications
+  title: Quality Certifications
+  items:
+    - title: CE (EN ISO 12100)'
+      description: 'Machinery Directive 2006/42/EC conformity for bench vises exported to the European Union.'
+      icon: 'tabler:certificate'
+    - title: ISO 9001:2015'
+      description: 'Quality management system covering design, production, inspection and shipment of bench vises.'
+      icon: 'tabler:clipboard-check'
+    - title: ISO 14001'
+      description: 'Environmental management system for sustainable manufacturing operations.'
+      icon: 'tabler:leaf'
+    - title: RoHS'
+      description: 'Restricted-hazardous-substance compliance for applicable materials and coatings.'
+      icon: 'tabler:shield-check'
+cta:
+  title: 'Build your bench vise project with Stavalk'
+  subtitle: 'Send your requirements — vise type, size, quantity and branding — and receive a detailed quote within one business day.'
+  actions:
+    - text: Brand Identity
+      href: /about/identity

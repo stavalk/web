@@ -1,74 +1,74 @@
-﻿meta:
-  title: 'Guía de MOQ para SUP: Branding Flexible y Cantidades Mínimas de Pedido'
-  description: 'Cómo se calcula el MOQ de SUP hinchables: rollos drop-stitch de 150 m que rinden 90–100 tablas y co-branding desde menos de 20 unidades.'
-  dateModified: '2026-08-14'
+meta:
+  title: 'Guía de MOQ para Tornamesas: Branding Flexible y Cantidades Mínimas de Pedido'
+  description: 'Cómo se calcula el MOQ de tornamesas: economía de lotes de fundición, amortización de utillaje, co-branding desde 20 unidades y tarifas de molde transparentes.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'MOQ SUP'
-    - 'cantidad mínima de pedido SUP hinchable'
-    - 'programa de co-branding SUP'
-    - 'SUP de lotes pequeños'
-    - 'MOQ tablas de paddle personalizadas'
-    - 'fábrica OEM SUP China'
+    - 'MOQ tornamesa'
+    - 'cantidad mínima de pedido tornamesa'
+    - 'programa de co-branding tornamesa'
+    - 'tornamesa lotes pequeños'
+    - 'MOQ tornamesa personalizada'
+    - 'fábrica OEM tornamesa China'
 
 hero:
   tagline: 'Transparente y Específico por Proyecto'
   title: 'Guía de MOQ de Fabricación y Branding Flexible'
-  subtitle: 'Comprende la física de la materia prima drop-stitch que gobierna las series de producción de SUP — y cómo funciona nuestro programa de co-branding de baja barrera para operadores de alquiler, clubes, resorts y marcas de deportes acuáticos en crecimiento. Diseñado y operado por Qingdao Vatrad Group Co., Ltd.'
+  subtitle: 'Comprende la economía de lotes de fundición que gobierna las series de producción de tornamesas — y cómo funciona nuestro programa de co-branding de baja barrera para distribuidores, proveedores industriales y marcas de herramientas en crecimiento. Diseñado y operado por Stavalk, Qingdao, China.'
 
 answer:
   label: 'Respuesta directa'
-  text: 'El MOQ no es un número único para todos. Cada MOQ se confirma según la configuración del proyecto: forma y molde del casco, colores y PVC, complejidad del arte, empaque y mezcla de accesorios. La producción de volumen totalmente personalizada corre en lotes de 90–100 unidades por rollo estándar de tela drop-stitch de 150 m; el co-branding de lotes pequeños parte de menos de 20 unidades; y cada proyecto se divide en tres etapas distintas — desarrollo de muestras (1–2 unidades), pedido piloto (20–50 unidades) y producción de volumen (90–100+ unidades). Confirmamos el cálculo exacto para tu mezcla de SKU antes de cotizar — sin promesas vagas de "MOQ bajo", sin compromisos ocultos.'
-  verified: '2026-08'
+  text: 'El MOQ no es un número único para todos. Cada MOQ se confirma según la configuración del proyecto: ancho y apertura de mordazas, serie del cuerpo (ligera, media, pesada, tubo o especial), tipo de base giratoria, acabado superficial, requisitos de branding y empaque. La producción de volumen estándar corre en lotes de 50–200 unidades por ciclo de fundición; las series pesadas y especiales corren en 20–50 unidades; y cada proyecto se divide en tres etapas distintas — desarrollo de muestras (1–2 unidades), pedido piloto (20–50 unidades) y producción de volumen (50–200+ unidades). Confirmamos el cálculo exacto para tu mezcla de SKU antes de cotizar — sin promesas vagas de "MOQ bajo", sin compromisos ocultos.'
+  verified: '2026-09'
 
 moq_principle:
   tagline: La Lógica de Ingeniería
-  title: 'Por Qué el MOQ de Volumen Estándar Es de 90–100 Unidades: Física del Rollo de Materia Prima'
-  subtitle: 'Los tamaños de las series de producción no son números arbitrarios fijados por un equipo comercial — los determinan las longitudes de los rollos de tela drop-stitch y la física del cambio de línea.'
+  title: 'Por Qué el MOQ de Volumen Estándar Es de 50–200 Unidades: Economía de Lotes de Fundición'
+  subtitle: 'Los tamaños de las series de producción no son números arbitrarios fijados por un equipo comercial — los determinan las cavidades de moldes de fundición, los tamaños de lotes de tratamiento térmico y la física del cambio de línea.'
   body: |
-    **La base de 150 metros de tela cruda.** La tela drop-stitch tejida de alta tensión se produce y recubre en rollos maestros continuos. La longitud estándar de rollo industrial por lote es de 150 metros de material continuo.
+    **La línea base de cavidades de fundición.** Los cuerpos de tornamesas se funden en arena de hierro gris HT200 o HT250. Un cajón estándar de fundición acomoda un ciclo de fundición que produce de 4 a 8 cuerpos de tornamesa dependiendo del ancho de mordaza. El lote mínimo eficiente de fundición es una carga completa de cajón.
 
-    **El cálculo de rendimiento (90 a 100 tablas).** Para un casco de SUP touring o all-around estándar (de 3,2 m a 3,5 m), un rollo maestro completo de 150 m rinde aproximadamente de 90 a 100 tablas de paddle terminadas.
+    **El cálculo de rendimiento (50 a 200 unidades).** Para una tornamesa estándar de servicio medio (ancho de mordaza de 6″–8″), un ciclo de fundición con herramientas de múltiples cavidades produce aproximadamente de 50 a 200 tornamesas terminadas cuando se usan múltiples cavidades en un solo vertido. Las unidades más pesadas de 8″–10″ producen menos por cajón; las más ligeras de 4″–5″ producen más.
 
-    **Política de cero empalmes de tela.** Los rollos completos garantizan continuidad estructural total — sin empalmes transversales de alto riesgo y con tensión uniforme de las fibras en las superficies superior e inferior de la tabla.
+    **Optimización de lotes de tratamiento térmico.** Todos los cuerpos de tornamesa pasan por tratamiento térmico para lograr la dureza requerida. La carga del horno es más eficiente en tamaños de lote que llenan la cámara — hornos subutilizados desperdician energía, cargas sobrecargadas riesgan un tratamiento desigual.
 
-    **Calibración térmica y de adhesivo.** Las líneas automatizadas de soldadura por aire caliente de alta frecuencia y de laminación con adhesivo marino requieren 2 horas de precalentamiento, perfilado de temperatura y calibración de presión. Un lote completo de 90–100 unidades amortiza estos costos fijos de preparación, logrando el menor costo unitario posible.
+    **Política de fundición sin desperdicio.** Las cargas completas de cajón aseguran una temperatura de hierro fundido consistente, llenado uniforme del molde y microestructura repetible en cada cuerpo del lote — sin vertidos parciales que crean zonas de dureza inconsistentes.
 
 moq_tiers:
   tagline: Dos Rutas Hacia Tu Marca
   title: 'OEM de Volumen Totalmente Personalizado vs Co-Branding de Lotes Pequeños'
-  subtitle: 'Una fábrica, dos puntos de entrada: producción en masa totalmente personalizada para líneas consolidadas y un programa de co-branding de baja barrera para clubes, centros de alquiler y marcas en crecimiento.'
+  subtitle: 'Una fábrica, dos puntos de entrada: producción en masa totalmente personalizada para líneas consolidadas y un programa de co-branding de baja barrera para distribuidores, proveedores industriales y marcas de herramientas en crecimiento.'
   features:
     - icon: P
       icon_bg: blue
-      title: 'OEM de Volumen Totalmente Personalizado — 90–100 Unidades por Lote'
-      desc: 'Determinado por la longitud estándar de 150 m del rollo de tela drop-stitch de alta calidad para garantizar la utilización óptima del material y la consistencia estructural. · Personalización 100% total: forma exclusiva del casco y colores Pantone a medida · Cobertura de arte digital o serigrafía en superficie completa · Empaque minorista personalizado, cajas impresas y accesorios con tu marca · Máxima eficiencia de costos y economías de escala'
+      title: 'OEM de Volumen Totalmente Personalizado — 50–200 Unidades por Lote'
+      desc: 'Determinado por la capacidad de cajón del ciclo de fundición y la optimización de lotes de tratamiento térmico. · Personalización 100% total: ancho de mordaza exclusivo, apertura y cuerpo fundido · Base giratoria de 360° personalizada, mecanismo de liberación rápida o yunque trasero · Marcas de marca grabadas láser o fundidas, color de cuerpo Pantone personalizado y sistema de pintura · Empaque minorista personalizado, cajas impresas y hojas de instrucciones con marca · Máxima eficiencia de costos y economías de escala'
       link: '/es/contact#custom-oem'
       link_label: 'Consultar por OEM de Volumen'
     - icon: B
       icon_bg: green
-      title: 'Co-Branding de Lotes Pequeños — Menos de 20 Unidades'
-      desc: 'Una solución de baja barrera basada en nuestras colecciones anuales probadas en campo para clubes, centros de alquiler y resorts — sin inventario pesado. · Casco y geometría fijos: formas probadas con cumplimiento CE / ISO 25649 · Identificador principal: marca oficial SUPsfactory en la sección central · Marca secundaria personalizada: tu logo impreso en la proa o los rieles laterales · Pruebas de presión y estanqueidad al 100% de la serie, 24 horas'
+      title: 'Co-Branding de Lotes Pequeños — Menos de 50 Unidades'
+      desc: 'Una solución de baja barrera basada en nuestras series de tornamesas probadas en campo para distribuidores, proveedores industriales y minoristas de herramientas — sin inventario pesado. · Plataforma fija de cuerpo y mordaza: configuraciones probadas de 5 series (ligera a pesada) · Identificador principal: marca de fundición oficial Stavalk en el cuerpo · Marca secundaria personalizada: tu logo grabado láser en el husillo o la cara de la mordaza · Pruebas de fuerza de sujeción, dureza de mordaza y torque de giro al 100% de la serie'
       link: '/es/contact#cobranding'
       link_label: 'Iniciar Co-Branding de Lotes Pequeños'
 
 moq_fees:
-  tagline: Tarifas de Serigrafía Transparentes
+  tagline: Tarifas de Branding Transparentes
   title: 'Estructura de Tarifas del Co-Branding — Desglosada por Adelantado'
-  subtitle: 'Precios claros y desglosados para la serigrafía de lotes pequeños. Las tarifas de molde se cobran una sola vez en la configuración inicial y se eximen en re-pedidos que usen la misma dimensión de arte.'
+  subtitle: 'Precios claros y desglosados para branding de lotes pequeños. Las tarifas de molde de fundición se cobran una vez en la configuración inicial y se eximen en re-pedidos que usen las mismas dimensiones de arte.'
   headers:
     fee: Ítem de Tarifa
     amount: Monto
     detail: Detalles
   rows:
-    - fee: 'Tarifa de molde de serigrafía (única, logo hasta 30 cm)'
-      amount: '$10.00 USD'
-      detail: 'Se cobra una sola vez en la configuración inicial; exenta en re-pedidos con la misma dimensión de arte.'
-    - fee: 'Tarifa de molde de serigrafía (única, logo hasta 50 cm)'
-      amount: '$15.00 USD'
-      detail: 'Se cobra una sola vez en la configuración inicial; exenta en re-pedidos con la misma dimensión de arte.'
-    - fee: 'Tarifa de manejo en fábrica e impresión de precisión'
-      amount: '$1.00 USD por tabla'
-      detail: 'Cubre posicionamiento coordinado manual, pretratamiento con solvente, transferencia de tinta y curado con calor.'
+    - fee: 'Tarifa de utillaje de marca de fundición (única, logo hasta 50 mm)'
+      amount: '$25.00 USD'
+      detail: 'Se cobra una sola vez en la configuración inicial; exenta en re-pedidos con las mismas dimensiones de arte.'
+    - fee: 'Tarifa de utillaje de marca de fundición (única, logo hasta 100 mm)'
+      amount: '$40.00 USD'
+      detail: 'Se cobra una sola vez en la configuración inicial; exenta en re-pedidos con las mismas dimensiones de arte.'
+    - fee: 'Tarifa de grabado láser y manejo en fábrica'
+      amount: '$0.50 USD por tornamesa'
+      detail: 'Cubre posicionamiento CNC, marca láser, preparación de superficie y verificación de calidad.'
 
 moq_stages:
   tagline: Muestra · Piloto · Volumen
@@ -77,13 +77,13 @@ moq_stages:
   steps:
     - step: '01'
       title: 'Desarrollo de Muestra (1–2 unidades)'
-      desc: 'Confirmación física de la rigidez del casco, la textura de la alfombrilla EVA, la precisión gráfica y el ajuste de accesorios antes de cualquier compromiso financiero. Se aplican tarifas de muestra que se acreditan a tu pedido de producción al firmar el contrato.'
+      desc: 'Confirmación física de la dureza de mordaza (58–62 HRC), fuerza de sujeción, torque de giro, acabado superficial y ajuste de accesorios antes de cualquier compromiso financiero. Se aplican tarifas de muestra que se acreditan a tu pedido de producción al firmar el contrato.'
     - step: '02'
       title: 'Pedido Piloto (20–50 unidades)'
-      desc: 'Pruebas comerciales de pretemporada y validación de mercado regional usando plataformas de casco existentes, materiales de stock y empaque simplificado para minimizar la fricción de preparación.'
+      desc: 'Pruebas comerciales y validación de mercado regional usando plataformas de series existentes, materiales estándar y empaque estándar para minimizar la fricción de preparación.'
     - step: '03'
-      title: 'Producción de Volumen (90–100+ unidades)'
-      desc: 'Confirmada tras la BOM congelada, el arte finalizado, el empaque personalizado y los planes de entrega programados — rollos completos de 150 m, telas Pantone a medida, empaque exclusivo, descuentos por volumen y trazabilidad completa de lote.'
+      title: 'Producción de Volumen (50–200+ unidades)'
+      desc: 'Confirmada tras BOM congelada, branding finalizado, empaque personalizado y planes de entrega programados — ciclos completos de fundición, sistemas de pintura personalizados, empaque exclusivo, descuentos por volumen y trazabilidad completa de lote.'
 
 moq_factors:
   tagline: Qué Define Tu MOQ
@@ -94,69 +94,68 @@ moq_factors:
     driver: Factor de Fabricación
     impact: Impacto en la Cantidad Mínima
   rows:
-    - component: 'Forma del Casco y Herramientas'
-      driver: 'Moldes de rocker existentes vs matrices de corte CAD a medida y herramientas de prensa en caliente EVA'
-      impact: 'Plataformas existentes: pedidos piloto desde 20 pcs. Cascos a medida: requiere amortización de herramientas dedicadas.'
-    - component: 'Colores y PVC'
-      driver: 'Colores estándar de stock vs láminas de PVC teñidas en Pantone propio'
-      impact: 'El PVC Pantone personalizado requiere corridas de teñido químico dedicadas con MOQs independientes de materia prima.'
+    - component: 'Ancho de Mordaza y Serie del Cuerpo'
+      driver: 'Moldes de fundición existentes para series estándar vs cavidades de molde diseñadas en CAD a medida'
+      impact: 'Plataformas existentes: pedidos piloto desde 20 piezas. Cuerpos fundidos a medida: requiere amortización de utillaje dedicado.'
+    - component: 'Acabado Superficial y Pintura'
+      driver: 'Pintura estándar martillada vs acabado en polvo Pantone o Parkerizado personalizado'
+      impact: 'Los sistemas de pintura personalizados requieren preparación dedicada de línea de recubrimiento con mínimos de lote independientes.'
     - component: 'Empaque con Marca'
-      driver: 'Cajas genéricas con etiquetas de código de barras vs cajas minoristas de regalo de 5 capas y manuales con marca'
+      driver: 'Cajas genéricas con etiquetas de código de barras vs cajas minoristas a todo color con marca y hojas de instrucciones'
       impact: 'Las cajas de color personalizadas tienen un mínimo independiente de impresión offset (típicamente más de 500 cajas).'
     - component: 'Paquetes de Accesorios'
-      driver: 'Paddles estándar de aluminio o nailon vs paddles de carbono a juego y bombas con marca'
-      impact: 'Los accesorios totalmente personalizados siguen los lotes de producción de los proveedores de nivel inferior.'
+      driver: 'Jawas de acero forjado estándar vs juego de jawas endurecidas GCr15/Cr12MoV personalizadas con accesorios de marca'
+      impact: 'Los juegos de accesorios totalmente personalizados siguen los lotes de producción de los proveedores de nivel inferior.'
 
 moq_downloads:
   tagline: Documentos Oficiales
   title: 'Archivos de Política Bilingües — Descarga y Comparte'
-  subtitle: 'Documentos oficiales de Qingdao Vatrad Group Co., Ltd., listos para adjuntar a las consultas de compradores. Ambos archivos son bilingües (inglés / chino).'
+  subtitle: 'Documentos oficiales de Stavalk, Qingdao, China, listos para adjuntar a las consultas de compradores. Ambos archivos son bilingües (inglés / chino).'
   features:
     - icon: G
       icon_bg: blue
       title: 'Guía de Branding Flexible y MOQ (PDF)'
-      desc: 'Guía B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN, publicada el 14 ago 2026): la lógica de ingeniería detrás del rendimiento de los rollos drop-stitch de 150 m (90–100 tablas), el programa de co-branding de menos de 20 unidades, las tarifas de serigrafía transparentes y las tres etapas de producción.'
-      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      desc: 'Guía B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN, publicada en sep 2026): la economía de lotes de fundición detrás de las series de producción de tornamesas, el programa de co-branding desde 20 unidades, tarifas de branding transparentes y las tres etapas de producción.'
+      link: 'https://assets.stavalk.com/site/downloads/flexible-branding-and-moq-guide.pdf'
       link_label: 'Descargar Guía (PDF)'
     - icon: P
       icon_bg: green
       title: 'Política de Branding Flexible y Co-Branding (PDF)'
       desc: 'Expediente de política oficial (Parte 1, POL-MOQ-2026-V1): reglas de co-branding de lotes pequeños, el marco de MOQ específico por proyecto, los cuatro factores que definen los mínimos y la firma conjunta de Vicepresidente de Ventas, Ingeniero Jefe y Director de QA.'
-      link: 'https://assets.supsfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link: 'https://assets.stavalk.com/site/downloads/flexible-branding-and-moq-policy.pdf'
       link_label: 'Descargar Política (PDF)'
 
 moq_faqs:
   tagline: FAQ
   title: 'Preguntas Frecuentes Sobre el MOQ'
   items:
-    - q: '¿El MOQ se calcula por pedido, por modelo o por color?'
-      a: 'El MOQ puede aplicarse por modelo, color, versión de arte, configuración de empaque o pedido total. Debido a que los distintos grosores de drop-stitch (12 cm vs 15 cm) y los colores de PVC provienen de rollos de materia prima diferentes, pedir 50 tablas divididas en 5 colores crea 5 requisitos separados de rollo de tela. Confirmamos el cálculo exacto contra tu matriz de SKU antes de cotizar para que planifiques tu mezcla con claridad.'
+    - q: '¿El MOQ se calcula por pedido, por modelo o por variante?'
+      a: 'El MOQ puede aplicarse por modelo, variante, serie del cuerpo, configuración de branding o pedido total. Dado que diferentes anchos de mordaza (4″ vs 10″) y cuerpos fundidos provienen de moldes de fundición y lotes de tratamiento térmico distintos, pedir 50 tornamesas divididas en 5 series crea 5 requisitos de producción separados. Confirmamos el cálculo exacto contra tu matriz de SKU antes de cotizar para que planifiques tu mezcla con claridad.'
     - q: '¿Puedo pedir una muestra antes de la producción en masa?'
-      a: 'Sí. El desarrollo de muestras (1–2 unidades) verifica la rigidez del casco, la textura de la alfombrilla EVA, la precisión gráfica y el ajuste de accesorios antes del lanzamiento de producción. Se aplican tarifas de muestra que se acreditan a tu pedido de producción al firmar el contrato.'
+      a: 'Sí. El desarrollo de muestras (1–2 unidades) verifica la dureza de mordaza, la fuerza de sujeción, el torque de giro, el acabado superficial y el ajuste antes del lanzamiento de producción. Se aplican tarifas de muestra que se acreditan a tu pedido de producción al firmar el contrato.'
     - q: '¿Por qué el empaque minorista personalizado tiene un MOQ independiente?'
       a: 'Las imprentas flexográficas u offset de cajas personalizadas requieren una preparación mínima de más de 500 unidades. Ofrecemos una Solución de Almacenamiento de Empaque Híbrido: producimos las 500 cajas impresas, almacenamos el excedente en nuestro almacén limpio y las liberamos en lotes a través de tus envíos programados — así un pedido menor también puede enviarse con empaque minorista totalmente personalizado.'
-    - q: '¿Por qué el MOQ estándar de volumen es de 90–100 unidades?'
-      a: 'El MOQ de volumen estándar sigue a la materia prima: un rollo maestro de 150 m de tela drop-stitch de alta calidad rinde aproximadamente 90–100 tablas terminadas para un casco touring o all-around estándar. Correr rollos completos elimina empalmes de tela, mantiene uniforme la tensión de las fibras y amortiza las 2 horas de calibración de las líneas de soldadura y laminación — logrando el menor costo unitario posible.'
+    - q: '¿Por qué el MOQ estándar de volumen es de 50–200 unidades?'
+      a: 'El MOQ de volumen estándar sigue el proceso de fundición: una carga completa de cajón en nuestro fundición produce de 50 a 200 cuerpos de tornamesa dependiendo del ancho de mordaza y el número de cavidades. Ejecutar cargas completas de cajón asegura una temperatura de hierro fundido consistente, llenado uniforme del molde y microestructura repetible — mientras se amortiza la energía del horno, la preparación de tratamiento térmico y la calibración de mecanizado CNC en el lote.'
     - q: '¿Una cantidad mayor reduce el costo unitario?'
-      a: 'En la mayoría de los proyectos, sí. Las cantidades mayores mejoran el rendimiento del material, distribuyen los costos fijos de preparación de la línea entre más tablas y reducen los costos unitarios de empaque.'
+      a: 'En la mayoría de los proyectos, sí. Las cantidades mayores mejoran el rendimiento de fundición, distribuyen los costos fijos de preparación de fundición y tratamiento térmico entre más unidades y reducen los costos unitarios de empaque.'
     - q: '¿Las tarifas de molde del co-branding se aplican de nuevo en los re-pedidos?'
-      a: 'No. Las tarifas de molde de serigrafía se cobran una sola vez en la configuración inicial y se eximen en re-pedidos que usen la misma dimensión de arte. Solo pagas la tarifa de manejo e impresión de $1.00 USD por tabla.'
+      a: 'No. Las tarifas de utillaje de marca de fundición se cobran una vez en la configuración inicial y se eximen en re-pedidos que usen las mismas dimensiones de arte. Solo pagas la tarifa de grabado láser y manejo de $0.50 USD por tornamesa.'
     - q: '¿Solicitar orientación de MOQ me compromete con un pedido?'
-      a: 'No. Solicitar orientación de MOQ simplemente permite que nuestro equipo de ingeniería en Qingdao Vatrad Group Co., Ltd. revise tu brief técnico y aconseje la ruta de producción más rentable. Hay disponible un Acuerdo de No Divulgación (NDA) antes de compartir especificaciones técnicas o arte propietario.'
+      a: 'No. Solicitar orientación de MOQ simplemente permite que nuestro equipo de ingeniería en Stavalk, Qingdao revise tu brief técnico y aconseje la ruta de producción más rentable. Hay disponible un Acuerdo de No Divulgación (NDA) antes de compartir especificaciones técnicas o arte propietario.'
 
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Jimo, Qingdao. Certificados, registros de inspección QC, informes de dureza y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-09.'
+
 cta:
-  title: '¿Necesitas Orientación de MOQ para Tu Proyecto de SUP?'
-  subtitle: 'Comparte tu modelo objetivo de tabla, el rango estimado del primer pedido y tus requisitos de branding. Te asesoraremos si la ruta de muestra, piloto o volumen es el siguiente paso más adecuado. Enviar una consulta no te compromete con una cantidad final de pedido — hay disponible discusión bajo NDA.'
+  title: '¿Necesitas Orientación de MOQ para Tu Proyecto de Tornamesa?'
+  subtitle: 'Comparte tu modelo objetivo de tornamesa, el rango estimado del primer pedido y tus requisitos de branding. Te asesoraremos si la ruta de muestra, piloto o volumen es el siguiente paso más adecuado. Enviar una consulta no te compromete con una cantidad final de pedido — hay disponible discusión bajo NDA.'
   actions:
     - variant: primary
       text: Solicitar Orientación de MOQ
       href: /es/contact#moq-guide
-    - text: Desglose de MOQ y plazos para SUP personalizados
-      href: /es/sup-oem-moq-lead-time
     - text: Lanza una nueva marca con un pedido de prueba
       href: /es/new-brand-trial-order
     - text: Verifica la fábrica y el sistema de calidad
@@ -164,6 +163,6 @@ cta:
     - text: El sistema de inspección de 7 etapas
       href: /es/quality
     - text: Resumen de fabricación OEM y ODM
-      href: /es/oem-manufacturing
-    - text: Comparación de Construcción SUP
-      href: /es/sup-construction-comparison
+      href: /es/factory/oem-capability
+    - text: Compara OEM, ODM y Private Label
+      href: /es/oem-odm-private-label-comparison

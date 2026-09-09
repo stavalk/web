@@ -1,62 +1,68 @@
 {
   "facility": {
     "location": "Qingdao, China",
-    "size": "12,500 m²",
-    "employees": "350+",
-    "annual_capacity": "120,000+ units"
+    "size": "8,000 m²",
+    "employees": "200+",
+    "annual_capacity": "80,000+ units"
   },
   "capabilities": {
-    "design": ["Product requirement analysis", "3D modeling", "Prototype development"],
+    "design": ["3D CAD modeling", "Jaw profile optimization", "Custom swivel base engineering", "Prototype development"],
     "materials": [
-      "Marine-grade PVC (1100 denier)",
-      "Hypalon/CSM rubber",
-      "Fiberglass",
-      "Aluminum alloys",
-      "Stainless steel"
+      "HT200 gray cast iron",
+      "HT250 gray cast iron",
+      "45# forged carbon steel",
+      "GCr15 bearing steel (jaws)",
+      "Cr12MoV tool steel (jaws)",
+      "Chromium-vanadium alloy steel"
     ],
     "processes": [
-      "CNC cutting",
-      "High-frequency welding",
-      "PVC/Hypalon fabrication",
-      "Drop stitch core assembly",
-      "Fiberglass layup",
-      "Aluminum hull welding",
-      "Tube assembly & seam sealing",
-      "Pressure testing",
-      "Water testing"
+      "Sand casting",
+      "Precision CNC machining",
+      "Heat treatment (quenching and tempering)",
+      "Surface grinding",
+      "Jaw hardening (58-62 HRC)",
+      "Powder coating / spray painting",
+      "Assembly and torque verification",
+      "Functional testing"
     ],
     "equipment": [
-      "CNC cutting machines",
-      "High-frequency welding machines",
-      "Drop stitch production line",
-      "Pressure testing rigs",
-      "Material aging testers",
-      "Seam strength testers"
+      "CNC milling centers",
+      "Surface grinding machines",
+      "Heat treatment furnaces",
+      "Rockwell hardness testers",
+      "Salt spray test chambers",
+      "Torque testing rigs",
+      "CMM coordinate measuring machines"
     ]
   },
   "quality_control": [
-    "Incoming material inspection",
-    "In-process quality checks",
-    "Seam strength testing",
-    "Pressure testing for all inflatable products",
-    "Final product inspection",
-    "Sea trials for RIB boats"
+    "Incoming material inspection (chemical composition analysis)",
+    "Cast iron / steel blank inspection",
+    "In-process machining tolerance checks",
+    "Jaw hardness verification (Rockwell C)",
+    "Clamping force testing per model",
+    "Swivel base rotation and locking test",
+    "Surface finish and coating inspection",
+    "Final dimensional inspection",
+    "Functional open/close cycle test"
   ],
   "oem_process": [
-    "Product requirement analysis",
-    "Design confirmation",
-    "Prototype production",
-    "Testing & validation",
+    "Requirement analysis and specification",
+    "Design confirmation and 3D model approval",
+    "Prototype / first article production",
+    "Testing and validation",
     "Mass production",
-    "Quality inspection",
+    "Quality inspection per AQL standards",
     "Export delivery"
   ],
   "customization_options": [
-    "Tube colors",
-    "Console position",
-    "Fuel capacity",
-    "Accessory mounts",
-    "Branding & logos",
-    "Packaging"
+    "Jaw width and opening",
+    "Jaw surface pattern (serrated, smooth, V-groove)",
+    "Swivel base angle (90° or 360°)",
+    "Anvil surface shape",
+    "Body color and powder coat finish",
+    "Logo and branding (laser engraving, casting mark, label)",
+    "Handle type (Tommy bar, sliding T-handle, ratchet)",
+    "Packaging and retail display"
   ]
 }

@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Server-only site search index builder.
  *
  * Statically imported by server routes (`/search-index.json`) and dynamically

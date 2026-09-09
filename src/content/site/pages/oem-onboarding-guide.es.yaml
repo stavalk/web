@@ -1,20 +1,20 @@
-﻿meta:
-  title: 'Guía de Onboarding OEM — Proceso Paso a Paso desde el Primer Contacto hasta la Producción | SUPsfactory'
+meta:
+  title: 'Guía de Onboarding OEM — Proceso Paso a Paso desde el Primer Contacto hasta la Producción | Stavalk'
   description: 'Guía de onboarding OEM: NDA, factibilidad, muestras, aprobación, preproducción, QC y envío. Proceso paso a paso con cronogramas.'
-  dateModified: '2026-08-20'
+  dateModified: '2026-09-01'
   keywords:
     - 'guía de onboarding OEM'
-    - 'proceso de fabricación de SUP'
+    - 'proceso de fabricación tornamesa'
     - 'onboarding de comprador OEM'
-    - 'proceso de fábrica de SUP'
-    - 'pasos para pedido SUP personalizado'
+    - 'proceso de fábrica tornamesa'
+    - 'pasos para pedido tornamesa personalizado'
     - 'proceso de muestra OEM'
-    - 'cronograma de producción SUP'
+    - 'cronograma de producción tornamesa'
 
 hero:
   tagline: 'Onboarding de Comprador OEM'
-  title: 'Tu Primer Pedido de SUP, Paso a Paso'
-  subtitle: 'Desde el primer contacto hasta las tablas entregadas, el proceso de onboarding OEM en SUPsfactory atraviesa siete puertas definidas — cada una con un cronograma claro, un entregable documentado y un punto de control de aprobación/rechazo. Sin ambigüedad, sin pasos ocultos, sin sorpresas después del depósito.'
+  title: 'Tu Primer Pedido de Tornamesas, Paso a Paso'
+  subtitle: 'Desde el primer contacto hasta las tornamesas entregadas, el proceso de onboarding OEM en Stavalk atraviesa siete puertas definidas — cada una con un cronograma claro, un entregable documentado y un punto de control de aprobación/rechazo. Sin ambigüedad, sin pasos ocultos, sin sorpresas después del depósito.'
   actions:
     - variant: primary
       text: Inicia Tu Brief de Proyecto
@@ -24,35 +24,35 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Un onboarding OEM típico toma 2–4 semanas para la aprobación de muestras y 6–8 semanas para la primera serie de producción desde PO confirmado. Empiezas enviando un brief de proyecto (especificaciones de tabla, volumen, necesidades de cumplimiento). Respondemos en un día hábil, ofrecemos un NDA antes de que compartas detalles de propiedad, y producimos 1–2 muestras físicas en 7–12 días para tu revisión y aprobación. Una vez congelada la muestra, la planificación de producción y la fabricación siguen con puertas de QC fijas en cada etapa. Cada paso está documentado y es trazable.'
-  verified: '2026-08'
+  text: 'Un onboarding OEM típico toma 2–4 semanas para la aprobación de muestras y 6–8 semanas para la primera serie de producción desde PO confirmado. Empiezas enviando un brief de proyecto (especificaciones de tornamesa, volumen, necesidades de cumplimiento). Respondemos en un día hábil, ofrecemos un NDA antes de que compartas detalles de propiedad, y producimos 1–2 muestras físicas en 7–14 días para tu revisión y aprobación. Una vez congelada la muestra, la planificación de producción y la fabricación siguen con puertas de QC fijas en cada etapa. Cada paso está documentado y es trazable.'
+  verified: '2026-09'
 
 process_steps:
   tagline: Las Siete Puertas
   title: 'Flujo de Onboarding — Siete Puertas desde el Brief hasta la Entrega'
-  subtitle: 'Cada puerta tiene una entrada definida, una salida definida y un cronograma que acuerdas por adelantado. Nunca avanzas past una puerta sin aprobación explícita.'
+  subtitle: 'Cada puerta tiene una entrada definida, una salida definida y un cronograma que acuerdas por adelantado. Nunca avanzas pas una puerta sin aprobación explícita.'
   steps:
     - step: 'Puerta 1'
       title: 'Consulta Inicial y NDA (Día 0)'
-      desc: 'Envía un brief de proyecto a través de /contact con las especificaciones de tabla objetivo, volumen del pedido, requisitos de cumplimiento y cronograma. Un NDA está disponible de inmediato — antes de que compartas cualquier especificación técnica o arte de propiedad. Respuesta en un día hábil.'
+      desc: 'Envía un brief de proyecto a través de /contact con las especificaciones de tornamesa objetivo, volumen del pedido, requisitos de cumplimiento y cronograma. Un NDA está disponible de inmediato — antes de que compartas cualquier especificación técnica o arte de propiedad. Respuesta en un día hábil.'
     - step: 'Puerta 2'
       title: 'Revisión de Factibilidad y Cotización (Días 1–5)'
       desc: 'Ingeniería revisa tu brief contra la capacidad de fabricación, disponibilidad de materiales y alcance de cumplimiento. Recibes una cotización detallada con el cálculo de MOQ, tarifas de muestra (acreditadas hacia la producción) y segmentos de plazo — no un rango aproximado, un cronograma puerta por puerta.'
     - step: 'Puerta 3'
       title: 'Producción de Muestras (Días 6–17)'
-      desc: '1–2 tablas físicas producidas según tu especificación: rigidez del casco, textura de almohadilla EVA, precisión de gráficos, ajuste de accesorios. Remas y evalúas la tabla antes de comprometerte con nada más. Las tarifas de muestra se acreditan a tu pedido de producción al firmar el contrato.'
+      desc: '1–2 tornamesas físicas producidas según tu especificación: dureza de mordaza, fuerza de sujeción, torque de giro, acabado superficial, branding. Pruebas la tornamesa antes de comprometerte con nada más. Las tarifas de muestra se acreditan a tu pedido de producción al firmar el contrato.'
     - step: 'Puerta 4'
       title: 'Revisión y Aprobación de Muestra (Días 18–21)'
-      desc: 'Evalúas la muestra contra tus especificaciones — calidad de navegación, fidelidad de gráficos, empaque, accesorios. Los ajustes se capturan en un BOM revisado y firma de arte. La especificación congelada se convierte en la referencia de producción para todas las series posteriores.'
+      desc: 'Evalúas la muestra contra tus especificaciones — agarre de mordaza, fuerza de sujeción, acción de giro, calidad de acabado, precisión de branding. Los ajustes se capturan en un BOM revisado y firma de branding. La especificación congelada se convierte en la referencia de producción para todas las series posteriores.'
     - step: 'Puerta 5'
       title: 'Planificación de Preproducción (Días 22–28)'
-      desc: 'Adquisición de materiales, configuración de utillaje, confirmación de empaque y reserva de cupo de producción. Todos los materiales son inspeccionados a la entrada contra el BOM congelado. Se emite un cronograma de producción con fechas de puertas de QC antes de que comience la fabricación.'
+      desc: 'Adquisición de materiales, configuración de molde de fundición, confirmación de empaque y reserva de cupo de producción. Todos los materiales son inspeccionados a la entrada contra el BOM congelado. Se emite un cronograma de producción con fechas de puertas de QC antes de que comience la fabricación.'
     - step: 'Puerta 6'
       title: 'Producción y Puertas de QC (Días 29–55)'
-      desc: 'La fabricación atraviesa el sistema de inspección de 7 etapas: inspección de material entrante, inspección de tela drop-stitch, soldadura y ensamblaje, pruebas de presión y hermeticidad (sostenimiento a 18.0 PSI, auto-rechazo por caída superior a 0.50 PSI), instalación de almohadilla EVA y accesorios, QC de gráficos y branding, y empaque y documentación final. Cada puerta tiene criterios de aprobación/rechazo y registros de trazabilidad.'
+      desc: 'La fabricación atraviesa el sistema de inspección de 7 etapas: inspección de material entrante, fundición en arena, mecanizado CNC, tratamiento térmico, recubrimiento superficial (pintura/polvo/Parkerizado), ensamblaje e inspección final. Cada puerta tiene criterios de aprobación/rechazo y registros de trazabilidad.'
     - step: 'Puerta 7'
       title: 'Envío y Revisión Post-Entrega (Días 56–63)'
-      desc: 'Embalaje de grado exportación, documentación de cumplimiento (CE, ISO 9001, BSCI, REACH, RoHS) y coordinación de flete marítimo a 50+ países. Una revisión post-entrega captura lecciones aprendidas y refinamientos para el próximo ciclo de pedidos.'
+      desc: 'Embalaje de grado exportación, documentación de cumplimiento (CE, ISO 9001, ISO 14001, RoHS) y coordinación de flete a 50+ países. Una revisión post-entrega captura lecciones aprendidas y refinamientos para el próximo ciclo de pedidos.'
 
 collaboration_modes:
   tagline: Elige Tu Camino
@@ -63,58 +63,58 @@ collaboration_modes:
     - icon: O
       icon_bg: blue
       title: 'Fabricación OEM'
-      desc: 'Provees la especificación completa de diseño — forma del casco, construcción, gráficos, accesorios. Fabricamos según tu especificación. Tú posees todo el IP. Mejor para marcas con una línea de productos existente y geometría de tabla probada.'
+      desc: 'Provees la especificación completa de diseño — ancho de mordaza, apertura, serie del cuerpo, branding, empaque. Fabricamos según tu especificación. Tú posees todo el IP. Mejor para marcas con una línea de productos existente y geometría de tornamesa probada.'
       link_label: 'Cómo funciona OEM'
-      href: /es/oem-manufacturing
+      href: /es/factory/oem-capability
     - icon: D
       icon_bg: green
       title: 'Desarrollo ODM'
-      desc: 'Provees el brief — peso del rider objetivo, caso de uso, precio objetivo — y nuestro equipo de ingeniería desarrolla la tabla según tus requisitos. Plataforma adaptada con tu marca. Mejor para marcas que entran al mercado sin capacidad de diseño interna.'
+      desc: 'Provees el brief — caso de uso objetivo, requisitos de sujeción, precio objetivo — y nuestro equipo de ingeniería desarrolla la tornamesa según tus requisitos. Serie adaptada con tu marca. Mejor para marcas que entran al mercado sin capacidad de diseño interna.'
       link_label: 'Cómo funciona ODM'
-      href: /es/odm-development
+      href: /es/factory/oem-capability
     - icon: P
       icon_bg: purple
       title: 'Private Label / Co-Branding'
-      desc: 'Aplica tu marca a una plataforma probada en el campo — sin etapa de ingeniería. Tu logo en proa o raíles laterales desde tan solo 5–10 unidades. Mejor para operadores y distribuidores que quieren tablas con su marca sin ciclo de desarrollo.'
+      desc: 'Aplica tu marca a una serie probada en el campo — sin etapa de ingeniería. Tu logo en el husillo o la cara de la mordaza desde tan solo 20 unidades. Mejor para distribuidores y proveedores industriales que quieren tornamesas con su marca sin ciclo de desarrollo.'
       link_label: 'Opciones de Private Label'
-      href: /es/solutions/private-label-sup
+      href: /es/solutions'
 
 checklist:
   heading: 'Qué Preparar Antes de Tu Brief de Proyecto'
   body: |
     Cuanto más completo sea tu brief, más rápida y precisa será la cotización. Esto es lo que debes tener listo:
 
-    - **Especificaciones de tabla** — Largo, ancho, grosor, rango de peso del rider y uso previsto (touring, all-around, surf, pesca, yoga, etc.) objetivo. Si tienes dimensiones de tabla de referencia o un modelo competidor, inclúyelas.
-    - **Archivos de diseño** — Arte vectorial (AI, SVG o PDF) para gráficos de tabla, logo de almohadilla EVA y cualquier branding secundario. Si el arte no está listo, un mood board o imágenes de referencia son suficientes para la factibilidad inicial.
-    - **Volumen y cronograma del pedido** — Tu cantidad objetivo para el primer pedido y el calendario de temporada que necesitas cumplir. Incluso un rango aproximado ("20–50 tablas para marzo") es suficiente para confirmar factibilidad y disponibilidad de cupo.
-    - **Requisitos de cumplimiento** — Mercados objetivo (UE, Norteamérica, Australia, etc.) y cualquier requisito específico de certificación o pruebas más allá de nuestro alcance estándar (CE, ISO 9001, BSCI, REACH, RoHS).
-    - **Rango de presupuesto** — Un presupuesto indicativo por tabla o costo landed objetivo nos ayuda a recomendar la plataforma y el nivel de construcción adecuados. El precio exacto se confirma después de la revisión de ingeniería — nunca antes.
+    - **Especificaciones de tornamesa** — Ancho de mordaza objetivo, profundidad de apertura, serie del cuerpo (ligera, media, pesada, tubo o especial), requisito de fuerza de sujeción y uso previsto (taller, industrial, construcción, etc.). Si tienes dimensiones de tornamesa de referencia o un modelo competidor, inclúyelas.
+    - **Archivos de diseño** — Arte vectorial (AI, SVG o PDF) para marcas de marca, color de cuerpo y cualquier branding secundario. Si el arte no está listo, un moodboard o imágenes de referencia son suficientes para la factibilidad inicial.
+    - **Volumen y cronograma del pedido** — Tu cantidad objetivo para el primer pedido y el calendario de temporada que necesitas cumplir. Incluso un rango aproximado ("50–100 tornamesas para marzo") es suficiente para confirmar factibilidad y disponibilidad de cupo.
+    - **Requisitos de cumplimiento** — Mercados objetivo (UE, Norteamérica, Australia, etc.) y cualquier requisito específico de certificación o pruebas más allá de nuestro alcance estándar (CE, ISO 9001, ISO 14001, RoHS).
+    - **Rango de presupuesto** — Un presupuesto indicativo por unidad o costo landed objetivo nos ayuda a recomendar la serie y el nivel de construcción adecuados. El precio exacto se confirma después de la revisión de ingeniería — nunca antes.
 
     Si aún no tienes todo esto, envía lo que tengas. Nosotros guiamos el resto.
 
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Jimo, Qingdao. Certificados, registros de inspección QC, informes de dureza y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-09.'
 
 faqs:
   tagline: FAQ
   title: 'Onboarding OEM — Preguntas Frecuentes'
   items:
     - q: '¿Cuánto tarda el proceso completo de onboarding?'
-      a: 'La aprobación de muestras típicamente toma 2–4 semanas (incluyendo producción de muestras en 7–12 días y tu período de revisión). La primera serie de producción toma 6–8 semanas desde PO confirmado y depósito. Un casco a medida añade 15–20 días de desarrollo de molde. Cada puerta tiene un cronograma fijo que acuerdas por adelantado.'
+      a: 'La aprobación de muestras típicamente toma 2–4 semanas (incluyendo producción de muestras en 7–14 días y tu período de revisión). La primera serie de producción toma 6–8 semanas desde PO confirmado y depósito. Un cuerpo fundido a medida añade 15–20 días de desarrollo de molde. Cada puerta tiene un cronograma fijo que acuerdas por adelantado.'
     - q: '¿Necesito firmar un NDA antes de compartir mi diseño?'
-      a: 'Un NDA está disponible de inmediato a petición — antes de que compartas cualquier especificación técnica o arte de propiedad. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellos en ningún mercado. La misma política se aplica a una muestra de 1 tabla que a un programa de contenedor.'
+      a: 'Un NDA está disponible de inmediato a petición — antes de que compartas cualquier especificación técnica o arte de propiedad. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellos en ningún mercado. La misma política se aplica a una muestra de 1 tornamesa que a un programa de volumen completo.'
     - q: '¿Cuál es el pedido mínimo para una primera serie OEM?'
-      a: 'El punto de entrada es escalonado: primero 1–2 muestras (listas en 7–12 días), un pedido de prueba o piloto de 20–50 tablas (producción en 25–35 días), y luego series de volumen estándar de 90–100+ tablas por configuración aprobada. El co-branding de lotes pequeños parte desde 5–10 unidades cuando no se necesita etapa de desarrollo. Las tarifas de muestra se acreditan a tu pedido de producción.'
+      a: 'El punto de entrada es escalonado: primero 1–2 muestras (listas en 7–14 días), un pedido de prueba o piloto de 20–50 tornamesas (producción en 25–35 días), y luego series de volumen estándar de 50–200+ tornamesas por configuración aprobada. El co-branding de lotes pequeños parte desde 20 unidades cuando no se necesita etapa de desarrollo. Las tarifas de muestra se acreditan a tu pedido de producción.'
     - q: '¿Cómo se maneja la protección de IP durante el onboarding?'
-      a: 'Tus diseños y especificaciones están protegidos bajo el NDA firmado antes de que se comparta cualquier información de propiedad. Todos los archivos de arte, datos de BOM y archivos técnicos se almacenan en sistemas con control de acceso y trazabilidad de auditoría. En modo OEM, tú posees todo el IP. En modo ODM, el IP de la plataforma adaptada se comparte según acuerdo. En modo Private Label, el IP permanece con SUPsfactory y tú licencias la aplicación de marca.'
+      a: 'Tus diseños y especificaciones están protegidos bajo el NDA firmado antes de que se comparta cualquier información de propiedad. Todos los archivos de arte, datos de BOM y archivos técnicos se almacenan en sistemas con control de acceso y trazabilidad de auditoría. En modo OEM, tú posees todo el IP. En modo ODM, el IP de la plataforma adaptada se comparte según acuerdo. En modo Private Label, el IP permanece con Stavalk y tú licencias la aplicación de marca.'
     - q: '¿Qué garantías de calidad aplican a un primer pedido?'
-      a: 'Cada tabla — muestra, prueba o volumen — pasa por el mismo sistema de inspección de 7 etapas: inspección de material entrante, inspección de tela drop-stitch, soldadura y ensamblaje, pruebas de presión y hermeticidad de 24 horas (sostenimiento a 18.0 PSI, auto-rechazo por caída superior a 0.50 PSI), instalación de almohadilla EVA y accesorios, QC de gráficos y branding, y empaque y documentación final. La calidad nunca se reduce para pedidos más pequeños.'
+      a: 'Cada tornamesa — muestra, prueba o volumen — pasa por el mismo sistema de inspección de 7 etapas: inspección de material entrante, fundición en arena, mecanizado CNC, tratamiento térmico, recubrimiento superficial, ensamblaje e inspección final con pruebas de fuerza de sujeción, dureza de mordaza (58–62 HRC), torque de giro, durabilidad de 10.000+ ciclos y resistencia a corrosión por sal de 48+ horas. La calidad nunca se reduce para pedidos más pequeños.'
 
 cta:
-  title: '¿Listo para Iniciar Tu Proyecto SUP?'
-  subtitle: 'Envíanos las especificaciones de tu tabla, el volumen objetivo y el cronograma. Confirmaremos la factibilidad, produciremos muestras y entregaremos un cronograma de producción — puerta por puerta, con QC documentado en cada paso.'
+  title: '¿Listo para Iniciar Tu Proyecto de Tornamesas?'
+  subtitle: 'Envíanos las especificaciones de tu tornamesa, el volumen objetivo y el cronograma. Confirmaremos la factibilidad, produciremos muestras y entregaremos un cronograma de producción — puerta por puerta, con QC documentado en cada paso.'
   actions:
     - variant: primary
       text: Inicia Tu Brief de Proyecto

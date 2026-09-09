@@ -1,0 +1,164 @@
+meta:
+  title: 'Acerca de Stavalk — Fabricante de tornillos de banco en Qingdao, China'
+  description: 'Stavalk es un fabricante de tornillos de banco en Jimo, Qingdao, China — 8.000 m², 200+ trabajadores, 80.000+ tornillos/año. OEM, ODM y marca privada.'
+  dateModified: '2026-09-01'
+  keywords:
+    - 'stavalk'
+    - 'fabricante de tornillo de banco china'
+    - 'fábrica de tornillo de banco qingdao'
+    - 'tornillo de banco oem'
+hero:
+  tagline: Acerca de Stavalk
+  title: 'Stavalk — el fabricante de tornillos de banco detrás de {SITE}'
+  subtitle: 'Con base en Jimo, Qingdao, China, Stavalk diseña y fabrica tornillos de banco para clientes OEM, ODM y de marca privada en más de 50 países — una instalación de 8.000 m², 200+ trabajadores y 80.000+ tornillos de capacidad anual.'
+  actions:
+    - text: 'Iniciar un proyecto OEM'
+      href: /es/contact
+      variant: primary
+    - text: 'Ver la fábrica'
+      href: /es/factory
+      variant: secondary
+intro: |
+  <p><strong>Stavalk</strong> es un fabricante de tornillos de banco con sede en Jimo, Qingdao, Shandong, China. Con una instalación de producción de 8.000 m², la empresa produce tornillos de banco desde modelos de trabajo ligero de 4″ hasta tornillos de trabajo pesado de 10″, además de tornillos para tubería y herramientas de sujeción especiales.</p>
+  <p>Cada proyecto de Stavalk —desde una primera muestra hasta la producción OEM a gran escala— se fabrica en la misma instalación, por los mismos equipos y bajo el mismo sistema de calidad descrito aquí. Fabricamos exclusivamente para nuestros clientes y nunca competimos con ellos bajo nuestra propia marca.</p>
+  <p>La fábrica cubre 8.000 m² con talleres dedicados para fundición en arena verde y arena aglomerante, mecanizado CNC y convencional, tratamiento térmico, acabado superficial y ensamblaje. La capacidad anual supera los 80.000 tornillos de banco, y la instalación opera bajo un sistema de gestión de calidad ISO 9001:2015 con cumplimiento CE (EN ISO 12100, Directiva de Maquinaria 2006/42/EC) y RoHS.</p>
+  <p>Más de 200 trabajadores cualificados y un equipo dedicado de I+D respaldan toda la cadena de producción: fundición de cuerpos de hierro gris HT200/HT250, mecanizado de husillos de acero forjado 45#, endurecimiento de caras de mandíbula GCr15/Cr12MoV a 58–62 HRC, aplicación de recubrimientos superficiales e inspección en 7 etapas antes del envío.</p>
+stats:
+  title: Stavalk en cifras
+  stats:
+    - title: Fundación
+      amount: 2012
+    - title: Instalación
+      amount: '8.000 m²'
+    - title: Países atendidos
+      amount: '50+'
+    - title: Capacidad anual
+      amount: '80.000+ tornillos'
+    - title: Empleados
+      amount: '200+'
+    - title: Series de producto
+      amount: '5'
+factory_details:
+  title: Capacidad de fabricación
+  body: |
+    La fábrica Stavalk opera cinco talleres especializados bajo un mismo techo:
+
+    - **Taller de fundición**: Líneas de fundición en arena verde y arena aglomerante que vierten 100% HT200/HT250 según especificación, con verificación espectrométrica de la composición de la aleación.
+    - **Taller de mecanizado**: Tornos y centros de fresado CNC para caras de mandíbula, husillos y bases, más mecanizado convencional para operaciones secundarias.
+    - **Taller de tratamiento térmico**: Líneas de temple en aceite y revenido que producen dureza de mandíbula de 58–62 HRC en acero endurecido GCr15 y Cr12MoV.
+    - **Taller de recubrimiento**: Líneas de pintura en spray, recubrimiento en polvo y Parkerizing para protección contra la corrosión y calidad de acabado.
+    - **Ensamblaje y pruebas**: Líneas de ensamblaje manual con estaciones de prensa hidráulica para verificación de fuerza de sujeción, comprobación de par del girador y pruebas de durabilidad de 10.000+ ciclos.
+factory_section:
+  title: La fábrica de un vistazo
+  body: |
+    La instalación de Jimo, Qingdao está diseñada específicamente para la producción de tornillos de banco. Las materias primas —hierro gris HT200/HT250, acero forjado 45#, acero de mandíbula GCr15 y Cr12MoV— provienen de acerías chinas certificadas y se verifican con espectrómetro a su llegada.
+
+    Las inspecciones de terceros de SGS, TÜV, Bureau Veritas e Intertek son bienvenidas y se facilitan rutinariamente. Los compradores reciben un paquete documental completo con cada envío: Certificado de Conformidad, certificado de material, informe dimensional y registros de inspección.
+values_section:
+  title: Cómo trabaja la fábrica con las marcas
+  subtitle: 'Tres principios que configuran cada proyecto construido por Stavalk.'
+  columns: 3
+  items:
+    - title: Ingeniería antes que producción
+      description: 'Cada proyecto comienza con requisitos, planos y una muestra física — ancho de mandíbula, material del cuerpo, dureza de mandíbula, acabado y embalaje se validan antes de cualquier tirada de producción, no se descubren en la línea.'
+      icon: 'tabler:settings'
+    - title: Un solo equipo, una sola fábrica
+      description: 'Fundición, mecanizado, tratamiento térmico, recubrimiento, ensamblaje y pruebas ocurren en una instalación de 8.000 m². Sin reenvíos de casas comerciales: las personas que responden a tus preguntas son las que construyen tus tornillos.'
+      icon: 'tabler:building-factory-2'
+    - title: Primeras tiradas pequeñas
+      description: 'El MOQ estándar parte de 50–200 piezas; tornillos pesados y especiales desde 20–50 piezas. Las muestras se envían en 7–14 días, la producción a granel en 25–35 días, para que las marcas validen el mercado antes de comprometerse con el volumen completo.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Lo que entrega la fábrica
+  subtitle: 'Servicios de fabricación disponibles para los clientes de Stavalk.'
+  columns: 2
+  items:
+    - title: Desarrollo de tornillo de banco personalizado
+      description: 'Evaluación de requisitos, especificaciones, selección de materiales, prototipado, aprobación de muestras y producción para tornillos de banco personalizados con tu marca y embalaje.'
+      icon: 'tabler:bulb'
+    - title: Producción de marca privada
+      description: 'Tu logotipo, tus colores y tu embalaje sobre plataformas de tornillo de banco probadas — cuerpo, mandíbulas, husillo, base giratoria y cartones llevan tu identidad, sin marca de fábrica.'
+      icon: 'tabler:tag'
+    - title: Fabricación OEM / ODM
+      description: 'Fabricación completa OEM y ODM de tornillos de banco a partir de planos del cliente o diseños co-desarrollados, incluyendo perfiles de mandíbula personalizados, geometrías de husillo y configuraciones de base giratoria.'
+      icon: 'tabler:package'
+    - title: Suministro de volumen y flotas
+      description: 'Suministro de tornillos de banco a gran escala para cadenas de herramientas, distribuidores industriales y compradores institucionales, con calidad constante en reiteraciones de múltiples lotes.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: Certificación y cumplimiento
+  subtitle: 'La fábrica envía a la UE, Estados Unidos y Asia-Pacífico con un sistema de cumplimiento documentado.'
+  columns: 2
+  items:
+    - title: Marcado CE
+      description: 'Los tornillos de banco cumplen EN ISO 12100 y la Directiva de Maquinaria 2006/42/EC para el mercado europeo. Documentación proporcionada para cada pedido.'
+      icon: 'tabler:certificate'
+    - title: ISO 9001:2015
+      description: 'Sistema de gestión de calidad certificado según ISO 9001:2015, cubriendo material entrante, control en proceso e inspección final en las cinco series de productos.'
+      icon: 'tabler:badge-check'
+    - title: ISO 14001
+      description: 'Certificación de sistema de gestión ambiental, cubriendo manejo de residuos, emisiones y eficiencia de recursos en todo el proceso de producción.'
+      icon: 'tabler:leaf'
+    - title: Cumplimiento RoHS
+      description: 'Cumplimiento de sustancias peligrosas restringidas documentado según RoHS para componentes y recubrimientos superficiales aplicables.'
+      icon: 'tabler:flask'
+    - title: Inspección de terceros
+      description: 'Inspección pre-embarque de SGS, TÜV, Bureau Veritas e Intertek disponible según ISO 2859-1 Nivel II, programada a elección del comprador.'
+      icon: 'tabler:shield-check'
+    - title: Pruebas de producto
+      description: 'Fuerza de sujeción, dureza de mandíbula, par del girador, durabilidad de 10.000+ ciclos y niebla salina de 48+ horas en cada lote de producción.'
+      icon: 'tabler:test-pipe'
+values:
+  tagline: Valores fundamentales
+  title: Lo que impulsa a Stavalk
+  items:
+    - title: Ingeniería de precisión
+      description: 'Mecanizado CNC, pruebas de dureza Rockwell y verificación dimensional por CMM aseguran que cada tornillo cumpla las tolerancias publicadas.'
+      icon: 'tabler:ruler'
+    - title: Integridad material
+      description: 'Hierro gris HT200/HT250, acero forjado 45#, mandíbulas endurecidas GCr15/Cr12MoV — sin atajos de material, nunca.'
+      icon: 'tabler:metal'
+    - title: Confidencialidad del comprador
+      description: 'Nunca vendemos bajo nuestra propia marca. Cada tornillo lleva tu identidad. Tus diseños y especificaciones están protegidos bajo NDA.'
+      icon: 'tabler:lock'
+    - title: Mejora continua
+      description: 'La inversión en I+D en materiales de mandíbula, geometría de husillo, tecnología de recubrimiento y optimización de fuerza de sujeción impulsa cada generación de producto.'
+      icon: 'tabler:trending-up'
+services:
+  tagline: Servicios
+  title: Servicios de fabricación
+  items:
+    - title: Fabricación OEM
+      description: 'Producción de tornillos según tus especificaciones, materiales, acabado y marca. Documentación y trazabilidad completas con cada envío.'
+      icon: 'tabler:package'
+    - title: Desarrollo ODM
+      description: 'Co-desarrollo de nuevos diseños de tornillos desde tu concepto hasta prototipado, pruebas y lanzamiento a producción.'
+      icon: 'tabler:pencil'
+    - title: Marca privada
+      description: 'Aplica tu marca a nuestras plataformas de tornillo de banco probadas. Embalaje personalizado, manuales y etiquetado disponibles.'
+      icon: 'tabler:tag'
+    - title: Soporte post-venta
+      description: 'Piezas de repuesto, servicio de garantía y soporte técnico para cada tornillo que enviamos, con respuesta en 48 horas.'
+      icon: 'tabler:headset'
+certifications:
+  tagline: Certificaciones
+  title: Certificaciones de calidad
+  items:
+    - title: CE (EN ISO 12100)'
+      description: 'Conformidad con la Directiva de Maquinaria 2006/42/EC para tornillos de banco exportados a la Unión Europea.'
+      icon: 'tabler:certificate'
+    - title: ISO 9001:2015'
+      description: 'Sistema de gestión de calidad que cubre diseño, producción, inspección y envío de tornillos de banco.'
+      icon: 'tabler:clipboard-check'
+    - title: ISO 14001'
+      description: 'Sistema de gestión ambiental para operaciones de fabricación sostenible.'
+      icon: 'tabler:leaf'
+    - title: RoHS'
+      description: 'Cumplimiento de sustancias restringidas para materiales y recubrimientos aplicables.'
+      icon: 'tabler:shield-check'
+cta:
+  title: 'Construye tu proyecto de tornillo de banco con Stavalk'
+  subtitle: 'Envía tus requisitos —tipo de tornillo, tamaño, cantidad y marca— y recibe una cotización detallada en un día hábil.'
+  actions:
+    - text: Identidad de marca
+      href: /es/about/identity

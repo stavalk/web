@@ -1,91 +1,79 @@
 ﻿meta:
-  title: 'Sobre SUPsfactory — Identidad de Marca, División de Fabricación de Qingdao Vatrad Group | SUPsfactory'
-  description: 'Identidad de SUPsfactory: división de fabricación de SUP y productos marinos hinchables. Fábrica, entidad legal, certificaciones y posicionamiento de marca.'
-  dateModified: '2026-08-21'
+  title: 'Acerca de — Identidad, misión y alcance de fabricación de Stavalk | {SITE}'
+  description: 'Quién es Stavalk: un fabricante de tornillos de banco en Qingdao, China, con 8.000 m² de espacio, más de 200 trabajadores y más de 80.000 tornillos producidos al año.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'SUPsfactory identity'
-    - 'Qingdao Vatrad Group'
-    - 'Afarer SUP manufacturer'
-    - 'SUP factory Laixi Qingdao'
-    - 'inflatable SUP manufacturer China'
-    - 'OEM SUP factory identity'
-
+    - 'acerca de Stavalk'
+    - 'fabricante tornillos de banco Qingdao'
+    - 'empresa Stavalk'
+    - 'productor tornillos de banco China'
 hero:
-  tagline: 'Identidad de Marca'
-  title: '¿Quién Es SUPsfactory?'
-  subtitle: 'SUPsfactory es la división de fabricación marina de Qingdao Vatrad Group Co., Ltd. — un fabricante especializado de tablas SUP hinchables y productos marinos hinchables en Laixi, Qingdao, China. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellos en ningún mercado.'
-
-answer:
-  label: 'En resumen'
-  text: 'Entidad legal: Qingdao Vatrad Group Co., Ltd. División de fabricación: Afarer (marca SUPsfactory). Fábrica: Laixi, Qingdao, Shandong, China. Alcance: Fabricación OEM, ODM y marca privada de tablas SUP hinchables, remos y productos marinos hinchables. Certificaciones: ISO 9001:2015, CE (modelos destinados a la UE), BSCI, REACH, RoHS. No vendemos bajo nuestra propia marca — cada tabla que producimos lleva la marca del comprador.'
-  verified: '2026-08'
-
-identity_detail:
-  tagline: Legal y Organizativo
-  title: 'Entidad Legal y Estructura'
-  subtitle: 'Transparencia total sobre estructura corporativa, alcance de fabricación y certificaciones.'
-  grid: 'sm:grid-cols-2 lg:grid-cols-3'
-  features:
-    - icon: L
-      icon_bg: blue
-      title: 'Entidad Legal'
-      desc: 'Qingdao Vatrad Group Co., Ltd. — la entidad contratante para todos los acuerdos de fabricación, órdenes de compra y documentación de exportación. Registrada en Qingdao, Shandong, China.'
-    - icon: M
-      icon_bg: green
-      title: 'División de Fabricación'
-      desc: 'Afarer opera como la división de fabricación marina bajo Qingdao Vatrad Group. SUPsfactory es la marca orientada al comprador utilizada para servicios de fabricación OEM, ODM y marca privada a nivel internacional.'
-    - icon: F
-      icon_bg: purple
-      title: 'Ubicación de Fábrica'
-      desc: 'Laixi, Qingdao, Shandong, China. Instalación de producción de más de 10,000 m² con 4 líneas de producción, corte CNC, soldadura RF, laboratorio de pruebas de presión y almacén de materiales. A 120 km del puerto de Qingdao.'
-
-manufacturing_scope:
-  heading: 'Alcance de Fabricación'
-  body: |
-    Nuestro alcance de fabricación cubre toda la cadena de producción para productos SUP hinchables y marinos — desde la inspección de material entrante hasta el empaque final y documentación de exportación.
-
-    - **Categorías de productos**: Tablas SUP hinchables (polivalentes, travesía, surf, pesca, yoga, carreras), kayaks hinchables, botes hinchables, remos, bombas y accesorios.
-    - **Tipos de construcción**: PVC monocapa, PVC bicapa, núcleo drop-stitch con carcasa de PVC. Especificaciones de construcción personalizadas por proyecto.
-    - **Modelos de colaboración**: OEM (diseño del comprador), ODM (desarrollado por fábrica a partir del brief del comprador), marca privada/co-branding (marca aplicada a plataformas probadas).
-    - **Certificaciones**: ISO 9001:2015 (gestión de calidad de fábrica), CE (modelos destinados a la UE, alcance por proyecto), BSCI (cumplimiento social), REACH (seguridad química), RoHS (sustancias restringidas).
-    - **Capacidad de producción**: Más de 30,000 tablas anuales, más de 2,500 de producción mensual. Escalabilidad disponible con programación anticipada.
-
-brand_positioning:
-  heading: 'Posicionamiento de Marca'
-  body: |
-    SUPsfactory ocupa una posición específica en el mercado — no somos una marca, somos un fabricante. Esta distinción moldea cada aspecto de cómo operamos:
-
-    - **Nunca vendemos bajo nuestra propia marca.** Cada tabla que producimos lleva la marca del comprador. No competimos con nuestros clientes en ningún mercado, en ningún canal. Esta política es innegociable.
-    - **No somos una empresa comercializadora.** Operamos la fábrica. El control de calidad, la ingeniería, la programación de producción y la documentación de exportación se gestionan internamente. No hay intermediarios entre su pedido y la planta de producción.
-    - **Nos especializamos en productos hinchables.** Esto no es una actividad secundaria ni una categoría de producto entre muchas. Los productos SUP hinchables y marinos son nuestra competencia central. Cada máquina, cada proceso, cada puerta de control de calidad está optimizada para esta categoría de producto.
-    - **Servimos a compradores profesionales.** Nuestros clientes son marcas, distribuidores, operadores de resorts, clubes y escuelas — no consumidores individuales. Nuestros precios, estructura de MOQ, documentación y comunicación están diseñados para relaciones B2B.
-
-evidence_review:
-  tagline: 'Evidencia y Verificación'
-  title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones organizativas y de fabricación en esta página son verificables. El certificado ISO 9001, informe BSCI, licencia comercial y documentos de registro de fábrica están disponibles bajo solicitud. Visitas de fábrica bienvenidas. Especificaciones verificadas por última vez 2026-08.'
-
-faqs:
-  tagline: Preguntas Frecuentes
-  title: 'Identidad de Marca — Preguntas Frecuentes'
-  items:
-    - q: '¿SUPsfactory es una empresa separada de Qingdao Vatrad Group?'
-      a: 'No. SUPsfactory es la marca orientada al comprador de Afarer, que es la división de fabricación marina de Qingdao Vatrad Group Co., Ltd. La entidad legal contratante para todos los pedidos es Qingdao Vatrad Group Co., Ltd. La fábrica, el equipo y el sistema de calidad son una sola operación.'
-    - q: '¿Venden tablas bajo su propia marca?'
-      a: 'No. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellos en ningún mercado. Esta es una política fundamental — no una posición temporal. Si encuentra una tabla con la marca SUPsfactory en el mercado, no proviene de nuestra fábrica.'
-    - q: '¿Puedo visitar la fábrica?'
-      a: 'Sí. Recibimos visitas de fábrica y podemos organizar una auditoría estructurada que cubra todo el proceso de producción, puertas de control de calidad, almacén de materiales y revisión de documentación. Contáctenos para programar una visita.'
-    - q: '¿Cuál es la relación entre Afarer y SUPsfactory?'
-      a: 'Afarer es el nombre de la división de fabricación dentro de Qingdao Vatrad Group. SUPsfactory es la marca internacional orientada al comprador utilizada para servicios de fabricación OEM, ODM y marca privada. Se refieren a la misma operación — la división de fabricación marina en Laixi, Qingdao.'
-
-cta:
-  title: '¿Listo para Verificar Nuestra Fábrica?'
-  subtitle: 'Solicite documentación, programe una visita de fábrica o inicie su breve de proyecto. Transparencia total, sin excepciones.'
+  tagline: Acerca de Stavalk
+  title: Un fabricante de tornillos de banco construido sobre precisión
+  subtitle: Stavalk diseña y produce tornillos de banco en Qingdao, China — desde la fundición y el tratamiento térmico hasta el mecanizado, el recubrimiento y la inspección final bajo un mismo techo.
   actions:
     - variant: primary
-      text: Solicitar Documentación
-      href: /es/contact#project-brief
-    - text: Verificar certificaciones y sistema de calidad
+      text: Nuestra historia
+      href: /es/about/identity
+    - text: Ver nuestras series
+      href: /es/products
+answer:
+  label: En resumen
+  text: Stavalk es un fabricante profesional de tornillos de banco en Qingdao, China, que opera una fábrica de 8.000 m² con más de 200 trabajadores y una capacidad de más de 80.000 tornillos al año en series ligera, media, pesada, tubería y precisión — certificado CE, ISO 9001:2015, ISO 14001 y RoHS.
+  verified: '2026-09-01'
+identity_detail:
+  title: Quiénes somos
+  subtitle: Una identidad de fabricación centrada en sujetar el trabajo de forma segura y fiable.
+  items:
+    - title: Producción de fábrica propia
+      description: Fundición, mecanizado, tratamiento térmico, recubrimiento y montaje se realizan en nuestro propio centro de 8.000 m² en Qingdao, China.
+    - title: Profundidad de ingeniería
+      description: Un centro de I+D interno cubre diseño de fundición, programación CNC, metalurgia y ensayos.
+    - title: Calidad certificada
+      description: CE (EN ISO 12100, MD 2006/42/CE), ISO 9001:2015, ISO 14001 y RoHS en toda la línea de producción.
+    - title: Listo para marca privada
+      description: Series estándar y modelos OEM/codesarrollados personalizados para distribuidores y marcas en todo el mundo.
+manufacturing_scope:
+  title: Alcance de fabricación
+  body: |
+    La fábrica de Stavalk cubre toda la cadena de producción de tornillos de banco:
+
+    - **Fundición** — cuerpos de hierro gris HT200/HT250 mediante líneas de arena verde y aglomerante, validados con espectrómetro.
+    - **Mecanizado** — caras de mandíbula, husillos y bases en tornos y centros de fresado CNC con dimensiones verificadas por CMM.
+    - **Tratamiento térmico** — mandíbulas de acero GCr15/Cr12MoV templadas en aceite y revenidas a 58–62 HRC.
+    - **Recubrimiento** — pintura en spray, recubrimiento en polvo y Parkerizing con ensayos de niebla salina de más de 48 horas.
+    - **Inspección** — un flujo de calidad de 7 etapas con trazabilidad de lote y opciones de terceros.
+
+    Esta cadena interna nos permite controlar la calidad, los plazos y el costo desde la materia prima hasta el producto terminado.
+brand_positioning:
+  title: Posicionamiento de marca
+  body: |
+    Stavalk se posiciona como una fuente OEM fiable y certificada para marcas y distribuidores de sujeción — no un revendedor, sino la fábrica que diseña, funde, mecaniza y ensaya el producto. Competimos con profundidad de ingeniería, calidad documentada y desarrollo de marca privada ágil, incluyendo muestras en 7–14 días y pedidos en volumen en 25–35 días, FOB Qingdao.
+evidence_review:
+  title: Evidencia y verificación
+  body: |
+    Las afirmaciones anteriores están respaldadas por evidencia de fábrica verificable: JSON de datos de fabricación, JSON de datos de certificación, fotos de producción con marca de tiempo y informes de inspección de terceros. Los compradores pueden auditar estos registros directamente o a través de nuestro centro de pruebas:
+
+    - [Centro de pruebas](/es/proof-center)
+    - [Certificaciones](/es/quality)
+    - [Fábrica y calidad](/es/quality)
+faqs:
+  title: Preguntas frecuentes
+  questions:
+    - q: ¿Dónde está Stavalk?
+      a: Stavalk opera una fábrica de 8.000 m² en Qingdao, China, que cubre fundición, mecanizado, tratamiento térmico, recubrimiento y montaje.
+    - q: ¿Qué fabrica Stavalk?
+      a: Tornillos de banco en series ligera, media, pesada, tubería y precisión, además de desarrollo OEM y de marca privada personalizado.
+    - q: ¿Cuál es su capacidad de producción?
+      a: Más de 80.000 tornillos al año, con más de 200 trabajadores en producción.
+    - q: ¿Soportan OEM y marca privada?
+      a: Sí — series estándar bajo tu marca o modelos codesarrollados personalizados, con muestras en 7–14 días y pedidos en volumen en 25–35 días.
+cta:
+  title: 'Trabaja con un fabricante de tornillos de banco que puedes auditar'
+  subtitle: 'Visita la fábrica, revisa la evidencia o inicia un proyecto — nuestro equipo en Qingdao está listo para ayudarte.'
+  actions:
+    - variant: primary
+      text: Contáctanos
+      href: /es/contact
+    - text: Centro de pruebas
       href: /es/proof-center
-    - text: Proceso de incorporación OEM
-      href: /es/oem-onboarding-guide

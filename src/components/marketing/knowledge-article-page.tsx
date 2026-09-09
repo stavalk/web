@@ -42,13 +42,13 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
         </div>
 
         <div className="mt-14 rounded-3xl border border-border bg-bg-alt p-8 text-center md:p-10">
-          <p className="kicker">{t('sup.knowledge.ctaKicker')}</p>
-          <h2 className="mt-3 font-display text-2xl font-extrabold">{t('sup.knowledge.ctaTitle')}</h2>
+          <p className="kicker">{t('bench.knowledge.ctaKicker')}</p>
+          <h2 className="mt-3 font-display text-2xl font-extrabold">{t('bench.knowledge.ctaTitle')}</h2>
           <a
             href={fl('/contact')}
             className="sun-grad mt-7 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
           >
-            {t('sup.projects.discuss')} <ArrowRight size={17} />
+            {t('bench.projects.discuss')} <ArrowRight size={17} />
           </a>
         </div>
       </article>
@@ -58,7 +58,7 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
         <section className="border-t border-border">
           <div className="mx-auto max-w-3xl px-5 py-12 md:px-7">
             <p className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
-              <BookOpen size={14} className="text-primary" /> {t('sup.knowledge.nextKicker')}
+              <BookOpen size={14} className="text-primary" /> {t('bench.knowledge.nextKicker')}
             </p>
             <a
               href={fl(`/knowledge/${next.slug}`)}
@@ -67,11 +67,11 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
               <h2 className="font-display text-lg font-bold leading-snug group-hover:text-primary">{next.h1}</h2>
               <p className="mt-2 text-[14px] leading-relaxed text-fg-2">{next.intro}</p>
               <span className="mt-3 inline-flex items-center gap-1.5 text-[14px] font-bold text-primary group-hover:underline">
-                {t('sup.knowledge.readArticle')} <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
+                {t('bench.knowledge.readArticle')} <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
               </span>
             </a>
             <a href={fl('/knowledge')} className="mt-4 inline-block text-[13.5px] font-medium text-primary hover:underline">
-              {t('sup.breadcrumb.knowledge')} →
+              {t('bench.breadcrumb.knowledge')} →
             </a>
           </div>
         </section>
@@ -86,8 +86,8 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
       />
       <JsonLd
         data={siteBreadcrumbLd([
-          { name: t('sup.breadcrumb.home'), path: '/' },
-          { name: t('sup.breadcrumb.knowledge'), path: '/knowledge' },
+          { name: t('bench.breadcrumb.home'), path: '/' },
+          { name: t('bench.breadcrumb.knowledge'), path: '/knowledge' },
           { name: article.h1, path: `/knowledge/${article.slug}` },
         ])}
       />

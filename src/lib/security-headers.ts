@@ -1,12 +1,12 @@
-/**
+﻿/**
  * Baseline security response headers, applied to every response by the custom
  * server entry (src/worker.ts).
  *
  * The five always-on headers are universally safe. CSP is the only one that can
  * break an app, so it's prod-only (Vite dev needs eval/ws) and relies on a
  * per-request nonce (see src/lib/csp.ts) for the hydration + theme-boot inline
- * scripts — no 'unsafe-inline' for script-src. Inline styles (React style
- * attributes) keep 'unsafe-inline' on style-src only, which is CSS — not a
+ * scripts �?no 'unsafe-inline' for script-src. Inline styles (React style
+ * attributes) keep 'unsafe-inline' on style-src only, which is CSS �?not a
  * script-execution vector.
  */
 
@@ -25,7 +25,7 @@ function buildCsp(nonce: string): string {
     "default-src 'self'",
     `script-src 'self' 'nonce-${nonce}' https://challenges.cloudflare.com https://static.cloudflareinsights.com https://www.googletagmanager.com`, // Turnstile + Web Analytics beacon + GA4 gtag
     "style-src 'self' 'unsafe-inline'",
-    "img-src 'self' data: blob: https://assets.supsfactory.com https://assets.afarer.com", // blob: for client-side avatar preview
+    "img-src 'self' data: blob: https://assets.Stavalk.com https://assets.stavalk.com", // blob: for client-side avatar preview
     "font-src 'self' data:", // fonts are self-hosted under /fonts
     "connect-src 'self' https://cloudflareinsights.com https://www.google-analytics.com https://analytics.google.com https://api.whatsapp.com", // Web Analytics beacon + GA4 POSTs
     "frame-src https://challenges.cloudflare.com", // Turnstile widget iframe

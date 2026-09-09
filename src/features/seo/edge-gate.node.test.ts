@@ -11,7 +11,7 @@ const TEMPLATE_ROUTES = [
   '/terms', '/privacy',
 ]
 
-/** Dynamic prefix routes ({-$locale}/knowledge/$slug.tsx etc.) — a legacy key under one of these shadows real pages. */
+/** Dynamic prefix routes ({-$locale}/knowledge/$slug.tsx etc.) �� a legacy key under one of these shadows real pages. */
 const DYNAMIC_PREFIXES = ['/knowledge', '/projects', '/evidence/case-studies']
 
 /** Every legacy target must resolve to a live route (not another redirect). */
@@ -30,7 +30,8 @@ test('301 merge of duplicate paths (P0-4)', () => {
 test('French-slug doorways 301 to closest English page (P1-5)', () => {
   expect(gatePath('/fabricant-sup-gonflable')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
   expect(gatePath('/bateau-gonflable-fabricant')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
-  expect(gatePath('/fournisseur-nautique')).toEqual({ action: 'redirect', to: '/solutions/rental-operators' })
+  expect(gatePath('/fournisseur-nautique')).toEqual({ action: 'redirect', to: '/solutions' })
+  expect(gatePath('/es/fournisseur-nautique')).toEqual({ action: 'redirect', to: '/es/solutions' })
 })
 
 test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
@@ -44,70 +45,70 @@ test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
   expect(gatePath('/es/safety')).toEqual({ action: 'redirect', to: '/es/quality' })
   expect(gatePath('/trust')).toEqual({ action: 'redirect', to: '/quality' })
   expect(gatePath('/es/trust')).toEqual({ action: 'redirect', to: '/es/quality' })
-  expect(gatePath('/solutions/resorts-hotels')).toEqual({ action: 'redirect', to: '/solutions/resort-sup' })
-  expect(gatePath('/solutions/paddle-clubs')).toEqual({ action: 'redirect', to: '/solutions/club-sup' })
-  expect(gatePath('/solutions/build-your-own-brand')).toEqual({ action: 'redirect', to: '/solutions/private-label-sup' })
+  expect(gatePath('/solutions/resorts-hotels')).toEqual({ action: 'redirect', to: '/solutions' })
+  expect(gatePath('/solutions/paddle-clubs')).toEqual({ action: 'redirect', to: '/solutions' })
+  expect(gatePath('/solutions/build-your-own-brand')).toEqual({ action: 'redirect', to: '/solutions/private-label-vises' })
 })
 
-test('brand pages collapse onto /about and /about/afarer (P1-3)', () => {
-  expect(gatePath('/afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/zh/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+test('brand pages collapse onto /about and /about/stavalk (P1-3)', () => {
+  expect(gatePath('/afarer')).toEqual({ action: 'redirect', to: '/about/stavalk' })
+  expect(gatePath('/es/afarer')).toEqual({ action: 'redirect', to: '/es/about/stavalk' })
+  expect(gatePath('/zh/afarer')).toEqual({ action: 'redirect', to: '/es/about/stavalk' })
   expect(gatePath('/brand')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand')).toEqual({ action: 'redirect', to: '/es/about' })
   expect(gatePath('/zh/brand')).toEqual({ action: 'redirect', to: '/es/about' })
-  expect(gatePath('/brand/afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/brand/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/zh/brand/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/brand/story')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/brand/story')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/zh/brand/story')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+  expect(gatePath('/brand/afarer')).toEqual({ action: 'redirect', to: '/about/stavalk' })
+  expect(gatePath('/es/brand/afarer')).toEqual({ action: 'redirect', to: '/es/about/stavalk' })
+  expect(gatePath('/zh/brand/afarer')).toEqual({ action: 'redirect', to: '/es/about/stavalk' })
+  expect(gatePath('/brand/story')).toEqual({ action: 'redirect', to: '/about/stavalk' })
+  expect(gatePath('/es/brand/story')).toEqual({ action: 'redirect', to: '/es/about/stavalk' })
+  expect(gatePath('/zh/brand/story')).toEqual({ action: 'redirect', to: '/es/about/stavalk' })
   expect(gatePath('/brand/global-presence')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand/global-presence')).toEqual({ action: 'redirect', to: '/es/about' })
   expect(gatePath('/brand/marine-expertise')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand/marine-expertise')).toEqual({ action: 'redirect', to: '/es/about' })
   expect(gatePath('/brand/team')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand/team')).toEqual({ action: 'redirect', to: '/es/about' })
-  expect(gatePath('/brand/why-afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/brand/why-afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+  expect(gatePath('/brand/why-afarer')).toEqual({ action: 'redirect', to: '/about/stavalk' })
+  expect(gatePath('/es/brand/why-afarer')).toEqual({ action: 'redirect', to: '/es/about/stavalk' })
 })
 
-test('non-SUP business lines 301 to afarer.com (P1-7)', () => {
+test('non-SUP business lines 301 to stavalk.com (P1-7)', () => {
   expect(gatePath('/commercial-workboats')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/commercial-workboats',
+    to: 'https://stavalk.com/commercial-workboats',
   })
   expect(gatePath('/es/commercial-workboats')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/es/commercial-workboats',
+    to: 'https://stavalk.com/es/commercial-workboats',
   })
   expect(gatePath('/zh/commercial-workboats')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/es/commercial-workboats',
+    to: 'https://stavalk.com/es/commercial-workboats',
   })
   expect(gatePath('/maritime-safety-defense')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/maritime-safety-defense',
+    to: 'https://stavalk.com/maritime-safety-defense',
   })
   expect(gatePath('/search-and-rescue')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/search-and-rescue',
+    to: 'https://stavalk.com/search-and-rescue',
   })
   expect(gatePath('/disaster-relief-humanitarian-aid')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/disaster-relief-humanitarian-aid',
+    to: 'https://stavalk.com/disaster-relief-humanitarian-aid',
   })
   expect(gatePath('/products/life-vest-classic')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/products/life-vest-classic',
+    to: 'https://stavalk.com/products/life-vest-classic',
   })
   expect(gatePath('/products/life-vest-pro')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/products/life-vest-pro',
+    to: 'https://stavalk.com/products/life-vest-pro',
   })
   expect(gatePath('/products/oars-pump-set')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/products/oars-pump-set',
+    to: 'https://stavalk.com/products/oars-pump-set',
   })
 })
 
@@ -116,10 +117,10 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
   expect(gatePath('/guides/sup-yoga')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/knowledge' })
-  expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/fishing' })
+  expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/solutions' })
   expect(gatePath('/use-cases/disaster-relief')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/disaster-relief-humanitarian-aid',
+    to: 'https://stavalk.com/disaster-relief-humanitarian-aid',
   })
   expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/products' })
   expect(gatePath('/es/resources/download-catalog')).toEqual({ action: 'redirect', to: '/es/products' })
@@ -128,19 +129,19 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   // consolidated news articles 301 to their successor guides
   expect(gatePath('/news/sup-oem-shipping-logistics')).toEqual({
     action: 'redirect',
-    to: '/news/private-label-sup-oem-guide',
+    to: '/news/factory-capacity-80000-vises',
   })
   expect(gatePath('/es/news/sup-oem-shipping-logistics')).toEqual({
     action: 'redirect',
-    to: '/es/news/private-label-sup-oem-guide',
+    to: '/es/news/factory-capacity-80000-vises',
   })
   expect(gatePath('/news/importing-sup-from-china-guide')).toEqual({
     action: 'redirect',
-    to: '/news/private-label-sup-guide',
+    to: '/news/private-label-bench-vise-guide',
   })
   expect(gatePath('/es/news/importing-sup-from-china-guide')).toEqual({
     action: 'redirect',
-    to: '/es/news/private-label-sup-guide',
+    to: '/es/news/private-label-bench-vise-guide',
   })
   expect(gatePath('/touring-sup')).toEqual({ action: 'redirect', to: '/products' })
   // /search is now a live search results page (not a legacy redirect)
@@ -153,8 +154,8 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
 test('every legacy URL resolves to a live route', () => {
   for (const [from, to] of Object.entries(LEGACY_REDIRECTS)) {
     expect(from, `legacy key must differ from its target`).not.toBe(to)
-    if (to.startsWith('https://')) continue // cross-domain handoff to afarer.com (P1-7)
-    expect(LIVE_ROUTES.has(to), `${from} → ${to} is not a live route`).toBe(true)
+    if (to.startsWith('https://')) continue // cross-domain handoff to stavalk.com (P1-7)
+    expect(LIVE_ROUTES.has(to), `${from} �� ${to} is not a live route`).toBe(true)
   }
 })
 
@@ -168,16 +169,16 @@ test('no legacy key shadows a live page (P0-5)', () => {
 })
 
 test('revived pages are served, not 301d (P0-5)', () => {
-  expect(gatePath('/about/afarer').action).toBe('ok')
-  expect(gatePath('/oem-paddle').action).toBe('ok')
+  expect(gatePath('/about/stavalk').action).toBe('ok')
+  expect(gatePath('/oem-manufacturing').action).toBe('ok')
   expect(gatePath('/factory/oem-capability').action).toBe('ok')
   expect(gatePath('/factory/capacity').action).toBe('ok')
-  expect(gatePath('/randdcenter/hull-engineering').action).toBe('ok')
-  expect(gatePath('/research/drop-stitch-technology').action).toBe('ok')
-  expect(gatePath('/solutions/club-sup').action).toBe('ok')
-  expect(gatePath('/private-label-sup').action).toBe('ok')
-  expect(gatePath('/guides/beginner-guide').action).toBe('ok')
-  expect(gatePath('/guides/inflatable-vs-hard').action).toBe('ok')
+  expect(gatePath('/randdcenter').action).toBe('ok')
+  expect(gatePath('/research/quality-testing').action).toBe('ok')
+  expect(gatePath('/solutions/custom-bench-vise').action).toBe('ok')
+  expect(gatePath('/solutions/private-label-vises').action).toBe('ok')
+  expect(gatePath('/guides/how-to-choose-a-bench-vise').action).toBe('ok')
+  expect(gatePath('/oem-onboarding-guide').action).toBe('ok')
   expect(gatePath('/evidence/case-studies').action).toBe('ok')
 })
 
@@ -194,8 +195,8 @@ test('content hubs 301 onto their keepers, sub-pages stay live (P1-2)', () => {
     expect(gatePath(`/es${from}`)).toEqual({ action: 'redirect', to: `/es${to}` })
   }
   // Real content under the merged hubs remains live.
-  expect(gatePath('/guides/how-to-choose-your-sup').action).toBe('ok')
-  expect(gatePath('/research/ce-certification-guide').action).toBe('ok')
+  expect(gatePath('/guides/how-to-choose-a-bench-vise').action).toBe('ok')
+  expect(gatePath('/research/quality-testing').action).toBe('ok')
   expect(gatePath('/evidence/case-studies/beginner-sup-training').action).toBe('ok')
   expect(gatePath('/knowledge').action).toBe('ok')
   expect(gatePath('/projects').action).toBe('ok')
@@ -223,7 +224,7 @@ test('410 for removed template pages (P0-2)', () => {
   expect(gatePath('/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/es/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/zh/changelog')).toEqual({ action: 'gone' })
-  // RIB case study removed (SUPsfactory is SUP-only)
+  // marine case study removed (not part of the bench-vise product line)
   expect(gatePath('/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
   expect(gatePath('/es/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
   // '/docs/' is normalised to '/docs' first (301), then 410 on the next hop

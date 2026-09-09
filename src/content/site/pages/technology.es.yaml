@@ -1,53 +1,46 @@
-meta:
-  title: 'Tecnología — Drop stitch y PVC marino | {SITE}'
-  description: 'Tecnologías Afarer: construcción drop stitch, PVC marino, estructuras de doble capa y alta presión.'
-  dateModified: '2026-08'
+﻿meta:
+  title: 'Tecnología — Fundición, mecanizado, tratamiento térmico y recubrimiento | {SITE}'
+  description: 'Tecnologías de tornillo de banco Stavalk: fundición en arena verde, mecanizado CNC, tratamiento térmico por temple en aceite y recubrimiento superficial.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'tecnología sup'
-    - 'construcción drop stitch'
-    - 'sup de alta presión'
-    - 'materiales sup hinchable'
+    - 'tecnología tornillo de banco'
+    - 'fundición hierro gris'
+    - 'dureza mandíbula tratamiento térmico'
+    - 'materiales tornillo de banco'
 hero:
   tagline: Tecnología
-  title: Diseñado para el rendimiento
-  subtitle: 'Cada SUP hinchable Afarer se fabrica con construcción drop-stitch y PVC de grado marino: materiales de precisión y métodos de fabricación probados en entornos marinos exigentes.'
-
+  title: Diseñado para precisión y resistencia
+  subtitle: Cada tornillo de banco Stavalk se fabrica mediante fundición en arena verde y arena aglomerante, mecanizado CNC, temple en aceite y recubrimiento de precisión — métodos de producción probados para fuerza de sujeción, durabilidad y dureza.
+  actions:
+    - variant: primary
+      text: Centro de I+D
+      href: /es/randdcenter
 sections:
-  - title: Núcleo Drop-Stitch
-    description: Miles de hilos internos de poliéster conectan las capas superior e inferior, creando una estructura rígida a 12–15 PSI. Es la misma tecnología que usan las tablas de paddle profesionales y los SUP de competición hinchables.
-    imageAlt: Diagrama núcleo DS
-  - title: PVC de grado marino
-    description: Tejido de PVC laminado multicapa apto para entornos marinos. Cada capa se fusiona por soldadura en lugar de pegarse, lo que elimina los riesgos de delaminación. Ensayado contra rayos UV, corrosión por agua salada y abrasión.
-    imageAlt: Capa de PVC
-  - title: PVC de grado militar
-    description: Utilizado en todos los modelos de SUP, este PVC premium ofrece resistencia superior a los rayos UV y a los productos químicos. Mantiene la flexibilidad en temperaturas extremas y resiste la degradación.
-    imageAlt: PVC
-  - title: Cubierta Air Deck
-    description: Construcción hinchable de alta presión con drop stitch que aporta una rigidez excepcional para estar de pie, pescar y hacer yoga. Reduce el tiempo de montaje, el peso total y el volumen de almacenamiento.
-    imageAlt: Air Deck
-
+  title: Los procesos detrás de un tornillo Stavalk
+  subtitle: Cuatro tecnologías de producción se combinan para ofrecer fuerza de sujeción constante, dureza de mandíbula y resistencia a la corrosión en cada serie.
+  items:
+    - title: Proceso de fundición en arena
+      description: Los cuerpos de hierro gris HT200/HT250 se funden en líneas de arena verde y arena aglomerante, validados según especificación con espectrómetro. El resultado es un cuerpo fuerte y absorbente de vibraciones, la columna vertebral de cada tornillo.
+      link: /es/technology/sand-casting-process
+      link_label: Leer artículo
+    - title: Precisión de mecanizado CNC
+      description: Las caras de mandíbula, los husillos y las bases se mecanizan en tornos y centros de fresado CNC para una precisión dimensional constante, con CMM y calibradores que verifican cada dimensión crítica.
+      link: /es/technology/cnc-machining-precision
+      link_label: Leer artículo
+    - title: Tratamiento térmico de dureza de mandíbula
+      description: Las mandíbulas de acero endurecido GCr15 y Cr12MoV se templan en aceite y se revienen a 58–62 HRC, verificadas por prueba de dureza Rockwell para resistencia al desgaste y larga vida útil.
+      link: /es/technology/heat-treatment-jaw-hardness
+      link_label: Leer artículo
+    - title: Recubrimiento y acabado superficial
+      description: Líneas de pintura en spray, recubrimiento en polvo y Parkerizing protegen cuerpos y mandíbulas de la corrosión y el desgaste. Los acabados se prueban en niebla salina durante más de 48 horas para confirmar su durabilidad.
+      link: /es/technology/surface-coating-and-finishing
+      link_label: Leer artículo
 related:
   title: Relacionado
-  links:
-    - text: Centro de I+D
-      url: /es/randdcenter
-    - text: Ensayos de calidad
-      url: /es/quality
-    - text: Normas de seguridad
-      url: /es/quality
-    - text: Garantía
-      url: /es/warranty
-    - text: Embarcaciones de trabajo comercial
-      url: https://afarer.com/es/commercial-workboats
-    - text: Búsqueda y rescate
-      url: https://afarer.com/es/search-and-rescue
-    - text: Turismo y recreo
-      url: /es/tourism-recreation
-    - text: Ayuda en catástrofes
-      url: https://afarer.com/es/disaster-relief-humanitarian-aid
-    - text: Seguridad y defensa marítima
-      url: https://afarer.com/es/maritime-safety-defense
-    - text: Guías
-      url: /es/knowledge
-    - text: Productos
-      url: /es/products
+  body: |
+    - [Centro de I+D](/es/randdcenter) — ingeniería, ciencia de materiales y desarrollo de utillajes
+    - [Calidad y ensayos](/es/quality) — los ensayos detrás de cada tornillo de banco Stavalk
+    - [Garantía](/es/warranty) — cobertura y proceso de reclamación
+    - [Conocimiento](/es/knowledge) — guías de sujeción y consejos de tamaño
+    - [Productos](/es/products) — explora las series de tornillos por tamaño y trabajo
+    - [Guía de tamaños](/es/size-guide) — cómo elegir el ancho de mandíbula

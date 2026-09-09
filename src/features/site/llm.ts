@@ -1,4 +1,4 @@
-import { products } from '@/product/content'
+﻿import { products } from '@/product/content'
 import { solutionPages, solutionPath } from '@/product/solution-pages'
 import { projects } from '@/product/projects'
 import { knowledge } from '@/product/knowledge'
@@ -236,28 +236,22 @@ export function llmAfarierIndex(origin: string): string {
 /** Full text for the afarer factory/technology pages + products + articles. */
 export function llmsAfarerFull(): string {
   const DEEP_PAGES = new Set([
-    '/factory', '/quality', '/oem-moq-guide', '/sup-oem-moq-lead-time',
-    '/oem-sup-moq', '/inflatable-sup-certification', '/oem-trust-assurance',
+    '/factory', '/quality', '/oem-moq-guide',
+    '/oem-trust-assurance',
     '/proof-center', '/oem-odm-private-label-comparison',
     '/factory/capacity', '/factory/equipment', '/factory/oem-capability',
     '/factory/process', '/factory/quality-lab', '/factory/quality-inspection',
     '/factory/quality-change-control', '/factory/non-conforming-control',
-    '/odm-development', '/oem-manufacturing', '/oem-paddle',
-    '/new-brand-trial-order', '/b2b-solutions-matrix',
-    '/sup-construction-comparison', '/sup-compliance-by-market',
-    '/factory-audit-checklist', '/about/identity', '/about/afarer',
+    '/odm-development', '/oem-manufacturing',
+    '/new-brand-trial-order',
+    '/factory-audit-checklist', '/about/identity', '/about/stavalk',
     '/partners', '/news', '/technology', '/size-guide',
-    '/fishing', '/inflatable-vs-hardboard', '/tourism-recreation',
-    '/warranty', '/what-is-sup',
-    '/solutions/rental-operators', '/solutions/retail-partners', '/solutions/distributors',
-    '/randdcenter', '/randdcenter/hull-engineering', '/randdcenter/hydrodynamic-test-tank',
-    '/randdcenter/prototype-workshop', '/randdcenter/pvc-fabric-lab',
-    '/randdcenter/quality-inspection-lab', '/randdcenter/rf-welding',
-    '/research/drop-stitch-technology', '/research/pvc-vs-hypalon',
-    '/research/ce-certification-guide', '/research/sup-thickness-guide',
+    '/warranty', '/knowledge',
+    '/randdcenter', '/oem-onboarding-guide', '/product-development',
+    '/research/sand-casting-process',
+    '/research/cnc-machining-precision', '/research/heat-treatment-jaw-hardness',
+    '/research/surface-coating-and-finishing', '/research/quality-testing-standards',
     '/research/oem-buyer-guide',
-    '/oem/sup-oem-north-america', '/oem/sup-oem-europe',
-    '/oem/sup-oem-australia', '/oem/sup-oem-canada',
   ])
 
   function pageBodyText(p: { path: string; content?: Record<string, unknown> }): string[] {
@@ -290,7 +284,7 @@ export function llmsAfarerFull(): string {
     return lines
   }
   // Edge-301'd source paths (/brand/afarer, /brand/story, /oem-odm, …) and
-  // legacy theafarer-era paths must not appear as canonical URLs in the LLM
+  // legacy thestavalk-era paths must not appear as canonical URLs in the LLM
   // corpus — same rule as the sitemap.
   const pageBlocks = getContentPages()
     .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS))

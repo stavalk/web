@@ -86,7 +86,7 @@ function SolutionsIndex() {
       <SolutionsSection heading={null} />
       <section className="border-t border-border bg-bg-alt">
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
-          <SectionHead kicker={t('sup.solutions.hubKicker')} title={t('sup.solutions.hubTitle')} />
+          <SectionHead kicker={t('bench.solutions.hubKicker')} title={t('bench.solutions.hubTitle')} />
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {cards.map((card) => (
               <a
@@ -98,7 +98,7 @@ function SolutionsIndex() {
                 <h3 className="mt-2 font-display text-lg font-bold">{card.navLabel}</h3>
                 <p className="mt-2.5 flex-1 text-[13.5px] leading-relaxed text-fg-2">{card.metaDescription}</p>
                 <span className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-bold text-primary">
-                  {t('sup.solutions.seeAll')}
+                  {t('bench.solutions.seeAll')}
                   <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
                 </span>
               </a>
@@ -109,8 +109,8 @@ function SolutionsIndex() {
       <CtaBand />
       <JsonLd
         data={siteBreadcrumbLd([
-          { name: t('sup.breadcrumb.home'), path: '/' },
-          { name: t('sup.breadcrumb.solutions'), path: '/solutions' },
+          { name: t('bench.breadcrumb.home'), path: '/' },
+          { name: t('bench.breadcrumb.solutions'), path: '/solutions' },
         ])}
       />
       <JsonLd

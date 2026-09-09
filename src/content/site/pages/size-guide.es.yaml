@@ -1,85 +1,84 @@
-meta:
-  title: 'Guía de tallas SUP y embarcaciones hinchables | {SITE}'
-  description: 'Dimensiones, capacidades y usos recomendados para cada producto afarer. Encuentra el tamaño adecuado de SUP o embarcación hinchable.'
-  dateModified: '2026-08'
+﻿meta:
+  title: 'Guía de tamaños de tornillo de banco — Ancho de mandíbula y especificaciones | {SITE}'
+  description: 'Dimensiones, rangos de peso y usos recomendados para cada tornillo de banco Stavalk. Encuentra el ancho de mandíbula adecuado para tu banco y pieza de trabajo.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'guía de tallas sup'
-    - 'dimensiones paddle board'
-    - 'especificaciones sup hinchable'
-    - 'tabla de tamaños embarcaciones'
+    - 'guía tamaños tornillo de banco'
+    - 'ancho mandíbula tornillo banco'
+    - 'dimensiones tornillo de banco'
+    - 'tabla tamaños tornillo'
 hero:
-  title: Guía de tallas y especificaciones
-  subtitle: Dimensiones, capacidades y usos recomendados para cada producto afarer.
-
-categories:
-  inflatable: SUP hinchables diseñados para la portabilidad sin sacrificar rendimiento. Ajusta la talla a tu peso y estilo de paleo.
-  sup: Tablas de paddle surf para travesías, yoga, fitness y paleo recreativo. Elige por longitud y peso del rider.
-  accessory: Accesorios y equipo de seguridad para complementar tu tabla SUP. Tallas universales con múltiples opciones.
-
-table:
-  headers:
-    product: Producto
-    length: Longitud
-    width: Ancho
-    weight: Peso
-    max_load: Carga máxima
-    best_for: Ideal para
-  rows:
-    - product: 'SUP polivalente (Explorer 11 ft)'
-      length: '11''0" (335 cm)'
-      width: '32" (81 cm)'
-      weight: 19 lbs (8,6 kg)
-      max_load: 220 lbs (100 kg)
-      best_for: Principiantes, recreo y uso familiar en lagos y ríos tranquilos
-    - product: 'SUP polivalente (10''6")'
-      length: '10''6" (320 cm)'
-      width: '32" (81 cm)'
-      weight: 18 lbs (8,2 kg)
-      max_load: 200 lbs (90 kg)
-      best_for: Riders más ligeros, yoga y recreo general
-    - product: 'SUP de travesía (12 ft)'
-      length: '12''0" (366 cm)'
-      width: '30" (76 cm)'
-      weight: 23 lbs (10,4 kg)
-      max_load: 260 lbs (118 kg)
-      best_for: Navegación de distancia, velocidad y travesía costera
-    - product: 'SUP de travesía (14 ft)'
-      length: '14''0" (427 cm)'
-      width: '28" (71 cm)'
-      weight: 26 lbs (11,8 kg)
-      max_load: 275 lbs (125 kg)
-      best_for: Competición y travesías de larga distancia
-    - product: 'SUP de surf (8–10 ft)'
-      length: '8''0"–10''0" (244–305 cm)'
-      width: '30" (76 cm)'
-      weight: 17 lbs (7,7 kg)
-      max_load: 180 lbs (82 kg)
-      best_for: Olas y surf maniobrable
-    - product: 'SUP de yoga / fitness (11 ft)'
-      length: '11''0" (335 cm)'
-      width: '34" (86 cm)'
-      weight: 22 lbs (10 kg)
-      max_load: 240 lbs (109 kg)
-      best_for: Yoga, fitness y recreo estable
-
-how_to_choose:
-  title: Cómo elegir la talla adecuada
-  cards:
-    - title: Tablas SUP
-      description: Elige el largo según tu peso y el uso previsto. Las tablas más anchas (32"+ ) ofrecen más estabilidad. Las más largas (11–12 pies) navegan mejor en travesía. Los paddlers más pesados necesitan tablas de mayor volumen.
-    - title: SUP de travesía
-      description: Las tablas más largas (11–12 pies) son las mejores para recorrer distancias y navegar. Las más anchas (32"+ ) ofrecen más estabilidad. Comprueba la capacidad de peso para la carga total, incluido el equipo.
-    - title: SUP polivalentes
-      description: Elige el largo según el peso del rider y el uso previsto. Las tablas polivalentes sirven para recreo, fitness y yoga. Las más pequeñas son más maniobrables.
-
-cta:
-  title: 'Explora tablas por talla, o habla con un ingeniero'
-  subtitle: 'Compara modelos de travesía, polivalentes y de yoga en nuestra gama de productos — o envía tu mix de riders y te recomendaremos las tallas adecuadas para tu proyecto.'
+  title: Guía de tamaños de tornillo de banco
+  subtitle: Ancho de mandíbula, apertura, peso y usos recomendados para cada tornillo de banco Stavalk.
   actions:
     - variant: primary
-      text: Ver productos SUP
+      text: Ver series de tornillos de banco
       href: /es/products
-    - text: Más conocimiento del paddling
+categories:
+  title: Categorías de tamaño
+  subtitle: Relaciona la serie de mandíbulas con tu banco de trabajo y con tu pieza de trabajo más grande habitual.
+  items:
+    - title: Trabajo ligero — 4″–5″
+      description: Tornillos con mandíbulas reemplazables para electrónica, joyería, artesanía, carpintería pequeña y maquetas. Compactos, portátiles y suaves con piezas pequeñas.
+    - title: Trabajo medio — 6″–8″
+      description: La opción más versátil para metalurgia general, reparación de autos, fabricación y carpintería. Cubre la mayoría de necesidades de talleres y garajes con un peso razonable.
+    - title: Trabajo pesado — 8″–10″
+      description: Cuerpos de acero forjado, caras de yunque y máxima fuerza de sujeción para fontanería, trabajo de barcos, mantenimiento de minería y fabricación pesada.
+    - title: Tornillo para tubería
+      description: Mandíbulas en V endurecidas y serradas que aceptan tubería de 1/8″–2″ para un agarre seguro y sin deslizamiento en material redondo.
+table:
+  title: Tabla de referencia de tamaños
+  headers:
+    duty: Categoría
+    jaws: Ancho de mandíbula
+    opening: Apertura
+    weight: Peso
+    suited: Ideal para
+  rows:
+    - duty: Ligero
+      jaws: 4″–5″
+      opening: 3″–4″
+      weight: 3–5 kg
+      suited: Electrónica, joyería, artesanía, maquetas, carpintería pequeña
+    - duty: Medio
+      jaws: 6″–8″
+      opening: 4″–7″
+      weight: 5–8 kg
+      suited: Metalurgia general, reparación de autos, fabricación, carpintería
+    - duty: Pesado
+      jaws: 8″–10″
+      opening: 7″–10″
+      weight: 8–14 kg
+      suited: Fontanería, trabajo de barcos, mantenimiento de minería, fabricación pesada
+    - duty: Tubería
+      jaws: —
+      opening: tubería de 1/8″–2″
+      weight: 6–12 kg
+      suited: Material redondo — tubería, varilla y ajuste y roscado de tubos
+how_to_choose:
+  title: Cómo elegir el tamaño adecuado
+  body: |
+    Relaciona el ancho de mandíbula con tu banco de trabajo y con la pieza de trabajo más grande que uses habitualmente:
+
+    - **Ancho de mandíbula** determina la pieza máxima que puedes sujetar con seguridad. Un tornillo ligero de 4″–5″ sirve para hobby y trabajo pequeño; el trabajo medio de 6″–8″ cubre la mayoría de talleres; el pesado de 8″–10″ es para fabricación industrial.
+    - **Rango de apertura** debe superar tu material más grande. Comprueba la apertura máxima contra tu stock más grueso habitual antes de elegir una serie.
+    - **Peso y banco** — los tornillos ligeros van de 3–5 kg, los medios de 5–8 kg, los pesados de 8–14 kg. Refuerza la parte superior del banco para tornillos pesados.
+    - **Montaje** — relaciona el tamaño del perno (típicamente 4–12 mm) y la separación con tu banco. Una base giratoria de 360° añade flexibilidad de sujeción; una base fija es más rígida para golpes fuertes.
+    - **Mandíbulas para tubería** — si sujetas material redondo con frecuencia, elige un modelo con mandíbulas para tubería o un tornillo dedicado que acepte tubería de 1/8″–2″.
+
+    ### Opciones comunes
+    - Trabajo pequeño y de precisión → 4″–5″ trabajo ligero con mandíbulas reemplazables
+    - Uso general de taller → 6″ trabajo medio
+    - Trabajo pesado e industrial → 8″–10″ trabajo pesado con cara de yunque
+    - Material redondo → mandíbulas para tubería o un tornillo dedicado
+cta:
+  title: 'Explora tornillos por tamaño, o habla con un ingeniero'
+  subtitle: 'Compara modelos ligeros, medios y pesados en nuestra gama de productos — o envía tu mix de piezas de trabajo y te recomendaremos los anchos de mandíbula adecuados para tu proyecto.'
+  actions:
+    - variant: primary
+      text: Ver series de tornillos de banco
+      href: /es/products
+    - text: Más conocimiento de sujeción de trabajo
       href: /es/knowledge
-    - text: Cómo se fabrican las tablas
-      href: /es/factory/process
+    - text: Cómo se fabrican los tornillos
+      href: /es/quality

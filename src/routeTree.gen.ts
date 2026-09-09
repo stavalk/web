@@ -9,14 +9,8 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as WhatIsSupRouteImport } from './routes/what-is-sup'
 import { Route as WarrantyRouteImport } from './routes/warranty'
-import { Route as TourismRecreationRouteImport } from './routes/tourism-recreation'
 import { Route as TechnologyRouteImport } from './routes/technology'
-import { Route as SupOemMoqLeadTimeRouteImport } from './routes/sup-oem-moq-lead-time'
-import { Route as SupConstructionComparisonRouteImport } from './routes/sup-construction-comparison'
-import { Route as SupComplianceByMarketRouteImport } from './routes/sup-compliance-by-market'
-import { Route as StartSupProjectRouteImport } from './routes/start-sup-project'
 import { Route as SizeGuideRouteImport } from './routes/size-guide'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SitemapProductsDotxmlRouteImport } from './routes/sitemap-products[.]xml'
@@ -32,8 +26,6 @@ import { Route as ProofCenterRouteImport } from './routes/proof-center'
 import { Route as ProductDevelopmentRouteImport } from './routes/product-development'
 import { Route as PartnersRouteImport } from './routes/partners'
 import { Route as OemTrustAssuranceRouteImport } from './routes/oem-trust-assurance'
-import { Route as OemSupMoqRouteImport } from './routes/oem-sup-moq'
-import { Route as OemPaddleRouteImport } from './routes/oem-paddle'
 import { Route as OemOnboardingGuideRouteImport } from './routes/oem-onboarding-guide'
 import { Route as OemOdmPrivateLabelComparisonRouteImport } from './routes/oem-odm-private-label-comparison'
 import { Route as OemOdmRouteImport } from './routes/oem-odm'
@@ -45,32 +37,22 @@ import { Route as NewBrandTrialOrderRouteImport } from './routes/new-brand-trial
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as LlmsFullDottxtRouteImport } from './routes/llms-full[.]txt'
 import { Route as KnowledgeRouteImport } from './routes/knowledge'
-import { Route as InflatableVsHardboardRouteImport } from './routes/inflatable-vs-hardboard'
-import { Route as InflatableSupCertificationRouteImport } from './routes/inflatable-sup-certification'
-import { Route as FishingRouteImport } from './routes/fishing'
 import { Route as FaqRouteImport } from './routes/faq'
 import { Route as FactoryAuditChecklistRouteImport } from './routes/factory-audit-checklist'
 import { Route as FactoryRouteImport } from './routes/factory'
 import { Route as EntityDotjsonRouteImport } from './routes/entity[.]json'
-import { Route as B2bSolutionsMatrixRouteImport } from './routes/b2b-solutions-matrix'
 import { Route as SplatRouteImport } from './routes/$'
 import { Route as Char123LocaleChar125RouteRouteImport } from './routes/{-$locale}/route'
 import { Route as Char123LocaleChar125IndexRouteImport } from './routes/{-$locale}/index'
 import { Route as Char123LocaleChar125WhoWeServeRouteImport } from './routes/{-$locale}/who-we-serve'
 import { Route as Char123LocaleChar125WaitlistRouteImport } from './routes/{-$locale}/waitlist'
 import { Route as Char123LocaleChar125TermsRouteImport } from './routes/{-$locale}/terms'
-import { Route as Char123LocaleChar125SupStartupBrandsRouteImport } from './routes/{-$locale}/sup-startup-brands'
-import { Route as Char123LocaleChar125SupForResortsRouteImport } from './routes/{-$locale}/sup-for-resorts'
-import { Route as Char123LocaleChar125SupForClubsRouteImport } from './routes/{-$locale}/sup-for-clubs'
 import { Route as Char123LocaleChar125SolutionsRouteImport } from './routes/{-$locale}/solutions'
 import { Route as Char123LocaleChar125SearchRouteImport } from './routes/{-$locale}/search'
-import { Route as Char123LocaleChar125PrivateLabelSupRouteImport } from './routes/{-$locale}/private-label-sup'
 import { Route as Char123LocaleChar125PrivacyRouteImport } from './routes/{-$locale}/privacy'
 import { Route as Char123LocaleChar125HowItWorksRouteImport } from './routes/{-$locale}/how-it-works'
 import { Route as Char123LocaleChar125GalleryRouteImport } from './routes/{-$locale}/gallery'
 import { Route as Char123LocaleChar125CustomizerRouteImport } from './routes/{-$locale}/customizer'
-import { Route as Char123LocaleChar125CustomSupManufacturingRouteImport } from './routes/{-$locale}/custom-sup-manufacturing'
-import { Route as Char123LocaleChar125CustomSupDevelopmentRouteImport } from './routes/{-$locale}/custom-sup-development'
 import { Route as Char123LocaleChar125ContactRouteImport } from './routes/{-$locale}/contact'
 import { Route as Char123LocaleChar125ChangelogRouteImport } from './routes/{-$locale}/changelog'
 import { Route as DocsSplatRouteImport } from './routes/docs/$'
@@ -89,11 +71,6 @@ import { Route as Char123LocaleChar125KnowledgeIndexRouteImport } from './routes
 import { Route as Char123LocaleChar125AppIndexRouteImport } from './routes/{-$locale}/app/index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
 import { Route as Char123LocaleChar125AboutIndexRouteImport } from './routes/{-$locale}/about/index'
-import { Route as Char123LocaleChar125SolutionsSchoolSupRouteImport } from './routes/{-$locale}/solutions/school-sup'
-import { Route as Char123LocaleChar125SolutionsResortSupRouteImport } from './routes/{-$locale}/solutions/resort-sup'
-import { Route as Char123LocaleChar125SolutionsPrivateLabelSupRouteImport } from './routes/{-$locale}/solutions/private-label-sup'
-import { Route as Char123LocaleChar125SolutionsCustomSupRouteImport } from './routes/{-$locale}/solutions/custom-sup'
-import { Route as Char123LocaleChar125SolutionsClubSupRouteImport } from './routes/{-$locale}/solutions/club-sup'
 import { Route as Char123LocaleChar125ProjectsSlugRouteImport } from './routes/{-$locale}/projects/$slug'
 import { Route as Char123LocaleChar125ProductsSeriesRouteImport } from './routes/{-$locale}/products/$series'
 import { Route as Char123LocaleChar125KnowledgeSlugRouteImport } from './routes/{-$locale}/knowledge/$slug'
@@ -103,7 +80,7 @@ import { Route as Char123LocaleChar125AdminWaitlistRouteImport } from './routes/
 import { Route as Char123LocaleChar125AdminUsersRouteImport } from './routes/{-$locale}/admin/users'
 import { Route as Char123LocaleChar125AdminInquiriesRouteImport } from './routes/{-$locale}/admin/inquiries'
 import { Route as Char123LocaleChar125AdminFeedbackRouteImport } from './routes/{-$locale}/admin/feedback'
-import { Route as Char123LocaleChar125AboutSupsfactoryEntityRouteImport } from './routes/{-$locale}/about/supsfactory-entity'
+import { Route as Char123LocaleChar125AboutStavalkEntityRouteImport } from './routes/{-$locale}/about/stavalk-entity'
 import { Route as Char123LocaleChar125authVerifyEmailRouteImport } from './routes/{-$locale}/(auth)/verify-email'
 import { Route as Char123LocaleChar125authResetPasswordRouteImport } from './routes/{-$locale}/(auth)/reset-password'
 import { Route as Char123LocaleChar125authRegisterRouteImport } from './routes/{-$locale}/(auth)/register'
@@ -113,57 +90,16 @@ import { Route as ApiInquiryLogoSplatRouteImport } from './routes/api/inquiry-lo
 import { Route as ApiAvatarsSplatRouteImport } from './routes/api/avatars/$'
 import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
 
-const WhatIsSupRoute = WhatIsSupRouteImport.update({
-  id: '/what-is-sup',
-  path: '/what-is-sup',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() => import('./routes/what-is-sup.lazy').then((d) => d.Route))
 const WarrantyRoute = WarrantyRouteImport.update({
   id: '/warranty',
   path: '/warranty',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/warranty.lazy').then((d) => d.Route))
-const TourismRecreationRoute = TourismRecreationRouteImport.update({
-  id: '/tourism-recreation',
-  path: '/tourism-recreation',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/tourism-recreation.lazy').then((d) => d.Route),
-)
 const TechnologyRoute = TechnologyRouteImport.update({
   id: '/technology',
   path: '/technology',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/technology.lazy').then((d) => d.Route))
-const SupOemMoqLeadTimeRoute = SupOemMoqLeadTimeRouteImport.update({
-  id: '/sup-oem-moq-lead-time',
-  path: '/sup-oem-moq-lead-time',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/sup-oem-moq-lead-time.lazy').then((d) => d.Route),
-)
-const SupConstructionComparisonRoute =
-  SupConstructionComparisonRouteImport.update({
-    id: '/sup-construction-comparison',
-    path: '/sup-construction-comparison',
-    getParentRoute: () => rootRouteImport,
-  } as any).lazy(() =>
-    import('./routes/sup-construction-comparison.lazy').then((d) => d.Route),
-  )
-const SupComplianceByMarketRoute = SupComplianceByMarketRouteImport.update({
-  id: '/sup-compliance-by-market',
-  path: '/sup-compliance-by-market',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/sup-compliance-by-market.lazy').then((d) => d.Route),
-)
-const StartSupProjectRoute = StartSupProjectRouteImport.update({
-  id: '/start-sup-project',
-  path: '/start-sup-project',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/start-sup-project.lazy').then((d) => d.Route),
-)
 const SizeGuideRoute = SizeGuideRouteImport.update({
   id: '/size-guide',
   path: '/size-guide',
@@ -243,16 +179,6 @@ const OemTrustAssuranceRoute = OemTrustAssuranceRouteImport.update({
 } as any).lazy(() =>
   import('./routes/oem-trust-assurance.lazy').then((d) => d.Route),
 )
-const OemSupMoqRoute = OemSupMoqRouteImport.update({
-  id: '/oem-sup-moq',
-  path: '/oem-sup-moq',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() => import('./routes/oem-sup-moq.lazy').then((d) => d.Route))
-const OemPaddleRoute = OemPaddleRouteImport.update({
-  id: '/oem-paddle',
-  path: '/oem-paddle',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() => import('./routes/oem-paddle.lazy').then((d) => d.Route))
 const OemOnboardingGuideRoute = OemOnboardingGuideRouteImport.update({
   id: '/oem-onboarding-guide',
   path: '/oem-onboarding-guide',
@@ -321,26 +247,6 @@ const KnowledgeRoute = KnowledgeRouteImport.update({
   path: '/knowledge',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/knowledge.lazy').then((d) => d.Route))
-const InflatableVsHardboardRoute = InflatableVsHardboardRouteImport.update({
-  id: '/inflatable-vs-hardboard',
-  path: '/inflatable-vs-hardboard',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/inflatable-vs-hardboard.lazy').then((d) => d.Route),
-)
-const InflatableSupCertificationRoute =
-  InflatableSupCertificationRouteImport.update({
-    id: '/inflatable-sup-certification',
-    path: '/inflatable-sup-certification',
-    getParentRoute: () => rootRouteImport,
-  } as any).lazy(() =>
-    import('./routes/inflatable-sup-certification.lazy').then((d) => d.Route),
-  )
-const FishingRoute = FishingRouteImport.update({
-  id: '/fishing',
-  path: '/fishing',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() => import('./routes/fishing.lazy').then((d) => d.Route))
 const FaqRoute = FaqRouteImport.update({
   id: '/faq',
   path: '/faq',
@@ -363,13 +269,6 @@ const EntityDotjsonRoute = EntityDotjsonRouteImport.update({
   path: '/entity.json',
   getParentRoute: () => rootRouteImport,
 } as any)
-const B2bSolutionsMatrixRoute = B2bSolutionsMatrixRouteImport.update({
-  id: '/b2b-solutions-matrix',
-  path: '/b2b-solutions-matrix',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/b2b-solutions-matrix.lazy').then((d) => d.Route),
-)
 const SplatRoute = SplatRouteImport.update({
   id: '/$',
   path: '/$',
@@ -405,24 +304,6 @@ const Char123LocaleChar125TermsRoute =
     path: '/terms',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
-const Char123LocaleChar125SupStartupBrandsRoute =
-  Char123LocaleChar125SupStartupBrandsRouteImport.update({
-    id: '/sup-startup-brands',
-    path: '/sup-startup-brands',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
-const Char123LocaleChar125SupForResortsRoute =
-  Char123LocaleChar125SupForResortsRouteImport.update({
-    id: '/sup-for-resorts',
-    path: '/sup-for-resorts',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
-const Char123LocaleChar125SupForClubsRoute =
-  Char123LocaleChar125SupForClubsRouteImport.update({
-    id: '/sup-for-clubs',
-    path: '/sup-for-clubs',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
 const Char123LocaleChar125SolutionsRoute =
   Char123LocaleChar125SolutionsRouteImport.update({
     id: '/solutions',
@@ -433,12 +314,6 @@ const Char123LocaleChar125SearchRoute =
   Char123LocaleChar125SearchRouteImport.update({
     id: '/search',
     path: '/search',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
-const Char123LocaleChar125PrivateLabelSupRoute =
-  Char123LocaleChar125PrivateLabelSupRouteImport.update({
-    id: '/private-label-sup',
-    path: '/private-label-sup',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
 const Char123LocaleChar125PrivacyRoute =
@@ -463,18 +338,6 @@ const Char123LocaleChar125CustomizerRoute =
   Char123LocaleChar125CustomizerRouteImport.update({
     id: '/customizer',
     path: '/customizer',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
-const Char123LocaleChar125CustomSupManufacturingRoute =
-  Char123LocaleChar125CustomSupManufacturingRouteImport.update({
-    id: '/custom-sup-manufacturing',
-    path: '/custom-sup-manufacturing',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
-const Char123LocaleChar125CustomSupDevelopmentRoute =
-  Char123LocaleChar125CustomSupDevelopmentRouteImport.update({
-    id: '/custom-sup-development',
-    path: '/custom-sup-development',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
 const Char123LocaleChar125ContactRoute =
@@ -581,36 +444,6 @@ const Char123LocaleChar125AboutIndexRoute =
     path: '/about/',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
-const Char123LocaleChar125SolutionsSchoolSupRoute =
-  Char123LocaleChar125SolutionsSchoolSupRouteImport.update({
-    id: '/school-sup',
-    path: '/school-sup',
-    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
-  } as any)
-const Char123LocaleChar125SolutionsResortSupRoute =
-  Char123LocaleChar125SolutionsResortSupRouteImport.update({
-    id: '/resort-sup',
-    path: '/resort-sup',
-    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
-  } as any)
-const Char123LocaleChar125SolutionsPrivateLabelSupRoute =
-  Char123LocaleChar125SolutionsPrivateLabelSupRouteImport.update({
-    id: '/private-label-sup',
-    path: '/private-label-sup',
-    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
-  } as any)
-const Char123LocaleChar125SolutionsCustomSupRoute =
-  Char123LocaleChar125SolutionsCustomSupRouteImport.update({
-    id: '/custom-sup',
-    path: '/custom-sup',
-    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
-  } as any)
-const Char123LocaleChar125SolutionsClubSupRoute =
-  Char123LocaleChar125SolutionsClubSupRouteImport.update({
-    id: '/club-sup',
-    path: '/club-sup',
-    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
-  } as any)
 const Char123LocaleChar125ProjectsSlugRoute =
   Char123LocaleChar125ProjectsSlugRouteImport.update({
     id: '/projects/$slug',
@@ -667,10 +500,10 @@ const Char123LocaleChar125AdminFeedbackRoute =
     path: '/feedback',
     getParentRoute: () => Char123LocaleChar125AdminRouteRoute,
   } as any)
-const Char123LocaleChar125AboutSupsfactoryEntityRoute =
-  Char123LocaleChar125AboutSupsfactoryEntityRouteImport.update({
-    id: '/about/supsfactory-entity',
-    path: '/about/supsfactory-entity',
+const Char123LocaleChar125AboutStavalkEntityRoute =
+  Char123LocaleChar125AboutStavalkEntityRouteImport.update({
+    id: '/about/stavalk-entity',
+    path: '/about/stavalk-entity',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
 const Char123LocaleChar125authVerifyEmailRoute =
@@ -722,14 +555,10 @@ const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
 export interface FileRoutesByFullPath {
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
-  '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
-  '/fishing': typeof FishingRoute
-  '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
-  '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
@@ -741,8 +570,6 @@ export interface FileRoutesByFullPath {
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
   '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
-  '/oem-paddle': typeof OemPaddleRoute
-  '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
@@ -758,14 +585,8 @@ export interface FileRoutesByFullPath {
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
-  '/start-sup-project': typeof StartSupProjectRoute
-  '/sup-compliance-by-market': typeof SupComplianceByMarketRoute
-  '/sup-construction-comparison': typeof SupConstructionComparisonRoute
-  '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
-  '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
-  '/what-is-sup': typeof WhatIsSupRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
   '/about/identity': typeof AboutIdentityRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
@@ -777,18 +598,12 @@ export interface FileRoutesByFullPath {
   '/docs/$': typeof DocsSplatRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
-  '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
-  '/{-$locale}/custom-sup-manufacturing': typeof Char123LocaleChar125CustomSupManufacturingRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
-  '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRouteWithChildren
-  '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
-  '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
-  '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
   '/{-$locale}/waitlist': typeof Char123LocaleChar125WaitlistRoute
   '/{-$locale}/who-we-serve': typeof Char123LocaleChar125WhoWeServeRoute
@@ -801,7 +616,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/register': typeof Char123LocaleChar125authRegisterRoute
   '/{-$locale}/reset-password': typeof Char123LocaleChar125authResetPasswordRoute
   '/{-$locale}/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
-  '/{-$locale}/about/supsfactory-entity': typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
+  '/{-$locale}/about/stavalk-entity': typeof Char123LocaleChar125AboutStavalkEntityRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
@@ -811,11 +626,6 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
-  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
-  '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
-  '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
-  '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
-  '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/about/': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
@@ -826,14 +636,10 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/$': typeof SplatRoute
-  '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
-  '/fishing': typeof FishingRoute
-  '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
-  '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
@@ -845,8 +651,6 @@ export interface FileRoutesByTo {
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
   '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
-  '/oem-paddle': typeof OemPaddleRoute
-  '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
@@ -862,14 +666,8 @@ export interface FileRoutesByTo {
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
-  '/start-sup-project': typeof StartSupProjectRoute
-  '/sup-compliance-by-market': typeof SupComplianceByMarketRoute
-  '/sup-construction-comparison': typeof SupConstructionComparisonRoute
-  '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
-  '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
-  '/what-is-sup': typeof WhatIsSupRoute
   '/about/identity': typeof AboutIdentityRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
@@ -880,17 +678,11 @@ export interface FileRoutesByTo {
   '/docs/$': typeof DocsSplatRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
-  '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
-  '/{-$locale}/custom-sup-manufacturing': typeof Char123LocaleChar125CustomSupManufacturingRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
-  '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
-  '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
-  '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
-  '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
   '/{-$locale}/waitlist': typeof Char123LocaleChar125WaitlistRoute
   '/{-$locale}/who-we-serve': typeof Char123LocaleChar125WhoWeServeRoute
@@ -903,7 +695,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/register': typeof Char123LocaleChar125authRegisterRoute
   '/{-$locale}/reset-password': typeof Char123LocaleChar125authResetPasswordRoute
   '/{-$locale}/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
-  '/{-$locale}/about/supsfactory-entity': typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
+  '/{-$locale}/about/stavalk-entity': typeof Char123LocaleChar125AboutStavalkEntityRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
@@ -913,11 +705,6 @@ export interface FileRoutesByTo {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
-  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
-  '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
-  '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
-  '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
-  '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/about': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app': typeof Char123LocaleChar125AppIndexRoute
@@ -930,14 +717,10 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
-  '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
-  '/fishing': typeof FishingRoute
-  '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
-  '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
@@ -949,8 +732,6 @@ export interface FileRoutesById {
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
   '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
-  '/oem-paddle': typeof OemPaddleRoute
-  '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
@@ -966,14 +747,8 @@ export interface FileRoutesById {
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
-  '/start-sup-project': typeof StartSupProjectRoute
-  '/sup-compliance-by-market': typeof SupComplianceByMarketRoute
-  '/sup-construction-comparison': typeof SupConstructionComparisonRoute
-  '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
   '/technology': typeof TechnologyRoute
-  '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
-  '/what-is-sup': typeof WhatIsSupRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
   '/about/identity': typeof AboutIdentityRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
@@ -985,18 +760,12 @@ export interface FileRoutesById {
   '/docs/$': typeof DocsSplatRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
-  '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
-  '/{-$locale}/custom-sup-manufacturing': typeof Char123LocaleChar125CustomSupManufacturingRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
-  '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRouteWithChildren
-  '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
-  '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
-  '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
   '/{-$locale}/waitlist': typeof Char123LocaleChar125WaitlistRoute
   '/{-$locale}/who-we-serve': typeof Char123LocaleChar125WhoWeServeRoute
@@ -1009,7 +778,7 @@ export interface FileRoutesById {
   '/{-$locale}/(auth)/register': typeof Char123LocaleChar125authRegisterRoute
   '/{-$locale}/(auth)/reset-password': typeof Char123LocaleChar125authResetPasswordRoute
   '/{-$locale}/(auth)/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
-  '/{-$locale}/about/supsfactory-entity': typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
+  '/{-$locale}/about/stavalk-entity': typeof Char123LocaleChar125AboutStavalkEntityRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
@@ -1019,11 +788,6 @@ export interface FileRoutesById {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
-  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
-  '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
-  '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
-  '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
-  '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/about/': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
@@ -1037,14 +801,10 @@ export interface FileRouteTypes {
   fullPaths:
     | '/{-$locale}'
     | '/$'
-    | '/b2b-solutions-matrix'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
     | '/faq'
-    | '/fishing'
-    | '/inflatable-sup-certification'
-    | '/inflatable-vs-hardboard'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
@@ -1056,8 +816,6 @@ export interface FileRouteTypes {
     | '/oem-odm'
     | '/oem-odm-private-label-comparison'
     | '/oem-onboarding-guide'
-    | '/oem-paddle'
-    | '/oem-sup-moq'
     | '/oem-trust-assurance'
     | '/partners'
     | '/product-development'
@@ -1073,14 +831,8 @@ export interface FileRouteTypes {
     | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
-    | '/start-sup-project'
-    | '/sup-compliance-by-market'
-    | '/sup-construction-comparison'
-    | '/sup-oem-moq-lead-time'
     | '/technology'
-    | '/tourism-recreation'
     | '/warranty'
-    | '/what-is-sup'
     | '/{-$locale}/admin'
     | '/about/identity'
     | '/admin/inquiries.csv'
@@ -1092,18 +844,12 @@ export interface FileRouteTypes {
     | '/docs/$'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
-    | '/{-$locale}/custom-sup-development'
-    | '/{-$locale}/custom-sup-manufacturing'
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
     | '/{-$locale}/how-it-works'
     | '/{-$locale}/privacy'
-    | '/{-$locale}/private-label-sup'
     | '/{-$locale}/search'
     | '/{-$locale}/solutions'
-    | '/{-$locale}/sup-for-clubs'
-    | '/{-$locale}/sup-for-resorts'
-    | '/{-$locale}/sup-startup-brands'
     | '/{-$locale}/terms'
     | '/{-$locale}/waitlist'
     | '/{-$locale}/who-we-serve'
@@ -1116,7 +862,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/register'
     | '/{-$locale}/reset-password'
     | '/{-$locale}/verify-email'
-    | '/{-$locale}/about/supsfactory-entity'
+    | '/{-$locale}/about/stavalk-entity'
     | '/{-$locale}/admin/feedback'
     | '/{-$locale}/admin/inquiries'
     | '/{-$locale}/admin/users'
@@ -1126,11 +872,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
-    | '/{-$locale}/solutions/club-sup'
-    | '/{-$locale}/solutions/custom-sup'
-    | '/{-$locale}/solutions/private-label-sup'
-    | '/{-$locale}/solutions/resort-sup'
-    | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/about/'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
@@ -1141,14 +882,10 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/$'
-    | '/b2b-solutions-matrix'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
     | '/faq'
-    | '/fishing'
-    | '/inflatable-sup-certification'
-    | '/inflatable-vs-hardboard'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
@@ -1160,8 +897,6 @@ export interface FileRouteTypes {
     | '/oem-odm'
     | '/oem-odm-private-label-comparison'
     | '/oem-onboarding-guide'
-    | '/oem-paddle'
-    | '/oem-sup-moq'
     | '/oem-trust-assurance'
     | '/partners'
     | '/product-development'
@@ -1177,14 +912,8 @@ export interface FileRouteTypes {
     | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
-    | '/start-sup-project'
-    | '/sup-compliance-by-market'
-    | '/sup-construction-comparison'
-    | '/sup-oem-moq-lead-time'
     | '/technology'
-    | '/tourism-recreation'
     | '/warranty'
-    | '/what-is-sup'
     | '/about/identity'
     | '/admin/inquiries.csv'
     | '/admin/waitlist.csv'
@@ -1195,17 +924,11 @@ export interface FileRouteTypes {
     | '/docs/$'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
-    | '/{-$locale}/custom-sup-development'
-    | '/{-$locale}/custom-sup-manufacturing'
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
     | '/{-$locale}/how-it-works'
     | '/{-$locale}/privacy'
-    | '/{-$locale}/private-label-sup'
     | '/{-$locale}/search'
-    | '/{-$locale}/sup-for-clubs'
-    | '/{-$locale}/sup-for-resorts'
-    | '/{-$locale}/sup-startup-brands'
     | '/{-$locale}/terms'
     | '/{-$locale}/waitlist'
     | '/{-$locale}/who-we-serve'
@@ -1218,7 +941,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/register'
     | '/{-$locale}/reset-password'
     | '/{-$locale}/verify-email'
-    | '/{-$locale}/about/supsfactory-entity'
+    | '/{-$locale}/about/stavalk-entity'
     | '/{-$locale}/admin/feedback'
     | '/{-$locale}/admin/inquiries'
     | '/{-$locale}/admin/users'
@@ -1228,11 +951,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
-    | '/{-$locale}/solutions/club-sup'
-    | '/{-$locale}/solutions/custom-sup'
-    | '/{-$locale}/solutions/private-label-sup'
-    | '/{-$locale}/solutions/resort-sup'
-    | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/about'
     | '/{-$locale}/admin'
     | '/{-$locale}/app'
@@ -1244,14 +962,10 @@ export interface FileRouteTypes {
     | '__root__'
     | '/{-$locale}'
     | '/$'
-    | '/b2b-solutions-matrix'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
     | '/faq'
-    | '/fishing'
-    | '/inflatable-sup-certification'
-    | '/inflatable-vs-hardboard'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
@@ -1263,8 +977,6 @@ export interface FileRouteTypes {
     | '/oem-odm'
     | '/oem-odm-private-label-comparison'
     | '/oem-onboarding-guide'
-    | '/oem-paddle'
-    | '/oem-sup-moq'
     | '/oem-trust-assurance'
     | '/partners'
     | '/product-development'
@@ -1280,14 +992,8 @@ export interface FileRouteTypes {
     | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/size-guide'
-    | '/start-sup-project'
-    | '/sup-compliance-by-market'
-    | '/sup-construction-comparison'
-    | '/sup-oem-moq-lead-time'
     | '/technology'
-    | '/tourism-recreation'
     | '/warranty'
-    | '/what-is-sup'
     | '/{-$locale}/admin'
     | '/about/identity'
     | '/admin/inquiries.csv'
@@ -1299,18 +1005,12 @@ export interface FileRouteTypes {
     | '/docs/$'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
-    | '/{-$locale}/custom-sup-development'
-    | '/{-$locale}/custom-sup-manufacturing'
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
     | '/{-$locale}/how-it-works'
     | '/{-$locale}/privacy'
-    | '/{-$locale}/private-label-sup'
     | '/{-$locale}/search'
     | '/{-$locale}/solutions'
-    | '/{-$locale}/sup-for-clubs'
-    | '/{-$locale}/sup-for-resorts'
-    | '/{-$locale}/sup-startup-brands'
     | '/{-$locale}/terms'
     | '/{-$locale}/waitlist'
     | '/{-$locale}/who-we-serve'
@@ -1323,7 +1023,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/(auth)/register'
     | '/{-$locale}/(auth)/reset-password'
     | '/{-$locale}/(auth)/verify-email'
-    | '/{-$locale}/about/supsfactory-entity'
+    | '/{-$locale}/about/stavalk-entity'
     | '/{-$locale}/admin/feedback'
     | '/{-$locale}/admin/inquiries'
     | '/{-$locale}/admin/users'
@@ -1333,11 +1033,6 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
-    | '/{-$locale}/solutions/club-sup'
-    | '/{-$locale}/solutions/custom-sup'
-    | '/{-$locale}/solutions/private-label-sup'
-    | '/{-$locale}/solutions/resort-sup'
-    | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/about/'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
@@ -1350,14 +1045,10 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   Char123LocaleChar125RouteRoute: typeof Char123LocaleChar125RouteRouteWithChildren
   SplatRoute: typeof SplatRoute
-  B2bSolutionsMatrixRoute: typeof B2bSolutionsMatrixRoute
   EntityDotjsonRoute: typeof EntityDotjsonRoute
   FactoryRoute: typeof FactoryRoute
   FactoryAuditChecklistRoute: typeof FactoryAuditChecklistRoute
   FaqRoute: typeof FaqRoute
-  FishingRoute: typeof FishingRoute
-  InflatableSupCertificationRoute: typeof InflatableSupCertificationRoute
-  InflatableVsHardboardRoute: typeof InflatableVsHardboardRoute
   KnowledgeRoute: typeof KnowledgeRoute
   LlmsFullDottxtRoute: typeof LlmsFullDottxtRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
@@ -1369,8 +1060,6 @@ export interface RootRouteChildren {
   OemOdmRoute: typeof OemOdmRoute
   OemOdmPrivateLabelComparisonRoute: typeof OemOdmPrivateLabelComparisonRoute
   OemOnboardingGuideRoute: typeof OemOnboardingGuideRoute
-  OemPaddleRoute: typeof OemPaddleRoute
-  OemSupMoqRoute: typeof OemSupMoqRoute
   OemTrustAssuranceRoute: typeof OemTrustAssuranceRoute
   PartnersRoute: typeof PartnersRoute
   ProductDevelopmentRoute: typeof ProductDevelopmentRoute
@@ -1386,14 +1075,8 @@ export interface RootRouteChildren {
   SitemapProductsDotxmlRoute: typeof SitemapProductsDotxmlRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SizeGuideRoute: typeof SizeGuideRoute
-  StartSupProjectRoute: typeof StartSupProjectRoute
-  SupComplianceByMarketRoute: typeof SupComplianceByMarketRoute
-  SupConstructionComparisonRoute: typeof SupConstructionComparisonRoute
-  SupOemMoqLeadTimeRoute: typeof SupOemMoqLeadTimeRoute
   TechnologyRoute: typeof TechnologyRoute
-  TourismRecreationRoute: typeof TourismRecreationRoute
   WarrantyRoute: typeof WarrantyRoute
-  WhatIsSupRoute: typeof WhatIsSupRoute
   AboutIdentityRoute: typeof AboutIdentityRoute
   AdminInquiriesDotcsvRoute: typeof AdminInquiriesDotcsvRoute
   AdminWaitlistDotcsvRoute: typeof AdminWaitlistDotcsvRoute
@@ -1409,13 +1092,6 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/what-is-sup': {
-      id: '/what-is-sup'
-      path: '/what-is-sup'
-      fullPath: '/what-is-sup'
-      preLoaderRoute: typeof WhatIsSupRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/warranty': {
       id: '/warranty'
       path: '/warranty'
@@ -1423,46 +1099,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WarrantyRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/tourism-recreation': {
-      id: '/tourism-recreation'
-      path: '/tourism-recreation'
-      fullPath: '/tourism-recreation'
-      preLoaderRoute: typeof TourismRecreationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/technology': {
       id: '/technology'
       path: '/technology'
       fullPath: '/technology'
       preLoaderRoute: typeof TechnologyRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/sup-oem-moq-lead-time': {
-      id: '/sup-oem-moq-lead-time'
-      path: '/sup-oem-moq-lead-time'
-      fullPath: '/sup-oem-moq-lead-time'
-      preLoaderRoute: typeof SupOemMoqLeadTimeRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/sup-construction-comparison': {
-      id: '/sup-construction-comparison'
-      path: '/sup-construction-comparison'
-      fullPath: '/sup-construction-comparison'
-      preLoaderRoute: typeof SupConstructionComparisonRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/sup-compliance-by-market': {
-      id: '/sup-compliance-by-market'
-      path: '/sup-compliance-by-market'
-      fullPath: '/sup-compliance-by-market'
-      preLoaderRoute: typeof SupComplianceByMarketRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/start-sup-project': {
-      id: '/start-sup-project'
-      path: '/start-sup-project'
-      fullPath: '/start-sup-project'
-      preLoaderRoute: typeof StartSupProjectRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/size-guide': {
@@ -1570,20 +1211,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OemTrustAssuranceRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/oem-sup-moq': {
-      id: '/oem-sup-moq'
-      path: '/oem-sup-moq'
-      fullPath: '/oem-sup-moq'
-      preLoaderRoute: typeof OemSupMoqRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/oem-paddle': {
-      id: '/oem-paddle'
-      path: '/oem-paddle'
-      fullPath: '/oem-paddle'
-      preLoaderRoute: typeof OemPaddleRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/oem-onboarding-guide': {
       id: '/oem-onboarding-guide'
       path: '/oem-onboarding-guide'
@@ -1661,27 +1288,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KnowledgeRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/inflatable-vs-hardboard': {
-      id: '/inflatable-vs-hardboard'
-      path: '/inflatable-vs-hardboard'
-      fullPath: '/inflatable-vs-hardboard'
-      preLoaderRoute: typeof InflatableVsHardboardRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/inflatable-sup-certification': {
-      id: '/inflatable-sup-certification'
-      path: '/inflatable-sup-certification'
-      fullPath: '/inflatable-sup-certification'
-      preLoaderRoute: typeof InflatableSupCertificationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/fishing': {
-      id: '/fishing'
-      path: '/fishing'
-      fullPath: '/fishing'
-      preLoaderRoute: typeof FishingRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/faq': {
       id: '/faq'
       path: '/faq'
@@ -1708,13 +1314,6 @@ declare module '@tanstack/react-router' {
       path: '/entity.json'
       fullPath: '/entity.json'
       preLoaderRoute: typeof EntityDotjsonRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/b2b-solutions-matrix': {
-      id: '/b2b-solutions-matrix'
-      path: '/b2b-solutions-matrix'
-      fullPath: '/b2b-solutions-matrix'
-      preLoaderRoute: typeof B2bSolutionsMatrixRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/$': {
@@ -1759,27 +1358,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125TermsRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
-    '/{-$locale}/sup-startup-brands': {
-      id: '/{-$locale}/sup-startup-brands'
-      path: '/sup-startup-brands'
-      fullPath: '/{-$locale}/sup-startup-brands'
-      preLoaderRoute: typeof Char123LocaleChar125SupStartupBrandsRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
-    '/{-$locale}/sup-for-resorts': {
-      id: '/{-$locale}/sup-for-resorts'
-      path: '/sup-for-resorts'
-      fullPath: '/{-$locale}/sup-for-resorts'
-      preLoaderRoute: typeof Char123LocaleChar125SupForResortsRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
-    '/{-$locale}/sup-for-clubs': {
-      id: '/{-$locale}/sup-for-clubs'
-      path: '/sup-for-clubs'
-      fullPath: '/{-$locale}/sup-for-clubs'
-      preLoaderRoute: typeof Char123LocaleChar125SupForClubsRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
     '/{-$locale}/solutions': {
       id: '/{-$locale}/solutions'
       path: '/solutions'
@@ -1792,13 +1370,6 @@ declare module '@tanstack/react-router' {
       path: '/search'
       fullPath: '/{-$locale}/search'
       preLoaderRoute: typeof Char123LocaleChar125SearchRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
-    '/{-$locale}/private-label-sup': {
-      id: '/{-$locale}/private-label-sup'
-      path: '/private-label-sup'
-      fullPath: '/{-$locale}/private-label-sup'
-      preLoaderRoute: typeof Char123LocaleChar125PrivateLabelSupRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/privacy': {
@@ -1827,20 +1398,6 @@ declare module '@tanstack/react-router' {
       path: '/customizer'
       fullPath: '/{-$locale}/customizer'
       preLoaderRoute: typeof Char123LocaleChar125CustomizerRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
-    '/{-$locale}/custom-sup-manufacturing': {
-      id: '/{-$locale}/custom-sup-manufacturing'
-      path: '/custom-sup-manufacturing'
-      fullPath: '/{-$locale}/custom-sup-manufacturing'
-      preLoaderRoute: typeof Char123LocaleChar125CustomSupManufacturingRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
-    '/{-$locale}/custom-sup-development': {
-      id: '/{-$locale}/custom-sup-development'
-      path: '/custom-sup-development'
-      fullPath: '/{-$locale}/custom-sup-development'
-      preLoaderRoute: typeof Char123LocaleChar125CustomSupDevelopmentRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/contact': {
@@ -1969,41 +1526,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125AboutIndexRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
-    '/{-$locale}/solutions/school-sup': {
-      id: '/{-$locale}/solutions/school-sup'
-      path: '/school-sup'
-      fullPath: '/{-$locale}/solutions/school-sup'
-      preLoaderRoute: typeof Char123LocaleChar125SolutionsSchoolSupRouteImport
-      parentRoute: typeof Char123LocaleChar125SolutionsRoute
-    }
-    '/{-$locale}/solutions/resort-sup': {
-      id: '/{-$locale}/solutions/resort-sup'
-      path: '/resort-sup'
-      fullPath: '/{-$locale}/solutions/resort-sup'
-      preLoaderRoute: typeof Char123LocaleChar125SolutionsResortSupRouteImport
-      parentRoute: typeof Char123LocaleChar125SolutionsRoute
-    }
-    '/{-$locale}/solutions/private-label-sup': {
-      id: '/{-$locale}/solutions/private-label-sup'
-      path: '/private-label-sup'
-      fullPath: '/{-$locale}/solutions/private-label-sup'
-      preLoaderRoute: typeof Char123LocaleChar125SolutionsPrivateLabelSupRouteImport
-      parentRoute: typeof Char123LocaleChar125SolutionsRoute
-    }
-    '/{-$locale}/solutions/custom-sup': {
-      id: '/{-$locale}/solutions/custom-sup'
-      path: '/custom-sup'
-      fullPath: '/{-$locale}/solutions/custom-sup'
-      preLoaderRoute: typeof Char123LocaleChar125SolutionsCustomSupRouteImport
-      parentRoute: typeof Char123LocaleChar125SolutionsRoute
-    }
-    '/{-$locale}/solutions/club-sup': {
-      id: '/{-$locale}/solutions/club-sup'
-      path: '/club-sup'
-      fullPath: '/{-$locale}/solutions/club-sup'
-      preLoaderRoute: typeof Char123LocaleChar125SolutionsClubSupRouteImport
-      parentRoute: typeof Char123LocaleChar125SolutionsRoute
-    }
     '/{-$locale}/projects/$slug': {
       id: '/{-$locale}/projects/$slug'
       path: '/projects/$slug'
@@ -2067,11 +1589,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125AdminFeedbackRouteImport
       parentRoute: typeof Char123LocaleChar125AdminRouteRoute
     }
-    '/{-$locale}/about/supsfactory-entity': {
-      id: '/{-$locale}/about/supsfactory-entity'
-      path: '/about/supsfactory-entity'
-      fullPath: '/{-$locale}/about/supsfactory-entity'
-      preLoaderRoute: typeof Char123LocaleChar125AboutSupsfactoryEntityRouteImport
+    '/{-$locale}/about/stavalk-entity': {
+      id: '/{-$locale}/about/stavalk-entity'
+      path: '/about/stavalk-entity'
+      fullPath: '/{-$locale}/about/stavalk-entity'
+      preLoaderRoute: typeof Char123LocaleChar125AboutStavalkEntityRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/(auth)/verify-email': {
@@ -2159,26 +1681,11 @@ const Char123LocaleChar125AdminRouteRouteWithChildren =
   )
 
 interface Char123LocaleChar125SolutionsRouteChildren {
-  Char123LocaleChar125SolutionsClubSupRoute: typeof Char123LocaleChar125SolutionsClubSupRoute
-  Char123LocaleChar125SolutionsCustomSupRoute: typeof Char123LocaleChar125SolutionsCustomSupRoute
-  Char123LocaleChar125SolutionsPrivateLabelSupRoute: typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
-  Char123LocaleChar125SolutionsResortSupRoute: typeof Char123LocaleChar125SolutionsResortSupRoute
-  Char123LocaleChar125SolutionsSchoolSupRoute: typeof Char123LocaleChar125SolutionsSchoolSupRoute
   Char123LocaleChar125SolutionsIndexRoute: typeof Char123LocaleChar125SolutionsIndexRoute
 }
 
 const Char123LocaleChar125SolutionsRouteChildren: Char123LocaleChar125SolutionsRouteChildren =
   {
-    Char123LocaleChar125SolutionsClubSupRoute:
-      Char123LocaleChar125SolutionsClubSupRoute,
-    Char123LocaleChar125SolutionsCustomSupRoute:
-      Char123LocaleChar125SolutionsCustomSupRoute,
-    Char123LocaleChar125SolutionsPrivateLabelSupRoute:
-      Char123LocaleChar125SolutionsPrivateLabelSupRoute,
-    Char123LocaleChar125SolutionsResortSupRoute:
-      Char123LocaleChar125SolutionsResortSupRoute,
-    Char123LocaleChar125SolutionsSchoolSupRoute:
-      Char123LocaleChar125SolutionsSchoolSupRoute,
     Char123LocaleChar125SolutionsIndexRoute:
       Char123LocaleChar125SolutionsIndexRoute,
   }
@@ -2192,18 +1699,12 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125AdminRouteRoute: typeof Char123LocaleChar125AdminRouteRouteWithChildren
   Char123LocaleChar125ChangelogRoute: typeof Char123LocaleChar125ChangelogRoute
   Char123LocaleChar125ContactRoute: typeof Char123LocaleChar125ContactRoute
-  Char123LocaleChar125CustomSupDevelopmentRoute: typeof Char123LocaleChar125CustomSupDevelopmentRoute
-  Char123LocaleChar125CustomSupManufacturingRoute: typeof Char123LocaleChar125CustomSupManufacturingRoute
   Char123LocaleChar125CustomizerRoute: typeof Char123LocaleChar125CustomizerRoute
   Char123LocaleChar125GalleryRoute: typeof Char123LocaleChar125GalleryRoute
   Char123LocaleChar125HowItWorksRoute: typeof Char123LocaleChar125HowItWorksRoute
   Char123LocaleChar125PrivacyRoute: typeof Char123LocaleChar125PrivacyRoute
-  Char123LocaleChar125PrivateLabelSupRoute: typeof Char123LocaleChar125PrivateLabelSupRoute
   Char123LocaleChar125SearchRoute: typeof Char123LocaleChar125SearchRoute
   Char123LocaleChar125SolutionsRoute: typeof Char123LocaleChar125SolutionsRouteWithChildren
-  Char123LocaleChar125SupForClubsRoute: typeof Char123LocaleChar125SupForClubsRoute
-  Char123LocaleChar125SupForResortsRoute: typeof Char123LocaleChar125SupForResortsRoute
-  Char123LocaleChar125SupStartupBrandsRoute: typeof Char123LocaleChar125SupStartupBrandsRoute
   Char123LocaleChar125TermsRoute: typeof Char123LocaleChar125TermsRoute
   Char123LocaleChar125WaitlistRoute: typeof Char123LocaleChar125WaitlistRoute
   Char123LocaleChar125WhoWeServeRoute: typeof Char123LocaleChar125WhoWeServeRoute
@@ -2213,7 +1714,7 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125authRegisterRoute: typeof Char123LocaleChar125authRegisterRoute
   Char123LocaleChar125authResetPasswordRoute: typeof Char123LocaleChar125authResetPasswordRoute
   Char123LocaleChar125authVerifyEmailRoute: typeof Char123LocaleChar125authVerifyEmailRoute
-  Char123LocaleChar125AboutSupsfactoryEntityRoute: typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
+  Char123LocaleChar125AboutStavalkEntityRoute: typeof Char123LocaleChar125AboutStavalkEntityRoute
   Char123LocaleChar125AppAccountRoute: typeof Char123LocaleChar125AppAccountRoute
   Char123LocaleChar125AppFeedbackRoute: typeof Char123LocaleChar125AppFeedbackRoute
   Char123LocaleChar125KnowledgeSlugRoute: typeof Char123LocaleChar125KnowledgeSlugRoute
@@ -2232,24 +1733,13 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
       Char123LocaleChar125AdminRouteRouteWithChildren,
     Char123LocaleChar125ChangelogRoute: Char123LocaleChar125ChangelogRoute,
     Char123LocaleChar125ContactRoute: Char123LocaleChar125ContactRoute,
-    Char123LocaleChar125CustomSupDevelopmentRoute:
-      Char123LocaleChar125CustomSupDevelopmentRoute,
-    Char123LocaleChar125CustomSupManufacturingRoute:
-      Char123LocaleChar125CustomSupManufacturingRoute,
     Char123LocaleChar125CustomizerRoute: Char123LocaleChar125CustomizerRoute,
     Char123LocaleChar125GalleryRoute: Char123LocaleChar125GalleryRoute,
     Char123LocaleChar125HowItWorksRoute: Char123LocaleChar125HowItWorksRoute,
     Char123LocaleChar125PrivacyRoute: Char123LocaleChar125PrivacyRoute,
-    Char123LocaleChar125PrivateLabelSupRoute:
-      Char123LocaleChar125PrivateLabelSupRoute,
     Char123LocaleChar125SearchRoute: Char123LocaleChar125SearchRoute,
     Char123LocaleChar125SolutionsRoute:
       Char123LocaleChar125SolutionsRouteWithChildren,
-    Char123LocaleChar125SupForClubsRoute: Char123LocaleChar125SupForClubsRoute,
-    Char123LocaleChar125SupForResortsRoute:
-      Char123LocaleChar125SupForResortsRoute,
-    Char123LocaleChar125SupStartupBrandsRoute:
-      Char123LocaleChar125SupStartupBrandsRoute,
     Char123LocaleChar125TermsRoute: Char123LocaleChar125TermsRoute,
     Char123LocaleChar125WaitlistRoute: Char123LocaleChar125WaitlistRoute,
     Char123LocaleChar125WhoWeServeRoute: Char123LocaleChar125WhoWeServeRoute,
@@ -2263,8 +1753,8 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
       Char123LocaleChar125authResetPasswordRoute,
     Char123LocaleChar125authVerifyEmailRoute:
       Char123LocaleChar125authVerifyEmailRoute,
-    Char123LocaleChar125AboutSupsfactoryEntityRoute:
-      Char123LocaleChar125AboutSupsfactoryEntityRoute,
+    Char123LocaleChar125AboutStavalkEntityRoute:
+      Char123LocaleChar125AboutStavalkEntityRoute,
     Char123LocaleChar125AppAccountRoute: Char123LocaleChar125AppAccountRoute,
     Char123LocaleChar125AppFeedbackRoute: Char123LocaleChar125AppFeedbackRoute,
     Char123LocaleChar125KnowledgeSlugRoute:
@@ -2291,14 +1781,10 @@ const Char123LocaleChar125RouteRouteWithChildren =
 const rootRouteChildren: RootRouteChildren = {
   Char123LocaleChar125RouteRoute: Char123LocaleChar125RouteRouteWithChildren,
   SplatRoute: SplatRoute,
-  B2bSolutionsMatrixRoute: B2bSolutionsMatrixRoute,
   EntityDotjsonRoute: EntityDotjsonRoute,
   FactoryRoute: FactoryRoute,
   FactoryAuditChecklistRoute: FactoryAuditChecklistRoute,
   FaqRoute: FaqRoute,
-  FishingRoute: FishingRoute,
-  InflatableSupCertificationRoute: InflatableSupCertificationRoute,
-  InflatableVsHardboardRoute: InflatableVsHardboardRoute,
   KnowledgeRoute: KnowledgeRoute,
   LlmsFullDottxtRoute: LlmsFullDottxtRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
@@ -2310,8 +1796,6 @@ const rootRouteChildren: RootRouteChildren = {
   OemOdmRoute: OemOdmRoute,
   OemOdmPrivateLabelComparisonRoute: OemOdmPrivateLabelComparisonRoute,
   OemOnboardingGuideRoute: OemOnboardingGuideRoute,
-  OemPaddleRoute: OemPaddleRoute,
-  OemSupMoqRoute: OemSupMoqRoute,
   OemTrustAssuranceRoute: OemTrustAssuranceRoute,
   PartnersRoute: PartnersRoute,
   ProductDevelopmentRoute: ProductDevelopmentRoute,
@@ -2327,14 +1811,8 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapProductsDotxmlRoute: SitemapProductsDotxmlRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   SizeGuideRoute: SizeGuideRoute,
-  StartSupProjectRoute: StartSupProjectRoute,
-  SupComplianceByMarketRoute: SupComplianceByMarketRoute,
-  SupConstructionComparisonRoute: SupConstructionComparisonRoute,
-  SupOemMoqLeadTimeRoute: SupOemMoqLeadTimeRoute,
   TechnologyRoute: TechnologyRoute,
-  TourismRecreationRoute: TourismRecreationRoute,
   WarrantyRoute: WarrantyRoute,
-  WhatIsSupRoute: WhatIsSupRoute,
   AboutIdentityRoute: AboutIdentityRoute,
   AdminInquiriesDotcsvRoute: AdminInquiriesDotcsvRoute,
   AdminWaitlistDotcsvRoute: AdminWaitlistDotcsvRoute,

@@ -1,0 +1,164 @@
+meta:
+  title: 'À propos de Stavalk — Fabricant de serre-joints à Qingdao, Chine'
+  description: 'Stavalk est un fabricant de serre-joints à Jimo, Qingdao, Chine — 8 000 m², 200+ ouvriers, 80 000+ serre-joints/an. OEM, ODM et marque privée.'
+  dateModified: '2026-09-01'
+  keywords:
+    - 'stavalk'
+    - 'fabricant de serre-joint chine'
+    - 'usine de serre-joint qingdao'
+    - 'serre-joint oem'
+hero:
+  tagline: À propos de Stavalk
+  title: 'Stavalk — le fabricant de serre-joints derrière {SITE}'
+  subtitle: 'Basé à Jimo, Qingdao, Chine, Stavalk conçoit et fabrique des serre-joints pour des clients OEM, ODM et en marque privée dans plus de 50 pays — une installation de 8 000 m², 200+ ouvriers et 80 000+ serre-joints de capacité annuelle.'
+  actions:
+    - text: 'Lancer un projet OEM'
+      href: /fr/contact
+      variant: primary
+    - text: 'Voir l''usine'
+      href: /fr/factory
+      variant: secondary
+intro: |
+  <p><strong>Stavalk</strong> est un fabricant de serre-joints basé à Jimo, Qingdao, Shandong, Chine. Depuis une installation de production de 8 000 m², l''entreprise fabrique des serre-joints allant des modèles légers de 4″ aux serre-joints industriels de 10″, ainsi que des serre-joints à tuberie et des outils de maintien spécialisés.</p>
+  <p>Chaque projet Stavalk —d''un premier échantillon à la production OEM en volume— est fabriqué dans la même installation, par les mêmes équipes et sous le même système qualité décrit ici. Nous fabriquons exclusivement pour nos clients et ne les concurrençons jamais sous notre propre marque.</p>
+  <p>L''usine couvre 8 000 m² avec des ateliers dédiés à la coulée en sable vert et sable aggloméré, l''usinage CNC et conventionnel, le traitement thermique, le revêtement de surface et l''assemblage. La capacité annuelle dépasse 80 000 serre-joints, et l''installation fonctionne sous un système de management de la qualité ISO 9001:2015 avec conformité CE (EN ISO 12100, Directive Machines 2006/42/CE) et RoHS.</p>
+  <p>Plus de 200 ouvriers qualifiés et une équipe R&D dédiée soutiennent toute la chaîne de production : coulée de corps en fonte grise HT200/HT250, usinage d''arbres en acier forgé 45#, trempe des mâchoires en acier GCr15/Cr12MoV à 58–62 HRC, application de revêtements de surface et inspection en 7 étapes avant expédition.</p>
+stats:
+  title: Stavalk en chiffres
+  stats:
+    - title: Fondation
+      amount: 2012
+    - title: Installation
+      amount: '8 000 m²'
+    - title: Pays desservis
+      amount: '50+'
+    - title: Capacité annuelle
+      amount: '80 000+ serre-joints'
+    - title: Employés
+      amount: '200+'
+    - title: Séries de produits
+      amount: '5'
+factory_details:
+  title: Capacité de fabrication
+  body: |
+    L''usine Stavalk exploite cinq ateliers spécialisés sous un même toit :
+
+    - **Atelier de coulée** : Lignes de coulée en sable vert et sable aggloméré versant 100% HT200/HT250 selon spécification, avec vérification spectrométrique de la composition de l''alliage.
+    - **Atelier d''usinage** : Tours et centres de fraisage CNC pour les faces de mâchoire, les arbres et les bases, plus l''usinage conventionnel pour les opérations secondaires.
+    - **Atelier de traitement thermique** : Lignes de trempe à l''huile et de revenu produisant une dureté de mâchoire de 58–62 HRC sur acier trempé GCr15 et Cr12MoV.
+    - **Atelier de revêtement** : Lignes de peinture par pulvérisation, revêtement en poudre et Parkerizing pour la protection contre la corrosion et la qualité de finition.
+    - **Assemblage et essai** : Lignes d''assemblage manuel avec stations de presse hydraulique pour vérification de la force de serrage, contrôle du couple de pivotage et essais de durabilité de 10 000+ cycles.
+factory_section:
+  title: L''usine en un coup d''œil
+  body: |
+    L''installation de Jimo, Qingdao est spécifiquement conçue pour la production de serre-joints. Les matières premières —fonte grise HT200/HT250, acier forgé 45#, acier de mâchoire GCr15 et Cr12MoV— proviennent d''aciéries chinoises certifiées et sont vérifiées par spectromètre à leur réception.
+
+    Les inspections tierces de SGS, TÜV, Bureau Veritas et Intertek sont les bienvenues et facilitées régulièrement. Les acheteurs reçoivent un dossier documentaire complet avec chaque expédition : certificat de conformité, certificat de matière, rapport dimensionnel et enregistrements d''inspection.
+values_section:
+  title: Comment l''usine travaille avec les marques
+  subtitle: 'Trois principes qui façonnent chaque projet construit par Stavalk.'
+  columns: 3
+  items:
+    - title: Ingénierie avant la production
+      description: 'Chaque projet commence par des exigences, des plans et un échantillon physique — largeur de mâchoire, matériau du corps, dureté, finition et emballage sont validés avant toute série de production, et non découverts sur la chaîne.'
+      icon: 'tabler:settings'
+    - title: Une équipe, une usine
+      description: 'Coulée, usinage, traitement thermique, revêtement, assemblage et essais se déroulent dans une installation de 8 000 m². Aucun intermédiaire : les personnes qui répondent à vos questions sont celles qui fabriquent vos serre-joints.'
+      icon: 'tabler:building-factory-2'
+    - title: Petites séries initiales
+      description: 'Le MOQ standard commence à 50–200 pièces ; les serre-joints lourds et spéciaux à partir de 20–50 pièces. Les échantillons sont expédiés en 7–14 jours, la production en volume en 25–35 jours, pour que les marques valident le marché avant de s''engager sur le volume complet.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Ce que livre l''usine
+  subtitle: 'Services de fabrication disponibles pour les clients de Stavalk.'
+  columns: 2
+  items:
+    - title: Développement de serre-joint personnalisé
+      description: 'Évaluation des exigences, spécifications, sélection des matériaux, prototypage, approbation des échantillons et production de serre-joints personnalisés avec votre marque et emballage.'
+      icon: 'tabler:bulb'
+    - title: Production en marque privée
+      description: 'Votre logo, vos couleurs et votre emballage sur des plateformes de serre-joint éprouvées — corps, mâchoires, arbre, base pivotante et cartons portent votre identité, sans marque d''usine.'
+      icon: 'tabler:tag'
+    - title: Fabrication OEM / ODM
+      description: 'Fabrication complète OEM et ODM de serre-joints à partir de plans clients ou de conceptions co-développées, y compris les profils de mâchoire, géométries d''arbre et configurations de base pivotante personnalisés.'
+      icon: 'tabler:package'
+    - title: Approvisionnement en volume
+      description: 'Approvisionnement en serre-joints pour chaînes de quincaillerie, distributeurs industriels et acheteurs institutionnels, avec qualité constante sur des commandes multiples.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: Certification et conformité
+  subtitle: 'L''usine expédie vers l''UE, les États-Unis et l''Asie-Pacifique avec un système de conformité documenté.'
+  columns: 2
+  items:
+    - title: Marquage CE
+      description: 'Les serre-joints sont conformes à EN ISO 12100 et à la Directive Machines 2006/42/CE pour le marché européen. Documentation fournie pour chaque commande.'
+      icon: 'tabler:certificate'
+    - title: ISO 9001:2015
+      description: 'Système de management de la qualité certifié ISO 9001:2015, couvrant l''entrée des matières, le contrôle en cours et l''inspection finale sur les cinq séries de produits.'
+      icon: 'tabler:badge-check'
+    - title: ISO 14001
+      description: 'Certification du système de management environnemental, couvrant la gestion des déchets, les émissions et l''efficacité des ressources.'
+      icon: 'tabler:leaf'
+    - title: Conformité RoHS
+      description: 'Conformité aux substances dangereuses restreintes documentée selon RoHS pour les composants et revêtements de surface applicables.'
+      icon: 'tabler:flask'
+    - title: Inspection tierce partie
+      description: 'Inspection avant expédition SGS, TÜV, Bureau Veritas et Intertek selon ISO 2859-1 Niveau II, planifiée au choix de l''acheteur.'
+      icon: 'tabler:shield-check'
+    - title: Essais produits
+      description: 'Force de serrage, dureté de mâchoire, couple de pivotage, durabilité de 10 000+ cycles et brouillard salin de 48+ heures sur chaque lot de production.'
+      icon: 'tabler:test-pipe'
+values:
+  tagline: Valeurs fondamentales
+  title: Ce qui anime Stavalk
+  items:
+    - title: Ingénierie de précision
+      description: 'Usinage CNC, essais de dureté Rockwell et vérification dimensionnelle par CMM garantissent que chaque serre-joint respecte les tolérances publiées.'
+      icon: 'tabler:ruler'
+    - title: Intégrité des matériaux
+      description: 'Fonte grise HT200/HT250, acier forgé 45#, mâchoires trempées GCr15/Cr12MoV — aucun compromis sur les matériaux, jamais.'
+      icon: 'tabler:metal'
+    - title: Confidentialité de l''acheteur
+      description: 'Nous ne vendons jamais sous notre propre marque. Chaque serre-joint porte votre identité. Vos designs et spécifications sont protégés par NDA.'
+      icon: 'tabler:lock'
+    - title: Amélioration continue
+      description: 'L''investissement R&D en matériaux de mâchoire, géométrie d''arbre, technologie de revêtement et optimisation de la force de serrage propulse chaque génération de produit.'
+      icon: 'tabler:trending-up'
+services:
+  tagline: Services
+  title: Services de fabrication
+  items:
+    - title: Fabrication OEM
+      description: 'Production de serre-joints selon vos spécifications, matériaux, finition et marque. Documentation et traçabilité complètes avec chaque expédition.'
+      icon: 'tabler:package'
+    - title: Développement ODM
+      description: 'Co-développement de nouveaux designs de serre-joints depuis votre concept jusqu''au prototypage, essais et mise en production.'
+      icon: 'tabler:pencil'
+    - title: Marque privée
+      description: 'Appliquez votre marque sur nos plateformes de serre-joint éprouvées. Emballage personnalisé, manuels et étiquetage disponibles.'
+      icon: 'tabler:tag'
+    - title: Support après-vente
+      description: 'Pièces de rechange, service de garantie et support technique pour chaque serre-joint expédié, avec réponse sous 48 heures.'
+      icon: 'tabler:headset'
+certifications:
+  tagline: Certifications
+  title: Certifications qualité
+  items:
+    - title: CE (EN ISO 12100)'
+      description: 'Conformité à la Directive Machines 2006/42/CE pour les serre-joints exportés vers l''Union européenne.'
+      icon: 'tabler:certificate'
+    - title: ISO 9001:2015'
+      description: 'Système de management de la qualité couvrant la conception, la production, l''inspection et l''expédition de serre-joints.'
+      icon: 'tabler:clipboard-check'
+    - title: ISO 14001'
+      description: 'Système de management environnemental pour des opérations de fabrication durables.'
+      icon: 'tabler:leaf'
+    - title: RoHS'
+      description: 'Conformité aux substances restreintes pour les matériaux et revêtements applicables.'
+      icon: 'tabler:shield-check'
+cta:
+  title: 'Construisez votre projet de serre-joint avec Stavalk'
+  subtitle: 'Envoyez vos exigences —type de serre-joint, taille, quantité et marque— et recevez un devis détaillé sous un jour ouvré.'
+  actions:
+    - text: Identité de marque
+      href: /fr/about/identity

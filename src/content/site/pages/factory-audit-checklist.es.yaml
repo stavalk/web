@@ -1,25 +1,25 @@
-﻿meta:
-  title: 'Lista de Verificación de Auditoría de Fábrica — Qué Verificar Antes de Elegir un Fabricante de SUP | SUPsfactory'
-  description: 'Lista de verificación de auditoría de fábrica para compradores de SUP: calidad, capacidad, trazabilidad, pruebas de presión, cumplimiento y documentación.'
-  dateModified: '2026-08-21'
+meta:
+  title: 'Lista de Verificación de Auditoría de Fábrica — Qué Verificar Antes de Elegir un Fabricante de Tornillos de Banco | Stavalk'
+  description: 'Lista de verificación de auditoría de fábrica para compradores de tornillos de banco: calidad, capacidad, trazabilidad, pruebas de dureza y fuerza de sujeción, cumplimiento y documentación.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'SUP factory audit checklist'
-    - 'inflatable board manufacturer audit'
-    - 'SUP factory verification'
-    - 'OEM factory inspection'
-    - 'SUP quality audit'
-    - 'SUP manufacturer due diligence'
-    - 'inflatable SUP production audit'
+    - 'lista de verificacion auditoria fabrica tornillo de banco'
+    - 'auditoria fabricante tornillo de banco'
+    - 'verificacion fabrica tornillo de banco'
+    - 'inspeccion fabrica oem'
+    - 'auditoria calidad tornillo de banco'
+    - 'debida diligencia fabricante tornillo de banco'
+    - 'auditoria produccion tornillo de banco'
 
 hero:
   tagline: 'Debida Diligencia'
   title: 'Lista de Verificación de Auditoría de Fábrica'
-  subtitle: 'Antes de comprometerse con un fabricante de SUP, verifique los fundamentos. Esta lista cubre las ocho áreas que un comprador profesional debe auditar — desde gestión de calidad y capacidad de producción hasta trazabilidad de materiales y cumplimiento social. Cada elemento de esta lista es algo que podemos demostrar con registros, no solo con afirmaciones.'
+  subtitle: 'Antes de comprometerse con un fabricante de tornillos de banco, verifique los fundamentos. Esta lista cubre las ocho áreas que un comprador profesional debe auditar — desde gestión de calidad y capacidad de producción hasta trazabilidad de materiales y cumplimiento social. Cada elemento de esta lista es algo que podemos demostrar con registros, no solo con afirmaciones.'
 
 answer:
   label: 'Respuesta rápida'
-  text: 'Las ocho áreas de auditoría más importantes: (1) Sistema de gestión de calidad — certificación ISO 9001 y registros reales de inspección puerta por puerta, no solo un certificado en la pared. (2) Capacidad de producción — números reales de producción, no nominales. (3) Trazabilidad de materiales — inspección de entrada por lote e informes de prueba. (4) Pruebas de presión y estructurales — protocolos documentados de prueba de retención. (5) Controles de soldadura y ensamblaje — parámetros de soldadura RF e inspección de costuras. (6) Cumplimiento social — auditoría BSCI o equivalente. (7) Documentación y trazabilidad — registros por lote, registros de inspección, certificados de conformidad. (8) Soporte post-entrega — proceso de garantía, repuestos, capacidad de respuesta en comunicación.'
-  verified: '2026-08'
+  text: 'Las ocho áreas de auditoría más importantes: (1) Sistema de gestión de calidad — certificación ISO 9001 y registros reales de inspección puerta por puerta, no solo un certificado en la pared. (2) Capacidad de producción — números reales de producción, no nominales. (3) Trazabilidad de materiales — inspección de entrada por lote e informes de prueba. (4) Pruebas de dureza y fuerza de sujeción — protocolos de prueba documentados. (5) Controles de fundición, mecanizado y ensamblaje — parámetros de tratamiento térmico e inspección dimensional. (6) Cumplimiento social — auditoría BSCI o equivalente. (7) Documentación y trazabilidad — registros por lote, registros de inspección, certificados de conformidad. (8) Soporte post-entrega — proceso de garantía, repuestos, capacidad de respuesta en comunicación.'
+  verified: '2026-09'
 
 audit_areas:
   tagline: Ocho Áreas de Auditoría
@@ -34,19 +34,19 @@ audit_areas:
     - icon: C
       icon_bg: green
       title: '2. Capacidad de Producción'
-      desc: 'Solicite: Cifras de producción mensual por tipo de producto, programa de producción mostrando utilización actual, capacidad de herramental (número de moldes, máquinas CNC, soldadores RF). Señal de alerta: Solo capacidad nominal, sin datos de utilización ni programa de producción.'
+      desc: 'Solicite: Cifras de producción mensual por tipo de producto, programa de producción mostrando utilización actual, capacidad de herramental (número de líneas de fundición, máquinas CNC, hornos de tratamiento térmico). Señal de alerta: Solo capacidad nominal, sin datos de utilización ni programa de producción.'
     - icon: M
       icon_bg: purple
       title: '3. Trazabilidad de Materiales'
-      desc: 'Solicite: Registros de inspección de material entrante, certificados de proveedores de PVC y drop-stitch, trazabilidad por lote desde material prima hasta tabla terminada, declaraciones de sustancias REACH/RoHS. Señal de alerta: Sin trazabilidad a nivel de lote, certificados de material no disponibles.'
+      desc: 'Solicite: Registros de inspección de material entrante, certificados de proveedores de hierro fundido HT200/HT250 y acero forjado 45#, trazabilidad por lote desde materia prima hasta tornillo de banco terminado, declaraciones de sustancias REACH/RoHS. Señal de alerta: Sin trazabilidad a nivel de lote, certificados de material no disponibles.'
     - icon: P
       icon_bg: orange
-      title: '4. Pruebas de Presión y Estructurales'
-      desc: 'Solicite: Protocolo de prueba de presión (PSI, duración, criterios de aprobación/rechazo), registros de prueba de lotes recientes, registros de pruebas estructurales (caída, impacto, estrés de canto). Señal de alerta: "Solo inspección visual" o sin protocolo de prueba documentado con criterios cuantitativos.'
+      title: '4. Pruebas de Dureza y Fuerza de Sujeción'
+      desc: 'Solicite: Protocolo de prueba de dureza (58–62 HRC para mordazas, posiciones de prueba), protocolo de prueba de fuerza de sujeción (capacidad nominal, criterios de aprobación/rechazo), registros de prueba de lotes recientes. Señal de alerta: "Solo inspección visual" o sin protocolo de prueba documentado con criterios cuantitativos.'
     - icon: W
       icon_bg: blue
-      title: '5. Controles de Soldadura y Ensamblaje'
-      desc: 'Solicite: Registros de parámetros de soldadura RF (temperatura, presión, tiempo de permanencia), criterios de inspección de costuras y tasas de rechazo, documentación de secuencia de ensamblaje. Señal de alerta: Sin registros de parámetros de soldadura, alta tasa de rechazo de costuras sin CAPA.'
+      title: '5. Controles de Fundición, Mecanizado y Ensamblaje'
+      desc: 'Solicite: Registros de parámetros de tratamiento térmico (temperatura, tiempo de retención), registros de mecanizado CNC e inspección dimensional, criterios de alineación de mordazas e inspección de rosca con tasas de rechazo. Señal de alerta: Sin registros de parámetros, alta tasa de rechazo sin CAPA.'
     - icon: S
       icon_bg: green
       title: '6. Cumplimiento Social'
@@ -66,10 +66,10 @@ our_position:
     No solo afirmamos cumplimiento — proporcionamos los registros. Aquí está nuestra posición en cada una de las ocho áreas de auditoría:
 
     - **Gestión de calidad**: Certificados ISO 9001:2015, auditados anualmente por un tercero acreditado. Sistema de inspección de 7 puertas con criterios documentados de aprobación/rechazo en cada puerta. Registro CAPA mantenido y revisado trimestralmente.
-    - **Capacidad de producción**: Más de 30,000 tablas de capacidad anual, más de 2,500 de producción mensual. Programa de producción disponible para revisión durante la visita de fábrica. 4 líneas de producción, 3 máquinas CNC, 5 soldadores RF.
-    - **Trazabilidad de materiales**: Trazabilidad a nivel de lote desde material entrante hasta tabla terminada. Certificados de proveedores de PVC y drop-stitch en archivo. Declaraciones de sustancias REACH y RoHS disponibles por lote.
-    - **Pruebas de presión**: Prueba de retención a 18.0 PSI con rechazo automático por encima de 0.50 PSI de caída en 24 horas. Registros de prueba disponibles para cada lote de producción. Pruebas estructurales y de impacto según tipo de construcción.
-    - **Controles de soldadura**: Parámetros de soldadura RF registrados por cada tirada de producción. Inspección de costuras en puerta 3 con tasas de rechazo documentadas. CAPA iniciada para tasas de rechazo por encima del umbral.
+    - **Capacidad de producción**: Más de 80,000 tornillos de banco de capacidad anual, programa de producción disponible para revisión durante la visita de fábrica. Líneas de fundición, mecanizado CNC y tratamiento térmico con controles de proceso equivalentes a IATF.
+    - **Trazabilidad de materiales**: Trazabilidad a nivel de lote desde material entrante hasta tornillo de banco terminado. Certificados de proveedores de hierro fundido HT200/HT250 y acero forjado 45# en archivo. Certificados de material de mordaza GCr15/Cr12MoV y declaraciones de sustancias REACH/RoHS disponibles por lote.
+    - **Pruebas de dureza y fuerza de sujeción**: Dureza de mordaza verificada a 58–62 HRC con durómetros calibrados. Prueba de fuerza de sujeción a la capacidad nominal con aprobación/rechazo documentado. Registros de prueba disponibles para cada lote de producción.
+    - **Controles de fundición, mecanizado y ensamblaje**: Parámetros de tratamiento térmico registrados por cada tirada de producción. Inspección de alineación de mordazas y rosca en puertas definidas con tasas de rechazo documentadas. CAPA iniciada para tasas de rechazo por encima del umbral.
     - **Cumplimiento social**: Auditado por BSCI. Registros de horarios, salarios y seguridad disponibles para inspección durante la visita de fábrica.
     - **Documentación**: Registros de producción por lote, registros de inspección por puerta, certificados de conformidad y listas de empaque con referencias de lote enviados con cada pedido. Sistema de seguimiento de reclamaciones de garantía mantenido.
     - **Soporte post-entrega**: Términos de garantía documentados por contrato. Resolución promedio de reclamaciones en menos de 14 días hábiles. Repuestos disponibles desde stock. Revisión post-entrega ofrecida para cada primer pedido.
@@ -77,7 +77,7 @@ our_position:
 evidence_review:
   tagline: 'Evidencia y Verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones de fabricación y calidad en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la fábrica de Laixi, Qingdao. Certificados, registros de inspección de CC, informes de pruebas de presión y estructurales, y registros de trazabilidad por lote están disponibles bajo solicitud. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación y calidad en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la fábrica de Qingdao (Jimo). Certificados, registros de inspección de CC, informes de pruebas de dureza y fuerza de sujeción, y registros de trazabilidad por lote están disponibles bajo solicitud. Especificaciones verificadas por última vez 2026-09.'
 
 faqs:
   tagline: Preguntas Frecuentes
@@ -86,11 +86,11 @@ faqs:
     - q: '¿Puedo visitar la fábrica para una auditoría en sitio?'
       a: 'Sí. Recibimos visitas de fábrica y podemos organizar una auditoría estructurada que cubra las ocho áreas. Una visita típica incluye recorrido por la planta de producción, observación de puertas de CC, inspección de almacén de materiales, revisión documental y preguntas y respuestas con el gerente de calidad. Reserve un día completo. Contáctenos para programar.'
     - q: '¿Proporcionan documentación de auditoría antes de una visita?'
-      a: 'Sí. Podemos compartir el certificado ISO 9001, informe BSCI, resumen de capacidad de producción, protocolo de prueba de presión y registros de inspección de muestra antes de su visita — para que pueda preparar preguntas específicas. Los registros completos de lotes están disponibles en sitio durante la visita.'
+      a: 'Sí. Podemos compartir el certificado ISO 9001, informe BSCI, resumen de capacidad de producción, protocolo de prueba de dureza y fuerza de sujeción y registros de inspección de muestra antes de su visita — para que pueda preparar preguntas específicas. Los registros completos de lotes están disponibles en sitio durante la visita.'
     - q: '¿Qué inspecciones de terceros utilizan?'
       a: 'Trabajamos con SGS, Intertek y TUV para inspecciones y certificaciones de terceros. La inspección de pre-embarque por terceros está disponible bajo solicitud para cualquier pedido. El alcance y costos de inspección se confirman durante la fase de cotización.'
     - q: '¿Cómo sé que su sistema de calidad realmente se aplica, no solo está documentado?'
-      a: 'Cada tabla pasa 7 puertas de inspección con criterios cuantitativos de aprobación/rechazo — no listas de verificación visuales. Datos de pruebas de presión, parámetros de soldadura y tasas de rechazo se registran por lote y están disponibles para su revisión. CAPA se activa automáticamente para resultados fuera de especificación. Le recomendamos auditar el proceso en vivo durante una visita de fábrica.'
+      a: 'Cada tornillo de banco pasa 7 puertas de inspección con criterios cuantitativos de aprobación/rechazo — no listas de verificación visuales. Datos de dureza, datos de prueba de fuerza de sujeción y tasas de rechazo se registran por lote y están disponibles para su revisión. CAPA se activa automáticamente para resultados fuera de especificación. Le recomendamos auditar el proceso en vivo durante una visita de fábrica.'
 
 cta:
   title: 'Programe una Auditoría de Fábrica'

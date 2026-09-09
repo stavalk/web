@@ -1,242 +1,242 @@
 meta:
-  title: 'Contrôle des SUP non conformes et reprise | Usine OEM | SUPsfactory'
-  description: 'Contrôle des produits non conformes (ISO 9001:2015 clause 8.7) : quarantaine NCR, reprise contrôlée sous SRI, ré-inspection indépendante et destruction attestée.'
-  dateModified: '2026-08-14'
+  title: 'Maîtrise des Étaux Non Conformes et Retouche | Usine OEM | Stavalk'
+  description: 'Maîtrise des produits non conformes (ISO 9001:2015 Article 8.7) : mise en quarantaine NCR, retouche maîtrisée sous SRI, contre-inspection indépendante et destruction témoignée.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'contrôle produits non conformes'
-    - 'processus reprise ré-inspection sup'
-    - 'iso 9001 sorties non conformes'
-    - 'contrôle ncr fabrication'
-    - 'certificat destruction rebut sup'
-    - 'contrôle qualité oem sup gonflable'
+    - 'maîtrise des produits non conformes'
+    - 'processus de contre-inspection retouche étau'
+    - 'sorties non conformes iso 9001'
+    - 'controle ncr fabrication'
+    - 'certificat de destruction ferraille étau'
+    - 'controle qualite oem étau'
 
 hero:
-  tagline: Contrôle des produits non conformes
-  title: Processus d'isolation, de reprise et de ré-inspection des produits non conformes
-  subtitle: 'Chez QINGDAO VATRAD GROUP.,LTD., une planche non conforme ne circule jamais. Tout produit ou composant qui échoue aux critères d''acceptation définis est identifié, enregistré contre un Rapport de Non-Conformité (NCR), étiqueté et séparé, évalué pour le périmètre affecté, et dispositionné au bon niveau d''autorité. La reprise autorisée suit des instructions contrôlées, les articles corrigés sont ré-inspectés selon les critères d''acceptation d''origine — y compris un test complet là où requis — et le produit n''est expédié qu''après signature qualité autorisée. Cette page présente notre norme contrôlée selon ISO 9001:2015 clause 8.7 et les preuves de traçabilité qui la soutiennent.'
+  tagline: Maîtrise des Produits Non Conformes
+  title: Processus d’Isolement, de Retouche et de Contre-Inspection des Produits Non Conformes
+  subtitle: 'Chez Stavalk, un étau d’établi non conforme ne poursuit jamais son parcours. Tout produit ou composant qui échoue aux critères d’acceptation définis est identifié, enregistré contre un Rapport de Non-Conformité (NCR), étiqueté et isolé, évalué pour la portée affectée, et fait l’objet d’une disposition au bon niveau d’autorité. La retouche permise suit des instructions maîtrisées, les articles corrigés sont contre-inspectés selon les critères d’acceptation d’origine — y compris de nouveaux essais complets le cas échéant — et le produit n’est expédié qu’après signature qualité autorisée. Cette page présente notre norme maîtrisée selon l’ISO 9001:2015 Article 8.7 et les preuves de traçabilité qui la soutiennent.'
   actions:
-    - text: Télécharger la SOP de contrôle NCP (PDF)
+    - text: Télécharger le SOP de Maîtrise NCP (PDF)
       variant: primary
-      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
-    - text: Télécharger le certificat de rebut et de destruction (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
-    - text: Demander une revue qualité
+      href: 'https://assets.Stavalk.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Télécharger le Certificat de Mise à la Ferraille et de Destruction (PDF)
+      href: 'https://assets.Stavalk.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: Demander une Revue Qualité
       href: /fr/contact
 
 answer:
   label: 'Réponse directe'
-  text: 'Les produits non conformes ne sont jamais cachés, repris de manière informelle ou libérés sans vérification chez QINGDAO VATRAD GROUP.,LTD. Chaque non-conformité identifiée est enregistrée contre le produit, le lot ou le composant affecté et reliée à un NCR. L''article est étiqueté (HOLD / QUARANTINE / REJECTED), physiquement séparé, et le périmètre affecté est évalué par lot, par lot de matériau, par étape de processus et par révision de document. La disposition est décidée au niveau d''autorité correspondant à la gravité du défaut : les problèmes mineurs sont validés au niveau de la ligne, les problèmes majeurs exigent une disposition du Responsable QC + Ingénieur technique avec une instruction de reprise contrôlée et une ré-inspection indépendante à 100 %, et les problèmes critiques exigent une décision du Material Review Board avec concession écrite du client là où requis — sinon destruction attestée obligatoire. Les articles repris sont ré-inspectés selon les critères d''acceptation d''origine, les réparations d''étanchéité à l''air reçoivent un cycle complet de test de pression neuf, et l''autorisation d''expédition n''a lieu qu''après signature qualité autorisée. Les problèmes répétés ou systémiques déclenchent une action corrective à la cause racine (CAPA).'
-  verified: '2026-08'
+  text: 'Les produits non conformes ne sont jamais cachés, retouchés informellement ou libérés sans vérification chez Stavalk. Chaque non-conformité identifiée est enregistrée contre le produit, le lot ou le composant affecté et liée à un NCR. L’article est étiqueté (HOLD / QUARANTINE / REJECTED), isolé physiquement, et la portée affectée est évaluée par lot, lot de matière, étape de procédé et révision de document. La disposition est décidée au niveau d’autorité correspondant à la gravité du défaut : les problèmes mineurs sont signés au niveau de la ligne, les problèmes majeurs exigent une disposition du Responsable QC + Ingénieur Technique avec instruction de retouche maîtrisée et contre-inspection indépendante à 100 %, et les problèmes critiques exigent une décision du comité d’examen des matériaux avec concession écrite du client le cas échéant — sinon destruction témoignée obligatoire. Les articles retouchés sont contre-inspectés selon les critères d’acceptation d’origine, les réparations de dureté et de force de serrage reçoivent un cycle d’essai complet neuf, et la libération d’expédition n’intervient qu’après signature qualité autorisée. Les problèmes répétés ou systémiques déclenchent une action corrective de cause racine (CAPA).'
+  verified: '2026-09'
 
 stats:
-  tagline: En un coup d'œil
-  title: Le contrôle de non-conformité en chiffres
+  tagline: En Un Coup d’Œil
+  title: La Maîtrise des Non-Conformités en Chiffres
   stats:
     - value: '7'
-      label: Étapes de l'identification à l'action corrective
+      label: Étapes de l’identification à l’action corrective
     - value: '100%'
-      label: Ré-inspection de chaque planche reprise par une QA indépendante
-    - value: '24h'
-      label: Re-test de pression complet pour les réparations d'étanchéité à l'air
-    - value: '≥ 5 ans'
-      label: Conservation des preuves de destruction attestée (coffre SHA-256)
+      label: Contre-inspection de chaque étau retouché par une AQ indépendante
+    - value: '100%'
+      label: Re-essai complet de dureté et de force de serrage pour la retouche
+    - value: '≥5 ans'
+      label: Conservation des preuves de destruction témoignée (coffre SHA-256)
 
 nc_intro:
-  tagline: Contrôle des produits non conformes
-  title: Que se passe-t-il quand un produit ne respecte pas les critères
+  tagline: Maîtrise des Produits Non Conformes
+  title: Que Se Passe-t-il Quand un Produit ne Satisfait Pas les Critères
   body: |
-    Les produits ou composants qui ne respectent pas les critères d'acceptation définis sont identifiés et contrôlés pour empêcher toute utilisation involontaire, transformation ultérieure ou expédition. Les critères d'acceptation applicables sont basés sur l'échantillon approuvé, la spécification technique, les graphismes, la nomenclature (BOM), les exigences d'emballage et le plan d'inspection du projet.
+    Les produits ou composants qui ne satisfont pas aux critères d’acceptation définis sont identifiés et maîtrisés pour empêcher une utilisation non intentionnelle, toute transformation ultérieure ou toute expédition. Les critères d’acceptation applicables sont basés sur l’échantillon approuvé, la spécification technique, l’œuvre, la nomenclature, les exigences d’emballage et le plan d’inspection du projet.
 
-    Les articles non conformes sont évalués pour déterminer le périmètre affecté et la disposition appropriée. Selon le problème, l'article peut être maintenu, repris sous instructions contrôlées, remplacé, rejeté ou autrement traité par un processus approuvé. Les articles repris ou corrigés sont ré-inspectés avant libération. L'autorisation d'expédition n'est permise qu'après la complétion des enregistrements qualité concernés et la conformité du produit aux critères d'acceptation applicables.
+    Les articles non conformes sont évalués pour déterminer la portée affectée et la disposition appropriée. Selon le problème, l’article peut être retenu, retouché sous instructions maîtrisées, remplacé, rejeté ou autrement traité par un processus approuvé. Les articles retouchés ou corrigés sont contre-inspectés avant la libération. La libération d’expédition n’est permise qu’une fois les enregistrements qualité pertinents complétés et que le produit satisfait aux critères d’acceptation applicables.
 
 nc_flow:
-  tagline: Boucle fermée standard en 7 étapes
-  title: De l'identification à l'action corrective
-  subtitle: 'Une boucle contrôlée pour chaque non-conformité : identifier, mettre en quarantaine, revoir, reprendre ou remplacer, ré-inspecter, libérer ou rejeter, améliorer.'
+  tagline: Boucle Fermée Standard en 7 Étapes
+  title: De l’Identification à l’Action Corrective
+  subtitle: 'Une boucle maîtrisée pour chaque non-conformité : identifier, mettre en quarantaine, examiner, retoucher ou remplacer, contre-inspecter, libérer ou rejeter, améliorer.'
   steps:
     - step: '01'
       title: Identifier
-      desc: 'Toute non-conformité identifiée est enregistrée contre le produit, le lot ou le composant affecté et évaluée par rapport aux exigences de projet applicables. La détection peut se produire à l''entrée des matières, au contrôle en cours de fabrication, au test final, au conditionnement ou à l''inspection client/tierce partie.'
+      desc: 'Toute non-conformité identifiée est enregistrée contre le produit, le lot ou le composant affecté et évaluée selon les exigences applicables du projet. La détection peut survenir à la matière entrante, au contrôle en cours, à l’essai final, à l’emballage ou à l’inspection client/tierce.'
     - step: '02'
-      title: Mettre en quarantaine
-      desc: 'Les articles sont clairement identifiés et placés sous statut de blocage ou de quarantaine contrôlé pour empêcher toute utilisation involontaire, transformation ultérieure ou expédition. Les étiquettes HOLD / QUARANTINE / REJECTED portent le numéro NCR, le SKU, le lot, la quantité, la description du défaut et la date.'
+      title: Mettre en Quarantaine
+      desc: 'Les articles sont clairement identifiés et placés sous statut de retenue maîtrisée ou de quarantaine pour empêcher une utilisation non intentionnelle, toute transformation ultérieure ou toute expédition. Les étiquettes HOLD / QUARANTINE / REJECTED portent le numéro NCR, le SKU, le lot, la quantité, la description du défaut et la date.'
     - step: '03'
-      title: Revoir
-      desc: 'Le périmètre affecté et la disposition appropriée sont évalués : unité unique, lot d''équipe, lot complet ou plusieurs lots — entre les lots de matériaux partagés, les révisions de graphismes, les étapes de processus et les révisions de documents. Des mesures de confinement ou une inspection renforcée supplémentaires sont appliquées là où requis.'
+      title: Examiner
+      desc: 'La portée affectée et la disposition appropriée sont évaluées : unité unique, lot de poste, lot complet ou lots multiples — à travers les lots de matière partagés, les révisions d’œuvre, les étapes de procédé et les révisions de document. Une contention supplémentaire ou une inspection renforcée est appliquée le cas échéant.'
     - step: '04'
-      title: Reprendre ou remplacer
-      desc: 'La reprise autorisée suit des instructions approuvées qui identifient l''article affecté, la méthode, les matériaux, les points d''inspection et les exigences de ré-inspection. Les modifications non approuvées de la spécification produit, des graphismes, de la configuration des accessoires ou de l''emballage ne sont jamais autorisées. Les articles de remplacement réintègrent les portes d''inspection applicables.'
+      title: Retouche ou Remplacement
+      desc: 'La retouche permise suit des instructions approuvées qui identifient l’article affecté, la méthode, les matériaux, les points d’inspection et les exigences de contre-inspection. Les modifications non approuvées de la spécification du produit, de l’œuvre, de la configuration des accessoires ou de l’emballage ne sont jamais autorisées. Les articles de remplacement repassent par les portes d’inspection applicables.'
     - step: '05'
-      title: Ré-inspecter
-      desc: 'Les articles repris ou corrigés sont ré-inspectés selon les critères d''acceptation applicables. La caractéristique ayant échoué à l''origine et toute caractéristique connexe potentiellement affectée par la reprise sont vérifiées avant libération — par une QC indépendante, avec un cycle complet de test de pression de 24 h neuf pour les réparations d''étanchéité à l''air.'
+      title: Contre-Inspection
+      desc: 'Les articles retouchés ou corrigés sont contre-inspectés selon les critères d’acceptation applicables. La caractéristique initialement non conforme et toute caractéristique connexe potentiellement affectée par la retouche sont vérifiées avant la libération — par une AQ indépendante, et avec un cycle d’essai complet neuf de dureté et de force de serrage lorsque la retouche a touché le traitement thermique ou les surfaces de serrage.'
     - step: '06'
-      title: Libérer ou rejeter
-      desc: 'Le produit n''est libéré qu''après la complétion de la ré-inspection requise et la confirmation par un personnel qualité autorisé de la conformité aux exigences de projet applicables. Les articles qui ne peuvent pas être mis en conformité sont rejetés, remplacés, retournés ou dispositionnés sous procédures contrôlées — y compris la destruction physique attestée.'
+      title: Libérer ou Rejeter
+      desc: 'Le produit n’est libéré qu’après réalisation de la contre-inspection requise et confirmation de conformité aux exigences applicables du projet par le personnel qualité autorisé. Les articles qui ne peuvent pas être rendus conformes sont rejetés, remplacés, retournés ou traités sous procédures maîtrisées — y compris la destruction physique témoignée.'
     - step: '07'
-      title: Action corrective
-      desc: 'Les non-conformités répétées, significatives ou systémiques sont revues pour la cause racine et l''action corrective (CAPA). Les améliorations peuvent inclure des mises à jour des instructions de travail, des contrôles de matériaux, des points d''inspection, de la formation, de la gestion des fournisseurs ou du contrôle documentaire.'
+      title: Action Corrective
+      desc: 'Les non-conformités répétées, significatives ou systémiques sont examinées pour la cause racine et l’action corrective (CAPA). Les améliorations peuvent inclure des mises à jour des instructions de travail, des maîtrises de matière, des points d’inspection, de la formation, de la gestion des fournisseurs ou de la maîtrise documentaire.'
 
 nc_pillars:
-  tagline: Piliers de confiance acheteur
-  title: Trois contrôles qui protègent votre marque
-  subtitle: 'Le processus est conçu autour des questions que les acheteurs internationaux posent réellement : les problèmes seront-ils cachés, la reprise échappera-t-elle au contrôle, et les planches réparées seront-elles re-vérifiées.'
+  tagline: Piliers de Confiance de l’Acheteur
+  title: Trois Maîtrises qui Protègent Votre Marque
+  subtitle: 'Le processus est conçu autour des questions que se posent réellement les acheteurs internationaux : les problèmes seront-ils cachés, la retouche partira-t-elle hors de contrôle, et les étaux réparés seront-ils re-vérifiés.'
   features:
     - icon: 1
       icon_bg: blue
-      title: Instructions contrôlées uniquement
-      desc: 'La reprise est strictement régie par des Instructions de Reprise Standard (SRI) autorisées. Les altérations de champ non approuvées, la modification des spécifications ou la modification des graphismes sans autorisation écrite sont strictement interdites.'
+      title: Uniquement des Instructions Maîtrisées
+      desc: 'La retouche est strictement régie par des Instructions de Retouche Standard (SRI) autorisées. Les altérations de terrain non approuvées, le changement de spécifications ou la modification de l’œuvre sans autorisation écrite sont strictement interdits.'
     - icon: 2
       icon_bg: green
-      title: Ré-inspection indépendante
-      desc: 'Les planches reprises subissent une ré-inspection à 100 % par les inspecteurs QA selon les critères d''acceptation d''origine. Les réparations d''étanchéité à l''air exigent un cycle complet de test de pression neuf de 24 h — jamais un re-contrôle partiel.'
+      title: Contre-Inspection Indépendante
+      desc: 'Les étaux retouchés subissent une contre-inspection à 100 % par les contrôleurs AQ selon les critères d’acceptation d’origine. La retouche de traitement thermique ou de surfaces de serrage exige un cycle d’essai complet neuf de dureté et de force de serrage — jamais un re-contrôle partiel.'
     - icon: 3
       icon_bg: purple
-      title: Signature autorisée et traçabilité
-      desc: 'L''autorisation d''expédition n''est permise qu''après documentation complète du NCR et signature QC autorisée, le statut du lot passant de HOLD à RELEASED. Les écarts systémiques ou répétés déclenchent automatiquement des flux de travail CAPA à la cause racine.'
+      title: Signature Autorisée et Traçabilité
+      desc: 'La libération d’expédition n’est permise qu’après documentation complète du NCR et signature QC autorisée, l’état du lot passant de HOLD à RELEASED. Les déviations systémiques ou répétées déclenchent automatiquement les flux de travail CAPA de cause racine.'
 
 nc_photos:
-  tagline: Sur le sol d'usine
-  title: Quarantaine, reprise et ré-inspection en pratique
-  subtitle: Les photos de notre atelier de Qingdao montrent comment les planches non conformes sont physiquement séparées, reprises sous instructions contrôlées et re-vérifiées avant toute décision de libération.
+  tagline: Sur le Plancher d’Usine
+  title: Quarantaine, Retouche et Contre-Inspection en Pratique
+  subtitle: Les photos de notre atelier à Qingdao montrent comment les étaux non conformes sont isolés physiquement, retouchés sous instructions maîtrisées et re-vérifiés avant toute décision de libération.
   features:
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-test-area.avif
-      alt: Planches de SUP gonflables gonflées dans la zone de test d'étanchéité à l'air de l'usine, surveillées par des manomètres numériques
-      title: Porte de ré-inspection
-      desc: 'Après la reprise, chaque planche revient dans la zone de test QC pour une re-vérification indépendante : gonflée et surveillée avec des manomètres numériques selon les critères d''acceptation approuvés par le projet — jamais un contrôle partiel.'
-    - image: https://assets.supsfactory.com/site/quality/qc-hold-quarantine-station.avif
-      alt: Feuilles de contrôle QC et étiquettes de statut de blocage contrôlé au poste d'inspection de l'usine
-      title: Poste de blocage et de quarantaine
-      desc: 'Poste d''inspection avec feuilles de contrôle QC et étiquetage de statut. Tout article échouant aux critères d''acceptation est étiqueté HOLD / QUARANTINE, enregistré contre un NCR et physiquement séparé — il ne peut pas passer au conditionnement jusqu''à ce qu''une disposition autorisée et une ré-inspection obligatoire soient complétées.'
-    - image: https://assets.supsfactory.com/site/quality/qc-air-tightness-rework.avif
-      alt: Technicien QC effectuant une reprise d'étanchéité à l'air contrôlée sur un SUP gonflable au poste de reprise de l'usine
-      title: Poste de reprise contrôlée
-      desc: 'La reprise est effectuée sur un poste dédié sous une instruction SRI approuvée : le défaut est marqué, la planche reste sur HOLD, et après la période de durcissement requise elle revient dans la zone de test pour une ré-inspection selon les critères d''acceptation d''origine.'
-    - image: https://assets.supsfactory.com/site/quality/qc-workshop-inspection-demo.avif
-      alt: Démonstration en atelier des contrôles qualité dans l'usine de Qingdao
-      title: Démonstration QC en atelier
-      desc: 'Photo de démonstration de l''atelier montrant les contrôles qualité appliqués en pratique, soutenant les enregistrements d''inspection et de contrôle de statut référencés tout au long de cette page.'
+    - image: https://assets.Stavalk.com/site/quality/qc-clamping-force-test-area.avif
+      alt: Étaux d’établi dans la zone d’essai de force de serrage de l’usine surveillés par des dynamomètres étalonnés
+      title: Porte de Contre-Inspection
+      desc: 'Après la retouche, chaque étau retourne dans la zone d’essai QC pour une re-vérification indépendante : connecté à des dynamomètres étalonnés selon les critères d’acceptation approuvés par le projet — jamais un contrôle partiel.'
+    - image: https://assets.Stavalk.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Feuilles de contrôle qualité et étiquettes de statut de retenue maîtrisée au poste d’inspection de l’usine
+      title: Poste de Retenue et de Quarantaine
+      desc: 'Poste d’inspection avec feuilles de contrôle QC et étiquetage de statut. Tout article qui échoue aux critères d’acceptation est étiqueté HOLD / QUARANTINE, enregistré contre un NCR et isolé physiquement — il ne peut pas passer à l’emballage avant une disposition autorisée et une contre-inspection obligatoire.'
+    - image: https://assets.Stavalk.com/site/quality/qc-hardness-rework.avif
+      alt: Technicien QC réalisant une retouche de dureté maîtrisée sur la mâchoire d’un étau au poste de retouche de l’usine
+      title: Poste de Retouche Maîtrisée
+      desc: 'La retouche est effectuée à un poste dédié sous une instruction SRI approuvée : le défaut est marqué, l’étau reste en HOLD, et après le traitement requis il retourne à la zone d’essai pour une contre-inspection selon les critères d’acceptation d’origine.'
+    - image: https://assets.Stavalk.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Démonstration en atelier des contrôles qualité dans l’usine de Qingdao
+      title: Démonstration QC en Atelier
+      desc: 'Photo de démonstration de l’atelier montrant les contrôles qualité appliqués en pratique, étayant les enregistrements d’inspection et de maîtrise d’état référencés tout au long de cette page.'
 
 nc_severity:
-  tagline: Gravité du défaut et autorité
-  title: Classification de gravité et autorité de disposition
-  subtitle: Toutes les non-conformités ne sont pas traitées au même niveau — l'autorité de disposition croît avec la gravité du défaut, de la validation de ligne au Material Review Board et à la concession client.
+  tagline: Gravité du Défaut et Autorité
+  title: Classification de Gravité et Autorité de Disposition
+  subtitle: Toute non-conformité n’est pas traitée au même niveau — l’autorité de disposition évolue avec la gravité du défaut, de la signature au niveau de la ligne jusqu’au comité d’examen des matériaux et à la concession client.
   headers:
     severity: Gravité
-    examples: Exemples typiques
-    authority: Autorité et contrôle de disposition
-    control: Condition de libération
+    examples: Exemples Types
+    authority: Autorité de Disposition et Maîtrise
+    control: Condition de Libération
   rows:
     - severity: 'Mineur'
-      examples: 'Plissure du coin du carton, léger désalignement d''accessoire non critique'
-      authority: 'Chef QC de section + superviseur de ligne : validation sur site, remplacement ou libération'
-      control: 'Enregistré sur le NCR ; aucun impact sur la fonction du produit ni les exigences client'
+      examples: 'Coin de carton écrasé, légère imperfection décorative non critique, petite tache de rouille sur une surface non critique'
+      authority: 'Responsable QC de section + superviseur de ligne, signature sur site, remplacer ou libérer'
+      control: 'Enregistré sur le NCR ; aucun impact sur la fonction du produit ni sur les exigences client'
     - severity: 'Majeur'
-      examples: 'Fuite lente de valve, désalignement EVA au-delà de la tolérance (>2 mm), accessoire manquant'
-      authority: 'Le Responsable QC + l''Ingénieur technique émettent une instruction de reprise contrôlée (SRI)'
-      control: 'Re-test indépendant à 100 % des caractéristiques ayant échoué et affectées avant libération'
+      examples: 'Dureté de mâchoire inférieure à la spécification dans une zone d’essai, désalignement de mâchoires hors tolérance (>0,05 mm), accessoire manquant'
+      authority: 'Le Responsable QC + l’Ingénieur Technique émettent une instruction de retouche maîtrisée (SRI)'
+      control: 'Re-essai indépendant à 100 % de la caractéristique initialement non conforme et des caractéristiques affectées avant libération'
     - severity: 'Critique'
-      examples: 'Dommage à la chambre drop-stitch, bulle ou fissure de rail sous haute pression, erreur d''impression du logo client ou écart de couleur'
-      authority: 'Décision du Material Review Board (MRB) ; concession écrite du client là où requis'
-      control: 'Pas de libération sans concession autorisée ; sinon destruction physique attestée obligatoire'
+      examples: 'Fissure du corps moulé dans une zone portante, détérioration de vis/filetage, force de serrage inférieure à la capacité nominale, logo client mal imprimé ou déviation de couleur'
+      authority: 'Décision du comité d’examen des matériaux (MRB) ; concession écrite du client le cas échéant'
+      control: 'Aucune libération sans concession autorisée ; sinon destruction physique témoignée obligatoire'
 
 nc_matrix:
-  tagline: Matrice de protocole d'ingénierie
-  title: Matrice de disposition des défauts SUP et de ré-inspection
-  subtitle: Protocoles d'ingénierie standard appliqués aux écarts de fabrication les plus courants — les mêmes paramètres quantifiés que les clients peuvent vérifier lors des audits.
+  tagline: Matrice de Protocole d’Ingénierie
+  title: Matrice de Disposition et de Contre-Inspection des Défauts de l’Étau
+  subtitle: Protocoles d’ingénierie standard appliqués aux déviations de fabrication les plus courantes — les mêmes paramètres quantifiés que les clients peuvent vérifier lors des audits.
   headers:
-    defect: Catégorie de défaut
-    protocol: Protocole de disposition contrôlée
-    validation: Ré-inspection et validation indépendantes
+    defect: Catégorie de Défaut
+    protocol: Protocole de Disposition Maîtrisée
+    validation: Contre-Inspection Indépendante et Validation
   rows:
-    - defect: 'Fuite lente de valve'
-      protocol: 'Isoler la planche. Démonter le noyau de valve avec un outil de couple calibré (25 N·m), nettoyer les filetages internes, remplacer le joint torique en silicone et re-serrer au couple.'
-      validation: 'Immerger dans une solution de bulles ; re-gonfler à 18 PSI pour un re-test complet de chute de pression de 24 h (ΔP ≤ 0,05 PSI).'
-    - defect: 'Bulles d''air au rail'
-      protocol: 'Mettre en quarantaine le lot d''équipe. Délaminer la zone de bulles avec une buse assistée par chaleur, nettoyer la surface au solvant, appliquer de l''adhésif PU bicomposant sous pression de 5 bar.'
-      validation: 'Inspection visuelle et tactile à 100 % de la couture ; test de pression de preuve structurelle (18,0 PSI) plus maintien d''étanchéité à l''air de 24 h.'
-    - defect: 'Désalignement du tapis EVA'
-      protocol: 'Décollage assisté par chaleur avec un outil à température régulée (80 °C). Re-aligner à l''aide d''un gabarit de positionnement acrylique de précision.'
-      validation: 'Vérification de la tolérance d''espacement (≤ ±1,5 mm), contrôle de symétrie du motif en losange, test d''adhérence de liaison des bords à 100 %.'
-    - defect: 'Erreur de marque / logo'
-      protocol: 'Arrêt immédiat de la ligne d''impression. Blocage de tous les panneaux imprimés. Revue de la révision vectorielle avec le client ; zéro altération non approuvée.'
-      validation: 'Contrôle couleur au spectrophotomètre (ΔE ≤ 1,5) ; vérification visuelle de l''alignement du texte à 100 % contre le PDF maître vectoriel signé par le client.'
-    - defect: 'Écart d''emballage / SKU manquant'
-      protocol: 'Mettre en quarantaine la palette d''export. Déballer et effectuer un contrôle BOM détaillé à 100 % (pompe, aileron, leash, pagaie, tube de réparation).'
-      validation: 'Validation par balance électronique dynamique en ligne (±30 g de variance) ; vérification par scanner optique de code-barres 2D.'
+    - defect: 'Défaut de Revêtement de Surface'
+      protocol: 'Isoler l’étau. Décaper et re-préparer la surface à Sa2,5 avec un abrasif approuvé, ré-appliquer le revêtement poudre et cuire à 180°C ± 10°C.'
+      validation: 'Inspection visuelle sous lumière du jour ; mesure avec appareil d’épaisseur de film en 3 points ; essai d’adhérence — épaisseur dans 55–85 µm, zéro zone découverte.'
+    - defect: 'Dureté de Mâchoire Inférieure à la Spécification'
+      protocol: 'Mettre le lot de poste en quarantaine. Re-traiter les inserts de mâchoire par traitement thermique maîtrisé : austénitisation 820–860°C, trempe à l’huile, revenu 150–200°C pour GCr15/Cr12MoV.'
+      validation: 'Re-essai de dureté Rockwell à 100 % en 3 positions par insert — 58–62 HRC à toutes les positions ; contrôle métallographique de l’austénite résiduelle.'
+    - defect: 'Désalignement des Mâchoires'
+      protocol: 'Réaligner les mâchoires avec un gabarit de positionnement de précision ; re-fixer avec une fixation à couple maîtrisé ; vérifier le pas de filetage.'
+      validation: 'Vérification de tolérance de jeu (parallélisme ≤ 0,05 mm), mesure au comparateur à cadran sur les faces des mâchoires, contrôle de filetage à 100 %.'
+    - defect: 'Marquage / Logo Erroné'
+      protocol: 'Arrêt immédiat de la ligne de marquage. Retenir toutes les pièces marquées. Examiner la révision vectorielle avec le client ; zéro altération non approuvée.'
+      validation: 'Contrôle couleur au spectrophotomètre (ΔE ≤ 1,5) ; vérification visuelle à 100 % de l’alignement du texte contre le PDF vectoriel maître signé par le client.'
+    - defect: 'Disparité d’Emballage / SKU Manquant'
+      protocol: 'Mettre la palette d’exportation en quarantaine. Déballer et effectuer un contrôle de nomenclature détaillé à 100 % (étau, poignée, base, accessoires de montage, manuel).'
+      validation: 'Validation à la peséeuse dynamique électronique en ligne (±30 g de variation) ; vérification au lecteur optique de code-barres 2D.'
 
 nc_scrap:
-  tagline: Zéro fuite sur le marché
-  title: Mise au rebut et destruction attestées — protocole anti-détournement zéro défaut
+  tagline: Zéro Fuite sur le Marché
+  title: Mise à la Ferraille et Destruction Témoignée — Protocole Anti-Détournement Zéro Défaut
   body: |
-    Les partenaires de marque internationaux ont besoin de l'assurance que les planches défaillantes n'atteindront jamais le retail secondaire, les marchés gris ou les canaux e-commerce. Les planches qui ne peuvent pas être mises en conformité sont détruites sous un protocole attesté et enregistré :
+    Les partenaires de marque internationaux ont besoin de la certitude que les étaux rejetés n’atteindront jamais le commerce de détail secondaire, les marchés gris ou les canaux e-commerce. Les étaux qui ne peuvent pas être rendus conformes sont détruits sous un protocole témoigné et enregistré :
 
-    **1. Cisaillement de la quincaillerie et des accessoires.** Sous la supervision du Directeur QA, une cisaille hydraulique retire tous les anneaux en D en acier inoxydable 316, la sangle de poignée de transport et les boucles de bagage. L'ensemble de valve de gonflage et la base de boîtier d'aileron (US-Box / aileron à enclenchement) sont découpés à la racine de la planche, éliminant tout composant récupérable.
+    **1. Cisaillage des accessoires et de la structure.** Sous la supervision du Directeur AQ, une cisaille hydraulique retire la poignée, la base pivotante, les boulons de montage et tout l’équipement de serrage. La vis et la tige filetée sont coupées à la racine du corps, éliminant tout composant récupérable.
 
-    **2. Fendage du drop-stitch et sectionnement du rail.** Le noyau drop-stitch interne est découpé en travers de la planche et du pont avec des fentes entrecroisées profondes (≥ 50 cm par coupe), et les rails latéraux renforcés sont sectionnés en au moins 4 segments — détruisant définitivement la capacité d'étanchéité et la flottabilité.
+    **2. Sectionnement du corps et destruction du filetage.** Le corps en fonte est coupé transversalement avec de profondes entailles croisées et les surfaces de travail renforcées sont sectionnées en au moins 4 segments — détruisant définitivement la capacité de serrage et toute possibilité de réassemblage ou de réutilisation.
 
-    **3. Coffre vidéo et photo.** La destruction est enregistrée en vidéo 1080p non coupée avec des gros plans du code-barres de série, du processus de cisaillement, du fendage du noyau et du tas de rebut pesé final. La vidéo est hachée (SHA-256) et archivée sur un serveur contrôlé pendant au moins 5 ans.
+    **3. Coffre vidéo et photo.** La destruction est enregistrée en vidéo 1080p sans coupe avec des gros plans du code-barres de série, du processus de cisaillage, du sectionnement du corps et du tas de ferraille pesé final. La vidéo est hachée (SHA-256) et archivée sur un serveur maîtrisé pendant au moins 5 ans.
 
-    **4. Élimination certifiée des déchets.** Tous les fragments de PVC et de drop-stitch sont pesés, enregistrés dans le registre de sortie et transportés uniquement par des partenaires qualifiés de recyclage de polymères — aucun résidu ne quitte l'installation par un autre canal.
+    **4. Élimination de la ferraille certifiée.** Tous les fragments de fonte et d’acier sont pesés, enregistrés dans le registre des sorties et transportés uniquement par des partenaires de recyclage des métaux qualifiés — aucun résidu ne quitte l’installation par tout autre canal.
 
-    > **Garantie de protection de marque :** QINGDAO VATRAD GROUP CO., LTD. garantit la destruction à 100 % des embarcations hors spécification non reparables. Aucun second choix d'usine ni planche compromise n'entrera jamais dans le retail secondaire, les marchés gris ou les canaux e-commerce. Le Certificat de rebut et de destruction (VAT-QA-SCRAP-CERT-2026) enregistre le produit, le lot, la conclusion MRB, les photos témoins et la double signature du Directeur QA et du Directeur d'usine.
+    > **Garantie de protection de marque :** Stavalk garantit la destruction à 100 % des étaux hors spécification non retouchables. Zéro seconde qualité ou unité compromise n’entrera jamais sur le commerce de détail secondaire, les marchés gris ou les canaux e-commerce. Le Certificat de Mise à la Ferraille et de Destruction (VAT-QA-SCRAP-CERT-2026) enregistre le produit, le lot, la conclusion du MRB, les photos témoins et la double signature du Directeur AQ et du Responsable d’Usine.
 
 nc_downloads:
-  tagline: Documents QMS téléchargeables
-  title: Documents bilingues contrôlés (PDF)
-  subtitle: Documents bilingues officiels EN/ZH de QINGDAO VATRAD GROUP.,LTD. — structurés selon ISO 9001:2015 clause 8.7 et prêts pour les audits clients, les livres blancs techniques B2B et la distribution contrôlée en atelier.
+  tagline: Documents QMS Téléchargeables
+  title: Documents Bilingues Maîtrisés (PDF)
+  subtitle: Les documents officiels bilingues EN/ZH de Stavalk — structurés selon l’ISO 9001:2015 Article 8.7 et prêts pour les audits clients, les livres blancs techniques B2B et la distribution maîtrisée sur le plancher d’usine.
   features:
     - icon: N
       icon_bg: blue
-      title: SOP de contrôle des produits non conformes (PDF)
-      desc: 'SOP bilingue basée sur ISO 9001:2015 clause 8.7 : contrôle en boucle fermée en 8 étapes, la matrice de disposition des défauts SUP, la structure de données NCR et l''engagement qualité client.'
-      link: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      title: SOP de Maîtrise des Produits Non Conformes (PDF)
+      desc: 'SOP bilingue basé sur l’ISO 9001:2015 Article 8.7 : maîtrise en boucle fermée sur 8 étapes, la matrice de disposition des défauts de l’étau, la structure de données du NCR et l’engagement qualité client.'
+      link: 'https://assets.Stavalk.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
       link_label: Télécharger le PDF
     - icon: S
       icon_bg: orange
-      title: Certificat de rebut et de destruction (PDF)
-      desc: 'VAT-QA-SCRAP-CERT-2026 : traçabilité produit et lot, conclusion MRB, le protocole de destruction physique en 4 étapes, les champs de photos témoins et le bloc de double signature.'
-      link: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      title: Certificat de Mise à la Ferraille et de Destruction (PDF)
+      desc: 'VAT-QA-SCRAP-CERT-2026 : traçabilité produit et lot, conclusion du MRB, protocole de destruction physique en 4 étapes, champs de photos témoins et bloc de double signature.'
+      link: 'https://assets.Stavalk.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
       link_label: Télécharger le PDF
     - icon: R
       icon_bg: green
-      title: Gouvernance de la reprise contrôlée (page)
-      desc: 'Page compagnon pour les cartes de méthode de reprise d''étanchéité à l''air approuvées MC-RW-01 à MC-RW-06 et le flux de travail de reprise contrôlée en 7 étapes.'
-      link: /fr/factory/quality-inspection
+      title: Gouvernance de Retouche Maîtrisée (Page)
+      desc: 'Page compagne des cartes de méthode de retouche approuvées MC-RW-01 à MC-RW-06 et du flux de retouche maîtrisé en 7 étapes.'
+      link: '/fr/factory/quality-inspection'
       link_label: Voir la page
     - icon: C
       icon_bg: purple
-      title: Norme de contrôle des modifications de reprise (page)
-      desc: 'Contrôle de modification formel ISO 9001 pour les paramètres de reprise : ECR, classification des risques, matrice d''approbation, plan de validation et garde-fous Poka-Yoke — QMS-SOP-QC-CC-001 Rev 2.0.'
-      link: /fr/factory/quality-change-control
+      title: Norme de Maîtrise des Changements de Retouche (Page)
+      desc: 'Maîtrise des changements formelle ISO 9001 pour les paramètres de retouche : ECR, classification des risques, matrice d’approbation, plan de validation et garde-fous Poka-Yoke — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/fr/factory/quality-change-control'
       link_label: Voir la page
 
 faqs:
   tagline: FAQ
-  title: FAQ qualité et contrôle des défauts pour les acheteurs mondiaux
+  title: FAQ Qualité et Maîtrise des Défauts pour les Acheteurs Mondiaux
   items:
-    - q: 'Comment garantissez-vous que les planches reprises respectent les normes de sécurité complètes ?'
-      a: 'Toute planche reprise est traitée comme une unité neuve et doit compléter exactement le même cycle de test complet à partir de zéro — pour les réparations d''étanchéité à l''air, un test de pression complet de 24 h. Ce sont les inspecteurs QC indépendants, et non les opérateurs de reprise, qui effectuent la validation de libération.'
-    - q: 'L''usine expédiera-t-elle des planches avec des écarts cosmétiques mineurs sans nous en informer ?'
-      a: 'Jamais. Tout écart affectant les échantillons dorés approuvés par le client, les graphismes de logo, les coloris ou l''emballage exige un Accord de Concession écrit formel signé par le client avant l''autorisation d''expédition.'
-    - q: 'Que se passe-t-il si une planche reprise échoue à la ré-inspection ?'
-      a: 'La planche n''est pas libérée. Elle revient à une nouvelle revue de disposition, et si elle ne peut pas être mise en conformité, elle est remplacée, rejetée ou détruite sous le protocole de mise au rebut attestée. L''échec répété de la même classe de défaut déclenche une CAPA à la cause racine.'
-    - q: 'Les planches défaillantes peuvent-elles être vendues comme seconds choix d''usine ou par d''autres canaux ?'
-      a: 'Non. Les planches hors spécification non reparables sont physiquement détruites sous le protocole de mise au rebut attestée — quincaillerie cisaillée, noyau et rails sectionnés, vidéo enregistrée avec hachage SHA-256 et archivée pendant au moins 5 ans. Le certificat de rebut et de destruction est signé par le Directeur QA et le Directeur d''usine.'
-    - q: 'Comment le périmètre affecté est-il évalué lorsqu''un défaut est trouvé ?'
-      a: 'Le périmètre est revu par identification du produit, lot de production, lot de matériau ou de composant, étape de processus et révision de document applicable. Si le même lot de matériau, la même révision de graphismes ou le même poste de travail est impliqué, les produits affectés sont contenus et contrôlés en conséquence.'
-    - q: 'Avez-vous besoin de notre approbation avant d''accorder une concession ?'
-      a: 'Oui. Toute acceptation sous concession documentée qui affecte les exigences client — échantillons approuvés, spécification, graphismes, emballage ou critères d''acceptation — exige une approbation écrite du client avant libération. Sans elle, le produit est repris selon l''exigence d''origine, remplacé ou rejeté.'
+    - q: 'Comment garantissez-vous que les étaux retouchés respectent toutes les normes de sécurité ?'
+      a: 'Tout étau retouché est traité comme une unité neuve et doit refaire exactement le même cycle d’essai complet depuis zéro — pour la retouche de traitement thermique ou de surfaces de serrage, un cycle complet neuf de dureté et de force de serrage. Les contrôleurs QC indépendants, et non les opérateurs de retouche, effectuent la validation de libération.'
+    - q: 'L’usine expédiera-t-elle des étaux avec des déviations cosmétiques mineures sans nous prévenir ?'
+      a: 'Jamais. Toute déviation affectant les échantillons dorés approuvés par le client, l’œuvre du logo, les coloris ou l’emballage exige un Accord de Concession écrit formel signé par le client avant la libération d’expédition.'
+    - q: 'Que se passe-t-il si un étau retouché échoue à la contre-inspection ?'
+      a: 'L’étau n’est pas libéré. Il retourne à un nouvel examen de disposition, et s’il ne peut pas être rendu conforme, il est remplacé, rejeté ou détruit sous le protocole de ferraille témoignée. L’échec répété de la même classe de défaut déclenche une CAPA de cause racine.'
+    - q: 'Les étaux rejetés peuvent-ils être vendus comme secondes qualités ou par d’autres canaux ?'
+      a: 'Non. Les étaux hors spécification non retouchables sont physiquement détruits sous le protocole de ferraille témoignée — accessoires cisaillés, corps sectionné, vidéo enregistrée avec hachage SHA-256 et archivée pendant au moins 5 ans. Le Certificat de Mise à la Ferraille et de Destruction est signé par le Directeur AQ et le Responsable d’Usine.'
+    - q: 'Comment la portée affectée est-elle évaluée quand un défaut est trouvé ?'
+      a: 'La portée est examinée par identification du produit, lot de production, lot de matière ou de composant, étape de procédé et révision de document applicable. Si le même lot de matière, la même révision d’œuvre ou le même poste est impliqué, les produits affectés sont contenus et vérifiés en conséquence.'
+    - q: 'Avez-vous besoin de notre approbation avant d’accorder une concession ?'
+      a: 'Oui. Toute acceptation sous une concession documentée qui affecte les exigences client — échantillons approuvés, spécification, œuvre, emballage ou critères d’acceptation — exige l’approbation écrite du client avant la libération. Sans elle, le produit est retouché selon l’exigence d’origine, remplacé ou rejeté.'
     - q: 'Quelle documentation recevons-nous pour une non-conformité ?'
-      a: 'L''enregistrement NCR couvre le numéro NCR, l''étape de détection, le produit/SKU, le lot, les révisions de documents applicables, la description du défaut, le confinement, la disposition, la référence de l''instruction de reprise, le résultat de ré-inspection et l''approbation de libération ou de clôture — disponible selon votre accord qualité de projet.'
+      a: 'L’enregistrement NCR couvre le numéro NCR, l’étape de détection, le produit/SKU, le lot, les révisions de document applicables, la description du défaut, la contention, la disposition, la référence de l’instruction de retouche, le résultat de la contre-inspection et l’approbation de libération ou de clôture — disponible selon votre accord qualité projet.'
 
 cta:
-  title: Les problèmes de qualité sont gérés par un processus contrôlé
-  desc: 'Partagez vos exigences qualité, d''inspection ou de documentation spécifiques au projet lors de la demande — nous pouvons revoir les points de contrôle applicables avant le développement d''échantillons ou la planification de la production.'
+  title: Les Problèmes de Qualité Sont Gérés par un Processus Maîtrisé
+  desc: 'Partagez vos exigences spécifiques de qualité, d’inspection ou de documentation pendant la demande — nous pouvons examiner les points de maîtrise applicables avant le développement d’échantillon ou la planification de la production.'
   actions:
-    - text: Discuter des exigences de qualité
+    - text: Discuter des Exigences Qualité
       variant: primary
       href: /fr/contact
-    - text: Télécharger la SOP de contrôle NCP (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
-    - text: Télécharger le certificat de rebut (PDF)
-      href: 'https://assets.supsfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: Télécharger le SOP de Maîtrise NCP (PDF)
+      href: 'https://assets.Stavalk.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Télécharger le Certificat de Ferraille (PDF)
+      href: 'https://assets.Stavalk.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

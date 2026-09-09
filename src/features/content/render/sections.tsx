@@ -192,19 +192,15 @@ const HREF_REMAP: Record<string, string> = {
   '/resources/download-catalog': '/products',
   '/oem-odm': '/oem-manufacturing',
   '/brand/afarer': ABOUT_BRAND_PATH,
-  '/compare': '/inflatable-vs-hardboard',
-  '/compare/inflatable-vs-hardboard': '/inflatable-vs-hardboard',
-  '/v2/intermediate-techniques': '/knowledge',
+  '/compare': '/products',
+  '/compare/inflatable-vs-hardboard': '/products',
   '/learn/sup': '/knowledge',
-  '/learn/drop-stitch-core': '/research/drop-stitch-technology',
-  '/learn/inflatable-technology': '/technology',
-  '/learn/materials': '/research/pvc-vs-hypalon',
+  '/learn/materials': '/knowledge',
   '/learn/water-safety': '/quality',
   '/inflatable-sup-maintenance': '/knowledge',
-  '/guides/paddling-techniques': '/knowledge',
   '/guides/sup-for-touring': '/knowledge',
   '/guides/sup-maintenance': '/knowledge',
-  '/guides/sup-size-guide': '/research/sup-thickness-guide',
+  '/guides/sup-size-guide': '/size-guide',
   '/use-cases/search-and-rescue': `${BRAND_PARENT_URL}/search-and-rescue`,
   // academy skill-path topics without a ported page
   '/sup-basics': '',
@@ -1726,7 +1722,7 @@ function StatsBand() {
   const stats = [
     { value: String(cases.length), label: studyLabel },
     { value: String(regionCount), label: regionLabel },
-    { value: CASE_STUDY_STATS.boardWidth, label: widthLabel },
+    { value: CASE_STUDY_STATS.jawWidth, label: widthLabel },
     { value: CASE_STUDY_STATS.factoryTested, label: testedLabel },
   ]
   return (

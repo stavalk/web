@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Search index tests (node pool — full afarer corpus resolves like any module).
  * Guards against regressions where content lives in bodies but not excerpts.
  */
@@ -25,9 +25,9 @@ describe('buildExtendedIndex', () => {
     }
   })
 
-  test('body-only keywords are searchable (Qingdao Vatrad Group)', () => {
+  test('body-only keywords are searchable (Stavalk, Qingdao)', () => {
     for (const locale of ['en', 'es'] as const) {
-      const hits = buildExtendedIndex(locale).filter((it) => (it.content ?? '').includes('Vatrad'))
+      const hits = buildExtendedIndex(locale).filter((it) => (it.content ?? '').includes('Stavalk'))
       expect(hits.length, `locale ${locale}`).toBeGreaterThanOrEqual(2)
       expect(hits.some((h) => h.url === (locale === 'es' ? '/es/faq' : '/faq'))).toBe(true)
       expect(hits.some((h) => h.url.includes('/proof-center') || h.url.includes('/oem-trust'))).toBe(true)
@@ -35,7 +35,7 @@ describe('buildExtendedIndex', () => {
   })
 
   test('mdx article bodies are indexed', () => {
-    const hits = buildExtendedIndex('en').filter((it) => (it.content ?? '').includes('pressure-hold'))
+    const hits = buildExtendedIndex('en').filter((it) => (it.content ?? '').includes('clamping force'))
     expect(hits.length).toBeGreaterThan(0)
   })
 
@@ -90,6 +90,6 @@ describe('buildFullIndex', () => {
     const entries = buildFullIndex()
     const urls = new Set(entries.map((it) => it.url))
     expect(urls.size).toBe(entries.length)
-    expect(entries.some((it) => (it.content ?? '').includes('Vatrad'))).toBe(true)
+    expect(entries.some((it) => (it.content ?? '').includes('Stavalk'))).toBe(true)
   })
 })

@@ -1,8 +1,9 @@
-import { locales, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
+﻿import { locales, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
 import { SITE_NAME, SITE_TAGLINE } from '@/config/site'
 import { BRAND_OG_IMAGE, BRAND_HERO_IMAGE, BRAND_HERO_IMAGE_768, BRAND_HERO_IMAGE_480, BRAND_HERO_IMAGE_WEBP } from '@/config/branding'
 import { OG_LOCALE, HREFLANG } from '@/config/locales'
 import { ENTITY_PAGE_PATH } from '@/config/navigation'
+import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
 interface PublicPathEntry {
   path: string
@@ -10,7 +11,7 @@ interface PublicPathEntry {
 }
 
 /** Marketing pages in the sitemap (bilingual, hreflang-linked). */
-export const PUBLIC_PATHS: PublicPathEntry[] = [
+const RAW_PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/', lastmod: '2026-08-11' },
   { path: '/solutions', lastmod: '2026-06-20' },
   { path: '/products', lastmod: '2026-06-20' },
@@ -87,6 +88,10 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: ENTITY_PAGE_PATH, lastmod: '2026-06-30' },
 ]
 
+/** URLs that now 301 via the edge gate (LEGACY_REDIRECTS) must not be listed
+ *  in the sitemap as if they were live. */
+export const PUBLIC_PATHS = RAW_PUBLIC_PATHS.filter((e) => !LEGACY_REDIRECTS[e.path])
+
 export const OG_IMAGE = BRAND_OG_IMAGE
 
 export const HERO_IMAGE = BRAND_HERO_IMAGE
@@ -122,12 +127,12 @@ export function buildRobots(origin: string): string {
     '# ---------------------------------------------------------------',
     '# Content signals',
     '# search   = yes  (allow search indexing)',
-    '# ai-input = yes  (allow grounding / RAG for AI answers — required for GEO)',
+    '# ai-input = yes  (allow grounding / RAG for AI answers �?required for GEO)',
     '# ai-train = no   (do not use for model training)',
     '# ---------------------------------------------------------------',
     'Content-Signal: search=yes, ai-input=yes, ai-train=no, use=reference',
     '',
-    // Single wildcard group — private app surfaces and removed template pages
+    // Single wildcard group �?private app surfaces and removed template pages
     // only; the whole marketing site is crawlable (incl. AI agents, each
     // allowed explicitly below so no edge/anti-bot rule can blanket-block
     // LLM crawlers).
@@ -174,7 +179,7 @@ type SingleLocalePath = string | SitemapEntry
 
 /** Which locale variants of PUBLIC_PATHS a sitemap file should carry: every
  *  bilingual pair (default), only the given locale, or none (detail-only files
- *  like products/news — they must not repeat the template URLs). */
+ *  like products/news �?they must not repeat the template URLs). */
 export function buildSitemap(
   origin: string,
   singleLocalePaths: SingleLocalePath[] = [],
@@ -225,7 +230,7 @@ export function buildSitemapIndex(origin: string, files: string[]): string {
 export interface HeadLink {
   rel: string
   href: string
-  hreflang?: string // lowercase HTML attr — TanStack serializes head attrs verbatim
+  hreflang?: string // lowercase HTML attr �?TanStack serializes head attrs verbatim
   as?: string
   type?: string
   fetchpriority?: string
@@ -276,16 +281,16 @@ export function localeHead(input: {
     { property: 'og:image:type', content: image.endsWith('.webp') ? 'image/webp' : 'image/jpeg' },
     {
       property: 'og:image:alt',
-      content: `${SITE_NAME} — ${SITE_TAGLINE}`,
+      content: `${SITE_NAME} �?${SITE_TAGLINE}`,
     },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:site', content: '@SUPsfactory' },
+    { name: 'twitter:site', content: '@Stavalk' },
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: description },
     { name: 'twitter:image', content: image },
     {
       name: 'twitter:image:alt',
-      content: `${SITE_NAME} — ${SITE_TAGLINE}`,
+      content: `${SITE_NAME} �?${SITE_TAGLINE}`,
     },
   ]
   return { meta, links }

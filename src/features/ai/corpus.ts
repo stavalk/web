@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Corpus builder for the AI knowledge index (server-only).
  *
  * Statically imports the full afarer corpus, so it must never enter the client

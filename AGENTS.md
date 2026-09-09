@@ -1,4 +1,4 @@
-# AGENTS.md
+﻿# AGENTS.md
 
 Guide for AI coding agents (Claude Code, Codex, etc.) working in this repo.
 
@@ -28,7 +28,7 @@ Framework code (`src/features/`, `src/routes/`, `src/components/`) never imports
 - `src/db/` — Drizzle client + `schema.ts` barrel; tables in `src/db/tables/` and feature `*.schema.ts`.
 - `src/content/site/` — **Product Content**: page YAML, product MDX, news MDX, case-use/technology MD, site-wide YAML (faqs, registry, research). Swap per deployment. (Geo JSON now lives in `src/product/geo/`.)
 - `src/content/docs/` — in-app docs (MDX, Fumadocs).
-- `scripts/` — `framework.sql` (system bootstrap), `demo.sql` (sample data), `upload-afarer-images.mjs`, `upload-site-assets.mjs`, `lib/r2-upload.mjs` (shared SigV4/HTTP uploader with `isMissing`), `process-and-publish-images.mjs` (sharp responsive variants), `compress-pdf.mjs` (Ghostscript PDF compression), plus check/purge helpers.
+- `scripts/` — `framework.sql` (system bootstrap), `demo.sql` (sample data), `upload-stavalk-images.mjs`, `upload-site-assets.mjs`, `lib/r2-upload.mjs` (shared SigV4/HTTP uploader with `isMissing`), `process-and-publish-images.mjs` (sharp responsive variants), `compress-pdf.mjs` (Ghostscript PDF compression), plus check/purge helpers.
 
 ## Conventions
 
@@ -41,7 +41,7 @@ Framework code (`src/features/`, `src/routes/`, `src/components/`) never imports
 - **No mock, graceful degradation:** optional integrations (Resend, Turnstile, Sentry, analytics) switch off when their env keys are absent — keep that behavior.
 - **AI bindings are optional:** AI/Vectorize bindings are commented out by default in `wrangler.jsonc`. The assistant works in FAQ+corpus keyword search mode (matchFaq + matchCorpus) on the Workers free tier — no AI inference needed. Uncomment the `ai`/`vectorize` blocks and upgrade to Workers Paid ($5/month) for full RAG mode (embeddings + LLM generation). `worker-configuration.d.ts` has `Ai?` and `VectorizeIndex?` as optional.
 - **Routes:** after adding a route, run `pnpm build` before `pnpm typecheck` (the route tree is generated at build). Single-segment content routes use `contentSingleRoute()` (loader+head, no component — rendered by catch-all `$.tsx`).
-- **Tests:** Vitest — node pool (`*.node.test.ts`) for pure logic, workers pool (`*.workers.test.ts`) for D1; the workers pool does NOT auto-apply migrations (hand-create tables in `beforeAll`). 272 tests across 45 files.
+- **Tests:** Vitest — node pool (`*.node.test.ts`) for pure logic, workers pool (`*.workers.test.ts`) for D1; the workers pool does NOT auto-apply migrations (hand-create tables in `beforeAll`). 292 tests across 46 files.
 - **Media assets:** `public/assets/videos/`, `public/assets/quality/`, `public/assets/products/`, `public/downloads/` are git-ignored; large binaries live in Cloudflare R2 CDN `assets.{SITE_DOMAIN}/site/*`; re-upload via `pnpm upload:site-assets`. Responsive image variants (`images/sups/**/{,-768,-480}.{webp,avif}`) and compressed PDFs (`site/downloads/*`) are generated offline by the manual `images.yml` workflow (sharp + ghostscript) since R2 free tier cannot resize images/PDFs.
 
 ## Commands

@@ -19,8 +19,8 @@ import { getGuide } from '@/features/content/guide-content'
 import { buildExtendedIndex, buildFullIndex } from '@/features/site/search-index.server'
 
 test('products: es overlay swaps title and keeps canonical slug', () => {
-  const en = getContentProduct('sup-cheetah-surge')
-  const es = getContentProduct('sup-cheetah-surge', 'es')
+  const en = getContentProduct('vise-light-4')
+  const es = getContentProduct('vise-light-4', 'es')
   expect(en).toBeDefined()
   expect(es).toBeDefined()
   expect(es?.slug).toBe(en?.slug)
@@ -40,7 +40,7 @@ test('products: es collection mirrors en slugs 1:1', () => {
 })
 
 test('products: en locale and unknown slugs fall back to English content', () => {
-  expect(getContentProduct('sup-cheetah-surge', 'en')?.title).toBe(getContentProduct('sup-cheetah-surge')?.title)
+  expect(getContentProduct('vise-light-4', 'en')?.title).toBe(getContentProduct('vise-light-4')?.title)
   expect(getContentProduct('no-such-board', 'es')).toBeUndefined()
 })
 
@@ -50,35 +50,38 @@ test('news: es overlay translates posts, canonical slug preserved', () => {
   expect(es).toHaveLength(en.length)
   const any = es.filter((p, i) => p.title !== en[i].title)
   expect(any.length).toBeGreaterThan(0)
-  const post = getNewsPost('drop-stitch-2-0', 'es')
-  expect(post?.slug).toBe('drop-stitch-2-0')
-  expect(post?.title).not.toBe(getNewsPost('drop-stitch-2-0')?.title)
+  const post = getNewsPost('bench-vise-oem-trends-2026', 'es')
+  expect(post?.slug).toBe('bench-vise-oem-trends-2026')
+  expect(post?.title).not.toBe(getNewsPost('bench-vise-oem-trends-2026')?.title)
 })
 
 test('technology: es overlay swaps title and keeps slug', () => {
-  const en = getTechArticle('military-grade-pvc')
-  const es = getTechArticle('military-grade-pvc', 'es')
-  expect(es?.slug).toBe('military-grade-pvc')
+  const en = getTechArticle('sand-casting-process')
+  const es = getTechArticle('sand-casting-process', 'es')
+  expect(es?.slug).toBe('sand-casting-process')
   expect(es?.title).not.toBe(en?.title)
   expect(es?.body.length).toBeGreaterThan(100)
   expect(getTechArticles('es')).toHaveLength(getTechArticles().length)
 })
 
 test('case-use: es overlay swaps title and keeps slug', () => {
-  const en = getCaseUse('beginner-sup-training')
-  const es = getCaseUse('beginner-sup-training', 'es')
-  expect(es?.slug).toBe('beginner-sup-training')
+  const en = getCaseUse('german-hardware-brand-oem')
+  const es = getCaseUse('german-hardware-brand-oem', 'es')
+  expect(es?.slug).toBe('german-hardware-brand-oem')
   expect(es?.title).not.toBe(en?.title)
   expect(getCaseUses('es')).toHaveLength(getCaseUses().length)
 })
 
-test('guides: es variants exist for every guide slug', () => {
-  for (const g of ['how-to-choose-your-sup', 'beginner-guide', 'inflatable-vs-hard', 'safety-tips']) {
+test('guides: every guide slug resolves for any locale (en-only fallback)', () => {
+  for (const g of ['how-to-choose-a-bench-vise', 'bench-vise-size-guide', 'bench-vise-maintenance-guide', 'pipe-vise-guide', 'oem-bench-vise-order-guide', 'precision-vise-guide']) {
+    const gd = getGuide(`/guides/${g}`)
+    expect(gd, g).toBeDefined()
     const es = getGuide(`/guides/${g}`, 'es')
     expect(es, g).toBeDefined()
-    expect(es?.title).not.toBe(getGuide(`/guides/${g}`)?.title)
+    expect(es?.slug).toBe(g)
+    expect(es?.title).toBe(gd?.title)
   }
-  expect(getGuide('/guides/how-to-choose-your-sup', 'en')?.title).toBe(getGuide('/guides/how-to-choose-your-sup')?.title)
+  expect(getGuide('/guides/how-to-choose-a-bench-vise', 'en')?.title).toBe(getGuide('/guides/how-to-choose-a-bench-vise')?.title)
 })
 
 test('research topics: es localization swaps category/readTime labels', () => {
@@ -92,17 +95,17 @@ test('research topics: es localization swaps category/readTime labels', () => {
 
 test('hasLocaleVariant covers registry, faq and sidecar content', () => {
   expect(hasLocaleVariant('/faq', 'es')).toBe(true)
-  expect(hasLocaleVariant('/products/sup-cheetah-surge', 'es')).toBe(true)
-  expect(hasLocaleVariant('/news/drop-stitch-2-0', 'es')).toBe(true)
-  expect(hasLocaleVariant('/technology/military-grade-pvc', 'es')).toBe(true)
-  expect(hasLocaleVariant('/evidence/case-studies/beginner-sup-training', 'es')).toBe(true)
+  expect(hasLocaleVariant('/products/vise-light-4', 'es')).toBe(true)
+  expect(hasLocaleVariant('/news/bench-vise-oem-trends-2026', 'es')).toBe(true)
+  expect(hasLocaleVariant('/technology/sand-casting-process', 'es')).toBe(true)
+  expect(hasLocaleVariant('/evidence/case-studies/german-hardware-brand-oem', 'es')).toBe(true)
   expect(hasLocaleVariant('/products/does-not-exist', 'es')).toBe(false)
 })
 
 test('product-development page: registered EN+ES with structured sections', () => {
   const en = getContentPage('/product-development')
   expect(en).toBeDefined()
-  expect(en!.meta?.title).toContain('SUP Product Development')
+  expect(en!.meta?.title).toContain('Bench Vise Product Development')
   const types = en!.sections.map((s) => s.type)
   expect(types).toContain('hero')
   expect(types).toContain('faqs')
@@ -130,7 +133,7 @@ test('oem-trust-assurance page: registered EN+ES with structured sections', () =
   expect(faqItems).toHaveLength(12)
   expect(faqItems.every((f) => f.q && f.a)).toBe(true)
   const stats = en!.content.trust_stats as { value?: string }[]
-  expect(stats.some((s) => s.value === '18,0 PSI' || s.value === '18.0 PSI')).toBe(true)
+  expect(stats.some((s) => s.value === '7-stage')).toBe(true)
   const esPage = getContentPage('/oem-trust-assurance', 'es')
   expect(esPage).toBeDefined()
   expect(esPage!.meta?.title).toContain('Confianza')
@@ -143,19 +146,19 @@ test('oem-trust-assurance page: registered EN+ES with structured sections', () =
 test('getLocaleContentPaths lists every es sidecar detail path', () => {
   const paths = getLocaleContentPaths('es')
   expect(paths.length).toBeGreaterThanOrEqual(18)
-  expect(paths).toContain('/products/sup-cheetah-surge')
-  expect(paths).toContain('/news/drop-stitch-2-0')
-  expect(paths).toContain('/technology/drop-stitch-core')
-  expect(paths).toContain('/evidence/case-studies/coastal-touring')
+  expect(paths).toContain('/products/vise-light-4')
+  expect(paths).toContain('/news/bench-vise-oem-trends-2026')
+  expect(paths).toContain('/technology/sand-casting-process')
+  expect(paths).toContain('/evidence/case-studies/german-hardware-brand-oem')
   expect(paths.every((p) => /^\/[a-z-]+\//.test(p))).toBe(true)
 })
 
 test('search index: es detail content indexed under /es urls with Spanish copy', () => {
   const es = buildExtendedIndex('es')
-  expect(es.some((e) => e.url === '/es/products/sup-cheetah-surge' && e.title.length > 0)).toBe(true)
-  expect(es.some((e) => e.url === '/es/guides/how-to-choose-your-sup')).toBe(true)
-  expect(es.some((e) => e.url === '/es/news/drop-stitch-2-0')).toBe(true)
-  expect(es.some((e) => e.url === '/es/evidence/case-studies/coastal-touring')).toBe(true)
+  expect(es.some((e) => e.url === '/es/products/vise-light-4' && e.title.length > 0)).toBe(true)
+  expect(es.some((e) => e.url === '/es/guides/how-to-choose-a-bench-vise')).toBe(true)
+  expect(es.some((e) => e.url === '/es/news/bench-vise-oem-trends-2026')).toBe(true)
+  expect(es.some((e) => e.url === '/es/evidence/case-studies/german-hardware-brand-oem')).toBe(true)
   expect(es.filter((e) => e.locale === 'es').length).toBeGreaterThan(10)
 })
 
@@ -167,8 +170,8 @@ test('search index: es index never links bare en urls', () => {
 
 test('search index: en and es twins both present in the full index', () => {
   const urls = new Set(buildFullIndex().map((e) => e.url))
-  expect(urls.has('/products/sup-cheetah-surge')).toBe(true)
-  expect(urls.has('/es/products/sup-cheetah-surge')).toBe(true)
+  expect(urls.has('/products/vise-light-4')).toBe(true)
+  expect(urls.has('/es/products/vise-light-4')).toBe(true)
   expect(urls.has('/faq')).toBe(true)
   expect(urls.has('/es/faq')).toBe(true)
 })

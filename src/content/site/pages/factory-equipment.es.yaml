@@ -1,90 +1,84 @@
 ﻿meta:
-  title: 'Equipo de fábrica: corte, soldadura e impresión'
-  description: 'Equipos de fabricación de grado industrial de Afarer: corte de PVC, soldadura RF, impresión digital, ensamblaje y ensayos para tablas de SUP hinchables.'
-  dateModified: '2026-08'
+  title: 'Equipo de fábrica: fundición, mecanizado y acabado'
+  description: 'Equipos de fabricación de grado industrial de Stavalk: fundición en arena, mecanizado CNC, tratamiento térmico, recubrimiento en polvo, ensamblaje y ensayos para tornillos de banco.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'equipos de fabricación sup'
-    - 'fábrica de sup hinchables'
-    - 'soldadura rf de pvc'
-    - 'producción de paddle boards'
+    - 'equipos de fabricación de tornillos de banco'
+    - 'fábrica de tornillos de banco'
+    - 'fundición en arena de hierro gris'
+    - 'fabricación de tornillos de banco'
 hero:
   tagline: Equipo
   title: Equipos y maquinaria de fabricación
-  subtitle: Equipos de grado industrial en corte, soldadura, impresión y ensamblaje
+  subtitle: Equipos de grado industrial en fundición, mecanizado, acabado y ensamblaje
   back_label: Volver a la fábrica
   back_link: /es/factory
-
-answer:
-  label: 'Respuesta directa'
-  text: 'Nuestra fábrica de 12.500 m² dispone de corte automático controlado por CNC (precisión de 0,1 mm, desperdicio inferior al 5%), termosellado de aire caliente a 200–600 °C más soldadura dieléctrica RF de 15 kW para las costuras principales, prensas de laminación de núcleos drop-stitch de hasta 14 ft, y un laboratorio de control de calidad que prueba la presión de cada cámara, realiza comprobaciones de tracción según ASTM D751 y verifica el pelado de costuras según ISO 6185.'
-  verified: '2026-08'
-
 categories:
-  - title: Corte y preparación de materiales
+  - title: Fundición en arena
     items:
-      - name: Máquina de corte de PVC automática
-        spec: Control CNC, 6,5 m × 2,5 m, precisión de 0,1 mm
-        desc: Máquina de corte automática controlada por ordenador para tejidos de PVC, Hypalon y drop-stitch. El software de anidado optimiza el aprovechamiento del material hasta dejar el desperdicio por debajo del 5%.
-      - name: Extensora de tejido
-        spec: Anchura máxima de 3 m, alimentación con control de tensión
-        desc: Extiende el tejido en una o varias capas con tensión controlada para evitar deformaciones antes del corte.
+      - name: Línea automática de fundición en arena
+        spec: Hierro gris HT200/HT250, colada supervisada
+        desc: Línea de moldeo y colada totalmente automatizada para cuerpos, deslizaderas y bases de tornillos de banco. La química del metal fundido se verifica por colada con análisis espectroquímico antes de la colada.
+      - name: Máquina de granallado
+        spec: Multi-rueda, alimentación por lotes
+        desc: Limpia arena, cascarilla y rebabas de las piezas tras el desmoldeo, preparando las superficies para el mecanizado y el acabado.
 
-  - title: Soldado y unión de tubos
+  - title: Mecanizado y CNC
     items:
-      - name: Máquina de termosellado
-        spec: Soldadura de aire caliente, variable 200–600 °C, 0,5–5 m/min
-        desc: Máquina de termosellado por aire caliente para unir y soldar las costuras de tubos de PVC y Hypalon. Se usa para hilvanar, sellar y fusionar las cámaras de los tubos y las uniones de los flotadores.
-      - name: Prensa dieléctrica RF
-        spec: 15 kW, plato de 2000 × 600 mm
-        desc: Prensas de soldadura por radiofrecuencia para las costuras longitudinales principales, las uniones de espejo a tubo y la fabricación de cámaras grandes.
-      - name: Soldadora RF controlada por CNC
-        spec: 8 kW, mesa XY de 2500 × 1200 mm
-        desc: Soldadura programable de costuras curvas para geometrías complejas, marcado de logotipos y parches de precisión.
+      - name: Centro de mecanizado CNC de 5 ejes
+        spec: '±0,01 mm, husillo refrigerado por agua, recorrido de 3 m × 2 m × 1 m'
+        desc: Mecanizado de precisión de cuerpos, asientos de mordaza y guías de deslizadera en una sola configuración. Cambio de modelo rápido guiado por programa.
+      - name: Torno CNC
+        spec: Torneado de hasta 500 mm de longitud, herramienta motorizada
+        desc: Torneado y roscado de deslizaderas, husillos y ejes de acero forjado 45# con tolerancias de rosca estrictas.
+      - name: Centro de taladrado y roscado CNC
+        spec: Roscado rígido, indexación del cabezal
+        desc: Taladrado y roscado de orificios de pernos de mordaza, puntos de montaje del mango y roscas de mordazas de tubo para juegos de cadena y trípode.
 
-  - title: Fabricación de tablas de SUP
+  - title: Tratamiento térmico y temple
     items:
-      - name: Prensa de laminación de núcleos drop-stitch
-        spec: Prensa de gran formato para núcleos de hasta 14 ft de eslora
-        desc: Laminación de precisión de los núcleos drop-stitch sobre los laminados exteriores de PVC. Cada capa se une a presión para lograr una calidad y resistencia constantes.
-      - name: Fresadora CNC (5 ejes)
-        spec: Recorrido de 3 m × 2 m × 1 m, husillo refrigerado por agua
-        desc: Mecanizado de cajas de quilla, recortes para asas y componentes personalizados de las tablas.
+      - name: Máquina de temple por inducción
+        spec: Alimentación automatizada, potencia programable
+        desc: Temple y revenido por inducción de mordazas GCr15 / Cr12MoV a un 58–62 HRC constante, con distorsión mínima y dureza homogénea en profundidad.
+      - name: Horno de revenido
+        spec: Temperatura controlada, carga por lotes
+        desc: Revenido posterior al temple para aliviar tensiones y estabilizar la dureza de las mordazas en todo el lote.
 
-  - title: Impresión y decoración de SUP
+  - title: Acabado de superficies
     items:
-      - name: Impresora digital
-        spec: Inkjet de alta resolución, anchura de impresión de hasta 2 m
-        desc: Impresión digital directa sobre tejido para los gráficos a todo color de la cubierta del SUP. Imprime patrones personalizados, degradados e imágenes con calidad fotográfica con tintas de base acuosa resistentes a los rayos UV.
-      - name: Máquina de serigrafía
-        spec: Manual y semiautomática, registro multicolor
-        desc: Serigrafía para logotipos, marcas y patrones repetidos de las tablas de SUP. Proporciona impresiones duraderas y opacas con una saturación de color vibrante.
+      - name: Línea de recubrimiento en polvo
+        spec: Electroestática, espesor de película de 60–80 μm
+        desc: Recubrimiento electrostático en polvo multicolor para cuerpos y bases, con curado en horno y verificación del espesor del recubrimiento.
+      - name: Línea de galvanizado en zinc
+        spec: Tambor y cuba, pasivado
+        desc: Galvanizado en zinc de husillos, mordazas, mangos y herraje con acabado brillante y protección anticorrosión de más de 48 h de niebla salina.
 
-  - title: Ensamblaje y aparejo
+  - title: Ensamblaje y ajuste
     items:
-      - name: Estación de ensamblaje de tablas
-        spec: Modular ajustable, disposición de varias estaciones
-        desc: Ensamblaje de cajas de quilla, asas, anillos D, válvulas y cubiertas de espuma sobre las tablas de SUP.
-      - name: Prensa de instalación de válvulas
-        spec: Neumática, presión ajustable
-        desc: Instalación y sellado de precisión de válvulas Halkey-Roberts y Leafield.
-      - name: Laminador de cubierta de espuma
-        spec: 3 m × 1,5 m, temperatura controlada
-        desc: Laminación térmica de las cubiertas de espuma EVA sobre las cubiertas de las tablas de SUP con una resistencia de unión constante.
+      - name: Estación de ensamblaje de platos giratorios y mordazas de tubo
+        spec: Modular ajustable, con control de par
+        desc: Ensamblaje y alineación de platos giratorios y mordazas de tubo (juegos de cadena y trípode) sobre cuerpos mecanizados con fijadores retenidos.
+      - name: Llave dinamométrica neumática
+        spec: Calibrada, rango de par ajustable
+        desc: Apriete con control de par de husillos, bloqueos de plato y pernos de retención de mordazas según especificación.
+      - name: Estación de ajuste y esmerilado de tornillos
+        spec: De banco, herramientas manuales
+        desc: Desbarbado final, ajuste y regulación de apertura/cierre para garantizar un desplazamiento suave y caras de mordaza al ras.
 
   - title: Ensayos y control de calidad
     items:
-      - name: Máquina universal de tracción
-        spec: 50 kN, conforme a ASTM D751
-        desc: Ensayos de fuerza de quiebra, elongación a la rotura y propagación de desgarro para lotes de tejido.
-      - name: Rig de retención de aire
-        spec: Programable, mantenimiento de presión de 30 min
-        desc: Ensayo automatizado de mantenimiento de presión para cada cámara del tubo antes del ensamblaje.
-      - name: Comprobador de pelado de costuras
-        spec: Motorizado, pelado de 180° a 100 mm/min
-        desc: Ensayo de resistencia al pelado de costuras soldadas y encoladas según ISO 6185.
-      - name: Cámara de intemperismo de xenón
-        spec: Exposición de 2000 h
-        desc: Ensayos de resistencia a la luz UV para el cambio de color y la retención de resistencia.
+      - name: Durómetro Rockwell
+        spec: Escala 58–62 HRC, mordazas GCr15 / Cr12MoV
+        desc: Verificación de dureza de cada lote de temple de mordazas tras el tratamiento térmico por inducción.
+      - name: Banco de ensayo de fuerza de sujeción
+        spec: kN/célula de carga, calibrado
+        desc: Medición de la fuerza de sujeción de los tornillos ensamblados frente a la especificación del plano.
+      - name: Comprobador de durabilidad de apertura/cierre
+        spec: Programable, más de 10.000 ciclos
+        desc: Ensayo automático de ciclos de apertura/cierre del husillo y la deslizadera para verificar la durabilidad a largo plazo.
+      - name: Cámara de niebla salina
+        spec: ISO 9227, exposición de más de 48 h
+        desc: Ensayos de corrosión de piezas galvanizadas en zinc y recubiertas en polvo para la cualificación del acabado.
 
 cta:
   title: ¿Le interesa una visita a la fábrica?

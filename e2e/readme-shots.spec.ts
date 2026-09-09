@@ -13,14 +13,14 @@ import { execSync } from 'node:child_process'
  *   pnpm exec playwright test e2e/readme-shots.spec.ts
  *
  * Auth mirrors admin-users.spec.ts: sign up admin@example.com (in ADMIN_EMAILS
- * → admin role), mark it verified in the local D1, sign in.
+ * 鈫?admin role), mark it verified in the local D1, sign in.
  */
 
 const ADMIN = { email: 'admin@example.com', password: 'password12345', name: 'Admin' }
 const OUT = 'e2e/screenshots/readme'
 
 function d1(command: string) {
-  execSync(`npx wrangler d1 execute supsfactory-db --local --command "${command}"`, {
+  execSync(`npx wrangler d1 execute Stavalk-db --local --command "${command}"`, {
     stdio: 'ignore',
   })
 }
@@ -49,7 +49,7 @@ test('README preview shots (dark, full page)', async ({ page, context, baseURL }
   ]
 
   for (const [path, file] of shots) {
-    // 'networkidle' never settles under the vite dev HMR websocket — use load
+    // 'networkidle' never settles under the vite dev HMR websocket 鈥?use load
     // + a fixed pause for entrance motion instead.
     await page.goto(path, { waitUntil: 'domcontentloaded' })
     await expect(page.locator('html')).toHaveClass(/dark/)

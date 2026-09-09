@@ -1,90 +1,84 @@
-meta:
-  title: 'Équipement d''usine — Découpe, soudage et impression'
-  description: 'Équipements de fabrication industriels Afarer : découpe PVC, soudure RF, impression numérique, assemblage et essais pour planches de SUP gonflables.'
-  dateModified: '2026-08'
+﻿meta:
+  title: 'Équipement d''usine — Fonderie, usinage et finition'
+  description: 'Équipements de fabrication industriels Stavalk : fonderie au sable, usinage CNC, traitement thermique, revêtement par poudre, assemblage et essais pour étaux d''établi.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'équipement de fabrication sup'
-    - 'usine sup gonflable'
-    - 'soudure rf pvc'
-    - 'production planches à pagaie'
+    - 'équipement de fabrication d''étaux'
+    - 'usine d''étaux'
+    - 'fonderie au sable fonte grise'
+    - 'fabrication d''étaux'
 hero:
   tagline: Équipement
   title: Équipements et machines de fabrication
-  subtitle: 'Équipements de qualité industrielle pour la découpe, le soudage, l''impression et l''assemblage'
+  subtitle: 'Équipements de qualité industrielle pour la fonderie, l''usinage, la finition et l''assemblage'
   back_label: Retour à l'usine
   back_link: /fr/factory
-
-answer:
-  label: 'Réponse directe'
-  text: 'Notre usine de 12 500 m² exploite une découpe automatique contrôlée par CNC (précision 0,1 mm, moins de 5 % de gaspillage), un thermoscellage à l''air chaud de 200–600 °C plus un soudage diélectrique RF de 15 kW pour les coutures principales, des presses de lamination de noyau drop-stitch jusqu''à 14 ft, et un laboratoire QC qui teste en pression chaque chambre, avec des contrôles de traction ASTM D751 et une vérification de pelage de couture ISO 6185.'
-  verified: '2026-08'
-
 categories:
-  - title: Découpe et préparation des matériaux
+  - title: Fonderie au sable
     items:
-      - name: Machine de découpe PVC automatique
-        spec: Contrôlée par CNC, 6,5 m × 2,5 m, précision 0,1 mm
-        desc: Machine de découpe automatique contrôlée par ordinateur pour les tissus PVC, Hypalon et drop-stitch. Le logiciel de placement optimise l'utilisation de la matière à moins de 5 % de gaspillage.
-      - name: Étaleur de tissu
-        spec: Largeur max 3 m, alimentation à tension contrôlée
-        desc: Place le tissu en une ou plusieurs épaisseurs avec une tension contrôlée pour éviter la déformation avant découpe.
+      - name: Ligne automatique de fonderie au sable
+        spec: Fonte grise HT200/HT250, coulée surveillée
+        desc: Ligne de moulage et de coulée entièrement automatisée pour les corps, coulisseaux et bases d'étaux. La chimie du métal est vérifiée par coulée par analyse spectrométrique avant la coulée.
+      - name: Machine de grenaillage
+        spec: Multi-turbines, alimentation par lots
+        desc: Nettoie le sable, la calamine et les bavures des pièces après décochage, préparant les surfaces pour l'usinage et la finition.
 
-  - title: Soudage et assemblage de tubes
+  - title: Usinage et CNC
     items:
-      - name: Machine de thermoscellage
-        spec: Soudure à l'air chaud, variable 200–600 °C, 0,5–5 m/min
-        desc: Machine de thermoscellage à l'air chaud pour lier et souder les coutures de tubes PVC et Hypalon. Utilisée pour le pointage, le scellage et la fusion des chambres de tubes et des joints flottants.
-      - name: Presse diélectrique RF
-        spec: 15 kW, plateau 2000 × 600 mm
-        desc: Presse de soudage par radiofréquence pour les coutures longitudinales principales, les joints barre-chambres et la fabrication de grandes chambres.
-      - name: Soudeuse RF contrôlée par CNC
-        spec: 8 kW, table XY 2500 × 1200 mm
-        desc: Soudage de coutures courbes programmable pour les géométries complexes, le gaufrage de logos et l'applique de précision.
+      - name: Centre d'usinage CNC 5 axes
+        spec: '±0,01 mm, broche refroidie par eau, enveloppe 3 m × 2 m × 1 m'
+        desc: Usinage de précision des corps, logements de mâchoires et glissières en une seule configuration. Changement de modèle rapide piloté par programme.
+      - name: Tour CNC
+        spec: Tournage jusqu'à 500 mm de longueur, outillage motorisé
+        desc: Tournage et filetage des coulisseaux, vis et axes en acier forgé 45# avec des tolérances de filetage serrées.
+      - name: Centre de perçage et de filetage CNC
+        spec: Taraudage rigide, indexation de la poupée
+        desc: Perçage et taraudage des trous de boulons de mâchoires, des points de montage des poignées et des filetages de mâchoires pour tuyaux pour les jeux chaîne et trépied.
 
-  - title: Fabrication de planches de SUP
+  - title: Traitement thermique et trempe
     items:
-      - name: Presse de lamination de noyau drop-stitch
-        spec: Presse grand format pour noyaux de planches jusqu'à 14 ft LOA
-        desc: Lamination de précision des noyaux drop-stitch sur les laminés PVC extérieurs. Chaque couche est liée sous pression pour une qualité et une résistance constantes.
-      - name: Défonceuse CNC (5 axes)
-        spec: Enveloppe 3 m × 2 m × 1 m, broche refroidie par eau
-        desc: Usinage des boîtiers d'ailerons, des découpes de poignées et des composants de planches personnalisés.
+      - name: Machine de trempe par induction
+        spec: Alimentation automatisée, puissance programmable
+        desc: Trempe et revenu par induction des mâchoires GCr15 / Cr12MoV à une valeur constante de 58–62 HRC avec une distorsion minimale et une dureté homogène en profondeur.
+      - name: Four de revenu
+        spec: Température contrôlée, charge par lots
+        desc: Revenu après trempe pour soulager les contraintes et stabiliser la dureté des mâchoires dans tout le lot.
 
-  - title: Impression et décoration de SUP
+  - title: Finition des surfaces
     items:
-      - name: Imprimante numérique
-        spec: Jet d'encre haute résolution, largeur d'impression jusqu'à 2 m
-        desc: Impression numérique directe sur tissu pour les graphismes de pont SUP pleine couleur. Imprime des motifs personnalisés, des dégradés et des images de qualité photo avec des encres à base d'eau résistantes aux UV.
-      - name: Machine de sérigraphie
-        spec: Manuelle et semi-automatique, alignement multicolore
-        desc: Sérigraphie pour les logos, marques et motifs répétitifs des planches SUP. Produit des impressions durables et opaques avec une saturation de couleur éclatante.
+      - name: Ligne de revêtement par poudre
+        spec: Électrostatique, épaisseur de film 60–80 μm
+        desc: Revêtement par poudre électrostatique multicolore pour les corps et bases, avec cuisson au four et vérification de l'épaisseur du revêtement.
+      - name: Ligne de zingage
+        spec: Tambour et cuve, passivation
+        desc: Zingage des vis, mâchoires, poignées et quincaillerie avec finition brillante et protection anticorrosion +48 h de brouillard salin.
 
   - title: Assemblage et équipement
     items:
-      - name: Poste d'assemblage de planches
-        spec: Modulaire réglable, agencement multi-postes
-        desc: Assemblage des boîtiers d'ailerons, poignées, anneaux en D, valves et tapis de pont sur les planches de SUP.
-      - name: Presse d'installation de valves
-        spec: Pneumatique, pression réglable
-        desc: Installation et scellage de précision des valves Halkey-Roberts et Leafield.
-      - name: Lamineuse de tapis de pont
-        spec: 3 m × 1,5 m, température contrôlée
-        desc: Lamination thermique des tapis de pont en mousse EVA sur le dessus des planches SUP avec une force de liaison constante.
+      - name: Poste d'assemblage de base pivotante et mâchoires pour tuyaux
+        spec: Modulaire réglable, à couple contrôlé
+        desc: Assemblage et alignement des bases pivotantes et mâchoires pour tuyaux (jeux chaîne et trépied) sur les corps usinés avec fixations retenues.
+      - name: Clé dynamométrique pneumatique
+        spec: Calibrée, plage de couple réglable
+        desc: Serrage à couple contrôlé des vis, verrous de pivot et boulons de retenue des mâchoires selon la spécification.
+      - name: Poste d'ajustage et de meulage des étaux
+        spec: Sur établi, outils à main
+        desc: Ébavurage final, ajustage et réglage d'ouverture/fermeture pour garantir une course fluide et des faces de mâchoires affleurantes.
 
-  - title: Essais et contrôle de la qualité
+  - title: Essais et contrôle qualité
     items:
-      - name: Testeur de traction universel
-        spec: 50 kN, / ASTM D751
-        desc: Tests de force de rupture, d'allongement à la rupture et de propagation de déchirure pour les lots de tissus.
-      - name: Banc de test de rétention d'air
-        spec: Programmables, maintien de pression de 30 min
-        desc: Test automatisé de maintien de pression pour chaque chambre de tube avant assemblage.
-      - name: Testeur de pelage de couture
-        spec: Pelage 180° motorisé à 100 mm/min
-        desc: Test de résistance au pelage des soudures et des coutures collées selon ISO 6185.
-      - name: Chambre de vieillissement au xénon-arc
-        spec: Exposition 2000 h
-        desc: Test de résistance aux UV pour le changement de couleur et la conservation de la résistance.
+      - name: Duromètre Rockwell
+        spec: Échelle 58–62 HRC, mâchoires GCr15 / Cr12MoV
+        desc: Vérification de la dureté de chaque lot de trempe des mâchoires après traitement thermique par induction.
+      - name: Banc de test de force de serrage
+        spec: kN/capteur de charge, calibré
+        desc: Mesure de la force de serrage des étaux assemblés par rapport à la spécification du plan.
+      - name: Testeur de durabilité ouverture/fermeture
+        spec: Programmable, +10 000 cycles
+        desc: Test automatisé des cycles d'ouverture/fermeture de la vis et du coulisseau pour vérifier la durabilité à long terme.
+      - name: Chambre de brouillard salin
+        spec: ISO 9227, exposition +48 h
+        desc: Essais de corrosion des pièces zinguées et revêtues par poudre pour la qualification de la finition.
 
 cta:
   title: Intéressé par une visite d'usine ?

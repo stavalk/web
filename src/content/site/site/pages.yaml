@@ -1,4 +1,4 @@
-- slug: home
+﻿- slug: home
   label: Home
   path: /
   permalink: /
@@ -13,10 +13,10 @@
     - { key: faqs, type: faqs, label: 'FAQs (5 key questions)' }
     - { key: cta, type: cta, label: 'Bottom CTA Section' }
 
-- slug: about-afarer
-  label: About Afarer
-  path: /about/afarer
-  permalink: /about/afarer
+- slug: about-stavalk
+  label: About Stavalk
+  path: /about/stavalk
+  permalink: /about/stavalk
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -206,23 +206,11 @@
     - { key: nc_pillars, type: features, label: 'Buyer Trust Pillars' }
     - { key: nc_photos, type: features, label: 'Factory Floor Photos' }
     - { key: nc_severity, type: table, label: 'Severity & Disposition Authority' }
-    - { key: nc_matrix, type: table, label: 'SUP Defect Disposition Matrix' }
+    - { key: nc_matrix, type: table, label: 'Defect Disposition Matrix' }
     - { key: nc_scrap, type: content, label: 'Witnessed Destruction Protocol' }
     - { key: nc_downloads, type: features, label: 'QMS Document Downloads' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: fishing
-  label: Fishing
-  path: /fishing
-  permalink: /fishing
-  sections:
-    - { key: label, type: content, label: 'Page Label' }
-    - { key: headline, type: content, label: 'Headline' }
-    - { key: subtitle, type: content, label: 'Subtitle' }
-    - { key: seo, type: content, label: 'SEO Metadata' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: body, type: content, label: 'Body Content' }
 
 - slug: gallery
   label: Gallery
@@ -232,18 +220,6 @@
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: albums, type: features, label: 'Photo Albums' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: inflatable-vs-hardboard
-  label: Inflatable vs Hardboard
-  path: /inflatable-vs-hardboard
-  permalink: /inflatable-vs-hardboard
-  sections:
-    - { key: label, type: content, label: 'Page Label' }
-    - { key: headline, type: content, label: 'Headline' }
-    - { key: subtitle, type: content, label: 'Subtitle' }
-    - { key: seo, type: content, label: 'SEO Metadata' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: body, type: content, label: 'Body Content' }
 
 - slug: knowledge
   label: Knowledge
@@ -270,29 +246,12 @@
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: answer, type: answer, label: 'Direct Answer' }
-    - { key: moq_principle, type: content, label: 'Engineering Logic: 150m Roll' }
+    - { key: moq_principle, type: content, label: 'Engineering Logic: Knuckle & Casting Setup' }
     - { key: moq_tiers, type: features, label: 'Volume OEM vs Co-Branding Cards' }
-    - { key: moq_fees, type: table, label: 'Transparent Screen-Printing Fees' }
+    - { key: moq_fees, type: table, label: 'Transparent Branding-Fee Table' }
     - { key: moq_stages, type: steps, label: 'Sample / Pilot / Volume Stages' }
     - { key: moq_factors, type: table, label: 'MOQ Drivers Table' }
     - { key: moq_downloads, type: features, label: 'Official PDF Downloads' }
-    - { key: moq_faqs, type: faqs, label: 'FAQs' }
-    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: sup-oem-moq-lead-time
-  label: Custom SUP MOQ & Lead Time
-  path: /sup-oem-moq-lead-time
-  permalink: /sup-oem-moq-lead-time
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: answer, type: answer, label: 'Direct Answer' }
-    - { key: moq_lead_table, type: table, label: 'MOQ & Lead Time Tiers Table' }
-    - { key: moq_drivers, type: features, label: 'Six MOQ Drivers' }
-    - { key: moq_timeline, type: steps, label: 'End-to-End Timeline' }
-    - { key: expedite, type: features, label: 'Lead-Time Levers' }
-    - { key: scenarios, type: features, label: 'Three Entry-Point Scenarios' }
-    - { key: moq_quality, type: features, label: 'QC & Compliance Cards' }
     - { key: moq_faqs, type: faqs, label: 'FAQs' }
     - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
@@ -354,34 +313,6 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: oem-sup-moq
-  label: Inflatable SUP MOQ Explained
-  path: /oem-sup-moq
-  permalink: /oem-sup-moq
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: direct_answer, type: answer, label: 'Direct Answer' }
-    - { key: decision_tree, type: content, label: 'MOQ Decision Tree' }
-    - { key: material_roll, type: content, label: 'Material Roll Explanation' }
-    - { key: tiers, type: content, label: 'Co-branding vs Pilot vs Volume' }
-    - { key: custom_mould, type: content, label: 'Custom Mould MOQ' }
-    - { key: samples, type: content, label: 'Sample Orders' }
-    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: inflatable-sup-certification
-  label: Inflatable SUP Certification Guide
-  path: /inflatable-sup-certification
-  permalink: /inflatable-sup-certification
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: direct_answer, type: answer, label: 'Direct Answer' }
-    - { key: details, type: content, label: 'Certification Details' }
-    - { key: scope_notes, type: content, label: 'Scope Notes' }
-    - { key: request, type: content, label: 'How to Request Documents' }
-    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
 - slug: randdcenter
   label: R&D Center
   path: /randdcenter
@@ -426,18 +357,6 @@
     - { key: sections, type: features, label: 'Technology Sections' }
     - { key: related, type: content, label: 'Related Content' }
 
-- slug: tourism-recreation
-  label: Tourism & Recreation
-  path: /tourism-recreation
-  permalink: /tourism-recreation
-  sections:
-    - { key: label, type: content, label: 'Page Label' }
-    - { key: headline, type: content, label: 'Headline' }
-    - { key: subtitle, type: content, label: 'Subtitle' }
-    - { key: seo, type: content, label: 'SEO Metadata' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: body, type: content, label: 'Body Content' }
-
 - slug: warranty
   label: Warranty
   path: /warranty
@@ -448,18 +367,6 @@
     - { key: subtitle, type: content, label: 'Subtitle' }
     - { key: seo, type: content, label: 'SEO Metadata' }
     - { key: body, type: content, label: 'Body Content' }
-
-- slug: what-is-sup
-  label: What is SUP
-  path: /what-is-sup
-  permalink: /what-is-sup
-  sections:
-    - { key: label, type: content, label: 'Page Label' }
-    - { key: headline, type: content, label: 'Headline' }
-    - { key: subtitle, type: content, label: 'Subtitle' }
-    - { key: seo, type: content, label: 'SEO Metadata' }
-    - { key: body, type: content, label: 'Body Content' }
-    - { key: content_html, type: html, label: 'CTA Block' }
 
 - slug: oem-odm-private-label-comparison
   label: OEM vs ODM vs Private Label Comparison
@@ -474,19 +381,6 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: start-sup-project
-  label: Start Your SUP Project
-  path: /start-sup-project
-  permalink: /start-sup-project
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: answer, type: answer, label: 'What Happens Next' }
-    - { key: process_steps, type: steps, label: 'Process Steps' }
-    - { key: collaboration_types, type: features, label: 'Collaboration Types' }
-    - { key: what_we_need, type: content, label: 'What to Prepare' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
 - slug: oem-onboarding-guide
   label: OEM Onboarding Guide
   path: /oem-onboarding-guide
@@ -498,32 +392,6 @@
     - { key: collaboration_modes, type: features, label: 'Collaboration Modes' }
     - { key: checklist, type: content, label: 'Pre-Brief Checklist' }
     - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: sup-construction-comparison
-  label: SUP Construction Comparison
-  path: /sup-construction-comparison
-  permalink: /sup-construction-comparison
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: answer, type: answer, label: 'Quick Comparison' }
-    - { key: comparison_table, type: table, label: 'Construction Comparison Table' }
-    - { key: use_cases, type: features, label: 'Use Cases by Construction' }
-    - { key: key_factors, type: content, label: 'Key Factors' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
-- slug: sup-compliance-by-market
-  label: SUP Compliance by Market
-  path: /sup-compliance-by-market
-  permalink: /sup-compliance-by-market
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: answer, type: answer, label: 'Quick Answer' }
-    - { key: market_cards, type: features, label: 'Market Compliance Cards' }
-    - { key: certifications_detail, type: content, label: 'Certifications Detail' }
-    - { key: compliance_process, type: features, label: 'Compliance in Onboarding' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 

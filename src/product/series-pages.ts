@@ -2,20 +2,16 @@ import type { Locale } from '@/features/i18n/locale'
 import type { Localized } from './content'
 
 /**
- * Series-level platform pages (/products/{series}).
+ * Series-level product pages (/products/{series}).
  *
- * Nine manufacturing-platform categories (all-around → multi-person), each
- * targeting a buyer-facing long-tail query ("custom fishing SUP boards",
- * "inflatable touring SUP manufacturer", …). The pages aggregate every
- * product of the series, add series-level B2B context (MOQ, lead time,
- * customization) and funnel to /contact with the series prefilled.
- *
- * Facts referenced in the FAQ answers stay in sync with FACTS (moq tiers,
- * sample/production lead times, QC points) — keep them identical.
+ * Five bench vise manufacturing categories, each targeting buyer-facing
+ * long-tail queries ("custom heavy-duty bench vise OEM", "private label pipe
+ * vise manufacturer", etc.). The pages aggregate every product of the series,
+ * add series-level B2B context (MOQ, lead time, customization) and funnel
+ * to /contact with the series prefilled.
  */
 
 export interface SeriesPageData {
-  /** Product-series key, must match productFilters groups. */
   slug: string
   navLabel: string
   metaTitle: string
@@ -29,747 +25,471 @@ export interface SeriesPageData {
 export const seriesPages: Localized<SeriesPageData[]> = {
   en: [
     {
-      slug: 'all-around',
-      navLabel: 'All-Around Platforms',
-      metaTitle: 'Custom All-Around SUP Boards — Inflatable OEM Manufacturer | SUPsfactory',
+      slug: 'light-duty',
+      navLabel: 'Light-Duty Vises',
+      metaTitle: 'Custom Light-Duty Bench Vises — OEM Manufacturer | Stavalk',
       metaDescription:
-        'Custom all-around inflatable SUP boards manufactured under your brand — wide-body stability, OEM/ODM volume from 90–100+ pcs, samples in 7–12 days. Factory direct from Qingdao, China.',
-      kicker: 'Series · All-Around',
-      h1: 'Custom All-Around SUP Boards — The Default Starting Platform For New Brands',
+        'Custom light-duty bench vises manufactured under your brand — 4″-5″ jaw, 1200-1500 lbs clamping force, OEM/ODM volume from 50-200 pcs. Factory direct from Qingdao, China.',
+      kicker: 'Series · Light-Duty',
+      h1: 'Custom Light-Duty Bench Vises — Compact Vises for Hobbyists and DIY',
       intro: [
-        'The all-around board is the workhorse of the SUP category: wide enough to feel stable for beginners, agile enough to keep intermediates interested, and light enough to carry anywhere. Most new brands and most rental fleets start here.',
-        'We manufacture all-around platforms under your brand from 90–100+ pcs per 150 m roll (volume), with pilot runs from 20–50 pcs. Shape, rails, layup, colors, full-board graphics and packaging are specified per project.',
+        'Light-duty bench vises are the entry point for hobbyists, home workshops and DIY enthusiasts: compact 4″-5″ jaw widths, 1200-1500 lbs clamping force, and 360° swivel bases that handle a wide range of light clamping tasks — woodworking, electronics assembly, craft projects, and light metalwork.',
+        'We manufacture light-duty vises under your brand from 50-200 pcs per model, with sample units available in 7-14 days. Body casting (HT200 gray cast iron), jaw inserts, handle style, swivel base, finish and packaging are specified per project.',
       ],
       faqs: [
         {
-          q: 'Can I customize an all-around SUP board for my brand?',
-          a: 'Yes. Every all-around platform is a manufacturing base — you specify dimensions (commonly 10′6″ to 11′6″), width, thickness, layup (single/dual-layer or fusion), rail configuration, EVA pad, full-board graphics and packaging. Custom-mould shapes start at 90–100+ pcs per shape; standard volume production from 90–100+ pcs per 150 m roll.',
+          q: 'Can I customize a light-duty bench vise for my brand?',
+          a: 'Yes. Every light-duty vise is a manufacturing base — you specify jaw width (4″ or 5″), jaw face pattern (serrated or smooth), body color, handle style (sliding T-handle or Tommy bar), swivel base angle, logo placement (laser engraving, casting mark or label) and packaging. Custom tooling runs from 200+ pcs; standard models from 50 pcs.',
         },
         {
-          q: 'What is the MOQ for all-around SUP boards?',
-          a: 'Standard volume batches start at 90–100+ pcs per 150 m roll; pilot runs on standard platforms start at 20–50 pcs; full custom-moulding runs from 90–100+ pcs per shape. Samples ship in 7–12 days and bulk production runs 25–35 days after confirmed PO and deposit.',
+          q: 'What is the MOQ for light-duty bench vises?',
+          a: 'Standard models start from 50 pcs; custom-tooling runs from 200+ pcs per model. Samples ship in 7-14 days and bulk production runs 25-35 days after confirmed PO and deposit.',
         },
         {
-          q: 'What does the retail-ready package include?',
-          a: 'The complete package: inflatable board with drop-stitch core, adjustable paddle, hand pump (or electric dual-stage), repair kit, carry backpack and printed carton. Accessories can be swapped or upgraded per your target market.',
+          q: 'What materials are used in light-duty vises?',
+          a: 'HT200 gray cast iron bodies with hardened steel jaw inserts (58-62 HRC). Swivel bases are cast iron with chrome-plated locking handles. Powder coat or spray paint finishes in your brand color.',
         },
         {
-          q: 'What EVA deck hardness do you manufacture?',
-          a: 'Deck traction pads run 45–55 Shore C — medium-soft, grip-friendly underfoot without hardening in the sun. Thickness, grooves, cutouts and logo placement are specified per project.',
+          q: 'What certifications do your light-duty vises carry?',
+          a: 'CE marking, ISO 9001:2015 quality management, and RoHS compliance. Product testing includes jaw hardness verification, clamping force testing and cyclic durability testing (10,000+ open/close cycles).',
         },
       ],
     },
     {
-      slug: 'race',
-      navLabel: 'Race Platforms',
-      metaTitle: 'Custom Race SUP Boards — Inflatable Racing Platforms OEM | SUPsfactory',
+      slug: 'medium-duty',
+      navLabel: 'Medium-Duty Vises',
+      metaTitle: 'Custom Medium-Duty Bench Vises — Workshop OEM | Stavalk',
       metaDescription:
-        'Custom inflatable race SUP boards for clubs, events and brands — drop-stitch racing hulls, OEM volume from 90–100+ pcs, CE-certified production. Factory direct.',
-      kicker: 'Series · Race',
-      h1: 'Custom Race SUP Boards — Racing Hulls Manufactured For Your Brand',
+        'Custom medium-duty bench vises for workshops, auto repair and fabrication — 6″-8″ jaw, 3000-4000 lbs clamping force, hardened jaws, OEM volume from 50-200 pcs.',
+      kicker: 'Series · Medium-Duty',
+      h1: 'Custom Medium-Duty Bench Vises — Workshop Vises for General Metalworking',
       intro: [
-        'Race boards trade stability for speed: longer, narrower profiles with refined nose shapes and low rocker, built for displacement paddling. The inflatable versions match hard-board race performance within a portable platform.',
-        'We produce race platforms for brands, clubs and event organizers with precision drop-stitch cores, race-spec layups and speed-oriented hull shapes — statistic-tested in our hydrodynamic test tank.',
+        'Medium-duty vises are the workhorse of the workshop: 6″-8″ jaw widths, 3000-4000 lbs clamping force, replaceable hardened jaw faces and optional pipe jaws for round stock. They serve auto repair shops, general fabrication, metalworking and maintenance operations.',
+        'We manufacture medium-duty platforms under your brand from 50-200 pcs per model, with HT250 gray cast iron bodies, precision-ground jaw faces and optional pipe jaw inserts for round workpieces.',
       ],
       faqs: [
         {
-          q: 'What race SUP dimensions can you manufacture?',
-          a: 'Typical race platforms range from 12′6″ × 28″ for 12′6 race classes to 14′ × 23″–25″ for unlimited/Touring race formats. Width, rocker and nose profiles are specified to the target racer group and verified on a physical sample.',
+          q: 'What jaw configurations are available?',
+          a: 'Standard 6″ and 8″ jaw widths with flat serrated jaws and optional pipe jaw inserts (1/2″-3″ pipe capacity). Jaw faces are hardened to 58-62 HRC and replaceable — your customers can refresh the gripping surface without replacing the whole vise.',
         },
         {
-          q: 'Do race boards require special construction?',
-          a: 'Yes — race boards use a lighter, tightly woven drop-stitch core with higher psi (18–20 PSI) and stiffer rail reinforcement to hold hull shape at speed. Layup choices (single vs double-layer) trade weight against stiffness, which we specify with you per project.',
+          q: 'Can I specify the swivel base angle?',
+          a: 'Yes. Standard 360° swivel with positive-locking handle, or fixed base for applications that don\'t need rotation. Base locking mechanism, handle length and knob style are all specifiable.',
         },
         {
-          q: 'Can clubs order race boards for their team?',
-          a: 'Yes. Club and team programs order from 90–100+ pcs (volume) with club graphics, and can mix race and training platforms in one order. Fleet pricing applies to combined volumes.',
+          q: 'What is the MOQ for medium-duty vises?',
+          a: 'Standard models from 50 pcs; custom-tooling runs from 200+ pcs per model. Samples ship in 7-14 days and bulk production runs 25-35 days after confirmed PO and deposit.',
+        },
+        {
+          q: 'What makes your medium-duty vises suitable for auto repair?',
+          a: 'High clamping force (3000-4000 lbs), replaceable hardened jaw faces for gripping irregular parts, pipe jaw inserts for round tubing and a wide anvil surface for light hammering. Reinforced swivel base handles directional clamping forces common in auto repair.',
         },
       ],
     },
     {
-      slug: 'surf',
-      navLabel: 'Surf Platforms',
-      metaTitle: 'Custom Surf SUP Boards — Inflatable Hybrid Surf Platforms OEM | SUPsfactory',
+      slug: 'heavy-duty',
+      navLabel: 'Heavy-Duty Vises',
+      metaTitle: 'Custom Heavy-Duty Bench Vises — Industrial OEM | Stavalk',
       metaDescription:
-        'Custom inflatable surf SUP boards — hybrid surf profiles with rounded rails and raised rocker, manufactured under your brand from 90–100+ pcs in Qingdao, China.',
-      kicker: 'Series · Surf',
-      h1: 'Custom Surf SUP Boards — Hybrid Surf Platforms For Wave Riding',
+        'Custom heavy-duty bench vises for industrial fabrication, mining and shipbuilding — 8″-10″ jaw, 6000-8000 lbs force, forged steel, OEM volume from 20-50 pcs.',
+      kicker: 'Series · Heavy-Duty',
+      h1: 'Custom Heavy-Duty Bench Vises — Industrial-Grade Clamping for Extreme Applications',
       intro: [
-        'Surf SUP boards bring wave performance to a portable platform: shorter lengths, higher rocker, rounded rails and concave noses that hold a line on the face of a wave. Inflatable surf shapes are the most forgiving way to introduce surf paddling.',
-        'We manufacture surf platforms under your brand with wave-specific shaping and construction details — from soft-top style complete packages to performance layups.',
+        'Heavy-duty vises are built for the toughest jobs: 8″-10″ jaw widths, 6000-8000 lbs clamping force, forged carbon steel bodies and replaceable hardened jaw inserts. They serve heavy fabrication shops, mining equipment maintenance, shipyards and steel structure fabrication.',
+        'We manufacture heavy-duty vises under your brand from 20-50 pcs per model, with forged 45# carbon steel bodies, anvil surfaces for hammering and corrosion-resistant coatings for harsh environments.',
       ],
       faqs: [
         {
-          q: 'What sizes are available for surf SUP boards?',
-          a: 'Common surf platforms run 8′6″ to 10′6″ with widths around 30″–34″. Length, rocker and rail profile are specified per rider weight and wave type, and verified on a physical sample before production.',
+          q: 'What is the difference between cast iron and forged steel vises?',
+          a: 'Forged steel (45# carbon steel) vises offer significantly higher tensile strength and impact resistance than cast iron — essential for heavy-duty applications where extreme clamping forces and shock loads are common. Forged bodies resist cracking under overload.',
         },
         {
-          q: 'Are inflatable surf boards durable enough for rental?',
-          a: 'With reinforced rails and UV-resistant PVC, our surf platforms handle rental and instructional use at surf schools. Rental fleets typically combine all-around and surf shapes — fleet pricing applies across the mixed volume.',
+          q: 'Can heavy-duty vises be customized for specific industries?',
+          a: 'Yes. Mining, shipyard and heavy fabrication customers specify jaw width, anvil shape, corrosion-resistant coatings, handle length and branding. We also produce vises with extended throat depth for deep-reach clamping.',
         },
         {
-          q: 'Can you match our brand graphics on surf boards?',
-          a: 'Yes. Full-board deck graphics, bottom art, EVA traction pads and packaging are produced from your artwork or developed from your brand assets by our design team.',
+          q: 'What is the MOQ for heavy-duty vises?',
+          a: 'From 20 pcs per model for standard heavy-duty units; custom-tooling runs from 50+ pcs. Samples ship in 7-14 days and production runs 25-35 days after confirmed PO.',
+        },
+        {
+          q: 'How durable are heavy-duty vises under daily industrial use?',
+          a: 'Our heavy-duty vises pass cyclic durability testing (10,000+ open/close cycles), salt spray corrosion testing (48+ hours) and clamping force verification at 120% of rated capacity. Replaceable jaw inserts extend service life significantly.',
         },
       ],
     },
     {
-      slug: 'touring',
-      navLabel: 'Touring Platforms',
-      metaTitle: 'Custom Touring SUP Boards — Long-Distance Platforms OEM | SUPsfactory',
+      slug: 'pipe',
+      navLabel: 'Pipe Vises',
+      metaTitle: 'Custom Pipe Vises — Chain & Tripod OEM | Stavalk',
       metaDescription:
-        'Custom inflatable touring SUP boards for long-distance paddling — 12′6″+ displacement hulls, multi-day trip capability, OEM volume from 90–100+ pcs, factory direct.',
-      kicker: 'Series · Touring',
-      h1: 'Custom Touring SUP Boards — Built For Distance, Carrying Loads, Covering Ground',
+        'Custom pipe vises for plumbing, pipe fitting and oil & gas — chain and tripod styles, 1/4″-6″ pipe capacity, serrated V-jaws, OEM volume from 20-100 pcs.',
+      kicker: 'Series · Pipe Vises',
+      h1: 'Custom Pipe Vises — Specialized Workholding for Pipe Fitting',
       intro: [
-        'Touring boards are long and efficient: pointed noses for glide, moderate volume for stability on open water, and enough hull length to carry gear on multi-day trips. They are the platform of choice for distance paddlers and expedition outfitters.',
-        'We produce touring platforms under your brand with displacement shaping, attachment points and deck space for cargo, and carbon-compatible accessory ecosystems (bungees, D-rings, mounts).',
+        'Pipe vises are purpose-built for gripping round pipe and tubing: chain-style for bench mounting and heavy pipe work, tripod-style for portable and field use. Serrated V-jaws hold pipe securely without crushing, and quick-release mechanisms speed up repositioning.',
+        'We manufacture pipe vises under your brand in chain and tripod configurations, covering 1/4″ to 6″ pipe capacity for plumbing, HVAC, oil & gas and fire protection applications.',
       ],
       faqs: [
         {
-          q: 'What touring SUP sizes do you manufacture?',
-          a: 'Touring platforms typically run 12′6″ to 14′ with widths of 28″–32″. Longer 14′ hulls prioritize glide; wider versions add cargo stability. Specs are confirmed with a physical sample before bulk production.',
+          q: 'What is the difference between chain pipe vises and tripod pipe vises?',
+          a: 'Chain pipe vises mount to a bench or stand and use a chain-and-screw mechanism for maximum holding power — ideal for heavy pipe and repeated use in shops. Tripod pipe vises are freestanding and portable — preferred for field work, job sites and mobile pipe fitting.',
         },
         {
-          q: 'Do touring boards come with cargo and attachment options?',
-          a: 'Yes — bungee cargo nets, D-ring grids, rod mounts and accessory track systems are specified per project. Touring packages commonly pair boards with backpack-style bags and high-pressure pumps.',
+          q: 'What pipe sizes can your vises handle?',
+          a: 'Standard models cover 1/4″ to 6″ pipe capacity across multiple vise sizes. Jaw geometry and chain length are matched to the target pipe range. Custom capacities for larger or smaller pipe are available.',
         },
         {
-          q: 'Do you supply touring boards for outfitters and rental operators?',
-          a: 'Yes. Outfitters and operators can run dedicated touring fleets from 20–50 pcs (pilot) with fleet pricing, replacement parts and a defined seasonal refresh cycle.',
+          q: 'Can pipe vises be branded with our logo?',
+          a: 'Yes. Logo laser engraving, casting marks, color-matched powder coating and branded packaging are standard customization options. Tripod legs can be color-coded per your brand palette.',
+        },
+        {
+          q: 'What is the MOQ for pipe vises?',
+          a: 'Chain pipe vises from 20 pcs; tripod pipe vises from 50 pcs. Samples in 7-14 days, production in 25-35 days after confirmed PO.',
         },
       ],
     },
     {
-      slug: 'yoga',
-      navLabel: 'Yoga Platforms',
-      metaTitle: 'Custom Yoga SUP Boards — Wide Stable Platforms OEM | SUPsfactory',
+      slug: 'specialty',
+      navLabel: 'Specialty Vises',
+      metaTitle: 'Custom Specialty Vises — Precision & Machine OEM | Stavalk',
       metaDescription:
-        'Custom inflatable yoga SUP boards — extra-wide stable platforms with soft decks for studios, resorts and instructors. OEM volume from 90–100+ pcs, factory direct.',
-      kicker: 'Series · Yoga',
-      h1: 'Custom Yoga SUP Boards — Extra-Wide Platforms For Practice On Water',
+        'Custom precision and machine vises — cross-slide, milling, drill press and CNC vises with 0.001″ accuracy, hardened ground steel, OEM volume from 20-50 pcs.',
+      kicker: 'Series · Specialty',
+      h1: 'Custom Specialty Vises — Precision Workholding for Machining and Milling',
       intro: [
-        'Yoga boards are built for stillness: extra width and volume for a stable platform, plush soft-tops for hands and feet, and low profiles that keep the board close to the water. They serve studios, resorts and instructors running water-yoga programs.',
-        'We manufacture yoga platforms under your brand with the widest stable profiles, premium EVA decking and program-scale options for studios and resort fleets.',
+        'Specialty vises serve precision machining applications: cross-slide vises for compound positioning, milling vises for CNC table mounting, drill press vises for centered hole work and machine vises with double-locking mechanisms for production environments. All feature precision-ground hardened steel for 0.001″ accuracy.',
+        'We manufacture specialty vises under your brand from 20-50 pcs per model, with hardened and ground GCr15 bearing steel or Cr12MoV tool steel jaw faces, Kurt-style bodies and double-locking mechanisms.',
       ],
       faqs: [
         {
-          q: 'What makes a SUP board good for yoga?',
-          a: 'Stability first: extra width (33″–36″) and volume keep the board flat and steady. A soft-touch EVA deck protects hands, knees and feet, and a low-profile rail reduces wobble when stepping on and off.',
+          q: 'What accuracy can your specialty vises achieve?',
+          a: 'Precision-ground jaw faces and bodies deliver parallelism within 0.001″ (0.025mm). All vises are inspected on CMM coordinate measuring machines before shipment, with inspection certificates available.',
         },
         {
-          q: 'Can resorts order yoga boards as part of a fleet?',
-          a: 'Yes. Resorts commonly mix yoga platforms with all-around guest boards. Combined fleet volumes qualify for fleet pricing, and branded graphics in the property palette apply across the whole order.',
+          q: 'What types of specialty vises do you manufacture?',
+          a: 'Cross-slide vises (compound X-Y positioning), milling machine vises (Kurt-style, single or double station), drill press vises (centered clamping), CNC machine vises (high-speed, double-locking) and custom workholding solutions.',
         },
         {
-          q: 'Do yoga boards include complete packages?',
-          a: 'Yes — inflatable board, paddle, pump, backpack and repair kit, or a pared-down kit for on-site storage (board + paddle + electric pump), as your program requires.',
-        },
-      ],
-    },
-    {
-      slug: 'whitewater',
-      navLabel: 'Whitewater Platforms',
-      metaTitle: 'Custom Whitewater SUP Boards — River & Rapid Platforms OEM | SUPsfactory',
-      metaDescription:
-        'Custom inflatable whitewater SUP boards for rivers and rapids — short maneuverable hulls with reinforced impact construction. OEM volume from 90–100+ pcs in Qingdao, China.',
-      kicker: 'Series · Whitewater',
-      h1: 'Custom Whitewater SUP Boards — River Hulls Built To Take Hits',
-      intro: [
-        'Whitewater boards are short, wide and tough: maneuverable hulls that turn on demand, high impact resistance for rail strikes, and heavy-duty construction for shallow riverbeds and rocky put-ins.',
-        'We manufacture whitewater platforms under your brand with reinforced seams, impact rails and river-specific shapes — built for schools, guides and river outfitters that run daily lessons and tours.',
-      ],
-      faqs: [
-        {
-          q: 'What construction do whitewater boards need?',
-          a: 'Reinforced rails and over-seamed construction absorb rail strikes; thick PVC and multi-layer layups resist punctures from riverbeds. Double-chamber designs add float redundancy for remote rivers.',
+          q: 'Can specialty vises be customized for our CNC machines?',
+          a: 'Yes. We match T-slot dimensions, mounting bolt patterns and jaw profiles to your specific CNC table and workpiece requirements. Custom jaw inserts (soft aluminum, V-groove, contoured) are common.',
         },
         {
-          q: 'Do you supply river outfitters and guide schools?',
-          a: 'Yes. Outfitters and guide schools run whitewater fleets from 20–50 pcs (pilot) with fleet pricing, heavy-duty repair kits and spare fin/valve components — typical for high-utilization river programs.',
-        },
-        {
-          q: 'Can whitewater boards carry brand graphics?',
-          a: 'Yes — full-board graphics, logo placement and team colors are produced from your artwork. Tear-resistant print layers keep branding intact under hard use.',
-        },
-      ],
-    },
-    {
-      slug: 'fishing',
-      navLabel: 'Fishing Platforms',
-      metaTitle: 'Custom Fishing SUP Boards — OEM & Private Label | SUPsfactory',
-      metaDescription:
-        'Custom inflatable fishing SUP boards with stability, weight capacity and accessory mounts — OEM/private label volume from 90–100+ pcs, factory-direct from Qingdao, China.',
-      kicker: 'Series · Fishing',
-      h1: 'Custom Fishing SUP Boards — Built With Anglers In Mind',
-      intro: [
-        'Fishing boards are stable casting platforms: wide and high-volume to carry the angler plus gear, with mounting systems for rod holders, coolers and tackle, and quiet construction for stealth approaches.',
-        'We manufacture fishing platforms under your brand with angler-specific features specified per project — from weekend-guerilla packages to full tournament setups.',
-      ],
-      faqs: [
-        {
-          q: 'What fishing SUP features can be specified?',
-          a: 'Mounting grids for rod holders and accessories, gear tracks, cooler straps, anchor points, and high-capacity boards up to 500 lbs for angler plus gear. Packages can include brand-label paddles, pumps and bags.',
-        },
-        {
-          q: 'What is the MOQ for fishing SUP OEM orders?',
-          a: 'Standard volume batches start at 90–100+ pcs per 150 m roll; pilot runs from 20–50 pcs on standard platforms; custom tooling runs from 90–100+ pcs per shape. Samples ship in 7–12 days; production runs 25–35 days after confirmed PO and deposit.',
-        },
-        {
-          q: 'Do you produce fishing boards for rental and guide operations?',
-          a: 'Yes. Guide and rental operations run fishing fleets with fleet pricing, replacement parts and repair kits sized to daily-use programs.',
-        },
-      ],
-    },
-    {
-      slug: 'kids',
-      navLabel: 'Kids Platforms',
-      metaTitle: 'Custom Kids SUP Boards — Small Light Platforms OEM | SUPsfactory',
-      metaDescription:
-        'Custom kids inflatable SUP boards — shorter, lighter platforms with child-friendly decks designed for safety and fun. OEM volume from 90–100+ pcs, factory direct.',
-      kicker: 'Series · Kids',
-      h1: 'Custom Kids SUP Boards — Small, Light And Built For First Paddles',
-      intro: [
-        'Kids boards are proportioned for young riders: shorter hulls, lighter weights, narrower widths sized to small bodies, and soft decks that forgive falls. They are the entry point for family brands, schools and rental fleets serving children.',
-        'We manufacture kids platforms under your brand in standard and junior sizes, with family-friendly package options.',
-      ],
-      faqs: [
-        {
-          q: 'What sizes do kids SUP boards come in?',
-          a: 'Typical kids platforms range from 7′ to 9′6″ with widths from 26″ to 30″ and weights around 7–9 kg (15–20 lbs). Size is matched to rider age and weight, verified on a physical sample before production.',
-        },
-        {
-          q: 'Do you supply schools and youth programs?',
-          a: 'Yes — our kids platforms are a common component of school and youth program fleets, ordered alongside junior paddles and beginner accessories with program pricing.',
-        },
-        {
-          q: 'Can kids boards carry brand and character graphics?',
-          a: 'Yes. Full-board colorways, character artwork and logo placement are developed from your artwork or brand direction — printed with the same tear-resistant layers as adult boards.',
-        },
-      ],
-    },
-    {
-      slug: 'multi',
-      navLabel: 'Multi-Person Platforms',
-      metaTitle: 'Custom Multi-Person SUP Boards — Tandem & Family OEM | SUPsfactory',
-      metaDescription:
-        'Custom multi-person inflatable SUP boards for family recreation and group lessons — tandem, yard and party platforms. OEM volume from 90–100+ pcs, factory direct.',
-      kicker: 'Series · Multi-Person',
-      h1: 'Custom Multi-Person SUP Boards — Tandems, Yards And Party Platforms',
-      intro: [
-        'Multi-person boards open SUP to groups: tandems with extra paddle positions, yard boards for lounging, and party platforms that carry several riders. They anchor rental revenue at resorts, beaches and lake operations.',
-        'We manufacture multi-person platforms under your brand with the stability and volume profiles each use case demands.',
-      ],
-      faqs: [
-        {
-          q: 'What types of multi-person boards do you make?',
-          a: 'Tandems (two paddlers, ~13′–14′), yard boards (short, wide lounging platforms) and party platforms with high volume for 3–6 riders. Each type is specified to capacity, weight and intended use.',
-        },
-        {
-          q: 'Are multi-person boards a good rental investment?',
-          a: 'Yes — they command premium hourly rates with lower per-rider equipment cost, and keep groups together instead of splitting them across singles. Rental operators typically pair multi-person boards with all-around fleets.',
-        },
-        {
-          q: 'What is the capacity of a party platform?',
-          a: 'Capacity depends on dimensions and volume: typical yard and party platforms support 400–700 lbs and carry 3–6 riders depending on size and configuration. Specifications are confirmed on a physical sample before volume production.',
+          q: 'What is the MOQ for specialty vises?',
+          a: 'From 20 pcs for standard precision vises; custom-tooling runs from 50+ pcs. Samples in 7-14 days, production in 25-35 days after confirmed PO.',
         },
       ],
     },
   ],
   es: [
     {
-      slug: 'all-around',
-      navLabel: 'Plataformas polivalentes',
-      metaTitle: 'Tablas SUP polivalentes personalizadas — Fabricante OEM inflable | SUPsfactory',
+      slug: 'light-duty',
+      navLabel: 'Mordazas ligeras',
+      metaTitle: 'Mordazas de banco ligeras personalizadas — Fabricante OEM | Stavalk',
       metaDescription:
-        'Tablas SUP hinchables polivalentes personalizadas bajo tu marca: estabilidad de tabla ancha, OEM/ODM en volumen desde 90–100+ uds., muestras en 7–12 días. Directo de fábrica en Qingdao, China.',
-      kicker: 'Serie · Polivalente',
-      h1: 'Tablas SUP polivalentes personalizadas — la plataforma de partida para nuevas marcas',
+        'Mordazas de banco ligeras personalizadas bajo tu marca — boca 4″-5″, fuerza de sujeción 1200-1500 lbs, OEM/ODM desde 50-200 uds. Fábrica directa de Qingdao, China.',
+      kicker: 'Serie · Ligera',
+      h1: 'Mordazas de banco ligeras personalizadas — Compactas para aficionados y bricolaje',
       intro: [
-        'La tabla polivalente es la base de la categoría SUP: ancha para dar estabilidad a principiantes, ágil para mantener el interés de nivel intermedio y ligera para llevarla donde sea. La mayoría de las marcas nuevas y de las flotas de alquiler empiezan aquí.',
-        'Fabricamos plataformas polivalentes bajo tu marca desde 90–100+ uds. por rollo de 150 m (volumen), con pedidos piloto desde 20–50 uds. Forma, rails, capas, colores, gráficos a toda cubierta y embalaje se especifican por proyecto.',
+        'Las mordazas ligeras son el punto de entrada para aficionados, talleres caseros y bricolaje: bocas compactas de 4″-5″, fuerza de sujeción de 1200-1500 lbs y bases giratorias de 360° que manejan una amplia gama de tareas de sujeción ligera — carpintería, montaje electrónico, proyectos de manualidades y metalurgia ligera.',
+        'Fabricamos mordazas ligeras bajo tu marca desde 50-200 uds. por modelo, con muestras disponibles en 7-14 días. Fundición del cuerpo (hierro gris HT200), insertos de mordaza, estilo de manija, base giratoria, acabado y embalaje se especifican por proyecto.',
       ],
       faqs: [
         {
-          q: '¿Puedo personalizar una tabla SUP polivalente para mi marca?',
-          a: 'Sí. Cada plataforma polivalente es una base de fabricación: especificas dimensiones (habitualmente 10\'6" a 11\'6"), ancho, grosor, capas (una/doble o fusión), configuración de rails, piso EVA, gráficos a toda cubierta y embalaje. Los diseños con molde a medida parten de 90–100+ uds. por diseño; la producción de volumen estándar, de 90–100+ uds. por rollo de 150 m.',
+          q: '¿Puedo personalizar una mordaza ligera para mi marca?',
+          a: 'Sí. Cada mordaza ligera es una base de fabricación: especificas ancho de boca (4″ o 5″), patrón de superficie (ranurada o lisa), color del cuerpo, estilo de manija, ángulo de la base giratoria, colocación del logo y embalaje.',
         },
         {
-          q: '¿Cuál es el pedido mínimo para tablas SUP polivalentes?',
-          a: 'Los lotes de volumen estándar parten de 90–100+ uds. por rollo de 150 m; los pedidos piloto sobre plataformas estándar, de 20–50 uds.; el moldeo a medida se produce desde 90–100+ uds. por diseño. Las muestras salen en 7–12 días y la producción, en 25–35 días tras PO y depósito confirmados.',
+          q: '¿Cuál es el pedido mínimo para mordazas ligeras?',
+          a: 'Modelos estándar desde 50 uds.; utillaje personalizado desde 200+ uds. Las muestras se envían en 7-14 días y la producción en serie tarda 25-35 días tras el PO y depósito confirmados.',
         },
         {
-          q: '¿Qué incluye el paquete completo listo para retail?',
-          a: 'El paquete completo: tabla hinchable con núcleo drop-stitch, remo ajustable, bomba manual (o doble etapa eléctrica), kit de reparación, bolsa de transporte y caja impresa. Los accesorios se cambian o mejoran según tu mercado objetivo.',
+          q: '¿Qué materiales se utilizan?',
+          a: 'Cuerpos de hierro gris HT200 con insertos de acero endurecido (58-62 HRC). Bases giratorias de fundición con manijas cromadas. Acabados en polvo o pintura en el color de tu marca.',
         },
         {
-          q: '¿Qué dureza de piso EVA fabricáis?',
-          a: 'Las alfombrillas van de 45–55 Shore C: dureza media-blanda, con buen agarre sin endurecerse con el sol. Grosor, ranuras, recortes y colocación del logo se especifican por proyecto.',
+          q: '¿Qué certificaciones tienen?',
+          a: 'Marcado CE, ISO 9001:2015 y cumplimiento RoHS. Pruebas de dureza de mordaza, fuerza de sujeción y resistencia cíclica (10.000+ ciclos).',
         },
       ],
     },
     {
-      slug: 'race',
-      navLabel: 'Plataformas de competición',
-      metaTitle: 'Tablas SUP de competición personalizadas — Plataformas de carrera OEM | SUPsfactory',
+      slug: 'medium-duty',
+      navLabel: 'Mordazas medias',
+      metaTitle: 'Mordazas de banco medias personalizadas — Taller OEM | Stavalk',
       metaDescription:
-        'Tablas SUP hinchables de competición personalizadas para clubs, eventos y marcas — cascos de carrera drop-stitch, OEM en volumen desde 90–100+ uds., producción certificada CE. Directo de fábrica.',
-      kicker: 'Serie · Competición',
-      h1: 'Tablas SUP de competición personalizadas — cascos de carrera fabricados para tu marca',
+        'Mordazas de banco medias para talleres, reparación auto y fabricación — boca 6″-8″, 3000-4000 lbs, mordazas endurecidas, OEM desde 50-200 uds.',
+      kicker: 'Serie · Media',
+      h1: 'Mordazas de banco medias personalizadas — Para metalurgia general',
       intro: [
-        'Las tablas de competición cambian estabilidad por velocidad: perfiles más largos y estrechos, con formas de proa refinadas y poco rocker, construidas para la pagayada de desplazamiento. Las versiones hinchables igualan el rendimiento de las rígidas dentro de una plataforma transportable.',
-        'Producimos plataformas de competición para marcas, clubs y organizadores de eventos con núcleos drop-stitch de precisión, capas de competición y formas de casco orientadas a la velocidad, probadas en nuestro canal hidrodinámico.',
+        'Las mordazas medias son el caballo de batalla del taller: bocas de 6″-8″, fuerza de sujeción de 3000-4000 lbs, caras de mordaza endurecidas reemplazables y mordazas para tubo opcionales. Sirven para talleres de reparación automotriz, fabricación general y operaciones de mantenimiento.',
+        'Fabricamos mordazas medias bajo tu marca desde 50-200 uds. por modelo, con cuerpos de hierro gris HT250 y caras de mordaza rectificadas con precisión.',
       ],
       faqs: [
         {
-          q: '¿Qué dimensiones de SUP de competición pueden fabricarse?',
-          a: 'Las plataformas de competición van habitualmente de 12\'6" × 28" para la clase 12\'6 a 14\' × 23"–25" para los formatos Unlimited/Touring race. Ancho, rocker y perfil de proa se ajustan al grupo de remeros objetivo y se verifican en una muestra física.',
+          q: '¿Qué configuraciones de boca están disponibles?',
+          a: 'Bocas estándar de 6″ y 8″ con mordazas planas ranuradas y mordazas para tubo opcionales (capacidad 1/2″-3″). Las caras de mordaza se endurecen a 58-62 HRC y son reemplazables.',
         },
         {
-          q: '¿Las tablas de competición requieren construcción especial?',
-          a: 'Sí: usan un núcleo drop-stitch más ligero y de tejido denso, mayores presiones (18–20 PSI) y refuerzos de rail más rígidos para mantener la forma del casco a velocidad. La elección de capas (una o doble) equilibra peso y rigidez, y la especificamos contigo en cada proyecto.',
+          q: '¿Puedo especificar el ángulo de la base giratoria?',
+          a: 'Sí. Base giratoria estándar de 360° con mecanismo de bloqueo positivo, o base fija para aplicaciones que no necesitan rotación.',
         },
         {
-          q: '¿Pueden los clubs pedir tablas de competición para su equipo?',
-          a: 'Sí. Los programas de clubs y equipos piden desde 90–100+ uds. (volumen) con gráficos del club y pueden mezclar tablas de competición y entrenamiento en un mismo pedido. El precio de flota se aplica al volumen combinado.',
+          q: '¿Cuál es el pedido mínimo?',
+          a: 'Modelos estándar desde 50 uds.; utillaje personalizado desde 200+ uds. Muestras en 7-14 días, producción en 25-35 días.',
+        },
+        {
+          q: '¿Por qué son adecuadas para reparación automotriz?',
+          a: 'Alta fuerza de sujeción (3000-4000 lbs), caras reemplazables para piezas irregulares, mordazas para tubo y superficie de yunque para golpes ligeros.',
         },
       ],
     },
     {
-      slug: 'surf',
-      navLabel: 'Plataformas de surf',
-      metaTitle: 'Tablas SUP de surf personalizadas — Plataformas híbridas inflables OEM | SUPsfactory',
+      slug: 'heavy-duty',
+      navLabel: 'Mordazas pesadas',
+      metaTitle: 'Mordazas de banco pesadas personalizadas — Industrial OEM | Stavalk',
       metaDescription:
-        'Tablas SUP hinchables de surf personalizadas — perfiles de surf híbridos con rails redondeados y rocker elevado, fabricadas bajo tu marca desde 90–100+ uds. en Qingdao, China.',
-      kicker: 'Serie · Surf',
-      h1: 'Tablas SUP de surf personalizadas — plataformas híbridas para cabalgar olas',
+        'Mordazas de banco pesadas para fabricación industrial, minería y astilleros — boca 8″-10″, 6000-8000 lbs, acero forjado, OEM desde 20-50 uds.',
+      kicker: 'Serie · Pesada',
+      h1: 'Mordazas de banco pesadas personalizadas — Grado industrial para aplicaciones extremas',
       intro: [
-        'Las tablas de surf SUP aportan rendimiento de ola a una plataforma transportable: longitudes más cortas, más rocker, rails redondeados y concavidades de proa que mantienen la línea en la cara de la ola. Las formas de surf hinchables son la forma más accesible de iniciarse al surf con remo.',
-        'Fabricamos plataformas de surf bajo tu marca con formas y detalles de construcción específicos para olas, desde paquetes completos tipo soft-top hasta capas de rendimiento.',
+        'Las mordazas pesadas están construidas para los trabajos más difíciles: bocas de 8″-10″, fuerza de sujeción de 6000-8000 lbs, cuerpos de acero forjado al carbono 45# e insertos de mordaza endurecidos reemplazables. Sirven para talleres de fabricación pesada, mantenimiento de equipo minero y astilleros.',
+        'Fabricamos mordazas pesadas bajo tu marca desde 20-50 uds. por modelo, con superficies de yunque para martillado y recubrimientos resistentes a la corrosión.',
       ],
       faqs: [
         {
-          q: '¿Qué tamaños de SUP de surf están disponibles?',
-          a: 'Las plataformas de surf habituales van de 8\'6" a 10\'6" con anchos de unos 30"–34". Longitud, rocker y perfil de rails se especifican según el peso del rider y el tipo de ola, y se verifican en una muestra física antes de producir.',
+          q: '¿Qué diferencia hay entre mordazas de hierro y de acero forjado?',
+          a: 'El acero forjado (45# al carbono) ofrece resistencia a la tracción y resistencia al impacto significativamente superiores al hierro gris — esencial para aplicaciones pesadas donde se ejercen fuerzas extremas y cargas de choque.',
         },
         {
-          q: '¿Las tablas de surf hinchables son duraderas para alquiler?',
-          a: 'Con rails reforzados y PVC anti-UV, nuestras plataformas de surf soportan uso de alquiler y de clases en escuelas de surf. Las flotas de alquiler combinan normalmente formas polivalentes y de surf — el precio de flota se aplica al volumen mixto.',
+          q: '¿Se pueden personalizar para industrias específicas?',
+          a: 'Sí. Los clientes de minería, astilleros y fabricación pesada especifican ancho de boca, forma de yunque, recubrimientos anticorrosivos, largo de manija y marca.',
         },
         {
-          q: '¿Pueden llevar los gráficos de mi marca?',
-          a: 'Sí. Gráficos a toda cubierta, arte de fondo, pisos EVA y embalaje se producen desde tu material gráfico o los desarrolla nuestro equipo de diseño a partir de los activos de tu marca.',
+          q: '¿Cuál es el pedido mínimo?',
+          a: 'Desde 20 uds. por modelo; utillaje personalizado desde 50+ uds. Muestras en 7-14 días, producción en 25-35 días.',
+        },
+        {
+          q: '¿Qué tan duraderas son bajo uso industrial diario?',
+          a: 'Pruebas de resistencia cíclica (10.000+ ciclos), prueba de salmuera (48+ horas) y verificación de fuerza de sujeción al 120% de la capacidad nominal.',
         },
       ],
     },
     {
-      slug: 'touring',
-      navLabel: 'Plataformas de travesía',
-      metaTitle: 'Tablas SUP de travesía personalizadas — Plataformas de larga distancia OEM | SUPsfactory',
+      slug: 'pipe',
+      navLabel: 'Mordazas para tubo',
+      metaTitle: 'Mordazas para tubo personalizadas — Cadena y trípode OEM | Stavalk',
       metaDescription:
-        'Tablas SUP hinchables de travesía personalizadas para pagayadas de larga distancia — cascos de desplazamiento de 12\'6"+, capacidad para equipo, OEM en volumen desde 90–100+ uds.',
-      kicker: 'Serie · Travesía',
-      h1: 'Tablas SUP de travesía personalizadas — hechas para distancia, carga y terreno',
+        'Mordazas para tubo para plomería, gas y petróleo — estilos cadena y trípode, capacidad 1/4″-6″, OEM desde 20-100 uds.',
+      kicker: 'Serie · Tubo',
+      h1: 'Mordazas para tubo personalizadas — Sujección especializada para instalación de tubería',
       intro: [
-        'Las tablas de travesía son largas y eficientes: proas afiladas para el deslizamiento, volumen moderado para estabilidad en aguas abiertas y suficiente eslora para cargar equipo en salidas de varios días. Son la plataforma preferida de los remadores de distancia y los outfitters de expedición.',
-        'Producimos plataformas de travesía bajo tu marca con formas de desplazamiento, puntos de amarre y espacio de cubierta para carga, y ecosistemas de accesorios compatibles (elásticos, D-rings, soportes).',
+        'Las mordazas para tubo están diseñadas específicamente para sujetar tubo redondo: estilo cadena para montaje en banco y trabajo pesado, estilo trípode para uso portátil y de campo. Las mandíbulas V ranuradas sujetan el tubo firmemente sin aplastarlo.',
+        'Fabricamos mordazas para tubo bajo tu marca en configuraciones de cadena y trípode, cubriendo capacidad de 1/4″ a 6″ para plomería, HVAC, petróleo y gas y protección contra incendios.',
       ],
       faqs: [
         {
-          q: '¿Qué tamaños de SUP de travesía fabricáis?',
-          a: 'Las plataformas de travesía suelen ir de 12\'6" a 14\' con anchos de 28"–32". Los cascos de 14\' priorizan el deslizamiento; las versiones más anchas añaden estabilidad para la carga. Las especificaciones se confirman con una muestra física antes de la producción.',
+          q: '¿Cuál es la diferencia entre cadena y trípode?',
+          a: 'La de cadena se monta en banco y usa mecanismo de cadena y tornillo para máxima fuerza de retención. La de trípode es independiente y portátil, preferida para trabajo en campo y instalaciones móviles.',
         },
         {
-          q: '¿Las tablas de travesía llevan opciones de carga y amarre?',
-          a: 'Sí — redes elásticas de carga, rejillas de D-rings, soportes y raíles para accesorios se especifican por proyecto. Los paquetes de travesía suelen combinar con bolsas tipo mochila y bombas de alta presión.',
+          q: '¿Qué tamaños de tubo manejan?',
+          a: 'Modelos estándar cubren 1/4″ a 6″ de capacidad. Capacidades personalizadas para tubo más grande o más pequeño están disponibles.',
         },
         {
-          q: '¿Suministráis tablas de travesía a outfitters y operadores de alquiler?',
-          a: 'Sí. Outfitters y operadores pueden gestionar flotas de travesía desde 20–50 uds. (piloto) con precio de flota, recambios y un ciclo definido de renovación estacional.',
+          q: '¿Se pueden personalizar con nuestro logo?',
+          a: 'Sí. Grabado láser, marcas de fundición, acabado en polvo y embalaje personalizado son opciones estándar.',
+        },
+        {
+          q: '¿Cuál es el pedido mínimo?',
+          a: 'Cadena desde 20 uds.; trípode desde 50 uds. Muestras en 7-14 días, producción en 25-35 días.',
         },
       ],
     },
     {
-      slug: 'yoga',
-      navLabel: 'Plataformas de yoga',
-      metaTitle: 'Tablas SUP de yoga personalizadas — Plataformas anchas y estables OEM | SUPsfactory',
+      slug: 'specialty',
+      navLabel: 'Mordazas especiales',
+      metaTitle: 'Mordazas especiales personalizadas — Precisión y máquina OEM | Stavalk',
       metaDescription:
-        'Tablas SUP hinchables de yoga personalizadas — plataformas extra anchas con cubiertas blandas para estudios, resorts e instructores. OEM en volumen desde 90–100+ uds.',
-      kicker: 'Serie · Yoga',
-      h1: 'Tablas SUP de yoga personalizadas — plataformas extra anchas para practicar sobre el agua',
+        'Mordazas de precisión y máquina personalizadas — cruz, fresadora, taladro y CNC con precisión 0.001″, OEM desde 20-50 uds.',
+      kicker: 'Serie · Especial',
+      h1: 'Mordazas especiales personalizadas — Sujección de precisión para mecanizado y fresado',
       intro: [
-        'Las tablas de yoga están hechas para la quietud: ancho y volumen extra para una plataforma estable, cubiertas blandas para manos y pies, y perfiles bajos que mantienen la tabla pegada al agua. Sirven a estudios, resorts e instructores de programas de yoga acuático.',
-        'Fabricamos plataformas de yoga bajo tu marca con los perfiles estables más anchos, decks de EVA premium y opciones de programa para estudios y flotas de resorts.',
+        'Las mordazas especiales sirven para aplicaciones de mecanizado de precisión: mordazas de cruces para posicionamiento compuesto, mordazas de fresadora para montaje en mesa CNC y mordazas de taladro para taladrado centrado. Todas cuentan con acero endurecido y rectificado para precisión de 0.001″.',
+        'Fabricamos mordazas especiales bajo tu marca desde 20-50 uds. por modelo, con caras de acero endurecido GCr15 o Cr12MoV y mecanismos de doble bloqueo.',
       ],
       faqs: [
         {
-          q: '¿Qué hace buena a una tabla SUP para yoga?',
-          a: 'Estabilidad ante todo: ancho extra (33"–36") y volumen mantienen la tabla plana y firme. Un deck de EVA con tacto suave protege manos, rodillas y pies, y un rail de perfil bajo reduce el balanceo al subir y bajar.',
+          q: '¿Qué precisión logran?',
+          a: 'Paralelismo dentro de 0.001″ (0.025mm). Todas las mordazas se inspeccionan en máquinas de medición por coordenadas (CMM) antes del envío.',
         },
         {
-          q: '¿Los resorts pueden pedir tablas de yoga dentro de una flota?',
-          a: 'Sí. Los resorts combinan habitualmente plataformas de yoga con tablas polivalentes para huéspedes. Los volúmenes de flota combinados acceden al precio de flota, y la gráfica de marca en la paleta de la propiedad se aplica a todo el pedido.',
+          q: '¿Qué tipos fabrican?',
+          a: 'Mordazas de cruces (posicionamiento X-Y), fresadoras (estilo Kurt), taladros (sujección centrada) y CNC (alta velocidad, doble bloqueo).',
         },
         {
-          q: '¿Las tablas de yoga incluyen paquetes completos?',
-          a: 'Sí — tabla hinchable, remo, bomba, bolsa y kit de reparación, o un kit reducido para almacenamiento en el resort (tabla + remo + bomba eléctrica), según lo que requiera tu programa.',
-        },
-      ],
-    },
-    {
-      slug: 'whitewater',
-      navLabel: 'Plataformas de aguas bravas',
-      metaTitle: 'Tablas SUP de aguas bravas personalizadas — Plataformas de río OEM | SUPsfactory',
-      metaDescription:
-        'Tablas SUP hinchables de aguas bravas personalizadas para ríos y rápidos — cascos cortos y maniobrables con construcción de impacto reforzada. OEM en volumen desde 90–100+ uds.',
-      kicker: 'Serie · Aguas bravas',
-      h1: 'Tablas SUP de aguas bravas personalizadas — cascos de río hechos para golpes',
-      intro: [
-        'Las tablas de aguas bravas son cortas, anchas y resistentes: cascos maniobrables que giran a demanda, alta resistencia al impacto para los golpes contra los rails y construcción reforzada para lechos poco profundos y embarques rocosos.',
-        'Fabricamos plataformas de aguas bravas bajo tu marca con costuras reforzadas, rails de impacto y formas específicas de río, pensadas para escuelas, guías y outfitters que dan clases y tours a diario.',
-      ],
-      faqs: [
-        {
-          q: '¿Qué construcción necesitan las tablas de aguas bravas?',
-          a: 'Rails reforzados y costuras sobremoldeadas absorben los impactos contra las rocas; PVC grueso y capas múltiples resisten los pinchazos del lecho del río. Los diseños de doble cámara añaden reserva de flotación para ríos remotos.',
+          q: '¿Se pueden personalizar para nuestras máquinas CNC?',
+          a: 'Sí. Ajustamos dimensiones de T-slot, patrones de pernos y perfiles de mandíbula a sus requisitos específicos.',
         },
         {
-          q: '¿Suministráis a outfitters de río y escuelas de guías?',
-          a: 'Sí. Outfitters y escuelas gestionan flotas de aguas bravas desde 20–50 uds. (piloto) con precio de flota, kits de reparación reforzados y componentes de repuesto (quillas, válvulas), habituales en programas de río de alto uso.',
-        },
-        {
-          q: '¿Las tablas de aguas bravas pueden llevar gráficos de marca?',
-          a: 'Sí — gráficos a toda cubierta, colocación de logo y colores de equipo se producen desde tu material gráfico. Las capas de impresión anti-desgarro mantienen la marca intacta bajo uso intenso.',
-        },
-      ],
-    },
-    {
-      slug: 'fishing',
-      navLabel: 'Plataformas de pesca',
-      metaTitle: 'Tablas SUP de pesca personalizadas — OEM y marca privada | SUPsfactory',
-      metaDescription:
-        'Tablas SUP hinchables de pesca personalizadas con estabilidad, capacidad de carga y soportes — OEM/marca privada en volumen desde 90–100+ uds., directo de fábrica en Qingdao, China.',
-      kicker: 'Serie · Pesca',
-      h1: 'Tablas SUP de pesca personalizadas — pensadas para pescadores',
-      intro: [
-        'Las tablas de pesca son plataformas de lanzado estables: anchas y de alto volumen para llevar al pescador más el equipo, con sistemas de fijación para porta-cañas, neveras y tack, y construcción silenciosa para accesos discretos.',
-        'Fabricamos plataformas de pesca bajo tu marca con características específicas para pescadores especificadas por proyecto — desde paquetes de fin de semana hasta montajes de torneo.',
-      ],
-      faqs: [
-        {
-          q: '¿Qué características de pesca pueden especificarse?',
-          a: 'Rejillas de fijación para porta-cañas y accesorios, raíles para equipo, correas de nevera, puntos de fondeo y tablas de alta capacidad hasta ~227 kg (500 lbs) para pescador más equipo. Los paquetes pueden incluir remos, bombas y bolsas con tu marca.',
-        },
-        {
-          q: '¿Cuál es el pedido mínimo para OEM de tablas de pesca?',
-          a: 'Los lotes de volumen estándar parten de 90–100+ uds. por rollo de 150 m; los pedidos piloto, de 20–50 uds. sobre plataformas estándar; el utillaje a medida se produce desde 90–100+ uds. por diseño. Las muestras salen en 7–12 días y la producción en 25–35 días tras PO y depósito.',
-        },
-        {
-          q: '¿Producís tablas de pesca para alquiler y operaciones de guía?',
-          a: 'Sí. Las operaciones de guía y alquiler gestionan flotas de pesca con precio de flota, recambios y kits de reparación ajustados a programas de uso diario.',
-        },
-      ],
-    },
-    {
-      slug: 'kids',
-      navLabel: 'Plataformas infantiles',
-      metaTitle: 'Tablas SUP infantiles personalizadas — Plataformas pequeñas y ligeras OEM | SUPsfactory',
-      metaDescription:
-        'Tablas SUP hinchables infantiles personalizadas — cascos más cortos y ligeros con cubiertas pensadas para niños, seguridad y diversión. OEM en volumen desde 90–100+ uds.',
-      kicker: 'Serie · Infantil',
-      h1: 'Tablas SUP infantiles personalizadas — pequeñas, ligeras y hechas para las primeras pagayadas',
-      intro: [
-        'Las tablas infantiles están proporcionadas para riders jóvenes: cascos más cortos, pesos más ligeros, anchos ajustados a cuerpos pequeños y cubiertas blandas que perdonan las caídas. Son la puerta de entrada para marcas familiares, escuelas y flotas de alquiler infantiles.',
-        'Fabricamos plataformas infantiles bajo tu marca en tamaños estándar y junior, con opciones de paquete adaptadas a la familia.',
-      ],
-      faqs: [
-        {
-          q: '¿Qué tamaños de SUP infantil hay?',
-          a: 'Las plataformas infantiles van normalmente de 7\' a 9\'6" con anchos de 26" a 30" y pesos de unos 7–9 kg (15–20 lbs). El tamaño se ajusta a la edad y el peso del rider y se verifica con una muestra física antes de la producción.',
-        },
-        {
-          q: '¿Suministráis a escuelas y programas juveniles?',
-          a: 'Sí: nuestras plataformas infantiles son un componente habitual de las flotas de escuelas y programas juveniles, pedidas junto con remos junior y accesorios de iniciación con precio de programa.',
-        },
-        {
-          q: '¿Las tablas infantiles pueden llevar gráficos de marca y personajes?',
-          a: 'Sí. Colorways a toda cubierta, arte de personajes y colocación de logo se desarrollan desde tu material gráfico o dirección de marca, impresos con las mismas capas anti-desgarro que las tablas de adultos.',
-        },
-      ],
-    },
-    {
-      slug: 'multi',
-      navLabel: 'Plataformas multipersona',
-      metaTitle: 'Tablas SUP multipersona personalizadas — Tándem y familia OEM | SUPsfactory',
-      metaDescription:
-        'Tablas SUP hinchables multipersona personalizadas para recreo familiar y clases en grupo — plataformas tándem, yard y party. OEM en volumen desde 90–100+ uds.',
-      kicker: 'Serie · Multipersona',
-      h1: 'Tablas SUP multipersona personalizadas — tándems, yard y plataformas party',
-      intro: [
-        'Las tablas multipersona abren el SUP a los grupos: tándems con posiciones extra de pagayada, tablas yard para descansar y plataformas party para varios riders. Sostienen los ingresos de alquiler en resorts, playas y operaciones de lago.',
-        'Fabricamos plataformas multipersona bajo tu marca con los perfiles de estabilidad y volumen que exige cada uso.',
-      ],
-      faqs: [
-        {
-          q: '¿Qué tipos de tablas multipersona fabricáis?',
-          a: 'Tándems (dos remeros, ~13\'–14\'), tablas yard (plataformas cortas y anchas para descanso) y plataformas party de alto volumen para 3–6 riders. Cada tipo se especifica por capacidad, peso y uso previsto.',
-        },
-        {
-          q: '¿Las tablas multipersona son buena inversión de alquiler?',
-          a: 'Sí: permiten tarifas por hora superiores con menor coste por rider y mantienen a los grupos juntos en lugar de repartirlos entre tablas individuales. Los operadores suelen combinar tablas multipersona con flotas polivalentes.',
-        },
-        {
-          q: '¿Cuál es la capacidad de una plataforma party?',
-          a: 'La capacidad depende de dimensiones y volumen: las plataformas yard y party habituales soportan 180–320 kg (400–700 lbs) y llevan de 3 a 6 riders según tamaño y configuración. Las especificaciones se confirman con una muestra física antes de la producción en volumen.',
+          q: '¿Cuál es el pedido mínimo?',
+          a: 'Desde 20 uds. para mordazas de precisión estándar; utillaje desde 50+ uds. Muestras en 7-14 días, producción en 25-35 días.',
         },
       ],
     },
   ],
   fr: [
     {
-      slug: 'all-around',
-      navLabel: 'Plateformes polyvalentes',
-      metaTitle: 'Tableaux SUP polyvalents personnalisés — Fabricant OEM gonflable | SUPsfactory',
+      slug: 'light-duty',
+      navLabel: 'Étaux légers',
+      metaTitle: "Étaux d'établi légers personnalisés — Fabricant OEM | Stavalk",
       metaDescription:
-        'Tableaux SUP gonflables polyvalents personnalisés sous votre marque — stabilité large, OEM/ODM en volume dès 90–100+ pcs, échantillons en 7–12 jours. Usine directe de Qingdao, Chine.',
-      kicker: 'Série · Polyvalent',
-      h1: 'Tableaux SUP polyvalents personnalisés — la plateforme de départ par défaut pour les nouvelles marques',
+        "Étaux d'établi légers personnalisés sous votre marque — mâchoires 4″-5″, force de serrage 1200-1500 lbs, OEM/ODM dès 50-200 pcs. Usine directe de Qingdao, Chine.",
+      kicker: 'Série · Léger',
+      h1: "Étaux d'établi légers personnalisés — Compacts pour bricoleurs et passionnés",
       intro: [
-        'Le tableau polyvalent est le cheval de bataille de la catégorie SUP : assez large pour offrir une stabilité aux débutants, assez agile pour garder les intermédiaires intéressés, et assez léger pour être transporté partout. La plupart des nouvelles marques et des flottes de location commencent ici.',
-        'Nous fabriquons des plateformes polyvalentes sous votre marque à partir de 90–100+ pcs par rouleau de 150 m (volume), avec des séries pilotes à partir de 20–50 pcs. Forme, rails, couches, couleurs, graphiques pleine surface et emballage sont spécifiés par projet.',
+        "Les étaux d'établi légers sont le point d'entrée pour les bricoleurs, ateliers domestiques et passionnés de DIY : largeurs de mâchoires compactes de 4″-5″, force de serrage de 1200-1500 lbs et bases orientables à 360° qui gèrent un large éventail de tâches de serrage légères — ébénisterie, montage d'électronique, projets d'artisanat et métallurgie légère.",
+        "Nous fabriquons des étaux légers sous votre marque dès 50-200 pièces par modèle, avec des échantillons disponibles en 7-14 jours. Le corps est coulé en fonte grise HT200 ; les inserts de mâchoires, le style de manivelle, la base orientable, la finition et l'emballage sont spécifiés par projet.",
       ],
       faqs: [
         {
-          q: 'Puis-je personnaliser un tableau SUP polyvalent pour ma marque ?',
-          a: 'Oui. Chaque plateforme polyvalente est une base de fabrication — vous spécifiez les dimensions (généralement de 10′6″ à 11′6″), la largeur, l\'épaisseur, le laminage (simple/double couche ou fusion), la configuration des rails, le tapis EVA, les graphiques pleine surface et l\'emballage. Les formes sur mesure à moule commencent à 90–100+ pcs par forme ; la production standard en volume à partir de 90–100+ pcs par rouleau de 150 m.',
+          q: 'Puis-je personnaliser un étau d\'établi léger pour ma marque ?',
+          a: "Oui. Chaque étau léger est une base de fabrication : vous spécifiez la largeur de mâchoire (4″ ou 5″), le motif de surface (serré ou lisse), la couleur du corps, le style de manivelle (T à glissière ou barre), l'angle de la base orientable, le positionnement du logo (gravure laser, marque de moulage ou étiquette) et l'emballage. L'outillage personnalisé commence à 200+ pcs ; les modèles standard à 50 pcs.",
         },
         {
-          q: 'Quel est le MOQ pour les tableaux SUP polyvalents ?',
-          a: 'Les lots standard en volume commencent à 90–100+ pcs par rouleau de 150 m ; les séries pilotes sur plateformes standard à partir de 20–50 pcs ; les séries de moulage complet à partir de 90–100+ pcs par forme. Les échantillons sont expédiés en 7–12 jours et la production en série prend 25–35 jours après confirmation du bon de commande et de l\'acompte.',
+          q: 'Quel est le MOQ pour les étaux d\'établi légers ?',
+          a: "Les modèles standard commencent à 50 pcs ; les outillages personnalisés à 200+ pcs par modèle. Les échantillons sont expédiés en 7-14 jours et la production en série prend 25-35 jours après confirmation du PO et du versement.",
         },
         {
-          q: 'Que comprend le package prêt pour la vente au détail ?',
-          a: 'Le package complet : tableau gonflable avec noyau drop-stitch, pagaie réglable, pompe manuelle (ou pompe électrique double étage), kit de réparation, sac à dos de transport et carton imprimé. Les accessoires peuvent être modifiés ou améliorés selon votre marché cible.',
+          q: 'Quels matériaux sont utilisés dans les étaux légers ?',
+          a: "Corps en fonte grise HT200 avec inserts en acier durci (58-62 HRC). Bases orientables en fonte avec manivelles chromées. Finition en poudre ou peinture dans la couleur de votre marque.",
         },
         {
-          q: 'Quelle dureté de sol EVA fabriquez-vous ?',
-          a: 'Les tapis de traction vont de 45–55 Shore C — dureté moyenne souple, adhérence confortable sous le pied sans durcir au soleil. L\'épaisseur, les rainures, les découpes et le positionnement du logo sont spécifiés par projet.',
+          q: 'Quelles certifications portent vos étaux légers ?',
+          a: "Marquage CE, gestion de la qualité ISO 9001:2015 et conformité RoHS. Les tests incluent la vérification de la dureté des mâchoires, la vérification de la force de serrage et les tests de durabilité cyclique (10 000+ cycles ouverture/fermeture).",
         },
       ],
     },
     {
-      slug: 'race',
-      navLabel: 'Plateformes de course',
-      metaTitle: 'Tableaux SUP de course personnalisés — Plateformes de racing OEM | SUPsfactory',
+      slug: 'medium-duty',
+      navLabel: 'Étaux moyens',
+      metaTitle: "Étaux d'établi moyens personnalisés — Atelier OEM | Stavalk",
       metaDescription:
-        'Tableaux SUP gonflables de course personnalisés pour clubs, événements et marques — coques de racing drop-stitch, OEM en volume dès 90–100+ pcs, production certifiée CE. Usine directe.',
-      kicker: 'Série · Course',
-      h1: 'Tableaux SUP de course personnalisés — coques de racing fabriquées pour votre marque',
+        "Étaux d'établi moyens pour ateliers, réparation automobile et fabrication — mâchoires 6″-8″, force de serrage 3000-4000 lbs, mâchoires durcies, OEM dès 50-200 pcs.",
+      kicker: 'Série · Moyen',
+      h1: "Étaux d'établi moyens personnalisés — Pour la métallurgie générale",
       intro: [
-        'Les tableaux de course privilégient la vitesse à la stabilité : profils plus longs et plus étroits, formes de proue affinées et faible rocker, conçus pour le pagayage en déplacement. Les versions gonflables égalent les performances des planches rigides dans une plateforme transportable.',
-        'Nous produisons des plateformes de course pour marques, clubs et organisateurs d\'événements avec des noyaux drop-stitch de précision, des couches spécifiques à la course et des formes de coque orientées vitesse — testées en bassin hydrodynamique.',
+        "Les étaux moyens sont le cheval de bataille de l'atelier : largeurs de mâchoires de 6″-8″, force de serrage de 3000-4000 lbs, faces de mâchoires durcies et remplacables, et mâchoires à tube en option pour les barres rondes. Ils répondent aux ateliers de réparation automobile, à la fabrication générale, à la métallurgie et aux opérations de maintenance.",
+        "Nous fabriquons des plateformes moyennes sous votre marque dès 50-200 pièces par modèle, avec des corps en fonte grise HT250, des faces de mâchoires rectifiées avec précision et des inserts de mâchoires à tube en option pour les pièces rondes.",
       ],
       faqs: [
         {
-          q: 'Quelles dimensions de SUP de course pouvez-vous fabriquer ?',
-          a: 'Les plateformes de course vont généralement de 12′6″ × 28″ pour les classes 12′6 à 14′ × 23″–25″ pour les formats Unlimited/Touring race. La largeur, le rocker et le profil de proue sont adaptés au groupe de rameurs cible et vérifiés sur un échantillon physique.',
+          q: 'Quelles configurations de mâchoires sont disponibles ?',
+          a: "Largeurs de mâchoires standard de 6″ et 8″ avec mâchoires plates à rainures et inserts de mâchoires à tube en option (capacité de 1/2″ à 3″). Les faces des mâchoires sont durcies à 58-62 HRC et remplacables — vos clients peuvent renouveler la surface de prise sans changer tout l'étau.",
         },
         {
-          q: 'Les tableaux de course nécessitent-ils une construction spéciale ?',
-          a: 'Oui — les tableaux de course utilisent un noyau drop-stitch plus léger et à tissage serré, des pressions plus élevées (18–20 PSI) et un renforcement de rail plus rigide pour maintenir la forme de la coque en vitesse. Le choix des couches (simple vs double) équilibre poids et rigidité, ce que nous définissons avec vous pour chaque projet.',
+          q: 'Puis-je spécifier l\'angle de la base orientable ?',
+          a: "Oui. Base orientable standard à 360° avec levier de blocage à enclenchement positif, ou base fixe pour les applications qui ne nécessitent pas de rotation. Le mécanisme de blocage, la longueur du levier et le style de poignée sont tous spécifiables.",
         },
         {
-          q: 'Les clubs peuvent-ils commander des tableaux de course pour leur équipe ?',
-          a: 'Oui. Les programmes clubs et équipes commandent à partir de 90–100+ pcs (volume) avec les graphiques du club, et peuvent mélanger tableaux de course et d\'entraînement dans une même commande. Le tarif flotte s\'applique aux volumes combinés.',
+          q: 'Quel est le MOQ pour les étaux moyens ?',
+          a: "Les modèles standard à partir de 50 pcs ; les outillages personnalisés à partir de 200+ pcs par modèle. Les échantillons sont expédiés en 7-14 jours et la production en série prend 25-35 jours après confirmation du PO et du versement.",
+        },
+        {
+          q: 'Qu\'est-ce qui rend vos étaux moyens adaptés à la réparation automobile ?',
+          a: "Forte force de serrage (3000-4000 lbs), faces de mâchoires durcies remplaçables pour saisir des pièces irrégulières, inserts de mâchoires à tube pour tuyauterie ronde et surface d'enclume large pour le martelage léger. La base orientable renforcée supporte les forces de serrage directionnelles courantes en réparation automobile.",
         },
       ],
     },
     {
-      slug: 'surf',
-      navLabel: 'Plateformes de surf',
-      metaTitle: 'Tableaux SUP de surf personnalisés — Plateformes hybrides gonflables OEM | SUPsfactory',
+      slug: 'heavy-duty',
+      navLabel: 'Étaux lourds',
+      metaTitle: "Étaux d'établi lourds personnalisés — Industriel OEM | Stavalk",
       metaDescription:
-        'Tableaux SUP gonflables de surf personnalisés — profils hybrides avec rails arrondis et rocker relevé, fabriqués sous votre marque dès 90–100+ pcs à Qingdao, Chine.',
-      kicker: 'Série · Surf',
-      h1: 'Tableaux SUP de surf personnalisés — plateformes hybrides pour chevaucher les vagues',
+        "Étaux d'établi lourds pour fabrication industrielle, mines et chantiers navals — mâchoires 8″-10″, force 6000-8000 lbs, acier forgé, OEM dès 20-50 pcs.",
+      kicker: 'Série · Lourd',
+      h1: "Étaux d'établi lourds personnalisés — Grade industriel pour applications extrêmes",
       intro: [
-        'Les tableaux SUP de surf apportent les performances vagues dans une plateforme transportable : longueurs réduites, rocker accru, rails arrondis et proues concaves qui maintiennent la ligne sur la face de la vague. Les formes de surf gonflables sont la manière la plus accessible de s\'initier au surf avec pagaie.',
-        'Nous fabriquons des plateformes de surf sous votre marque avec des formes et des détails de construction spécifiques aux vagues — des packages complets type soft-top aux laminages performance.',
+        "Les étaux lourds sont conçus pour les travaux les plus exigeants : largeurs de mâchoires de 8″-10″, force de serrage de 6000-8000 lbs, corps en acier au carbone forgé et inserts de mâchoires durcis et remplacables. Ils répondent aux ateliers de fabrication lourde, à la maintenance d'équipements miniers, aux chantiers navals et à la fabrication de structures métalliques.",
+        "Nous fabriquons des étaux lourds sous votre marque dès 20-50 pièces par modèle, avec des corps en acier au carbone 45# forgé, des surfaces d'enclume pour le martelage et des revêtements anticorrosifs pour les environnements difficiles.",
       ],
       faqs: [
         {
-          q: 'Quelles tailles sont disponibles pour les tableaux SUP de surf ?',
-          a: 'Les plateformes de surf courantes vont de 8′6″ à 10′6″ avec des largeurs autour de 30″–34″. La longueur, le rocker et le profil de rails sont spécifiés en fonction du poids du rameur et du type de vague, et vérifiés sur un échantillon physique avant production.',
+          q: 'Quelle est la différence entre les étaux en fonte et en acier forgé ?',
+          a: "Les étaux en acier forgé (acier au carbone 45#) offrent une résistance à la traction et une résistance aux chocs nettement supérieures à celles de la fonte — essentiel pour les applications lourdes où les forces de serrage extrêmes et les charges de choc sont fréquentes. Les corps forgés résistent à la fissuration en cas de surcharge.",
         },
         {
-          q: 'Les tableaux de surf gonflables sont-ils suffisamment durables pour la location ?',
-          a: 'Avec des rails renforcés et du PVC résistant aux UV, nos plateformes de surf supportent l\'usage en location et en formation dans les écoles de surf. Les flottes de location combinent généralement des formes polyvalentes et des formes de surf — le tarif flotte s\'applique au volume mixte.',
+          q: 'Les étaux lourds peuvent-ils être personnalisés pour des industries spécifiques ?',
+          a: "Oui. Les clients des secteurs miniers, navals et de la fabrication lourde spécifient la largeur de mâchoire, la forme de l'enclume, les revêtements anticorrosifs, la longueur du levier et le marquage. Nous produisons également des étaux avec une profondeur de gorge étendue pour un serrage en profondeur.",
         },
         {
-          q: 'Pouvez-vous reproduire les graphiques de notre marque sur les tableaux de surf ?',
-          a: 'Oui. Les graphiques pleine surface, l\'illustration de fond, les tapis de traction EVA et l\'emballage sont produits à partir de vos fichiers graphiques ou développés par notre équipe design à partir des éléments de votre marque.',
+          q: 'Quel est le MOQ pour les étaux lourds ?',
+          a: "À partir de 20 pcs par modèle pour les étaux lourds standard ; les outillages personnalisés à partir de 50+ pcs. Les échantillons sont expédiés en 7-14 jours et la production prend 25-35 jours après confirmation du PO.",
+        },
+        {
+          q: 'Quelle est la durabilité des étaux lourds sous usage industriel quotidien ?',
+          a: "Nos étaux lourds passent les tests de durabilité cyclique (10 000+ cycles ouverture/fermeture), les tests de corrosion en brouillard salin (48+ heures) et la vérification de la force de serrage à 120% de la capacité nominale. Les inserts de mâchoires remplacables prolongent significativement la durée de vie.",
         },
       ],
     },
     {
-      slug: 'touring',
-      navLabel: 'Plateformes de randonnée',
-      metaTitle: 'Tableaux SUP de randonnée personnalisés — Plateformes longue distance OEM | SUPsfactory',
+      slug: 'pipe',
+      navLabel: 'Étaux à tube',
+      metaTitle: "Étaux à tube personnalisés — Chaîne et trépied OEM | Stavalk",
       metaDescription:
-        'Tableaux SUP gonflables de randonnée pour pagayage longue distance — coques de déplacement 12′6″+, capacité multi-jours, OEM en volume dès 90–100+ pcs, usine directe.',
-      kicker: 'Série · Randonnée',
-      h1: 'Tableaux SUP de randonnée personnalisés — conçus pour la distance, le chargement et le terrain',
+        "Étaux à tube pour plomberie, raccordement de tuyauteries et pétrole et gaz — chaîne et trépied, capacité de 1/4″ à 6″, mâchoires en V à rainures, OEM dès 20-100 pcs.",
+      kicker: 'Série · Tube',
+      h1: "Étaux à tube personnalisés — Serrage spécialisé pour le raccordement de tuyauteries",
       intro: [
-        'Les tableaux de randonnée sont longs et efficaces : proues effilées pour le déplacement, volume modéré pour la stabilité en eau libre, et une longueur de coque suffisante pour transporter du matériel lors de sorties multi-jours. Ils sont la plateforme privilégiée des rameurs de distance et des outfitters d\'expédition.',
-        'Nous produisons des plateformes de randonnée sous votre marque avec un profilage de déplacement, des points d\'ancrage et un espace de pont pour le fret, ainsi qu\'un écosystème d\'accessoires compatibles (filets élastiques, D-rings, supports).',
+        "Les étaux à tube sont spécialement conçus pour saisir les tuyaux et gaines ronds : le modèle à chaîne pour le montage sur établi et les travaux lourds sur tuyauterie, le modèle à trépied pour un usage portable et sur le terrain. Les mâchoires en V à rainures maintiennent le tuyau fermement sans l'écraser, et les mécanismes à libération rapide accélèrent le repositionnement.",
+        "Nous fabriquons des étaux à tube sous votre marque en configurations chaîne et trépied, couvrant une capacité de 1/4″ à 6″ pour la plomberie, le CVC, le pétrole et gaz et la protection incendie.",
       ],
       faqs: [
         {
-          q: 'Quelles tailles de SUP de randonnée fabriquez-vous ?',
-          a: 'Les plateformes de randonnée vont généralement de 12′6″ à 14′ avec des largeurs de 28″–32″. Les coques de 14′ privilégient le glissement ; les versions plus larges ajoutent de la stabilité au chargement. Les spécifications sont confirmées sur un échantillon physique avant production en série.',
+          q: 'Quelle est la différence entre les étaux à tube à chaîne et les étaux à tube à trépied ?',
+          a: "Les étaux à tube à chaîne se montent sur un établi ou un support et utilisent un mécanisme à chaîne et vis pour une puissance de maintien maximale — idéal pour les tuyaux lourds et une utilisation répétée en atelier. Les étaux à tube à trépied sont autonomes et portables — préférés pour le travail sur le terrain, les chantiers et le raccordement mobile.",
         },
         {
-          q: 'Les tableaux de randonnée comportent-ils des options de chargement et d\'ancrage ?',
-          a: 'Oui — filets élastiques de chargement, grilles D-rings, supports pour cannes et rails d\'accessoires sont spécifiés par projet. Les packages de randonnée s\'associent couramment à des sacs à dos et des pompes haute pression.',
+          q: 'Quels diamètres de tuyaux vos étaux peuvent-ils prendre en charge ?',
+          a: "Les modèles standard couvrent une capacité de 1/4″ à 6″ sur plusieurs tailles d'étaux. La géométrie des mâchoires et la longueur de la chaîne sont adaptées à la gamme de tuyauterie visée. Des capacités personnalisées pour des tuyaux plus grands ou plus petits sont disponibles.",
         },
         {
-          q: 'Fournissez-vous des tableaux de randonnée aux outfitters et opérateurs de location ?',
-          a: 'Oui. Les outfitters et opérateurs peuvent constituer des flottes de randonnée dédiées à partir de 20–50 pcs (pilote) avec tarif flotte, pièces de rechange et cycle de renouvellement saisonnier défini.',
+          q: 'Les étaux à tube peuvent-ils être marqués avec notre logo ?',
+          a: "Oui. Le gravage laser du logo, les marques de moulage, le revêtement en poudre coloré et l'emballage de marque sont des options de personnalisation standard. Les pieds du trépied peuvent être codés par couleur selon la palette de votre marque.",
+        },
+        {
+          q: 'Quel est le MOQ pour les étaux à tube ?',
+          a: "Étaux à tube à chaîne dès 20 pcs ; étaux à tube à trépied dès 50 pcs. Échantillons en 7-14 jours, production en 25-35 jours après confirmation du PO.",
         },
       ],
     },
     {
-      slug: 'yoga',
-      navLabel: 'Plateformes de yoga',
-      metaTitle: 'Tableaux SUP de yoga personnalisés — Plateformes larges et stables OEM | SUPsfactory',
+      slug: 'specialty',
+      navLabel: 'Étaux spéciaux',
+      metaTitle: "Étaux spéciaux personnalisés — Précision et machine OEM | Stavalk",
       metaDescription:
-        'Tableaux SUP gonflables de yoga personnalisés — plateformes extra larges avec ponts moelleux pour studios, resorts et instructeurs. OEM en volume dès 90–100+ pcs, usine directe.',
-      kicker: 'Série · Yoga',
-      h1: 'Tableaux SUP de yoga personnalisés — plateformes extra larges pour pratiquer sur l\'eau',
+        "Étaux de précision et machine personnalisés — à chariot, de fraiseuse, de perceuse et CNC avec précision de 0.001″, acier durci rectifié, OEM dès 20-50 pcs.",
+      kicker: 'Série · Spécial',
+      h1: "Étaux spéciaux personnalisés — Serrage de précision pour usinage et fraisage",
       intro: [
-        'Les tableaux de yoga sont conçus pour l\'immobilité : largeur et volume supplémentaires pour une plateforme stable, revêtements moelleux pour les mains et les pieds, et profils bas qui maintiennent le tableau au plus près de l\'eau. Ils servent les studios, resorts et instructeurs de programmes de yoga aquatique.',
-        'Nous fabriquons des plateformes de yoga sous votre marque avec les profils stables les plus larges, des revêtements EVA premium et des options à l\'échelle des programmes pour studios et flottes de resorts.',
+        "Les étaux spéciaux répondent aux applications d'usinage de précision : étaux à chariot pour le positionnement composé, étaux de fraiseuse pour le montage sur table CNC, étaux de perceuse pour le perçage centré et étaux de machine avec mécanisme de double verrouillage pour les environnements de production. Tous dotés d'acier durci et rectifié pour une précision de 0.001″.",
+        "Nous fabriquons des étaux spéciaux sous votre marque dès 20-50 pièces par modèle, avec des faces en acier GCr15 durci et rectifié ou acier à outils Cr12MoV, des corps de style Kurt et des mécanismes de double verrouillage.",
       ],
       faqs: [
         {
-          q: 'Qu\'est-ce qui fait un bon tableau SUP pour le yoga ?',
-          a: 'La stabilité avant tout : une largeur accrue (33″–36″) et un volume important maintiennent le tableau plat et ferme. Un revêtement EVA doux au toucher protège les mains, les genoux et les pieds, et un rail à faible profil réduit les oscillations lors de la montée et de la descente.',
+          q: 'Quelle précision vos étaux spéciaux peuvent-ils atteindre ?',
+          a: "Les faces de mâchoires et les corps rectifiés avec précision offrent un parallélisme inférieur à 0.001″ (0,025 mm). Tous les étaux sont inspectés sur des machines de mesure par coordonnées (CMM) avant expédition, avec certificats d'inspection disponibles.",
         },
         {
-          q: 'Les resorts peuvent-ils commander des tableaux de yoga dans le cadre d\'une flotte ?',
-          a: 'Oui. Les resorts associent couramment des plateformes de yoga aux tableaux polyvalents pour les clients. Les volumes de flotte combinés ouvrent droit au tarif flotte, et les graphiques de marque dans la charte de l\'établissement s\'appliquent à l\'ensemble de la commande.',
+          q: 'Quels types d\'étaux spéciaux fabriquez-vous ?',
+          a: "Étaux à chariot (positionnement composé X-Y), étaux de fraiseuse (style Kurt, simple ou double poste), étaux de perceuse (serrage centré), étaux de machine CNC (haute vitesse, double verrouillage) et solutions de serrage personnalisées.",
         },
         {
-          q: 'Les tableaux de yoga incluent-ils des packages complets ?',
-          a: 'Oui — tableau gonflable, pagaie, pompe, sac à dos et kit de réparation, ou un kit allégé pour le stockage sur place (tableau + pagaie + pompe électrique), selon les besoins de votre programme.',
-        },
-      ],
-    },
-    {
-      slug: 'whitewater',
-      navLabel: 'Plateformes de eaux vives',
-      metaTitle: 'Tableaux SUP de eaux vives personnalisés — Plateformes de rivière OEM | SUPsfactory',
-      metaDescription:
-        'Tableaux SUP gonflables de eaux vives pour rivières et rapides — coques courtes et maniables avec construction de choc renforcée. OEM en volume dès 90–100+ pcs, usine directe de Qingdao, Chine.',
-      kicker: 'Série · Eaux vives',
-      h1: 'Tableaux SUP de eaux vives personnalisés — coques de rivière conçues pour encaisser les chocs',
-      intro: [
-        'Les tableaux de eaux vives sont courts, larges et robustes : coques maniables qui pivotent à la demande, grande résistance aux impacts sur les rails et construction lourde pour les fonds peu profonds et les mises à l\'eau rocheuses.',
-        'Nous fabriquons des plateformes de eaux vives sous votre marque avec des coutures renforcées, des rails de choc et des formes spécifiques à la rivière — conçues pour les écoles, les guides et les outfitters qui animent des cours et des excursions quotidiennes.',
-      ],
-      faqs: [
-        {
-          q: 'Quelle construction les tableaux de eaux vives nécessitent-ils ?',
-          a: 'Des rails renforcés et des coutures surpiqûées absorbent les impacts contre les rochers ; un PVC épais et des couches multicouches résistent aux crevaisons du lit de rivière. Les designs à double chambre ajoutent une réserve de flottaison pour les rivières isolées.',
+          q: 'Les étaux spéciaux peuvent-ils être personnalisés pour nos machines CNC ?',
+          a: "Oui. Nous adaptons les dimensions des rainures en T, les patrons de boulons de montage et les profils de mâchoires aux exigences spécifiques de votre table CNC et de vos pièces. Les inserts de mâchoires personnalisés (aluminium mou, rainure V, profilés) sont courants.",
         },
         {
-          q: 'Fournissez-vous aux outfitters de rivière et aux écoles de guides ?',
-          a: 'Oui. Les outfitters et les écoles de guides constituent des flottes de eaux vives à partir de 20–50 pcs (pilote) avec tarif flotte, kits de réparation renforcés et pièces de rechange (dérives, vannes) — typiques pour les programmes à usage intensif en rivière.',
-        },
-        {
-          q: 'Les tableaux de eaux vives peuvent-ils porter les graphiques de marque ?',
-          a: 'Oui — graphiques pleine surface, positionnement du logo et couleurs d\'équipe sont produits à partir de vos fichiers graphiques. Les couches d\'impression anti-déchirure préservent l\'identité de marque même sous usage intense.',
-        },
-      ],
-    },
-    {
-      slug: 'fishing',
-      navLabel: 'Plateformes de pêche',
-      metaTitle: 'Tableaux SUP de pêche personnalisés — OEM et marque privée | SUPsfactory',
-      metaDescription:
-        'Tableaux SUP gonflables de pêche personnalisés avec stabilité, capacité de charge et supports d\'accessoires — OEM/marque privée en volume dès 90–100+ pcs, usine directe de Qingdao, Chine.',
-      kicker: 'Série · Pêche',
-      h1: 'Tableaux SUP de pêche personnalisés — conçus pour les pêcheurs',
-      intro: [
-        'Les tableaux de pêche sont des plateformes de lancer stables : larges et à haut volume pour transporter le pêcheur et son équipement, avec des systèmes de fixation pour porte-cannes, glacières et tackle box, et une construction silencieuse pour les approches discrètes.',
-        'Nous fabriquons des plateformes de pêche sous votre marque avec des fonctionnalités spécifiques aux pêcheurs, spécifiées par projet — des packages week-end aux montages complets de tournoi.',
-      ],
-      faqs: [
-        {
-          q: 'Quelles fonctionnalités de pêche peuvent être spécifiées ?',
-          a: 'Grilles de fixation pour porte-cannes et accessoires, rails d\'équipement, sangles de glacière, points d\'amarrage et tableaux haute capacité jusqu\'à 500 lbs pour le pêcheur plus l\'équipement. Les packages peuvent inclure des pagaies, pompes et sacs avec votre marque.',
-        },
-        {
-          q: 'Quel est le MOQ pour les commandes OEM de tableaux de pêche ?',
-          a: 'Les lots standard en volume commencent à 90–100+ pcs par rouleau de 150 m ; les séries pilotes à partir de 20–50 pcs sur plateformes standard ; l\'outillage sur mesure à partir de 90–100+ pcs par forme. Les échantillons sont expédiés en 7–12 jours et la production en série prend 25–35 jours après confirmation du bon de commande et de l\'acompte.',
-        },
-        {
-          q: 'Produisez-vous des tableaux de pêche pour la location et les activités de guide ?',
-          a: 'Oui. Les activités de guide et de location gèrent des flottes de pêche avec tarif flotte, pièces de rechange et kits de réparation adaptés aux programmes d\'usage quotidien.',
-        },
-      ],
-    },
-    {
-      slug: 'kids',
-      navLabel: 'Plateformes enfants',
-      metaTitle: 'Tableaux SUP enfants personnalisés — Plateformes légères et compactes OEM | SUPsfactory',
-      metaDescription:
-        'Tableaux SUP gonflables enfants personnalisés — plateformes plus courtes et plus légères avec ponts adaptés aux enfants, conçus pour la sécurité et le plaisir. OEM en volume dès 90–100+ pcs, usine directe.',
-      kicker: 'Série · Enfants',
-      h1: 'Tableaux SUP enfants personnalisés — compacts, légers et conçus pour les premières pagaies',
-      intro: [
-        'Les tableaux enfants sont proportionnés pour les jeunes rameurs : coques plus courtes, poids réduits, largeurs adaptées aux petits gabarits, et ponts moelleux qui pardonnent les chutes. Ils constituent le point d\'entrée pour les marques familiales, les écoles et les flottes de location destinées aux enfants.',
-        'Nous fabriquons des plateformes enfants sous votre marque en tailles standard et junior, avec des options de package adaptées aux familles.',
-      ],
-      faqs: [
-        {
-          q: 'Quelles tailles de tableaux SUP enfants proposez-vous ?',
-          a: 'Les plateformes enfants vont généralement de 7′ à 9′6″ avec des largeurs de 26″ à 30″ et des poids d\'environ 7–9 kg (15–20 lbs). La taille est adaptée à l\'âge et au poids du rameur, et vérifiée sur un échantillon physique avant production.',
-        },
-        {
-          q: 'Fournissez-vous aux écoles et programmes jeunesse ?',
-          a: 'Oui — nos plateformes enfants sont un composant courant des flottes scolaires et de programmes jeunesse, commandées avec des pagaies junior et des accessoires de débutant au tarif programme.',
-        },
-        {
-          q: 'Les tableaux enfants peuvent-ils porter les graphiques de marque et de personnages ?',
-          a: 'Oui. Les déclinaisons couleur pleine surface, les illustrations de personnages et le positionnement du logo sont développés à partir de vos fichiers graphiques ou de la direction de marque — imprimés avec les mêmes couches anti-déchirure que les tableaux adultes.',
-        },
-      ],
-    },
-    {
-      slug: 'multi',
-      navLabel: 'Plateformes multiplièges',
-      metaTitle: 'Tableaux SUP multiplièges personnalisés — Tandem et famille OEM | SUPsfactory',
-      metaDescription:
-        'Tableaux SUP gonflables multiplièges pour loisirs familiaux et cours en groupe — plateformes tandem, yard et party. OEM en volume dès 90–100+ pcs, usine directe.',
-      kicker: 'Série · Multiplièges',
-      h1: 'Tableaux SUP multiplièges personnalisés — tandems, yard et plateformes party',
-      intro: [
-        'Les tableaux multiplièges ouvrent le SUP aux groupes : tandems avec positions de pagaie supplémentaires, tableaux yard pour se détendre et plateformes party pour plusieurs rameurs. Ils soutiennent les revenus de location dans les resorts, les plages et les bases nautiques.',
-        'Nous fabriquons des plateformes multiplièges sous votre marque avec les profils de stabilité et de volume adaptés à chaque usage.',
-      ],
-      faqs: [
-        {
-          q: 'Quels types de tableaux multiplièges fabriquez-vous ?',
-          a: 'Tandems (deux rameurs, ~13′–14′), tableaux yard (plateformes courtes et larges pour se détendre) et plateformes party à haut volume pour 3–6 rameurs. Chaque type est spécifié en fonction de la capacité, du poids et de l\'usage prévu.',
-        },
-        {
-          q: 'Les tableaux multiplièges sont-ils un bon investissement pour la location ?',
-          a: 'Oui — ils permettent des tarifs horaires premium avec un coût d\'équipement réduit par rameur, et maintiennent les groupes ensemble au lieu de les disperser sur des tableaux individuels. Les opérateurs de location associent généralement les tableaux multiplièges aux flottes polyvalentes.',
-        },
-        {
-          q: 'Quelle est la capacité d\'une plateforme party ?',
-          a: 'La capacité dépend des dimensions et du volume : les plateformes yard et party courantes supportent 400–700 lbs et transportent 3–6 rameurs selon la taille et la configuration. Les spécifications sont confirmées sur un échantillon physique avant la production en volume.',
+          q: 'Quel est le MOQ pour les étaux spéciaux ?',
+          a: "À partir de 20 pcs pour les étaux de précision standard ; les outillages personnalisés à partir de 50+ pcs. Échantillons en 7-14 jours, production en 25-35 jours après confirmation du PO.",
         },
       ],
     },
@@ -777,5 +497,5 @@ export const seriesPages: Localized<SeriesPageData[]> = {
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {
-  return (seriesPages[locale] ?? seriesPages.en).find((s) => s.slug === slug)
+  return (seriesPages[locale] ?? seriesPages.en).find((p) => p.slug === slug)
 }

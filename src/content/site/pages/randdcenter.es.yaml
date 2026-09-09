@@ -1,131 +1,98 @@
-meta:
-  title: 'Centro de I+D — Ingeniería de SUP hinchables | {SITE}'
-  description: 'I+D: ensayo de tejidos PVC, ingeniería de cascos, soldadura RF, ensayos hidrodinámicos y control de calidad. Servicios de I+D a medida.'
-  dateModified: '2026-08'
-
+﻿meta:
+  title: 'Centro de I+D — Ingeniería y laboratorio de materiales de tornillos de banco | {SITE}'
+  description: 'I+D de Stavalk: ciencia de materiales, ingeniería de fundición y tratamiento térmico, y desarrollo de tornillos de banco personalizados. Recursos de ingeniería detrás de cada serie de tornillos.'
+  dateModified: '2026-09-01'
+  keywords:
+    - 'I+D tornillos de banco'
+    - 'ingeniería tornillos de banco'
+    - 'desarrollo tornillos de banco'
+    - 'centro de I+D Stavalk'
 hero:
   tagline: Centro de I+D
-  title: Centro de I+D
-  subtitle: Centrados en el progreso
-
+  title: Ingeniería, materiales y diseño en un solo lugar
+  subtitle: El centro de I+D de Stavalk desarrolla tornillos de banco mediante ingeniería de fundición, metalurgia de tratamiento térmico y diseño mecánico — convirtiendo el boceto de un comprador en una serie certificada y producible.
+  actions:
+    - variant: primary
+      text: Iniciar un proyecto de desarrollo
+      href: /es/contact
 intro:
-  - El Centro de Investigación y Desarrollo (I+D) de Afarer es la fuerza motriz de nuestra misión de revolucionar el equipo de deportes acuáticos. Damos a los amantes de los deportes acuáticos de todo el mundo productos más seguros, cómodos y agradables mediante una innovación constante en tablas de paddle surf (SUP) y embarcaciones hinchables. Nuestro equipo dedicado de ingenieros, diseñadores y expertos apasionados de los deportes acuáticos está dando forma al futuro del sector, elevando constantemente el listón de la calidad, el rendimiento y la sostenibilidad.
-  - Nuestras instalaciones de I+D reúnen bajo un mismo techo a científicos de materiales, arquitectos navales e ingenieros de producción. Desde la formulación de tejidos y la simulación de cascos hasta el desarrollo de procesos de soldadura y las pruebas de mar a escala real, cada etapa del desarrollo de producto está impulsada por datos y validada mediante ensayos.
+  title: Introducción
+  body: |
+    El centro de I+D de Stavalk está dentro de nuestra fábrica en Qingdao, China, por lo que los equipos de diseño, prototipado y producción trabajan en el mismo edificio. Los ingenieros cubren diseño de fundición, programación CNC, tratamiento térmico y acabado superficial, además del laboratorio de metrología que verifica cada prototipo contra la especificación.
 
+    El centro respalda tanto nuestras cinco series estándar de tornillos de banco como proyectos OEM personalizados — desde un simple cambio de ancho de mandíbula hasta una gama industrial totalmente codesarrollada.
 mission:
-  tagline: Nuestra misión
-  title: Innovando el futuro de los deportes acuáticos
-  pillars:
-    - icon: lightning
-      title: Avance tecnológico
-      desc: Innovamos en materiales, diseños y fabricación para lograr un rendimiento y una longevidad superiores del producto.
-    - icon: design
-      title: Diseño centrado en el usuario
-      desc: Entendemos y superamos las necesidades del usuario mediante un diseño de producto ergonómico e intuitivo.
-    - icon: globe
-      title: Prácticas sostenibles
-      desc: Minimizamos nuestra huella medioambiental con materiales y procesos respetuosos con el entorno.
-    - icon: shield
-      title: Seguridad sin concesiones
-      desc: Garantizamos los más altos estándares de seguridad mediante ensayos y certificaciones rigurosos.
-
+  title: Misión
+  body: |
+    Convertir los requisitos del cliente en tornillos de banco que sujeten el trabajo con seguridad, duren años de uso en taller y se envíen con calidad totalmente documentada. Ingenieros para rendimiento de sujeción, dureza de mandíbula y resistencia a la corrosión, manteniendo el desarrollo de marca privada rentable y rápido.
 pillars:
-  - title: Avance tecnológico
-    desc: Innovamos en materiales, diseños y procesos de fabricación para ofrecer un rendimiento y una longevidad superiores del producto.
-    icon: tech
-  - title: Materiales avanzados
-    desc: Investigamos PVC de vanguardia, Hypalon, composites y alternativas sostenibles para mejorar las características del producto.
-    icon: materials
-  - title: Sostenibilidad
-    desc: 'Un compromiso central: dedicados a la gestión medioambiental mediante fabricación sostenible y materiales reciclables.'
-    icon: sustainability
-
+  title: Pilares de ingeniería
+  subtitle: Los cuatro principios que guían cada proyecto.
+  items:
+    - title: Material en primer lugar
+      description: La aleación correcta de hierro gris, acero forjado y endurecimiento para cada clase de uso y aplicación.
+    - title: Mecanizado de precisión
+      description: Tolerancias CNC que mantienen las caras de mandíbula paralelas y el husillo firme bajo carga.
+    - title: Control de dureza
+      description: Temple en aceite y revenido que mantiene las mandíbulas a 58–62 HRC, verificado por prueba Rockwell.
+    - title: Diseño verificado por ensayos
+      description: Cada prototipo se valida para fuerza de sujeción, par de giro y vida de ciclo antes de la producción.
 capabilities:
-  tagline: Capacidades
-  title: Capacidades de I+D
-  subtitle: Cuatro disciplinas clave que nos dan control integral del desarrollo de producto, desde la investigación de materias primas hasta la certificación final.
+  title: Capacidades
+  subtitle: Lo que nuestros ingenieros y laboratorio pueden hacer internamente.
   groups:
-    - title: Ciencia de materiales y tecnología del tejido
+    - title: Fundición y mecanizado
       items:
-        - Análisis y optimización de formulaciones de PVC y Hypalon
-        - Desarrollo de aditivos de estabilización UV, retardancia de llama y antimicrobianos
-        - Ingeniería de laminación multicapa y unión adhesiva
-        - Ensayos de envejecimiento acelerado (UV, térmico, humedad, niebla salina)
-    - title: Ingeniería de cascos e hidrodinámica
+        - Modelos de arena verde y aglomerante, bebederos y mazarotas para cuerpos de hierro gris HT200/HT250
+        - Caras de mandíbula, husillos, bases y accesorios mecanizados con precisión dimensional constante
+        - Geometría de mandíbula y base personalizada desarrollada a partir de tu dibujo
+    - title: Metalurgia y laboratorio
       items:
-        - Diseño paramétrico de cascos 3D y optimización CFD
-        - Análisis por elementos finitos de cargas estructurales y de impacto
-        - Ensayos en canal hidrodinámico con modelos a escala y validación de rendimiento
-        - Desarrollo de cascos a medida para perfiles de misión especiales
-    - title: Tecnología de soldadura y unión
-      items:
-        - Desarrollo y optimización de procesos de soldadura dieléctrica RF
-        - Métodos de soldadura por aire caliente, cuña caliente y ultrasónica
-        - Cualificación de uniones adhesivas y cintas de sellado de costuras
-        - Modelado de resistencia de soldaduras y predicción de vida útil
-    - title: Ensayos, certificación y cumplimiento
-      items:
-        - Gestión de calidad y ensayos de cumplimiento CE
-        - Soporte de ensayos y certificación por terceros independientes
-        - Desarrollo de protocolos de ensayo personalizados para la cualificación de compras
-        - Análisis de fallos en servicio e investigación de causas raíz
-
+        - Líneas de temple en aceite y revenido para mandíbulas GCr15/Cr12MoV de 58–62 HRC
+        - Acabado en spray, en polvo y Parkerizing con validación de niebla salina
+        - Espectrómetro, CMM, dureza, par y equipos de ensayo de ciclo para validar cada diseño
 rd_numbers:
-  tagline: Innovación
-  title: La I+D en cifras
-  stats:
-    - value: '14'
-      label: Ingenieros y científicos de I+D
-    - value: '8'
-      label: Patentes y solicitudes activas
-    - value: '6'
-      label: Laboratorios especializados
-    - value: 12 años
-      label: Experiencia media del equipo
-
+  title: I+D en cifras
+  items:
+    - value: 5
+      label: Series estándar
+      detail: Ligera, media, pesada, tubería y precisión
+    - value: 80,000+
+      label: Tornillos por año
+      detail: Capacidad de fábrica
+    - value: 200+
+      label: Trabajadores
+      detail: En fundición, mecanizado y montaje
+    - value: 58–62
+      label: Dureza de mandíbula HRC
+      detail: Mandíbulas endurecidas GCr15 / Cr12MoV
 rd_services:
-  tagline: I+D a medida
-  title: Servicios de I+D para socios
+  title: Servicios de I+D
+  subtitle: Soporte de desarrollo disponible para socios OEM y de marca privada.
   services:
-    - title: Desarrollo de materiales a medida
-      desc: Desarrollamos formulaciones de tejido, apilamientos de laminado y sistemas adhesivos personalizados para tu entorno operativo y tus objetivos de rendimiento.
-    - title: Ingeniería de producto OEM / ODM
-      desc: Desarrollamos formulaciones de tejido, apilamientos de laminado y sistemas adhesivos personalizados para tu entorno operativo y tus objetivos de rendimiento.
-    - title: Ensayos y certificación por terceros
-      desc: Utiliza nuestras instalaciones de ensayo conformes ISO para ensayos de materiales independientes, validación de producto y soporte de certificación.
-  cta: Habla con nosotros de tus requisitos de I+D →
+    - title: Diseño personalizado de mandíbula y base
+      desc: Adapta el ancho de mandíbula, la apertura y el montaje a tu aplicación y banco de trabajo.
+    - title: Selección de material y acabado
+      desc: Elige el grado del cuerpo, el acero de mandíbula y el recubrimiento para la resistencia, dureza y protección contra la corrosión adecuadas.
+    - title: Del dibujo a la muestra
+      desc: Nuestros ingenieros convierten tu boceto o referencia en un prototipo verificado.
+    - title: Soporte de certificación
+      desc: Diseña el producto para cumplir CE, ISO y RoHS desde la etapa de dibujo, no después.
+  cta: Inicia un proyecto de desarrollo
   cta_link: /es/contact
-
 vision:
-  tagline: Nuestra visión
-  title: Dando forma al futuro de los deportes acuáticos
-  body: Afarer aspira a liderar la industria de las embarcaciones hinchables y el SUP mediante la innovación continua, una calidad inquebrantable y un firme compromiso con la seguridad y la sostenibilidad, enriqueciendo en última instancia las experiencias de los amantes de los deportes acuáticos de todo el mundo. El Centro de I+D de Afarer es donde la pasión se encuentra con la innovación, estableciendo nuevos estándares para el sector.
-
+  title: Visión
+  body: |
+    Ser el socio de I+D de tornillos de banco preferido de las marcas de sujeción en todo el mundo — combinando fabricación certificada con la profundidad de ingeniería para construir su producto exacto, cada vez.
 labs_section:
-  tagline: Laboratorios
-  title: Nuestros laboratorios
-  labs:
-    - image: https://assets.afarer.com/images/afarer/randd/afarer-pvc-material-lab.webp
-      title: Laboratorio de tejidos PVC
-      description: 'Investigación y ensayo continuos de tejidos para tubos de PVC y Hypalon: resistencia a la tracción, resistencia UV, abrasión y flexibilidad a baja temperatura, para garantizar una fiabilidad a largo plazo en entornos marinos.'
-      href: /es/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-design-discussion-2.webp
-      title: Estudio de ingeniería de cascos
-      description: Diseño asistido por CAD y análisis por elementos finitos de cascos de HDPE, aluminio y fibra de vidrio. Cada casco se simula digitalmente para evaluar la distribución de tensiones y la resistencia al impacto antes de construir el primer prototipo.
-      href: /es/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing-3.webp
-      title: Centro de soldadura RF
-      description: Instalación dedicada de soldadura por radiofrecuencia con control de precisión de temperatura y presión, que produce costuras herméticas de alta resistencia conformes a los estándares marinos para embarcaciones hinchables.
-      href: /es/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-design-discussion-original.webp
-      title: Canal hidrodinámico
-      description: Ensayos con modelos a escala en nuestro canal de pruebas interno para optimizar la forma del casco, el planeo, la estabilidad y la eficiencia del combustible en un amplio rango de cargas y condiciones de mar.
-      href: /es/randdcenter
-    - image: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp
-      title: Taller de prototipos
-      description: Instalación de prototipado y aparejo a escala real donde se construyen, equipan y prueban en el mar los nuevos modelos. Cada prototipo supera un mínimo de 20 horas de pruebas en el agua antes de la aprobación de producción.
-      href: /es/randdcenter
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-uv-resistance-testing.webp
-      title: Laboratorio de calidad e inspección
-      description: Laboratorio de garantía de calidad dedicado a ensayos de tracción, ciclos de retención de aire, pruebas de pelado de costuras y certificación de materiales, para garantizar que cada embarcación que sale del taller cumple nuestras especificaciones publicadas.
-      href: /es/randdcenter
+  title: Laboratorios y equipos
+  subtitle: Instalaciones internas que mantienen el desarrollo rápido y la calidad documentada.
+  items:
+    - title: Laboratorio de espectrómetro
+      description: Valida la química del hierro gris y del acero según especificación antes de mecanizar una sola pieza.
+    - title: Laboratorio de metrología
+      description: CMM y calibres de precisión verifican cada dimensión crítica en prototipos y lotes de producción.
+    - title: Laboratorio de dureza y materiales
+      description: La prueba Rockwell confirma la dureza de mandíbula en el temple en aceite y el revenido.
+    - title: Laboratorio de durabilidad
+      description: Ensayos de fuerza de sujeción, par de giro y más de 10,000 ciclos confirman una larga vida útil.

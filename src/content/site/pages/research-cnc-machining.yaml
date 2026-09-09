@@ -1,0 +1,15 @@
+label: Research
+headline: '<strong>CNC Machining</strong> — Precision Across Every Vise Component'
+subtitle: 'CNC lathes and machining centers deliver tight tolerances on jaws, bases, spindles and handles for consistent clamping performance.'
+seo:
+  title: 'CNC Machining for Bench Vise Components'
+  description: 'Stavalk machines jaws, spindles and bases on CNC lathes and machining centers to tolerances of ±0.1 mm for reliable, repeatable clamping.'
+body: >-
+  After casting, every critical vise component moves to the CNC machining workshop, where lathes and machining centers shape jaws, base plates, spindles and handles to published tolerances. Jaw faces and stems machined from 45# forged steel or GCr45 bar stock receive slideway parallelism within ±0.1 mm, while spindle-bore mounting holes and threads are cut to class-precision fits that govern smooth rotation under load. Handle threads are produced by thread-rolling for consistent pitch and superior fatigue life compared to cut threads. The combination of CNC precision and conventional secondary operations gives Stavalk full control over the dimensional chain from raw casting to finished vise.
+faqs:
+  - q: 'Which components are CNC-machined versus conventionally turned?'
+    a: 'Jaw faces, jaw stems, base slideways, spindle mounting bores and thread profiles are all CNC-machined for tight tolerance and surface finish. Handles and secondary features may be produced on conventional lathes or thread-rolling equipment where the required precision is achievable without CNC.'
+  - q: 'What tolerances does Stavalk hold on machined features?'
+    a: 'Slideway parallelism, jaw-face flatness and spindle bore alignment are held to ±0.1 mm or tighter. Spindle threads are machined to a defined thread class that ensures smooth, backlash-free rotation. These tolerances are verified by CMM during first-article inspection and by in-process gauging during production.'
+  - q: 'Is heat treatment performed before or after machining?'
+    a: 'Jaw inserts and other hardened components are machined to near-final dimensions first, then heat-treated, and finish-ground if needed. This sequence minimises distortion from the quench and temper cycle, ensuring the finished geometry meets tolerance after hardening.'

@@ -1,16 +1,16 @@
-{
+﻿{
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://supsfactory.com/#organization",
-  "name": "SUPsfactory",
-  "alternateName": "SUPsfactory — Afarer SUP Manufacturing",
-  "url": "https://supsfactory.com",
-  "description": "SUPsfactory is the custom inflatable SUP (stand-up paddle board) OEM/ODM manufacturing division of Afarer (Qingdao Vatrad Group Co., Ltd.), a 12,500 m² marine equipment plant in Qingdao, China. Engineering, tooling, sampling, production and export for SUP brands, distributors and sourcing teams worldwide.",
-  "industry": "Marine Equipment Manufacturing — SUP Division",
+  "@id": "https://stavalk.com/#organization",
+  "name": "Stavalk",
+  "alternateName": "Stavalk Bench Vises",
+  "url": "https://stavalk.com",
+  "description": "Stavalk manufactures professional-grade bench vises for metalworking, woodworking, and industrial applications. Heavy-duty cast iron and steel construction with precision-machined jaws, built in Qingdao, China for global OEM/ODM partners.",
+  "industry": "Bench Vise Manufacturing",
   "foundingDate": "2012",
-  "isicV4": "3012",
-  "numberOfEmployees": "350+",
-  "logo": "https://supsfactory.com/logo192.png",
+  "isicV4": "2599",
+  "numberOfEmployees": "200+",
+  "logo": "https://stavalk.com/logo192.png",
   "location": {
     "@type": "Place",
     "name": "Qingdao Manufacturing Facility",
@@ -41,36 +41,33 @@
       "@type": "ContactPoint",
       "telephone": "+86-13305324192",
       "contactType": "sales",
-      "email": "info@supsfactory.com",
+      "email": "info@stavalk.com",
       "availableLanguage": ["English", "Chinese", "Spanish", "French", "Arabic", "German"]
     },
     {
       "@type": "ContactPoint",
       "telephone": "+86-13305324192",
       "contactType": "customer service",
-      "email": "info@supsfactory.com",
+      "email": "info@stavalk.com",
       "availableLanguage": ["English", "Chinese"]
     }
   ],
   "sameAs": [
-    "https://www.youtube.com/@afarer",
-    "https://www.instagram.com/afarer_watersports/",
-    "https://www.facebook.com/profile.php?id=61572404318679",
-    "https://www.linkedin.com/company/afarer",
-    "https://afarer.en.alibaba.com",
-    "https://afarer.en.made-in-china.com"
+    "https://www.youtube.com/@stavalk",
+    "https://www.instagram.com/stavalk_tools/",
+    "https://www.facebook.com/stavalk",
+    "https://www.linkedin.com/company/stavalk"
   ],
   "parentOrganization": {
     "@type": "Organization",
-    "@id": "https://afarer.com/#organization",
-    "name": "Afarer",
-    "alternateName": "Afarer Marine",
-    "url": "https://afarer.com",
-    "description": "Afarer is the parent brand — a global water sports equipment and marine innovation partner manufacturing RIB boats, inflatable boats, SUP boards and marine solutions."
+    "@id": "https://stavalk.com/#organization",
+    "name": "Stavalk",
+    "url": "https://stavalk.com",
+    "description": "Stavalk is a global bench vise manufacturer producing precision vises for metalworking, woodworking, automotive, and industrial applications."
   },
   "isPartOf": {
     "@type": "Organization",
-    "name": "Qingdao Vatrad Group Co., Ltd.",
-    "description": "Legal entity and holding company operating the Qingdao manufacturing facility."
+    "name": "Stavalk",
+    "description": "Bench vise manufacturing division operating the Qingdao production facility."
   }
 }

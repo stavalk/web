@@ -1,85 +1,84 @@
-meta:
-  title: 'SUP Size & Specs Guide — Inflatable Paddle Boards | {SITE}'
-  description: 'Dimensions, capacities, and recommended uses for every Afarer board. Find the right inflatable SUP size for your needs.'
-  dateModified: '2026-08'
+﻿meta:
+  title: 'Bench Vise Size Guide — Jaw Width & Specs | {SITE}'
+  description: 'Dimensions, weight ranges and recommended uses for every Stavalk bench vise. Find the right jaw width for your workbench and workpiece.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'sup size guide'
-    - 'paddle board dimensions'
-    - 'inflatable sup specs'
-    - 'sup size chart'
+    - 'bench vise size guide'
+    - 'bench vise jaw width'
+    - 'bench vise dimensions'
+    - 'vise size chart'
 hero:
-  title: Size & Specs Guide
-  subtitle: Dimensions, capacities, and recommended uses for every Afarer product.
-
-categories:
-  inflatable: Inflatable SUPs designed for portability without sacrificing performance. Match the right size to your weight and paddling style.
-  sup: Stand-up paddleboards for touring, yoga, fitness, and recreational paddling. Choose by length and rider weight.
-  accessory: Accessories and safety equipment to complement your SUP board. Universal sizing with multiple options.
-
-table:
-  headers:
-    product: Product
-    length: Length
-    width: Width
-    weight: Weight
-    max_load: Max Load
-    best_for: Best For
-  rows:
-    - product: 'All-Around SUP (Explorer 11 ft)'
-      length: '11''0" (335 cm)'
-      width: '32" (81 cm)'
-      weight: 19 lbs (8.6 kg)
-      max_load: 220 lbs (100 kg)
-      best_for: Beginners, recreation, family paddling on lakes and calm rivers
-    - product: 'All-Around SUP (10''6")'
-      length: '10''6" (320 cm)'
-      width: '32" (81 cm)'
-      weight: 18 lbs (8.2 kg)
-      max_load: 200 lbs (90 kg)
-      best_for: Lighter riders, yoga, and general recreation
-    - product: 'Touring SUP (12 ft)'
-      length: '12''0" (366 cm)'
-      width: '30" (76 cm)'
-      weight: 23 lbs (10.4 kg)
-      max_load: 260 lbs (118 kg)
-      best_for: Distance paddling, speed, and coastal touring
-    - product: 'Touring SUP (14 ft)'
-      length: '14''0" (427 cm)'
-      width: '28" (71 cm)'
-      weight: 26 lbs (11.8 kg)
-      max_load: 275 lbs (125 kg)
-      best_for: Racing and long-distance expedition paddling
-    - product: 'Surf SUP (8–10 ft)'
-      length: '8''0"–10''0" (244–305 cm)'
-      width: '30" (76 cm)'
-      weight: 17 lbs (7.7 kg)
-      max_load: 180 lbs (82 kg)
-      best_for: Wave riding and maneuverable surfing
-    - product: 'Yoga / Fitness SUP (11 ft)'
-      length: '11''0" (335 cm)'
-      width: '34" (86 cm)'
-      weight: 22 lbs (10 kg)
-      max_load: 240 lbs (109 kg)
-      best_for: Yoga, fitness, and stable recreation
-
-how_to_choose:
-  title: How to Choose the Right Size
-  cards:
-    - title: SUP Boards
-      description: Choose length based on your weight and intended use. Wider boards (32"+) offer more stability. Longer boards (11-12 ft) track better for touring. Heavier paddlers need higher volume boards.
-    - title: Touring SUPs
-      description: Longer boards (11–12 ft) are best for covering distance and touring. Wider boards (32"+) offer more stability. Check weight capacity for total load including gear.
-    - title: All-Around SUPs
-      description: Choose length by rider weight and intended use. All-around boards work for recreation, fitness, and yoga. Smaller boards are more maneuverable.
-
-cta:
-  title: 'Browse boards by size, or talk to an engineer'
-  subtitle: 'Compare touring, all-around and yoga models across our product range — or send your rider mix and we will recommend the right sizes for your project.'
+  title: Bench Vise Size Guide
+  subtitle: Jaw width, opening, weight and recommended uses for every Stavalk bench vise.
   actions:
     - variant: primary
-      text: Browse SUP products
+      text: Browse bench vise series
       href: /products
-    - text: More paddling knowledge
+categories:
+  title: Size Categories
+  subtitle: Match the jaw series to your workbench and your largest regular workpiece.
+  items:
+    - title: Light Duty — 4″–5″
+      description: Replaceable-jaw vises for electronics, jewelry, craft, small woodworking and model work. Compact, portable and gentle on small workpieces.
+    - title: Medium Duty — 6″–8″
+      description: The most versatile choice for general metalwork, auto repair, fabrication and woodworking. Covers most workshop and garage needs at a reasonable weight.
+    - title: Heavy Duty — 8″–10″
+      description: Forged-steel bodies, anvil backs and maximum clamping force for pipe fitting, ship work, mining maintenance and heavy fabrication.
+    - title: Pipe Vise
+      description: Serrated hardened V-jaws accept 1/8″–2″ pipe for secure, slip-free grip on round stock.
+table:
+  title: Size Reference Table
+  headers:
+    duty: Duty
+    jaws: Jaw width
+    opening: Opening
+    weight: Weight
+    suited: Best for
+  rows:
+    - duty: Light
+      jaws: 4″–5″
+      opening: 3″–4″
+      weight: 3–5 kg
+      suited: Electronics, jewelry, craft, model work, small woodworking
+    - duty: Medium
+      jaws: 6″–8″
+      opening: 4″–7″
+      weight: 5–8 kg
+      suited: General metalwork, auto repair, fabrication, woodworking
+    - duty: Heavy
+      jaws: 8″–10″
+      opening: 7″–10″
+      weight: 8–14 kg
+      suited: Pipe fitting, ship work, mining maintenance, heavy fabrication
+    - duty: Pipe
+      jaws: —
+      opening: 1/8″–2″ pipe
+      weight: 6–12 kg
+      suited: Round stock — pipe, rod and tube fitting and threading
+how_to_choose:
+  title: How to Choose the Right Size
+  body: |
+    Match the jaw width to both your workbench and your largest regular workpiece:
+
+    - **Jaw width** determines the maximum workpiece you can grip securely. A 4″–5″ light-duty vise suits hobby and small work; 6″–8″ medium-duty covers most workshops; 8″–10″ heavy-duty is for industrial fabrication.
+    - **Opening range** must clear your biggest material. Check the maximum opening against your thickest regular stock before choosing a series.
+    - **Weight and bench** — light vises run 3–5 kg, medium 5–8 kg, heavy 8–14 kg. Reinforce the workbench top for heavy-duty vises.
+    - **Mounting** — match bolt size (typically 4–12 mm) and spacing to your bench. A 360° swivel base adds clamping flexibility; a fixed base is more rigid for heavy hammering.
+    - **Pipe jaws** — if you regularly hold round stock, choose a model with pipe jaws or a dedicated pipe vise accepting 1/8″–2″ pipe.
+
+    ### Common choices
+    - Small and precision work → 4″–5″ light-duty with replaceable jaws
+    - General workshop use → 6″ medium-duty
+    - Heavy and industrial work → 8″–10″ heavy-duty with anvil back
+    - Round stock → pipe jaws or a dedicated pipe vise
+cta:
+  title: 'Browse vises by size, or talk to an engineer'
+  subtitle: 'Compare light, medium and heavy-duty models across our product range — or send your workpiece mix and we will recommend the right jaw widths for your project.'
+  actions:
+    - variant: primary
+      text: Browse bench vise series
+      href: /products
+    - text: More workholding knowledge
       href: /knowledge
-    - text: How boards are built
-      href: /factory/process
+    - text: How vises are built
+      href: /quality

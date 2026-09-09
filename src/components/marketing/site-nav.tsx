@@ -51,91 +51,91 @@ export function SiteNav() {
 
   const navItems: NavItem[] = useMemo(() => [
     {
-      label: t('sup.nav.productsServices'),
+      label: t('bench.nav.productsServices'),
       groups: [
         {
-          label: t('sup.nav.productsServicesDropdown.startGroup'),
+          label: t('bench.nav.productsServicesDropdown.startGroup'),
           items: [
-            { label: t('sup.nav.productsServicesDropdown.startProject'), href: '/start-sup-project', highlight: true },
-            { label: t('sup.nav.productsServicesDropdown.all'), href: '/products' },
-            { label: t('sup.nav.productsServicesDropdown.customizer'), href: '/customizer' },
+            { label: t('bench.nav.productsServicesDropdown.startProject'), href: '/start-sup-project', highlight: true },
+            { label: t('bench.nav.productsServicesDropdown.all'), href: '/products' },
+            { label: t('bench.nav.productsServicesDropdown.customizer'), href: '/customizer' },
           ],
         },
         {
-          label: t('sup.nav.productsServicesDropdown.exploreGroup'),
+          label: t('bench.nav.productsServicesDropdown.exploreGroup'),
           items: [
-            { label: t('sup.nav.productsServicesDropdown.manufacturer'), href: '/oem-manufacturing' },
-            { label: t('sup.nav.productsServicesDropdown.constructionComparison'), href: '/sup-construction-comparison' },
-            { label: t('sup.nav.productsServicesDropdown.privateLabel'), href: '/solutions/private-label-sup' },
-            { label: t('sup.nav.productsServicesDropdown.comparison'), href: '/oem-odm-private-label-comparison' },
-            { label: t('sup.nav.productsServicesDropdown.productDevelopment'), href: '/product-development' },
-            { label: t('sup.nav.productsServicesDropdown.newBrandTrial'), href: '/new-brand-trial-order' },
-            { label: t('sup.nav.productsServicesDropdown.oemPaddle'), href: '/oem-paddle' },
+            { label: t('bench.nav.productsServicesDropdown.manufacturer'), href: '/oem-manufacturing' },
+            { label: t('bench.nav.productsServicesDropdown.constructionComparison'), href: '/sup-construction-comparison' },
+            { label: t('bench.nav.productsServicesDropdown.privateLabel'), href: '/solutions/private-label-sup' },
+            { label: t('bench.nav.productsServicesDropdown.comparison'), href: '/oem-odm-private-label-comparison' },
+            { label: t('bench.nav.productsServicesDropdown.productDevelopment'), href: '/product-development' },
+            { label: t('bench.nav.productsServicesDropdown.newBrandTrial'), href: '/new-brand-trial-order' },
+            { label: t('bench.nav.productsServicesDropdown.oemPaddle'), href: '/oem-paddle' },
           ],
         },
       ],
     },
     {
-      label: t('sup.nav.industries'),
+      label: t('bench.nav.industries'),
       groups: [
         {
-          label: t('sup.nav.industriesDropdown.overviewGroup'),
+          label: t('bench.nav.industriesDropdown.overviewGroup'),
           items: [
-            { label: t('sup.nav.industriesDropdown.overview'), href: '/who-we-serve' },
+            { label: t('bench.nav.industriesDropdown.overview'), href: '/who-we-serve' },
           ],
         },
         {
-          label: t('sup.nav.industriesDropdown.verticalsGroup'),
+          label: t('bench.nav.industriesDropdown.verticalsGroup'),
           items: [
-            { label: t('sup.nav.industriesDropdown.resorts'), href: '/solutions/resort-sup' },
-            { label: t('sup.nav.industriesDropdown.clubs'), href: '/solutions/club-sup' },
-            { label: t('sup.nav.industriesDropdown.rental'), href: '/solutions/rental-operators' },
-            { label: t('sup.nav.industriesDropdown.distributors'), href: '/solutions/distributors' },
-            { label: t('sup.nav.industriesDropdown.retail'), href: '/solutions/retail-partners' },
+            { label: t('bench.nav.industriesDropdown.resorts'), href: '/solutions/resort-sup' },
+            { label: t('bench.nav.industriesDropdown.clubs'), href: '/solutions/club-sup' },
+            { label: t('bench.nav.industriesDropdown.rental'), href: '/solutions/rental-operators' },
+            { label: t('bench.nav.industriesDropdown.distributors'), href: '/solutions/distributors' },
+            { label: t('bench.nav.industriesDropdown.retail'), href: '/solutions/retail-partners' },
           ],
         },
       ],
     },
     {
-      label: t('sup.nav.proofQuality'),
+      label: t('bench.nav.proofQuality'),
       groups: [
         {
-          label: t('sup.nav.proofQualityDropdown.evidenceGroup'),
+          label: t('bench.nav.proofQualityDropdown.evidenceGroup'),
           items: [
-            { label: t('sup.nav.proofQualityDropdown.factory'), href: '/factory' },
-            { label: t('sup.nav.proofQualityDropdown.proofCenter'), href: '/proof-center' },
-            { label: t('sup.nav.proofQualityDropdown.quality'), href: '/quality' },
-            { label: t('sup.nav.proofQualityDropdown.complianceByMarket'), href: '/sup-compliance-by-market' },
-            { label: t('sup.nav.proofQualityDropdown.auditChecklist'), href: '/factory-audit-checklist' },
-            { label: t('sup.nav.proofQualityDropdown.technology'), href: '/technology' },
+            { label: t('bench.nav.proofQualityDropdown.factory'), href: '/factory' },
+            { label: t('bench.nav.proofQualityDropdown.proofCenter'), href: '/proof-center' },
+            { label: t('bench.nav.proofQualityDropdown.quality'), href: '/quality' },
+            { label: t('bench.nav.proofQualityDropdown.complianceByMarket'), href: '/sup-compliance-by-market' },
+            { label: t('bench.nav.proofQualityDropdown.auditChecklist'), href: '/factory-audit-checklist' },
+            { label: t('bench.nav.proofQualityDropdown.technology'), href: '/technology' },
           ],
         },
         {
-          label: t('sup.nav.proofQualityDropdown.casesGroup'),
+          label: t('bench.nav.proofQualityDropdown.casesGroup'),
           items: [
-            { label: t('sup.nav.proofQualityDropdown.projects'), href: '/projects' },
-            { label: t('sup.nav.proofQualityDropdown.gallery'), href: '/gallery' },
-            { label: t('sup.nav.proofQualityDropdown.evidence'), href: '/evidence/case-studies' },
+            { label: t('bench.nav.proofQualityDropdown.projects'), href: '/projects' },
+            { label: t('bench.nav.proofQualityDropdown.gallery'), href: '/gallery' },
+            { label: t('bench.nav.proofQualityDropdown.evidence'), href: '/evidence/case-studies' },
           ],
         },
       ],
     },
     {
-      label: t('sup.nav.resources'),
+      label: t('bench.nav.resources'),
       items: [
-        { label: t('sup.nav.resourcesDropdown.knowledge'), href: '/knowledge' },
-        { label: t('sup.nav.resourcesDropdown.onboarding'), href: '/oem-onboarding-guide' },
-        { label: t('sup.nav.resourcesDropdown.faq'), href: '/faq' },
-        { label: t('sup.nav.resourcesDropdown.sizeGuide'), href: '/size-guide' },
-        { label: t('sup.nav.resourcesDropdown.moqGuide'), href: '/oem-moq-guide' },
-        { label: t('sup.nav.resourcesDropdown.news'), href: '/news' },
+        { label: t('bench.nav.resourcesDropdown.knowledge'), href: '/knowledge' },
+        { label: t('bench.nav.resourcesDropdown.onboarding'), href: '/oem-onboarding-guide' },
+        { label: t('bench.nav.resourcesDropdown.faq'), href: '/faq' },
+        { label: t('bench.nav.resourcesDropdown.sizeGuide'), href: '/size-guide' },
+        { label: t('bench.nav.resourcesDropdown.moqGuide'), href: '/oem-moq-guide' },
+        { label: t('bench.nav.resourcesDropdown.news'), href: '/news' },
       ],
     },
   ], [t])
 
   const authLink = loggedIn ? (
     <a href={fl('/app')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
-      {t('sup.nav.app')}
+      {t('bench.nav.app')}
     </a>
   ) : (
     <a href={fl('/login')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
@@ -145,7 +145,7 @@ export function SiteNav() {
 
   const cta = (
     <a href={fl('/start-sup-project')} className={buttonVariants({ size: 'sm' })}>
-      {t('sup.nav.cta')}
+      {t('bench.nav.cta')}
     </a>
   )
 
@@ -264,7 +264,7 @@ export function SiteNav() {
           <a href={fl('/')} aria-label={SITE_NAME} className="shrink-0">
             <div className="flex flex-col leading-tight">
               <Logo />
-              <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('sup.nav.poweredBy')}</span>
+              <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('bench.nav.poweredBy')}</span>
             </div>
           </a>
           <div className="flex-1" />

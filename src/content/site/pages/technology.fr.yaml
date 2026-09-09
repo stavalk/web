@@ -1,53 +1,46 @@
-meta:
-  title: 'Technologie — Drop-Stitch & PVC marine | {SITE}'
-  description: 'Technologies Afarer : construction drop-stitch, PVC marine, constructions à double couche et haute pression. Innovation d''un fabricant professionnel de SUP gonflables.'
-  dateModified: '2026-08'
+﻿meta:
+  title: 'Technologie — Coulée, usinage, traitement thermique et revêtement | {SITE}'
+  description: 'Technologies de serre-joint Stavalk : coulée en sable vert, usinage CNC, traitement thermique par trempe à l''huile et revêtement de surface.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'technologie sup'
-    - 'construction drop-stitch'
-    - 'sup haute pression'
-    - 'matériaux sup gonflable'
+    - 'technologie serre-joint'
+    - 'coulée fonte grise'
+    - 'dureté mâchoire traitement thermique'
+    - 'matériaux serre-joint'
 hero:
-  tagline: 'Technologie'
-  title: 'Conçu pour la performance'
-  subtitle: 'Chaque SUP gonflable Afarer est conçu avec une construction drop-stitch et un PVC de grade marine — des matériaux de précision et des méthodes de fabrication testées pour les environnements marins exigeants.'
-
+  tagline: Technologie
+  title: Conçu pour la précision et la résistance
+  subtitle: Chaque serre-joint Stavalk est conçu par coulée en sable vert et aggloméré, usinage CNC, trempe à l''huile et revêtement de précision — des méthodes de production testées pour la force de serrage, la durabilité et la dureté.
+  actions:
+    - variant: primary
+      text: Centre de R&D
+      href: /fr/randdcenter
 sections:
-  - title: 'Noyau Drop-Stitch'
-    description: 'Des milliers de fils de polyester internes relient les couches supérieure et inférieure, créant une structure rigide à 12–15 PSI. C''est la même technologie utilisée dans les planches à pagaie professionnelles et les SUP de course gonflables.'
-    imageAlt: 'Diagramme du noyau DS'
-  - title: 'PVC de grade marine'
-    description: 'Tissu PVC laminé multicouche classé pour environnements marins. Chaque couche est soudée par fusion plutôt que collée, éliminant les risques de délaminage. Testé pour la résistance UV, la corrosion en eau salée et l''abrasion.'
-    imageAlt: 'Couche PVC'
-  - title: 'PVC de grade militaire'
-    description: 'Utilisé sur tous les modèles de SUP, le PVC premium offre une résistance supérieure aux UV et aux produits chimiques. Conserve sa flexibilité à des températures extrêmes et résiste à la dégradation.'
-    imageAlt: 'PVC'
-  - title: 'Planche à air (Air Deck)'
-    description: 'Construction drop-stitch gonflable haute pression offrant une rigidité exceptionnelle pour la station debout, la pêche et le yoga. Réduit le temps de mise en place, le poids total et le volume de rangement.'
-    imageAlt: 'Air Deck'
-
+  title: Les processus derrière un serre-joint Stavalk
+  subtitle: Quatre technologies de production se combinent pour offrir une force de serrage constante, une dureté de mâchoire et une résistance à la corrosion dans chaque série.
+  items:
+    - title: Procédé de coulée en sable
+      description: Les corps en fonte grise HT200/HT250 sont coulés sur des lignes de sable vert et aggloméré, validés selon spécification par spectromètre. Le résultat est un corps solide et amortissant les vibrations, la colonne vertébrale de chaque serre-joint.
+      link: /fr/technology/sand-casting-process
+      link_label: Lire l''article
+    - title: Précision d'usinage CNC
+      description: Les faces de mâchoire, les arbres et les bases sont usinés sur des tours et centres de fraisage CNC pour une précision dimensionnelle constante, avec CMM et pieds à coulisse qui vérifient chaque dimension critique.
+      link: /fr/technology/cnc-machining-precision
+      link_label: Lire l''article
+    - title: Dureté de mâchoire par traitement thermique
+      description: Les mâchoires en acier trempé GCr15 et Cr12MoV sont trempées à l''huile et revenues à 58–62 HRC, vérifiées par essai de dureté Rockwell pour la résistance à l''usure et une longue durée de vie.
+      link: /fr/technology/heat-treatment-jaw-hardness
+      link_label: Lire l''article
+    - title: Revêtement et finition de surface
+      description: Les lignes de peinture par pulvérisation, de revêtement en poudre et de Parkerizing protègent les corps et les mâchoires de la corrosion et de l''usure. Les finitions sont testées au brouillard salin pendant plus de 48 heures pour confirmer leur durabilité.
+      link: /fr/technology/surface-coating-and-finishing
+      link_label: Lire l''article
 related:
-  title: 'Liés'
-  links:
-    - text: 'Centre R&D'
-      url: /fr/randdcenter
-    - text: 'Tests qualité'
-      url: /fr/quality
-    - text: 'Normes de sécurité'
-      url: /fr/quality
-    - text: 'Garantie'
-      url: /fr/warranty
-    - text: 'Bateaux de travail commerciaux'
-      url: https://afarer.com/commercial-workboats
-    - text: 'Recherche et sauvetage'
-      url: https://afarer.com/search-and-rescue
-    - text: 'Tourisme & loisirs'
-      url: /fr/tourism-recreation
-    - text: 'Secours en cas de catastrophe'
-      url: https://afarer.com/disaster-relief-humanitarian-aid
-    - text: 'Sécurité maritime & défense'
-      url: https://afarer.com/maritime-safety-defense
-    - text: 'Guides'
-      url: /fr/knowledge
-    - text: 'Produits'
-      url: /fr/products
+  title: Lié
+  body: |
+    - [Centre de R&D](/fr/randdcenter) — ingénierie, science des matériaux et développement d''outillage
+    - [Qualité et essais](/fr/quality) — les essais derrière chaque serre-joint Stavalk
+    - [Garantie](/fr/warranty) — couverture et processus de réclamation
+    - [Connaissances](/fr/knowledge) — guides de maintien du travail et conseils de taille
+    - [Produits](/fr/products) — parcourez les séries de serre-joints par taille et usage
+    - [Guide des tailles](/fr/size-guide) — comment choisir la largeur de mâchoire

@@ -1,34 +1,28 @@
-meta:
-  title: 'Usine et fabrication — OEM de SUP gonflables'
-  description: 'Visitez l''usine Afarer : un site de 12 500 m² avec découpe, soudure RF, impression, assemblage et laboratoire qualité pour la fabrication OEM/ODM de SUP gonflables.'
-  dateModified: '2026-08-07'
+﻿meta:
+  title: 'Usine et fabrication — OEM d''étaux d''établi'
+  description: 'Visitez l''usine Stavalk : un site de 8 000 m² avec fonderie au sable, usinage CNC, traitement thermique, revêtement par poudre, assemblage et laboratoire qualité pour la fabrication OEM/ODM d''étaux d''établi.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'usine sup chine'
-    - 'usine de planches à pagaie gonflables'
-    - 'fabricant sup oem'
-    - 'fabrication de sup gonflables'
+    - 'usine d''étaux chine'
+    - 'fabricant d''étaux qingdao'
+    - 'fabricant étau oem'
+    - 'fabrication d''étaux'
 hero:
   tagline: Usine
   title: Usine et fabrication
-  subtitle: 'Usine de SUP de 12 500 m² à Qingdao, Chine — fabrication de SUP personnalisée du PVC brut à la planche à pagaie gonflable finie'
-
-answer:
-  label: 'Réponse directe'
-  text: 'Usine de SUP gonflables certifiée à Qingdao, Chine : ISO 9001, ISO 25649, BSCI, CE, REACH et RoHS. Un site de 12 500 m² réparti sur 4 ateliers spécialisés, 350+ ouvriers, plus de 120 000 planches produites chaque année (10 000 planches/mois sur 4 lignes automatisées). Chaque planche est testée en pression à 18,0 PSI pendant 24 heures, passe une liste de contrôle d''assemblage de 100 points et porte une traçabilité matière de 10 ans.'
-  verified: '2026-08'
-
+  subtitle: 'Usine d''étaux de 8 000 m² à Qingdao, Chine — fabrication d''étaux d''établi personnalisée de la fonte brute à l''étau fini et testé.'
 intro:
-  - En tant que division de fabrication de **Qingdao Vatrad Group Co., Ltd.**, Afarer contrôle chaque étape de la fabrication de SUP gonflables — de l'arrivée des matières PVC brutes à l'inspection finale avant livraison de la planche à pagaie finie. Notre installation de fabrication dans la zone de développement économique de Qingdao s'étend sur 12 500 mètres carrés et abrite des ateliers dédiés à la découpe de PVC, au collage du noyau drop-stitch, à l'impression numérique de SUP, à l'assemblage final et aux essais qualité.
-  - En intégrant la conception, l'ingénierie, le prototypage, la fabrication et les essais sous un même toit, nous éliminons les inefficacités de la sous-traitance contractuelle et conservons un contrôle direct sur la qualité de fabrication, le choix des matériaux et les délais de livraison. Chaque SUP qui quitte notre atelier est construit par nos équipes, sur nos équipements, selon nos normes.
+  - En tant que fabricant dédié d'étaux d'établi, **Stavalk** contrôle chaque étape de la production — de l'arrivée de la fonte et des aciers alliés bruts à l'inspection finale avant livraison de l'étau fini. Notre installation de fabrication dans la zone de développement économique de Qingdao s'étend sur 8 000 mètres carrés et abrite des ateliers dédiés à la fonderie au sable, à l'usinage CNC, au traitement thermique par induction, à la finition des surfaces, à l'assemblage et aux essais qualité.
+  - En intégrant la conception, l'ingénierie, le prototypage, la fabrication et les essais sous un même toit, nous éliminons les inefficacités de la sous-traitance contractuelle et conservons un contrôle direct sur la qualité de fabrication, le choix des matériaux et les délais de livraison. Chaque étau qui quitte notre atelier est construit par nos équipes, sur nos équipements, selon nos normes.
 
 stats:
-  - value: 12 500 m2
+  - value: 8,000 m2
     label: Surface de fabrication
-  - value: 350+
+  - value: 200+
     label: Ouvriers qualifiés
-  - value: 120 000+
-    label: SUP produits chaque année
-  - value: ISO 9001
+  - value: 80,000+
+    label: Étaux produits chaque année
+  - value: ISO 9001:2015
     label: Qualité certifiée
 
 intelligence_tagline: Intelligence usine
@@ -38,10 +32,10 @@ intelligence_cards:
   - title: Capacité de production
     icon: C
     icon_bg: blue
-    desc: 'Installation de 12 500 m² produisant plus de 120 000 SUP/an sur les lignes de planches SUP et d''équipements de sécurité. 350+ ouvriers, 2 équipes.'
+    desc: 'Installation de 8 000 m² produisant plus de 80 000 étaux/an dans les séries usage léger (4″–5″), usage moyen (6″–8″), usage intensif (8″–10″), pour tuyaux et spéciales. 200+ ouvriers, 2 équipes.'
     metrics:
       - label: MOQ
-        value: 'SUP : échantillon 1–2 / pilote 20–50 / volume 90–100+'
+        value: 'Standard 50–200 / intensifs-spéciaux 20–50 pcs par modèle'
       - label: Délai
         value: '25–35 jours'
     link: /fr/factory/capacity
@@ -49,21 +43,21 @@ intelligence_cards:
   - title: Laboratoire qualité et essais
     icon: Q
     icon_bg: green
-    desc: 'Laboratoire QC indépendant avec 4 étapes d''essai : inspection des matières premières (traction, déchirure, UV), maintien de pression de 24 h à 18,0 PSI, test de pelage de couture et vérification de la rigidité en flexion sur chaque planche.'
+    desc: 'Laboratoire QC indépendant avec 4 étapes d''essai : inspection des matières premières (analyse spectrométrique, dureté Rockwell), vérification de la dureté des mâchoires à 58–62 HRC, essais de force de serrage et de couple de pivot, et contrôles de plus de 10 000 cycles d''ouverture/fermeture et de plus de 48 h de brouillard salin sur chaque lot.'
     metrics:
       - label: Équipement de laboratoire
-        value: 'Testeur de traction, chambre de température, cuve d''étanchéité'
+        value: 'Duromètre Rockwell, banc de force de serrage, chambre de brouillard salin'
       - label: Normes
-        value: 'ISO 9001, CE, AS 1799'
+        value: 'ISO 9001:2015, ISO 14001:2015, CE'
     link: /fr/factory/quality-lab
     link_label: 'Procédures et équipement de laboratoire →'
   - title: Capacité OEM/ODM
     icon: O
     icon_bg: purple
-    desc: 'Services OEM/ODM de bout en bout : conception de moules personnalisés, emballage en marque privée, couleurs de planche personnalisées, graphismes de pont (impression numérique et sérigraphie) et conditionnement prêt à l''export.'
+    desc: 'Services OEM/ODM de bout en bout : modèles de fonderie personnalisés, logos de marque fondus et gravés, couleurs de revêtement personnalisées, emballage en marque privée et conditionnement prêt à l''export.'
     metrics:
       - label: Certifications
-        value: 'ISO 9001, BSCI, CE, REACH'
+        value: 'ISO 9001:2015, ISO 14001:2015, CE, RoHS'
       - label: Marchés à l'export
         value: '50+ pays'
     link: /fr/factory/oem-capability
@@ -71,18 +65,18 @@ intelligence_cards:
   - title: Normes d'inspection qualité
     icon: I
     icon_bg: orange
-    desc: 'Critères d''inspection qualité spécifiques au projet sur IQC, IPQC, FQC et OQC : vérification de l''étanchéité à l''air, contrôles visuels et dimensionnels, confirmation des accessoires, traçabilité des lots et signature d''autorisation avant expédition — plus une gouvernance contrôlée des non-conformités d''étanchéité à l''air et de la reprise.'
+    desc: 'Critères d''inspection qualité spécifiques au projet sur IQC, IPQC, FQC et OQC : vérification spectrométrique des matériaux, contrôles dimensionnels et de dureté, confirmation de la force de serrage, traçabilité des lots et signature d''autorisation avant expédition — plus une gouvernance contrôlée des non-conformités et de la reprise.'
     metrics:
       - label: Couverture
         value: 'Matériaux → conditionnement final'
       - label: Téléchargements
-        value: 'Protocole QC, rapport PSI et documents de reprise (PDF)'
+        value: 'Protocole QC, rapports d''essai et documents de reprise (PDF)'
     link: /fr/factory/quality-inspection
     link_label: 'Normes d''inspection et téléchargements →'
   - title: Norme de contrôle des modifications de reprise
     icon: C
     icon_bg: blue
-    desc: 'Contrôle de modification formel ISO 9001 pour les paramètres de reprise : ECR, classification des risques, matrice d''approbation interdépartementale, boucle fermée en 9 étapes, validation d''ingénierie quantifiée (18,0 PSI, maintien 24 h, ΔP ≤ 0,2 PSI) et garde-fous Poka-Yoke — avec la SOP bilingue QMS-SOP-QC-CC-001 Rev 2.0.'
+    desc: 'Contrôle de modification formel ISO 9001 pour les paramètres de reprise : ECR, classification des risques, matrice d''approbation interdépartementale, boucle fermée en 9 étapes, validation d''ingénierie quantifiée (dureté des mâchoires 58–62 HRC, spécification de force de serrage, durabilité de 10 000 cycles) et garde-fous Poka-Yoke — avec la SOP bilingue QMS-SOP-QC-CC-001 Rev 2.0.'
     metrics:
       - label: Document
         value: 'QMS-SOP-QC-CC-001 Rev 2.0'
@@ -93,7 +87,7 @@ intelligence_cards:
   - title: Contrôle des produits non conformes
     icon: N
     icon_bg: purple
-    desc: 'Contrôle des sorties non conformes selon la clause 8.7 d''ISO 9001:2015 : enregistrement NCR, mise en quarantaine et blocage, disposition selon la gravité (validation en ligne / responsable QC + ingénieur technique / MRB), reprise contrôlée sous instructions SRI, ré-inspection indépendante à 100 % et mise au rebut attestée — vidéos de rebut archivées sous SHA-256.'
+    desc: 'Contrôle des sorties non conformes selon la clause 8.7 d''ISO 9001:2015 : enregistrement NCR, mise en quarantaine et blocage, disposition selon la gravité (validation en ligne / responsable QC + ingénieur technique / MRB), reprise contrôlée sous instructions SRI, ré-inspection indépendante à 100 % et mise au rebut attestée — enregistrements de rebut archivés sous SHA-256.'
     metrics:
       - label: Norme
         value: 'ISO 9001:2015 Clause 8.7'
@@ -104,7 +98,7 @@ intelligence_cards:
   - title: Flux de contrôle qualité en 7 étapes
     icon: Q
     icon_bg: green
-    desc: 'Le flux complet de contrôle qualité des projets, porte par porte : Planification qualité (PPM) → Inspection des matières entrantes → Contrôle en cours de fabrication et premier article → Gonflage et étanchéité à l''air → Inspection finale → Conditionnement et PSI → Autorisation d''expédition et traçabilité. Chaque porte montre ce qui est contrôlé, comment c''est jugé et quel rapport bilingue est produit.'
+    desc: 'Le flux complet de contrôle qualité des projets, porte par porte : Planification qualité (PPM) → Inspection des matières entrantes → Contrôle en cours de fabrication et premier article → Vérification du traitement thermique → Inspection finale → Conditionnement et inspection avant expédition → Autorisation d''expédition et traçabilité. Chaque porte montre ce qui est contrôlé, comment c''est jugé et quel rapport bilingue est produit.'
     metrics:
       - label: Portes
         value: '01 → 07'
@@ -117,30 +111,30 @@ workshops_section:
   tagline: Ateliers
   title: Ateliers de fabrication
   workshops:
-    - title: Découpe de PVC et préparation des matériaux
-      description: Les machines de découpe CNC automatiques traitent les tissus PVC, Hypalon et drop-stitch avec une précision sub-millimétrique. Le placement optimisé par ordinateur minimise le gaspillage de matière et garantit que chaque panneau respecte sa spécification dimensionnelle avant le soudage.
-      image: https://assets.afarer.com/images/afarer/hero/production-dept.webp
-      alt: Machine de découpe PVC CNC préparant les panneaux de tissu SUP gonflable à l'usine de Qingdao
-    - title: Soudage de tubes et thermoscellage
-      description: Atelier de soudage dédié avec machines de thermoscellage et presses diélectriques RF. Les thermosoudeurs à air chaud lient et fusionnent les chambres des tubes PVC, tandis que les soudures RF produisent des coutures étanches à l'air haute résistance qui dépassent les exigences.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
-      alt: Machine de soudage RF scellant les chambres des tubes de bateau gonflable à l'usine de Qingdao
-    - title: Assemblage du noyau drop-stitch
-      description: Les noyaux drop-stitch des SUP sont liés aux laminés PVC extérieurs par lamination thermique. Des milliers de fils polyester internes relient les couches supérieure et inférieure, créant une structure rigide à 12-15 PSI. Les bandes de rail sont fusionnées en triple couche pour la résistance des bords.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing.webp
-      alt: Ligne de fabrication de SUP gonflables avec équipement d'assemblage de noyau drop-stitch à l'usine de Qingdao
-    - title: Impression et décoration de SUP
-      description: Les SUP sont décorés par impression numérique pour les graphismes pleine couleur et sérigraphie pour les logos et motifs répétitifs. Les imprimantes numériques produisent des designs de pont de qualité photo, tandis que la sérigraphie offre des marques durables et éclatantes.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-production-department-2.webp
-      alt: Intérieur de département de production à l'usine de SUP gonflables de Qingdao
-    - title: Assemblage final et équipement
-      description: Ligne d'assemblage où les valves, anneaux en D, poignées, boîtiers d'ailerons et tapis de pont sont installés sur chaque SUP. Chaque planche suit une liste de contrôle d'assemblage de 100 points signée par le chef d'équipe.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-production-department.webp
-      alt: Département de production avec postes d'assemblage à l'usine de Qingdao
+    - title: Fonderie au sable
+      description: Les lignes automatiques de fonderie au sable coulent la fonte grise HT200 et HT250 dans des corps, coulisseaux et bases avec une métallurgie constante. Le moulage, la coulée, le décochage, l'ébarbage et le grenaillage sont supervisés par ordinateur pour maintenir chaque pièce dans son standard de coulée.
+      image: https://assets.stavalk.com/images/stavalk/hero/production-dept.webp
+      alt: Département de fonderie CNC préparant des corps d'étaux en fonte grise à l'usine de Qingdao
+    - title: Usinage CNC
+      description: Atelier d'usinage dédié avec centres CNC 5 axes et tours CNC. Les corps, coulisseaux, vis et logements de mâchoires sont usinés à ±0,05 mm, tandis que les coulisseaux et vis en acier forgé 45# sont tournés et filetés avec des tolérances serrées.
+      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-production-department.webp
+      alt: Centre d'usinage CNC terminant le corps et le coulisseau d'un étau d'établi à l'usine de Qingdao
+    - title: Traitement thermique par induction
+      description: Les aciers de mâchoires GCr15 et Cr12MoV sont trempés par induction et revenus à 58–62 HRC pour une longue durée de vie. Chaque lot de trempe est vérifié sur un duromètre Rockwell avant que les mâchoires ne soient libérées pour l'assemblage.
+      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-sup-manufacturing.webp
+      alt: Ligne de traitement thermique par induction trempant des mâchoires GCr15 d'étaux d'établi à l'usine de Qingdao
+    - title: Finition des surfaces
+      description: Les corps d'étaux reçoivent un revêtement par poudre électrostatique (60–80 μm) et la quincaillerie est zinguée, donnant une finition durable et résistante à la corrosion qui passe plus de 48 h de brouillard salin.
+      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-production-department-2.webp
+      alt: Ligne de revêtement par poudre et de zingage à l'usine d'étaux de Qingdao
+    - title: Assemblage et équipement
+      description: Ligne d'assemblage où les bases pivotantes, mâchoires pour tuyaux, vis, écrous et poignées sont montés sur chaque étau. Le couple de pivot et la course de la vis sont vérifiés avec des outils calibrés, et chaque unité suit une liste de contrôle d'assemblage de 100 points signée par le chef d'équipe.
+      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-production-department.webp
+      alt: Postes d'assemblage où les bases pivotantes et mâchoires pour tuyaux sont montées à l'usine d'étaux de Qingdao
     - title: Essais qualité et inspection
-      description: Chaque planche terminée subit des essais obligatoires de rétention d'air, une vérification de pelage de couture et un contrôle complet des systèmes avant expédition. Notre laboratoire qualité fonctionne indépendamment de la production et relève directement de la direction.
-      image: https://assets.afarer.com/images/afarer/factory/afarer-pressure-testing.webp
-      alt: Test de pression d'un SUP gonflable pour la rétention d'air avant expédition à l'usine de Qingdao
+      description: Chaque étau terminé subit des essais obligatoires de force de serrage, une vérification de dureté des mâchoires et un contrôle complet des systèmes avant expédition. Notre laboratoire qualité fonctionne indépendamment de la production et relève directement de la direction.
+      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-pressure-testing.webp
+      alt: Laboratoire qualité testant la force de serrage et la dureté des mâchoires d'étaux avant expédition à l'usine de Qingdao
 
 equipment_section:
   tagline: Équipement
@@ -148,162 +142,160 @@ equipment_section:
   view_full: Voir la liste complète des équipements →
   view_full_link: /fr/factory/equipment
   items:
-    - name: Machine de découpe PVC automatique
-      spec: Contrôlée par CNC, précision 0,1 mm
-    - name: Machine de thermoscellage
-      spec: Air chaud, 200 °C–300 °C, pour l'assemblage de tubes
-    - name: Presse de soudage diélectrique RF
-      spec: 15 kW, soudage de coutures étanches à l'air
-    - name: Presse de lamination de noyau drop-stitch
-      spec: Noyaux SUP jusqu'à 14 ft
-    - name: Imprimante numérique
-      spec: Graphismes de pont SUP pleine couleur
-    - name: Machine de sérigraphie
-      spec: Impression de logos multicolores
+    - name: Ligne automatique de fonderie au sable
+      spec: Fonte grise HT200/HT250, coulée surveillée
+    - name: Centre d'usinage CNC 5 axes
+      spec: ±0,01 mm, corps, coulisseaux et vis
+    - name: Machine de trempe par induction
+      spec: Trempe des mâchoires à 58–62 HRC
+    - name: Ligne de revêtement par poudre
+      spec: Électrostatique, finition 60–80 μm
+    - name: Ligne de zingage
+      spec: Protection anticorrosion +48 h de brouillard salin
+    - name: Gabarit d'assemblage de base pivotante et mâchoires pour tuyaux
+      spec: Montage à couple contrôlé
 
 qc_section:
   tagline: Contrôle qualité
   title: Processus d'essais et d'assurance qualité
-  subtitle: Chaque planche subit des essais obligatoires avant expédition. Notre laboratoire qualité fonctionne indépendamment de la production et relève directement de la direction.
+  subtitle: Chaque étau subit des essais obligatoires avant expédition. Notre laboratoire qualité fonctionne indépendamment de la production et relève directement de la direction.
   steps:
     - step: '1'
       title: Inspection des matières premières
-      desc: Les tissus PVC, Hypalon et drop-stitch subissent des essais de traction, de propagation de déchirure et de résistance aux UV avant que tout lot n'entre en production.
+      desc: La fonte grise HT200/HT250, l'acier forgé 45# et les aciers de mâchoires GCr15 / Cr12MoV subissent une analyse spectrométrique, une vérification de dureté Rockwell et une inspection visuelle avant que tout lot n'entre en production.
     - step: '2'
-      title: Test de rétention d'air de 24 heures
-      desc: Chaque chambre de tube est gonflée à 18,0 PSI et maintenue 24 heures. Une chute de pression supérieure à 0,50 PSI déclenche le rejet automatique et la ré-inspection de la couture.
+      title: Vérification du traitement thermique
+      desc: Chaque lot de trempe des mâchoires est vérifié sur un duromètre Rockwell pour confirmer 58–62 HRC. Les lots hors plage sont rejetés et la ligne de trempe est retraitée avant qu'aucune unité ne passe à l'assemblage.
     - step: '3'
-      title: Essai de charge et d'équilibre
-      desc: Les planches terminées sont gonflées à la pression nominale et vérifiées pour le gonflement symétrique, la rigidité à 15 PSI et la stabilité sous charge. Chaque planche est testée à l'eau dans notre bassin d'essai avant l'inspection finale.
+      title: Essais fonctionnels et de durabilité
+      desc: Les étaux terminés sont contrôlés pour la force de serrage et le couple de pivot, et le parallélisme des mâchoires, la course de la vis, le marquage de fonderie et la finition sont vérifiés par rapport aux tolérances du plan. Des échantillons passent plus de 10 000 cycles d'ouverture/fermeture et plus de 48 h de brouillard salin avant libération.
 
 oem_section:
   tagline: Projets OEM
   title: Études de cas de partenariats de marques et OEM
-  subtitle: Du concept à la production — comment nous aidons les marques mondiales à lancer et développer leurs gammes de SUP gonflables.
+  subtitle: Du concept à la production — comment nous aidons les marques mondiales de quincaillerie et industrielles à lancer et développer leurs gammes d'étaux.
   cases:
-    - challenge: Un détaillant européen de plein air avait besoin d'une gamme de SUP en marque privée avec des graphismes de pont uniques, du PVC écologique et un emballage prêt pour le retail — le tout livré en 60 jours.
-      solution: Nous avons développé des fichiers d'impression numérique personnalisés, sourcé un PVC conforme REACH et réduit l'échantillonnage de 3 tours à 1 en installant l'équipe de conception à notre usine de Qingdao.
+    - challenge: Un détaillant européen de quincaillerie avait besoin d'une gamme d'étaux en marque privée avec des logos fondus personnalisés, une finition zinguée et un emballage prêt pour le retail — le tout livré en 60 jours.
+      solution: Nous avons développé des modèles de fonderie personnalisés et des logos gravés, sourcé une quincaillerie conforme RoHS et réduit l'échantillonnage de 3 tours à 1 en installant l'équipe de conception à notre usine de Qingdao.
       result: 'Production en 25–35 jours à partir du bon de commande signé, avec première livraison dans la fenêtre de 60 jours. 2 400 unités sur 4 SKU. Une commande renouvelée a été passée avant la livraison complète du premier lot.'
       disclaimer: 'Résumé de projet anonymisé — le type et le périmètre du projet sont représentatifs ; les résultats spécifiques ne sont pas vérifiables de manière indépendante.'
-    - challenge: Une startup américaine de sports nautiques avait besoin d'un SUP drop-stitch haute performance avec une forme personnalisée, un emballage co-marqué et une certification BSCI pour le placement en retail.
-      solution: Adaptation du moule SUP existant avec un contour modifié, développement des visuels d'emballage co-marqués et fourniture de la documentation complète d'audit BSCI.
-      result: Placement réussi dans les principaux détaillants de plein air américains, générant une forte dynamique avec plus de 5 000 unités vendues en première année et un taux d'écoulement de 98 %.
+    - challenge: Un distributeur industriel américain avait besoin d'une gamme à usage intensif de 8″–10″ avec mâchoires GCr15, finition durable par revêtement en poudre et documentation ISO 9001 complète pour le placement en retail.
+      solution: Adaptation des fontes existantes pour l'empreinte à usage intensif, développement des visuels d'emballage co-marqués et fourniture de la documentation complète de qualité et de conformité.
+      result: Placement réussi dans les principaux détaillants de quincaillerie américains, générant une forte dynamique avec plus de 5 000 unités vendues en première année et un taux d'écoulement de 98 %.
       disclaimer: 'Résumé de projet anonymisé — le type et le périmètre du projet sont représentatifs ; les résultats spécifiques ne sont pas vérifiables de manière indépendante.'
-    - challenge: Un distributeur australien avait besoin d'une gamme de SUP certifiée CE avec des couleurs personnalisées et une conformité aux normes australiennes.
-      solution: Production d'échantillons de pré-production avec 4 variantes de couleur et coordination des essais de conformité par une tierce partie.
-      result: Gamme de SUP à 3 modèles lancée sur le marché AU/NZ. Suivie d'une victoire à un appel d'offres gouvernemental pour 12 SUP de patrouille.
+    - challenge: Un grossiste australien avait besoin d'une gamme d'étaux à usage moyen certifiée CE avec des couleurs de revêtement personnalisées et une conformité aux normes australiennes.
+      solution: Production d'échantillons de pré-production avec 4 variantes de revêtement et coordination des essais de conformité par une tierce partie.
+      result: Gamme de 3 modèles d'étaux lancée sur le marché AU/NZ. Suivie d'une victoire à un appel d'offres gouvernemental pour 12 étaux de qualité atelier.
       disclaimer: 'Résumé de projet anonymisé — le type et le périmètre du projet sont représentatifs ; les résultats spécifiques ne sont pas vérifiables de manière indépendante.'
 
 faq_section:
   tagline: FAQ
   title: Questions fréquentes B2B et OEM
   questions:
-    - q: Quelle est la quantité minimale de commande (MOQ) pour les planches de SUP gonflables OEM ?
-      a: 'Le MOQ est confirmé par la configuration du projet plutôt que par un chiffre fixe — coque et outillage, coloris et PVC, graphismes, emballage et accessoires. La production standard en volume s''exécute en 90–100+ unités par lot à partir d''un rouleau drop-stitch complet de 150 m, le co-marquage en petits lots commence à 5–10 unités, et chaque projet passe par les étapes d''échantillon (1–2 unités) et de pilote (20–50 unités). Consultez notre Guide MOQ et marque flexible pour la logique de calcul complète.'
-    - q: Afarer détient-elle la certification BSCI ?
-      a: 'Oui. Notre usine maintient une certification BSCI valide de conformité sociale (rapport d''audit disponible sur demande). Nous détenons également l''ISO 9001 pour le management de la qualité. La certification CE s''applique aux modèles destinés aux marchés de l''UE ; le périmètre est confirmé par projet. La documentation de conformité REACH et RoHS est fournie avec chaque commande OEM.'
+    - q: Quelle est la quantité minimale de commande (MOQ) pour les étaux d'établi OEM ?
+      a: 'Le MOQ est confirmé par modèle et spécification plutôt que par un chiffre fixe — série, largeur de mâchoire, revêtement et emballage. Les modèles standard (usage léger, moyen et intensif) s''exécutent en 50–200 pcs par modèle, tandis que les étaux à usage intensif et spéciaux partent de 20–50 pcs. Chaque projet passe par une étape d''échantillon (7–14 jours) avant la production en volume. Consultez notre guide MOQ pour la logique de calcul complète.'
+    - q: Quelles certifications Stavalk détient-elle ?
+      a: Nous fabriquons selon l'ISO 9001:2015 pour le management de la qualité et l'ISO 14001:2015 pour le management environnemental. La certification CE pour les marchés de l'UE est basée sur l'EN 12100 et la Directive Machines 2006/42/CE (périmètre confirmé par projet). La documentation de conformité RoHS est fournie avec chaque commande OEM.
     - q: Quel est le délai habituel pour une commande OEM ?
-      a: 'Le délai standard est de 25–35 jours à partir du bon de commande confirmé et de l''acompte pour la production OEM en volume. Le développement de moules personnalisés ajoute 15–20 jours pour l''outillage. Une production accélérée est disponible pour les commandes urgentes et les périodes de pointe saisonnières. Les échantillons de prototype sont généralement prêts en 7–12 jours.'
+      a: 'Le délai standard est de 25–35 jours à partir du bon de commande confirmé et de l''acompte pour la production OEM en volume. Le développement de modèles de fonderie personnalisés ajoute 15–20 jours pour l''outillage du patron. Une production accélérée est disponible pour les commandes urgentes et les périodes de pointe saisonnières. Les échantillons de prototype sont généralement prêts en 7–14 jours.'
     - q: Gérez-vous la documentation d'export ?
       a: 'Oui. Notre équipe gère la documentation d''export et le dédouanement en interne, et nous livrons dans plus de 50 pays sur les marchés UE, US, AU et Asie.'
 
-b2b_moq: 'MOQ confirmé par la configuration du projet : échantillon 1–2, pilote 20–50, volume 90–100+ (par rouleau de 150 m) ; co-marquage en petits lots à partir de 5–10 unités.'
-
 production_flow:
   tagline: Flux de production
-  title: De la matière à la planche finie
-  subtitle: Chaque planche passe par 6 étapes de production avec des points de contrôle qualité à chaque étape. Pas de raccourcis, pas d'inspections sautées.
+  title: De la matière à l'étau fini
+  subtitle: Chaque étau passe par 6 étapes de production avec des points de contrôle qualité à chaque étape. Pas de raccourcis, pas d'inspections sautées.
   stages:
     - stage: '01'
       title: Réception des matières et QC entrant
-      description: 'Toutes les matières entrantes sont enregistrées par lot/numéro de lot dans notre système ERP. Les rouleaux de tissu PVC, noyaux drop-stitch, valves, adhésifs et quincaillerie sont mis en quarantaine jusqu''à l''approbation QC.'
-      qc_check: 'Résistance à la traction (ASTM D751), résistance à la déchirure (ISO 4674), jauge d''épaisseur, viscosité de l''adhésif, recherche de défauts visuels'
-      qc_threshold: '100 % des lots testés. Rejet si traction < 90 % de la spécification, déchirure < minimum de spécification, ou tout défaut visuel'
+      description: 'Toutes les matières entrantes sont enregistrées par lot/numéro de coulée dans notre système ERP. La fonte grise HT200/HT250, la barre d''acier forgé 45#, les aciers de mâchoires GCr15 / Cr12MoV, les fixations et la quincaillerie sont mises en quarantaine jusqu''à l''approbation QC.'
+      qc_check: 'Analyse spectrométrique (C, Si, Mn, P, S), dureté Rockwell (ISO 6508), contrôle dimensionnel, recherche de défauts visuels'
+      qc_threshold: '100 % des lots testés. Rejet si la chimie ou la dureté est hors spécification, ou tout défaut visuel'
       responsibility: Équipe QC entrante (3 inspecteurs)
     - stage: '02'
-      title: Découpe CNC et préparation des matériaux
-      description: 'Le placement optimisé par ordinateur dispose les panneaux sur le stock PVC pour minimiser le gaspillage. Les machines de découpe CNC automatiques maintiennent une précision de positionnement de 0,1 mm.'
-      qc_check: 'Contrôle dimensionnel par rapport aux fichiers CAD DXF, inspection de la qualité des bords, vérification du nombre de panneaux'
-      qc_threshold: 'Chaque 20e panneau mesuré. Tolérance ±0,5 mm. Rejet du lot si >2 % hors tolérance'
-      responsibility: Responsable de l'atelier de découpe
+      title: Fonderie au sable et ébarbage
+      description: 'La fonte grise HT200/HT250 est fondue et coulée sur la ligne automatique de fonderie au sable. Les pièces sont décochées, ébarbées, grenailées et contrôlées en dureté avant libération pour l''usinage.'
+      qc_check: 'Échantillon de dureté et de traction par coulée, inspection densité/porosité de la pièce, contrôle dimensionnel contre le patron'
+      qc_threshold: 'Échantillon par coulée. Rejet si la dureté est hors spécification ou si les défauts de fonderie dépassent les critères d''acceptation'
+      responsibility: QC fonderie (2 inspecteurs par équipe)
     - stage: '03'
-      title: Soudage et assemblage drop-stitch
-      description: 'Les noyaux drop-stitch sont liés aux laminés PVC extérieurs par lamination thermique. Les chambres de tubes sont soudées par RF ou à l''air chaud. Les bandes de rail sont fusionnées en triple couche.'
-      qc_check: 'Test de pelage toutes les 50 unités (ASTM D751), mesure de la largeur de soudure, revue du journal de température de l''air chaud, inspection visuelle des coutures sous contre-jour'
-      qc_threshold: 'Résistance au pelage min. 8 N/cm. Tolérance de largeur de soudure ±1 mm. Tout canal visible = rejet'
-      responsibility: QC soudage (2 inspecteurs par équipe)
+      title: Usinage CNC et filetage
+      description: 'Les corps, coulisseaux, vis et logements de mâchoires sont usinés sur des centres 5 axes et tours CNC. Les coulisseaux et vis sont tournés à partir d''acier forgé 45# et filetés à la tolérance.'
+      qc_check: 'Contrôle dimensionnel par rapport aux fichiers CAD, vérification au calibre de filetage, mesure de l''état de surface (Ra)'
+      qc_threshold: 'Chaque 20e unité mesurée. Tolérance ±0,05 mm. Rejet du lot si >2 % hors tolérance'
+      responsibility: Responsable de l'atelier d'usinage
     - stage: '04'
-      title: Assemblage et équipement
-      description: 'Les planches passent à l''assemblage final où tous les composants sont réunis : panneaux de pont et de coque fusionnés, valves installées, anneaux en D, poignées, boîtiers d''ailerons et fixation du sac de transport. Chaque unité suit une liste de contrôle d''assemblage de 100 points.'
-      qc_check: 'Signature de la liste de contrôle à 100 points par unité, test de fonction de la valve (10 cycles ouvert/fermé), vérification du couple de serrage de la quincaillerie, inspection visuelle'
-      qc_threshold: 'Politique zéro défaut sur les éléments critiques pour la sécurité (valves, anneaux en D, poignées). Cosmétique mineur : AQL 2,5 (ISO 2859)'
-      responsibility: Chef d'équipe d'assemblage + QC de ligne
+      title: Traitement thermique et finition des surfaces
+      description: 'Les mâchoires GCr15 / Cr12MoV sont trempées par induction et revenues à 58–62 HRC. Les corps et la quincaillerie reçoivent un revêtement par poudre électrostatique et un zingage pour la protection anticorrosion.'
+      qc_check: 'Dureté des mâchoires sur chaque lot (58–62 HRC), jauge d''épaisseur du revêtement, échantillon de brouillard salin (48h+)'
+      qc_threshold: 'Dureté des mâchoires 58–62 HRC sur tous les échantillons ; épaisseur de revêtement 60–80 μm ; aucune rouille après 48 h de brouillard salin'
+      responsibility: QC traitement thermique et finition (2 inspecteurs par équipe)
     - stage: '05'
-      title: Test de pression et blocage qualité
-      description: 'Chaque chambre est gonflée à 18,0 PSI (pour un SUP nominal de 12–15 PSI) et maintenue 24 heures. Les capteurs de pression enregistrent en continu. Les chambres dépassant 0,50 PSI de chute de pression sont rejetées et envoyées en ré-inspection de couture.'
-      qc_check: 'Journal de maintien de pression de 24 h, étalonnage du capteur vérifié quotidiennement, lecture de pression compensée en température, re-test de couture après réparation'
-      qc_threshold: 'Max 0,50 PSI de chute de pression sur 24 h à température stable. Toute chambre dépassant ce seuil = re-test à 100 % de tout le lot de production'
-      responsibility: Laboratoire qualité (indépendant de la production, relève de la direction)
+      title: Assemblage et équipement
+      description: 'Les bases pivotantes et mâchoires pour tuyaux (jeux chaîne et trépied) sont montées sur les corps usinés ; les vis, écrous et poignées sont installés, alignés et ajustés. Chaque unité suit une liste de contrôle d''assemblage de 100 points.'
+      qc_check: 'Signature de la liste de contrôle à 100 points par unité, vérification du couple de pivot, contrôle de la course et de l''alignement de la vis, inspection visuelle'
+      qc_threshold: 'Politique zéro défaut sur les éléments critiques pour la sécurité (engagement de la vis, verrouillage du pivot, rétention des mâchoires). Cosmétique mineur : AQL 2,5 (ISO 2859)'
+      responsibility: Chef d'équipe d'assemblage + QC de ligne
     - stage: '06'
       title: Inspection finale et conditionnement
-      description: 'Inspection visuelle et fonctionnelle finale. Défauts de surface, cohérence des couleurs, vérification des étiquettes/BIN, intégrité de l''emballage et complétude des accessoires. Les unités sont mises sous vide, cartonnées et palettisées pour le chargement du conteneur.'
-      qc_check: 'Inspection visuelle complète, liste de contrôle des accessoires par SKU, test de chute de l''emballage (1 m, échantillon aléatoire), vérification par scan des étiquettes/codes-barres'
-      qc_threshold: 'AQL 2,5 pour les défauts majeurs, AQL 4,0 pour les mineurs. Tolérance zéro sur les défauts de sécurité. 100 % des unités inspectées visuellement'
+      description: 'Inspection visuelle et fonctionnelle finale : force de serrage, parallélisme des mâchoires, vérification du marquage de fonderie, intégrité de l''emballage et complétude des accessoires. Les unités sont huilées, cartonnées et palettisées pour le chargement du conteneur.'
+      qc_check: 'Inspection fonctionnelle complète, test de force de serrage, échantillon de durabilité 10 000+ cycles, liste de contrôle des accessoires par SKU, vérification par scan des étiquettes/codes-barres'
+      qc_threshold: 'AQL 2,5 pour les défauts majeurs, AQL 4,0 pour les mineurs. Tolérance zéro sur les défauts de sécurité. 100 % des unités inspectées fonctionnellement'
       responsibility: Équipe QC finale (4 inspecteurs) + responsable du conditionnement
 
 workforce:
   tagline: Nos équipes
   title: Effectifs et expertise
-  engineers: 25+
-  engineers_detail: 'Ingénieurs en R&D, conception de moules, laboratoire de matériaux et ingénierie de production. En moyenne 7+ ans dans la fabrication de gonflables.'
+  engineers: 20+
+  engineers_detail: 'Ingénieurs en R&D, conception de patrons de fonderie, laboratoire de matériaux et ingénierie de production. En moyenne 7+ ans dans la fabrication d''étaux d''établi.'
   shift_pattern: '2 équipes/jour (07:00–15:30, 15:30–00:00). Équipe de nuit optionnelle pour les commandes urgentes.'
   training: 'Formation QC mensuelle, exercices de sécurité trimestriels, évaluation annuelle des compétences. Les nouvelles recrues suivent un programme d''intégration de 40 heures avant de travailler sur la ligne de production.'
   departments:
     - name: R&D et ingénierie
-      count: 25+
-      role: Conception produit, ingénierie des moules, laboratoire de matériaux
-    - name: Découpe et préparation des matériaux
-      count: 15
-      role: Découpe CNC, préparation des panneaux, manutention des matériaux
-    - name: Soudage et lamination
+      count: 20+
+      role: Conception produit, ingénierie des patrons de fonderie, laboratoire de matériaux
+    - name: Fonderie et coulée
+      count: 45
+      role: Ligne de sable, moulage, coulée, ébarbage, grenaillage
+    - name: Usinage CNC
       count: 40
-      role: Soudure RF, soudure à l'air chaud, assemblage drop-stitch
-    - name: Assemblage du noyau SUP
-      count: 30
-      role: Lamination drop-stitch, collage thermique, fusion des bandes de rail
+      role: Centres d'usinage, tours CNC, filetage, réglage des outils
+    - name: Traitement thermique et finition
+      count: 25
+      role: Trempe par induction, revenu, revêtement par poudre, zingage
     - name: Assemblage et équipement
-      count: 35
-      role: Assemblage final, installation de la quincaillerie, contrôle des systèmes
+      count: 45
+      role: Base pivotante, mâchoires pour tuyaux, montage vis/guide, réglage final
     - name: Contrôle qualité
-      count: 12
+      count: 15
       role: QC entrant, QC en cours de fabrication, inspection finale, essais de laboratoire
     - name: Logistique et conditionnement
-      count: 20
+      count: 15
       role: Emballage, chargement du conteneur, documentation d'export
     - name: Direction et administration
-      count: 15
+      count: 12
       role: Ventes, achats, RH, finances, conformité
 
 material_traceability:
   tagline: Traçabilité
   title: Suivi des matériaux et contrôle des lots
-  description: Chaque lot de matière première reçoit un numéro de lot unique dans notre système ERP. De l'arrivée à la production jusqu'au produit fini, la nomenclature de chaque planche renvoie au lot fournisseur d'origine. Cela permet une traçabilité amont complète pour toute enquête qualité ou conformité.
-  system: 'ERP personnalisé (système interne de Qingdao Vatrad Group) + étiquettes de lot physiques sur chaque ordre de travail'
-  coverage: '100 % des matériaux de production — PVC, Hypalon, tissu drop-stitch, adhésifs, valves, quincaillerie, emballage'
-  records_retained: '10 ans (selon l''exigence CE 2013/53/UE)'
+  description: Chaque lot de matière première reçoit un numéro de lot/coulée unique dans notre système ERP. De l'arrivée à la production jusqu'au produit fini, la nomenclature de chaque étau renvoie au lot fournisseur d'origine. Cela permet une traçabilité amont complète pour toute enquête qualité ou conformité.
+  system: 'ERP personnalisé (système interne de Stavalk) + étiquettes de lot physiques sur chaque ordre de travail'
+  coverage: '100 % des matériaux de production — fonte grise HT200/HT250, acier forgé 45#, aciers GCr15 / Cr12MoV, fixations, quincaillerie, revêtements, emballage'
+  records_retained: '10 ans (selon l''exigence ISO 9001:2015)'
   suppliers:
-    - material: PVC de qualité marine
-      source: Fournisseurs chinois et coréens
-      certified: ISO 9001, REACH, RoHS
-    - material: Hypalon (CSM)
-      source: Fournisseur japonais
-      certified: ISO 9001, REACH
-    - material: Tissu drop-stitch
-      source: Tissage interne + partenaire externe
-      certified: QC interne + fournisseur ISO 9001
-    - material: Valves et quincaillerie
-      source: Fournisseurs OEM chinois
+    - material: Fonte grise (HT200/HT250)
+      source: Fonderies chinoises et coréennes
+      certified: ISO 9001, certificat spectrométrique par coulée
+    - material: Acier forgé 45#
+      source: Aciéries chinoises et importées
       certified: ISO 9001, certificats matériaux par lot
+    - material: Aciers de mâchoires GCr15 / Cr12MoV
+      source: Aciéries certifiées
+      certified: Normes GB/T, certificats matériaux par lot
+    - material: Fixations et quincaillerie
+      source: Fournisseurs OEM chinois
+      certified: ISO 9001, RoHS, certificats matériaux par lot
 
 qc_dashboard:
   tagline: QC en chiffres
@@ -311,37 +303,31 @@ qc_dashboard:
   subtitle: Données réelles de réussite/échec de notre ligne de production. Notre laboratoire qualité fonctionne indépendamment de la production et relève directement de la direction.
   stats:
     - value: 100%
-      label: Unités testées en pression
-      detail: Chaque planche, chaque chambre, chaque lot
-    - value: '<5%'
-      label: Chute de pression maximale autorisée
-      detail: Sur 24 h à 18,0 PSI
+      label: Unités testées en dureté
+      detail: Chaque mâchoire, chaque lot
+    - value: 58–62 HRC
+      label: Plage de dureté des mâchoires
+      detail: Après trempe par induction
+    - value: 10,000+
+      label: Durabilité ouverture/fermeture
+      detail: Par modèle et par lot
+    - value: 48h+
+      label: Durée du test de brouillard salin
+      detail: ISO 9227 sur surfaces zinguées
     - value: AQL 2.5
       label: Seuil de défaut majeur
       detail: Selon la norme d'échantillonnage ISO 2859
-    - value: 24h
-      label: Durée de maintien de pression
-      detail: Chaque planche, chaque chambre
-    - value: 18 PSI
-      label: Pression d'essai vs nominale
-      detail: Marge de sécurité sur chaque chambre
     - value: 0%
       label: Tolérance sur les défauts de sécurité
-      detail: Valves, anneaux en D, coutures, flottabilité
+      detail: Engagement de vis, verrouillage du pivot, mâchoires
 
 process_cta:
   title: Voir notre processus de fabrication
-  desc: Suivez un SUP à chaque étape de la production — de la matière première à la planche prête pour la mer.
+  desc: Suivez un étau à chaque étape de la production — de la fonte brute à l'étau fini et testé.
   label: Voir le processus de production →
   link: /fr/factory/process
 
 evidence_review:
   tagline: 'Preuves et vérification'
   title: 'Preuves usine — vérifiées'
-  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Laixi, Qingdao. Les certificats, enregistrements d''inspection QC, rapports de test de pression et de structure, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en 2026-08.'
-
-cta:
-  title: 'Explorez notre usine'
-  actions:
-    - text: Liste de contrôle d'audit d'usine
-      href: /fr/factory-audit-checklist
+  body: 'Toutes les allégations de fabrication de cette page sont vérifiées par notre équipe d''ingénierie de fabrication à l''usine de Qingdao. Les certificats, enregistrements d''inspection QC, rapports de dureté et de force de serrage, et enregistrements de traçabilité des lots sont disponibles sur demande. Spécifications dernièrement vérifiées en 2026-09.'

@@ -1,0 +1,187 @@
+import { createFileRoute } from '@tanstack/react-router'
+import { ArrowRight, BookOpen, Building2, Hammer, PackageCheck } from 'lucide-react'
+import { localeHead } from '@/features/seo/seo'
+import { getOrigin } from '@/features/seo/seo.fns'
+import { type Locale } from '@/features/i18n/locale'
+import { useTranslation } from '@/features/i18n/provider'
+import { useLocalizePath } from '@/features/i18n/use-localize-path'
+import { knowledge } from '@/product/knowledge'
+import { PageHero } from '@/components/marketing/section-head'
+import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
+import { MarketingShell } from '@/components/marketing/shell'
+import { PRIMARY_CTA } from '@/components/marketing/cta-styles'
+import { SITE_NAME } from '@/config'
+import { ENTITY_PAGE_PATH } from '@/config/navigation'
+import { getDictionary, translate } from '@/features/i18n/locale'
+import { ENTITY_FACTS, ENTITY_SERVICES } from '@/product/entity-data'
+
+/**
+ * Entity hub (/about/stavalk-entity) — the GEO-facing page that links
+ * the whole entity graph together: organization facts, services, projects,
+ * knowledge. This is the page search engines and AI answer engines use to
+ * describe "what Stavalk is".
+ */
+export const Route = createFileRoute('/{-$locale}/about/stavalk-entity')({
+  loader: async ({ params }) => {
+    const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const origin = await getOrigin()
+    const { getSolutionPage, solutionPath } = await import('@/product/solution-pages')
+    const { projects } = await import('@/product/projects')
+    const solutionServices = ENTITY_SERVICES.map((slug) => {
+      const page = getSolutionPage(locale, slug) ?? getSolutionPage('en', slug)
+      return page ? { slug, href: solutionPath(slug), title: page.h1 } : null
+    }).filter((x): x is { slug: string; href: string; title: string } => x !== null)
+    const projectLinks = (projects[locale] ?? projects.en).map((p) => ({ slug: p.slug, navLabel: p.navLabel }))
+    return { origin, solutionServices, projectLinks }
+  },
+  head: ({ loaderData, params }) => {
+    const origin = loaderData?.origin ?? ''
+    const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    const dict = getDictionary(locale)
+    const { meta, links } = localeHead({
+      origin,
+      locale,
+      path: ENTITY_PAGE_PATH,
+      title: translate(dict, 'inquiry.entityMetaTitle'),
+      description: translate(dict, 'inquiry.entityMetaDescription'),
+    })
+    return { meta, links }
+  },
+  component: EntityPage,
+})
+
+function EntityPage() {
+  const { locale, t } = useTranslation()
+  const fl = useLocalizePath()
+  const { solutionServices, projectLinks } = Route.useLoaderData()
+  const c = {
+    kicker: t('bench.entity.kicker'),
+    title: t('bench.entity.title'),
+    intro1: t('bench.entity.intro1'),
+    intro2: t('bench.entity.intro2'),
+    intro3: t('bench.entity.intro3'),
+    factsTitle: t('bench.entity.factsTitle'),
+    servicesTitle: t('bench.entity.servicesTitle'),
+    servicesBody: t('bench.entity.servicesBody'),
+    knowledgeTitle: t('bench.entity.knowledgeTitle'),
+    knowledgeBody: t('bench.entity.knowledgeBody'),
+    projectsTitle: t('bench.entity.projectsTitle'),
+    projectsBody: t('bench.entity.projectsBody'),
+    ctaTitle: t('bench.entity.ctaTitle'),
+    ctaBody: t('bench.entity.ctaBody'),
+  }
+
+  return (
+    <MarketingShell>
+      <PageHero kicker={c.kicker} title={c.title}>
+        <div className="mt-7 flex max-w-2xl flex-col gap-4">
+          <p className="fg-dim text-[15.5px] leading-relaxed">{c.intro1}</p>
+          <p className="fg-dim text-[15.5px] leading-relaxed">{c.intro2}</p>
+          <p className="fg-dim text-[15.5px] leading-relaxed">{c.intro3}</p>
+        </div>
+      </PageHero>
+
+      {/* company facts */}
+      <section className="border-y border-border bg-bg-alt">
+        <div className="mx-auto max-w-6xl px-5 py-14 md:px-7">
+          <h2 className="font-display text-xl font-bold">{c.factsTitle}</h2>
+          <dl className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {ENTITY_FACTS[locale].map((f) => (
+              <div key={f.label} className="marine-card p-5">
+                <dt className="text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">{f.label}</dt>
+                <dd className="mt-1.5 text-[14.5px] font-semibold">{f.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+
+      {/* services */}
+      <section className="mx-auto max-w-6xl px-5 py-16 md:px-7">
+        <h2 className="flex items-center gap-2 font-display text-xl font-bold">
+          <PackageCheck size={20} className="text-primary" /> {c.servicesTitle}
+        </h2>
+        <p className="mt-2 max-w-2xl text-[14.5px] text-fg-2">{c.servicesBody}</p>
+        <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {solutionServices.map(({ slug, href, title }) => (
+            <a
+              key={slug}
+              href={fl(href)}
+              className="marine-card group p-5 transition-transform hover:-translate-y-0.5"
+            >
+              <h3 className="font-display text-[15.5px] font-bold leading-snug group-hover:text-primary">
+                {title}
+              </h3>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      {/* projects + knowledge */}
+      <section className="border-y border-border bg-bg-alt">
+        <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:px-7 lg:grid-cols-2">
+          <div>
+            <h2 className="flex items-center gap-2 font-display text-xl font-bold">
+              <Hammer size={20} className="text-primary" /> {c.projectsTitle}
+            </h2>
+            <p className="mt-2 text-[14.5px] text-fg-2">{c.projectsBody}</p>
+            <ul className="mt-5 space-y-2.5">
+              {projectLinks.map((p) => (
+                <li key={p.slug}>
+                  <a
+                    href={fl(`/projects/${p.slug}`)}
+                    className="group flex items-center gap-2 text-[14.5px] font-semibold text-primary hover:underline"
+                  >
+                    <span className="text-fg-3 group-hover:text-primary">›</span> {p.navLabel}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className="flex items-center gap-2 font-display text-xl font-bold">
+              <BookOpen size={20} className="text-primary" /> {c.knowledgeTitle}
+            </h2>
+            <p className="mt-2 text-[14.5px] text-fg-2">{c.knowledgeBody}</p>
+            <ul className="mt-5 space-y-2.5">
+              {(knowledge[locale] ?? knowledge.en).map((a) => (
+                <li key={a.slug}>
+                  <a
+                    href={fl(`/knowledge/${a.slug}`)}
+                    className="group flex items-center gap-2 text-[14.5px] font-semibold text-primary hover:underline"
+                  >
+                    <span className="text-fg-3 group-hover:text-primary">›</span> {a.navLabel}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="ocean-grad">
+        <div className="mx-auto flex max-w-4xl flex-col items-center px-5 py-16 text-center md:px-7 md:py-20">
+          <p className="flex items-center gap-2 font-display text-xs font-bold uppercase tracking-[0.16em] text-[#aee3f7]">
+            <Building2 size={15} /> {SITE_NAME}
+          </p>
+          <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-white md:text-4xl">{c.ctaTitle}</h2>
+          <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-[#d6eefb]">{c.ctaBody}</p>
+          <a
+            href={fl('/contact')}
+            className={PRIMARY_CTA}
+          >
+            {t('bench.projects.discuss')} <ArrowRight size={17} />
+          </a>
+        </div>
+      </section>
+
+      <JsonLd
+        data={siteBreadcrumbLd([
+          { name: t('bench.breadcrumb.home'), path: '/' },
+          { name: t('bench.breadcrumb.company'), path: ENTITY_PAGE_PATH },
+        ])}
+      />
+    </MarketingShell>
+  )
+}

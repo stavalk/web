@@ -12,11 +12,11 @@
 
 import { PRODUCT_TAGLINE, PRODUCT_DESCRIPTION } from '@/product/brand-constants'
 
-export const SITE_ID = 'supsfactory' as const
+export const SITE_ID = 'stavalk' as const
 
-export const SITE_NAME = 'SUPsfactory' as const
+export const SITE_NAME = 'Stavalk' as const
 
-export const SITE_DOMAIN = 'supsfactory.com' as const
+export const SITE_DOMAIN = 'stavalk.com' as const
 
 export const SITE_URL = `https://${SITE_DOMAIN}` as const
 

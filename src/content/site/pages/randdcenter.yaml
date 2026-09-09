@@ -1,131 +1,98 @@
-meta:
-  title: 'R&D Center — Inflatable SUP Engineering | {SITE}'
-  description: 'Research & Development — PVC fabric testing, hull engineering, RF welding, hydrodynamic testing, and quality control. Custom R&D services available.'
-  dateModified: '2026-08'
-
+﻿meta:
+  title: 'R&D Center — Bench Vise Engineering & Materials Lab | {SITE}'
+  description: 'Stavalk R&D: material science, casting and heat-treatment engineering, and custom bench vise development. Engineering resources behind every Stark vise series.'
+  dateModified: '2026-09-01'
+  keywords:
+    - 'bench vise R&D'
+    - 'bench vise engineering'
+    - 'bench vise development'
+    - 'Stavalk R&D center'
 hero:
   tagline: R&D Center
-  title: R & D Center
-  subtitle: Focused on Progress
-
+  title: Engineering, Materials and Design in One Place
+  subtitle: Stavalk's R&D center develops bench vises through casting engineering, heat-treatment metallurgy and mechanical design — turning a buyer's sketch into a certified, producible series.
+  actions:
+    - variant: primary
+      text: Start a development project
+      href: /contact
 intro:
-  - Afarer's Research and Development (R&D) Center is the driving force behind our mission to revolutionize water sports equipment. We empower water sports enthusiasts globally with safer, more comfortable, and more enjoyable products through relentless innovation in inflatable stand-up paddle boards (SUPs) and boats. Our dedicated team of engineers, designers, and passionate water sports experts are shaping the future of the industry, consistently raising the bar for quality, performance, and sustainability.
-  - Our R&D facility brings together material scientists, naval architects, and production engineers under one roof. From fabric formulation and hull simulation to welding process development and full-scale sea trials, every stage of product development is driven by data and validated by testing.
+  title: Introduction
+  body: |
+    The Stavalk R&D center sits inside our factory in Qingdao, China, so design, prototyping and production teams work on one floor. Engineers cover casting design, CNC programming, heat treatment and surface finishing, plus the metrology lab that verifies each prototype against specification.
 
+    The center supports both our five standard bench vise series and custom OEM projects — from a simple jaw-width change to a fully co-developed industrial range.
 mission:
-  tagline: Our Mission
-  title: Innovating the Future of Water Sports
-  pillars:
-    - icon: lightning
-      title: Technological Advancement
-      desc: Pioneering new materials, designs, and manufacturing for superior product performance and longevity.
-    - icon: design
-      title: User-Centric Design
-      desc: Deeply understanding and exceeding user needs through ergonomic and intuitive product design.
-    - icon: globe
-      title: Sustainable Practices
-      desc: Minimizing our environmental footprint by utilizing eco-friendly materials and processes.
-    - icon: shield
-      title: Uncompromising Safety
-      desc: Ensuring the highest safety standards through rigorous testing and certification.
-
+  title: Mission
+  body: |
+    To turn customer requirements into bench vises that hold work securely, last through years of shop use, and ship with fully documented quality. We engineer for clamping performance, jaw hardness and corrosion resistance while keeping private-label development cost-effective and fast.
 pillars:
-  - title: Technological Advancement
-    desc: Pioneering new materials, designs, and manufacturing processes to deliver superior product performance and longevity.
-    icon: tech
-  - title: Advanced Materials
-    desc: Investigating cutting-edge PVC, Hypalon, composites, and sustainable alternatives for enhanced product characteristics.
-    icon: materials
-  - title: Sustainability
-    desc: 'A Core Commitment: We are dedicated to environmental stewardship through sustainable manufacturing and recyclable materials.'
-    icon: sustainability
-
+  title: Engineering Pillars
+  subtitle: The four principles that guide every project.
+  items:
+    - title: Material First
+      description: Correct gray cast iron grade, forged steel and hardening alloy for each duty class and application.
+    - title: Precision Machining
+      description: CNC tolerances that keep jaw faces parallel and the screw running true under load.
+    - title: Hardness Control
+      description: Oil-quench and tempering that holds jaws at 58–62 HRC, verified by Rockwell testing.
+    - title: Test-Verified Design
+      description: Every prototype is validated for clamping force, swivel torque and cycle life before production.
 capabilities:
-  tagline: Capabilities
-  title: R&D Capabilities
-  subtitle: Four core disciplines that give us end-to-end control over product development —from raw material research to final certification.
+  title: Capabilities
+  subtitle: What our engineers and lab can do in-house.
   groups:
-    - title: Material Science & Fabric Technology
+    - title: Casting & Machining
       items:
-        - PVC and Hypalon formulation analysis and optimisation
-        - UV stabilisation, flame retardancy, and anti-microbial additive development
-        - Multi-layer fabric lamination and adhesion engineering
-        - Accelerated ageing testing (UV, thermal, humidity, salt spray)
-    - title: Hull Engineering & Hydrodynamics
+        - Green-sand and resin-sand patterns, gating and feeders for HT200/HT250 gray cast iron bodies
+        - Jaw faces, spindles, bases and accessories machined to consistent dimensional accuracy
+        - Custom jaw and base geometry developed to your drawing
+    - title: Metallurgy & Lab
       items:
-        - Parametric 3D hull design and CFD optimisation
-        - Finite element analysis for structural and impact loads
-        - Scale-model towing tank testing and performance validation
-        - Custom hull development for special mission profiles
-    - title: Welding & Joining Technology
-      items:
-        - RF dielectric welding process development and optimisation
-        - Hot-air, hot-wedge, and ultrasonic welding methods
-        - Adhesive bonding and seam tape qualification
-        - Weld strength modelling and lifetime prediction
-    - title: Testing, Certification & Compliance
-      items:
-        - Quality management and CE compliance testing
-        - Independent third-party testing and certification support
-        - Custom test protocol development for procurement qualification
-        - In-service failure analysis and root-cause investigation
-
+        - Oil-quench and tempering lines for GCr15/Cr12MoV jaws at 58–62 HRC
+        - Spray, powder-coat and Parkerizing finishing with salt-spray validation
+        - Spectrometer, CMM, hardness, torque and cycle-testing equipment to validate every design
 rd_numbers:
-  tagline: Innovation
-  title: R&D by the Numbers
-  stats:
-    - value: '14'
-      label: R&D engineers & scientists
-    - value: '8'
-      label: Active patents & filings
-    - value: '6'
-      label: Specialised labs
-    - value: 12 yr
-      label: Average team experience
-
+  title: R&D in Numbers
+  items:
+    - value: 5
+      label: Standard series
+      detail: Light, medium, heavy, pipe and precision
+    - value: 80,000+
+      label: Vises per year
+      detail: Factory capacity
+    - value: 200+
+      label: Workers
+      detail: Across casting, machining and assembly
+    - value: 58–62
+      label: Jaw hardness HRC
+      detail: GCr15 / Cr12MoV hardened jaws
 rd_services:
-  tagline: Custom R&D
-  title: R&D Services for Partners
+  title: R&D Services
+  subtitle: Development support available to OEM and private-label partners.
   services:
-    - title: Custom Material Development
-      desc: We develop custom fabric formulations, laminate stacks, and adhesive systems tailored to your operating environment and performance targets.
-    - title: OEM / ODM Product Engineering
-      desc: We develop custom fabric formulations, laminate stacks, and adhesive systems tailored to your operating environment and performance targets.
-    - title: Third-Party Testing & Certification
-      desc: Use our ISO-compliant test facilities for independent material testing, product validation, and certification support.
-  cta: Discuss your R&D requirements →
+    - title: Custom Jaw & Base Design
+      desc: Tailor jaw width, opening and mounting to your application and workbench.
+    - title: Material & Finish Selection
+      desc: Choose body grade, jaw steel and coating for the right strength, hardness and corrosion resistance.
+    - title: Drawing to Sample
+      desc: Our engineers turn your sketch or reference into a verified prototype.
+    - title: Certification Support
+      desc: Design the product to meet CE, ISO and RoHS from the drawing stage, not after.
+  cta: Start a development project
   cta_link: /contact
-
 vision:
-  tagline: Our Vision
-  title: Shaping the Future of Water Sports
-  body: Afarer strives to lead the inflatable boat and SUP industry through continuous innovation, unwavering quality, and a steadfast commitment to safety and sustainability —ultimately enriching the experiences of water sports enthusiasts worldwide. The Afarer R&D Center is where passion meets innovation, setting new standards for the water sports industry.
-
+  title: Vision
+  body: |
+    To be the bench vise R&D partner of choice for workholding brands worldwide — combining certified manufacturing with the engineering depth to build their exact product, every time.
 labs_section:
-  tagline: Labs
-  title: Our Laboratories
-  labs:
-    - image: https://assets.afarer.com/images/afarer/randd/afarer-pvc-material-lab.webp
-      title: PVC Fabric Lab
-      description: Continuous research and testing of PVC and Hypalon tube fabrics for tensile strength, UV resistance, abrasion, and low-temperature flexibility to ensure long-term reliability in marine environments.
-      href: /randdcenter/pvc-fabric-lab
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-design-discussion-2.webp
-      title: Hull Engineering Studio
-      description: CAD-driven design and finite element analysis of HDPE, aluminum, and fiberglass hulls. Every hull is digitally simulated for stress distribution and impact resistance before the first prototype is built.
-      href: /randdcenter/hull-engineering
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-sup-manufacturing-3.webp
-      title: RF Welding Center
-      description: Dedicated radio-frequency welding facility with precision temperature and pressure control, producing high-strength, airtight seams that meet marine industry standards for inflatable craft.
-      href: /randdcenter/rf-welding
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-design-discussion-original.webp
-      title: Hydrodynamic Test Tank
-      description: Scale-model testing in our in-house test tank to optimize hull form, planing performance, stability, and fuel efficiency across a range of load and sea conditions.
-      href: /randdcenter/hydrodynamic-test-tank
-    - image: https://assets.afarer.com/images/afarer/products/sup-series/sup-ocean-voyager-1.webp
-      title: Prototype Workshop
-      description: Full-scale prototyping and rigging facility where new models are built, fitted, and sea-trialed. Every prototype undergoes a minimum 20-hour in-water test programme before production approval.
-      href: /randdcenter/prototype-workshop
-    - image: https://assets.afarer.com/images/afarer/factory/afarer-uv-resistance-testing.webp
-      title: Quality & Inspection Lab
-      description: Dedicated quality assurance lab performing tensile testing, air-retention cycling, seam peel tests, and material certification to ensure every boat leaving the workshop meets our published specifications.
-      href: /randdcenter/quality-inspection-lab
+  title: Labs & Equipment
+  subtitle: In-house facilities that keep development fast and quality documented.
+  items:
+    - title: Spectrometer Lab
+      description: Validates gray cast iron and steel chemistry per spec before a single piece is machined.
+    - title: Metrology Lab
+      description: CMM and precision gauges verify every critical dimension on prototypes and production runs.
+    - title: Hardness & Materials Lab
+      description: Rockwell testing confirms jaw hardness across oil-quench and tempering.
+    - title: Durability Lab
+      description: Clamping-force, swivel-torque and 10,000+ cycle tests confirm long service life.

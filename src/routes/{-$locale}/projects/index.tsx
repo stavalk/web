@@ -55,9 +55,9 @@ function ProjectsIndex() {
 
   return (
     <MarketingShell>
-      <PageHero kicker={t('sup.projects.hubKicker')} title={meta.h1}>
+      <PageHero kicker={t('bench.projects.hubKicker')} title={meta.h1}>
         <div className="mt-7 flex max-w-2xl flex-col gap-4">
-          <p className="fg-dim text-[15.5px] leading-relaxed">{t('sup.projects.hubIntro')}</p>
+          <p className="fg-dim text-[15.5px] leading-relaxed">{t('bench.projects.hubIntro')}</p>
         </div>
       </PageHero>
 
@@ -65,26 +65,26 @@ function ProjectsIndex() {
         <div className="flex flex-col gap-3">
           <div className="flex flex-wrap items-center gap-2">
             <span className="mr-1 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
-              {t('sup.projects.filterCustomerType')}
+              {t('bench.projects.filterCustomerType')}
             </span>
-            <button type="button" aria-label={t('sup.projects.filterAllAria')} onClick={() => setCustomer('')} className={chip(!customer)}>
-              {t('sup.projects.filterAll')}
+            <button type="button" aria-label={t('bench.projects.filterAllAria')} onClick={() => setCustomer('')} className={chip(!customer)}>
+              {t('bench.projects.filterAll')}
             </button>
             {customers.map((c) => (
-              <button key={c} type="button" aria-label={t('sup.projects.filterTypeAria', { type: c })} onClick={() => setCustomer(customer === c ? '' : c)} className={chip(customer === c)}>
+              <button key={c} type="button" aria-label={t('bench.projects.filterTypeAria', { type: c })} onClick={() => setCustomer(customer === c ? '' : c)} className={chip(customer === c)}>
                 {c}
               </button>
             ))}
           </div>
           <div className="flex flex-wrap items-center gap-2">
             <span className="mr-1 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
-              {t('sup.projects.filterProductCategory')}
+              {t('bench.projects.filterProductCategory')}
             </span>
-            <button type="button" aria-label={t('sup.projects.filterAllCategoriesAria')} onClick={() => setCategory('')} className={chip(!category)}>
-              {t('sup.projects.filterAll')}
+            <button type="button" aria-label={t('bench.projects.filterAllCategoriesAria')} onClick={() => setCategory('')} className={chip(!category)}>
+              {t('bench.projects.filterAll')}
             </button>
             {categories.map((c) => (
-              <button key={c} type="button" aria-label={t('sup.projects.filterCategoryAria', { type: c })} onClick={() => setCategory(category === c ? '' : c)} className={chip(category === c)}>
+              <button key={c} type="button" aria-label={t('bench.projects.filterCategoryAria', { type: c })} onClick={() => setCategory(category === c ? '' : c)} className={chip(category === c)}>
                 {c}
               </button>
             ))}
@@ -106,32 +106,32 @@ function ProjectsIndex() {
                 <p className="mt-3 text-[14px] leading-relaxed text-fg-2">{p.requirement}</p>
               </div>
               <p className="flex items-center gap-1.5 text-[14px] font-bold text-primary group-hover:underline">
-                {t('sup.projects.viewCase')} <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
+                {t('bench.projects.viewCase')} <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
               </p>
             </a>
           ))}
         </div>
 
         {filtered.length === 0 && (
-          <p className="mt-8 text-center text-[14px] text-fg-2">{t('sup.projects.filterEmpty')}</p>
+          <p className="mt-8 text-center text-[14px] text-fg-2">{t('bench.projects.filterEmpty')}</p>
         )}
 
         <div className="mt-14 rounded-3xl border border-border bg-bg-alt p-8 text-center md:p-12">
-          <h2 className="font-display text-2xl font-extrabold">{t('sup.projects.yourCaseTitle')}</h2>
-          <p className="mx-auto mt-3 max-w-xl text-[14.5px] leading-relaxed text-fg-2">{t('sup.projects.yourCaseBody')}</p>
+          <h2 className="font-display text-2xl font-extrabold">{t('bench.projects.yourCaseTitle')}</h2>
+          <p className="mx-auto mt-3 max-w-xl text-[14.5px] leading-relaxed text-fg-2">{t('bench.projects.yourCaseBody')}</p>
           <a
             href={fl('/contact')}
             className="sun-grad mt-7 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
           >
-            {t('sup.projects.discuss')} <ArrowRight size={17} />
+            {t('bench.projects.discuss')} <ArrowRight size={17} />
           </a>
         </div>
       </section>
 
       <JsonLd
         data={siteBreadcrumbLd([
-          { name: t('sup.breadcrumb.home'), path: '/' },
-          { name: t('sup.breadcrumb.projects'), path: '/projects' },
+          { name: t('bench.breadcrumb.home'), path: '/' },
+          { name: t('bench.breadcrumb.projects'), path: '/projects' },
         ])}
       />
       <JsonLd

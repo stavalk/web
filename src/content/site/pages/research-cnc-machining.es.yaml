@@ -1,0 +1,15 @@
+label: Research
+headline: '<strong>Mecanizado CNC</strong> — Precisión en cada componente del tornillo'
+subtitle: 'Tornos y centros de mecanizado CNC proporcionan tolerancias precisas en mandíbulas, bases, husillos y manijas para un rendimiento de sujeción uniforme.'
+seo:
+  title: 'Mecanizado CNC para componentes de tornillo de banco'
+  description: 'Stavalk mecaniza mandíbulas, husillos y bases en tornos CNC y centros de mecanizado con tolerancias de ±0,1 mm para sujeción fiable y repetible.'
+body: >-
+  Tras la fundición, cada componente crítico del tornillo se traslada al taller de mecanizado CNC, donde tornos y centros de mecanizado dan forma a las mandíbulas, placas de base, husillos y manijas según tolerancias publicadas. Las caras y tallos de mandíbula mecanizados a partir de acero forjado 45# o barra GCr45 reciben paralelismo de corredera dentro de ±0,1 mm, mientras que los orificios de montaje de husillo y las roscas se cortan con ajustes de clase de precisión que aseguran una rotación suave bajo carga. Las roscas de las manijas se producen por rolling de rosca para un paso consistente y una vida de fatiga superior comparada con las roscas cortadas. La combinación de precisión CNC y operaciones secundarias convencionales otorga a Stavalk control total sobre la cadena dimensional desde la fundición cruda hasta el tornillo terminado.
+faqs:
+  - q: '¿Qué componentes se mecanizan CNC versus torneados convencionalmente?'
+    a: 'Las caras de mandíbula, los tallos de mandíbula, las correderas de base, los orificios de montaje del husillo y los perfiles de rosca se mecanizan todos por CNC para lograr tolerancias y acabado superficiales ajustados. Las manijas y elementos secundarios pueden producirse en tornos convencionales o equipos de rolling de rosca cuando la precisión requerida se logra sin CNC.'
+  - q: '¿Qué tolerancias mantiene Stavalk en las piezas mecanizadas?'
+    a: 'El paralelismo de la corredera, la planitud de la cara de mandíbula y la alineación del orificio del husillo se mantienen en ±0,1 mm o más estricto. Las roscas del husillo se mecanizan con una clase de rosca definida que asegura una rotación suave sin holgura. Estas tolerancias se verifican por CMM durante la inspección de primera pieza y por medición en proceso durante la producción.'
+  - q: '¿El tratamiento térmico se realiza antes o después del mecanizado?'
+    a: 'Los insertos de mandíbula y otros componentes endurecidos se mecanizan primero a dimensiones casi finales, luego se tratan térmicamente y se rectifican si es necesario. Esta secuencia minimiza la distorsión del ciclo de temple y revenido, asegurando que la geometría final cumpla la tolerancia después del endurecimiento.'

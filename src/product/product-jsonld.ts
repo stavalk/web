@@ -25,31 +25,28 @@ export function siteLd(): Record<string, unknown>[] {
       department: {
         '@type': 'Organization',
         name: BRAND_PARENT_BRAND,
-        description: 'Marine manufacturing division of Qingdao Vatrad Group Co., Ltd.',
+        description: `Bench vise manufacturing division of ${BRAND_COMPANY_NAME}.`,
         sameAs: BRAND_PARENT_URL,
       },
       brand: { '@type': 'Brand', name: BRAND_PARENT_BRAND },
-      numberOfEmployees: { '@type': 'QuantitativeValue', value: '350+' },
-      hasCredential: [
-        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'ISO 9001' },
-        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'BSCI' },
-        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'CE' },
-        { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'REACH / RoHS' },
-      ],
+      numberOfEmployees: { '@type': 'QuantitativeValue', value: FACTS.workers },
+      hasCredential: CERTIFICATION_NAMES.map((c) => ({
+        '@type': 'EducationalOccupationalCredential',
+        credentialCategory: 'certification',
+        name: c,
+      })),
       knowsAbout: [
-        'SUP manufacturing',
-        'inflatable paddle board factory',
-        'SUP OEM / ODM',
-        'custom paddle boards',
-        'SUP product development',
-        'SUP prototyping',
-        'private label SUP',
-        'drop stitch construction',
-        'RF welding SUP',
-        'SUP quality control',
+        'bench vise manufacturing',
+        'vise OEM / ODM',
+        'custom bench vises',
+        'vise product development',
+        'vise prototyping',
+        'private label vices',
+        'gray cast iron casting HT200 / HT250',
+        'hardened steel jaws 58–62 HRC',
+        'vise quality control',
       ],
       foundingLocation: { '@type': 'Place', name: 'Qingdao, China' },
-      foundingDate: '2012',
       address: {
         '@type': 'PostalAddress',
         streetAddress: 'Economic Development Zone, Laixi',
@@ -81,7 +78,7 @@ export function siteLd(): Record<string, unknown>[] {
       '@id': `${SITE_ORIGIN}/#website`,
       url: `${SITE_ORIGIN}/`,
       name: SITE_NAME,
-      inLanguage: ['en', 'es'],
+      inLanguage: ['en', 'es', 'fr'],
       publisher: { '@id': `${SITE_ORIGIN}/#organization` },
       potentialAction: {
         '@type': 'SearchAction',
@@ -108,7 +105,7 @@ export function serviceLd(input: {
     areaServed: 'Worldwide',
     audience: {
       '@type': 'BusinessAudience',
-      name: 'Businesses, brands, resorts, clubs, schools and organizations',
+      name: 'Businesses, brands, professional workshops, schools and distributors',
     },
   }
 }
@@ -138,9 +135,9 @@ export function projectLd(input: {
 export function factoryCapabilitiesLd(): Record<string, unknown> {
   return {
     '@type': 'ManufacturingFacility',
-    name: `${SITE_NAME} Inflatable SUP Plant`,
+    name: `${SITE_NAME} Bench Vise Manufacturing Plant`,
     description:
-      `12,500 m\u00b2 inflatable SUP manufacturing plant in Qingdao, China \u2014 the SUP product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}).`,
+      `8,000 m\u00b2 cast iron bench vise manufacturing plant in Qingdao, China \u2014 casting HT200/HT250 gray iron bodies, forging 45# steel components and heat-treating GCr15/Cr12MoV jaws to 58\u201362 HRC, with machining, coating and a 7-stage inspection system under one roof.`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Economic Development Zone, Laixi',
@@ -153,14 +150,13 @@ export function factoryCapabilitiesLd(): Record<string, unknown> {
     employeeCount: FACTS.workers,
     numberOfEmployees: { '@type': 'QuantitativeValue', value: FACTS.workers },
     areaServed: FACTS.exportCountries,
-    isicV4: '3012',
+    isicV4: '2599',
     hasCredential: CERTIFICATION_NAMES.map((c) => ({
       '@type': 'EducationalOccupationalCredential',
       credentialCategory: 'certification',
       name: c,
     })),
     certification: CERTIFICATION_NAMES,
-    foundingDate: '2012',
   }
 }
 
@@ -170,18 +166,16 @@ export function brandHeritageLd(): Record<string, unknown> {
     name: SITE_NAME,
     alternateName: BRAND_PARENT_BRAND,
     description: FACTS.boilerplate,
-    foundingDate: '2012',
     founder: BRAND_COMPANY_NAME,
     slogan: FACTS.buildLine,
     historyHighlights: [
-      { '@type': 'Event', name: 'Founding', startDate: '2012', description: `Founded as the inflatable SUP manufacturing division of ${BRAND_COMPANY_NAME}.` },
-      { '@type': 'Event', name: 'Plant operations', description: `${FACTS.warehouseM2} inflatable manufacturing plant with ${FACTS.workshops} in Qingdao, China.` },
-      { '@type': 'Event', name: 'Certification', description: `Certified ${CERTIFICATION_NAMES.join(', ')} \u2014 manufacturing quality, safety and social compliance.` },
-      { '@type': 'Event', name: 'Global exports', description: `Supplies SUP OEM/ODM partners in ${FACTS.exportCountries} countries worldwide.` },
+      { '@type': 'Event', name: 'Plant operations', description: `${FACTS.warehouseM2} cast iron manufacturing plant with ${FACTS.workshops} in Qingdao, China.` },
+      { '@type': 'Event', name: 'Jaw hardness', description: `GCr15/Cr12MoV jaws quenched and tempered to ${FACTS.hardnessRating} \u2014 verified by batch hardness testing.` },
+      { '@type': 'Event', name: 'Certification', description: `Certified ${CERTIFICATION_NAMES.join(', ')} \u2014 manufacturing quality, safety and environmental compliance.` },
+      { '@type': 'Event', name: 'Global exports', description: `Supplies vise OEM/ODM partners in ${FACTS.exportCountries} countries worldwide.` },
     ],
     certifications: CERTIFICATION_NAMES,
     manufacturingExperience: {
-      yearsInOperation: 'Since 2012',
       annualCapacity: FACTS.annualCapacity,
       monthlyCapacity: FACTS.monthlyCapacity,
       exportCountries: FACTS.exportCountries,
@@ -207,49 +201,49 @@ export function enhancedFaqLd(): Record<string, unknown> {
       a: FACTS.boilerplate,
       category: 'General',
       priority: 5,
-      keywords: [SITE_NAME, 'SUP manufacturer', 'inflatable SUP factory', 'Qingdao'],
+      keywords: [SITE_NAME, 'bench vise manufacturer', 'vise factory', 'Qingdao'],
     },
     {
-      q: 'What is the MOQ for custom SUP orders?',
-      a: `Trial/pilot orders start at ${MOQ_SHORT.trialStandard}; standard production runs are ${MOQ_SHORT.standardRun}.`,
+      q: 'What is the MOQ for custom vise orders?',
+      a: `Trial/pilot orders start at ${MOQ_SHORT.trialStandard}; standard production runs are ${MOQ_SHORT.standardRun}; custom tooling runs are ${MOQ_SHORT.customMould}.`,
       category: 'Pricing',
       priority: 5,
-      keywords: ['MOQ', 'minimum order quantity', 'pilot order', 'custom SUP'],
+      keywords: ['MOQ', 'minimum order quantity', 'pilot order', 'custom vise'],
     },
     {
       q: 'What are the production and sampling lead times?',
-      a: `Samples ship in ${FACTS.sampleTime}; bulk production is ${FACTS.leadTime} from confirmed PO and deposit. Custom mould development adds 15\u201320 days for tooling.`,
+      a: `Samples ship in ${FACTS.sampleTime}; bulk production is ${FACTS.leadTime} from confirmed PO and deposit. Custom tooling development adds 15\u201320 days.`,
       category: 'Production',
       priority: 5,
       keywords: ['lead time', 'sample time', 'production time', 'bulk order'],
     },
     {
-      q: 'Can you manufacture SUP boards with my own brand?',
+      q: 'Can you manufacture bench vises with my own brand?',
       a: 'Yes \u2014 OEM and private-label manufacturing: engineering, tooling, sampling, production and export. You own the brand, the market and the customer.',
       category: 'Customization',
       priority: 5,
-      keywords: ['private label', 'OEM', 'ODM', 'custom graphics', 'own brand'],
+      keywords: ['private label', 'OEM', 'ODM', 'custom finish', 'own brand'],
     },
     {
-      q: 'What quality control do you run on every board?',
-      a: `Every board passes ${FACTS.qualityGates} inspection gates including a ${FACTS.assemblyChecklist} assembly checklist and a ${FACTS.pressureTest} pressure hold. Batches keep ${FACTS.traceabilityRet} ERP traceability, and third-party inspections by ${FACTS.thirdPartyInspectors.join(', ')} are available.`,
+      q: 'What quality control do you run on every vise?',
+      a: `Every vise passes ${FACTS.qualityGates} inspection gates including a ${FACTS.assemblyChecklist} assembly checklist and a ${FACTS.pressureTest}; units failing clamping force or jaw hardness checks are auto-rejected. Batches keep ${FACTS.traceabilityRet} ERP traceability, and third-party inspections by ${FACTS.thirdPartyInspectors.join(', ')} are available.`,
       category: 'Technical',
       priority: 4,
-      keywords: ['quality control', 'inspection', 'pressure test', 'QC', 'factory audit'],
+      keywords: ['quality control', 'inspection', 'clamping force', 'QC', 'factory audit'],
     },
     {
       q: 'What certifications does the factory hold?',
       a: `${CERTIFICATION_NAMES.join(', ')} \u2014 with third-party inspection by ${FACTS.thirdPartyInspectors.join(', ')}.`,
       category: 'Technical',
       priority: 4,
-      keywords: ['certifications', 'ISO 9001', 'BSCI', 'CE', 'REACH', 'RoHS'],
+      keywords: ['certifications', 'ISO 9001', 'CE', 'RoHS'],
     },
     {
       q: 'What warranty do you provide on bulk orders?',
-      a: 'A 5-year limited warranty covers primary tube fabric, seams, drop-stitch core structural integrity, inflation valves and factory-installed accessories; commercial/rental use carries a 1-year warranty. Warranty terms are written into each order contract.',
+      a: 'Warranty terms are written into each order contract, covering defects in materials and workmanship under documented use conditions. Claims are settled against batch inspection records.',
       category: 'Warranty',
       priority: 5,
-      keywords: ['warranty', '5 year warranty', 'after-sales', 'claim'],
+      keywords: ['warranty', 'after-sales', 'claim', 'defects'],
     },
     {
       q: 'Do you ship worldwide?',
@@ -281,16 +275,15 @@ export function enhancedFaqLd(): Record<string, unknown> {
 export function warrantyReturnsLd(): Record<string, unknown> {
   return {
     '@type': 'WarrantyPromise',
-    durationOfWarranty: { '@type': 'QuantitativeValue', value: 5, unitCode: 'ANN' },
-    warrantyScope: 'Defects in materials and workmanship',
+    durationOfWarranty: { '@type': 'QuantitativeValue', value: 12, unitCode: 'MON' },
+    warrantyScope: 'Defects in materials and workmanship under documented use conditions',
     description:
-      '5-year limited warranty on primary tube fabric, seams, drop-stitch core structural integrity, inflation valves and factory-installed accessories. Commercial, rental or instructional use reduces coverage to 1 year.',
+      '12-month limited warranty against defects in materials and workmanship, adjudicated against the batch inspection records (10-year ERP traceability). Exact terms are written into each order contract.',
     coverage: [
-      { '@type': 'Thing', name: 'Primary tube fabric', warranty: '5 years' },
-      { '@type': 'Thing', name: 'Seams', warranty: '5 years' },
-      { '@type': 'Thing', name: 'Drop-stitch core structural integrity', warranty: '5 years' },
-      { '@type': 'Thing', name: 'Inflation valves & factory-installed accessories', warranty: '5 years' },
-      { '@type': 'Thing', name: 'Commercial / rental / instructional use', warranty: '1 year' },
+      { '@type': 'Thing', name: 'Gray iron cast body & base (HT200/HT250)', warranty: '12 months' },
+      { '@type': 'Thing', name: 'Hardened jaws (GCr15/Cr12MoV)', warranty: '12 months' },
+      { '@type': 'Thing', name: 'Cast spindle & handle (45# steel)', warranty: '12 months' },
+      { '@type': 'Thing', name: 'Swivel base hardware', warranty: '12 months' },
     ],
     claimProcess: {
       '@type': 'HowTo',
@@ -299,7 +292,7 @@ export function warrantyReturnsLd(): Record<string, unknown> {
         `Contact ${SITE_NAME} through the contact page with your order number and product details; claims are adjudicated against the batch inspection records (10-year ERP traceability), not guesswork.`,
       step: [
         { '@type': 'HowToStep', position: 1, name: 'Contact sales', text: 'Reach us via the contact page with your order number and product details.' },
-        { '@type': 'HowToStep', position: 2, name: 'Review against batch records', text: 'Claims are checked against the board serial number and 7-stage inspection records.' },
+        { '@type': 'HowToStep', position: 2, name: 'Review against batch records', text: 'Claims are checked against the vise serial number and 7-stage inspection records.' },
         { '@type': 'HowToStep', position: 3, name: 'Repair or replace', text: 'Defective components are repaired or replaced at our option, per the warranty terms in the order contract.' },
       ],
     },
@@ -311,7 +304,7 @@ export function shippingLogisticsLd(): Record<string, unknown> {
     '@type': 'ShippingDeliveryTime',
     description: `Export to ${FACTS.exportCountries} countries with production lead time ${FACTS.leadTime} and samples in ${FACTS.sampleTime}.`,
     shippingMethods: [
-      { '@type': 'OfferShippingDetails', name: 'Sea freight', description: 'Bulk production shipments (LCL/FCL) \u2014 standard for 90\u2013100+ board runs.' },
+      { '@type': 'OfferShippingDetails', name: 'Sea freight', description: 'Bulk production shipments (LCL/FCL) \u2014 standard for 90\u2013100+ unit runs.' },
       { '@type': 'OfferShippingDetails', name: 'Air freight', description: 'Samples and urgent orders via air courier.' },
       { '@type': 'OfferShippingDetails', name: 'Express courier', description: 'DHL/FedEx/UPS for samples and small parcels.' },
     ],
@@ -351,10 +344,10 @@ export function productVariantFaqLd(input: {
       },
       {
         '@type': 'Question',
-        name: 'Can variant artwork and packaging be customized?',
+        name: 'Can variant markings, finish and packaging be customized?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes \u2014 graphics, deck pad and packaging are customized per PO within the standard MOQ tiers.',
+          text: 'Yes \u2014 jaw markings, finish, jaw width and packaging are customized per PO within the standard MOQ tiers.',
         },
       },
       {
@@ -362,7 +355,7 @@ export function productVariantFaqLd(input: {
         name: 'What lead time applies to this variant?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `Samples in ${FACTS.sampleTime}; bulk production ${FACTS.leadTime} after PO confirmation. Custom mould tooling adds 15\u201320 days.`,
+          text: `Samples in ${FACTS.sampleTime}; bulk production ${FACTS.leadTime} after PO confirmation. Custom tooling adds 15\u201320 days.`,
         },
       },
     ],
@@ -373,16 +366,16 @@ export function qcHowToLd(): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    name: '7-Stage SUP Quality Control Inspection',
-    description: 'Every inflatable SUP board passes seven inspection gates with documented pass/fail criteria before shipment. Each gate has quantitative standards and traceability records.',
+    name: '7-Stage Bench Vise Quality Control Inspection',
+    description: 'Every bench vise passes seven inspection gates with documented pass/fail criteria before shipment. Each gate has quantitative standards and traceability records.',
     step: [
-      { '@type': 'HowToStep', position: 1, name: 'Incoming Material Inspection', text: 'PVC fabric, drop-stitch core and all raw materials inspected against specification before entering production. Batch certificates and REACH/RoHS declarations verified.' },
-      { '@type': 'HowToStep', position: 2, name: 'Drop-Stitch Fabric Inspection', text: 'Drop-stitch thread density and fabric integrity verified. Thread count per inch checked against specification (96 or 140 threads/inch).' },
-      { '@type': 'HowToStep', position: 3, name: 'Welding & Assembly', text: 'RF welding parameters (temperature, pressure, dwell time) logged per production run. Seam integrity inspected with documented reject rates.' },
-      { '@type': 'HowToStep', position: 4, name: 'Pressure & Airtightness Testing', text: '18.0 PSI hold test for 24 hours. Auto-reject above 0.50 PSI pressure drop. Test logs retained per batch.' },
-      { '@type': 'HowToStep', position: 5, name: 'EVA Pad & Accessory Installation', text: 'Traction pad alignment, fin box installation, D-ring placement and all accessories checked against frozen BOM specification.' },
-      { '@type': 'HowToStep', position: 6, name: 'Graphic & Branding QC', text: 'Board graphics, logo placement and color accuracy verified against approved artwork. Brand application inspected per client specification.' },
-      { '@type': 'HowToStep', position: 7, name: 'Final Packaging & Documentation', text: 'Export packaging, compliance documentation (CE, ISO 9001, BSCI, REACH, RoHS), certificates of conformity and batch traceability records verified before shipment.' },
+      { '@type': 'HowToStep', position: 1, name: 'Incoming Material Inspection', text: 'HT200/HT250 gray cast iron, 45# carbon steel and GCr15/Cr12MoV jaw steel verified against specification and batch certificates before entering production.' },
+      { '@type': 'HowToStep', position: 2, name: 'Casting Inspection', text: 'Casting quality, gating and defect checks on bodies and bases, and dimensional checks against pattern approval.' },
+      { '@type': 'HowToStep', position: 3, name: 'Machining Inspection', text: 'Jaw faces, slides, spindle threads and mounting surfaces checked to 0.05 mm CNC accuracy with documented pass/fail criteria.' },
+      { '@type': 'HowToStep', position: 4, name: 'Heat Treatment', text: 'Jaw blanks quenched and tempered to 58–62 HRC; hardness verified per batch on the hardness tester.' },
+      { '@type': 'HowToStep', position: 5, name: 'Surface Coating', text: 'Spray, powder-coat or Parkerizing finish verified — film thickness and corrosion resistance validated by 48-hour salt-spray testing.' },
+      { '@type': 'HowToStep', position: 6, name: 'Assembly & Functional Test', text: 'Clamping force, swivel torque and 10,000+ cycle durability tested; units failing clamping force or jaw hardness checks are auto-rejected.' },
+      { '@type': 'HowToStep', position: 7, name: 'Final Inspection & Packing', text: 'A 100-point assembly checklist, export packaging and compliance documentation (CE, ISO 9001, RoHS) plus 10-year ERP traceability verified before shipment.' },
     ],
   }
 }

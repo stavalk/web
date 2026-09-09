@@ -1,34 +1,29 @@
-meta:
-  title: 'Capacité de production — usine de 12 500 m² | {SITE}'
-  description: 'Capacité de l''usine Afarer : installation de 12 500 m² produisant plus de 120 000 planches de SUP par an avec de la marge pour évoluer. Fabrication OEM/ODM de SUP gonflables à grande échelle.'
-  dateModified: '2026-08-07'
+﻿meta:
+  title: 'Capacité de production — usine de 8 000 m² | {SITE}'
+  description: 'Capacité de l''usine Stavalk : installation de 8 000 m² produisant plus de 80 000 étaux d''établi par an avec de la marge pour évoluer. Fabrication OEM/ODM d''étaux d''établi à grande échelle.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'capacité de production sup'
-    - 'usine sup gonflable'
-    - 'production planches à pagaie'
-    - 'usine sup chine'
+    - 'capacité de production étaux'
+    - 'usine d''étaux'
+    - 'fabrication d''étaux'
+    - 'usine d''étaux chine'
 hero:
   tagline: Capacité de production
   title: Capacité de fabrication et production annuelle
-  subtitle: 'Installation de 12 500 m² produisant plus de 120 000 planches de SUP par an avec de la marge pour évoluer'
+  subtitle: 'Installation de 8 000 m² produisant plus de 80 000 étaux d''établi par an avec de la marge pour évoluer'
 
-answer:
-  label: 'Réponse directe'
-  text: 'Capacité d''usine : 12 500 m² répartis sur quatre ateliers spécialisés, plus de 120 000 planches de SUP par an, 350+ ouvriers sur deux équipes, export vers plus de 50 pays. Le MOQ est confirmé par la configuration du projet — échantillon (1–2 unités), pilote (20–50 unités) et volume standard (90–100+ unités par rouleau de 150 m) ; consultez notre Guide MOQ et marque flexible pour la logique complète. Délai de 25–35 jours, échantillons en 7–12 jours.'
-  verified: '2026-08'
-
-intro: 'Afarer exploite l''une des plus grandes installations de fabrication dédiées de SUP gonflables à Qingdao, en Chine. Notre usine de 12 500 m² est organisée en quatre ateliers spécialisés fonctionnant en parallèle, ce qui nous permet de produire plus de 120 000 planches par an sur les lignes de SUP et d''équipements de sécurité.'
+intro: Stavalk exploite une usine autonome de 8 000 m² à Qingdao, en Chine. Fonderie au sable, usinage CNC, trempe par induction, finition de surface, assemblage des bases pivotantes et emballage d'export sont gérés en interne, avec une capacité de plus de 80 000 étaux d'établi par an.
 
 highlights:
-  - value: 12 500 m²
+  - value: 8 000 m²
     label: Surface totale de fabrication
     detail: Sur 4 ateliers spécialisés
-  - value: 120 000+
-    label: Planches produites chaque année
-    detail: SUP et équipements de sécurité
-  - value: 350+
+  - value: 80 000+
+    label: Étaux produits chaque année
+    detail: Séries légère, moyenne, intensive, tuyaux et spéciale
+  - value: 200+
     label: Effectif qualifié
-    detail: 25+ ingénieurs, 2 équipes/jour
+    detail: 20+ ingénieurs, 2 équipes/jour
   - value: 50+
     label: Pays d'export
     detail: UE, US, AU, Moyen-Orient, Asie
@@ -40,22 +35,22 @@ highlights:
     detail: Depuis 2012
 
 workshops:
-  - title: Production de planches de SUP
-    description: '4 lignes d''assemblage automatisées pour les planches de SUP gonflables avec une production combinée d''environ 10 000 planches par mois. Les postes d''impression numérique et de sérigraphie fonctionnent en parallèle. Capacité SUP annuelle : plus de 120 000 planches.'
-    output: '120 000+ SUP/an'
-  - title: Production de planches de SUP
-    description: 'Capacité de production élargie pour les planches de SUP utilisant des lignes d''assemblage supplémentaires. L''assemblage du noyau drop-stitch, l''impression numérique et les postes d''assemblage fonctionnent en parallèle.'
-    output: 'Capacité SUP élargie'
-  - title: Planches de SUP et accessoires
-    description: 'Lignes de production polyvalentes pour les planches de SUP et les accessoires. Les postes de soudure à l''air chaud, les presses diélectriques RF et les postes d''assemblage sont reconfigurés selon le mix de commandes. Capacité annuelle : plus de 5 000 unités.'
-    output: '5 000+ unités/an'
-  - title: Équipements de sécurité
-    description: 'Zone de production en salle blanche séparée pour les gilets de sauvetage et les équipements de sécurité. Postes de couture, d''insertion de mousse et de test dédiés. Capacité annuelle de gilets de sauvetage : plus de 50 000 unités.'
-    output: '50 000+ gilets de sauvetage/an'
+  - title: Atelier de fonderie
+    description: 'Ligne automatique de fonderie au sable produisant des corps, coulisseaux et bases en fonte grise HT200/HT250. La fusion, la coulée, le décochage et le grenaillage fonctionnent en parallèle avec un échantillonnage QC par coulée. Capacité annuelle de fonderie : plus de 80 000 unités.'
+    output: '80 000+ pièces coulées/an'
+  - title: Atelier d'usinage CNC
+    description: 'Centres d''usinage et tours CNC pour les corps, coulisseaux, vis et logements de mâchoires, avec filetage de l''acier forgé 45#. L''usinage fonctionne en parallèle avec le traitement thermique pour un flux continu.'
+    output: 'Capacité d''usinage élargie'
+  - title: Ligne de traitement thermique et finition
+    description: 'Trempe par induction des mâchoires GCr15 / Cr12MoV à 58–62 HRC, plus lignes de revêtement par poudre électrostatique et de zingage. Tous les postes de finition sont reconfigurés selon le mix de commandes. Capacité annuelle : plus de 80 000 unités.'
+    output: '80 000+ unités/an'
+  - title: Assemblage, mâchoires pour tuyaux et conditionnement
+    description: 'Zone d''assemblage dédiée aux bases pivotantes, jeux de mâchoires pour tuyaux (chaîne et trépied), montage vis/guide et réglage final, plus des postes de conditionnement export. Capacité annuelle d''assemblage : plus de 80 000 unités.'
+    output: '80 000+ étaux/an'
 
 oem_capacity:
-  moq: 'SUP : échantillon 1–2 | pilote 20–50 | volume 90–100+ (par rouleau de 150 m)'
-  lead_time: 'Standard 25–35 jours. Échantillon 7–12 jours. Urgence disponible.'
+  moq: 'Modèles standard 50–200 | intensifs/spéciaux 20–50 pcs par modèle'
+  lead_time: 'Standard 25–35 jours. Échantillon 7–14 jours. Urgence disponible.'
   payment: 'T/T 30 % d''acompte + 70 % de solde. L/C, Western Union acceptés.'
 
 lead_time_explainer:
@@ -64,22 +59,22 @@ lead_time_explainer:
   subtitle: 'La capacité n''est pas un chiffre unique — voici comment les délais sont réellement alloués.'
   items:
     - title: 'La capacité varie avec votre spécification'
-      body: 'Les créneaux disponibles changent avec le type de planche, la complexité de construction, l''emballage et la demande saisonnière. Pendant la montée en charge printemps/été, les lignes tournent à plein et les créneaux d''échantillons se réservent en premier.'
+      body: 'Les créneaux disponibles changent avec le modèle d''étau, la largeur de mâchoire, la complexité du revêtement et de la finition, l''emballage et la demande saisonnière. Pendant la montée en charge printemps/été, les lignes tournent à plein et les créneaux d''échantillons se réservent en premier.'
     - title: 'Planifiez avant votre saison de lancement'
-      body: 'Verrouillez tôt votre confirmation d''échantillon et votre gel des graphismes. Les commandes renouvelées sont programmées dans votre créneau récurrent convenu une fois l''échantillon doré archivé.'
+      body: 'Verrouillez tôt votre confirmation d''échantillon et votre gel du revêtement/finition. Les commandes renouvelées sont programmées dans votre créneau récurrent convenu une fois l''échantillon doré archivé.'
     - title: 'Trois voies de programmation'
       body: 'Les échantillons entrent d''abord dans la ligne prototype, les commandes initiales s''insèrent dans la fenêtre d''assemblage ouverte la plus proche, et les commandes renouvelées tournent dans leur créneau récurrent.'
     - title: 'Délais fermes après revue'
-      body: 'Nous confirmons un délai ferme uniquement après revue de la spécification, des graphismes, de l''emballage et de la quantité — jamais comme une promesse fixe à l''avance.'
+      body: 'Nous confirmons un délai ferme uniquement après revue de la spécification, du patron de fonderie, du revêtement, de l''emballage et de la quantité — jamais comme une promesse fixe à l''avance.'
 
 cta:
   title: 'Vérifiez la disponibilité de production pour votre date de lancement'
-  subtitle: 'Envoyez votre type de planche, votre quantité et votre date d''expédition cible — nous répondons avec la prochaine fenêtre de production ouverte et une estimation de délai ferme.'
+  subtitle: 'Envoyez votre modèle d''étau, votre quantité et votre date d''expédition cible — nous répondons avec la prochaine fenêtre de production ouverte et une estimation de délai ferme.'
   actions:
     - variant: primary
       text: Vérifier la disponibilité
       href: /fr/contact#production-availability
     - text: Voir la vue d'ensemble complète de l'usine
       href: /fr/factory
-    - text: Comment les planches sont construites
+    - text: Comment les étaux sont construits
       href: /fr/factory/process

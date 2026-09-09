@@ -51,22 +51,22 @@ test('every project page renders without error (en + es)', () => {
 })
 
 test('flagship case renders metrics strip, takeaways, scenario CTA and related cases', () => {
-  const out = html('coastal-rental-fleet')
-  for (const s of ['320', '120', '−20–25%', 'Key Takeaways', 'What This Project Shows', 'Your Project Could Follow the Same Path', 'Similar Projects We Delivered', 'Facing a similar challenge?']) {
-    expect(out, `coastal-rental-fleet missing "${s}"`).toContain(s)
+  const out = html('german-hardware-brand-oem')
+  for (const s of ['3', '600', '90', 'CE', 'Key Takeaways', 'What This Project Shows', 'Your Project Could Follow the Same Path', 'Similar Projects We Delivered', 'Facing a similar challenge?']) {
+    expect(out, `german-hardware-brand-oem missing "${s}"`).toContain(s)
   }
-  expect(out).toContain('Standardizing a 200-Board Rental Fleet') // related case card
+  expect(out).toContain('How a US Retailer Launched a Private-Label Bench Vise Line') // related case card
 })
 
 test('es flagship case renders metrics and takeaways in Spanish', () => {
-  const out = html('eu-distributor-private-label', 'es')
-  for (const s of ['1.200', '90', 'Conclusiones clave', 'Lo que muestra este proyecto', 'Tu proyecto puede seguir el mismo camino', 'Proyectos similares que hemos entregado', '¿Te enfrentas a un reto similar?']) {
-    expect(out, `eu-distributor-private-label (es) missing "${s}"`).toContain(s)
+  const out = html('german-hardware-brand-oem', 'es')
+  for (const s of ['3', '600', '90', 'CE', 'Conclusiones clave', 'Lo que muestra este proyecto', 'Tu proyecto puede seguir el mismo camino', 'Proyectos similares que hemos entregado', '¿Te enfrentas a un reto similar?']) {
+    expect(out, `german-hardware-brand-oem (es) missing "${s}"`).toContain(s)
   }
 })
 
-test('legacy case without metrics renders no takeaways block', () => {
-  const out = html('fishing-sup-program')
-  expect(out).not.toContain('Key Takeaways')
+test('project with metrics renders the takeaways block and never leaks the raw key', () => {
+  const out = html('us-tool-retailer-private-label')
+  expect(out).toContain('Key Takeaways')
   expect(out).not.toContain('midCtaText') // untranslated key must never leak
 })

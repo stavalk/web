@@ -1,90 +1,84 @@
-meta:
-  title: 'Factory Equipment — Cutting, Welding & Printing'
-  description: 'Industrial-grade Afarer manufacturing equipment: PVC cutting, RF welding, digital printing, assembly, and testing for inflatable SUP boards.'
-  dateModified: '2026-08'
+﻿meta:
+  title: 'Factory Equipment — Casting, Machining & Finishing'
+  description: 'Industrial-grade Stavalk manufacturing equipment: sand casting, CNC machining, heat treatment, powder coating, assembly, and testing for bench vises.'
+  dateModified: '2026-09-01'
   keywords:
-    - 'sup manufacturing equipment'
-    - 'inflatable sup factory'
-    - 'rf welding pvc'
-    - 'paddle board production'
+    - 'bench vise manufacturing equipment'
+    - 'bench vise factory'
+    - 'sand casting gray iron'
+    - 'vise manufacturing'
 hero:
   tagline: Equipment
   title: Manufacturing Equipment & Machinery
-  subtitle: Industrial-grade equipment across cutting, welding, printing, and assembly
+  subtitle: Industrial-grade equipment across casting, machining, finishing, and assembly
   back_label: Back to Factory
   back_link: /factory
-
-answer:
-  label: 'Straight answer'
-  text: 'Our 12,500 m² factory runs CNC-controlled automatic cutting (0.1 mm accuracy, sub-5% waste), hot-air sealing at 200–600 °C plus 15 kW RF dielectric welding for main seams, drop-stitch core lamination presses up to 14 ft, and a QC lab that pressure-tests every chamber, ASTM D751 tensile checks, and ISO 6185 seam peel verification.'
-  verified: '2026-08'
-
 categories:
-  - title: Cutting & Material Preparation
+  - title: Sand Casting & Foundry
     items:
-      - name: Automatic PVC Cutting Machine
-        spec: CNC-controlled, 6.5 m × 2.5 m, 0.1 mm accuracy
-        desc: Computer-controlled automatic cutting machine for PVC, Hypalon, and drop-stitch fabrics. Nesting software optimises material utilisation to below 5% waste.
-      - name: Fabric Spreader
-        spec: 3 m max width, tension-controlled feed
-        desc: Lays fabric in single or multiple plies with controlled tension to prevent distortion before cutting.
+      - name: Automatic Sand Casting Line
+        spec: HT200/HT250 gray cast iron, monitored pouring
+        desc: Fully automated molding and pouring line for bench vise bodies, slides and bases. Melt chemistry is verified per heat by spectro analysis before casting.
+      - name: Shot Blasting Machine
+        spec: Multi-wheel, batch feed
+        desc: Cleans sand, scale and flash from castings after shakeout, preparing surfaces for machining and finishing.
 
-  - title: Tube Welding & Bonding
+  - title: Machining & CNC
     items:
-      - name: Heat Sealing Machine
-        spec: Hot-air welding, variable 200–600 °C, 0.5–5 m/min
-        desc: Hot-air heat sealing machine for bonding and welding PVC and Hypalon tube seams. Used for tacking, sealing, and fusing tube chambers and float joints.
-      - name: Dielectric RF Press
-        spec: 15 kW, platen 2000 × 600 mm
-        desc: Radio-frequency welding press for main longitudinal seams, transom-to-tube joints, and large-chamber fabrication.
-      - name: CNC-Controlled RF Welder
-        spec: 8 kW, XY table 2500 × 1200 mm
-        desc: Programmable curved-seam welding for complex geometries, logo embossing, and precision patchwork.
+      - name: 5-Axis CNC Machining Center
+        spec: ±0.01 mm, water-cooled spindle, 3 m × 2 m × 1 m envelope
+        desc: Precision machining of vise bodies, jaw beds and slide ways in a single setup. Program-driven changeover for fast model switching.
+      - name: CNC Lathe
+        spec: Turning up to 500 mm length, live tooling
+        desc: Turning and threading of 45# forged carbon steel slides, screws and spindles with tight thread tolerances.
+      - name: CNC Drill & Threading Center
+        spec: Rigid tapping, headstock indexing
+        desc: Drilling and tapping of jaw bolt holes, handle mounting points and pipe-jaw threads for chain and tripod sets.
 
-  - title: SUP Board Manufacturing
+  - title: Heat Treatment & Hardening
     items:
-      - name: Drop-Stitch Core Lamination Press
-        spec: Large-format press for board cores up to 14 ft LOA
-        desc: Precision lamination of drop-stitch cores to outer PVC laminates. Each layer is pressure-bonded for consistent quality and strength.
-      - name: CNC Router (5-axis)
-        spec: 3 m × 2 m × 1 m envelope, water-cooled spindle
-        desc: Machining of fin boxes, handle cutouts, and custom board components.
+      - name: Induction Hardening Machine
+        spec: Automated feed, programmable power
+        desc: Induction hardening and tempering of GCr15 / Cr12MoV jaws to a consistent 58–62 HRC with minimal distortion and full-depth hardness.
+      - name: Tempering Furnace
+        spec: Temperature-controlled, batch load
+        desc: Post-hardening tempering to relieve stress and stabilize jaw hardness across the batch.
 
-  - title: SUP Printing & Decoration
+  - title: Surface Finishing
     items:
-      - name: Digital Printer
-        spec: High-resolution inkjet, up to 2 m print width
-        desc: Direct-to-fabric digital printing for full-colour SUP deck graphics. Prints custom patterns, gradients, and photo-quality images with UV-resistantwater-based inks.
-      - name: Screen Printing Machine
-        spec: Manual and semi-automatic, multi-colour registration
-        desc: Screen printing for SUP board logos, brand marks, and repeating patterns. Provides durable, opaque prints with vibrant colour saturation.
+      - name: Powder Coating Line
+        spec: Electrostatic, 60–80 μm film thickness
+        desc: Multi-color electrostatic powder coating for vise bodies and bases, with oven curing and coating thickness verification.
+      - name: Zinc Plating Line
+        spec: Barrel and vat plating, passivation
+        desc: Zinc plating for screws, jaws, handles and hardware with bright finishing and 48h+ salt-spray corrosion protection.
 
-  - title: Assembly & Rigging
+  - title: Assembly & Fitting
     items:
-      - name: Board Assembly Station
-        spec: Modular adjustable, multi-station layout
-        desc: Assembly of fin boxes, handles, D-rings, valves, and deck pads onto SUP boards.
-      - name: Valve Installation Press
-        spec: Pneumatic, adjustable pressure
-        desc: Precision installation and sealing of Halkey-Roberts and Leafield valves.
-      - name: Deck Pad Laminator
-        spec: 3 m × 1.5 m, temperature-controlled
-        desc: Heat lamination of EVA foam deck pads to SUP board tops with consistent bond strength.
+      - name: Swivel Base & Pipe Jaw Assembly Station
+        spec: Modular adjustable, torque-controlled
+        desc: Assembly and alignment of swivel bases and pipe jaws (chain and tripod sets) onto machined bodies with retained fasteners.
+      - name: Pneumatic Torque Wrench
+        spec: Calibrated, adjustable torque range
+        desc: Torque-controlled tightening of screws, swivel locks and jaw retaining bolts to specification.
+      - name: Vise Adjustment & Grinding Station
+        spec: Bench-mounted, hand tools
+        desc: Final deburring, fit-up and opening/closing adjustment to guarantee smooth travel and flush jaw faces.
 
   - title: Testing & Quality Control
     items:
-      - name: Universal Tensile Tester
-        spec: 50 kN,  / ASTM D751
-        desc: Breaking force, elongation at break, and tear propagation testing for fabric batches.
-      - name: Air Retention Test Rig
-        spec: Programmable, 30-min pressure-hold
-        desc: Automated pressure-hold test for every tube chamber before assembly.
-      - name: Seam Peel Tester
-        spec: Motorised 180° peel at 100 mm/min
-        desc: Weld and glued-seam peel strength testing per ISO 6185.
-      - name: Xenon-Arc Weathering Chamber
-        spec: 2000 h exposure
-        desc: UV resistance testing for colour change and strength retention.
+      - name: Rockwell Hardness Tester
+        spec: 58–62 HRC scale, GCr15 / Cr12MoV jaws
+        desc: Hardness verification of every jaw hardening batch after induction heat treatment.
+      - name: Clamping Force Test Rig
+        spec: kN/load cell, calibrated
+        desc: Clamping force measurement of assembled vises against drawing specification.
+      - name: Open/Close Cycle Durability Tester
+        spec: Programmable, 10,000+ cycles
+        desc: Automated open/close cycle testing of the screw and slide assembly to verify long-term durability.
+      - name: Salt-Spray Chamber
+        spec: ISO 9227, 48h+ exposure
+        desc: Corrosion testing of zinc-plated and powder-coated parts for finish qualification.
 
 cta:
   title: Interested in a factory tour?
