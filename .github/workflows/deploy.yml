@@ -145,12 +145,16 @@ jobs:
         env:
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
         run: |
-          CDN_ORIGIN="https://${CF_PROD_DOMAIN:-Stavalk.com}"
+          CDN_ORIGIN="${CF_PROD_DOMAIN:+https://${CF_PROD_DOMAIN}}"
+          if [ -z "$CDN_ORIGIN" ]; then
+            echo "::notice::CF_PROD_DOMAIN not set - edge cache warm skipped"
+            exit 0
+          fi
           for p in / /es /fr; do
-            code=$(curl -sS -o /dev/null -w '%{http_code}' "$CDN_ORIGIN$p")
+            code=$(curl -sS -o /dev/null -w '%{http_code}' "$CDN_ORIGIN$p" || echo 000)
             echo "warm $p first pass -> HTTP $code"
             sleep 2
-            code2=$(curl -sS -o /dev/null -w '%{http_code}' "$CDN_ORIGIN$p")
+            code2=$(curl -sS -o /dev/null -w '%{http_code}' "$CDN_ORIGIN$p" || echo 000)
             echo "warm $p second pass -> HTTP $code2"
           done
       - name: Sync Worker secrets
