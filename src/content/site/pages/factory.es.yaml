@@ -117,23 +117,23 @@ workshops_section:
       alt: Departamento de fundición CNC preparando cuerpos de tornillos de banco de hierro gris en la fábrica de Qingdao
     - title: Mecanizado CNC
       description: Taller de mecanizado dedicado con centros CNC de 5 ejes y tornos CNC. Los cuerpos, deslizaderas, husillos y asientos de mordaza se mecanizan con tolerancia de ±0,05 mm, mientras que las deslizaderas y husillos de acero forjado 45# se tornean y roscan con tolerancias estrictas.
-      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-production-department.webp
+      image: https://assets.stavalk.com/images/stavalk/factory/afarer-production-department.webp
       alt: Centro de mecanizado CNC acabando el cuerpo y la deslizadera de un tornillo de banco en la fábrica de Qingdao
     - title: Tratamiento térmico por inducción
       description: Los aceros para mordazas GCr15 y Cr12MoV se endurecen por inducción y se revenan a 58–62 HRC para una larga vida útil. Cada lote de endurecimiento se comprueba con un durómetro Rockwell antes de liberar las mordazas al ensamblaje.
-      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-sup-manufacturing.webp
+      image: https://assets.stavalk.com/images/stavalk/factory/afarer-factory-building.webp
       alt: Línea de tratamiento térmico por inducción endureciendo mordazas GCr15 de tornillos de banco en la fábrica de Qingdao
     - title: Acabado de superficies
       description: Los cuerpos de los tornillos se recubren con pintura electrostática en polvo (60–80 μm) y el herraje se galvaniza en zinc, logrando un acabado duradero y resistente a la corrosión que supera las 48 h de niebla salina.
-      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-production-department-2.webp
+      image: https://assets.stavalk.com/images/stavalk/factory/afarer-production-department-2.webp
       alt: Línea de recubrimiento en polvo y galvanizado en zinc en la fábrica de tornillos de banco de Qingdao
     - title: Ensamblaje y ajuste
       description: Línea de ensamblaje donde se montan en cada tornillo los platos giratorios, las mordazas de tubo, los husillos, las tuercas y los mangos. El par del plato y el recorrido del husillo se verifican con herramientas calibradas, y cada unidad sigue una lista de verificación de ensamblaje de 100 puntos firmada por el responsable del equipo.
-      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-production-department.webp
+      image: https://assets.stavalk.com/images/stavalk/factory/afarer-production-department.webp
       alt: Puestos de ensamblaje donde se montan platos giratorios y mordazas de tubo en la fábrica de tornillos de banco de Qingdao
     - title: Ensayos e inspección de calidad
       description: Cada tornillo terminado se somete a ensayos obligatorios de fuerza de sujeción, verificación de la dureza de las mordazas y una comprobación completa de sistemas antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
-      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-pressure-testing.webp
+      image: https://assets.stavalk.com/images/stavalk/factory/afarer-pressure-testing.webp
       alt: Laboratorio de calidad ensayando la fuerza de sujeción y la dureza de mordazas de tornillos de banco antes del envío en la fábrica de Qingdao
 
 equipment_section:

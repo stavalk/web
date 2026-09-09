@@ -27,7 +27,7 @@
  *   node scripts/process-and-publish-images.mjs --http --src ...            # HTTP API mode (CI)
  *   node scripts/process-and-publish-images.mjs --http --src ... --missing  # only upload variants not yet in R2
  *   node scripts/process-and-publish-images.mjs --src ... --widths 1200,768,480 --formats webp,avif
- *   node scripts/process-and-publish-images.mjs --src ... --prefix images/sups/
+ *   node scripts/process-and-publish-images.mjs --src ... --prefix images/stavalk/
  *
  * Env: R2_BUCKET (default ${SITE_ID}-files-prod), plus R2 or CLOUDFLARE creds.
  */
@@ -68,7 +68,7 @@ function collectSrcs() {
   return out.length ? out : ['scripts/stavalk-images']
 }
 const SRCS = collectSrcs()
-const KEY_PREFIX = flagValue('prefix', 'images/sups/')
+const KEY_PREFIX = flagValue('prefix', 'images/stavalk/')
 const WIDTHS = flagList('widths', '768,480').map(Number)
 const FORMATS = flagList('formats', 'webp,avif')
 const QUALITY = Number(flagValue('quality', '82'))

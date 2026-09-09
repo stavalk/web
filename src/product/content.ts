@@ -139,7 +139,7 @@ export const why: Localized<WhyContent> = {
     kicker: 'The Manufacturing Brand',
     title: 'Powered by Stavalk',
     sub: 'Stavalk is a professional bench vise manufacturing company headquartered in Qingdao, China. Our 8,000 m² plant employs 200+ workers and engineers, with an annual capacity of 80,000+ vises. From raw cast iron and forged steel to a finished, boxed vice, everything runs in-house — engineering, casting, machining, surface finishing, assembly and QC — with 50+ export countries served.',
-    image: 'https://assets.Stavalk.com/images/sups/factory/stavalk-production-department.webp',
+    image: 'https://assets.Stavalk.com/images/stavalk/factory/afarer-production-department.webp',
     imageCaption: 'Stavalk manufacturing facility, Qingdao, China',
     bullets: [
       {
@@ -164,7 +164,7 @@ export const why: Localized<WhyContent> = {
     kicker: 'La marca de fabricación',
     title: 'Con el respaldo de Stavalk',
     sub: 'Stavalk es una empresa profesional de fabricación de tornillos de banco con sede en Qingdao, China. Nuestra planta de 8.000 m² emplea a más de 200 operarios e ingenieros, con una capacidad anual de más de 80.000 tornillos. Desde el hierro fundido en bruto y el acero forjado hasta un tornillo terminado y encajado, todo se hace en casa — ingeniería, fundición, mecanizado, acabado de superficies, montaje y control de calidad — y servimos a más de 50 países de exportación.',
-    image: 'https://assets.Stavalk.com/images/sups/factory/stavalk-production-department.webp',
+    image: 'https://assets.Stavalk.com/images/stavalk/factory/afarer-production-department.webp',
     imageCaption: 'Instalaciones de fabricación de Stavalk, Qingdao, China',
     bullets: [
       {
@@ -189,7 +189,7 @@ export const why: Localized<WhyContent> = {
     kicker: 'La marque de fabrication',
     title: 'Propulsé par Stavalk',
     sub: 'Stavalk est une entreprise professionnelle de fabrication d’étaux d’établi basée à Qingdao, en Chine. Notre usine de 8 000 m² emploie plus de 200 ouvriers et ingénieurs, avec une capacité annuelle de plus de 80 000 étaux. De la fonte brute et de l’acier forgé à un étau fini et cartonné, tout est réalisé en interne — ingénierie, fonderie, usinage, finition, assemblage et contrôle qualité — et nous servons plus de 50 pays à l’export.',
-    image: 'https://assets.Stavalk.com/images/sups/factory/stavalk-production-department.webp',
+    image: 'https://assets.Stavalk.com/images/stavalk/factory/afarer-production-department.webp',
     imageCaption: 'Installations de fabrication de Stavalk, Qingdao, Chine',
     bullets: [
       {

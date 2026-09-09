@@ -117,23 +117,23 @@ workshops_section:
       alt: Département de fonderie CNC préparant des corps d'étaux en fonte grise à l'usine de Qingdao
     - title: Usinage CNC
       description: Atelier d'usinage dédié avec centres CNC 5 axes et tours CNC. Les corps, coulisseaux, vis et logements de mâchoires sont usinés à ±0,05 mm, tandis que les coulisseaux et vis en acier forgé 45# sont tournés et filetés avec des tolérances serrées.
-      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-production-department.webp
+      image: https://assets.stavalk.com/images/stavalk/factory/afarer-production-department.webp
       alt: Centre d'usinage CNC terminant le corps et le coulisseau d'un étau d'établi à l'usine de Qingdao
     - title: Traitement thermique par induction
       description: Les aciers de mâchoires GCr15 et Cr12MoV sont trempés par induction et revenus à 58–62 HRC pour une longue durée de vie. Chaque lot de trempe est vérifié sur un duromètre Rockwell avant que les mâchoires ne soient libérées pour l'assemblage.
-      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-sup-manufacturing.webp
+      image: https://assets.stavalk.com/images/stavalk/factory/afarer-factory-building.webp
       alt: Ligne de traitement thermique par induction trempant des mâchoires GCr15 d'étaux d'établi à l'usine de Qingdao
     - title: Finition des surfaces
       description: Les corps d'étaux reçoivent un revêtement par poudre électrostatique (60–80 μm) et la quincaillerie est zinguée, donnant une finition durable et résistante à la corrosion qui passe plus de 48 h de brouillard salin.
-      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-production-department-2.webp
+      image: https://assets.stavalk.com/images/stavalk/factory/afarer-production-department-2.webp
       alt: Ligne de revêtement par poudre et de zingage à l'usine d'étaux de Qingdao
     - title: Assemblage et équipement
       description: Ligne d'assemblage où les bases pivotantes, mâchoires pour tuyaux, vis, écrous et poignées sont montés sur chaque étau. Le couple de pivot et la course de la vis sont vérifiés avec des outils calibrés, et chaque unité suit une liste de contrôle d'assemblage de 100 points signée par le chef d'équipe.
-      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-production-department.webp
+      image: https://assets.stavalk.com/images/stavalk/factory/afarer-production-department.webp
       alt: Postes d'assemblage où les bases pivotantes et mâchoires pour tuyaux sont montées à l'usine d'étaux de Qingdao
     - title: Essais qualité et inspection
       description: Chaque étau terminé subit des essais obligatoires de force de serrage, une vérification de dureté des mâchoires et un contrôle complet des systèmes avant expédition. Notre laboratoire qualité fonctionne indépendamment de la production et relève directement de la direction.
-      image: https://assets.stavalk.com/images/stavalk/factory/stavalk-pressure-testing.webp
+      image: https://assets.stavalk.com/images/stavalk/factory/afarer-pressure-testing.webp
       alt: Laboratoire qualité testant la force de serrage et la dureté des mâchoires d'étaux avant expédition à l'usine de Qingdao
 
 equipment_section:

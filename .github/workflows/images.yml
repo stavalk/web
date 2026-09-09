@@ -112,7 +112,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
         run: |
-          node scripts/process-and-publish-images.mjs --http --src scripts/stavalk-images --prefix images/sups/ --widths 768,480 --formats webp,avif --missing
+          node scripts/process-and-publish-images.mjs --http --src scripts/stavalk-images --prefix images/stavalk/ --widths 768,480 --formats webp,avif --missing
 
       # --- Step 2: PDF compression (Ghostscript) ------------------------------------
       - name: Install Ghostscript
@@ -138,8 +138,8 @@ jobs:
           R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
           CDN_DOMAIN: ${{ steps.config.outputs.cdn_domain }}
         run: |
-          echo "--- images/sups/products (sample) ---"
-          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/products/stavalk-og-default&per_page=20" \
+          echo "--- images/stavalk/products (sample) ---"
+          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/stavalk/products/afarer-og-default&per_page=20" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             | jq '{success, keys: [.result[].key]}'
           echo "--- site/downloads (compressed PDFs) ---"
@@ -147,7 +147,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             | jq '{success, keys: [.result[].key]}'
           echo "--- CDN reachability (hero responsive variants) ---"
-          for f in stavalk-og-default.avif stavalk-og-default-768.avif stavalk-og-default-480.avif stavalk-og-default.webp; do
-            code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/sups/products/$f?v=$(date +%s)")
-            echo "$code https://$CDN_DOMAIN/images/sups/products/$f"
+          for f in afarer-og-default.avif afarer-og-default-768.avif afarer-og-default-480.avif afarer-og-default.webp; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/stavalk/products/$f?v=$(date +%s)")
+            echo "$code https://$CDN_DOMAIN/images/stavalk/products/$f"
           done

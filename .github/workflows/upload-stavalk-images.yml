@@ -1,7 +1,7 @@
 name: Upload site images to R2
 
 # Manual trigger: uploads the committed scripts/stavalk-images/* tree into the
-# `images/sups/` prefix of the R2 bucket, and tries to bind the custom domain
+# `images/stavalk/` prefix of the R2 bucket, and tries to bind the custom domain
 # to the bucket. Bucket name and domain come from GitHub Variables, or fall
 # back to values derived from SITE_ID.
 #
@@ -143,11 +143,11 @@ jobs:
           R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
           CDN_DOMAIN: ${{ steps.config.outputs.cdn_domain }}
         run: |
-          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/products/stavalk-og-default&per_page=20" \
+          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/stavalk/products/afarer-og-default&per_page=20" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             | jq '{success, keys: [.result[].key]}'
           echo "--- CDN reachability (the 3 hero AVIFs that silently 404'd before) ---"
-          for f in stavalk-og-default.avif stavalk-og-default-768.avif stavalk-og-default-480.avif stavalk-og-default.webp; do
-            code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/sups/products/$f?v=$(date +%s)")
-            echo "$code https://$CDN_DOMAIN/images/sups/products/$f"
+          for f in afarer-og-default.avif afarer-og-default-768.avif afarer-og-default-480.avif afarer-og-default.webp; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/stavalk/products/$f?v=$(date +%s)")
+            echo "$code https://$CDN_DOMAIN/images/stavalk/products/$f"
           done
