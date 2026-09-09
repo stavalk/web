@@ -60,7 +60,7 @@ jobs:
               exit 1
             fi
           }
-          IDX="${CF_VECTORIZE_INDEX:-Stavalk-knowledge}"
+          IDX="${CF_VECTORIZE_INDEX:-stavalk-knowledge}"
           create_index "$IDX"
           create_index "$IDX-staging"
           create_index "$IDX-prod"
@@ -73,8 +73,8 @@ jobs:
           REINDEX_TOKEN: ${{ secrets.REINDEX_TOKEN }}
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
         run: |
-          if [ -z "$REINDEX_TOKEN" ]; then
-            echo "::notice::REINDEX_TOKEN not set; skipping index rebuild (daily 03:00 cron will rebuild)."
+          if [ -z "$REINDEX_TOKEN" ] || [ -z "$CF_PROD_DOMAIN" ]; then
+            echo "::notice::REINDEX_TOKEN and CF_PROD_DOMAIN must both be set; skipping index rebuild (daily 03:00 cron will rebuild)."
             exit 0
           fi
           DOMAIN="${CF_PROD_DOMAIN:-Stavalk.com}"
@@ -94,6 +94,10 @@ jobs:
         env:
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
         run: |
+          if [ -z "$CF_PROD_DOMAIN" ]; then
+            echo "::notice::CF_PROD_DOMAIN not set; assistant smoke test skipped."
+            exit 0
+          fi
           DOMAIN="${CF_PROD_DOMAIN:-Stavalk.com}"
           HTTP=$(curl -sS -o /tmp/ask.json -w '%{http_code}' -X POST \
             "https://$DOMAIN/api/ask" \
