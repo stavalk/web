@@ -2073,7 +2073,7 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Shipment Release & Traceability Handover',
         body: 'Every batch ships with its quality handover — inspection records, per-vise serial numbers and the signed release transfer, filed under 10-year ERP traceability. The photo shows the actual release & traceability handover record at the plant.',
         hue: 195,
-        image: '/出货放行与批次追溯记录交�?jpg',
+        image: '/出货放行与批次追溯记录交接.jpg',
       },
       {
         tag: 'Workshop Fleet',
@@ -2101,7 +2101,7 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Liberación de embarque y traspaso de trazabilidad',
         body: 'Cada lote sale con su traspaso de calidad: registros de inspección, número de serie por tornillo y el acta de liberación firmada, archivados con trazabilidad ERP de 10 años. La foto muestra el acta real de liberación y trazabilidad en planta.',
         hue: 195,
-        image: '/出货放行与批次追溯记录交�?jpg',
+        image: '/出货放行与批次追溯记录交接.jpg',
       },
       {
         tag: 'Flota de taller',
@@ -2129,7 +2129,7 @@ export const gallery: Localized<GalleryContent> = {
         title: 'Libération d\'expédition et transfert de traçabilité',
         body: 'Chaque lot part avec son transfert qualité — registres d\'inspection, numéros de série par étau et acte de libération signé, archivés sous 10 ans de traçabilité ERP. La photo montre le registre réel de libération et de traçabilité à l\'usine.',
         hue: 195,
-        image: '/出货放行与批次追溯记录交�?jpg',
+        image: '/出货放行与批次追溯记录交接.jpg',
       },
       {
         tag: 'Flotte d\'atelier',

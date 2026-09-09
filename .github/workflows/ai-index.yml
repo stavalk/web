@@ -1,7 +1,7 @@
 name: AI Index (Vectorize)
 on:
-  # 手动触发：首次搭�?/ 事后补建 3 个索引�?  workflow_dispatch:
-  # 每次生产部署成功后自动跑：确保索引存�?�?重建知识索引 �?冒烟验证�?  # Deploy 失败（conclusion �?success）时跳过�?  # 注意：AI/Vectorize 绑定默认注释掉（免费层兼容），未配置时整�?workflow 优雅跳过�?  workflow_run:
+  workflow_dispatch:
+  workflow_run:
     workflows: [Deploy]
     types: [completed]
     branches: [main]
@@ -12,8 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     steps:
-      # secrets 不能直接用于 if，先探测并暴露为 step output，缺失时优雅跳过
-      # （与 deploy.yml �?guard 同一模式，避免每次运行都留红叉）�?      - name: Check for Cloudflare credentials
+      # Secrets cannot be used directly in `if`; probe first and expose as step output
+      # (same guard pattern as deploy.yml, avoids a red X on every run).
+      - name: Check for Cloudflare credentials
         id: guard
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -22,7 +23,7 @@ jobs:
             echo "enabled=true" >> "$GITHUB_OUTPUT"
           else
             echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::CLOUDFLARE_API_TOKEN 未配置，跳过 AI 索引步骤�?
+            echo "::notice::CLOUDFLARE_API_TOKEN not set; skipping AI index steps."
           fi
       - if: steps.guard.outputs.enabled == 'true'
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
@@ -35,8 +36,11 @@ jobs:
           cache: pnpm
       - if: steps.guard.outputs.enabled == 'true'
         run: pnpm install --frozen-lockfile
-      # 索引是账号级资源�?-env 只影响绑定的 index_name 命名（wrangler.example.jsonc
-      # 里三个环境已声明）；用模板配置即可，placeholders 不影�?vectorize 命令�?      # create 幂等：已存在时报 "already exists"/duplicate_name，识别后跳过�?      - if: steps.guard.outputs.enabled == 'true'
+      # Indexes are account-level resources; the environment only affects the bound
+      # index_name naming (all three are declared in wrangler.example.jsonc). Use the template
+      # config; placeholders do not affect vectorize commands. Create is idempotent: respond to
+      # "already exists"/duplicate_name and skip.
+      - if: steps.guard.outputs.enabled == 'true'
         name: Ensure Vectorize indexes exist (idempotent)
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -60,14 +64,17 @@ jobs:
           create_index "$IDX"
           create_index "$IDX-staging"
           create_index "$IDX-prod"
-      # 部署后立刻重建索引（/api/reindex �?worker 内的 REINDEX_TOKEN 门禁�?      # deploy.yml �?secret sync 步骤已把�?token 同步�?Worker）�?      # 未配�?token 时优雅跳�?—�?每日 03:00 cron 仍会兜底重建�?      - if: steps.guard.outputs.enabled == 'true'
+      # Rebuild the index right after deploy (/api/reindex is gated by the REINDEX_TOKEN on
+      # the Worker). deploy.yml's secret sync step already pushed that token to the Worker.
+      # Missing token => graceful skip; the daily 03:00 cron still rebuilds as a fallback.
+      - if: steps.guard.outputs.enabled == 'true'
         name: Rebuild AI index on production
         env:
           REINDEX_TOKEN: ${{ secrets.REINDEX_TOKEN }}
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
         run: |
           if [ -z "$REINDEX_TOKEN" ]; then
-            echo "::notice::REINDEX_TOKEN 未配置，跳过索引重建（每�?03:00 cron 会自动重建）�?
+            echo "::notice::REINDEX_TOKEN not set; skipping index rebuild (daily 03:00 cron will rebuild)."
             exit 0
           fi
           DOMAIN="${CF_PROD_DOMAIN:-Stavalk.com}"
@@ -80,7 +87,9 @@ jobs:
           fi
           echo "reindex stats: $(cat /tmp/reindex.json)"
           jq -e '.ok == true and (.stats | type == "array" and length > 0)' /tmp/reindex.json
-      # 端到端冒烟：公开端点无论�?AI 还是 FAQ 降级都应返回 ok=true�?      - if: steps.guard.outputs.enabled == 'true'
+      # End-to-end smoke test: the public endpoint should return ok=true whether it serves
+      # AI or falls back to FAQ mode.
+      - if: steps.guard.outputs.enabled == 'true'
         name: Smoke-test the assistant endpoint
         env:
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}

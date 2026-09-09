@@ -1,10 +1,16 @@
 ﻿name: Process & publish images / PDFs
 
-# 手动触发：用开�?sharp 给源图批量生成响应式变体（webp/avif × 原图/-768/-480），
-# 并用 Ghostscript (gs) 压缩 public/downloads 下的 PDF，全部上传到 R2�?#
-# 背景：Cloudflare R2 免费套餐「原样」提供对象，不具备图片缩�?处理能力
-# （缩放属付费 Images 产品），所以响应式变体在本�?CI)�?sharp 批量生成后再落地�?# �?CDN 直接按尺寸出图。PDF 同理——R2 �?PDF 处理能力，用 gs 离线压缩后上传�?#
-# 依赖仓库 secrets：CLOUDFLARE_API_TOKEN（Account �?R2 Storage �?Edit）�?# CLOUDFLARE_ACCOUNT_ID。未配置时优雅跳过�?
+# Manual trigger: batch-generate responsive variants (webp/avif x original/-768/-480) from
+# source images with sharp, compress public/downloads PDFs with Ghostscript (gs), and upload
+# everything to R2.
+#
+# Background: the Cloudflare R2 free tier serves objects "as-is" and does not resize images
+# (resizing is a paid Images product), so responsive variants are generated offline on this
+# CI with sharp and then uploaded; the CDN then serves by size. PDFs are the same - R2 has no
+# PDF processing, so gs compresses them offline before upload.
+#
+# Requires repo secrets: CLOUDFLARE_API_TOKEN (Account-level R2 Storage Edit) and
+# CLOUDFLARE_ACCOUNT_ID. Skip gracefully when they are not configured.
 on:
   workflow_dispatch:
 
@@ -37,7 +43,7 @@ jobs:
             echo "enabled=true" >> "$GITHUB_OUTPUT"
           else
             echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID 未配置，跳过�?
+            echo "::notice::CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID not set; skipping."
           fi
 
       - if: steps.guard.outputs.enabled == 'true'
@@ -51,7 +57,9 @@ jobs:
           node-version: 22
           cache: pnpm
 
-      # 安装依赖（含 sharp）。sharp �?CI 上由 pnpm rebuild 本地重建原生模块�?      - if: steps.guard.outputs.enabled == 'true'
+      # Install dependencies (including sharp). sharp rebuilds its native module locally on
+      # CI via pnpm rebuild.
+      - if: steps.guard.outputs.enabled == 'true'
         name: Install dependencies
         run: pnpm install --frozen-lockfile
 
@@ -77,11 +85,11 @@ jobs:
               echo "bucket_exists=true" >> "$GITHUB_OUTPUT"
             else
               echo "bucket_exists=false" >> "$GITHUB_OUTPUT"
-              echo "::notice::�?$R2_BUCKET 不存在，将尝试创建�?
+              echo "::notice::Bucket $R2_BUCKET does not exist; will attempt to create it."
             fi
           else
             echo "r2_ok=false" >> "$GITHUB_OUTPUT"
-            echo "::error::R2 API probe failed (HTTP $HTTP). CLOUDFLARE_API_TOKEN 需�?Account �?R2 Storage �?Edit 权限�?(jq -c '.errors' /tmp/r2buckets.json 2>/dev/null)"
+            echo "::error::R2 API probe failed (HTTP $HTTP). CLOUDFLARE_API_TOKEN needs Account-level R2 Storage Edit permission. $(jq -c '.errors' /tmp/r2buckets.json 2>/dev/null)"
           fi
 
       - name: Create R2 bucket if missing
@@ -96,7 +104,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
             -d "{\"name\":\"$R2_BUCKET\"}" | jq .
 
-      # ── Step 1: responsive images (sharp) ─────────────────────────────
+      # --- Step 1: responsive images (sharp) ----------------------------------------
       - name: Generate & upload responsive images
         if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true'
         env:
@@ -106,7 +114,7 @@ jobs:
         run: |
           node scripts/process-and-publish-images.mjs --http --src scripts/stavalk-images --prefix images/sups/ --widths 768,480 --formats webp,avif --missing
 
-      # ── Step 2: PDF compression (Ghostscript) ─────────────────────────
+      # --- Step 2: PDF compression (Ghostscript) ------------------------------------
       - name: Install Ghostscript
         if: steps.guard.outputs.enabled == 'true' && steps.preflight.outputs.r2_ok == 'true'
         run: |
