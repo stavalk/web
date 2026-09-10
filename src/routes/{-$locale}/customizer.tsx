@@ -69,7 +69,7 @@ function CustomizerPage() {
                 aria-hidden="true"
               />
               <img
-                src={`${BRAND_ASSETS_CDN}/site/products/2026/heavy-duty/heavy-duty-01.avif`}
+                src={`${BRAND_ASSETS_CDN}/site/products/2026/heavy-duty/heavy-duty-01.jpg`}
                 alt={c.mockupBrand}
                 className="relative mx-auto w-full max-w-xl rounded-lg object-cover"
               />
