@@ -83,6 +83,51 @@ jobs:
           create_index "$IDX"
           create_index "$IDX-staging"
           create_index "$IDX-prod"
+      # The CDN host (assets.{SITE_DOMAIN}) is an R2 custom domain pointing at the production
+      # bucket. Connect it idempotently on every deploy so images/PDFs referenced from the
+      # content are actually resolvable (this has no effect once the domain is attached).
+      # Reads the zone id at runtime (same pattern as the cache-purge step below); skipped
+      # with a notice when the token lacks permission.
+      - name: Ensure R2 custom domain (assets.stavalk.com)
+        if: steps.guard.outputs.enabled == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
+          CF_PROD_R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET }}
+        run: |
+          set -e
+          CDN_ZONE="${CF_PROD_DOMAIN:-Stavalk.com}"
+          BUCKET="${CF_PROD_R2_BUCKET:-stavalk-files-prod}"
+          SUB="assets.$CDN_ZONE"
+          API="https://api.cloudflare.com/client/v4"
+          AUTH="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          ZHTTP=$(curl -sS -o /tmp/zones2.json -w '%{http_code}' \
+            "$API/zones?name=$CDN_ZONE&per_page=1" -H "$AUTH")
+          if [ "$ZHTTP" != "200" ]; then
+            echo "::notice::Zone lookup failed (HTTP $ZHTTP) - token needs Zone Read; skip R2 custom domain"
+            exit 0
+          fi
+          ZID=$(jq -r '.result[0].id // ""' /tmp/zones2.json)
+          if [ -z "$ZID" ]; then
+            echo "::notice::Zone $CDN_ZONE not in this account - skip R2 custom domain"
+            exit 0
+          fi
+          set +e
+          LIST=$(npx wrangler r2 bucket domain list "$BUCKET" 2>/tmp/r2d.log)
+          RC=$?
+          set -e
+          if [ "$RC" -ne 0 ]; then
+            echo "::notice::Cannot list R2 custom domains - token needs R2 Edit; skip (tried $BUCKET)"
+            cat /tmp/r2d.log
+            exit 0
+          fi
+          if echo "$LIST" | grep -qF "$SUB"; then
+            echo "$SUB already connected to $BUCKET"
+          else
+            echo "Connecting $SUB -> $BUCKET (zone $ZID)..."
+            npx wrangler r2 bucket domain add "$BUCKET" --domain "$SUB" --zone-id "$ZID" -f
+          fi
       # Site media (videos/PDFs/quality photos) stays in the repo as source files, but the
       # references already point at CDN links (https://assets.Stavalk.com/site/*). Upload
       # BEFORE deploy so the CDN links are reachable the moment new code goes live; --missing
