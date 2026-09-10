@@ -27,7 +27,8 @@ test('llms-full.txt contains every live afarer page (no truncation regression)',
   for (const path of expected) {
     expect(urls, `llms-full.txt missing live page ${path}`).toContain(path)
   }
-  expect(expected.length).toBeGreaterThan(30)
+  expect([...urls].sort()).toEqual([...expected].sort())
+  expect(expected.length).toBeGreaterThan(25)
 })
 
 test('llms-full.txt never advertises edge-301 or legacy-shadowed paths', () => {

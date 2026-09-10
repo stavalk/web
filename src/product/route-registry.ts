@@ -26,8 +26,4 @@ export const EXTRA_PATHS: Record<string, string> = {
   '/oem-manufacturing': 'oem-manufacturing',
   '/odm-development': 'odm-development',
   '/product-development': 'product-development',
-  '/oem-odm-private-label-comparison': 'oem-odm-private-label-comparison',
-  '/oem-onboarding-guide': 'oem-onboarding-guide',
-  '/factory-audit-checklist': 'factory-audit-checklist',
-  '/about/identity': 'about-identity',
 }
