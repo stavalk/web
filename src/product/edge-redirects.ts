@@ -113,6 +113,9 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/es/news/sup-oem-shipping-logistics': '/es/news/factory-capacity-80000-vises',
   '/news/importing-sup-from-china-guide': '/news/private-label-bench-vise-guide',
   '/es/news/importing-sup-from-china-guide': '/es/news/private-label-bench-vise-guide',
+  '/products/vise-specialty-multi': '/products/vise-specialty-round',
+  '/es/products/vise-specialty-multi': '/es/products/vise-specialty-round',
+  '/fr/products/vise-specialty-multi': '/fr/products/vise-specialty-round',
 }
 
 export { GONE_PATHS }
