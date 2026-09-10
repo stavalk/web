@@ -30,8 +30,8 @@ const handler = async () => {
     })
   const staticPages = [
     ...GUIDES.map((g: { slug: string }) => ({ loc: `/guides/${g.slug}`, lastmod: '2026-06-01', es: true })),
-    ...projects.en.map((p: { slug: string }) => ({ loc: `/projects/${p.slug}`, lastmod: '2026-08-15' })),
-    ...knowledge.en.map((a: { slug: string }) => ({ loc: `/knowledge/${a.slug}`, lastmod: '2026-08-07' })),
+    ...projects.en.map((p: { slug: string }) => ({ loc: `/projects/${p.slug}`, lastmod: '2026-08-15', es: true, fr: true })),
+    ...knowledge.en.map((a: { slug: string }) => ({ loc: `/knowledge/${a.slug}`, lastmod: '2026-09-10', es: true, fr: true })),
     ...seriesPages.en.map((s: { slug: string }) => ({ loc: `/products/${s.slug}`, lastmod: '2026-08-15', es: true, fr: true })),
     { loc: '/evidence/case-studies', lastmod: '2026-06-01', es: true, fr: true },
   ]
