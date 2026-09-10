@@ -118,6 +118,158 @@ export const hero: Localized<HeroContent> = {
   },
 }
 
+export interface HeroProduct {
+  slug: string
+  tag: string
+  name: string
+  tagline: string
+  spec: string
+  application: string
+  material: string
+  image: string
+}
+
+export interface HeroProductsContent {
+  kicker: string
+  title: string
+  sub: string
+  specLabel: string
+  applicationLabel: string
+  materialLabel: string
+  cta: string
+  items: HeroProduct[]
+}
+
+const HERO_IMG_MEDIUM = 'https://assets.Stavalk.com/site/products/2026/medium-duty/medium-duty-01.jpg'
+const HERO_IMG_HEAVY6 = 'https://assets.Stavalk.com/site/products/2026/heavy-duty/heavy-duty-01.jpg'
+const HERO_IMG_HEAVY8 = 'https://assets.Stavalk.com/site/products/2026/heavy-duty/heavy-duty-02.jpg'
+
+export const heroProducts: Localized<HeroProductsContent> = {
+  en: {
+    kicker: 'Hero Products',
+    title: 'Three proven platforms. One partner.',
+    sub: 'Every program starts from a validated bench vise platform — pick a starting point and we adapt jaw width, finish and specs to your brand.',
+    specLabel: 'Key specification',
+    applicationLabel: 'Application',
+    materialLabel: 'Material',
+    cta: 'View product',
+    items: [
+      {
+        slug: 'vise-medium-6',
+        tag: '6″ Medium-Duty',
+        name: '6″ Medium-Duty Bench Vise',
+        tagline: 'The universal all-rounder — our best-selling profile.',
+        spec: '6" jaw width · 150 mm opening · swivel and lock',
+        application: 'Home, trade and light industrial',
+        material: 'Ductile iron',
+        image: HERO_IMG_MEDIUM,
+      },
+      {
+        slug: 'vise-heavy-6',
+        tag: '6″ Heavy-Duty',
+        name: '6″ Heavy-Duty Bench Vise',
+        tagline: 'Forged for demanding work.',
+        spec: '6" jaw width · 2,000–5,000 lbf clamping force',
+        application: 'Metalworking, fabrication, industrial maintenance',
+        material: '45# forged steel',
+        image: HERO_IMG_HEAVY6,
+      },
+      {
+        slug: 'vise-heavy-8',
+        tag: '8″ Heavy-Duty',
+        name: '8″ Heavy-Duty Bench Vise',
+        tagline: 'Industrial-grade grip for the heaviest jobs.',
+        spec: '8" jaw width · reinforced body · movable anvil plate',
+        application: 'Pipe fitting, welding, heavy fabrication',
+        material: 'Reinforced cast iron',
+        image: HERO_IMG_HEAVY8,
+      },
+    ],
+  },
+  es: {
+    kicker: 'Productos insignia',
+    title: 'Tres plataformas probadas. Un solo socio.',
+    sub: 'Cada programa parte de una plataforma de tornillo de banco validada — elige un punto de partida y adaptamos ancho de mordaza, acabado y especificaciones a tu marca.',
+    specLabel: 'Especificación clave',
+    applicationLabel: 'Aplicación',
+    materialLabel: 'Material',
+    cta: 'Ver producto',
+    items: [
+      {
+        slug: 'vise-medium-6',
+        tag: '6″ de uso medio',
+        name: 'Tornillo de banco de 6″ de uso medio',
+        tagline: 'El comodín universal — nuestro perfil más vendido.',
+        spec: 'Mordaza de 6" · apertura 150 mm · giro y bloqueo',
+        application: 'Hogar, oficios y uso industrial ligero',
+        material: 'Hierro dúctil',
+        image: HERO_IMG_MEDIUM,
+      },
+      {
+        slug: 'vise-heavy-6',
+        tag: '6″ de uso intensivo',
+        name: 'Tornillo de banco de 6″ de uso intensivo',
+        tagline: 'Forjado para trabajos exigentes.',
+        spec: 'Mordaza de 6" · fuerza de apriete 2.000–5.000 lbf',
+        application: 'Metalistería, fabricación y mantenimiento industrial',
+        material: 'Acero forjado 45#',
+        image: HERO_IMG_HEAVY6,
+      },
+      {
+        slug: 'vise-heavy-8',
+        tag: '8″ de uso intensivo',
+        name: 'Tornillo de banco de 8″ de uso intensivo',
+        tagline: 'Agarre de grado industrial para los trabajos más pesados.',
+        spec: 'Mordaza de 8" · cuerpo reforzado · placa de yunque móvil',
+        application: 'Fontanería, soldadura y fabricación pesada',
+        material: 'Hierro fundido reforzado',
+        image: HERO_IMG_HEAVY8,
+      },
+    ],
+  },
+  fr: {
+    kicker: 'Produits phares',
+    title: 'Trois plateformes éprouvées. Un seul partenaire.',
+    sub: 'Chaque programme part d\'une plateforme d\'étau validée — choisissez un point de départ et nous adaptons la largeur de mâchoires, la finition et les spécifications à votre marque.',
+    specLabel: 'Spécification clé',
+    applicationLabel: 'Application',
+    materialLabel: 'Matériau',
+    cta: 'Voir le produit',
+    items: [
+      {
+        slug: 'vise-medium-6',
+        tag: '6″ usage moyen',
+        name: 'Étau d\'établi 6″ usage moyen',
+        tagline: 'Le polyvalent universel — notre profil le plus vendu.',
+        spec: 'Mâchoires 6" · ouverture 150 mm · pivotement et verrou',
+        application: 'Domestique, professionnel et industriel léger',
+        material: 'Fonte ductile',
+        image: HERO_IMG_MEDIUM,
+      },
+      {
+        slug: 'vise-heavy-6',
+        tag: '6″ usage intensif',
+        name: 'Étau d\'établi 6″ usage intensif',
+        tagline: 'Forgé pour les travaux exigeants.',
+        spec: 'Mâchoires 6" · force de serrage 2 000–5 000 lbf',
+        application: 'Métallerie, fabrication et maintenance industrielle',
+        material: 'Acier forgé 45#',
+        image: HERO_IMG_HEAVY6,
+      },
+      {
+        slug: 'vise-heavy-8',
+        tag: '8″ usage intensif',
+        name: 'Étau d\'établi 8″ usage intensif',
+        tagline: 'Prise de niveau industriel pour les travaux les plus lourds.',
+        spec: 'Mâchoires 8" · corps renforcé · enclume mobile',
+        application: 'Tuyauterie, soudage et fabrication lourde',
+        material: 'Fonte renforcée',
+        image: HERO_IMG_HEAVY8,
+      },
+    ],
+  },
+}
+
 /* ─────────────────────────── home: why us (Stavalk advantage) ─────────────────────────── */
 
 export interface WhyBullet {
@@ -1273,7 +1425,7 @@ export const products: Localized<ProductsContent> = {
         slug: 'vise-medium-6',
         series: 'medium-duty',
         sku: 'VISE-MD6',
-        name: 'Household Vises',
+        name: '6" Medium-Duty Bench Vise',
         tagline: 'The universal all-rounder',
         desc: 'A ductile-iron bench vise for home, trade and light industrial use — front and back swivel and lock, replaceable hardened jaws and an anvil for flattening. Our best-selling profile.',
         uses: ['Home', 'Trade', 'Light Industrial'],
@@ -1518,7 +1670,7 @@ export const products: Localized<ProductsContent> = {
         slug: 'vise-medium-6',
         series: 'medium-duty',
         sku: 'VISE-MD6',
-        name: 'Tornillos domésticos',
+        name: 'Tornillo de banco de 6" de uso medio',
         tagline: 'El comodín universal',
         desc: 'Un tornillo de banco de hierro dúctil para uso doméstico, comercial y ligero industrial — giro y bloqueo frontal y trasero, mordazas templadas reemplazables y yunque para aplanar. Nuestro perfil más vendido.',
         uses: ['Hogar', 'Comercio', 'Industrial ligero'],
@@ -1763,7 +1915,7 @@ export const products: Localized<ProductsContent> = {
         slug: 'vise-medium-6',
         series: 'medium-duty',
         sku: 'VISE-MD6',
-        name: 'Étaux domestiques',
+        name: 'Étau d\'établi 6" usage moyen',
         tagline: 'Le polyvalent universel',
         desc: 'Un étau d’établi en fonte ductile pour l’usage domestique, professionnel et industriel léger — pivotement et verrou avant et arrière, mâchoires trempées remplaçables et enclume pour aplatir. Notre profil le plus vendu.',
         uses: ['Maison', 'Métier', 'Industriel léger'],
