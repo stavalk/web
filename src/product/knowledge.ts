@@ -34,22 +34,22 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Jaw Width and Opening',
           body: [
-            'Jaw width determines the size of workpieces you can grip and how evenly force distributes across them. A 2″-5″ light-duty vise suits hobby and small work; 6″-8″ medium-duty covers most workshop and auto repair tasks; 8″-10″ heavy-duty handles industrial fabrication.',
+            'Jaw width determines the size of workpieces you can grip and how evenly force distributes across them. A 2″-5″ light-duty vise suits hobby and small work; [6″-8″ medium-duty](/products/vise-medium-6) covers most workshop and auto repair tasks; 8″-10″ heavy-duty handles industrial fabrication.',
             'Opening (maximum gap between closed and open jaws) must exceed your largest workpiece. Measure your biggest material before choosing.',
           ],
         },
         {
           title: 'Clamping Force',
           body: [
-            'Clamping force — 1200-1500 lbs for light-duty up to 6000-8000 lbs for heavy-duty — determines what the vise can hold under work pressure. Beyond a point, more force can damage delicate workpieces, so match force to application.',
-            'Reputable manufacturers publish clamping force per model, measured under controlled torque. Ask for it when comparing suppliers.',
+            '[Clamping force](/engineering/clamping-force) — 1200-1500 lbs for light-duty up to 6000-8000 lbs for heavy-duty — determines what the vise can hold under work pressure. Beyond a point, more force can damage delicate workpieces, so match force to application.',
+            'Reputable manufacturers publish [clamping force per model](/engineering/clamping-force), measured under controlled torque. Ask for it when comparing [OEM suppliers](/oem-manufacturing).',
           ],
         },
         {
           title: 'Body Material: Cast Iron vs. Forged Steel',
           body: [
-            'Gray cast iron (HT200/HT250) resists compression and is economical — the standard choice for light to medium vises. Forged or cast carbon steel (45#) adds tensile strength and impact resistance, essential for heavy-duty and shock-load applications.',
-            'Jaw faces are hardened separately (58-62 HRC) so the gripping surface outlasts the body. Replaceable jaw inserts extend service life.',
+            '[Gray cast iron (HT200/HT250)](/engineering/materials) resists compression and is economical — the standard choice for light to medium vises. Forged or cast carbon steel (45#) adds tensile strength and impact resistance, essential for heavy-duty and shock-load applications.',
+            'Jaw faces are hardened separately (58-62 HRC) so the gripping surface outlasts the body. [Replaceable jaw inserts](/engineering/jaw-design) extend service life. For the full mechanical picture, see the [cast iron vs. forged steel comparison](/knowledge/cast-iron-vs-steel-vises).',
           ],
         },
         {
@@ -122,14 +122,14 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Why Cast Iron Is the Workhorse',
           body: [
-            'Gray cast iron (HT200/HT250) is cast at relatively low cost, damps vibration better than steel, and resists compression well. It is the standard for light-, medium- and most heavy-duty vises.',
+            '[Gray cast iron (HT200/HT250)](/engineering/materials) is cast at relatively low cost, damps vibration better than steel, and resists compression well. It is the standard for light-, medium- and most heavy-duty vises.',
             'Its weakness is tension and impact: a hard hammer strike near the corner of a cast iron vise can crack it. That is why heavy hammering applications favor steel.',
           ],
         },
         {
           title: 'Why Forged Steel Wins on Impact',
           body: [
-            'Forged or cast carbon steel bodies (45# or better) have substantially higher tensile strength and toughness. They resist cracking under shock loads and extreme clamping forces, making them the choice for mining, shipyard and heavy fabrication work.',
+            'Forged or cast carbon steel bodies (45# or better) have substantially higher tensile strength and toughness. They resist cracking under [shock loads and extreme clamping forces](/engineering/clamping-force), making them the choice for mining, shipyard and heavy fabrication work.',
             'The trade-off is cost and weight. Steel vises are more expensive to produce and heavier to mount, so buyers pay for what they actually need.',
           ],
         },
@@ -144,7 +144,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Choosing Between Them',
           body: [
             'For general workshop, woodworking, auto repair and light industrial use, cast iron is the right cost-performance pick. For extreme force, hammering or harsh industrial environments, forged steel is the investment that pays back in fewer broken vises.',
-            'When sourcing OEM, ask the factory to specify exact material grade — HT200 vs. HT250 vs. 45# steel — rather than just "cast iron" or "steel".',
+            'When sourcing [OEM](/oem-manufacturing), ask the factory to specify exact material grade — HT200 vs. HT250 vs. 45# steel — rather than just "cast iron" or "steel". For the ductile-iron alternative, see [cast iron vs. ductile iron](/knowledge/cast-iron-vs-ductile-vises), and how a forged body is built on the [6″ Heavy Duty Bench Vise](/products/vise-heavy-6).',
           ],
         },
       ],
@@ -158,7 +158,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Knowledge',
       h1: 'Bench Vise Maintenance: What Keeps a Vise Working for Decades',
       intro:
-        'A quality bench vise is meant to last a generation. Most premature failures come from neglect, not use. This guide covers the maintenance that keeps vises from seizing up and wearing out.',
+        'A quality bench vise is meant to last a generation. Most premature failures come from neglect, not use. This guide covers the maintenance that keeps vises from seizing up and wearing out — the partner to [choosing a vise that fits the job](/knowledge/how-to-choose-a-bench-vise).',
       sections: [
         {
           title: 'Lubricate the Screw Thread',
@@ -171,7 +171,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Keep Jaws Aligned',
           body: [
             'Jaw faces wear with use; serrations flatten and faces drift out of parallel. Check alignment periodically by clamping a flat piece and inspecting whether it presses evenly.',
-            'On vises with replaceable jaw inserts, swap worn faces rather than the whole vise. This is the cheapest way to restore grip.',
+            'On vises with [replaceable jaw inserts](/engineering/jaw-design), swap worn faces rather than the whole vise — [replacement jaws](/oem-manufacturing) are a standard OEM spare. This is the cheapest way to restore grip.',
           ],
         },
         {
@@ -184,7 +184,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Anvil and Storage',
           body: [
-            'The anvil surface is for light hammering, not heavy forging — treating it as a forging anvil cracks cast iron bodies. Keep it clean and lightly oiled to prevent rust.',
+            'The [anvil](/products/vise-specialty-anvil) surface is for light hammering, not heavy forging — treating it as a forging anvil cracks cast iron bodies. Keep it clean and lightly oiled to prevent rust.',
             'Store vises under cover in humid environments. A light coat of oil on unpainted surfaces prevents corrosion and keeps the finish fresh.',
           ],
         },
@@ -199,12 +199,12 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Knowledge',
       h1: 'OEM Bench Vise Manufacturing: How Custom Vises Get Made',
       intro:
-        'Whether you need a branded private label run or a fully custom vise, understanding the manufacturing pipeline — from casting to quality testing — sets the right expectations for cost, lead time and MOQ.',
+        'Whether you need a branded private label run or a fully custom vise, understanding the manufacturing pipeline — from casting to quality testing — sets the right expectations for cost, lead time and MOQ. Start from a [reference model](/products/vise-medium-6) to anchor your spec, or go straight to the [OEM manufacturing](/oem-manufacturing) overview.',
       sections: [
         {
           title: 'The Manufacturing Pipeline',
           body: [
-            'Vise production starts with casting: sand-cast gray iron or forged steel blanks, then precision CNC machining of jaw faces, slides and screw seats. Heat treatment hardens jaw faces to 58-62 HRC, followed by surface grinding and final assembly.',
+            'Vise production starts with casting: [sand-cast gray iron](/engineering/materials) or forged steel blanks, then precision CNC machining of jaw faces, slides and screw seats. [Heat treatment](/engineering/heat-treatment) hardens jaw faces to 58-62 HRC, followed by surface grinding and final assembly.',
             'Powder coating or spray paint finishes the body, and branding (laser engraving, casting marks or labels) is applied per your artwork.',
           ],
         },
@@ -218,7 +218,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Customization Options',
           body: [
-            'Jaw width and opening, jaw surface pattern (serrated, smooth, V-groove), swivel base angle, anvil shape, handle style, body color and branding are all specifiable.',
+            'Jaw width and opening, [jaw surface pattern](/engineering/jaw-design) (serrated, smooth, V-groove), swivel base angle, anvil shape, handle style, body color and branding are all specifiable.',
             'Custom-tooling projects add shaped bodies, branded castings and unique jaw geometries, starting from higher quantities to amortize the tooling cost.',
           ],
         },
@@ -226,7 +226,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Quality Standards',
           body: [
             'Reputable factories verify jaw hardness (58-62 HRC), clamping force per model, swivel torque, and run cyclic durability testing (10,000+ open/close cycles) plus salt-spray corrosion testing.',
-            'Certifications to look for: CE marking, ISO 9001 quality management, ISO 14001 environmental management and RoHS material compliance.',
+            'Certifications to look for: CE marking, ISO 9001 quality management, ISO 14001 environmental management and RoHS material compliance. For the full material trade-off behind the specs, see [cast iron vs. forged steel](/knowledge/cast-iron-vs-steel-vises).',
           ],
         },
       ],
@@ -247,22 +247,22 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Ancho y abertura de boca',
           body: [
-            'El ancho de boca determina el tamaño de las piezas que puedes sujetar y cómo se distribuye la fuerza. Las de 2″-5″ ligeras sirven para aficionados y trabajo pequeño; las de 6″-8″ medias cubren taller y reparación de coches; las de 8″-10″ pesadas aguantan fabricación industrial.',
+            'El ancho de boca determina el tamaño de las piezas que puedes sujetar y cómo se distribuye la fuerza. Las de 2″-5″ ligeras sirven para aficionados y trabajo pequeño; las de [6″-8″ medias](/products/vise-medium-6) cubren taller y reparación de coches; las de 8″-10″ pesadas aguantan fabricación industrial.',
             'La abertura (máximo entre mordazas) debe superar tu pieza más grande. Mide tu material más grande antes de elegir.',
           ],
         },
         {
           title: 'Fuerza de sujeción',
           body: [
-            'La fuerza de sujeción — 1200-1500 lbs (ligera) hasta 6000-8000 lbs (pesada) — determina qué puede retener la mordaza bajo presión de trabajo. Más fuerza puede dañar piezas delicadas, así que ajusta la fuerza a la aplicación.',
-            'Los fabricantes serios publican la fuerza por modelo, medida bajo par controlado. Pídelo al comparar proveedores.',
+            '[La fuerza de sujeción](/engineering/clamping-force) — 1200-1500 lbs (ligera) hasta 6000-8000 lbs (pesada) — determina qué puede retener la mordaza bajo presión de trabajo. Más fuerza puede dañar piezas delicadas, así que ajusta la fuerza a la aplicación.',
+            'Los fabricantes serios publican [la fuerza por modelo](/engineering/clamping-force), medida bajo par controlado. Pídelo al comparar [proveedores OEM](/oem-manufacturing).',
           ],
         },
         {
           title: 'Material del cuerpo: fundición vs. acero',
           body: [
-            'La fundición gris (HT200/HT250) resiste compresión y es económica: la elección estándar para mordazas ligeras y medias. El acero al carbono (45#) añade resistencia a la tracción y al impacto, esencial en aplicaciones pesadas.',
-            'Las caras de mordaza se endurecen aparte (58-62 HRC) para que la superficie de agarre dure más que el cuerpo. Los insertos reemplazables alargan la vida.',
+            '[La fundición gris (HT200/HT250)](/engineering/materials) resiste compresión y es económica: la elección estándar para mordazas ligeras y medias. El acero al carbono (45#) añade resistencia a la tracción y al impacto, esencial en aplicaciones pesadas.',
+            'Las caras de mordaza se endurecen aparte (58-62 HRC) para que la superficie de agarre dure más que el cuerpo. Los [insertos reemplazables](/engineering/jaw-design) alargan la vida. Para el cuadro mecánico completo, consulta la [comparación fundición vs. acero](/knowledge/cast-iron-vs-steel-vises).',
           ],
         },
         {
@@ -335,14 +335,14 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Por qué la fundición es el caballo de batalla',
           body: [
-            'La fundición gris (HT200/HT250) se cuela a bajo costo, amortigua la vibración mejor que el acero y resiste bien la compresión. Es el estándar para mordazas ligeras, medias y la mayoría de las pesadas.',
+            '[La fundición gris (HT200/HT250)](/engineering/materials) se cuela a bajo costo, amortigua la vibración mejor que el acero y resiste bien la compresión. Es el estándar para mordazas ligeras, medias y la mayoría de las pesadas.',
             'Su punto débil es la tensión y el impacto: un golpe fuerte en una esquina puede agrietarla. Por eso las aplicaciones de martilleo prefieren acero.',
           ],
         },
         {
           title: 'Por qué el acero forjado gana en impacto',
           body: [
-            'Los cuerpos de acero al carbono forjado tienen resistencia a la tracción y tenacidad muy superiores. Resisten grietas bajo cargas de choque, ideales para minería, astilleros y fabricación pesada.',
+            'Los cuerpos de acero al carbono forjado tienen resistencia a la tracción y tenacidad muy superiores. Resisten grietas bajo [cargas de choque y fuerzas de sujeción extremas](/engineering/clamping-force), ideales para minería, astilleros y fabricación pesada.',
             'La contra es el coste y el peso. El acero es más caro de producir y más pesado de montar.',
           ],
         },
@@ -357,7 +357,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Cómo elegir',
           body: [
             'Para taller general, carpintería, reparación de coches y uso ligero industrial, la fundición es la elección calidad-precio. Para fuerza extrema o entornos duros, el acero forjado es la inversión que se paga con menos mordazas rotas.',
-            'Al abastecerte, pide la calidad exacta del material (HT200, HT250 o 45#), no solo "fundición" o "acero".',
+            'Al [abastecerte OEM](/oem-manufacturing), pide la calidad exacta del material (HT200, HT250 o 45#), no solo "fundición" o "acero". Para la alternativa de hierro dúctil, consulta [fundición vs. hierro dúctil](/knowledge/cast-iron-vs-ductile-vises), y cómo se construye el cuerpo forjado en la [Mordaza de Banco Pesada de 6″](/products/vise-heavy-6).',
           ],
         },
       ],
@@ -371,7 +371,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Centro de conocimiento',
       h1: 'Mantenimiento de mordazas: qué mantiene una mordaza en uso durante décadas',
       intro:
-        'Una mordaza de calidad está pensada para durar toda una generación. La mayoría de fallos prematuros vienen de la negligencia, no del uso. Esta guía cubre el mantenimiento que evita que las mordazas se atasquen.',
+        'Una mordaza de calidad está pensada para durar toda una generación. La mayoría de fallos prematuros vienen de la negligencia, no del uso. Esta guía cubre el mantenimiento que evita que las mordazas se atasquen — la compañera de [elegir una mordaza que encaja con el trabajo](/knowledge/how-to-choose-a-bench-vise).',
       sections: [
         {
           title: 'Lubrica el husillo',
@@ -384,7 +384,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Mantén las mordazas alineadas',
           body: [
             'Las caras se desgastan con el uso y pierden paralelismo. Comprueba la alineación sujetando una pieza plana y observando si presiona de forma uniforme.',
-            'En mordazas con insertos reemplazables, cambia la cara desgastada en lugar de toda la mordaza.',
+            'En mordazas con [insertos reemplazables](/engineering/jaw-design), cambia la cara desgastada en lugar de toda la mordaza — [las mordazas de repuesto](/oem-manufacturing) son un recambio OEM habitual.',
           ],
         },
         {
@@ -397,7 +397,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Yunque y almacenamiento',
           body: [
-            'El yunque es para martillar ligero, no para forja pesada. Mantenlo limpio y ligeramente aceitado contra el óxido.',
+            'El [yunque](/products/vise-specialty-anvil) es para martillar ligero, no para forja pesada. Mantenlo limpio y ligeramente aceitado contra el óxido.',
             'Guarda las mordazas a cubierto en ambientes húmedos. Una capa ligera de aceite previene la corrosión.',
           ],
         },
@@ -412,12 +412,12 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Centro de conocimiento',
       h1: 'Fabricación OEM de mordazas: cómo se fabrican las mordazas personalizadas',
       intro:
-        'Necesites una tirada de marca privada o una mordaza totalmente personalizada, entender el proceso de fabricación — de la fundición a las pruebas de calidad — fija expectativas correctas de coste y plazo.',
+        'Necesites una tirada de marca privada o una mordaza totalmente personalizada, entender el proceso de fabricación — de la fundición a las pruebas de calidad — fija expectativas correctas de coste y plazo. Empieza desde un [modelo de referencia](/products/vise-medium-6) para anclar tu especificación, o ve directo al resumen de [fabricación OEM](/oem-manufacturing).',
       sections: [
         {
           title: 'El proceso de fabricación',
           body: [
-            'La producción empieza en la fundición: piezas de fundición gris o acero forjado, luego mecanizado CNC de caras, deslizaderas y asientos de husillo. El tratamiento térmico endurece las mordazas a 58-62 HRC, seguido de rectificado y ensamblaje.',
+            'La producción empieza en la fundición: [piezas de fundición gris](/engineering/materials) o acero forjado, luego mecanizado CNC de caras, deslizaderas y asientos de husillo. El [tratamiento térmico](/engineering/heat-treatment) endurece las mordazas a 58-62 HRC, seguido de rectificado y ensamblaje.',
             'El acabado en polvo o pintura termina el cuerpo y se aplica la marca (grabado láser o etiqueta).',
           ],
         },
@@ -431,7 +431,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Opciones de personalización',
           body: [
-            'Ancho y abertura de boca, patrón de la superficie (ranurada, lisa, V), ángulo de la base, forma del yunque, estilo de manija, color y marca son especificables.',
+            'Ancho y abertura de boca, [patrón de la superficie](/engineering/jaw-design) (ranurada, lisa, V), ángulo de la base, forma del yunque, estilo de manija, color y marca son especificables.',
             'Los proyectos con utillaje añaden cuerpos con forma y fundiciones de marca, con cantidades mayores para amortizar el utillaje.',
           ],
         },
@@ -439,7 +439,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Estándares de calidad',
           body: [
             'Las fábricas solventes verifican dureza de boca (58-62 HRC), fuerza de sujeción, par de la base y pruebas cíclicas (10.000+ ciclos) y de salmuera.',
-            'Certificaciones a buscar: marcado CE, ISO 9001, ISO 14001 y cumplimiento RoHS.',
+            'Certificaciones a buscar: marcado CE, ISO 9001, ISO 14001 y cumplimiento RoHS. Para el balance completo de materiales, consulta [fundición vs. acero](/knowledge/cast-iron-vs-steel-vises).',
           ],
         },
       ],
@@ -460,22 +460,22 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Largeur et ouverture de mâchoire',
           body: [
-            "La largeur de mâchoire détermine la taille des pièces que vous pouvez saisir et la répartition de la force. Les 2″-5″ légers conviennent aux amateurs et aux petits travaux ; les 6″-8″ moyens couvrent la plupart des ateliers et de la réparation automobile ; les 8″-10″ lourds supportent la fabrication industrielle.",
+            "La largeur de mâchoire détermine la taille des pièces que vous pouvez saisir et la répartition de la force. Les 2″-5″ légers conviennent aux amateurs et aux petits travaux ; les [6″-8″ moyens](/products/vise-medium-6) couvrent la plupart des ateliers et de la réparation automobile ; les 8″-10″ lourds supportent la fabrication industrielle.",
             "L'ouverture (écart maximum entre mâchoires fermées et ouvertes) doit dépasser votre pièce la plus grande. Mesurez votre matériau le plus volumineux avant de choisir.",
           ],
         },
         {
           title: 'Force de serrage',
           body: [
-            'La force de serrage — de 1200-1500 lbs pour les légers jusqu\'à 6000-8000 lbs pour les lourds — détermine ce que l\'étau peut retenir sous pression de travail. Au-delà d\'un certain seuil, une force excessive peut endommager les pièces délicates, il faut donc adapter la force à l\'application.',
-            "Les fabricants réputés publient la force de serrage par modèle, mesurée sous couple contrôlé. Exigez-la lors de la comparaison entre fournisseurs.",
+            '[La force de serrage](/engineering/clamping-force) — de 1200-1500 lbs pour les légers jusqu\'à 6000-8000 lbs pour les lourds — détermine ce que l\'étau peut retenir sous pression de travail. Au-delà d\'un certain seuil, une force excessive peut endommager les pièces délicates, il faut donc adapter la force à l\'application.',
+            "Les fabricants réputés publient [la force de serrage par modèle](/engineering/clamping-force), mesurée sous couple contrôlé. Exigez-la lors de la comparaison entre [fournisseurs OEM](/oem-manufacturing).",
           ],
         },
         {
           title: "Matériau du corps : fonte vs acier forgé",
           body: [
-            "La fonte grise (HT200/HT250) résiste à la compression et est économique — le choix standard pour les étaux légers et moyens. L'acier forgé ou moulé au carbone (45#) apporte une résistance à la traction et des propriétés de choc supérieures, indispensables pour les étaux lourds et les applications à chocs.",
-            "Les faces des mâchoires sont trempées séparément (58-62 HRC) pour que la surface de prise dure plus longtemps que le corps. Les inserts de mâchoires remplaçables prolongent la durée de vie.",
+            "[La fonte grise (HT200/HT250)](/engineering/materials) résiste à la compression et est économique — le choix standard pour les étaux légers et moyens. L'acier forgé ou moulé au carbone (45#) apporte une résistance à la traction et des propriétés de choc supérieures, indispensables pour les étaux lourds et les applications à chocs.",
+            "Les faces des mâchoires sont trempées séparément (58-62 HRC) pour que la surface de prise dure plus longtemps que le corps. Les [inserts de mâchoires remplaçables](/engineering/jaw-design) prolongent la durée de vie. Pour le tableau mécanique complet, consultez la [comparaison fonte vs acier forgé](/knowledge/cast-iron-vs-steel-vises).",
           ],
         },
         {
@@ -548,14 +548,14 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Pourquoi la fonte est le pilier de l\'atelier',
           body: [
-            "La fonte grise (HT200/HT250) est coulée à coût relativement faible, amortit mieux les vibrations que l'acier et résiste bien à la compression. C'est le standard pour les étaux légers, moyens et la plupart des lourds.",
+            "[La fonte grise (HT200/HT250)](/engineering/materials) est coulée à coût relativement faible, amortit mieux les vibrations que l'acier et résiste bien à la compression. C'est le standard pour les étaux légers, moyens et la plupart des lourds.",
             "Sa faiblesse est la traction et le choc : un coup violent sur un coin peut la fissurer. C'est pourquoi les applications à martelage lourd préfèrent l'acier.",
           ],
         },
         {
           title: 'Pourquoi l\'acier forgé l\'emporte sur les chocs',
           body: [
-            "Les corps en acier au carbone forgé (45# ou supérieur) offrent une résistance à la traction et une ténacité nettement supérieures. Ils résistent à la fissuration sous charges de choc et forces de serrage extrêmes, ce qui en fait le choix pour les mines, les chantiers navals et la fabrication lourde.",
+            "Les corps en acier au carbone forgé (45# ou supérieur) offrent une résistance à la traction et une ténacité nettement supérieures. Ils résistent à la fissuration sous [charges de choc et forces de serrage extrêmes](/engineering/clamping-force), ce qui en fait le choix pour les mines, les chantiers navals et la fabrication lourde.",
             "L'inconvénient est le coût et le poids. Les étaux en acier sont plus coûteux à produire et plus lourds à installer.",
           ],
         },
@@ -570,7 +570,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Comment choisir entre les deux',
           body: [
             "Pour l'atelier général, la menuiserie, la réparation automobile et l'usage industriel léger, la fonte est le bon choix rapport qualité-pour. Pour les forces extrêmes, le martelage ou les environnements industriels difficiles, l'acier forgé est l'investissement qui s'amortit en étaux moins cassés.",
-            "Lors d'approvisionnement OEM, demandez à l'usine de spécifier la qualité exacte du matériau — HT200 vs HT250 vs acier 45# — plutôt que simplement « fonte » ou « acier ».",
+            "Lors d'approvisionnement [OEM](/oem-manufacturing), demandez à l'usine de spécifier la qualité exacte du matériau — HT200 vs HT250 vs acier 45# — plutôt que simplement « fonte » ou « acier ». Voyez aussi l'alternative en fonte ductile sur [fonte vs fonte ductile](/knowledge/cast-iron-vs-ductile-vises) et comment le corps forgé est construit sur l'[étau d'établi lourd de 6″](/products/vise-heavy-6).",
           ],
         },
       ],
@@ -584,7 +584,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Knowledge',
       h1: "Entretien de l'étau d'établi : ce qui fait durer un étau pendant des décennies",
       intro:
-        "Un étau d'établi de qualité est conçu pour durer une génération. La plupart des défaillances prématurées viennent de la négligence, pas de l'usage. Ce guide couvre l'entretien qui empêche les étaux de se gripper et de s'user.",
+        "Un étau d'établi de qualité est conçu pour durer une génération. La plupart des défaillances prématurées viennent de la négligence, pas de l'usage. Ce guide couvre l'entretien qui empêche les étaux de se gripper et de s'user — la jumelle de [choisir un étau qui convient au travail](/knowledge/how-to-choose-a-bench-vise).",
       sections: [
         {
           title: 'Lubrifier le filet de la vis',
@@ -597,7 +597,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Maintenir l\'alignement des mâchoires',
           body: [
             "Les faces des mâchoires s'usent avec le temps ; les crans s'aplatissent et les surfaces dévient du parallélisme. Vérifiez l'alignement en serrant une pièce plate et en observant si la pression est uniforme.",
-            "Sur les étaux à inserts de mâchoires remplaçables, remplacez les faces usées plutôt que tout l'étau. C'est le moyen le plus économique de restaurer la prise.",
+            "Sur les étaux à [inserts de mâchoires remplaçables](/engineering/jaw-design), remplacez les faces usées plutôt que tout l'étau — [les mâchoires de rechange](/oem-manufacturing) sont une pièce OEM courante. C'est le moyen le plus économique de restaurer la prise.",
           ],
         },
         {
@@ -610,7 +610,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Enclume et stockage',
           body: [
-            "La surface de l'enclume est destinée au martelage léger, pas à la forge lourde — l'utiliser comme enclume de forge fissure les corps en fonte. Gardez-la propre et légèrement huilée pour prévenir la rouille.",
+            "La surface de l'[enclume](/products/vise-specialty-anvil) est destinée au martelage léger, pas à la forge lourde — l'utiliser comme enclume de forge fissure les corps en fonte. Gardez-la propre et légèrement huilée pour prévenir la rouille.",
             "Rangez les étaux à l'abri dans les environnements humides. Une fine couche d'huile sur les surfaces non peintes prévient la corrosion et maintient la finition.",
           ],
         },
@@ -625,12 +625,12 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Knowledge',
       h1: "Fabrication OEM d'étaux d'établi : comment les étaux personnalisés sont fabriqués",
       intro:
-        "Que vous ayez besoin d'une production à marque privée ou d'un étau entièrement personnalisé, comprendre le processus de fabrication — de la fonderie aux tests de qualité — fixe les bonnes attentes en termes de coût, délai et MOQ.",
+        "Que vous ayez besoin d'une production à marque privée ou d'un étau entièrement personnalisé, comprendre le processus de fabrication — de la fonderie aux tests de qualité — fixe les bonnes attentes en termes de coût, délai et MOQ. Partez d'un [modèle de référence](/products/vise-medium-6) pour ancrer votre spécification, ou allez directement à l'aperçu [fabrication OEM](/oem-manufacturing).",
       sections: [
         {
           title: 'Le processus de fabrication',
           body: [
-            "La production commence par la coulée : pièces en fonte grise ou acier forgé, puis usinage CNC de précision des faces de mâchoires, des glissières et des sièges de vis. Le traitement thermique durcit les faces des mâchoires à 58-62 HRC, suivi du rectifage et de l'assemblage final.",
+            "La production commence par la coulée : [pièces en fonte grise](/engineering/materials) ou acier forgé, puis usinage CNC de précision des faces de mâchoires, des glissières et des sièges de vis. Le [traitement thermique](/engineering/heat-treatment) durcit les faces des mâchoires à 58-62 HRC, suivi du rectifage et de l'assemblage final.",
             "Le revêtement en poudre ou la peinture termine le corps, et le marquage (gravure laser, marques de moulage ou étiquettes) est appliqué selon vos graphiques.",
           ],
         },
@@ -644,7 +644,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Options de personnalisation',
           body: [
-            "Largeur et ouverture de mâchoire, motif de surface des mâchoires (serré, lisse, rainure V), angle de la base orientable, forme de l'enclume, style de manivelle, couleur du corps et marquage sont tous spécifiables.",
+            "Largeur et ouverture de mâchoire, [motif de surface des mâchoires](/engineering/jaw-design) (serré, lisse, rainure V), angle de la base orientable, forme de l'enclume, style de manivelle, couleur du corps et marquage sont tous spécifiables.",
             "Les projets avec outillage personnalisé ajoutent des corps profilés, des fontes de marque et des géométries de mâchoires uniques, à partir de quantités supérieures pour amortir le coût de l'outillage.",
           ],
         },
@@ -652,7 +652,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Normes de qualité',
           body: [
             "Les usines réputées vérifient la dureté des mâchoires (58-62 HRC), la force de serrage par modèle, le couple de la base orientable et effectuent des tests de durabilité cyclique (10 000+ cycles ouverture/fermeture) ainsi que des tests de corrosion en brouillard salin.",
-            "Certifications à rechercher : marquage CE, ISO 9001 pour la gestion de la qualité, ISO 14001 pour la gestion environnementale et conformité RoHS.",
+            "Certifications à rechercher : marquage CE, ISO 9001 pour la gestion de la qualité, ISO 14001 pour la gestion environnementale et conformité RoHS. Pour l'équilibre complet des matériaux, consultez [fonte vs acier forgé](/knowledge/cast-iron-vs-steel-vises).",
           ],
         },
       ],
