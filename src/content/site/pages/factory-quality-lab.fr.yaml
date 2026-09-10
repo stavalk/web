@@ -84,11 +84,6 @@ lab_evidence:
       icon: tabler:file-check
       link: https://assets.stavalk.com/site/downloads/STAVALK_IPQC_TEST_REPORTS.pdf
       link_label: 'Télécharger les rapports IPQC (PDF)'
-    - title: 'Traitement thermique —Enregistrements de dureté et de durabilité'
-      description: 'Contrôles de dureté des mâchoires à 100 % à 58–62 HRC, tests de force de serrage et enregistrements de durabilité de plus de 10 000 cycles d''ouverture/fermeture.'
-      icon: tabler:waves
-      link: https://assets.stavalk.com/site/downloads/STAVALK_HEAT_TREATMENT_TEST_REPORTS.pdf
-      link_label: 'Télécharger les rapports de traitement thermique (PDF)'
     - title: 'FQC —Rapports de test final des étaux'
       description: 'Inspection finale contre l''échantillon approuvé —dimensions, cosmétique et marquage de fonderie.'
       icon: tabler:shield-check

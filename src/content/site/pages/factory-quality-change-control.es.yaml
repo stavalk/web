@@ -242,29 +242,6 @@ cc_engineering:
       methodology: 'Galga de fuerza calibrada en la cara de la mordaza; llave dinamométrica en la base giratoria en todo el giro'
       acceptance: 'Fuerza de sujeción ≥ especificación nominal; par del giro dentro de la ventana; sin juego lateral bajo carga'
 
-cc_photos:
-  tagline: En la Planta de Producción
-  title: Reconstruir, Re-Probar, Liberar — Documentado en Cada Paso
-  subtitle: Fotos de nuestro taller en Qingdao muestran cada proceso de retrabajo controlado con sus calibres calibrados, parámetros definidos y registros en sitio — la misma evidencia que los inspectores pueden solicitar en cualquier momento.
-  grid: 'sm:grid-cols-2'
-  features:
-    - image: https://assets.Stavalk.com/site/quality/cc-hardness-treatment.avif
-      alt: Técnico realizando tratamiento térmico controlado en un inserto de mordaza de tornillo de banco con un horno calibrado
-      title: Re-Tratamiento de Dureza
-      desc: 'Un técnico re-trata un inserto de mordaza marcado en un horno calibrado ajustado a la especificación de austenización, y luego confirma 58–62 HRC con un durómetro; el ticket ECR firmado por QC en el banco muestra la puerta de control de cambios (Poka-Yoke #1).'
-    - image: https://assets.Stavalk.com/site/quality/cc-surface-coating.avif
-      alt: Técnico aplicando recubrimiento en polvo controlado al cuerpo de un tornillo de banco bajo condiciones de proceso controladas
-      title: Retrabajo de Recubrimiento Superficial
-      desc: 'El recubrimiento en polvo se aplica al cuerpo con una pistola controlada mientras el tornillo de banco se mantiene en un dispositivo; el termohigrómetro en sitio muestra la ventana de curado controlado.'
-    - image: https://assets.Stavalk.com/site/quality/cc-jaw-realignment.avif
-      alt: Comparador de dial digital verificando el paralelismo de las mordazas en un tornillo de banco durante el retrabajo
-      title: Realineación de Mordazas
-      desc: 'Un comparador de dial calibrado verifica el paralelismo de las mordazas tras el re-roscado y la refijación — el calibre lleva la etiqueta verde CALIBRADO.'
-    - image: https://assets.Stavalk.com/site/quality/cc-clamping-force-testing.avif
-      alt: Tornillos de banco terminados conectados a galgas de fuerza calibradas en el área de prueba final de fuerza de sujeción
-      title: Prueba Final de Fuerza de Sujeción
-      desc: 'Los tornillos de banco terminados se conectan a galgas de fuerza de alta precisión calibradas; la galga maestra lee la referencia de capacidad nominal, y todos los datos de prueba se suben automáticamente y se vinculan al sistema de trazabilidad del contrato.'
-
 cc_pokayoke:
   tagline: Salvaguardas Antierror
   title: 'Poka-Yoke: Bloques Duros que Detienen el Cambio No Controlado'

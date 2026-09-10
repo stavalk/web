@@ -242,29 +242,6 @@ cc_engineering:
       methodology: 'Dynamomètre étalonné en face de mâchoire ; clé dynamométrique sur la base pivotante sur toute la rotation'
       acceptance: 'Force de serrage ≥ spécification nominale ; couple de rotation dans la fenêtre ; aucun jeu latéral sous charge'
 
-cc_photos:
-  tagline: Sur le Plancher d’Usine
-  title: Reconstruire, Re-Tester, Libérer — Documenté à Chaque Étape
-  subtitle: Les photos de notre atelier à Qingdao montrent chaque procédé de retouche maîtrisé avec ses instruments étalonnés, ses paramètres définis et ses enregistrements sur site — les mêmes preuves que les inspecteurs peuvent demander à tout moment.
-  grid: 'sm:grid-cols-2'
-  features:
-    - image: https://assets.Stavalk.com/site/quality/cc-hardness-treatment.avif
-      alt: Technicien réalisant un traitement thermique maîtrisé sur un insert de mâchoire d’étau avec un four étalonné
-      title: Re-Traitement de Dureté
-      desc: 'Un technicien re-traite un insert de mâchoire marqué dans un four étalonné réglé à la spécification d’austénitisation, puis confirme 58–62 HRC avec un duromètre ; le ticket ECR signé par le QC sur l’établi montre le passage de la maîtrise des changements (Poka-Yoke #1).'
-    - image: https://assets.Stavalk.com/site/quality/cc-surface-coating.avif
-      alt: Technicien appliquant un revêtement poudre maîtrisé sur le corps d’un étau sous conditions de procédé contrôlées
-      title: Retouche de Revêtement de Surface
-      desc: 'Le revêtement poudre est appliqué sur le corps avec une pulvérisation contrôlée pendant que l’étau est maintenu dans un gabarit ; le thermo-hygromètre sur site montre la fenêtre de cuisson maîtrisée.'
-    - image: https://assets.Stavalk.com/site/quality/cc-jaw-realignment.avif
-      alt: Comparateur à cadran numérique vérifiant le parallélisme des mâchoires d’un étau pendant la retouche
-      title: Réalignement des Mâchoires
-      desc: 'Un comparateur à cadran étalonné vérifie le parallélisme des mâchoires après re-filetage et re-fixation — l’instrument porte l’étiquette verte ÉTALONNÉ.'
-    - image: https://assets.Stavalk.com/site/quality/cc-clamping-force-testing.avif
-      alt: Étaux d’établi finis connectés à des dynamomètres étalonnés dans la zone d’essai final de force de serrage
-      title: Essai Final de Force de Serrage
-      desc: 'Les étaux finis sont connectés à des dynamomètres étalonnés de haute précision ; le dynamomètre maître lit la référence de capacité nominale, et toutes les données d’essai sont téléversées automatiquement et liées au système de traçabilité du contrat.'
-
 cc_pokayoke:
   tagline: Garde-Fous Anti-Erreur
   title: 'Poka-Yoke : des Blocs Durs qui Arrêtent le Changement Non Maîtrisé'

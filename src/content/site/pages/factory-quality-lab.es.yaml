@@ -84,11 +84,6 @@ lab_evidence:
       icon: tabler:file-check
       link: https://assets.stavalk.com/site/downloads/STAVALK_IPQC_TEST_REPORTS.pdf
       link_label: 'Descargar informes IPQC (PDF)'
-    - title: 'Tratamiento térmico — Registros de dureza y durabilidad'
-      description: 'Comprobaciones de dureza de mordazas al 100% a 58–62 HRC, ensayos de fuerza de sujeción y registros de durabilidad de más de 10.000 ciclos de apertura/cierre.'
-      icon: tabler:waves
-      link: https://assets.stavalk.com/site/downloads/STAVALK_HEAT_TREATMENT_TEST_REPORTS.pdf
-      link_label: 'Descargar informes de tratamiento térmico (PDF)'
     - title: 'FQC — Informes de ensayo final del tornillo'
       description: 'Inspección final contra la muestra aprobada —dimensiones, cosmética y marcado de fundición.'
       icon: tabler:shield-check

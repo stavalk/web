@@ -99,18 +99,10 @@ nc_photos:
   title: Cuarentena, Retrabajo y Reinspección en la Práctica
   subtitle: Fotos de nuestro taller en Qingdao muestran cómo los tornillos de banco no conformes se segregan físicamente, se retrabajan bajo instrucciones controladas y se re-verifican antes de cualquier decisión de liberación.
   features:
-    - image: https://assets.Stavalk.com/site/quality/qc-clamping-force-test-area.avif
-      alt: Tornillos de banco en el área de prueba de fuerza de sujeción de la fábrica monitoreados por galgas de fuerza calibradas
-      title: Puerta de Reinspección
-      desc: 'Tras el retrabajo, cada tornillo de banco vuelve al área de prueba de QC para una re-verificación independiente: conectado a galgas de fuerza calibradas contra los criterios de aceptación aprobados por el proyecto — nunca una comprobación parcial.'
     - image: https://assets.Stavalk.com/site/quality/qc-hold-quarantine-station.avif
       alt: Hojas de control de calidad y etiquetas de estado de retención controlada en la estación de inspección de la fábrica
       title: Estación de Retención y Cuarentena
       desc: 'Estación de inspección con hojas de control de QC y etiquetado de estado. Cualquier artículo que falle los criterios de aceptación se etiqueta HOLD / QUARANTINE, se registra contra un NCR y se segrega físicamente — no puede pasar al embalaje hasta completar una disposición autorizada y una reinspección obligatoria.'
-    - image: https://assets.Stavalk.com/site/quality/qc-hardness-rework.avif
-      alt: Técnico de QC realizando retrabajo de dureza controlado en una mordaza de tornillo de banco en la estación de retrabajo de la fábrica
-      title: Estación de Retrabajo Controlado
-      desc: 'El retrabajo se realiza en una estación dedicada bajo una instrucción SRI aprobada: el defecto se marca, el tornillo de banco permanece en HOLD, y tras el tratamiento requerido vuelve al área de prueba para su reinspección contra los criterios de aceptación originales.'
     - image: https://assets.Stavalk.com/site/quality/qc-workshop-inspection-demo.avif
       alt: Demostración en el taller de los controles de calidad en la fábrica de Qingdao
       title: Demostración de QC en el Taller

@@ -75,8 +75,6 @@ evidence_gates:
       alt: In-process inspection and first article check during bench vise production
     - title: 'Heat Treatment & Hardness Verification'
       description: '100% of jaw hardening batches —not a sample —are hardness-checked at 58–62 HRC with automatic reject outside the range. One record per batch.'
-      link: https://assets.stavalk.com/site/downloads/STAVALK_HEAT_TREATMENT_TEST_REPORTS.pdf
-      link_label: 'Download heat treatment reports (PDF)'
       image: https://assets.stavalk.com/site/quality/node04-airtightness.avif
       alt: Hardness verification of induction-hardened bench vise jaws
     - title: 'FQC —Final Product Inspection'

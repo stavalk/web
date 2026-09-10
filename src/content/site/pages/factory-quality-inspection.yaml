@@ -160,18 +160,10 @@ quarantine_evidence:
   title: Controlled Testing & Quarantine in Practice
   subtitle: Photos from our workshop in Qingdao show how status control and inspection records are applied on site.
   features:
-    - image: https://assets.Stavalk.com/site/quality/qc-clamping-force-test-area.avif
-      alt: Bench vises undergoing clamping force testing in the factory QC area with calibrated force gauges
-      title: Clamping Force Test Area
-      desc: 'Vises held in the QC testing area under industrial lighting, with calibrated force gauges measuring the rated clamping capacity at the jaw face. Records are kept per batch and linked to final inspection.'
     - image: https://assets.Stavalk.com/site/quality/qc-hold-quarantine-station.avif
       alt: Quality control checksheets and controlled hold status labels at the factory inspection station
       title: Hold & Quarantine Station
       desc: 'Inspection station with QC checksheets and status labelling. Any item failing acceptance criteria is tagged, logged, and moved to quarantine — it cannot proceed to packing until an authorized disposition and mandatory re-inspection are completed.'
-    - image: https://assets.Stavalk.com/site/quality/qc-hardness-rework.avif
-      alt: QC technician performing controlled hardness rework on a bench vise jaw insert at the factory rework station
-      title: Controlled Rework Station
-      desc: 'Rework is performed at a dedicated station under an approved method card: the defect is marked, the vise remains on HOLD, and after the required process it returns to the test area for re-inspection against the original acceptance criteria.'
     - image: https://assets.Stavalk.com/site/quality/qc-workshop-quarantine-demo.avif
       alt: Workshop demonstration of controlled quarantine segregation in the Qingdao factory
       title: Quarantine Area Demonstration

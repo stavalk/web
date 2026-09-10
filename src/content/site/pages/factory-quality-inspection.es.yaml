@@ -160,18 +160,10 @@ quarantine_evidence:
   title: Ensayos controlados y cuarentena en la práctica
   subtitle: Fotografías de nuestro taller en Qingdao que muestran cómo se aplican el control de estado y los registros de inspección en planta.
   features:
-    - image: https://assets.Stavalk.com/site/quality/qc-clamping-force-test-area.avif
-      alt: Tornillos de banco sometidos a ensayos de fuerza de sujeción en el área de calidad de la fábrica con dinamómetros calibrados
-      title: Zona de ensayo de fuerza de sujeción
-      desc: 'Tornillos de banco mantenidos en la zona de control de calidad bajo iluminación industrial, con dinamómetros calibrados que miden la capacidad de sujeción nominal en la cara de las mordazas. Los registros se conservan por lote y se vinculan a la inspección final.'
     - image: https://assets.Stavalk.com/site/quality/qc-hold-quarantine-station.avif
       alt: Hojas de control de calidad y etiquetas de estado de retención controlada en la estación de inspección de la fábrica
       title: Estación de retención y cuarentena
       desc: 'Estación de inspección con hojas de control de calidad y etiquetado de estado. Cualquier artículo que no cumpla los criterios de aceptación se etiqueta, se registra y se traslada a cuarentena: no puede pasar al embalaje hasta completar una disposición autorizada y una reinspección obligatoria.'
-    - image: https://assets.Stavalk.com/site/quality/qc-hardness-rework.avif
-      alt: Técnico de control de calidad realizando un retrabajo controlado de dureza en la mordaza de un tornillo de banco en la estación de retrabajo de la fábrica
-      title: Estación de retrabajo controlado
-      desc: 'El retrabajo se realiza en una estación dedicada según una tarjeta de método aprobada: el defecto se marca, el tornillo de banco permanece en HOLD y, tras el proceso requerido, vuelve a la zona de ensayos para su reinspección contra los criterios de aceptación originales.'
     - image: https://assets.Stavalk.com/site/quality/qc-workshop-quarantine-demo.avif
       alt: Demostración en el taller de la segregación controlada en cuarentena en la fábrica de Qingdao
       title: Demostración de la zona de cuarentena

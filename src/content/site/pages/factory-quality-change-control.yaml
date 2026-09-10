@@ -242,29 +242,6 @@ cc_engineering:
       methodology: 'Calibrated force gauge at jaw face; torque wrench on swivel base across full rotation'
       acceptance: 'Clamping force ≥ rated spec; swivel torque within window; no lateral play under load'
 
-cc_photos:
-  tagline: On the Factory Floor
-  title: Rebuild, Re-Test, Release — Documented at Every Step
-  subtitle: Photos from our Qingdao workshop show each controlled rework process with its calibrated gauges, defined parameters and on-site records — the same evidence inspectors can request at any time.
-  grid: 'sm:grid-cols-2'
-  features:
-    - image: https://assets.Stavalk.com/site/quality/cc-hardness-treatment.avif
-      alt: Technician performing controlled heat treatment on a bench vise jaw insert with a calibrated furnace
-      title: Hardness Re-Treatment
-      desc: 'A technician re-treats a marked jaw insert in a calibrated furnace set to the austenitizing specification, then confirms 58–62 HRC with a hardness tester; the QC-signed ECR ticket on the bench shows the change control gate (Poka-Yoke #1).'
-    - image: https://assets.Stavalk.com/site/quality/cc-surface-coating.avif
-      alt: Technician applying controlled powder coating to a bench vise body under controlled process conditions
-      title: Surface Coating Rework
-      desc: 'Powder coating is applied to the body with a controlled spray while the vise is held in a fixture; the on-site thermometer/hygrometer shows the controlled cure window.'
-    - image: https://assets.Stavalk.com/site/quality/cc-jaw-realignment.avif
-      alt: Digital dial indicator verifying jaw parallelism on a bench vise during rework
-      title: Jaw Realignment
-      desc: 'A calibrated dial indicator verifies jaw parallelism after thread re-cutting and re-fastening — the gauge carries the green CALIBRATED label.'
-    - image: https://assets.Stavalk.com/site/quality/cc-clamping-force-testing.avif
-      alt: Finished bench vises connected to calibrated force gauges in the final clamping force test area
-      title: Final Clamping Force Testing
-      desc: 'Finished vises are connected to high-precision calibrated force gauges; the master gauge reads the rated capacity reference, and all test data is automatically uploaded and linked to the contract traceability system.'
-
 cc_pokayoke:
   tagline: Anti-Error Safeguards
   title: 'Poka-Yoke: Hard Blocks That Stop Uncontrolled Change'

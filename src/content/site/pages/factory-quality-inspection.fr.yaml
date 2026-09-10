@@ -160,18 +160,10 @@ quarantine_evidence:
   title: Essais contrôlés et quarantaine en pratique
   subtitle: Les photos de notre atelier de Qingdao montrent comment le contrôle de statut et les enregistrements d'inspection sont appliqués sur site.
   features:
-    - image: https://assets.Stavalk.com/site/quality/qc-clamping-force-test-area.avif
-      alt: Étaux d'établi soumis à des essais de force de serrage dans la zone de qualité de l'usine avec des dynamomètres calibrés
-      title: Zone d'essai de force de serrage
-      desc: "Étaux maintenus dans la zone de test QC sous éclairage industriel, avec des dynamomètres calibrés mesurant la capacité de serrage nominale à la face des mâchoires. Les enregistrements sont conservés par lot et reliés à l'inspection finale."
     - image: https://assets.Stavalk.com/site/quality/qc-hold-quarantine-station.avif
       alt: Feuilles de contrôle QC et étiquettes de statut de blocage contrôlé au poste d'inspection de l'usine
       title: Poste de blocage et de quarantaine
       desc: "Poste d'inspection avec feuilles de contrôle QC et étiquetage de statut. Tout article échouant aux critères d'acceptation est étiqueté, enregistré et déplacé en quarantaine — il ne peut pas passer au conditionnement jusqu'à ce qu'une disposition autorisée et une ré-inspection obligatoire soient complétées."
-    - image: https://assets.Stavalk.com/site/quality/qc-hardness-rework.avif
-      alt: Technicien QC effectuant une reprise de dureté contrôlée sur une mâchoire d'étau d'établi au poste de reprise de l'usine
-      title: Poste de reprise contrôlée
-      desc: "La reprise est effectuée sur un poste dédié sous une carte de méthode approuvée : le défaut est marqué, l'étau reste sur HOLD, et après le processus requis il revient dans la zone de test pour une ré-inspection selon les critères d'acceptation d'origine."
     - image: https://assets.Stavalk.com/site/quality/qc-workshop-quarantine-demo.avif
       alt: Démonstration en atelier de la séparation de quarantaine contrôlée dans l'usine de Qingdao
       title: Démonstration de la zone de quarantaine

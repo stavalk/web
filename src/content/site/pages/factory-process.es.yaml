@@ -75,8 +75,6 @@ evidence_gates:
       alt: Inspección en proceso y control de la primera pieza durante la producción de tornillos de banco
     - title: 'Verificación del tratamiento térmico y la dureza'
       description: 'El 100% de los lotes de temple de mordazas se comprueban en dureza a 58–62 HRC, no solo una muestra, con rechazo automático fuera del rango. Un registro por lote.'
-      link: https://assets.stavalk.com/site/downloads/STAVALK_HEAT_TREATMENT_TEST_REPORTS.pdf
-      link_label: 'Descargar informes de tratamiento térmico (PDF)'
       image: https://assets.stavalk.com/site/quality/node04-airtightness.avif
       alt: Verificación de dureza de mordazas de tornillos de banco endurecidas por inducción
     - title: 'FQC — Inspección final del producto'

@@ -99,18 +99,10 @@ nc_photos:
   title: Quarantine, Rework & Re-Inspection in Practice
   subtitle: Photos from our workshop in Qingdao show how non-conforming bench vises are physically segregated, reworked under controlled instructions and re-verified before any release decision.
   features:
-    - image: https://assets.Stavalk.com/site/quality/qc-clamping-force-test-area.avif
-      alt: Bench vises in the factory clamping-force test area monitored by calibrated force gauges
-      title: Re-Inspection Gate
-      desc: 'After rework, every bench vise returns to the QC test area for independent re-verification: connected to calibrated force gauges against the project-approved acceptance criteria — never a partial check.'
     - image: https://assets.Stavalk.com/site/quality/qc-hold-quarantine-station.avif
       alt: Quality control checksheets and controlled hold status labels at the factory inspection station
       title: Hold & Quarantine Station
       desc: 'Inspection station with QC checksheets and status labelling. Any item failing acceptance criteria is tagged HOLD / QUARANTINE, logged against an NCR and physically segregated — it cannot proceed to packing until an authorized disposition and mandatory re-inspection are completed.'
-    - image: https://assets.Stavalk.com/site/quality/qc-hardness-rework.avif
-      alt: QC technician performing controlled hardness rework on a bench vise jaw at the factory rework station
-      title: Controlled Rework Station
-      desc: 'Rework is performed at a dedicated station under an approved SRI instruction: the defect is marked, the vise remains on HOLD, and after the required treatment it returns to the test area for re-inspection against the original acceptance criteria.'
     - image: https://assets.Stavalk.com/site/quality/qc-workshop-inspection-demo.avif
       alt: Workshop demonstration of quality control checks in the Qingdao factory
       title: Workshop QC Demonstration

@@ -84,11 +84,6 @@ lab_evidence:
       icon: tabler:file-check
       link: https://assets.stavalk.com/site/downloads/STAVALK_IPQC_TEST_REPORTS.pdf
       link_label: 'Download IPQC reports (PDF)'
-    - title: 'Heat Treatment —Hardness & Durability Records'
-      description: '100% jaw hardness checks at 58–62 HRC, clamping-force tests and 10,000+ open/close cycle durability records.'
-      icon: tabler:waves
-      link: https://assets.stavalk.com/site/downloads/STAVALK_HEAT_TREATMENT_TEST_REPORTS.pdf
-      link_label: 'Download heat treatment reports (PDF)'
     - title: 'FQC —Final Vise Test Reports'
       description: 'Final inspection against the approved sample —dimensions, cosmetics and cast marking.'
       icon: tabler:shield-check

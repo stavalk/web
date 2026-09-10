@@ -99,18 +99,10 @@ nc_photos:
   title: Quarantaine, Retouche et Contre-Inspection en Pratique
   subtitle: Les photos de notre atelier à Qingdao montrent comment les étaux non conformes sont isolés physiquement, retouchés sous instructions maîtrisées et re-vérifiés avant toute décision de libération.
   features:
-    - image: https://assets.Stavalk.com/site/quality/qc-clamping-force-test-area.avif
-      alt: Étaux d’établi dans la zone d’essai de force de serrage de l’usine surveillés par des dynamomètres étalonnés
-      title: Porte de Contre-Inspection
-      desc: 'Après la retouche, chaque étau retourne dans la zone d’essai QC pour une re-vérification indépendante : connecté à des dynamomètres étalonnés selon les critères d’acceptation approuvés par le projet — jamais un contrôle partiel.'
     - image: https://assets.Stavalk.com/site/quality/qc-hold-quarantine-station.avif
       alt: Feuilles de contrôle qualité et étiquettes de statut de retenue maîtrisée au poste d’inspection de l’usine
       title: Poste de Retenue et de Quarantaine
       desc: 'Poste d’inspection avec feuilles de contrôle QC et étiquetage de statut. Tout article qui échoue aux critères d’acceptation est étiqueté HOLD / QUARANTINE, enregistré contre un NCR et isolé physiquement — il ne peut pas passer à l’emballage avant une disposition autorisée et une contre-inspection obligatoire.'
-    - image: https://assets.Stavalk.com/site/quality/qc-hardness-rework.avif
-      alt: Technicien QC réalisant une retouche de dureté maîtrisée sur la mâchoire d’un étau au poste de retouche de l’usine
-      title: Poste de Retouche Maîtrisée
-      desc: 'La retouche est effectuée à un poste dédié sous une instruction SRI approuvée : le défaut est marqué, l’étau reste en HOLD, et après le traitement requis il retourne à la zone d’essai pour une contre-inspection selon les critères d’acceptation d’origine.'
     - image: https://assets.Stavalk.com/site/quality/qc-workshop-inspection-demo.avif
       alt: Démonstration en atelier des contrôles qualité dans l’usine de Qingdao
       title: Démonstration QC en Atelier
