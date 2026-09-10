@@ -15,9 +15,9 @@ hero:
   actions:
     - variant: primary
       text: Démarrer une spécification de trempe
-      href: /contact#quality-inquiry
+      href: /fr/contact#quality-inquiry
     - text: Tous les sujets d'ingénierie
-      href: /engineering
+      href: /fr/engineering
 
 answer:
   label: 'Réponse directe'
@@ -78,8 +78,12 @@ cta:
   actions:
     - variant: primary
       text: Envoyer un Brief de Traitement Thermique
-      href: /contact#quality-inquiry
+      href: /fr/contact#quality-inquiry
     - text: Les matériaux qui répondent à la trempe
-      href: /engineering/materials
+      href: /fr/engineering/materials
     - text: Le système complet qualité et essais
-      href: /quality
+      href: /fr/quality
+    - text: Voir un étau lourd de 6″
+      href: /fr/products/vise-heavy-6
+    - text: 'Lire : fonte vs acier forgé'
+      href: /fr/knowledge/cast-iron-vs-steel-vises

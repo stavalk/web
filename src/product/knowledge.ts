@@ -62,6 +62,53 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
     {
+      slug: 'cast-iron-vs-ductile-vises',
+      navLabel: 'Cast Iron vs. Ductile Iron Vises',
+      metaTitle: 'Cast Iron vs. Ductile Iron Bench Vises | Which Body Is Right?',
+      metaDescription:
+        'Gray cast iron (HT200/HT250) vs. ductile iron (QT450) bench vise bodies: rigidity, impact resistance, cost and which applications each material fits.',
+      kicker: 'Knowledge',
+      h1: 'Cast Iron vs. Ductile Iron Bench Vises Compared',
+      intro:
+        'Gray cast iron and ductile iron look similar on the shelf but behave differently when the clamp tightens and the work gets heavy. This article compares the two body materials and points to the engineering pages where the numbers come from.',
+      sections: [
+        {
+          title: 'Why the Body Material Is the First Decision',
+          body: [
+            'The body is the whole vise. Body material decides rigidity, weight, dampening, price and — most importantly — how the vise fails when it is overloaded. Choosing between [gray cast iron](/engineering/materials) and ductile iron is a workload decision, not a preference.',
+            'Both are cast in Stavalk\u2019s own foundry in Qingdao and verified with material certificates per batch, so the comparison below is against confirmed grades, not marketing language.',
+          ],
+        },
+        {
+          title: 'Gray Cast Iron (HT200 / HT250): The Standard',
+          body: [
+            'Gray cast iron is the workhorse of bench vises. It resists compression well, damps vibration better than steel, machines cleanly to tight tolerances, and is the most economical body material — which is why light- and medium-duty vises use it. The graphite flakes that give it dampening also make it brittle under sharp impacts, so a hard hammer strike or off-axis load can crack a corner.',
+            'The replaceable [jaw design](/engineering/jaw-design) keeps gray-iron bodies serviceable: the hardened jaw faces take the wear, so the body lasts, as covered in the [heat treatment](/engineering/heat-treatment) page.',
+          ],
+        },
+        {
+          title: 'Ductile Iron (QT450): Impact Resilience',
+          body: [
+            'Ductile iron is gray iron\u2019s tougher sibling. Spheroidal graphite nodules stop cracks from propagating, so ductile-iron bodies absorb impacts and heavy workpieces without chipping. It is specified across the range for trade and light-industrial series that see harder daily use — at a moderate cost premium over gray iron.',
+            'The full material comparison — strength, hardness, impact resistance, cost and typical use — lives on the [Materials Library](/engineering/materials) page.',
+          ],
+        },
+        {
+          title: 'Where Forged Steel Comes In',
+          body: [
+            'Neither cast material can match forged steel for tensile strength. The heavy-duty series is forged from 45# steel precisely so its body does not flex under multi-thousand-pound [clamping force](/engineering/clamping-force). If your bench does repeated shock loads, see the [6″ Heavy Duty Bench Vise](/products/vise-heavy-6) for how that is built.',
+          ],
+        },
+        {
+          title: 'How to Choose Between the Two',
+          body: [
+            'Match the material to the work, not the marketing: light and medium bench use → gray cast iron for the best price. Busy shops, drops and off-axis loads → ductile iron. Sustained heavy fabrication and striking → forged steel on a heavy-duty platform.',
+            'Still weighing options? Compare against the [cast iron vs. steel vises](/knowledge/cast-iron-vs-steel-vises) article, or send the duty profile to the engineering team through the [OEM manufacturing](/oem-manufacturing) page so the grade is confirmed before tooling starts.',
+          ],
+        },
+      ],
+    },
+    {
       slug: 'cast-iron-vs-steel-vises',
       navLabel: 'Cast Iron vs. Steel Vises',
       metaTitle: 'Cast Iron vs. Forged Steel Bench Vises Compared',
@@ -228,6 +275,53 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
     {
+      slug: 'cast-iron-vs-ductile-vises',
+      navLabel: 'Fundición vs. hierro dúctil',
+      metaTitle: 'Mordazas de fundición vs. hierro dúctil | ¿Qué cuerpo es adecuado?',
+      metaDescription:
+        'Cuerpos de mordaza de banco de fundición gris (HT200/HT250) vs. hierro dúctil (QT450): rigidez, resistencia al impacto, costo y aplicaciones.',
+      kicker: 'Centro de conocimiento',
+      h1: 'Mordazas de fundición vs. hierro dúctil, comparadas',
+      intro:
+        'La fundición gris y el hierro dúctil se ven similares en el estante pero se comportan distinto cuando la mordaza aprieta y la pieza pesa. Este artículo compara ambos materiales de cuerpo y señala las páginas de ingeniería donde están los números.',
+      sections: [
+        {
+          title: 'Por qué el material del cuerpo es la primera decisión',
+          body: [
+            'El cuerpo es toda la mordaza. El material del cuerpo decide rigidez, peso, amortiguación, precio y — lo más importante — cómo falla la mordaza cuando se sobrecarga. Elegir entre [fundición gris](/engineering/materials) y hierro dúctil es una decisión de carga de trabajo, no una preferencia.',
+            'Ambos se funden en la fábrica propia de Stavalk en Qingdao y se verifican con certificados de material por lote, así que la comparación es contra grados confirmados, no lenguaje de marketing.',
+          ],
+        },
+        {
+          title: 'Fundición gris (HT200 / HT250): el estándar',
+          body: [
+            'La fundición gris es el caballo de batalla de las mordazas de banco. Resiste bien la compresión, amortigua la vibración mejor que el acero, se mecaniza limpiamente con tolerancias ajustadas y es el material de cuerpo más económico — por eso las mordazas ligeras y medianas la usan. Las escamas de grafito que le dan amortiguación también la hacen frágil ante impactos agudos, así que un golpe fuerte o una carga fuera de eje puede agrietar una esquina.',
+            'El [diseño de mordazas](/engineering/jaw-design) reemplazable mantiene los cuerpos de fundición gris serviciables: las caras endurecidas toman el desgaste, así el cuerpo dura, como cubre la página de [tratamiento térmico](/engineering/heat-treatment).',
+          ],
+        },
+        {
+          title: 'Hierro dúctil (QT450): resiliencia al impacto',
+          body: [
+            'El hierro dúctil es el hermano más resistente de la fundición gris. Los nódulos de grafito esferoidal detienen la propagación de grietas, así que los cuerpos de hierro dúctil absorben impactos y piezas pesadas sin astillarse. Se especifica en toda la gama para series de comercio e industrial ligero con uso diario más duro — a un sobrecosto moderado sobre la fundición gris.',
+            'La comparación completa de materiales — resistencia, dureza, resistencia al impacto, costo y uso típico — vive en la [Biblioteca de Materiales](/engineering/materials).',
+          ],
+        },
+        {
+          title: 'Dónde entra el acero forjado',
+          body: [
+            'Ningún material fundido iguala al acero forjado en resistencia a la tracción. La serie pesada se forja en acero 45# precisamente para que el cuerpo no flexione bajo [fuerza de sujeción](/engineering/clamping-force) de miles de libras. Si tu banco recibe cargas de choque repetidas, mira la [Mordaza de Banco Pesada de 6″](/products/vise-heavy-6) para ver cómo se construye.',
+          ],
+        },
+        {
+          title: 'Cómo elegir entre ambos',
+          body: [
+            'Iguala el material al trabajo, no al marketing: uso ligero y medio de banco → fundición gris al mejor precio. Talleres ocupados, caídas y cargas fuera de eje → hierro dúctil. Fabricación pesada sostenida y golpeo → acero forjado en una plataforma de servicio pesado.',
+            '¿Sopesando opciones? Compárala con el artículo [fundición vs. acero](/knowledge/cast-iron-vs-steel-vises), o envía el perfil de servicio al equipo de ingeniería a través de [fabricación OEM](/oem-manufacturing) para confirmar el grado antes de comenzar el utillaje.',
+          ],
+        },
+      ],
+    },
+    {
       slug: 'cast-iron-vs-steel-vises',
       navLabel: 'Fundición vs. acero',
       metaTitle: 'Mordazas de fundición vs. acero forjado',
@@ -389,6 +483,53 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           body: [
             "Une base orientable à 360° repositionne la pièce sans déboulonner — idéale pour les ateliers qui changent d'angle de travail. Une base fixe est plus rigide pour le martelage lourd, plus simple et moins coûteuse.",
             "Le montage est également important : adaptez la taille des boulons à votre établi et renforcez le plateau pour les étaux lourds. Un établi fin et mou réduit à néant les mérites d'un bon étau.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'cast-iron-vs-ductile-vises',
+      navLabel: 'Fonte vs fonte ductile',
+      metaTitle: "Étaux de fonte vs fonte ductile | Quel corps choisir ?",
+      metaDescription:
+        "Corps d'étaux d'établi en fonte grise (HT200/HT250) vs fonte ductile (QT450) : rigidité, résistance aux chocs, coût et applications.",
+      kicker: 'Knowledge',
+      h1: "Étaux d'établi en fonte vs fonte ductile, comparés",
+      intro:
+        "La fonte grise et la fonte ductile se ressemblent en rayon mais se comportent différemment quand le serrage se resserre et que la pièce devient lourde. Cet article compare les deux matériaux de corps et renvoie aux pages d'ingénierie où les chiffres sont sourcés.",
+      sections: [
+        {
+          title: 'Pourquoi le matériau du corps est la première décision',
+          body: [
+            "Le corps, c'est tout l'étau. Le matériau du corps décide de la rigidité, du poids, de l'amortissement, du prix et — surtout — de la façon dont l'étau cède en cas de surcharge. Choisir entre [fonte grise](/engineering/materials) et fonte ductile est une décision de charge de travail, pas une préférence.",
+            "Les deux sont coulés dans la fonderie Stavalk de Qingdao et vérifiés avec des certificats de matériaux par lot, la comparaison ci-dessous repose donc sur des nuances confirmées, pas sur du langage marketing.",
+          ],
+        },
+        {
+          title: 'Fonte grise (HT200/HT250) : le standard',
+          body: [
+            "La fonte grise est le cheval de trait des étaux d'établi. Elle résiste bien à la compression, amortit mieux les vibrations que l'acier, s'usine proprement à tolérances serrées et est le matériau de corps le plus économique — c'est pourquoi les étaux légers et moyens l'utilisent. Les lamelles de graphite qui lui donnent l'amortissement la rendent aussi fragile aux chocs vifs : un coup de marteau ou une charge hors axe peut fissurer un coin.",
+            "La [conception de mâchoires](/engineering/jaw-design) remplaçable garde les corps de fonte grise réparables : les faces trempées prennent l'usure, le corps dure, comme l'explique la page [traitement thermique](/engineering/heat-treatment).",
+          ],
+        },
+        {
+          title: 'Fonte ductile (QT450) : la résilience aux chocs',
+          body: [
+            "La fonte ductile est la sœur plus résistante de la fonte grise. Les nodules de graphite sphéroïdal arrêtent la propagation des fissures, si bien que les corps en fonte ductile absorbent les chocs et les pièces lourdes sans s'écailler. Elle est spécifiée dans la gamme pour les séries de commerce et d'industrie légère soumises à un usage quotidien plus dur — contre un modeste supplément de coût sur la fonte grise.",
+            "La comparaison complète des matériaux — résistance, dureté, résistance aux chocs, coût et usage typique — vit sur la [Bibliothèque des Matériaux](/engineering/materials).",
+          ],
+        },
+        {
+          title: "Où l'acier forgé intervient",
+          body: [
+            "Aucun matériau moulé n'égale l'acier forgé en résistance à la traction. La série lourde est forgée en acier 45# précisément pour que son corps ne fléchisse pas sous une [force de serrage](/engineering/clamping-force) de plusieurs milliers de livres. Si votre établi subit des chocs répétés, regardez l'[étau d'établi lourd de 6″](/products/vise-heavy-6) pour voir comment c'est construit.",
+          ],
+        },
+        {
+          title: 'Comment choisir entre les deux',
+          body: [
+            "Adaptez le matériau au travail, pas au marketing : usage léger et moyen d'établi → fonte grise au meilleur prix. Ateliers actifs, chutes et charges hors axe → fonte ductile. Fabrication lourde soutenue et martelage → acier forgé sur une plateforme lourde.",
+            "Encore indécis ? Comparez avec l'article [fonte vs acier forgé](/knowledge/cast-iron-vs-steel-vises), ou envoyez le profil de service à l'équipe d'ingénierie via la page [fabrication OEM](/oem-manufacturing) pour confirmer la nuance avant le début de l'outillage.",
           ],
         },
       ],

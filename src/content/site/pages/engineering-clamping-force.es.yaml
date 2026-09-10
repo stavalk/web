@@ -15,9 +15,9 @@ hero:
   actions:
     - variant: primary
       text: Diseñar un mecanismo de sujeción
-      href: /contact#quality-inquiry
+      href: /es/contact#quality-inquiry
     - text: Todos los temas de ingeniería
-      href: /engineering
+      href: /es/engineering
 
 answer:
   label: 'Respuesta directa'
@@ -82,8 +82,12 @@ cta:
   actions:
     - variant: primary
       text: Especificar Tu Mecanismo de Sujeción
-      href: /contact#quality-inquiry
+      href: /es/contact#quality-inquiry
     - text: Diseño de mordazas que sostiene el agarre
-      href: /engineering/jaw-design
+      href: /es/engineering/jaw-design
     - text: Materiales que mantienen la carga
-      href: /engineering/materials
+      href: /es/engineering/materials
+    - text: Ver la tornamesa pesada de 6″
+      href: /es/products/vise-heavy-6
+    - text: 'Leer: fundición vs. acero forjado'
+      href: /es/knowledge/cast-iron-vs-steel-vises

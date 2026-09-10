@@ -15,9 +15,9 @@ hero:
   actions:
     - variant: primary
       text: Discutir la selección de material
-      href: /contact#quality-inquiry
+      href: /es/contact#quality-inquiry
     - text: Todos los temas de ingeniería
-      href: /engineering
+      href: /es/engineering
 
 answer:
   label: 'Respuesta directa'
@@ -99,8 +99,12 @@ cta:
   actions:
     - variant: primary
       text: Preguntar a Ingeniería Sobre Materiales
-      href: /contact#quality-inquiry
+      href: /es/contact#quality-inquiry
     - text: Ingeniería de diseño de mordazas
-      href: /engineering/jaw-design
+      href: /es/engineering/jaw-design
     - text: Comparar OEM, ODM y Marca Privada
-      href: /oem-odm-private-label-comparison
+      href: /es/oem-odm-private-label-comparison
+    - text: Ver la tornamesa pesada de 6″
+      href: /es/products/vise-heavy-6
+    - text: 'Leer: fundición vs. hierro dúctil'
+      href: /es/knowledge/cast-iron-vs-ductile-vises

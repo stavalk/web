@@ -15,9 +15,9 @@ hero:
   actions:
     - variant: primary
       text: Diseñar mordazas para tu producto
-      href: /contact#quality-inquiry
+      href: /es/contact#quality-inquiry
     - text: Todos los temas de ingeniería
-      href: /engineering
+      href: /es/engineering
 
 answer:
   label: 'Respuesta directa'
@@ -82,8 +82,12 @@ cta:
   actions:
     - variant: primary
       text: Enviar Brief al Equipo de Ingeniería
-      href: /contact#quality-inquiry
+      href: /es/contact#quality-inquiry
     - text: Los materiales que hacen el cuerpo
-      href: /engineering/materials
+      href: /es/engineering/materials
     - text: Cómo se genera la fuerza de sujeción
-      href: /engineering/clamping-force
+      href: /es/engineering/clamping-force
+    - text: Ver una tornamesa mediana de 6″
+      href: /es/products/vise-medium-6
+    - text: 'Leer: cómo elegir una mordaza de banco'
+      href: /es/knowledge/how-to-choose-a-bench-vise

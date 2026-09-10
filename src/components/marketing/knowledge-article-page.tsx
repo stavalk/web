@@ -6,6 +6,7 @@ import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { PageHero } from './section-head'
 import { JsonLd, articleLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from './shell'
+import { Markdown } from '@/features/content/render/markdown'
 
 /**
  * Article renderer for /knowledge/{slug}: intro + numbered sections + related
@@ -35,7 +36,7 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
                 {s.title}
               </h2>
               {s.body.map((p, j) => (
-                <p key={j} className="mt-3.5 text-[15px] leading-[1.75] text-fg-2">{p}</p>
+                <Markdown key={j} text={p} className="[&_p]:mt-3.5 [&_p]:text-[15px] [&_p]:leading-[1.75] [&_p]:text-fg-2" />
               ))}
             </section>
           ))}

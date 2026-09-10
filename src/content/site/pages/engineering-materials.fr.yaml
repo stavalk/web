@@ -15,9 +15,9 @@ hero:
   actions:
     - variant: primary
       text: Discuter le choix du matériau
-      href: /contact#quality-inquiry
+      href: /fr/contact#quality-inquiry
     - text: Tous les sujets d'ingénierie
-      href: /engineering
+      href: /fr/engineering
 
 answer:
   label: 'Réponse directe'
@@ -99,8 +99,12 @@ cta:
   actions:
     - variant: primary
       text: Demander à l'Ingénierie sur les Matériaux
-      href: /contact#quality-inquiry
+      href: /fr/contact#quality-inquiry
     - text: Ingénierie de conception des mâchoires
-      href: /engineering/jaw-design
+      href: /fr/engineering/jaw-design
     - text: Comparer OEM, ODM et Marque Privée
-      href: /oem-odm-private-label-comparison
+      href: /fr/oem-odm-private-label-comparison
+    - text: Voir l'étau lourd de 6″
+      href: /fr/products/vise-heavy-6
+    - text: 'Lire : fonte vs fonte ductile'
+      href: /fr/knowledge/cast-iron-vs-ductile-vises

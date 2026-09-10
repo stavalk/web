@@ -16,9 +16,9 @@ hero:
   actions:
     - variant: primary
       text: Lancer un projet d'ingénierie d'étau
-      href: /contact#quality-inquiry
+      href: /fr/contact#quality-inquiry
     - text: Voir le catalogue
-      href: /products
+      href: /fr/products
 
 answer:
   label: 'Réponse directe'
@@ -56,25 +56,25 @@ disciplines:
       icon_bg: blue
       title: Matériaux
       desc: "Fonte vs fonte ductile vs acier forgé — ce que chaque matériau de corps signifie en rigidité, résistance aux chocs et coût, plus la bibliothèque des matériaux Stavalk."
-      link: /engineering/materials
+      link: /fr/engineering/materials
       link_label: "Explorer Ingénierie des Matériaux"
     - icon: J
       icon_bg: green
       title: Géométrie des Mâchoires
       desc: "Striures, faces de mâchoires trempées remplaçables, parallélisme des mâchoires et conception de coulisse qui les garde alignées sur des milliers de cycles."
-      link: /engineering/jaw-design
+      link: /fr/engineering/jaw-design
       link_label: "Explorer Conception des Mâchoires"
     - icon: F
       icon_bg: blue
       title: Force de Serrage
       desc: "Comment le pas de la vis, la longueur de la poignée et la rigidité du corps se combinent pour générer et maintenir une force de serrage allant jusqu'à 8 000 lbf sur les séries lourdes."
-      link: /engineering/clamping-force
+      link: /fr/engineering/clamping-force
       link_label: "Explorer Force de Serrage"
     - icon: H
       icon_bg: green
       title: Traitement Thermique
       desc: "Trempe par induction des mâchoires et des vis à 58–62 HRC, et comment la dureté contrôlée est vérifiée sur chaque lot de production."
-      link: /engineering/heat-treatment
+      link: /fr/engineering/heat-treatment
       link_label: "Explorer Traitement Thermique"
 
 faqs:
@@ -103,10 +103,12 @@ cta:
   actions:
     - variant: primary
       text: Envoyer un Brief à l'Ingénierie
-      href: /contact#quality-inquiry
+      href: /fr/contact#quality-inquiry
     - text: Explorer la bibliothèque des matériaux
-      href: /engineering/materials
+      href: /fr/engineering/materials
     - text: Développement ODM depuis ton idée
-      href: /odm-development
+      href: /fr/odm-development
     - text: Visiter l'usine et le système qualité
-      href: /factory
+      href: /fr/factory
+    - text: 'Lire : fonte vs fonte ductile'
+      href: /fr/knowledge/cast-iron-vs-ductile-vises

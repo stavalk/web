@@ -15,9 +15,9 @@ hero:
   actions:
     - variant: primary
       text: Iniciar una especificación de endurecimiento
-      href: /contact#quality-inquiry
+      href: /es/contact#quality-inquiry
     - text: Todos los temas de ingeniería
-      href: /engineering
+      href: /es/engineering
 
 answer:
   label: 'Respuesta directa'
@@ -78,8 +78,12 @@ cta:
   actions:
     - variant: primary
       text: Enviar un Brief de Tratamiento Térmico
-      href: /contact#quality-inquiry
+      href: /es/contact#quality-inquiry
     - text: Materiales que responden al endurecimiento
-      href: /engineering/materials
+      href: /es/engineering/materials
     - text: El sistema completo de calidad y pruebas
-      href: /quality
+      href: /es/quality
+    - text: Ver una tornamesa pesada de 6″
+      href: /es/products/vise-heavy-6
+    - text: 'Leer: fundición vs. acero forjado'
+      href: /es/knowledge/cast-iron-vs-steel-vises

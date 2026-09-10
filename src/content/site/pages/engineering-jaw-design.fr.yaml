@@ -15,9 +15,9 @@ hero:
   actions:
     - variant: primary
       text: Concevoir des mâchoires pour ton produit
-      href: /contact#quality-inquiry
+      href: /fr/contact#quality-inquiry
     - text: Tous les sujets d'ingénierie
-      href: /engineering
+      href: /fr/engineering
 
 answer:
   label: 'Réponse directe'
@@ -82,8 +82,12 @@ cta:
   actions:
     - variant: primary
       text: Envoyer un Brief à l'Équipe d'Ingénierie
-      href: /contact#quality-inquiry
+      href: /fr/contact#quality-inquiry
     - text: Les matériaux qui font le corps
-      href: /engineering/materials
+      href: /fr/engineering/materials
     - text: Comment la force de serrage est générée
-      href: /engineering/clamping-force
+      href: /fr/engineering/clamping-force
+    - text: Voir un étau moyen de 6″
+      href: /fr/products/vise-medium-6
+    - text: 'Lire : comment choisir un étau d''établi'
+      href: /fr/knowledge/how-to-choose-a-bench-vise

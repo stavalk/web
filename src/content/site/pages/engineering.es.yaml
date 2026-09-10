@@ -16,9 +16,9 @@ hero:
   actions:
     - variant: primary
       text: Iniciar un proyecto de ingeniería de tornamesa
-      href: /contact#quality-inquiry
+      href: /es/contact#quality-inquiry
     - text: Ver el catálogo
-      href: /products
+      href: /es/products
 
 answer:
   label: 'Respuesta directa'
@@ -56,25 +56,25 @@ disciplines:
       icon_bg: blue
       title: Materiales
       desc: 'Hierro fundido vs hierro dúctil vs acero forjado — qué significa cada material de cuerpo en rigidez, resistencia al impacto y costo, más la biblioteca de materiales de Stavalk.'
-      link: /engineering/materials
+      link: /es/engineering/materials
       link_label: 'Explorar Ingeniería de Materiales'
     - icon: J
       icon_bg: green
       title: Geometría de Mordazas
       desc: 'Estrías, caras de mordaza endurecidas reemplazables, paralelismo de mordazas y el diseño de corredera que las mantiene alineadas durante miles de ciclos.'
-      link: /engineering/jaw-design
+      link: /es/engineering/jaw-design
       link_label: 'Explorar Diseño de Mordazas'
     - icon: F
       icon_bg: blue
       title: Fuerza de Sujeción
       desc: 'Cómo el paso de rosca del husillo, la longitud del mango y la rigidez del cuerpo se combinan para generar y mantener fuerza de sujeción de hasta 8.000 lbf en series pesadas.'
-      link: /engineering/clamping-force
+      link: /es/engineering/clamping-force
       link_label: 'Explorar Fuerza de Sujeción'
     - icon: H
       icon_bg: green
       title: Tratamiento Térmico
       desc: 'Endurecimiento por inducción de mordazas y tornillos a 58–62 HRC, y cómo la dureza controlada se verifica en cada lote de producción.'
-      link: /engineering/heat-treatment
+      link: /es/engineering/heat-treatment
       link_label: 'Explorar Tratamiento Térmico'
 
 faqs:
@@ -103,10 +103,12 @@ cta:
   actions:
     - variant: primary
       text: Enviar un Brief a Ingeniería
-      href: /contact#quality-inquiry
+      href: /es/contact#quality-inquiry
     - text: Explorar la biblioteca de materiales
-      href: /engineering/materials
+      href: /es/engineering/materials
     - text: Desarrollo ODM desde tu idea
-      href: /odm-development
+      href: /es/odm-development
     - text: Visitar la fábrica y el sistema de calidad
-      href: /factory
+      href: /es/factory
+    - text: 'Leer: fundición vs. hierro dúctil'
+      href: /es/knowledge/cast-iron-vs-ductile-vises
