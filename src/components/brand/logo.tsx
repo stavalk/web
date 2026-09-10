@@ -1,8 +1,9 @@
 import React from 'react'
+import { SITE_NAME } from '@/config/site'
 
 const ICON_STYLE: React.CSSProperties = { width: 28, height: 28, background: 'var(--ocean-grad)', color: '#fff' }
 
-/** SUPsfactory wordmark — dual-wave mark on an ocean gradient + "SUP" (bold) + "sfactory" (62%). `compact` renders the mark only. */
+/** {SITE_NAME} wordmark — bench-vise glyph on the brand gradient. `compact` renders the mark only. */
 function LogoInner({ size = 18, compact = false }: { size?: number; compact?: boolean }) {
   return (
     <span
@@ -14,22 +15,31 @@ function LogoInner({ size = 18, compact = false }: { size?: number; compact?: bo
         style={ICON_STYLE}
       >
         <svg
-          width="17"
-          height="17"
+          width="18"
+          height="18"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          strokeWidth="2.4"
+          strokeWidth="2"
           strokeLinecap="round"
+          strokeLinejoin="round"
           aria-hidden="true"
         >
-          <path d="M3 8.5c2-2 4-2 6 0s4 2 6 0 4-2 6 0" />
-          <path d="M3 15.5c2-2 4-2 6 0s4 2 6 0 4-2 6 0" />
+          {/* fixed jaw */}
+          <rect x="3.5" y="4.5" width="5.5" height="14.5" rx="1.5" fill="currentColor" stroke="none" />
+          {/* movable jaw */}
+          <rect x="11" y="6.5" width="6" height="10.5" rx="1.5" fill="currentColor" stroke="none" opacity="0.85" />
+          {/* lead screw */}
+          <path d="M17.5 11.75h3.2" />
+          {/* screw handle */}
+          <path d="M20.7 9.4v4.7" />
+          {/* bench base */}
+          <path d="M4 19v1.2M12 19v1.2" />
         </svg>
       </span>
       {!compact && (
         <span>
-          SUP<span className="font-medium opacity-[0.62]">sfactory</span>
+          {SITE_NAME}
         </span>
       )}
     </span>

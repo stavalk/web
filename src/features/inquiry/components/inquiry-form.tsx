@@ -13,10 +13,10 @@ import { submitInquiry, type SubmitResult } from '../actions'
 import { INQUIRY_LIMITS, PROJECT_FILE_ACCEPT, PROJECT_FILE_EXTENSIONS } from '../inquiry.shared'
 
 export interface InquiryPrefill {
-  /** Product platform name (shown in the notice + board-platform field). */
+  /** Product platform name (shown in the notice + product-platform field). */
   name?: string
   sku?: string
-  /** SUP product category key, preselected in the category field. */
+  /** Bench vise platform category key, preselected in the category field. */
   category?: string
   /** Project intent label from a CTA deep link (e.g. custom OEM, MOQ planning). */
   intent?: string
@@ -27,7 +27,7 @@ export interface InquiryPrefill {
  *   Step 1 — project fit: business type, company, work email, country/market,
  *            product category (pre-filled per landing page), order quantity
  *            range, launch window, project stage.
- *   Step 2 — product brief: role, board platform, construction, customization,
+ *   Step 2 — product brief: role, product platform, construction, customization,
  *            packaging, compliance, documents, annual volume, budget, files, NDA.
  * The server scores the lead (A/B/C); each tier gets a different reply page.
  */

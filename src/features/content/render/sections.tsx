@@ -887,7 +887,7 @@ function CaseCardsWidget({ c }: { c: Record<string, unknown> }) {
 /**
  * Dispatches the `categories` section key by shape:
  * - factory-equipment: array of { title, items: [{ name, spec, desc }] }
- * - size-guide: object map of category → description (inflatable / sup / accessory)
+ * - size-guide: object map of category → description (jaw / clamping / accessory)
  * - academy/knowledge: array of { level, guides } (legacy AcademyCategories)
  */
 function CategoriesWidget({ c }: { c: Record<string, unknown> }) {

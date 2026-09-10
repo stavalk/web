@@ -5,12 +5,12 @@ import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate } from '@/features/i18n/locale'
-import {  useTranslation  } from '@/features/i18n/provider'
+import { useTranslation } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, customizer } from '@/product/content'
+import { BRAND_ASSETS_CDN } from '@/config/branding'
 import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero } from '@/components/marketing/section-head'
-import { BoardArt } from '@/components/marketing/board-art'
 import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 
 const STEP_ICONS = [PaintBucket, Upload, ImageIcon, Sparkles]
@@ -68,7 +68,11 @@ function CustomizerPage() {
                 style={{ background: `radial-gradient(circle, hsl(${hue} 72% 55% / 0.5) 0%, transparent 70%)` }}
                 aria-hidden="true"
               />
-              <BoardArt className="relative w-full" hue={hue} label={c.boardLabel} />
+              <img
+                src={`${BRAND_ASSETS_CDN}/site/products/2026/heavy-duty/heavy-duty-01.avif`}
+                alt={c.mockupBrand}
+                className="relative mx-auto w-full max-w-xl rounded-lg object-cover"
+              />
             </div>
 
             {/* palette */}
