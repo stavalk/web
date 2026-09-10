@@ -37,12 +37,13 @@ playwright-report/
 # Claude Code session config (local)
 .claude/
 
-# 大型业务媒体文件——由 Cloudflare R2 + CDN 提供，不应提交进 Git
-# 由 scripts/upload-site-assets.mjs 统一上传；本地仍保留副本以供开发调试
-public/assets/videos/
-public/assets/quality/
-public/assets/products/
-public/downloads/
+# 大型业务媒体文件——由 Cloudflare R2 + CDN 提供；随仓库提交，由 CI 的
+# scripts/upload-site-assets.mjs --http --missing 步骤在每次部署时同步到 R2。
+# （曾 git-ignored：本地仅存副本时 CI 无文件可传，导致 CDN 链接 404）
+# public/assets/videos/
+# public/assets/quality/
+# public/assets/products/
+# public/downloads/
 
 dev-server-opt.err
 
