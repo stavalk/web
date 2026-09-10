@@ -86,8 +86,9 @@ jobs:
       # The CDN host (assets.{SITE_DOMAIN}) is an R2 custom domain pointing at the production
       # bucket. Connect it idempotently on every deploy so images/PDFs referenced from the
       # content are actually resolvable (no-op once attached). Uses the same REST API as the
-      # R2 dashboard (wrangler's `r2 bucket domain add` is interactive-prone). Non-fatal:
-      # a missing/invalid token must never block the rest of the deploy.
+      # R2 dashboard: POST .../domains/custom registers the domain and Cloudflare then
+      # provisions the DNS record + TLS automatically. Non-fatal: a missing/invalid token
+      # must never block the rest of the deploy.
       - name: Ensure R2 custom domain (assets.stavalk.com)
         if: steps.guard.outputs.enabled == 'true'
         continue-on-error: true
@@ -115,27 +116,26 @@ jobs:
           fi
           # 1. List existing custom domains on the bucket.
           LHTTP=$(curl -sS -o /tmp/r2domains.json -w '%{http_code}' \
-            "$API/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$BUCKET/custom_domains" -H "$AUTH")
+            "$API/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$BUCKET/domains/custom" -H "$AUTH")
           if [ "$LHTTP" != "200" ]; then
-            echo "::notice::R2 custom_domains list failed (HTTP $LHTTP) - token needs R2 Edit; skip"
+            echo "::notice::R2 custom domains list failed (HTTP $LHTTP) - token needs R2 Edit; skip"
             cat /tmp/r2domains.json
             exit 0
           fi
-          if jq -e --arg d "$SUB" '[.result[]?.domain | ascii_downcase] | index(($d | ascii_downcase)) != null' /tmp/r2domains.json >/dev/null; then
-            echo "$SUB already connected to $BUCKET"
-            echo "::notice::$SUB is connected to $BUCKET"
+          if jq -e --arg d "$SUB" '[.result.domains[]?.domain | ascii_downcase] | index(($d | ascii_downcase)) != null' /tmp/r2domains.json >/dev/null; then
+            echo "::notice::$SUB already connected to $BUCKET"
             exit 0
           fi
-          # 2. Attach the custom domain (creates + manages the DNS record and cert).
+          # 2. Attach the custom domain (Cloudflare then creates the DNS record + cert).
           echo "Connecting $SUB -> $BUCKET (zone $ZID)..."
-          PHTTP=$(curl -sS -o /tmp/r2domainput.json -w '%{http_code}' -X PUT \
-            "$API/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$BUCKET/custom_domains" \
+          PHTTP=$(curl -sS -o /tmp/r2domainput.json -w '%{http_code}' -X POST \
+            "$API/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$BUCKET/domains/custom" \
             -H "$AUTH" -H "Content-Type: application/json" \
-            -d "{\"domain\":\"$SUB\",\"zone_id\":\"$ZID\",\"min_tls\":\"1.2\"}")
+            -d "{\"domain\":\"$SUB\",\"enabled\":true,\"zoneId\":\"$ZID\",\"minTLS\":\"1.2\"}")
           if [ "$PHTTP" = "200" ] && jq -e '.success == true' /tmp/r2domainput.json >/dev/null; then
-            echo "::notice::$SUB attached to $BUCKET (DNS + TLS provisioning started)"
+            echo "::notice::$SUB attached to $BUCKET - DNS record + TLS provisioning started"
           else
-            echo "::notice::R2 custom domain attach failed (HTTP $PHTTP) - see details below; not blocking else branch"
+            echo "::notice::R2 custom domain attach failed (HTTP $PHTTP) - details below; not blocking"
             cat /tmp/r2domainput.json
           fi
       # Site media (videos/PDFs/quality photos) stays in the repo as source files, but the
