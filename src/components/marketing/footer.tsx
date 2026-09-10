@@ -13,7 +13,7 @@ import { ContactFloats } from '@/components/marketing/contact-floats'
 const AiChat = lazy(() => import('@/features/ai/ai-chat').then(m => ({ default: m.AiChat })))
 
 const rootRoute = getRouteApi('__root__')
-const FOOTER_YEAR = new Date().getFullYear()
+const FOOTER_YEAR = Math.max(new Date().getFullYear(), 2026)
 
 export function Footer() {
   const { theme } = rootRoute.useLoaderData()
