@@ -85,18 +85,18 @@ jobs:
           create_index "$IDX-prod"
       # The CDN host (assets.{SITE_DOMAIN}) is an R2 custom domain pointing at the production
       # bucket. Connect it idempotently on every deploy so images/PDFs referenced from the
-      # content are actually resolvable (this has no effect once the domain is attached).
-      # Reads the zone id at runtime (same pattern as the cache-purge step below); skipped
-      # with a notice when the token lacks permission.
+      # content are actually resolvable (no-op once attached). Uses the same REST API as the
+      # R2 dashboard (wrangler's `r2 bucket domain add` is interactive-prone). Non-fatal:
+      # a missing/invalid token must never block the rest of the deploy.
       - name: Ensure R2 custom domain (assets.stavalk.com)
         if: steps.guard.outputs.enabled == 'true'
+        continue-on-error: true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
           CF_PROD_R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET }}
         run: |
-          set -e
           CDN_ZONE="${CF_PROD_DOMAIN:-Stavalk.com}"
           BUCKET="${CF_PROD_R2_BUCKET:-stavalk-files-prod}"
           SUB="assets.$CDN_ZONE"
@@ -113,20 +113,30 @@ jobs:
             echo "::notice::Zone $CDN_ZONE not in this account - skip R2 custom domain"
             exit 0
           fi
-          set +e
-          LIST=$(npx wrangler r2 bucket domain list "$BUCKET" 2>/tmp/r2d.log)
-          RC=$?
-          set -e
-          if [ "$RC" -ne 0 ]; then
-            echo "::notice::Cannot list R2 custom domains - token needs R2 Edit; skip (tried $BUCKET)"
-            cat /tmp/r2d.log
+          # 1. List existing custom domains on the bucket.
+          LHTTP=$(curl -sS -o /tmp/r2domains.json -w '%{http_code}' \
+            "$API/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$BUCKET/custom_domains" -H "$AUTH")
+          if [ "$LHTTP" != "200" ]; then
+            echo "::notice::R2 custom_domains list failed (HTTP $LHTTP) - token needs R2 Edit; skip"
+            cat /tmp/r2domains.json
             exit 0
           fi
-          if echo "$LIST" | grep -qF "$SUB"; then
+          if jq -e --arg d "$SUB" '[.result[]?.domain | ascii_downcase] | index(($d | ascii_downcase)) != null' /tmp/r2domains.json >/dev/null; then
             echo "$SUB already connected to $BUCKET"
+            echo "::notice::$SUB is connected to $BUCKET"
+            exit 0
+          fi
+          # 2. Attach the custom domain (creates + manages the DNS record and cert).
+          echo "Connecting $SUB -> $BUCKET (zone $ZID)..."
+          PHTTP=$(curl -sS -o /tmp/r2domainput.json -w '%{http_code}' -X PUT \
+            "$API/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$BUCKET/custom_domains" \
+            -H "$AUTH" -H "Content-Type: application/json" \
+            -d "{\"domain\":\"$SUB\",\"zone_id\":\"$ZID\",\"min_tls\":\"1.2\"}")
+          if [ "$PHTTP" = "200" ] && jq -e '.success == true' /tmp/r2domainput.json >/dev/null; then
+            echo "::notice::$SUB attached to $BUCKET (DNS + TLS provisioning started)"
           else
-            echo "Connecting $SUB -> $BUCKET (zone $ZID)..."
-            npx wrangler r2 bucket domain add "$BUCKET" --domain "$SUB" --zone-id "$ZID" -f
+            echo "::notice::R2 custom domain attach failed (HTTP $PHTTP) - see details below; not blocking else branch"
+            cat /tmp/r2domainput.json
           fi
       # Site media (videos/PDFs/quality photos) stays in the repo as source files, but the
       # references already point at CDN links (https://assets.Stavalk.com/site/*). Upload
