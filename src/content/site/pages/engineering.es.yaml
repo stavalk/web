@@ -1,0 +1,112 @@
+meta:
+  title: 'Autoridad en Ingeniería de Tornamesas: Materiales, Mordazas, Fuerza de Sujeción | Stavalk'
+  description: 'Por qué importa la ingeniería de las tornamesas: biblioteca de materiales, geometría de mordazas, diseño de fuerza de sujeción y tratamiento térmico, del fabricante de tornamesas Stavalk en Qingdao, China.'
+  dateModified: '2026-09-10'
+  keywords:
+    - 'ingeniería de tornamesa'
+    - 'materiales de tornamesa'
+    - 'diseño de mordazas de tornamesa'
+    - 'fuerza de sujeción de tornamesa'
+    - 'tratamiento térmico de tornamesa'
+
+hero:
+  tagline: Ingeniería y Materiales
+  title: 'Autoridad en Ingeniería de Tornamesas'
+  subtitle: 'Cada tornamesa Stavalk está diseñada en torno a cinco disciplinas — materiales, geometría de mordazas, mecanismo de sujeción, tratamiento térmico y alineación de la corredera. Esta sección explica por qué cada decisión importa para el rendimiento de sujeción y la vida útil.'
+  actions:
+    - variant: primary
+      text: Iniciar un proyecto de ingeniería de tornamesa
+      href: /contact#quality-inquiry
+    - text: Ver el catálogo
+      href: /products
+
+answer:
+  label: 'Respuesta directa'
+  text: 'La ingeniería de la tornamesa es la diferencia entre una prensa que sujeta con fuerza durante años y una que se traba, se desgasta o se deforma en meses. Cuatro decisiones dominan el rendimiento: el material del cuerpo (hierro gris, hierro dúctil o acero forjado), el material y la geometría de la cara de la mordaza, el mecanismo de tornillo que genera la fuerza de sujeción, y el tratamiento térmico que fija la dureza de las mordazas. Stavalk diseña, funde, mecaniza, trata térmicamente y prueba cada elemento en la planta de Qingdao — cada lote se somete a prueba de dureza y a ciclos de fuerza de sujeción antes del empaque.'
+  verified: '2026-09'
+
+pillars:
+  tagline: Pilares de Ingeniería
+  title: 'Los Cuatro Principios Detrás de Cada Tornamesa'
+  subtitle: 'Las mismas reglas aplican desde una tornamesa de hobby de 2″ hasta un modelo industrial de 10″ — solo cambian la escala y el grado.'
+  features:
+    - icon: M
+      icon_bg: blue
+      title: Material Primero
+      desc: 'El grado correcto de hierro gris, hierro dúctil o acero forjado para cada clase de servicio, seleccionado antes de comenzar el mecanizado. Hierro gris HT200/HT250 para cuerpos fundidos estándar, hierro dúctil donde el riesgo de impacto es mayor, acero forjado 45# para las series más pesadas.'
+    - icon: P
+      icon_bg: green
+      title: Mecanizado de Precisión
+      desc: 'Caras de mordaza, guías y canales de corredera mecanizados por CNC con precisión posicional de 0,05 mm, manteniendo las caras de mordaza paralelas y el tornillo recto bajo carga.'
+    - icon: T
+      icon_bg: blue
+      title: Control de Dureza
+      desc: 'Caras de mordaza y tornillos de corredera endurecidos por inducción a 58–62 HRC, con dureza controlada verificada en cada lote antes del empaque.'
+    - icon: C
+      icon_bg: green
+      title: Diseño Primero la Sujeción
+      desc: 'Geometría del husillo de rosca trapezoidal, holgura de rodamientos y pre-carga de la corredera diseñados en torno a una pregunta: cuántos ciclos de sujeción puede soportar esta tornamesa antes de que el desgaste cambie el agarre.'
+
+disciplines:
+  tagline: Disciplinas de Ingeniería
+  title: 'Las Cinco Preguntas Que Deben Hacer los Compradores'
+  subtitle: 'Cada disciplina de abajo es una página completa con el razonamiento de ingeniería y la evidencia de fábrica que la respalda.'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: Materiales
+      desc: 'Hierro fundido vs hierro dúctil vs acero forjado — qué significa cada material de cuerpo en rigidez, resistencia al impacto y costo, más la biblioteca de materiales de Stavalk.'
+      link: /engineering/materials
+      link_label: 'Explorar Ingeniería de Materiales'
+    - icon: J
+      icon_bg: green
+      title: Geometría de Mordazas
+      desc: 'Estrías, caras de mordaza endurecidas reemplazables, paralelismo de mordazas y el diseño de corredera que las mantiene alineadas durante miles de ciclos.'
+      link: /engineering/jaw-design
+      link_label: 'Explorar Diseño de Mordazas'
+    - icon: F
+      icon_bg: blue
+      title: Fuerza de Sujeción
+      desc: 'Cómo el paso de rosca del husillo, la longitud del mango y la rigidez del cuerpo se combinan para generar y mantener fuerza de sujeción de hasta 8.000 lbf en series pesadas.'
+      link: /engineering/clamping-force
+      link_label: 'Explorar Fuerza de Sujeción'
+    - icon: H
+      icon_bg: green
+      title: Tratamiento Térmico
+      desc: 'Endurecimiento por inducción de mordazas y tornillos a 58–62 HRC, y cómo la dureza controlada se verifica en cada lote de producción.'
+      link: /engineering/heat-treatment
+      link_label: 'Explorar Tratamiento Térmico'
+
+faqs:
+  tagline: FAQ
+  title: 'Preguntas Frecuentes Sobre Ingeniería de Tornamesas'
+  items:
+    - q: '¿Por qué la ingeniería de la tornamesa importa más que la lista de piezas?'
+      a: 'Dos tornamesas con el mismo ancho de mordaza pueden comportarse de forma completamente distinta. La fuerza de sujeción, el paralelismo de mordazas, la suavidad del tornillo y la vida útil dependen del grado del material, las tolerancias mecanizadas, el tratamiento térmico y el diseño de la corredera. Un comprador que compara tornamesas sobre papel debe pesar estas decisiones de ingeniería, no solo las dimensiones.'
+    - q: '¿Es el hierro gris mejor que el hierro dúctil o el acero forjado?'
+      a: 'Cada uno sirve a una clase de servicio. El hierro gris (HT200/HT250) ofrece excelente rigidez y amortiguación para tornamesas estándar a un costo competitivo. El hierro dúctil añade resiliencia al impacto para uso más duro en taller. El acero forjado 45# entrega la mayor resistencia a la tracción y se usa en series industriales pesadas donde dominan la carga y los golpes.'
+    - q: '¿Cómo se verifica la dureza de las mordazas?'
+      a: 'Cada cara de mordaza se prueba a 58–62 HRC antes del empaque y las lecturas se registran por lote. Los registros de dureza, copias de certificados y la trazabilidad de lotes están disponibles bajo NDA.'
+    - q: '¿Dónde se diseñan y fabrican las tornamesas Stavalk?'
+      a: 'Diseño, fundición, mecanizado, tratamiento térmico y pruebas se realizan en la planta de Stavalk en Jimo, Qingdao, China. No hay separación diseño-producción entre el piso de I+D y la fundición.'
+    - q: '¿Puede Stavalk diseñar una tornamesa personalizada para mi marca?'
+      a: 'Sí. Anchos de mordaza personalizados, cuerpos fundidos, tipos de corredera, paso de rosca, materiales de mordaza e insertos endurecidos se desarrollan bajo NDA a partir de un brief técnico. Consulta las páginas de OEM y ODM para el proceso de cooperación.'
+
+evidence_review:
+  tagline: 'Evidencia y Verificación'
+  title: 'ESPECIFICACIONES VERIFICADAS'
+  body: 'Todas las afirmaciones de ingeniería de esta sección están verificadas por el Equipo de Ingeniería de Materiales y Manufactura de la planta de Jimo, Qingdao. Certificados de materiales, informes de dureza y pruebas estructurales, registros de inspección y trazabilidad de lotes disponibles bajo petición. Especificaciones verificadas por última vez 2026-09.'
+
+cta:
+  title: 'Perfecciona Tu Tornamesa Antes de Pedir'
+  subtitle: 'Envía tu idea de producto, dibujo o referencia competitiva al equipo de ingeniería de Stavalk. Revisamos selección de materiales, diseño de mordazas, objetivos de fuerza de sujeción y fabricabilidad — y nos correspondemos bajo NDA antes de intercambiar archivos.'
+  actions:
+    - variant: primary
+      text: Enviar un Brief a Ingeniería
+      href: /contact#quality-inquiry
+    - text: Explorar la biblioteca de materiales
+      href: /engineering/materials
+    - text: Desarrollo ODM desde tu idea
+      href: /odm-development
+    - text: Visitar la fábrica y el sistema de calidad
+      href: /factory

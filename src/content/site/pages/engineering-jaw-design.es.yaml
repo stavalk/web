@@ -1,0 +1,89 @@
+meta:
+  title: 'Diseño de Mordazas de Tornamesa: Geometría, Caras Endurecidas y Paralelismo | Stavalk'
+  description: 'Cómo funciona la geometría de las mordazas: caras endurecidas reemplazables a 58–62 HRC, montadas con precisión para paralelismo, estrías y alineación de corredera en la gama Stavalk.'
+  dateModified: '2026-09-10'
+  keywords:
+    - 'diseño de mordazas de tornamesa'
+    - 'mordazas de tornamesa'
+    - 'mordazas endurecidas'
+    - 'paralelismo de mordazas'
+
+hero:
+  tagline: Disciplina de Ingeniería
+  title: Diseño de Mordazas de Tornamesa
+  subtitle: 'Una tornamesa sujeta con sus mordazas. El material de la mordaza, el patrón de la cara, el montaje y el paralelismo deciden si la pieza se sujeta firme sin marcarla — y si eso se mantiene durante años.'
+  actions:
+    - variant: primary
+      text: Diseñar mordazas para tu producto
+      href: /contact#quality-inquiry
+    - text: Todos los temas de ingeniería
+      href: /engineering
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Un buen diseño de mordazas son tres cosas. Primero, la cara de agarre: superficies de acero endurecido o de fundición endurecida que resisten el desgaste y se incrustan en lugar de aplastar la pieza. Segundo, el montaje: caras reemplazables atornilladas a un portamordaza de hierro dúctil o acero, para que una cara desgastada o dañada se cambie en vez de desechar el cuerpo. Tercero, el paralelismo: caras mecanizadas por CNC y alineadas por corredera para permanecer paralelas en todo el rango de apertura, distribuyendo la fuerza de sujeción en lugar de presionar más en un borde. Cada cara de mordaza Stavalk se verifica a 58–62 HRC y cada lote se inspecciona antes del empaque.'
+  verified: '2026-09'
+
+jaw_cards:
+  tagline: Elementos del Diseño de Mordazas
+  title: 'Qué Compone un Conjunto de Mordazas'
+  subtitle: 'Cada elemento responde una pregunta sobre la calidad del agarre.'
+  features:
+    - icon: J
+      icon_bg: blue
+      title: 'Material y Dureza de la Cara'
+      desc: 'Caras endurecidas GCr15/Cr12MoV, endurecidas por inducción a 58–62 HRC, resisten la indentación y el desgaste. En series de cuerpo fundido las mordazas son insertos endurecidos; en series de acero forjado las mordazas alcanzan hasta 62 HRC.'
+    - icon: S
+      icon_bg: green
+      title: 'Estrías y Patrón de Agarre'
+      desc: 'Estrías en cruz o diamante muerden el metal para un agarre positivo manteniendo marcas superficiales poco profundas. Patrones más finos se especifican para trabajo de precisión y piezas más blandas.'
+    - icon: R
+      icon_bg: blue
+      title: 'Montaje Reemplazable'
+      desc: 'Las caras se montan al portamordaza con tornillos de máquina, haciendo que una cara desgastada sea un artículo de servicio y no un defecto del cuerpo — en todas las series con mordazas endurecidas reemplazables.'
+    - icon: P
+      icon_bg: green
+      title: 'Paralelismo y Alineación de Corredera'
+      desc: 'Las caras se mecanizan por CNC y los canales, guías y cola de milano se alinean para mantener la mordaza móvil escuadrada en toda la apertura — verificada por controles de caras paralelas en cada lote.'
+
+design_rules:
+  tagline: Reglas de Diseño
+  title: 'Por Qué la Geometría de Mordazas Decide la Calidad del Agarre'
+  body: |
+    **El paralelismo es la especificación invisible.** Cuando una mordaza móvil viaja por una corredera mecanizada con precisión posicional de 0,05 mm, las dos caras permanecen paralelas de totalmente cerrada a totalmente abierta. El contacto con la pieza es entonces uniforme en toda la cara, la fuerza de sujeción se distribuye parejo, y las piezas finas o altas no se escapan bajo carga. Una corredera desalineada concentra la fuerza en un borde — la pieza se inclina, resbala, o el cuerpo se tensa de forma desigual.
+
+    **La dureza protege a la pieza y a la tornamesa.** Una cara más dura que la pieza de trabajo se incrusta un poco y agarra sin rayar. Si la cara es demasiado blanda, se deforma y el punto de agarre se mueve bajo carga; si es frágil, los bordes se astillan con el impacto. La ventana de 58–62 HRC es un compromiso cuidadoso: bastante dura para sujetar piezas endurecidas o con cascarilla, bastante tenaz para sobrevivir al golpe de sujeción.
+
+    **Las caras reemplazables cambian el costo de propiedad.** En tornamesas con mordazas fundidas en el cuerpo, el primer impacto serio a un borde puede devaluar todo el cuerpo. Las mordazas endurecidas reemplazables significan que una cara dañada es una pieza de repuesto pequeña y estandarizada — la razón por la que los juegos de mordazas reemplazables son estándar en la gama Stavalk y disponibles para re-marca.
+
+    **El patrón de estrías es específico de la carga.** La estría agresiva de diamante agarra material redondo y con cascarilla; la cruz fina se prefiere para piezas mecanizadas y blandas donde importa el acabado superficial. El patrón es uno de los puntos de personalización en un brief de diseño de mordazas OEM.
+
+faqs:
+  tagline: FAQ
+  title: 'Preguntas Frecuentes Sobre Diseño de Mordazas'
+  items:
+    - q: '¿Por qué las mordazas Stavalk están endurecidas a 58–62 HRC?'
+      a: 'Esta ventana da a la cara la dureza para resistir la indentación de la pieza y el desgaste, manteniendo suficiente tenacidad para absorber el impacto de sujeción sin astillarse. La dureza se verifica en cada lote antes del empaque.'
+    - q: '¿Se pueden reemplazar las caras de mordaza?'
+      a: 'Sí. Los juegos de mordazas endurecidas reemplazables son estándar en la gama Stavalk, montadas con tornillos de máquina. Una cara desgastada o dañada es una pieza de servicio, no un motivo para reemplazar el cuerpo.'
+    - q: '¿Qué opciones de mordaza hay en un proyecto OEM?'
+      a: 'Patrones de estrías personalizados, anchos de mordaza, materiales de cara (incluidos insertos de bronce o blandos para piezas delicadas) y placas de mordaza con tu marca pueden especificarse en el brief de ingeniería.'
+    - q: '¿Cómo se verifica el paralelismo de las mordazas?'
+      a: 'Las caras se controlan por escuadría y paralelismo durante el ensamblaje, y los mismos galgas se usan para la inspección final antes del empaque. Los registros de paralelismo y los informes de inspección están disponibles bajo petición.'
+
+evidence_review:
+  tagline: 'Evidencia y Verificación'
+  title: 'ESPECIFICACIONES VERIFICADAS'
+  body: 'Los valores de dureza de mordazas, estrías y paralelismo de esta página están verificados por el Equipo de Calidad e Ingeniería de la planta de Jimo, Qingdao. Informes de dureza, registros de inspección de paralelismo y trazabilidad de lotes disponibles bajo petición. Especificaciones verificadas por última vez 2026-09.'
+
+cta:
+  title: 'Especifica la Mordaza Que Necesita Tu Producto'
+  subtitle: 'Comparte las piezas de trabajo, el requisito de agarre y la posición de marca, y el equipo de ingeniería de Stavalk diseñará la geometría, el material de cara y el patrón de estrías para tu serie.'
+  actions:
+    - variant: primary
+      text: Enviar Brief al Equipo de Ingeniería
+      href: /contact#quality-inquiry
+    - text: Los materiales que hacen el cuerpo
+      href: /engineering/materials
+    - text: Cómo se genera la fuerza de sujeción
+      href: /engineering/clamping-force

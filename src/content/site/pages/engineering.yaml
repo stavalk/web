@@ -1,0 +1,112 @@
+meta:
+  title: 'Bench Vise Engineering Authority — Materials, Jaws, Clamping Force | Stavalk'
+  description: 'Why bench vise engineering matters: the materials library, jaw geometry, clamping-force design and heat treatment behind every Stavalk bench vise, manufactured in Qingdao, China.'
+  dateModified: '2026-09-10'
+  keywords:
+    - 'bench vise engineering'
+    - 'bench vise materials'
+    - 'bench vise jaw design'
+    - 'bench vise clamping force'
+    - 'bench vise heat treatment'
+
+hero:
+  tagline: Engineering & Materials
+  title: Bench Vise Engineering Authority
+  subtitle: 'Every Stavalk vise is engineered around five disciplines — materials, jaw geometry, clamping mechanism, heat treatment and slide alignment. This section explains why each decision matters to clamping performance and service life — not just what a factory can do.'
+  actions:
+    - variant: primary
+      text: Start a vise engineering project
+      href: /contact#quality-inquiry
+    - text: View the catalog
+      href: /products
+
+answer:
+  label: 'Straight answer'
+  text: 'Vise engineering is the difference between a vise that clamps hard for years and one that binds, wears or distorts within months. Four decisions dominate performance: the body material (gray cast iron, ductile iron or forged steel), the jaw face material and geometry, the screw-thread mechanism that generates clamping force, and the heat treatment that sets jaw hardness. Stavalk engineers, casts, machines, heat-treats and tests every element on site in Qingdao — every batch is hardness-tested and clamping-force-cycled before packing.'
+  verified: '2026-09'
+
+pillars:
+  tagline: Engineering Pillars
+  title: The Four Principles Behind Every Vise
+  subtitle: 'The same rules apply to a 2″ hobby vise and a 10″ industrial model — only the scale and grade change.'
+  features:
+    - icon: M
+      icon_bg: blue
+      title: Material First
+      desc: 'The correct gray cast iron grade, ductile iron or forged steel for each duty class, selected before any machining begins. HT200/HT250 gray cast iron for standard cast bodies, ductile iron where impact risk is higher, 45# forged steel for the heaviest series.'
+    - icon: P
+      icon_bg: green
+      title: Precision Machining
+      desc: 'CNC-machined jaw faces, guides and slide channels to 0.05 mm positional accuracy, keeping jaw faces parallel and the screw running true under load.'
+    - icon: T
+      icon_bg: blue
+      title: Hardness Control
+      desc: 'Jaw faces and slide screws induction-hardened to 58–62 HRC with controlled hardness verified on every batch before packing.'
+    - icon: C
+      icon_bg: green
+      title: Clamping-First Design
+      desc: 'Trapezoidal-thread spindle geometry, bearing clearance and slide preload engineered around one question: how many clamping cycles can this vise hold before wear changes the grip?'
+
+disciplines:
+  tagline: Engineering Disciplines
+  title: The Five Questions Buyers Should Ask
+  subtitle: 'Each discipline below is a full page with the engineering reasoning and the factory evidence behind it.'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: Materials
+      desc: 'Cast iron vs ductile iron vs forged steel — what each body material means for rigidity, impact resistance and cost, plus the Stavalk materials library.'
+      link: /engineering/materials
+      link_label: 'Explore Materials Engineering'
+    - icon: J
+      icon_bg: green
+      title: Jaw Geometry
+      desc: 'Serrations, replaceable hardened jaw faces, jaw parallelism and the slide design that keeps them aligned through thousands of clamping cycles.'
+      link: /engineering/jaw-design
+      link_label: 'Explore Jaw Design'
+    - icon: F
+      icon_bg: blue
+      title: Clamping Force
+      desc: 'How spindle thread pitch, handle length and body rigidity combine to generate and hold clamping force up to 8,000 lbf on heavy series.'
+      link: /engineering/clamping-force
+      link_label: 'Explore Clamping Force'
+    - icon: H
+      icon_bg: green
+      title: Heat Treatment
+      desc: 'Induction hardening of jaws and screws to 58–62 HRC, and how controlled hardness is verified on every production batch.'
+      link: /engineering/heat-treatment
+      link_label: 'Explore Heat Treatment'
+
+faqs:
+  tagline: FAQ
+  title: Frequently Asked Questions About Vise Engineering
+  items:
+    - q: 'Why does vise engineering matter more than the raw parts list?'
+      a: 'Two vises with the same jaw width can behave completely differently. Clamping force, jaw parallelism, thread smoothness and wear life are decided by material grade, machined tolerances, heat treatment and slide design. A buyer comparing vises on paper should weigh these engineering choices, not just dimensions.'
+    - q: 'Is gray cast iron better than ductile iron or forged steel?'
+      a: 'Each serves a duty class. Gray cast iron (HT200/HT250) gives excellent rigidity and dampening for standard bench vises at a competitive cost. Ductile iron adds impact resilience for harder shop use. 45# forged steel delivers the highest tensile strength and is used on heavy-duty industrial series where load and striking dominate.'
+    - q: 'How is jaw hardness verified?'
+      a: 'Every jaw face is hardness-tested to 58–62 HRC before packing, and the readings are recorded per batch. Hardness records, certificate copies and batch traceability are available on request under NDA.'
+    - q: 'Where are Stavalk vises engineered and manufactured?'
+      a: 'Engineering, casting, machining, heat treatment and testing are all performed in house at the Stavalk plant in Jimo, Qingdao, China. There is no design-to-production separation between the R&D floor and the foundry.'
+    - q: 'Can Stavalk engineer a custom vise for my brand?'
+      a: 'Yes. Custom jaw widths, body castings, slide types, thread pitch, jaw materials and hardened inserts are developed under NDA from a technical brief. See the OEM and ODM pages for the cooperation process.'
+
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'VERIFIED SPECIFICATIONS'
+  body: 'All engineering claims on this section are verified by the Material and Manufacturing Engineering Team at the Jimo, Qingdao plant. Materials certificates, hardness and structural test reports, inspection records and batch traceability are available on request. Specifications last verified 2026-09.'
+
+cta:
+  title: 'Perfect Your Vise Before You Order'
+  subtitle: 'Send your product idea, drawing or competitive benchmark to the Stavalk engineering team. We review material selection, jaw design, clamping-force targets and manufacturability — and correspond under NDA before any files are exchanged.'
+  actions:
+    - variant: primary
+      text: Submit a Brief to Engineering
+      href: /contact#quality-inquiry
+    - text: Explore the materials library
+      href: /engineering/materials
+    - text: ODM development from your idea
+      href: /odm-development
+    - text: Visit the factory & quality system
+      href: /factory

@@ -1,0 +1,89 @@
+meta:
+  title: 'Fuerza de Sujeción de Tornamesa: Diseño del Husillo, Roscas y Mecanismo | Stavalk'
+  description: 'Cómo genera fuerza de sujeción una tornamesa: husillo de rosca trapezoidal, palanca del mango, pre-carga de corredera y rigidez del cuerpo — hasta 8.000 lbf en la serie pesada Stavalk.'
+  dateModified: '2026-09-10'
+  keywords:
+    - 'fuerza de sujeción tornamesa'
+    - 'diseño de rosca de husillo'
+    - 'mecanismo de tornamesa'
+    - 'diseño de tornillo de tornamesa'
+
+hero:
+  tagline: Disciplina de Ingeniería
+  title: Fuerza de Sujeción de Tornamesa
+  subtitle: 'La fuerza de sujeción se genera con un tornillo, se multiplica con un mango y se sostiene con un cuerpo rígido. Hacer bien el mecanismo convierte una vuelta de mango en un agarre que no resbala.'
+  actions:
+    - variant: primary
+      text: Diseñar un mecanismo de sujeción
+      href: /contact#quality-inquiry
+    - text: Todos los temas de ingeniería
+      href: /engineering
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Una tornamesa convierte el torque del mango en fuerza de sujeción mediante un solo mecanismo: un husillo de rosca trapezoidal (estilo ACME), girado por un mango, que empuja la mordaza móvil por la corredera. La fuerza depende del paso y diámetro de la rosca, la longitud del mango, la fricción de la corredera y la rigidez del cuerpo — un paso grueso multiplica la fuerza por vuelta y resiste el aflojamiento, un mango más largo da más palanca, y un cuerpo rígido de hierro fundido o acero forjado convierte esa fuerza en las mordazas en lugar de flexionarse. En la serie pesada de acero forjado Stavalk, este sistema desarrolla fuerza de sujeción en el rango de 2.000–8.000 lbf, y el conjunto de husillo es una unidad reemplazable y serviable.'
+  verified: '2026-09'
+
+force_sources:
+  tagline: Qué Impulsa la Fuerza de Sujeción
+  title: 'Los Cuatro Inputs de Cada Sujeción'
+  subtitle: 'Diseñar un mecanismo de sujeción es equilibrar estas cuatro variables.'
+  features:
+    - icon: T
+      icon_bg: blue
+      title: 'Roscas Trapezoidales del Husillo'
+      desc: 'Un husillo de rosca trapezoidal (acero 45#, tratado térmicamente) convierte la rotación en desplazamiento lineal con alta eficiencia y poco juego, y resiste el desenrosque bajo carga.'
+    - icon: H
+      icon_bg: green
+      title: 'Palanca del Mango'
+      desc: 'La longitud del mango multiplica el torque de entrada. Mango más largo desarrolla mayor fuerza de sujeción con menos esfuerzo — y comunica la capacidad nominal de la tornamesa.'
+    - icon: S
+      icon_bg: blue
+      title: 'Corredera y Pre-Carga'
+      desc: 'Canales y guías de corredera mecanizados con precisión mantienen la mordaza móvil escuadrada y de baja fricción, para que el esfuerzo vaya a la pieza y no al agarrotamiento.'
+    - icon: B
+      icon_bg: green
+      title: 'Rigidez del Cuerpo'
+      desc: 'Un cuerpo rígido de hierro gris, hierro dúctil o acero forjado transmite la fuerza a las mordazas. Un cuerpo que flexiona absorbe fuerza y deja que la pieza se desplace bajo carga.'
+
+clamp_notes:
+  tagline: Notas de Sujeción
+  title: 'Por Qué el Mecanismo Importa Más Que el Mango'
+  body: |
+    **El diseño de la rosca define el carácter de la tornamesa.** Una rosca trapezoidal hace dos trabajos a la vez: convierte el torque en fuerza lineal potente, y su ángulo de flanco resiste que el husillo retroceda bajo carga. Un paso grueso hace que cada vuelta viaje más y sujete más fuerte — por eso las tornamesas pesadas se sienten "positivas" y se mantienen sujetas, mientras que roscas finas baratas retroceden. Los tornillos de corredera también se endurecen por inducción y se someten a ciclos para verificar una sujeción suave y precisa, sin agarrotamiento en todo el rango.
+
+    **La fuerza es el producto, no la promesa.** La capacidad de sujeción es un número diseñado: la geometría de la rosca, la longitud del mango, la sección y el grado del material se eligen juntos para alcanzar una fuerza objetivo. La serie pesada de acero forjado está diseñada para 2.000–8.000 lbf de fuerza de sujeción con el cuerpo y la corredera dimensionados para que el mecanismo no fluya al tope del rango — y el conjunto de tornillo reemplazable mantiene la tornamesa serviable cuando un husillo finalmente se desgasta.
+
+    **Las correderas se miden en milésimas.** La mordaza móvil viaja sobre canales y guías mecanizados con precisión posicional de 0,05 mm. Si la corredera se agarrota, parte de cada vuelta se pierde venciendo fricción en vez de sumar fuerza; si queda floja, la mordaza se inclina bajo carga y el agarre colapsa en una esquina. La combinación de mecanizado preciso y cuerpo rígido es lo que permite que un esfuerzo modesto de mango produzca un agarre genuinamente industrial.
+
+    **La base giratoria y el yunque son parte del camino de carga.** En modelos con base giratoria toda la reacción de sujeción pasa por el mecanismo de bloqueo de la base, que debe mantener el cuerpo escuadrado mientras se aplica fuerza — la razón por la que las bases giratorias usan bloqueos delantero y trasero. En modelos con yunque, la misma rigidez que sostiene la fuerza de sujeción también soporta el trabajo a golpe.
+
+faqs:
+  tagline: FAQ
+  title: 'Preguntas Frecuentes Sobre Fuerza de Sujeción'
+  items:
+    - q: '¿Cuánta fuerza de sujeción desarrolla una tornamesa Stavalk?'
+      a: 'La capacidad de sujeción escala con la serie y el ancho de mordaza. La serie pesada de acero forjado 45# está diseñada para 2.000–8.000 lbf de fuerza según el modelo; las series estándar de hierro fundido se dimensionan para su clase de servicio.'
+    - q: '¿Por qué las roscas del husillo son trapezoidales?'
+      a: 'Una rosca trapezoidal (estilo ACME) combina alta capacidad de carga con poco juego y resiste el aflojamiento bajo carga — la geometría correcta para un husillo que debe sostener fuerza de sujeción todo el día.'
+    - q: '¿Es reemplazable el husillo?'
+      a: 'Sí. El conjunto de tornillo es una unidad reemplazable en las tornamesas Stavalk, lo que mantiene el cuerpo en servicio en uso industrial pesado si un husillo se desgasta.'
+    - q: '¿Cómo se verifica la sujeción suave?'
+      a: 'Cada tornillo de corredera se somete a ciclos para verificar una sujeción suave y precisa sin agarrotamiento en todo el rango de apertura antes del empaque. Los registros de ciclos y fuerza están disponibles bajo petición.'
+
+evidence_review:
+  tagline: 'Evidencia y Verificación'
+  title: 'ESPECIFICACIONES VERIFICADAS'
+  body: 'Los rangos de fuerza de sujeción y los valores de mecanismo de esta página están verificados por el Equipo de Ingeniería Mecánica de la planta de Jimo, Qingdao. Informes de pruebas de fuerza de sujeción, registros de ciclos y datos de inspección disponibles bajo petición. Especificaciones verificadas por última vez 2026-09.'
+
+cta:
+  title: 'Apuntar a una Fuerza de Sujeción, No a una Suposición'
+  subtitle: 'Cuéntanos las piezas de trabajo y la fuerza de agarre que necesita tu mercado, y la ingeniería de Stavalk dimensionará la rosca, el mango y la corredera para cumplirla — con registros de prueba que lo demuestran.'
+  actions:
+    - variant: primary
+      text: Especificar Tu Mecanismo de Sujeción
+      href: /contact#quality-inquiry
+    - text: Diseño de mordazas que sostiene el agarre
+      href: /engineering/jaw-design
+    - text: Materiales que mantienen la carga
+      href: /engineering/materials

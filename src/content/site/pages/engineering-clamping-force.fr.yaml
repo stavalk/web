@@ -1,0 +1,89 @@
+meta:
+  title: "Force de Serrage d'Étau — Vis de Commande, Filets et Mécanisme | Stavalk"
+  description: "Comment un étau génère une force de serrage : vis de commande à filet trapézoïdal, effet de levier de la poignée, précontrainte de coulisse et rigidité du corps — jusqu'à 8 000 lbf sur la série lourde Stavalk."
+  dateModified: '2026-09-10'
+  keywords:
+    - "force de serrage étau"
+    - "conception du filetage de la vis"
+    - "mécanisme d'étau"
+    - "conception de la vis d'étau"
+
+hero:
+  tagline: Discipline d'Ingénierie
+  title: "Force de Serrage d'Étau"
+  subtitle: "La force de serrage est générée par une vis, multipliée par une poignée et tenue par un corps rigide. Bien faire le mécanisme transforme un tour de poignée en une prise qui ne glisse pas."
+  actions:
+    - variant: primary
+      text: Concevoir un mécanisme de serrage
+      href: /contact#quality-inquiry
+    - text: Tous les sujets d'ingénierie
+      href: /engineering
+
+answer:
+  label: 'Réponse directe'
+  text: "Un étau convertit le couple de la poignée en force de serrage via un seul mécanisme : une vis de commande à filet trapézoïdal (style ACME), tournée par une poignée, qui pousse la mâchoire mobile le long de la coulisse. La force dépend du pas et du diamètre du filet, de la longueur de la poignée, du frottement de la coulisse et de la rigidité du corps — un pas grossier multiplie la force par tour et résiste au desserrage, une poignée plus longue donne plus de levier, et un corps rigide en fonte ou en acier forgé convertit cette force dans les mâchoires au lieu de fléchir. Sur la série lourde en acier forgé Stavalk, ce système développe une force de serrage dans la plage de 2 000–8 000 lbf, et l'ensemble vis est une unité remplaçable et réparable."
+  verified: '2026-09'
+
+force_sources:
+  tagline: Ce Qui Pilote la Force de Serrage
+  title: "Les Quatre Entrées de Chaque Serrage"
+  subtitle: "Concevoir un mécanisme de serrage, c'est équilibrer ces quatre variables."
+  features:
+    - icon: T
+      icon_bg: blue
+      title: "Filet Trapézoïdal de la Vis"
+      desc: "Une vis de commande à filet trapézoïdal (acier 45#, traité thermiquement) convertit la rotation en déplacement linéaire avec un haut rendement et peu de jeu, et résiste à se dévisser sous charge."
+    - icon: H
+      icon_bg: green
+      title: "Levier de la Poignée"
+      desc: "La longueur de la poignée multiplie le couple d'entrée. Une poignée plus longue développe une force de serrage plus élevée pour le même effort — et communique la capacité nominale de l'étau."
+    - icon: S
+      icon_bg: blue
+      title: "Coulisse et Précontrainte"
+      desc: "Des rainures et glissières de coulisse usinées avec précision gardent la mâchoire mobile d'équerre et à faible frottement, pour que l'effort aille dans la pièce plutôt que dans le grippage."
+    - icon: B
+      icon_bg: green
+      title: "Rigidité du Corps"
+      desc: "Un corps rigide en fonte grise, fonte ductile ou acier forgé transmet la force dans les mâchoires. Un corps qui fléchit absorbe la force et laisse la pièce se déplacer sous charge."
+
+clamp_notes:
+  tagline: Notes de Serrage
+  title: "Pourquoi le Mécanisme Compte Plus Que la Poignée"
+  body: |
+    **La conception du filet donne le caractère de l'étau.** Un filet trapézoïdal fait deux choses à la fois : il convertit le couple en force linéaire puissante, et son angle de flanc résiste au recul de la vis sous charge. Un pas grossier fait parcourir plus de course et serrer plus fort à chaque tour — c'est pourquoi les étaux lourds semblent « positifs » et restent serrés, alors que les filets fins bon marché reculent. Les vis de coulisse sont aussi trempées par induction et cyclées pour vérifier un serrage doux et précis, sans grippage sur toute la course.
+
+    **La force est le produit, pas la promesse.** La capacité de serrage est un chiffre conçu : la géométrie du filet, la longueur de la poignée, la section et la nuance du matériau sont choisies ensemble pour atteindre une force cible. La série lourde en acier forgé est conçue pour 2 000–8 000 lbf de force de serrage avec le corps et la coulisse dimensionnés pour que le mécanisme ne flue pas au sommet de la plage — et l'ensemble vis remplaçable garde l'étau réparable quand une vis finit par s'user.
+
+    **Les coulisses se mesurent en millièmes.** La mâchoire mobile voyage sur des rainures et glissières usinées à 0,05 mm de précision de position. Si la coulisse grippe, une partie de chaque tour est perdue à vaincre le frottement au lieu d'ajouter de la force ; si elle est lâche, la mâchoire s'incline sous charge et la prise s'effondre à un coin. La combinaison d'un usinage précis et d'un corps rigide est ce qui permet à un effort de poignée modeste de produire une prise véritablement industrielle.
+
+    **L'embase pivotante et l'enclume font partie du chemin de charge.** Sur les modèles à embase pivotante, toute la réaction de serrage passe par le mécanisme de verrouillage de l'embase, qui doit garder le corps d'équerre pendant que la force est appliquée — la raison pour laquelle les embases pivotantes utilisent des verrous avant et arrière. Sur les modèles à enclume, la même rigidité qui tient la force de serrage supporte aussi le travail au marteau.
+
+faqs:
+  tagline: FAQ
+  title: "Questions Fréquentes sur la Force de Serrage"
+  items:
+    - q: "Quelle force de serrage un étau Stavalk développe-t-il ?"
+      a: "La capacité de serrage évolue avec la série et la largeur de mâchoire. La série lourde en acier forgé 45# est conçue pour 2 000–8 000 lbf selon le modèle ; les séries standard en fonte sont dimensionnées pour leur classe de service."
+    - q: "Pourquoi les filets de la vis sont-ils trapézoïdaux ?"
+      a: "Un filet trapézoïdal (style ACME) combine une grande capacité de charge avec peu de jeu et résiste au desserrage sous charge — la bonne géométrie pour une vis qui doit tenir la force de serrage toute la journée."
+    - q: "La vis est-elle remplaçable ?"
+      a: "Oui. L'ensemble vis est une unité remplaçable sur les étaux Stavalk, ce qui garde le corps en service pour un usage industriel lourd si une vis s'use."
+    - q: "Comment le serrage doux est-il vérifié ?"
+      a: "Chaque vis de coulisse est cyclée pour vérifier un serrage doux et précis, sans grippage sur toute la course d'ouverture, avant emballage. Les relevés de cycles et de force sont disponibles sur demande."
+
+evidence_review:
+  tagline: 'Preuves et Vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: "Les plages de force de serrage et les valeurs du mécanisme de cette page sont vérifiées par l'équipe d'Ingénierie Mécanique de l'usine de Jimo, Qingdao. Rapports d'essais de force de serrage, relevés de cycles et données d'inspection disponibles sur demande. Spécifications vérifiées pour la dernière fois en 2026-09."
+
+cta:
+  title: "Viser une Force de Serrage, Pas une Estimation"
+  subtitle: "Dis-nous les pièces de travail et la force de prise dont ton marché a besoin, et l'ingénierie Stavalk dimensionnera le filet de vis, la poignée et la coulisse pour l'atteindre — avec des relevés d'essais pour le prouver."
+  actions:
+    - variant: primary
+      text: Spécifier Ton Mécanisme de Serrage
+      href: /contact#quality-inquiry
+    - text: Conception des mâchoires qui tient la prise
+      href: /engineering/jaw-design
+    - text: Matériaux qui gardent la charge
+      href: /engineering/materials

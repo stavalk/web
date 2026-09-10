@@ -1,0 +1,106 @@
+meta:
+  title: 'Materiales de Tornamesa: Hierro Fundido vs Hierro Dúctil vs Acero Forjado | Stavalk'
+  description: 'Biblioteca de materiales de tornamesas Stavalk: hierro gris (HT200/HT250), hierro dúctil y acero forjado 45# comparados por resistencia, dureza, resistencia al impacto y uso típico.'
+  dateModified: '2026-09-10'
+  keywords:
+    - 'materiales de tornamesa'
+    - 'hierro fundido vs dúctil tornamesa'
+    - 'tornamesa de acero forjado'
+    - 'material del cuerpo de tornamesa'
+
+hero:
+  tagline: Disciplina de Ingeniería
+  title: Materiales de Tornamesa
+  subtitle: 'El cuerpo es toda la tornamesa. El grado de su material decide rigidez, peso, resistencia al impacto y precio — por eso la selección de material es la primera decisión de ingeniería en cada tornamesa Stavalk.'
+  actions:
+    - variant: primary
+      text: Discutir la selección de material
+      href: /contact#quality-inquiry
+    - text: Todos los temas de ingeniería
+      href: /engineering
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Tres materiales de cuerpo cubren el espectro de las tornamesas. El hierro gris en grados HT200 y HT250 da a las tornamesas estándar la rigidez y amortiguación de vibraciones que necesitan al costo más competitivo. El hierro dúctil añade resistencia al impacto para uso en taller y comercio donde son comunes las caídas y piezas pesadas. El acero forjado 45# entrega la mayor resistencia a la tracción y se reserva para series industriales pesadas, donde la fuerza de sujeción alcanza miles de libras y el cuerpo no debe flexionarse ni fatigarse. Stavalk selecciona el grado por clase de servicio y verifica la microestructura de fundición, la dureza y la maquinabilidad en cada lote.'
+  verified: '2026-09'
+
+material_table:
+  tagline: 'Biblioteca de Materiales'
+  title: 'Materiales del Cuerpo de las Tornamesas Stavalk'
+  subtitle: 'Valores de ingeniería confirmados por el Equipo de Ingeniería de Materiales de la planta de Jimo, Qingdao.'
+  headers:
+    material: Material
+    strength: Resistencia y Rigidez
+    hardness: Dureza
+    impact: Resistencia al Impacto
+    cost: Costo Relativo
+    use: Uso Típico
+  rows:
+    - material: 'Hierro gris (HT200/HT250)'
+      strength: 'Excelente rigidez a compresión; alta amortiguación de vibraciones'
+      hardness: 'Moderada (estructura fundida)'
+      impact: 'Baja a moderada — frágil ante impactos agudos'
+      cost: 'Bajo (el más económico)'
+      use: 'Tornamesas estándar ligeras y medianas'
+    - material: 'Hierro dúctil (p. ej. QT450)'
+      strength: 'Alta resistencia a la tracción; buena rigidez'
+      hardness: 'Moderada a alta'
+      impact: 'Buena — absorbe impactos sin agrietarse'
+      cost: 'Moderado'
+      use: 'Tornamesas de taller, comercio y uso industrial ligero'
+    - material: 'Acero forjado 45#'
+      strength: 'Mayor resistencia a la tracción; flexión mínima bajo carga'
+      hardness: 'Alta (tratado térmicamente)'
+      impact: 'Excelente — la estructura forjada resiste choques'
+      cost: 'Alto'
+      use: 'Tornamesas industriales pesadas y de trabajo con golpe'
+
+material_notes:
+  tagline: Notas de Material
+  title: 'Cómo Se Selecciona Cada Grado'
+  body: |
+    **Hierro gris — el estándar.** Los cuerpos HT200 y HT250 se funden en arena en nuestra propia fundición y luego se normalizan y relevan de tensiones. Dan a la tornamesa el cuerpo rígido y amortiguador que sujeta el trabajo sin "zumbar", a un precio que mantiene asequibles las series estándar. Es el material de cuerpo más común en tornamesas ligeras y medianas.
+
+    **Hierro dúctil — para exposición al impacto.** El hierro dúctil tiene nódulos de grafito en lugar de escamas, que detienen la propagación de grietas. Cuando la tornamesa se usa en talleres ocupados, se cae o recibe cargas fuera de eje, el hierro dúctil resiste el astillado en bordes y concentradores de tensión mejor que el hierro gris. Lo especificamos para series de comercio e industrial ligero con uso diario más duro.
+
+    **Acero forjado 45# — para servicio pesado.** Forjar acero 45# produce una estructura más densa y alineada con el grano que la fundición. Combinado con tratamiento térmico, da la resistencia a la tracción para sostener fuerzas de sujeción del rango de miles de libras sin que el cuerpo flexione — la razón por la que nuestra serie pesada con yunques fijos se construye en acero forjado, con mordazas endurecidas hasta 62 HRC y conjunto de tornillo reemplazable.
+
+why_materials:
+  tagline: Por Qué Importa
+  title: 'Por Qué el Material del Cuerpo Determina Cómo Se Siente la Tornamesa'
+  body: |
+    El ancho de mordaza es el número impreso en la tornamesa; el material del cuerpo es lo que el usuario realmente siente. Un cuerpo de hierro gris resiste la flexión cuando sujetas una pieza grande con el mango a tope; un cuerpo de acero forjado permite que una serie pesada desarrolle una fuerza que torcería una fundición más ligera. El material también decide el modo de fallo: el hierro gris frágil falla por agrietamiento ante impactos agudos; el hierro dúctil y el acero forjado se deforman antes de romperse — el comprador ve un problema antes de una falla catastrófica.
+
+    La elección de material también interactúa con el mecanizado. El hierro gris se mecaniza limpiamente con tolerancias ajustadas y superficies autolubricantes, razón por la que los canales y guías de corredera se mecanizan con precisión posicional de 0,05 mm. El acero forjado exige maquinaria más pesada pero la recompensa con una corredera de mayor duración.
+
+    Si comparas tornamesas del mismo tamaño nominal de distintas fábricas, pregunta qué grado de material es realmente el cuerpo — anchos de mordaza idénticos no son productos idénticos.
+
+faqs:
+  tagline: FAQ
+  title: 'Preguntas Frecuentes Sobre Materiales de Tornamesa'
+  items:
+    - q: '¿Es mejor el hierro fundido o el hierro dúctil para una tornamesa?'
+      a: 'Para uso estándar de banco, el hierro gris es la elección probada y más económica — rígido, amortiguador y estable. Si la tornamesa enfrentará condiciones duras de taller, caídas o fuerza fuera de eje, el hierro dúctil resiste mejor el daño por impacto. Ambos se usan en la gama Stavalk según clase de servicio.'
+    - q: '¿Qué tornamesas de Stavalk usan acero forjado?'
+      a: 'La serie pesada con yunques fijos se forja en acero 45# para máxima resistencia a la tracción, resistencia al impacto y capacidad de sujeción (hasta 8.000 lbf en las unidades más grandes), con mordazas endurecidas hasta 62 HRC.'
+    - q: '¿Cómo se verifica el grado del material?'
+      a: 'Los certificados de material acompañan a cada lote de fundición, cubriendo composición química y propiedades mecánicas. Copias de certificados, registros de dureza y trazabilidad de lotes disponibles bajo NDA.'
+    - q: '¿Una tornamesa personalizada puede usar otro material?'
+      a: 'Sí. Cuerpos fundidos personalizados, mejoras a hierro dúctil y cuerpos de acero forjado se desarrollan mediante el proceso OEM/ODM. La selección de material se fija en la revisión de ingeniería antes de comenzar el utillaje.'
+
+evidence_review:
+  tagline: 'Evidencia y Verificación'
+  title: 'ESPECIFICACIONES VERIFICADAS'
+  body: 'Los grados de material y los valores mecánicos de esta página están verificados por el Equipo de Ingeniería de Materiales de la planta de Jimo, Qingdao. Certificados de material, registros de microestructura e informes de dureza disponibles bajo petición. Especificaciones verificadas por última vez 2026-09.'
+
+cta:
+  title: '¿No Estás Seguro de Qué Material Encaja en Tu Tornamesa?'
+  subtitle: 'Describe el servicio, las piezas de trabajo y el precio objetivo y el equipo de ingeniería de Stavalk recomendará el material del cuerpo, el grado y la ruta de fabricación — antes de comprometer ningún utillaje.'
+  actions:
+    - variant: primary
+      text: Preguntar a Ingeniería Sobre Materiales
+      href: /contact#quality-inquiry
+    - text: Ingeniería de diseño de mordazas
+      href: /engineering/jaw-design
+    - text: Comparar OEM, ODM y Marca Privada
+      href: /oem-odm-private-label-comparison

@@ -1,0 +1,112 @@
+meta:
+  title: "Autorité Ingénierie Étaux d'Établi — Matériaux, Mâchoires, Force de Serrage | Stavalk"
+  description: "Pourquoi l'ingénierie des étaux compte : bibliothèque de matériaux, géométrie des mâchoires, conception de la force de serrage et traitement thermique, du fabricant d'étaux Stavalk à Qingdao, Chine."
+  dateModified: '2026-09-10'
+  keywords:
+    - "ingénierie étau d'établi"
+    - "matériaux étau d'établi"
+    - "conception de mâchoires d'étau"
+    - "force de serrage étau"
+    - "traitement thermique étau"
+
+hero:
+  tagline: Ingénierie et Matériaux
+  title: "Autorité en Ingénierie d'Étaux d'Établi"
+  subtitle: "Chaque étau Stavalk est conçu autour de cinq disciplines — matériaux, géométrie des mâchoires, mécanisme de serrage, traitement thermique et alignement de la coulisse. Cette section explique pourquoi chaque décision compte pour la performance de serrage et la durée de vie."
+  actions:
+    - variant: primary
+      text: Lancer un projet d'ingénierie d'étau
+      href: /contact#quality-inquiry
+    - text: Voir le catalogue
+      href: /products
+
+answer:
+  label: 'Réponse directe'
+  text: "L'ingénierie de l'étau fait la différence entre un étau qui serre fermement pendant des années et un qui se grippe, s'use ou se déforme en quelques mois. Quatre décisions dominent : le matériau du corps (fonte grise, fonte ductile ou acier forgé), le matériau et la géométrie des faces de mâchoires, le mécanisme à vis qui génère la force de serrage, et le traitement thermique qui fixe la dureté des mâchoires. Stavalk conçoit, coule, usine, traite thermiquement et teste chaque élément sur son site de Qingdao — chaque lot est testé en dureté et cyclé en force de serrage avant emballage."
+  verified: '2026-09'
+
+pillars:
+  tagline: Piliers d'Ingénierie
+  title: "Les Quatre Principes Derrière Chaque Étau"
+  subtitle: "Les mêmes règles s'appliquent d'un étau de loisir de 2″ à un modèle industriel de 10″ — seules l'échelle et la nuance changent."
+  features:
+    - icon: M
+      icon_bg: blue
+      title: Le Matériau d'Abord
+      desc: "La bonne nuance de fonte grise, de fonte ductile ou d'acier forgé pour chaque classe de service, choisie avant tout usinage. Fonte grise HT200/HT250 pour les corps moulés standard, fonte ductile là où le risque d'impact est plus élevé, acier forgé 45# pour les séries les plus lourdes."
+    - icon: P
+      icon_bg: green
+      title: Usinage de Précision
+      desc: "Faces de mâchoires, glissières et rainures de coulisse usinées par CNC à 0,05 mm de précision de position, gardant les faces parallèles et la vis droite sous charge."
+    - icon: T
+      icon_bg: blue
+      title: Contrôle de la Dureté
+      desc: "Faces de mâchoires et vis de coulisse trempées par induction à 58–62 HRC, avec dureté contrôlée vérifiée sur chaque lot avant emballage."
+    - icon: C
+      icon_bg: green
+      title: Le Serrage D'abord
+      desc: "Géométrie de la vis à filet trapézoïdal, jeu de palier et précontrainte de coulisse conçus autour d'une question : combien de cycles de serrage cet étau peut-il tenir avant que l'usure ne change la prise ?"
+
+disciplines:
+  tagline: Disciplines d'Ingénierie
+  title: "Les Cinq Questions Que les Acheteurs Devraient Poser"
+  subtitle: "Chaque discipline ci-dessous est une page complète avec le raisonnement d'ingénierie et les preuves d'usine qui le soutiennent."
+  features:
+    - icon: B
+      icon_bg: blue
+      title: Matériaux
+      desc: "Fonte vs fonte ductile vs acier forgé — ce que chaque matériau de corps signifie en rigidité, résistance aux chocs et coût, plus la bibliothèque des matériaux Stavalk."
+      link: /engineering/materials
+      link_label: "Explorer Ingénierie des Matériaux"
+    - icon: J
+      icon_bg: green
+      title: Géométrie des Mâchoires
+      desc: "Striures, faces de mâchoires trempées remplaçables, parallélisme des mâchoires et conception de coulisse qui les garde alignées sur des milliers de cycles."
+      link: /engineering/jaw-design
+      link_label: "Explorer Conception des Mâchoires"
+    - icon: F
+      icon_bg: blue
+      title: Force de Serrage
+      desc: "Comment le pas de la vis, la longueur de la poignée et la rigidité du corps se combinent pour générer et maintenir une force de serrage allant jusqu'à 8 000 lbf sur les séries lourdes."
+      link: /engineering/clamping-force
+      link_label: "Explorer Force de Serrage"
+    - icon: H
+      icon_bg: green
+      title: Traitement Thermique
+      desc: "Trempe par induction des mâchoires et des vis à 58–62 HRC, et comment la dureté contrôlée est vérifiée sur chaque lot de production."
+      link: /engineering/heat-treatment
+      link_label: "Explorer Traitement Thermique"
+
+faqs:
+  tagline: FAQ
+  title: "Questions Fréquentes sur l'Ingénierie des Étaux"
+  items:
+    - q: "Pourquoi l'ingénierie compte-t-elle plus que la liste des pièces ?"
+      a: "Deux étaux de même largeur de mâchoire peuvent se comporter complètement différemment. La force de serrage, le parallélisme des mâchoires, la douceur de la vis et la durée de vie dépendent de la nuance du matériau, des tolérances usinées, du traitement thermique et de la conception de la coulisse. Un acheteur qui compare des étaux sur le papier doit peser ces choix d'ingénierie, pas seulement les dimensions."
+    - q: "La fonte grise est-elle meilleure que la fonte ductile ou l'acier forgé ?"
+      a: "Chacune sert une classe de service. La fonte grise (HT200/HT250) offre une excellente rigidité et amortissement pour les étaux standard à un coût compétitif. La fonte ductile ajoute de la résistance aux chocs pour un usage plus dur. L'acier forgé 45# offre la plus haute résistance à la traction et est réservé aux séries industrielles lourdes où la charge et le frappage dominent."
+    - q: "Comment la dureté des mâchoires est-elle vérifiée ?"
+      a: "Chaque face de mâchoire est testée à 58–62 HRC avant emballage et les relevés sont enregistrés par lot. Les relevés de dureté, les copies de certificats et la traçabilité des lots sont disponibles sous NDA."
+    - q: "Où les étaux Stavalk sont-ils conçus et fabriqués ?"
+      a: "Conception, fonderie, usinage, traitement thermique et tests sont réalisés en interne à l'usine Stavalk de Jimo, Qingdao, Chine. Il n'y a aucune séparation conception-production entre le sol de R&D et la fonderie."
+    - q: "Stavalk peut-elle concevoir un étau personnalisé pour ma marque ?"
+      a: "Oui. Largeurs de mâchoires personnalisées, corps moulés, types de coulisse, pas de vis, matériaux de mâchoires et inserts trempés sont développés sous NDA à partir d'un cahier des charges technique. Voir les pages OEM et ODM pour le processus de coopération."
+
+evidence_review:
+  tagline: 'Preuves et Vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: "Toutes les affirmations techniques de cette section sont vérifiées par l'équipe d'Ingénierie Matériaux et Fabrication de l'usine de Jimo, Qingdao. Certificats de matériaux, rapports de dureté et d'essais structurels, registres d'inspection et traçabilité des lots disponibles sur demande. Spécifications vérifiées pour la dernière fois en 2026-09."
+
+cta:
+  title: "Parfait Ton Étau Avant de Commander"
+  subtitle: "Envoie ton idée de produit, ton dessin ou un benchmark concurrentiel à l'équipe d'ingénierie Stavalk. Nous examinons le choix des matériaux, la conception des mâchoires, les objectifs de force de serrage et la fabricabilité — et nous correspondons sous NDA avant tout échange de fichiers."
+  actions:
+    - variant: primary
+      text: Envoyer un Brief à l'Ingénierie
+      href: /contact#quality-inquiry
+    - text: Explorer la bibliothèque des matériaux
+      href: /engineering/materials
+    - text: Développement ODM depuis ton idée
+      href: /odm-development
+    - text: Visiter l'usine et le système qualité
+      href: /factory

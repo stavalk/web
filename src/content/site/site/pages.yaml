@@ -421,3 +421,69 @@
     - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: engineering
+  label: Bench Vise Engineering
+  path: /engineering
+  permalink: /engineering
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Straight Answer' }
+    - { key: pillars, type: features, label: 'Engineering Pillars' }
+    - { key: disciplines, type: features, label: 'Engineering Disciplines' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: engineering-materials
+  label: Bench Vise Materials
+  path: /engineering/materials
+  permalink: /engineering/materials
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Straight Answer' }
+    - { key: material_table, type: table, label: 'Materials Library' }
+    - { key: material_notes, type: content, label: 'Material Notes' }
+    - { key: why_materials, type: content, label: 'Why Materials Matter' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: engineering-jaw-design
+  label: Bench Vise Jaw Design
+  path: /engineering/jaw-design
+  permalink: /engineering/jaw-design
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Straight Answer' }
+    - { key: jaw_cards, type: features, label: 'Jaw Design Elements' }
+    - { key: design_rules, type: content, label: 'Design Rules' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: engineering-clamping-force
+  label: Bench Vise Clamping Force
+  path: /engineering/clamping-force
+  permalink: /engineering/clamping-force
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Straight Answer' }
+    - { key: force_sources, type: features, label: 'What Drives Clamping Force' }
+    - { key: clamp_notes, type: content, label: 'Clamping Notes' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: engineering-heat-treatment
+  label: Bench Vise Heat Treatment
+  path: /engineering/heat-treatment
+  permalink: /engineering/heat-treatment
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Straight Answer' }
+    - { key: heat_steps, type: steps, label: 'Heat Treatment Process' }
+    - { key: hardness_note, type: content, label: 'Hardness & Why It Matters' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }

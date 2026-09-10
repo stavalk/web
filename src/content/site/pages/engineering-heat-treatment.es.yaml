@@ -1,0 +1,85 @@
+meta:
+  title: 'Tratamiento Térmico de Tornamesa: Proceso de Dureza de Mordazas 58–62 HRC | Stavalk'
+  description: 'Cómo trata térmicamente Stavalk las tornamesas: endurecimiento por inducción de mordazas y tornillos a 58–62 HRC, procesamiento controlado por lotes y dureza verificada en cada lote de producción.'
+  dateModified: '2026-09-10'
+  keywords:
+    - 'tratamiento térmico tornamesa'
+    - 'endurecimiento de mordazas'
+    - 'dureza tornamesa 62 HRC'
+    - 'proceso de endurecimiento de tornamesa'
+
+hero:
+  tagline: Disciplina de Ingeniería
+  title: Tratamiento Térmico de Tornamesa
+  subtitle: 'La fundición más resistente sigue siendo blanda sin tratamiento térmico. Endurecer las caras de mordaza y el tornillo de corredera en la ventana correcta es lo que permite a una tornamesa sujetar material duro sin desgastarse.'
+  actions:
+    - variant: primary
+      text: Iniciar una especificación de endurecimiento
+      href: /contact#quality-inquiry
+    - text: Todos los temas de ingeniería
+      href: /engineering
+
+answer:
+  label: 'Respuesta directa'
+  text: 'El tratamiento térmico convierte componentes de acero y fundición mecanizados en una tornamesa funcional. Las caras de mordaza y los tornillos de corredera se endurecen por inducción a 58–62 HRC, dando a las superficies de agarre la dureza para resistir la indentación de la pieza mientras conservan suficiente tenacidad de núcleo para sobrevivir al impacto de sujeción. El endurecimiento se ejecuta en lotes controlados — cada cara de mordaza se verifica en la ventana de 58–62 HRC antes del empaque y las lecturas se registran por lote. La misma disciplina de dureza controlada aplica a los tornillos de corredera, que se endurecen y luego se someten a ciclos para verificar una sujeción suave y precisa sin agarrotamiento.'
+  verified: '2026-09'
+
+heat_steps:
+  tagline: Proceso de Tratamiento Térmico
+  title: 'De Pieza Mecanizada a Componente Endurecido'
+  subtitle: 'El proceso que Stavalk ejecuta en mordazas y tornillos de corredera en la línea de tratamiento térmico de la fábrica.'
+  steps:
+    - step: '01'
+      title: 'Endurecimiento por Inducción'
+      desc: 'La cara de mordaza o las zonas de contacto del tornillo se calientan por inducción a temperatura de austenitización y luego se templan para transformar la superficie en martensita.'
+    - step: '02'
+      title: 'Revenido'
+      desc: 'El revenido alivia las tensiones internas y fija la ventana final de dureza, equilibrando la resistencia al desgaste con la tenacidad.'
+    - step: '03'
+      title: 'Carga Controlada por Lotes'
+      desc: 'Las piezas se tratan térmicamente en horno o línea de inducción en lotes dimensionados para calentamiento uniforme, de modo que ninguna pieza de la carga quede sobre- o sub-tratada.'
+    - step: '04'
+      title: 'Verificación de Dureza'
+      desc: 'Cada cara de mordaza se prueba en la ventana de 58–62 HRC y las lecturas se registran por lote antes de pasar a ensamblaje.'
+
+hardness_note:
+  tagline: Dureza y Por Qué Importa
+  title: 'Por Qué 58–62 HRC Es la Ventana de Trabajo'
+  body: |
+    **La dureza es una especificación de desgaste, no un número de marketing.** Una cara de mordaza debe ser más dura que las piezas que agarra; si no, la pieza incrusta su propio contorno en la cara y el punto de agarre se desvía bajo carga. A 58–62 HRC, el material de mordaza endurecido GCr15/Cr12MoV resiste la indentación de material endurecido o con cascarilla, y el tornillo de corredera mantiene su flanco de rosca afilado para sostener la fuerza de sujeción durante miles de ciclos.
+
+    **Demasiado duro es tan malo como demasiado blando.** Por encima de ~62 HRC, la martensita se vuelve frágil y la pieza arriesga astillarse en los bordes ante el impacto de sujeción — exactamente cuando la mordaza está bajo carga de choque. La ventana se elige para que la superficie sea dura al desgaste mientras el núcleo y el material bajo la zona endurecida conservan tenacidad. Por eso la dureza se controla y se verifica en lugar de maximizarse.
+
+    **Los registros de lote lo hacen verificable.** El endurecimiento no es un paso invisible. Los valores de dureza se registran por lote de producción, igual que la inspección final registra fuerza de sujeción y paralelismo de mordazas, y esos registros se mantienen con trazabilidad ERP de 10 años. Un comprador puede pedir los datos de dureza de un lote específico y recibirlos — es el estándar detrás de la frase "especificado y verificado".
+
+    **El tornillo también se endurece.** Las roscas del tornillo de corredera se endurecen por inducción con la misma disciplina para que la rosca no se desgaste ni "se enrolle" con giros repetidos de alta fuerza, y el tornillo endurecido se somete a ciclos para verificar una sujeción suave y precisa sin agarrotamiento en todo el rango de apertura.
+
+faqs:
+  tagline: FAQ
+  title: 'Preguntas Frecuentes Sobre Tratamiento Térmico'
+  items:
+    - q: '¿Qué dureza alcanzan las mordazas Stavalk?'
+      a: 'Las caras de mordaza se endurecen por inducción a 58–62 HRC. Cada cara se verifica en esta ventana antes del empaque y las lecturas se registran por lote.'
+    - q: '¿Por qué no endurecer todo el cuerpo?'
+      a: 'El cuerpo necesita rigidez y tenacidad, no dureza superficial — una fundición totalmente endurecida sería frágil y costosa. El endurecimiento se aplica selectivamente a las superficies funcionales: caras de mordaza y tornillos de corredera.'
+    - q: '¿Cómo verifico la dureza en un pedido real?'
+      a: 'Los informes de prueba de dureza de tu lote de producción forman parte del paquete de documentación de calidad, junto con certificados de material, registros de fuerza de sujeción y paralelismo, y trazabilidad de lotes.'
+    - q: '¿En un proyecto OEM se puede especificar otra dureza?'
+      a: 'Sí. Los objetivos de dureza y materiales de cara (incluidos insertos blandos o sin marcado para piezas delicadas) se fijan en la revisión de ingeniería y se verifican durante el desarrollo de muestras.'
+
+evidence_review:
+  tagline: 'Evidencia y Verificación'
+  title: 'ESPECIFICACIONES VERIFICADAS'
+  body: 'Los valores de dureza y las descripciones de proceso de esta página están verificados por el Equipo de Metalurgia e Ingeniería de la planta de Jimo, Qingdao. Informes de prueba de dureza, registros de endurecimiento por lotes y trazabilidad disponibles bajo petición. Especificaciones verificadas por última vez 2026-09.'
+
+cta:
+  title: 'Fija la Dureza Antes de Comprometerte Con una Serie'
+  subtitle: 'Incluye tu objetivo de dureza y el perfil de servicio en el brief técnico y el equipo de ingeniería de Stavalk confirmará la ruta de tratamiento térmico y el plan de verificación en la etapa de muestras.'
+  actions:
+    - variant: primary
+      text: Enviar un Brief de Tratamiento Térmico
+      href: /contact#quality-inquiry
+    - text: Materiales que responden al endurecimiento
+      href: /engineering/materials
+    - text: El sistema completo de calidad y pruebas
+      href: /quality

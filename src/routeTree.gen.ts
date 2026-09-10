@@ -41,6 +41,7 @@ import { Route as FaqRouteImport } from './routes/faq'
 import { Route as FactoryAuditChecklistRouteImport } from './routes/factory-audit-checklist'
 import { Route as FactoryRouteImport } from './routes/factory'
 import { Route as EntityDotjsonRouteImport } from './routes/entity[.]json'
+import { Route as EngineeringRouteImport } from './routes/engineering'
 import { Route as SplatRouteImport } from './routes/$'
 import { Route as Char123LocaleChar125RouteRouteImport } from './routes/{-$locale}/route'
 import { Route as Char123LocaleChar125IndexRouteImport } from './routes/{-$locale}/index'
@@ -270,6 +271,11 @@ const EntityDotjsonRoute = EntityDotjsonRouteImport.update({
   path: '/entity.json',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EngineeringRoute = EngineeringRouteImport.update({
+  id: '/engineering',
+  path: '/engineering',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/engineering.lazy').then((d) => d.Route))
 const SplatRoute = SplatRouteImport.update({
   id: '/$',
   path: '/$',
@@ -562,6 +568,7 @@ const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
 export interface FileRoutesByFullPath {
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
+  '/engineering': typeof EngineeringRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
@@ -644,6 +651,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/$': typeof SplatRoute
+  '/engineering': typeof EngineeringRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
@@ -726,6 +734,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
+  '/engineering': typeof EngineeringRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
@@ -811,6 +820,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/{-$locale}'
     | '/$'
+    | '/engineering'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
@@ -893,6 +903,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/$'
+    | '/engineering'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
@@ -974,6 +985,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/{-$locale}'
     | '/$'
+    | '/engineering'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
@@ -1058,6 +1070,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   Char123LocaleChar125RouteRoute: typeof Char123LocaleChar125RouteRouteWithChildren
   SplatRoute: typeof SplatRoute
+  EngineeringRoute: typeof EngineeringRoute
   EntityDotjsonRoute: typeof EntityDotjsonRoute
   FactoryRoute: typeof FactoryRoute
   FactoryAuditChecklistRoute: typeof FactoryAuditChecklistRoute
@@ -1327,6 +1340,13 @@ declare module '@tanstack/react-router' {
       path: '/entity.json'
       fullPath: '/entity.json'
       preLoaderRoute: typeof EntityDotjsonRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/engineering': {
+      id: '/engineering'
+      path: '/engineering'
+      fullPath: '/engineering'
+      preLoaderRoute: typeof EngineeringRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/$': {
@@ -1804,6 +1824,7 @@ const Char123LocaleChar125RouteRouteWithChildren =
 const rootRouteChildren: RootRouteChildren = {
   Char123LocaleChar125RouteRoute: Char123LocaleChar125RouteRouteWithChildren,
   SplatRoute: SplatRoute,
+  EngineeringRoute: EngineeringRoute,
   EntityDotjsonRoute: EntityDotjsonRoute,
   FactoryRoute: FactoryRoute,
   FactoryAuditChecklistRoute: FactoryAuditChecklistRoute,

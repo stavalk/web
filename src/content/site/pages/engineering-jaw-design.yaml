@@ -1,0 +1,89 @@
+meta:
+  title: 'Bench Vise Jaw Design — Geometry, Hardened Faces & Parallelism | Stavalk'
+  description: 'How bench vise jaw geometry works: replaceable hardened jaw faces at 58–62 HRC, precision-mounted for parallelism, serrations and slide alignment across the Stavalk range.'
+  dateModified: '2026-09-10'
+  keywords:
+    - 'bench vise jaw design'
+    - 'bench vise jaws'
+    - 'hardened vise jaws'
+    - 'vise jaw parallelism'
+
+hero:
+  tagline: Engineering Discipline
+  title: Bench Vise Jaw Design
+  subtitle: 'A vise clamps with its jaws. Jaw material, face pattern, mounting and parallelism decide whether work is held firmly without marking — and whether that stays true for years.'
+  actions:
+    - variant: primary
+      text: Design jaws for your product
+      href: /contact#quality-inquiry
+    - text: All engineering topics
+      href: /engineering
+
+answer:
+  label: 'Straight answer'
+  text: 'Good jaw design is three things. First, the gripping face: hardened steel or hardened cast surfaces that resist wear and embed instead of crushing the workpiece. Second, the mounting: replaceable jaw faces bolted to a ductile-iron or steel jaw holder, so a worn or damaged face is swapped instead of scrapping the body. Third, parallelism: jaw faces CNC-machined and slide-aligned to remain parallel through the full opening range, so clamping force distributing evenly instead of pressing hardest on one edge. Every Stavalk jaw face is hardness-tested to 58–62 HRC and every batch is checked before packing.'
+  verified: '2026-09'
+
+jaw_cards:
+  tagline: Jaw Design Elements
+  title: What Goes Into a Jaw Assembly
+  subtitle: 'Each element answers one question about how well the vise grips.'
+  features:
+    - icon: J
+      icon_bg: blue
+      title: Face Material & Hardness
+      desc: 'Hardened GCr15/Cr12MoV faces, induction-hardened to 58–62 HRC, resist workpiece indentation and wear. On cast-bodied series the jaws are hardened inserts; on forged-steel series the jaws reach up to 62 HRC.'
+    - icon: S
+      icon_bg: green
+      title: Serration & Grip Pattern
+      desc: 'Cross-hatched or diamond serrations bite into metal for a positive grip while keeping marks shallow. Finer patterns are specified for precision and softer workpieces.'
+    - icon: R
+      icon_bg: blue
+      title: Replaceable Mounting
+      desc: 'Jaw faces mount to the jaw holder with machine screws, making a worn face a service item rather than a body defect — on all series with replaceable hardened jaws.'
+    - icon: P
+      icon_bg: green
+      title: Parallelism & Slide Alignment
+      desc: 'Jaw faces are CNC-machined and the slide channels, guides and dovetail are aligned to hold the moving jaw square through the full opening — verified by parallel-face checks on every batch.'
+
+design_rules:
+  tagline: Design Rules
+  title: Why Jaw Geometry Decides Grip Quality
+  body: |
+    **Parallelism is the invisible specification.** When a moving jaw travels along a slide that is machined at 0.05 mm positional accuracy, the two faces stay parallel from fully closed to fully open. Workpiece contact is then even across the full face, clamping force is distributed uniformly, and thin or tall parts do not squeeze out under load. A misaligned slide concentrates force on one edge — the part tilts, slips, or the vise body is stressed unevenly.
+
+    **Hardness protects both work and vise.** A jaw face harder than the workpiece embeds slightly and grips without gouging. If the face is too soft, it deforms and the grip point moves under load; if faces are brittle, edges chip on impact. The 58–62 HRC window is a careful compromise: hard enough to hold a worn or hardened workpiece, tough enough to survive clamping shock.
+
+    **Replaceable faces change the cost of ownership.** On vises with cast-in jaw surfaces, the first serious impact to a jaw edge can devalue the whole body. Replaceable hardened jaws mean a damaged face is a small, standardized replacement part — the reason replaceable jaw sets are standard across the Stavalk range and available for brand re-branding.
+
+    **Serration pattern is load-specific.** Aggressive diamond serration grips round and scaled stock; fine cross-hatch is preferred for machined and softer parts where surface finish matters. The pattern is one of the customization points in an OEM jaw design brief.
+
+faqs:
+  tagline: FAQ
+  title: Frequently Asked Questions About Jaw Design
+  items:
+    - q: 'Why are Stavalk jaws hardened to 58–62 HRC?'
+      a: 'This window gives the jaw face the hardness to resist workpiece indentation and wear while keeping enough toughness to absorb clamping impact without chipping. Hardness is verified on every batch before packing.'
+    - q: 'Can jaw faces be replaced?'
+      a: 'Yes. Replaceable hardened jaw sets are standard on the Stavalk range, mounted with machine screws. A worn or damaged face is a service part, not a reason to replace the body.'
+    - q: 'What jaw options are available in an OEM project?'
+      a: 'Custom serration patterns, jaw widths, jaw face materials (including bronze or soft inserts for delicate work) and branded jaw plates can all be specified in the engineering brief.'
+    - q: 'How is jaw parallelism verified?'
+      a: 'Jaw faces are checked for squareness and parallelism during assembly, and the same fixtures are used for the final inspection before packing. Parallelism records and inspection reports are available on request.'
+
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'VERIFIED SPECIFICATIONS'
+  body: 'Jaw hardness, serration and parallelism values on this page are verified by the Quality and Engineering Team at the Jimo, Qingdao plant. Hardness reports, parallelism inspection records and batch traceability are available on request. Specifications last verified 2026-09.'
+
+cta:
+  title: 'Specify the Jaw Your Product Needs'
+  subtitle: 'Share the workpieces, the gripping requirement and the brand position, and the Stavalk engineering team will design the jaw geometry, face material and serration pattern for your series.'
+  actions:
+    - variant: primary
+      text: Brief the Engineering Team
+      href: /contact#quality-inquiry
+    - text: Materials that make the body
+      href: /engineering/materials
+    - text: How clamping force is generated
+      href: /engineering/clamping-force

@@ -1,0 +1,106 @@
+meta:
+  title: 'Bench Vise Materials — Cast Iron vs Ductile Iron vs Forged Steel | Stavalk'
+  description: 'Stavalk bench vise materials library: gray cast iron (HT200/HT250), ductile iron and 45# forged steel compared by strength, hardness, impact resistance and typical use.'
+  dateModified: '2026-09-10'
+  keywords:
+    - 'bench vise materials'
+    - 'cast iron vs ductile iron vise'
+    - 'forged steel bench vise'
+    - 'vise body material'
+
+hero:
+  tagline: Engineering Discipline
+  title: Bench Vise Materials
+  subtitle: 'The body is the whole vise. Its material grade decides rigidity, weight, impact resistance and price — which is why material selection is the first engineering decision on every Stavalk bench vise.'
+  actions:
+    - variant: primary
+      text: Discuss material selection
+      href: /contact#quality-inquiry
+    - text: All engineering topics
+      href: /engineering
+
+answer:
+  label: 'Straight answer'
+  text: 'Three body materials cover the vise spectrum. Gray cast iron in HT200 and HT250 grades gives standard bench vises the rigidity and vibration dampening they need at the most competitive cost. Ductile iron adds impact resilience for shop and trade use where drops and heavy workpieces are common. 45# forged steel delivers the highest tensile strength and is reserved for heavy-duty industrial series, where clamping force reaches thousands of pounds and the body must not flex or fatigue. Stavalk selects the grade per duty class and verifies casting microstructure, hardness and machinability on every batch.'
+  verified: '2026-09'
+
+material_table:
+  tagline: 'Materials Library'
+  title: 'Stavalk Bench Vise Body Materials'
+  subtitle: 'Engineering values confirmed by the Material Engineering Team at the Jimo, Qingdao plant.'
+  headers:
+    material: Material
+    strength: Strength & Rigidity
+    hardness: Hardness
+    impact: Impact Resistance
+    cost: Relative Cost
+    use: Typical Use
+  rows:
+    - material: 'Gray Cast Iron (HT200/HT250)'
+      strength: 'Excellent compressive rigidity; high dampening of vibration'
+      hardness: 'Moderate (cast structure, as-cast or normalized)'
+      impact: 'Low to moderate — brittle under sharp impacts'
+      cost: 'Low (most economical)'
+      use: 'Standard light and medium bench vises'
+    - material: 'Ductile Iron (e.g. QT450)'
+      strength: 'High tensile strength; good rigidity'
+      hardness: 'Moderate to high'
+      impact: 'Good — absorbs impacts without cracking'
+      cost: 'Moderate'
+      use: 'Shop, trade and light-industrial vises'
+    - material: '45# Forged Steel'
+      strength: 'Highest tensile strength; minimal flex under load'
+      hardness: 'High (heat-treated)'
+      impact: 'Excellent — forged grain structure resists shock'
+      cost: 'High'
+      use: 'Heavy-duty industrial and striking-duty vises'
+
+material_notes:
+  tagline: Material Notes
+  title: How Each Grade Is Selected
+  body: |
+    **Gray cast iron — the standard.** HT200 and HT250 bodies are sand-cast in our own foundry, then normalized and stress-relieved. They give a bench vise the rigid, vibration-dampening body that holds work without "ringing", at a price that keeps standard series affordable. This is the most common body material for light and medium vises.
+
+    **Ductile iron — for impact exposure.** Ductile iron has graphite nodules instead of flakes, which stop cracks from propagating. When a vise is used in busy shops, dropped, or takes off-axis loads, ductile iron resists chipping at edges and stress risers better than gray iron. We specify it for trade and light-industrial series that see harder daily use.
+
+    **45# forged steel — for the heavy duty.** Forging 45# steel produces a denser, grain-aligned structure than casting. Combined with heat treatment it gives the tensile strength to sustain clamping forces in the multi-thousand-pound range without the body flexing — the reason our heavy-duty series with fixed anvil plates is built from forged steel, with jaws hardened up to 62 HRC and a replaceable screw assembly.
+
+why_materials:
+  tagline: Why It Matters
+  title: Why Body Material Determines How a Vise Feels
+  body: |
+    Jaw width is the number printed on a vise; the body material is what a user actually feels. A gray-iron body resists bending when you clamp a large workpiece with the handle at full travel; a forged-steel body lets a heavy series develop force that would twist a lighter casting. Material also drives failure mode: brittle gray iron fails by cracking under sharp impacts, ductile iron and forged steel deform before they break — so the buyer can see a problem before a catastrophic failure.
+
+    Material choice also interacts with machining. Gray iron machines cleanly to tight tolerances and self-lubricating surfaces, which is why the slide channels and guides are precision-machined to 0.05 mm positional accuracy. Forged steel requires heavier machinery but rewards it with a longer-wearing slide.
+
+    If you are comparing vises of the same nominal size from different factories, ask which material grade the body actually is — identical jaw widths are not identical products.
+
+faqs:
+  tagline: FAQ
+  title: Frequently Asked Questions About Vise Materials
+  items:
+    - q: 'Is cast iron or ductile iron better for a bench vise?'
+      a: 'For standard bench use, gray cast iron is the proven, most economical choice — rigid, dampening and stable. If the vise will face hard shop conditions, dropped loads or off-axis force, ductile iron resists impact damage better. Both are used across the Stavalk range according to duty class.'
+    - q: 'Which Stavalk vises use forged steel?'
+      a: 'The heavy-duty series with fixed anvil plates is forged from 45# steel for maximum tensile strength, impact resistance and clamping capacity (up to 8,000 lbf on the largest units), with jaws hardened up to 62 HRC.'
+    - q: 'How is the material grade verified?'
+      a: 'Material certificates accompany each casting batch, covering chemical composition and mechanical properties. Certificate copies, hardness records and batch traceability are available on request under NDA.'
+    - q: 'Can a custom vise use a different material?'
+      a: 'Yes. Custom body castings, ductile iron upgrades and forged-steel bodies are developed through the OEM/ODM process. Material selection is finalized at the engineering review before tooling begins.'
+
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'VERIFIED SPECIFICATIONS'
+  body: 'Material grades and mechanical values on this page are verified by the Material Engineering Team at the Jimo, Qingdao plant. Material certificates, microstructure records and hardness reports are available on request. Specifications last verified 2026-09.'
+
+cta:
+  title: 'Not Sure Which Material Fits Your Vise?'
+  subtitle: 'Describe the duty, the workpieces and the target price and the Stavalk engineering team will recommend the body material, grade and manufacturing route — before any tooling is committed.'
+  actions:
+    - variant: primary
+      text: Ask Engineering About Materials
+      href: /contact#quality-inquiry
+    - text: Jaw design engineering
+      href: /engineering/jaw-design
+    - text: Compare OEM, ODM and Private Label
+      href: /oem-odm-private-label-comparison

@@ -1,0 +1,85 @@
+meta:
+  title: "Traitement Thermique d'Étau — Processus de Dureté des Mâchoires 58–62 HRC | Stavalk"
+  description: "Comment Stavalk traite thermiquement ses étaux : trempe par induction des mâchoires et des vis à 58–62 HRC, traitement contrôlé par lots et dureté vérifiée sur chaque lot de production."
+  dateModified: '2026-09-10'
+  keywords:
+    - "traitement thermique d'étau"
+    - "trempe des mâchoires"
+    - "dureté étau 62 HRC"
+    - "processus de trempe d'étau"
+
+hero:
+  tagline: Discipline d'Ingénierie
+  title: "Traitement Thermique d'Étau"
+  subtitle: "La fonte la plus résistante reste tendre sans traitement thermique. Tremper les faces de mâchoires et la vis de coulisse dans la bonne fenêtre de dureté est ce qui permet à un étau de serrer du matériau dur sans s'user."
+  actions:
+    - variant: primary
+      text: Démarrer une spécification de trempe
+      href: /contact#quality-inquiry
+    - text: Tous les sujets d'ingénierie
+      href: /engineering
+
+answer:
+  label: 'Réponse directe'
+  text: "Le traitement thermique transforme des composants usinés en acier et en fonte en un étau fonctionnel. Les faces de mâchoires et les vis de coulisse sont trempées par induction à 58–62 HRC, donnant aux surfaces de prise la dureté pour résister à l'indentation de la pièce tout en conservant assez de ténacité de cœur pour survivre au choc de serrage. La trempe est exécutée en lots contrôlés — chaque face de mâchoire est vérifiée dans la fenêtre de 58–62 HRC avant emballage et les relevés sont enregistrés par lot. La même discipline de dureté contrôlée s'applique aux vis de coulisse, qui sont trempées puis cyclées pour vérifier un serrage doux et précis, sans grippage."
+  verified: '2026-09'
+
+heat_steps:
+  tagline: Processus de Traitement Thermique
+  title: "De Pièce Usinée à Composant Trempé"
+  subtitle: "Le processus que Stavalk exécute sur les mâchoires et les vis de coulisse dans la ligne de traitement thermique de l'usine."
+  steps:
+    - step: '01'
+      title: 'Trempe par Induction'
+      desc: "La face de mâchoire ou les zones de contact de la vis sont chauffées par induction à la température d'austénitisation, puis trempées pour transformer la surface en martensite."
+    - step: '02'
+      title: 'Revenu'
+      desc: "Le revenu supprime les contraintes internes et fixe la fenêtre finale de dureté, en équilibrant la résistance à l'usure et la ténacité."
+    - step: '03'
+      title: "Chargement Contrôlé par Lots"
+      desc: "Les pièces sont traitées au four ou en ligne d'induction en lots dimensionnés pour un chauffage uniforme, afin qu'aucune pièce de la charge ne soit sur- ou sous-traitée."
+    - step: '04'
+      title: 'Vérification de la Dureté'
+      desc: "Chaque face de mâchoire est testée dans la fenêtre de 58–62 HRC et les relevés sont enregistrés par lot avant le passage à l'assemblage."
+
+hardness_note:
+  tagline: 'Dureté et Pourquoi Cela Compte'
+  title: "Pourquoi 58–62 HRC Est la Fenêtre de Travail"
+  body: |
+    **La dureté est une spécification d'usure, pas un chiffre marketing.** Une face de mâchoire doit être plus dure que les pièces qu'elle saisit ; sinon, la pièce incruste son propre contour dans la face et le point de prise dérive sous charge. À 58–62 HRC, le matériau de mâchoire trempé GCr15/Cr12MoV résiste à l'indentation par un matériau trempé ou avec calamine, et la vis de coulisse garde son flanc de filet assez vif pour tenir la force de serrage sur des milliers de cycles.
+
+    **Trop dur est aussi mauvais que trop doux.** Au-dessus d'environ 62 HRC, la martensite devient fragile et la pièce risque de s'écailler sur les bords au choc de serrage — exactement quand la mâchoire est sous charge de choc. La fenêtre est choisie pour que la surface soit dure à l'usure tandis que le cœur et le matériau sous la zone trempée gardent la ténacité. C'est pourquoi la dureté est contrôlée et vérifiée plutôt que maximisée.
+
+    **Les registres de lots la rendent vérifiable.** La trempe n'est pas une étape invisible. Les valeurs de dureté sont enregistrées par lot de production, de la même façon que l'inspection finale enregistre la force de serrage et le parallélisme des mâchoires, et ces registres sont conservés avec une traçabilité ERP de 10 ans. Un acheteur peut demander les données de dureté d'un lot spécifique et les recevoir — c'est le standard derrière l'expression « spécifié et vérifié ».
+
+    **La vis est trempée aussi.** Les filets de la vis de coulisse sont trempés par induction avec la même discipline pour que le filet ne s'use pas ni ne « s'écrase » sous des tours répétés à force élevée, et la vis trempée est cyclée pour vérifier un serrage doux et précis, sans grippage sur toute la course d'ouverture.
+
+faqs:
+  tagline: FAQ
+  title: "Questions Fréquentes sur le Traitement Thermique"
+  items:
+    - q: "Quelle dureté les mâchoires Stavalk atteignent-elles ?"
+      a: "Les faces de mâchoires sont trempées par induction à 58–62 HRC. Chaque face est vérifiée dans cette fenêtre avant emballage et les relevés sont enregistrés par lot."
+    - q: "Pourquoi ne pas tremper tout le corps ?"
+      a: "Le corps a besoin de rigidité et de ténacité, pas de dureté de surface — une fonte entièrement trempée serait fragile et coûteuse. La trempe est appliquée sélectivement aux surfaces fonctionnelles : faces de mâchoires et vis de coulisse."
+    - q: "Comment vérifier la dureté sur une vraie commande ?"
+      a: "Les rapports d'essais de dureté de votre lot de production font partie du dossier de documentation qualité, avec les certificats de matériaux, les relevés de force de serrage et de parallélisme, et la traçabilité des lots."
+    - q: "Une autre dureté peut-elle être spécifiée dans un projet OEM ?"
+      a: "Oui. Les cibles de dureté et les matériaux de face (y compris des inserts tendres ou sans marquage pour les pièces délicates) sont fixés à la revue d'ingénierie et vérifiés pendant le développement des échantillons."
+
+evidence_review:
+  tagline: 'Preuves et Vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: "Les valeurs de dureté et les descriptions de processus de cette page sont vérifiées par l'équipe Métallurgie et Ingénierie de l'usine de Jimo, Qingdao. Rapports d'essais de dureté, registres de trempe par lots et traçabilité disponibles sur demande. Spécifications vérifiées pour la dernière fois en 2026-09."
+
+cta:
+  title: "Fixe la Dureté Avant de T'Engager sur une Série"
+  subtitle: "Incluez votre cible de dureté et votre profil de service dans le cahier des charges technique et l'équipe d'ingénierie Stavalk confirmera la voie de traitement thermique et le plan de vérification à l'étape des échantillons."
+  actions:
+    - variant: primary
+      text: Envoyer un Brief de Traitement Thermique
+      href: /contact#quality-inquiry
+    - text: Les matériaux qui répondent à la trempe
+      href: /engineering/materials
+    - text: Le système complet qualité et essais
+      href: /quality

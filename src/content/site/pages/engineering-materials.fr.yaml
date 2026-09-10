@@ -1,0 +1,106 @@
+meta:
+  title: "Matériaux d'Étau — Fonte vs Fonte Ductile vs Acier Forgé | Stavalk"
+  description: "Bibliothèque des matériaux d'étaux Stavalk : fonte grise (HT200/HT250), fonte ductile et acier forgé 45# comparés en résistance, dureté, résistance aux chocs et usage typique."
+  dateModified: '2026-09-10'
+  keywords:
+    - "matériaux d'étau"
+    - "fonte vs fonte ductile étau"
+    - "étau en acier forgé"
+    - "matériau du corps d'étau"
+
+hero:
+  tagline: Discipline d'Ingénierie
+  title: "Matériaux d'Étau"
+  subtitle: "Le corps est tout l'étau. La nuance de son matériau décide de la rigidité, du poids, de la résistance aux chocs et du prix — c'est pourquoi le choix du matériau est la première décision d'ingénierie sur chaque étau Stavalk."
+  actions:
+    - variant: primary
+      text: Discuter le choix du matériau
+      href: /contact#quality-inquiry
+    - text: Tous les sujets d'ingénierie
+      href: /engineering
+
+answer:
+  label: 'Réponse directe'
+  text: "Trois matériaux de corps couvrent le spectre des étaux. La fonte grise en nuances HT200 et HT250 donne aux étaux standard la rigidité et l'amortissement des vibrations dont ils ont besoin au coût le plus compétitif. La fonte ductile ajoute de la résistance aux chocs pour un usage en atelier et en commerce où les chutes et les pièces lourdes sont courantes. L'acier forgé 45# offre la plus haute résistance à la traction et est réservé aux séries industrielles lourdes, où la force de serrage atteint des milliers de livres et où le corps ne doit ni fléchir ni se fatiguer. Stavalk sélectionne la nuance par classe de service et vérifie la microstructure de fonderie, la dureté et l'usinabilité sur chaque lot."
+  verified: '2026-09'
+
+material_table:
+  tagline: 'Bibliothèque des Matériaux'
+  title: "Matériaux du Corps des Étaux Stavalk"
+  subtitle: "Valeurs techniques confirmées par l'équipe d'Ingénierie des Matériaux de l'usine de Jimo, Qingdao."
+  headers:
+    material: Matériau
+    strength: Résistance et Rigidité
+    hardness: Dureté
+    impact: Résistance aux Chocs
+    cost: Coût Relatif
+    use: Usage Typique
+  rows:
+    - material: 'Fonte grise (HT200/HT250)'
+      strength: 'Excellente rigidité en compression ; fort amortissement des vibrations'
+      hardness: 'Modérée (structure moulée)'
+      impact: 'Faible à modérée — fragile aux chocs vifs'
+      cost: 'Faible (le plus économique)'
+      use: "Étaux d'établis standard légers et moyens"
+    - material: 'Fonte ductile (p. ex. QT450)'
+      strength: 'Haute résistance à la traction ; bonne rigidité'
+      hardness: 'Modérée à élevée'
+      impact: "Bonne — absorbe les chocs sans fissurer"
+      cost: 'Modéré'
+      use: "Étaux d'atelier, de commerce et d'industrie légère"
+    - material: 'Acier forgé 45#'
+      strength: 'Plus haute résistance à la traction ; flexion minimale sous charge'
+      hardness: 'Élevée (traité thermiquement)'
+      impact: 'Excellente — la structure forgée résiste aux chocs'
+      cost: 'Élevé'
+      use: 'Étaux industriels lourds et étaux à enclume'
+
+material_notes:
+  tagline: Notes sur les Matériaux
+  title: "Comment Chaque Nuance Est Choisie"
+  body: |
+    **La fonte grise — le standard.** Les corps HT200 et HT250 sont moulés au sable dans notre propre fonderie, puis normalisés et détensionnés. Ils donnent à l'étau un corps rigide et amortissant qui tient la pièce sans « sonner », à un prix qui garde les séries standard abordables. C'est le matériau de corps le plus courant pour les étaux légers et moyens.
+
+    **La fonte ductile — pour l'exposition aux chocs.** La fonte ductile a des nodules de graphite au lieu de lamelles, qui arrêtent la propagation des fissures. Quand un étau est utilisé dans des ateliers actifs, tombe ou subit des charges hors axe, la fonte ductile résiste mieux à l'écaillage des bords et des concentrateurs de contraintes que la fonte grise. Nous la spécifions pour les séries de commerce et d'industrie légère soumises à un usage quotidien plus dur.
+
+    **L'acier forgé 45# — pour le service lourd.** Forger l'acier 45# produit une structure plus dense et alignée sur le grain que le moulage. Combiné au traitement thermique, il donne la résistance à la traction pour soutenir des forces de serrage de plusieurs milliers de livres sans que le corps ne fléchisse — la raison pour laquelle notre série lourde à enclumes fixes est construite en acier forgé, avec des mâchoires trempées jusqu'à 62 HRC et un ensemble vis remplaçable.
+
+why_materials:
+  tagline: Pourquoi C'est Important
+  title: "Pourquoi le Matériau du Corps Détermine la Sensation d'un Étau"
+  body: |
+    La largeur de mâchoire est le chiffre imprimé sur l'étau ; le matériau du corps est ce que l'utilisateur ressent réellement. Un corps en fonte résiste à la flexion quand vous serrez une grande pièce à pleine course de poignée ; un corps en acier forgé permet à une série lourde de développer une force qui tordrait une fonte plus légère. Le matériau détermine aussi le mode de défaillance : la fonte grise cassante cède par fissuration sous les chocs vifs, la fonte ductile et l'acier forgé se déforment avant de rompre — l'acheteur voit un problème avant une défaillance catastrophique.
+
+    Le choix du matériau interagit aussi avec l'usinage. La fonte grise s'usine proprement à des tolérances serrées avec des surfaces autolubrifiantes, c'est pourquoi les rainures et glissières de coulisse sont usinées à 0,05 mm de précision de position. L'acier forgé exige des machines plus lourdes mais récompense avec une coulisse qui s'use plus lentement.
+
+    Si vous comparez des étaux de même taille nominale de différentes usines, demandez quelle nuance de matériau est réellement le corps — des largeurs de mâchoires identiques ne sont pas des produits identiques.
+
+faqs:
+  tagline: FAQ
+  title: "Questions Fréquentes sur les Matériaux d'Étau"
+  items:
+    - q: "La fonte ou la fonte ductile est-elle meilleure pour un étau ?"
+      a: "Pour un usage standard, la fonte grise est le choix éprouvé et le plus économique — rigide, amortissant et stable. Si l'étau affrontera des conditions d'atelier dures, des chutes ou des forces hors axe, la fonte ductile résiste mieux aux dommages par impact. Les deux sont utilisées dans la gamme Stavalk selon la classe de service."
+    - q: "Quels étaux Stavalk utilisent de l'acier forgé ?"
+      a: "La série lourde à enclumes fixes est forgée en acier 45# pour une résistance à la traction, une résistance aux chocs et une capacité de serrage maximales (jusqu'à 8 000 lbf sur les plus grandes unités), avec des mâchoires trempées jusqu'à 62 HRC."
+    - q: "Comment la nuance du matériau est-elle vérifiée ?"
+      a: "Les certificats de matériaux accompagnent chaque lot de fonderie, couvrant la composition chimique et les propriétés mécaniques. Copies de certificats, relevés de dureté et traçabilité des lots disponibles sous NDA."
+    - q: "Un étau personnalisé peut-il utiliser un autre matériau ?"
+      a: "Oui. Des corps moulés personnalisés, des mises à niveau en fonte ductile et des corps en acier forgé sont développés via le processus OEM/ODM. Le choix du matériau est figé à la revue d'ingénierie avant le début de l'outillage."
+
+evidence_review:
+  tagline: 'Preuves et Vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: "Les nuances de matériaux et les valeurs mécaniques de cette page sont vérifiées par l'équipe d'Ingénierie des Matériaux de l'usine de Jimo, Qingdao. Certificats de matériaux, registres de microstructure et rapports de dureté disponibles sur demande. Spécifications vérifiées pour la dernière fois en 2026-09."
+
+cta:
+  title: "Pas Sûr de Quel Matériau Convient à Ton Étau ?"
+  subtitle: "Décris le service, les pièces de travail et le prix cible et l'équipe d'ingénierie Stavalk recommandera le matériau du corps, la nuance et la route de fabrication — avant de s'engager sur le moindre outillage."
+  actions:
+    - variant: primary
+      text: Demander à l'Ingénierie sur les Matériaux
+      href: /contact#quality-inquiry
+    - text: Ingénierie de conception des mâchoires
+      href: /engineering/jaw-design
+    - text: Comparer OEM, ODM et Marque Privée
+      href: /oem-odm-private-label-comparison

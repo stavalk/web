@@ -1,0 +1,89 @@
+meta:
+  title: "Conception des Mâchoires d'Étau — Géométrie, Faces Trempées, Parallélisme | Stavalk"
+  description: "Comment fonctionne la géométrie des mâchoires : faces trempées remplaçables à 58–62 HRC, montées avec précision pour le parallélisme, striures et alignement de coulisse dans la gamme Stavalk."
+  dateModified: '2026-09-10'
+  keywords:
+    - "conception de mâchoires d'étau"
+    - "mâchoires d'étau"
+    - "mâchoires d'étau trempées"
+    - "parallélisme des mâchoires"
+
+hero:
+  tagline: Discipline d'Ingénierie
+  title: "Conception des Mâchoires d'Étau"
+  subtitle: "Un étau serre avec ses mâchoires. Le matériau de la mâchoire, le motif de la face, le montage et le parallélisme décident si la pièce est tenue fermement sans être marquée — et si cela reste vrai pendant des années."
+  actions:
+    - variant: primary
+      text: Concevoir des mâchoires pour ton produit
+      href: /contact#quality-inquiry
+    - text: Tous les sujets d'ingénierie
+      href: /engineering
+
+answer:
+  label: 'Réponse directe'
+  text: "Une bonne conception de mâchoires repose sur trois choses. D'abord, la face de prise : des surfaces en acier trempé ou en fonte trempée qui résistent à l'usure et s'incrustent au lieu d'écraser la pièce. Ensuite, le montage : des faces remplaçables boulonnées à un support de mâchoire en fonte ductile ou en acier, pour qu'une face usée ou endommagée soit changée au lieu de jeter le corps. Enfin, le parallélisme : des faces usinées par CNC et alignées par la coulisse pour rester parallèles sur toute la course d'ouverture, distribuant la force de serrage au lieu de presser davantage sur un bord. Chaque face de mâchoire Stavalk est vérifiée à 58–62 HRC et chaque lot est contrôlé avant emballage."
+  verified: '2026-09'
+
+jaw_cards:
+  tagline: Éléments de Conception des Mâchoires
+  title: "Ce Que Contient un Ensemble de Mâchoires"
+  subtitle: "Chaque élément répond à une question sur la qualité de la prise."
+  features:
+    - icon: J
+      icon_bg: blue
+      title: "Matériau et Dureté de la Face"
+      desc: "Des faces trempées GCr15/Cr12MoV, trempées par induction à 58–62 HRC, résistent à l'indentation et à l'usure. Sur les séries à corps moulé, les mâchoires sont des inserts trempés ; sur les séries en acier forgé, elles atteignent jusqu'à 62 HRC."
+    - icon: S
+      icon_bg: green
+      title: "Striures et Motif de Prise"
+      desc: "Des striures croisées ou en losange mordent le métal pour une prise positive tout en gardant des marques peu profondes. Des motifs plus fins sont spécifiés pour les travaux de précision et les pièces plus tendres."
+    - icon: R
+      icon_bg: blue
+      title: "Montage Remplaçable"
+      desc: "Les faces se montent sur le support de mâchoire avec des vis mécaniques, faisant d'une face usée un article de service plutôt qu'un défaut du corps — sur toutes les séries à mâchoires trempées remplaçables."
+    - icon: P
+      icon_bg: green
+      title: "Parallélisme et Alignement de Coullisse"
+      desc: "Les faces sont usinées par CNC et les rainures, glissières et queue d'aronde sont alignées pour garder la mâchoire mobile d'équerre sur toute l'ouverture — vérifié par des contrôles de faces parallèles sur chaque lot."
+
+design_rules:
+  tagline: Règles de Conception
+  title: "Pourquoi la Géométrie des Mâchoires Décide la Qualité de la Prise"
+  body: |
+    **Le parallélisme est la spécification invisible.** Quand une mâchoire mobile parcourt une coulisse usinée à 0,05 mm de précision de position, les deux faces restent parallèles de fermée à complètement ouverte. Le contact avec la pièce est alors uniforme sur toute la face, la force de serrage est répartie équitablement, et les pièces fines ou hautes ne s'échappent pas sous charge. Une coulisse désalignée concentre la force sur un bord — la pièce bascule, glisse, ou le corps est contraint de façon inégale.
+
+    **La dureté protège la pièce et l'étau.** Une face plus dure que la pièce s'incruste légèrement et saisit sans labourer. Si la face est trop molle, elle se déforme et le point de prise bouge sous charge ; si elle est fragile, les bords s'écaillent sous impact. La fenêtre de 58–62 HRC est un compromis soigneux : assez dure pour tenir une pièce trempée ou avec calamine, assez tenace pour survivre au choc de serrage.
+
+    **Les faces remplaçables changent le coût de possession.** Sur les étaux à mâchoires moulées dans le corps, le premier choc sérieux sur un bord peut dévaloriser tout le corps. Des mâchoires trempées remplaçables signifient qu'une face endommagée est une petite pièce de rechange standardisée — la raison pour laquelle les jeux de mâchoires remplaçables sont standard dans la gamme Stavalk et disponibles pour re-marquage.
+
+    **Le motif de striures est spécifique à la charge.** La striure agressive en losange saisit les barres rondes et avec calamine ; la croix fine est préférée pour les pièces usinées et tendres où l'état de surface compte. Le motif est l'un des points de personnalisation d'un cahier des charges de conception de mâchoires OEM.
+
+faqs:
+  tagline: FAQ
+  title: "Questions Fréquentes sur la Conception des Mâchoires"
+  items:
+    - q: "Pourquoi les mâchoires Stavalk sont-elles trempées à 58–62 HRC ?"
+      a: "Cette fenêtre donne à la face la dureté pour résister à l'indentation de la pièce et à l'usure, tout en gardant assez de ténacité pour absorber le choc de serrage sans s'écailler. La dureté est vérifiée sur chaque lot avant emballage."
+    - q: "Les faces de mâchoires peuvent-elles être remplacées ?"
+      a: "Oui. Les jeux de mâchoires trempées remplaçables sont standard dans la gamme Stavalk, montés avec des vis mécaniques. Une face usée ou endommagée est une pièce de service, pas une raison de remplacer le corps."
+    - q: "Quelles options de mâchoires existent dans un projet OEM ?"
+      a: "Des motifs de striures personnalisés, des largeurs de mâchoires, des matériaux de face (y compris des inserts en bronze ou tendres pour les pièces délicates) et des plaques de mâchoires à votre marque peuvent être spécifiés dans le cahier des charges technique."
+    - q: "Comment le parallélisme des mâchoires est-il vérifié ?"
+      a: "Les faces sont contrôlées pour l'équerrage et le parallélisme à l'assemblage, et les mêmes gabarits sont utilisés pour l'inspection finale avant emballage. Les relevés de parallélisme et les rapports d'inspection sont disponibles sur demande."
+
+evidence_review:
+  tagline: 'Preuves et Vérification'
+  title: 'SPÉCIFICATIONS VÉRIFIÉES'
+  body: "Les valeurs de dureté des mâchoires, de striure et de parallélisme de cette page sont vérifiées par l'équipe Qualité et Ingénierie de l'usine de Jimo, Qingdao. Rapports de dureté, registres d'inspection du parallélisme et traçabilité des lots disponibles sur demande. Spécifications vérifiées pour la dernière fois en 2026-09."
+
+cta:
+  title: "Spécifie la Mâchoire Dont Ton Produit a Besoin"
+  subtitle: "Partage les pièces de travail, l'exigence de prise et le positionnement de marque, et l'équipe d'ingénierie Stavalk concevra la géométrie, le matériau de face et le motif de striures de ta série."
+  actions:
+    - variant: primary
+      text: Envoyer un Brief à l'Équipe d'Ingénierie
+      href: /contact#quality-inquiry
+    - text: Les matériaux qui font le corps
+      href: /engineering/materials
+    - text: Comment la force de serrage est générée
+      href: /engineering/clamping-force

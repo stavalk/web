@@ -1,0 +1,85 @@
+meta:
+  title: 'Bench Vise Heat Treatment — Jaw Hardness 58–62 HRC Process | Stavalk'
+  description: 'How Stavalk heat-treats bench vises: induction hardening of jaws and screws to 58–62 HRC, controlled batch processing and verified hardness on every production batch.'
+  dateModified: '2026-09-10'
+  keywords:
+    - 'bench vise heat treatment'
+    - 'jaw hardening'
+    - 'vise hardness 62 HRC'
+    - 'bench vise hardening process'
+
+hero:
+  tagline: Engineering Discipline
+  title: Bench Vise Heat Treatment
+  subtitle: 'The strongest casting is still soft without heat treatment. Hardening the jaw faces and the slide screw to the right hardness window is what lets a vise grip hard material without wearing out.'
+  actions:
+    - variant: primary
+      text: Start a hardening specification
+      href: /contact#quality-inquiry
+    - text: All engineering topics
+      href: /engineering
+
+answer:
+  label: 'Straight answer'
+  text: 'Heat treatment converts machined steel and cast components into a working vise. Jaw faces and slide screws are induction-hardened to 58–62 HRC, giving the gripping surfaces the hardness to resist workpiece indentation while keeping enough core toughness to survive clamping impact. Hardening is run in controlled batches — every jaw face is hardness-tested to the 58–62 HRC window before packing, and the readings are recorded per batch. The same controlled-hardness discipline applies to slide screws, which are indeed hardened and then cycled to verify smooth, accurate clamping with no binding.'
+  verified: '2026-09'
+
+heat_steps:
+  tagline: Heat Treatment Process
+  title: From Machined Part to Hardened Component
+  subtitle: 'The process Stavalk runs on jaws and slide screws, in the factory heat-treatment line.'
+  steps:
+    - step: '01'
+      title: 'Induction Hardening'
+      desc: 'The jaw face or screw contact zones are heated by induction to austenitizing temperature, then quenched to transform the surface to martensite.'
+    - step: '02'
+      title: 'Tempering'
+      desc: 'Tempering relieves internal stress and sets the final hardness window, balancing wear resistance against toughness.'
+    - step: '03'
+      title: 'Controlled Batch Loading'
+      desc: 'Parts are heat-treated in furnace or induction line batches sized for even heating, so no part in the load is over- or under-treated.'
+    - step: '04'
+      title: 'Hardness Verification'
+      desc: 'Every jaw face is tested to the 58–62 HRC window and the readings recorded per batch before the parts move to assembly.'
+
+hardness_note:
+  tagline: Hardness & Why It Matters
+  title: Why 58–62 HRC Is the Working Window
+  body: |
+    **Hardness is a wear spec, not a marketing number.** A jaw face must be harder than the workpieces it grips; otherwise the workpiece embeds its own contour into the face and the grip point wanders under load. At 58–62 HRC, hardened GCr15/Cr12MoV jaw material resists indentation by hardened or scaled stock, and the slide screw keeps its thread flank sharp enough to hold clamping force through thousands of cycles.
+
+    **Too hard is as bad as too soft.** Above ~62 HRC, martensite becomes brittle and the part risks chipping at edges on clamping impact — exactly when a jaw is under shock load. The window is chosen so the surface is hard for wear while the core and the material under the hardened zone keep toughness. That is why hardness is controlled and verified rather than maximized.
+
+    **Batch records make it verifiable.** Hardening is not an invisible process step. Hardness values are recorded per production batch, the same way final inspection records clamping force and jaw parallelism, and these records are maintained with 10-year ERP batch traceability. A buyer can ask for the hardness data for a specific batch and receive it — which is the standard behind the phrase "specified and verified".
+
+    **The screw is hardened too.** Slide screw threads are induction-hardened to the same discipline so the thread does not wear or "roll" under repeated high-force turns, and the hardened screw is cycled to verify smooth, accurate clamping with no binding across the full opening range.
+
+faqs:
+  tagline: FAQ
+  title: Frequently Asked Questions About Heat Treatment
+  items:
+    - q: 'What hardness do Stavalk jaws reach?'
+      a: 'Jaw faces are induction-hardened to 58–62 HRC. Each face is hardness-tested to this window before packing, and readings are recorded per batch.'
+    - q: 'Why not harden the whole body?'
+      a: 'The body needs rigidity and toughness, not surface hardness — a fully hardened casting would be brittle and costly. Hardening is applied selectively to the functional surfaces: jaw faces and slide screws.'
+    - q: 'How do I verify hardness on a real order?'
+      a: 'Hardness test reports for your production batch are part of the quality documentation pack, along with material certificates, clamping-force and parallelism records, and batch traceability.'
+    - q: 'Can hardness be specified differently in an OEM project?'
+      a: 'Yes. Jaw face hardness targets and materials (including softer or non-marring inserts for delicate work) are set at the engineering review and verified during sample development.'
+
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'VERIFIED SPECIFICATIONS'
+  body: 'Hardness values and process descriptions on this page are verified by the Metallurgy and Engineering Team at the Jimo, Qingdao plant. Hardness test reports, batch hardening records and traceability are available on request. Specifications last verified 2026-09.'
+
+cta:
+  title: 'Set the Hardness Before You Commit to a Series'
+  subtitle: 'Include your hardness target and duty profile in the technical brief and the Stavalk engineering team will confirm the heat-treatment route and verification plan in the sample stage.'
+  actions:
+    - variant: primary
+      text: Submit a Heat-Treatment Brief
+      href: /contact#quality-inquiry
+    - text: Materials that respond to hardening
+      href: /engineering/materials
+    - text: The full quality & testing system
+      href: /quality
