@@ -31,14 +31,14 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
   en: {
     'light-duty': {
       bestFor: 'Hobbyists, jewelry makers, electronics workshops & light woodworking',
-      sizes: '4″–5″ jaw width · 3″–4″ opening · 3–5 kg',
+      sizes: '2″–5″ jaw width · hardened jaws · 3–5 kg',
       construction: 'HT200 gray cast iron body, 45# forged steel spindle, hardened jaws',
       customization: 'Jaw width, finish, logo & retail packaging',
       moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
       specRows: [
         { label: 'Use scenario', value: 'Hobby, jewelry, electronics & light woodworking projects' },
-        { label: 'Available sizes', value: '4″–5″ jaw width · 3″–4″ opening · 3–5 kg' },
+        { label: 'Available sizes', value: '2″–5″ jaw width · hardened jaws · 3–5 kg' },
         { label: 'Construction', value: 'HT200 gray cast iron body, 45# forged steel spindle, hardened jaws' },
         { label: 'Jaw steel & hardness', value: 'GCr15 jaws at 58–62 HRC' },
         { label: 'Clamping force', value: 'approx. 2,000 lbs' },
@@ -138,14 +138,14 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
   es: {
     'light-duty': {
       bestFor: 'Hobbyistas, joyeros, talleres de electrónica y carpintería ligera',
-      sizes: 'Ancho de mordaza 4″–5″ · apertura 3″–4″ · 3–5 kg',
+      sizes: 'Ancho de mordaza 2″–5″ · mordazas endurecidas · 3–5 kg',
       construction: 'Cuerpo de hierro gris HT200, husillo de acero forjado 45#, mordazas endurecidas',
       customization: 'Ancho de mordaza, acabado, logo y embalaje minorista',
       moq: `Desde ${MOQ_SHORT.standardRun} uds. por proyecto — pedidos de prueba desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
       specRows: [
         { label: 'Escenario de uso', value: 'Proyectos de hobby, joyería, electrónica y carpintería ligera' },
-        { label: 'Tamaños disponibles', value: 'Ancho de mordaza 4″–5″ · apertura 3″–4″ · 3–5 kg' },
+        { label: 'Tamaños disponibles', value: 'Ancho de mordaza 2″–5″ · mordazas endurecidas · 3–5 kg' },
         { label: 'Construcción', value: 'Cuerpo de hierro gris HT200, husillo de acero forjado 45#, mordazas endurecidas' },
         { label: 'Acero y dureza de mordaza', value: 'Mordazas GCr15 a 58–62 HRC' },
         { label: 'Fuerza de sujeción', value: 'aprox. 2.000 lbs' },
@@ -245,14 +245,14 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
   fr: {
     'light-duty': {
       bestFor: 'Bricoleurs, bijoutiers, ateliers d’électronique et menuiserie légère',
-      sizes: 'Largeur de mâchoire 4″–5″ · ouverture 3″–4″ · 3–5 kg',
+      sizes: 'Largeur de mâchoire 2″–5″ · mâchoires trempées · 3–5 kg',
       construction: 'Corps en fonte grise HT200, vis en acier forgé 45#, mâchoires trempées',
       customization: 'Largeur de mâchoire, finition, logo et emballage retail',
       moq: `À partir de ${MOQ_SHORT.standardRun} pièces par projet — séries d’essai dès ${MOQ_SHORT.trialStandard}`,
       leadTime: `Échantillons en ${FACTS.sampleTime} · production en ${FACTS.leadTime} après confirmation du bon de commande et du dépôt`,
       specRows: [
         { label: 'Scénario d’utilisation', value: 'Projets de hobby, bijouterie, électronique et menuiserie légère' },
-        { label: 'Tailles disponibles', value: 'Largeur de mâchoire 4″–5″ · ouverture 3″–4″ · 3–5 kg' },
+        { label: 'Tailles disponibles', value: 'Largeur de mâchoire 2″–5″ · mâchoires trempées · 3–5 kg' },
         { label: 'Construction', value: 'Corps en fonte grise HT200, vis en acier forgé 45#, mâchoires trempées' },
         { label: 'Acier et dureté des mâchoires', value: 'Mâchoires GCr15 à 58–62 HRC' },
         { label: 'Force de serrage', value: 'env. 2 000 lbs' },

@@ -34,7 +34,7 @@ scope_note:
   tagline: Périmètre
   title: Critères d'inspection spécifiques au projet
   body: |
-    Les spécifications qualité peuvent varier selon la construction de l'étau (par ex. usage léger à mâchoires 4″–5″, usage moyen 6″–8″, usage lourd 8″–10″, étaux pour tubes, étaux spéciaux), l'usage final prévu, les réglementations du marché cible et les paramètres approuvés par le client. L'autorisation de libération finale est strictement basée sur les critères d'inspection documentés convenus pour la commande.
+    Les spécifications qualité peuvent varier selon la construction de l'étau (par ex. usage léger à mâchoires 2″–5″, usage moyen 6″–8″, usage lourd 8″–10″, étaux pour tubes, étaux spéciaux), l'usage final prévu, les réglementations du marché cible et les paramètres approuvés par le client. L'autorisation de libération finale est strictement basée sur les critères d'inspection documentés convenus pour la commande.
 
 stages:
   tagline: Cadre qualité

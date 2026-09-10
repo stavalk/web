@@ -369,7 +369,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       faqs: [
         {
           q: 'What vise range suits a training workshop?',
-          a: 'Light-duty 4″-5″ vises for entry work, medium-duty 6″-8″ for general shop use and precision specialty vises for machining classes.',
+          a: 'Light-duty 2″-5″ vises for entry work, medium-duty 6″-8″ for general shop use and precision specialty vises for machining classes.',
         },
         {
           q: 'Can schools customize vises?',
@@ -720,7 +720,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       faqs: [
         {
           q: '¿Qué gama sirve a un taller de formación?',
-          a: 'Ligeras 4″-5″ para entrada, medias 6″-8″ para taller general y de precisión para mecanizado.',
+          a: 'Ligeras 2″-5″ para entrada, medias 6″-8″ para taller general y de precisión para mecanizado.',
         },
         {
           q: '¿Se pueden personalizar?',
@@ -1071,7 +1071,7 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       faqs: [
         {
           q: "Quelle gamme convient à un atelier de formation ?",
-          a: "Légers 4″-5″ pour l'initiation, moyens 6″-8″ pour l'atelier général et de précision pour l'usinage.",
+          a: "Légers 2″-5″ pour l'initiation, moyens 6″-8″ pour l'atelier général et de précision pour l'usinage.",
         },
         {
           q: "Les écoles peuvent-elles personnaliser les étaux ?",

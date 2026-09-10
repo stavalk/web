@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Fábrica y fabricación — OEM de tornillos de banco'
   description: 'La fábrica de Stavalk: planta de 8.000 m² con fundición en arena, mecanizado CNC, tratamiento térmico, recubrimiento en polvo, ensamblaje y laboratorio de calidad para fabricación OEM/ODM de tornillos de banco.'
   dateModified: '2026-09-01'
@@ -32,7 +32,7 @@ intelligence_cards:
   - title: Capacidad de producción
     icon: C
     icon_bg: blue
-    desc: 'Instalación de 8.000 m² que produce más de 80.000 tornillos de banco al año en las series de uso ligero (4″–5″), uso medio (6″–8″), uso pesado (8″–10″), de tubo y especial. 200+ trabajadores, 2 turnos.'
+    desc: 'Instalación de 8.000 m² que produce más de 80.000 tornillos de banco al año en las series de uso ligero (2″–5″), uso medio (6″–8″), uso pesado (8″–10″), de tubo y especial. 200+ trabajadores, 2 turnos.'
     metrics:
       - label: MOQ
         value: 'Estándar 50–200 / pesados y especiales 20–50 uds. por modelo'

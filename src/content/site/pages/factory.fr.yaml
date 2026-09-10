@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Usine et fabrication — OEM d''étaux d''établi'
   description: 'Visitez l''usine Stavalk : un site de 8 000 m² avec fonderie au sable, usinage CNC, traitement thermique, revêtement par poudre, assemblage et laboratoire qualité pour la fabrication OEM/ODM d''étaux d''établi.'
   dateModified: '2026-09-01'
@@ -32,7 +32,7 @@ intelligence_cards:
   - title: Capacité de production
     icon: C
     icon_bg: blue
-    desc: 'Installation de 8 000 m² produisant plus de 80 000 étaux/an dans les séries usage léger (4″–5″), usage moyen (6″–8″), usage intensif (8″–10″), pour tuyaux et spéciales. 200+ ouvriers, 2 équipes.'
+    desc: 'Installation de 8 000 m² produisant plus de 80 000 étaux/an dans les séries usage léger (2″–5″), usage moyen (6″–8″), usage intensif (8″–10″), pour tuyaux et spéciales. 200+ ouvriers, 2 équipes.'
     metrics:
       - label: MOQ
         value: 'Standard 50–200 / intensifs-spéciaux 20–50 pcs par modèle'

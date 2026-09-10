@@ -1,4 +1,4 @@
-﻿import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
+import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
 import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT, BRAND_PARENT_DOMAIN } from '@/config/branding'
 
 export const frProduct = {
@@ -635,7 +635,7 @@ export const frProduct = {
       corporate: 'Entreprise / événement', other: 'Autre',
     },
     categoryOptions: {
-      'all-around': 'Étau d\'établi usage léger (4″–5″)',
+      'all-around': 'Étau d\'établi usage léger (2″–5″)',
       race: 'Étau d\'établi usage moyen (6″–8″)',
       surf: 'Étau d\'établi usage lourd (8″–10″)',
       touring: 'Étau pour tube / tuyauterie',

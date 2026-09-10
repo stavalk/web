@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Guía de tamaños de tornillo de banco — Ancho de mandíbula y especificaciones | {SITE}'
   description: 'Dimensiones, rangos de peso y usos recomendados para cada tornillo de banco Stavalk. Encuentra el ancho de mandíbula adecuado para tu banco y pieza de trabajo.'
   dateModified: '2026-09-01'
@@ -18,7 +18,7 @@ categories:
   title: Categorías de tamaño
   subtitle: Relaciona la serie de mandíbulas con tu banco de trabajo y con tu pieza de trabajo más grande habitual.
   items:
-    - title: Trabajo ligero — 4″–5″
+    - title: Trabajo ligero — 2″–5″
       description: Tornillos con mandíbulas reemplazables para electrónica, joyería, artesanía, carpintería pequeña y maquetas. Compactos, portátiles y suaves con piezas pequeñas.
     - title: Trabajo medio — 6″–8″
       description: La opción más versátil para metalurgia general, reparación de autos, fabricación y carpintería. Cubre la mayoría de necesidades de talleres y garajes con un peso razonable.
@@ -36,7 +36,7 @@ table:
     suited: Ideal para
   rows:
     - duty: Ligero
-      jaws: 4″–5″
+      jaws: 2″–5″
       opening: 3″–4″
       weight: 3–5 kg
       suited: Electrónica, joyería, artesanía, maquetas, carpintería pequeña
@@ -60,14 +60,14 @@ how_to_choose:
   body: |
     Relaciona el ancho de mandíbula con tu banco de trabajo y con la pieza de trabajo más grande que uses habitualmente:
 
-    - **Ancho de mandíbula** determina la pieza máxima que puedes sujetar con seguridad. Un tornillo ligero de 4″–5″ sirve para hobby y trabajo pequeño; el trabajo medio de 6″–8″ cubre la mayoría de talleres; el pesado de 8″–10″ es para fabricación industrial.
+    - **Ancho de mandíbula** determina la pieza máxima que puedes sujetar con seguridad. Un tornillo ligero de 2″–5″ sirve para hobby y trabajo pequeño; el trabajo medio de 6″–8″ cubre la mayoría de talleres; el pesado de 8″–10″ es para fabricación industrial.
     - **Rango de apertura** debe superar tu material más grande. Comprueba la apertura máxima contra tu stock más grueso habitual antes de elegir una serie.
     - **Peso y banco** — los tornillos ligeros van de 3–5 kg, los medios de 5–8 kg, los pesados de 8–14 kg. Refuerza la parte superior del banco para tornillos pesados.
     - **Montaje** — relaciona el tamaño del perno (típicamente 4–12 mm) y la separación con tu banco. Una base giratoria de 360° añade flexibilidad de sujeción; una base fija es más rígida para golpes fuertes.
     - **Mandíbulas para tubería** — si sujetas material redondo con frecuencia, elige un modelo con mandíbulas para tubería o un tornillo dedicado que acepte tubería de 1/8″–2″.
 
     ### Opciones comunes
-    - Trabajo pequeño y de precisión → 4″–5″ trabajo ligero con mandíbulas reemplazables
+    - Trabajo pequeño y de precisión → 2″–5″ trabajo ligero con mandíbulas reemplazables
     - Uso general de taller → 6″ trabajo medio
     - Trabajo pesado e industrial → 8″–10″ trabajo pesado con cara de yunque
     - Material redondo → mandíbulas para tubería o un tornillo dedicado

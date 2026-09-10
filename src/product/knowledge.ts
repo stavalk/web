@@ -34,7 +34,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Jaw Width and Opening',
           body: [
-            'Jaw width determines the size of workpieces you can grip and how evenly force distributes across them. A 4″-5″ light-duty vise suits hobby and small work; 6″-8″ medium-duty covers most workshop and auto repair tasks; 8″-10″ heavy-duty handles industrial fabrication.',
+            'Jaw width determines the size of workpieces you can grip and how evenly force distributes across them. A 2″-5″ light-duty vise suits hobby and small work; 6″-8″ medium-duty covers most workshop and auto repair tasks; 8″-10″ heavy-duty handles industrial fabrication.',
             'Opening (maximum gap between closed and open jaws) must exceed your largest workpiece. Measure your biggest material before choosing.',
           ],
         },
@@ -200,7 +200,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Ancho y abertura de boca',
           body: [
-            'El ancho de boca determina el tamaño de las piezas que puedes sujetar y cómo se distribuye la fuerza. Las de 4″-5″ ligeras sirven para aficionados y trabajo pequeño; las de 6″-8″ medias cubren taller y reparación de coches; las de 8″-10″ pesadas aguantan fabricación industrial.',
+            'El ancho de boca determina el tamaño de las piezas que puedes sujetar y cómo se distribuye la fuerza. Las de 2″-5″ ligeras sirven para aficionados y trabajo pequeño; las de 6″-8″ medias cubren taller y reparación de coches; las de 8″-10″ pesadas aguantan fabricación industrial.',
             'La abertura (máximo entre mordazas) debe superar tu pieza más grande. Mide tu material más grande antes de elegir.',
           ],
         },
@@ -366,7 +366,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Largeur et ouverture de mâchoire',
           body: [
-            "La largeur de mâchoire détermine la taille des pièces que vous pouvez saisir et la répartition de la force. Les 4″-5″ légers conviennent aux amateurs et aux petits travaux ; les 6″-8″ moyens couvrent la plupart des ateliers et de la réparation automobile ; les 8″-10″ lourds supportent la fabrication industrielle.",
+            "La largeur de mâchoire détermine la taille des pièces que vous pouvez saisir et la répartition de la force. Les 2″-5″ légers conviennent aux amateurs et aux petits travaux ; les 6″-8″ moyens couvrent la plupart des ateliers et de la réparation automobile ; les 8″-10″ lourds supportent la fabrication industrielle.",
             "L'ouverture (écart maximum entre mâchoires fermées et ouvertes) doit dépasser votre pièce la plus grande. Mesurez votre matériau le plus volumineux avant de choisir.",
           ],
         },

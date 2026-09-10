@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Guide des tailles de serre-joint — Largeur de mâchoire et spécifications | {SITE}'
   description: 'Dimensions, gammes de poids et usages recommandés pour chaque serre-joint Stavalk. Trouvez la largeur de mâchoire adaptée à votre établi et à votre pièce.'
   dateModified: '2026-09-01'
@@ -18,7 +18,7 @@ categories:
   title: Catégories de tailles
   subtitle: Faites correspondre la série de mâchoires à votre établi et à votre plus grande pièce de travail habituelle.
   items:
-    - title: Léger — 4″–5″
+    - title: Léger — 2″–5″
       description: Serre-joints à mâchoires remplaçables pour l''électronique, la joaillerie, l''artisanat, le petit travail du bois et les maquettes. Compacts, portables et doux pour les petites pièces.
     - title: Moyen — 6″–8″
       description: Le choix le plus polyvalent pour la métallurgie générale, la réparation auto, la fabrication et le travail du bois. Couvre la plupart des besoins d''ateliers et de garages à un poids raisonnable.
@@ -36,7 +36,7 @@ table:
     suited: Idéal pour
   rows:
     - duty: Léger
-      jaws: 4″–5″
+      jaws: 2″–5″
       opening: 3″–4″
       weight: 3–5 kg
       suited: Électronique, joaillerie, artisanat, maquettes, petit travail du bois
@@ -60,14 +60,14 @@ how_to_choose:
   body: |
     Faites correspondre la largeur de mâchoire à votre établi et à votre plus grande pièce de travail habituelle :
 
-    - **Largeur de mâchoire** détermine la pièce maximale que vous pouvez maintenir en toute sécurité. Un serre-joint léger de 4″–5″ convient au travail de loisir et de petite taille ; le moyen 6″–8″ couvre la plupart des ateliers ; le lourd 8″–10″ est pour la fabrication industrielle.
+    - **Largeur de mâchoire** détermine la pièce maximale que vous pouvez maintenir en toute sécurité. Un serre-joint léger de 2″–5″ convient au travail de loisir et de petite taille ; le moyen 6″–8″ couvre la plupart des ateliers ; le lourd 8″–10″ est pour la fabrication industrielle.
     - **Gamme d''ouverture** doit dépasser votre plus grand matériau. Vérifiez l''ouverture maximale par rapport à votre stock le plus épais avant de choisir une série.
     - **Poids et établi** — les serre-joints légers font 3–5 kg, les moyens 5–8 kg, les lourds 8–14 kg. Renforcez le dessus de l''établi pour les serre-joints lourds.
     - **Montage** — faites correspondre la taille des boulons (typiquement 4–12 mm) et l''espacement avec votre établi. Une base pivotante à 360° ajoute de la flexibilité de serrage ; une base fixe est plus rigide pour les martèlements lourds.
     - **Mâchoires à tuberie** — si vous tenez régulièrement du stock rond, choisissez un modèle avec mâchoires à tuberie ou un serre-joint dédié acceptant les tuyaux de 1/8″–2″.
 
     ### Choix courants
-    - Travail petit et de précision → 4″–5″ léger avec mâchoires remplaçables
+    - Travail petit et de précision → 2″–5″ léger avec mâchoires remplaçables
     - Usage général d''atelier → 6″ moyen
     - Travail lourd et industriel → 8″–10″ lourd avec face d''enclume
     - Stock rond → mâchoires à tuberie ou serre-joint dédié

@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Factory & Manufacturing — Bench Vise OEM'
   description: 'Tour the Stavalk factory: 8,000 m² plant with sand casting, CNC machining, heat treatment, powder coating, assembly, and quality lab for bench vise OEM/ODM manufacturing.'
   dateModified: '2026-09-01'
@@ -32,7 +32,7 @@ intelligence_cards:
   - title: Production Capacity
     icon: C
     icon_bg: blue
-    desc: '8,000 m² facility producing 80,000+ vises/yr across light-duty (4″–5″), medium-duty (6″–8″), heavy-duty (8″–10″), pipe and specialty series. 200+ workers, 2 shifts.'
+    desc: '8,000 m² facility producing 80,000+ vises/yr across light-duty (2″–5″), medium-duty (6″–8″), heavy-duty (8″–10″), pipe and specialty series. 200+ workers, 2 shifts.'
     metrics:
       - label: MOQ
         value: 'Standard 50–200 / heavy-specialty 20–50 pcs per model'

@@ -29,7 +29,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Light-Duty Vises',
       metaTitle: 'Custom Light-Duty Bench Vises — OEM Manufacturer | Stavalk',
       metaDescription:
-        'Custom light-duty bench vises manufactured under your brand — 4″-5″ jaw, 1200-1500 lbs clamping force, OEM/ODM volume from 50-200 pcs. Factory direct from Qingdao, China.',
+        'Custom light-duty bench vises manufactured under your brand — 2″-5″ jaw, 1200-1500 lbs clamping force, OEM/ODM volume from 50-200 pcs. Factory direct from Qingdao, China.',
       kicker: 'Series · Light-Duty',
       h1: 'Custom Light-Duty Bench Vises — Compact Vises for Hobbyists and DIY',
       intro: [
@@ -186,7 +186,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Mordazas ligeras',
       metaTitle: 'Mordazas de banco ligeras personalizadas — Fabricante OEM | Stavalk',
       metaDescription:
-        'Mordazas de banco ligeras personalizadas bajo tu marca — boca 4″-5″, fuerza de sujeción 1200-1500 lbs, OEM/ODM desde 50-200 uds. Fábrica directa de Qingdao, China.',
+        'Mordazas de banco ligeras personalizadas bajo tu marca — boca 2″-5″, fuerza de sujeción 1200-1500 lbs, OEM/ODM desde 50-200 uds. Fábrica directa de Qingdao, China.',
       kicker: 'Serie · Ligera',
       h1: 'Mordazas de banco ligeras personalizadas — Compactas para aficionados y bricolaje',
       intro: [
@@ -343,7 +343,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Étaux légers',
       metaTitle: "Étaux d'établi légers personnalisés — Fabricant OEM | Stavalk",
       metaDescription:
-        "Étaux d'établi légers personnalisés sous votre marque — mâchoires 4″-5″, force de serrage 1200-1500 lbs, OEM/ODM dès 50-200 pcs. Usine directe de Qingdao, Chine.",
+        "Étaux d'établi légers personnalisés sous votre marque — mâchoires 2″-5″, force de serrage 1200-1500 lbs, OEM/ODM dès 50-200 pcs. Usine directe de Qingdao, Chine.",
       kicker: 'Série · Léger',
       h1: "Étaux d'établi légers personnalisés — Compacts pour bricoleurs et passionnés",
       intro: [

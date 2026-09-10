@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Bench vise guides (/guides/{slug}).
  *
  * Structured consumer-facing guides that accompany the B2B product pages.
@@ -29,7 +29,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         title: 'Jaw Width and Opening',
-        body: 'Jaw width determines the maximum workpiece you can grip securely. A 4″-5″ light-duty vise is right for hobby and small work; 6″-8″ medium-duty covers most workshops; 8″-10″ heavy-duty is for industrial fabrication. Match opening to your biggest material.',
+        body: 'Jaw width determines the maximum workpiece you can grip securely. A 2″-5″ light-duty vise is right for hobby and small work; 6″-8″ medium-duty covers most workshops; 8″-10″ heavy-duty is for industrial fabrication. Match opening to your biggest material.',
       },
       {
         title: 'Clamping Force',
@@ -62,7 +62,7 @@ export const GUIDES: Guide[] = [
     ],
     sections: [
       {
-        title: '4″-5″ — Light Duty',
+        title: '2″-5″ — Light Duty',
         body: 'Electronics assembly, jewelry, craft, small woodworking and model work. Forces of 1200-1500 lbs hold small parts without crushing them.',
       },
       {

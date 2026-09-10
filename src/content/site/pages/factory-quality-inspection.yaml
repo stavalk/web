@@ -34,7 +34,7 @@ scope_note:
   tagline: Scope
   title: Project-Specific Inspection Criteria
   body: |
-    Quality specifications may vary depending on vise construction (e.g., light-duty 4″–5″ jaws, medium-duty 6″–8″, heavy-duty 8″–10″, pipe vises, specialty vises), intended end-use, target market regulations, and customer-approved parameters. Final release authorization is strictly based on the documented inspection criteria agreed upon for the order.
+    Quality specifications may vary depending on vise construction (e.g., light-duty 2″–5″ jaws, medium-duty 6″–8″, heavy-duty 8″–10″, pipe vises, specialty vises), intended end-use, target market regulations, and customer-approved parameters. Final release authorization is strictly based on the documented inspection criteria agreed upon for the order.
 
 stages:
   tagline: Quality Framework

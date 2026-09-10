@@ -1,4 +1,4 @@
-﻿import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
+import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
 import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT, BRAND_PARENT_DOMAIN } from '@/config/branding'
 
 export const esProduct = {
@@ -635,7 +635,7 @@ export const esProduct = {
       corporate: 'Empresa / evento', other: 'Otro',
     },
     categoryOptions: {
-      'all-around': 'Tornillo de banco de servicio ligero (4″–5″)',
+      'all-around': 'Tornillo de banco de servicio ligero (2″–5″)',
       race: 'Tornillo de banco de servicio medio (6″–8″)',
       surf: 'Tornillo de banco de servicio pesado (8″–10″)',
       touring: 'Tornillo para tubo / tubería',

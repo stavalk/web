@@ -1,4 +1,4 @@
-﻿import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
+import { SITE_NAME, SITE_DOMAIN } from '@/config/site'
 import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, BRAND_CONTACT, BRAND_PARENT_DOMAIN } from '@/config/branding'
 
 export const enProduct = {
@@ -635,7 +635,7 @@ export const enProduct = {
       corporate: 'Corporate / event', other: 'Other',
     },
     categoryOptions: {
-      'all-around': 'Light-duty bench vise (4″–5″)',
+      'all-around': 'Light-duty bench vise (2″–5″)',
       race: 'Medium-duty bench vise (6″–8″)',
       surf: 'Heavy-duty bench vise (8″–10″)',
       touring: 'Pipe / pipe-fitting vise',

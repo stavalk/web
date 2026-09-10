@@ -34,7 +34,7 @@ scope_note:
   tagline: Alcance
   title: Criterios de inspección específicos por proyecto
   body: |
-    Las especificaciones de calidad pueden variar según la construcción del tornillo de banco (por ejemplo, uso ligero con mordazas de 4″–5″, uso medio de 6″–8″, uso pesado de 8″–10″, tornillos de banco para tubos, tornillos de banco especiales), el uso final previsto, las normativas del mercado de destino y los parámetros aprobados por el cliente. La autorización final de liberación se basa estrictamente en los criterios de inspección documentados y acordados para el pedido.
+    Las especificaciones de calidad pueden variar según la construcción del tornillo de banco (por ejemplo, uso ligero con mordazas de 2″–5″, uso medio de 6″–8″, uso pesado de 8″–10″, tornillos de banco para tubos, tornillos de banco especiales), el uso final previsto, las normativas del mercado de destino y los parámetros aprobados por el cliente. La autorización final de liberación se basa estrictamente en los criterios de inspección documentados y acordados para el pedido.
 
 stages:
   tagline: Marco de calidad

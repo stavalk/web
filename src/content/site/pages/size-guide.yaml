@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Bench Vise Size Guide — Jaw Width & Specs | {SITE}'
   description: 'Dimensions, weight ranges and recommended uses for every Stavalk bench vise. Find the right jaw width for your workbench and workpiece.'
   dateModified: '2026-09-01'
@@ -18,7 +18,7 @@ categories:
   title: Size Categories
   subtitle: Match the jaw series to your workbench and your largest regular workpiece.
   items:
-    - title: Light Duty — 4″–5″
+    - title: Light Duty — 2″–5″
       description: Replaceable-jaw vises for electronics, jewelry, craft, small woodworking and model work. Compact, portable and gentle on small workpieces.
     - title: Medium Duty — 6″–8″
       description: The most versatile choice for general metalwork, auto repair, fabrication and woodworking. Covers most workshop and garage needs at a reasonable weight.
@@ -36,7 +36,7 @@ table:
     suited: Best for
   rows:
     - duty: Light
-      jaws: 4″–5″
+      jaws: 2″–5″
       opening: 3″–4″
       weight: 3–5 kg
       suited: Electronics, jewelry, craft, model work, small woodworking
@@ -60,14 +60,14 @@ how_to_choose:
   body: |
     Match the jaw width to both your workbench and your largest regular workpiece:
 
-    - **Jaw width** determines the maximum workpiece you can grip securely. A 4″–5″ light-duty vise suits hobby and small work; 6″–8″ medium-duty covers most workshops; 8″–10″ heavy-duty is for industrial fabrication.
+    - **Jaw width** determines the maximum workpiece you can grip securely. A 2″–5″ light-duty vise suits hobby and small work; 6″–8″ medium-duty covers most workshops; 8″–10″ heavy-duty is for industrial fabrication.
     - **Opening range** must clear your biggest material. Check the maximum opening against your thickest regular stock before choosing a series.
     - **Weight and bench** — light vises run 3–5 kg, medium 5–8 kg, heavy 8–14 kg. Reinforce the workbench top for heavy-duty vises.
     - **Mounting** — match bolt size (typically 4–12 mm) and spacing to your bench. A 360° swivel base adds clamping flexibility; a fixed base is more rigid for heavy hammering.
     - **Pipe jaws** — if you regularly hold round stock, choose a model with pipe jaws or a dedicated pipe vise accepting 1/8″–2″ pipe.
 
     ### Common choices
-    - Small and precision work → 4″–5″ light-duty with replaceable jaws
+    - Small and precision work → 2″–5″ light-duty with replaceable jaws
     - General workshop use → 6″ medium-duty
     - Heavy and industrial work → 8″–10″ heavy-duty with anvil back
     - Round stock → pipe jaws or a dedicated pipe vise
