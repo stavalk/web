@@ -20,9 +20,10 @@ const handler = async () => {
       import('@/product/series-pages'),
     ])
   const origin = new URL(env.BETTER_AUTH_URL).origin
+  const publicSet = new Set(PUBLIC_PATHS.map((p: { path: string }) => p.path))
   const afarerEs = loader
     .getLocalePaths('es')
-    .filter((p: string) => !(p in EDGE_REDIRECTS) && !(p in LEGACY_REDIRECTS))
+    .filter((p: string) => !publicSet.has(p) && !(p in EDGE_REDIRECTS) && !(p in LEGACY_REDIRECTS))
     .map((path: string) => ({ path }))
   const detailEs = [
     { path: '/evidence/case-studies' },
