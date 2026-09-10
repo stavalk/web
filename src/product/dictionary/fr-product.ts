@@ -260,7 +260,7 @@ export const frProduct = {
       terms: 'Conditions', privacy: 'Confidentialité', contact: 'Contact',
       rights: 'Partenaire de développement et fabrication d\'étaux d\'établi personnalisés.',
       owner: `${BRAND_PARENT_BRAND} — Division manufacturing étau d'établi de ${BRAND_COMPANY_NAME}.`,
-      compliance: 'Tous nos matériaux sont conformes aux normes CE, REACH, RoHS et ISO 9001 de gestion de la qualité. Export 100 % direct depuis notre usine de Qingdao, Chine.',
+      compliance: "Systèmes de management de la qualité ISO 9001:2015 et environnemental ISO 14001:2015. Documentation de conformité REACH, RoHS et spécifique au marché disponible le cas échéant — portée du produit confirmée par projet. Export 100 % direct depuis notre usine de Qingdao, Chine.",
       followUs: 'Suivez-nous', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },
     contactWhatsApp: 'Discuter sur WhatsApp', contactWeChat: 'Discuter sur WeChat',

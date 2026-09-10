@@ -260,7 +260,7 @@ export const enProduct = {
       terms: 'Terms', privacy: 'Privacy', contact: 'Contact',
       rights: 'Custom bench vise product development & manufacturing partner.',
       owner: `${BRAND_PARENT_BRAND} — bench vise manufacturing division of ${BRAND_COMPANY_NAME}.`,
-      compliance: 'All materials comply with CE, REACH, RoHS and ISO 9001 quality management standards. 100% factory-direct export from our Qingdao, China plant.',
+      compliance: 'ISO 9001:2015 quality and ISO 14001:2015 environmental management systems. REACH, RoHS and other market-specific compliance documentation available where applicable — product scope confirmed per project. 100% factory-direct export from our Qingdao, China plant.',
       followUs: 'Follow us', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },
     contactWhatsApp: 'Chat on WhatsApp', contactWeChat: 'Chat on WeChat',

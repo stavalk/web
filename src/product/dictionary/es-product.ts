@@ -260,7 +260,7 @@ export const esProduct = {
       terms: 'Términos', privacy: 'Privacidad', contact: 'Contacto',
       rights: 'Socio de desarrollo y fabricación de tornillos de banco personalizados.',
       owner: `${BRAND_PARENT_BRAND} — división de fabricación de tornillos de banco de ${BRAND_COMPANY_NAME}.`,
-      compliance: 'Todos los materiales cumplen con las normas de gestión de calidad CE, REACH, RoHS e ISO 9001. 100% de exportación directa de fábrica desde nuestra planta en Qingdao, China.',
+      compliance: 'Sistemas de gestión de calidad ISO 9001:2015 y ambiental ISO 14001:2015. Documentación de cumplimiento REACH, RoHS y específica de mercado disponible donde corresponda — alcance del producto confirmado por proyecto. 100% de exportación directa de fábrica desde nuestra planta en Qingdao, China.',
       followUs: 'Síguenos', facebook: 'Facebook', linkedin: 'LinkedIn', youtube: 'YouTube',
     },
     contactWhatsApp: 'Chatea por WhatsApp', contactWeChat: 'Chatea por WeChat',
