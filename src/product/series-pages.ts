@@ -33,13 +33,13 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       kicker: 'Series · Light-Duty',
       h1: 'Custom Light-Duty Bench Vises — Compact Vises for Hobbyists and DIY',
       intro: [
-        'Light-duty bench vises are the entry point for hobbyists, home workshops and DIY enthusiasts: compact 4″-5″ jaw widths, 1200-1500 lbs clamping force, and 360° swivel bases that handle a wide range of light clamping tasks — woodworking, electronics assembly, craft projects, and light metalwork.',
+        'Light-duty bench vises are the entry point for hobbyists, home workshops and DIY enthusiasts: compact 2″-5″ jaw widths, 1200-1500 lbs clamping force, and fixed or movable anvil plates that handle a wide range of light clamping tasks — woodworking, electronics assembly, craft projects, and light metalwork.',
         'We manufacture light-duty vises under your brand from 50-200 pcs per model, with sample units available in 7-14 days. Body casting (HT200 gray cast iron), jaw inserts, handle style, swivel base, finish and packaging are specified per project.',
       ],
       faqs: [
         {
           q: 'Can I customize a light-duty bench vise for my brand?',
-          a: 'Yes. Every light-duty vise is a manufacturing base — you specify jaw width (4″ or 5″), jaw face pattern (serrated or smooth), body color, handle style (sliding T-handle or Tommy bar), swivel base angle, logo placement (laser engraving, casting mark or label) and packaging. Custom tooling runs from 200+ pcs; standard models from 50 pcs.',
+          a: 'Yes. Every light-duty vise is a manufacturing base — you specify jaw width (2″-5″), jaw face pattern (serrated or smooth), body color, handle style (sliding T-handle or Tommy bar), swivel base angle, logo placement (laser engraving, casting mark or label) and packaging. Custom tooling runs from 200+ pcs; standard models from 50 pcs.',
         },
         {
           q: 'What is the MOQ for light-duty bench vises?',
@@ -151,31 +151,31 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'specialty',
       navLabel: 'Specialty Vises',
-      metaTitle: 'Custom Specialty Vises — Precision & Machine OEM | Stavalk',
+      metaTitle: 'Custom Specialty Bench Vises — Swivel, Anvil & Bench OEM | Stavalk',
       metaDescription:
-        'Custom precision and machine vises — cross-slide, milling, drill press and CNC vises with 0.001″ accuracy, hardened ground steel, OEM volume from 20-50 pcs.',
+        'Custom specialty bench vises — ADI industrial swivel, movable round or square anvil table vises, French-style vises and bench anvils — plus precision machine vises on request. OEM volume from 20-50 pcs.',
       kicker: 'Series · Specialty',
-      h1: 'Custom Specialty Vises — Precision Workholding for Machining and Milling',
+      h1: 'Custom Specialty Bench Vises — Swivel, Anvil and Bench Workholding',
       intro: [
-        'Specialty vises serve precision machining applications: cross-slide vises for compound positioning, milling vises for CNC table mounting, drill press vises for centered hole work and machine vises with double-locking mechanisms for production environments. All feature precision-ground hardened steel for 0.001″ accuracy.',
-        'We manufacture specialty vises under your brand from 20-50 pcs per model, with hardened and ground GCr15 bearing steel or Cr12MoV tool steel jaw faces, Kurt-style bodies and double-locking mechanisms.',
+        'Specialty bench vises cover positioning and benchwork: ADI cast-steel swivel vises for angled clamping and assembly, round and square anvil table vises for finishing shops and schools, French-style plier vises and companion anvils for hammer-ready benches.',
+        'We manufacture specialty platforms under your brand from 20-50 pcs per model, with ADI cast steel or ductile iron bodies, hardened jaws and positive-lock swivel bases. Precision machine vises (cross-slide, milling, drill press and CNC) are also produced on request.',
       ],
       faqs: [
         {
-          q: 'What accuracy can your specialty vises achieve?',
-          a: 'Precision-ground jaw faces and bodies deliver parallelism within 0.001″ (0.025mm). All vises are inspected on CMM coordinate measuring machines before shipment, with inspection certificates available.',
+          q: 'What types of specialty bench vises do you manufacture?',
+          a: 'ADI industrial swivel vises, movable round-anvil table vises, square-anvil table vises, French fixed-anvil plier vises and companion bench anvils — designed for angled clamping, finishing, schools and production benchwork.',
         },
         {
-          q: 'What types of specialty vises do you manufacture?',
-          a: 'Cross-slide vises (compound X-Y positioning), milling machine vises (Kurt-style, single or double station), drill press vises (centered clamping), CNC machine vises (high-speed, double-locking) and custom workholding solutions.',
+          q: 'Do you also make precision machine vises?',
+          a: 'Yes. Cross-slide vises (compound X-Y positioning), milling machine vises (Kurt-style), drill press vises and CNC machine vises are available on request, with precision-ground hardened steel and CMM-inspected parallelism within 0.001″.',
         },
         {
-          q: 'Can specialty vises be customized for our CNC machines?',
-          a: 'Yes. We match T-slot dimensions, mounting bolt patterns and jaw profiles to your specific CNC table and workpiece requirements. Custom jaw inserts (soft aluminum, V-groove, contoured) are common.',
+          q: 'Can the swivel and anvil vises be customized for our brand?',
+          a: 'Yes. We adapt jaw width and profile, anvil size and shape, swivel lock, finish, logo placement and packaging. T-slot and mounting patterns match your bench layout.',
         },
         {
           q: 'What is the MOQ for specialty vises?',
-          a: 'From 20 pcs for standard precision vises; custom-tooling runs from 50+ pcs. Samples in 7-14 days, production in 25-35 days after confirmed PO.',
+          a: 'From 20 pcs for standard specialty models; custom-tooling runs from 50+ pcs. Samples in 7-14 days, production in 25-35 days after confirmed PO.',
         },
       ],
     },
@@ -190,13 +190,13 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       kicker: 'Serie · Ligera',
       h1: 'Mordazas de banco ligeras personalizadas — Compactas para aficionados y bricolaje',
       intro: [
-        'Las mordazas ligeras son el punto de entrada para aficionados, talleres caseros y bricolaje: bocas compactas de 4″-5″, fuerza de sujeción de 1200-1500 lbs y bases giratorias de 360° que manejan una amplia gama de tareas de sujeción ligera — carpintería, montaje electrónico, proyectos de manualidades y metalurgia ligera.',
+        'Las mordazas ligeras son el punto de entrada para aficionados, talleres caseros y bricolaje: bocas compactas de 2″-5″, fuerza de sujeción de 1200-1500 lbs y placas de yunque fijas o móviles que manejan una amplia gama de tareas de sujeción ligera — carpintería, montaje electrónico, proyectos de manualidades y metalurgia ligera.',
         'Fabricamos mordazas ligeras bajo tu marca desde 50-200 uds. por modelo, con muestras disponibles en 7-14 días. Fundición del cuerpo (hierro gris HT200), insertos de mordaza, estilo de manija, base giratoria, acabado y embalaje se especifican por proyecto.',
       ],
       faqs: [
         {
           q: '¿Puedo personalizar una mordaza ligera para mi marca?',
-          a: 'Sí. Cada mordaza ligera es una base de fabricación: especificas ancho de boca (4″ o 5″), patrón de superficie (ranurada o lisa), color del cuerpo, estilo de manija, ángulo de la base giratoria, colocación del logo y embalaje.',
+          a: 'Sí. Cada mordaza ligera es una base de fabricación: especificas ancho de boca (2″-5″), patrón de superficie (ranurada o lisa), color del cuerpo, estilo de manija, ángulo de la base giratoria, colocación del logo y embalaje.',
         },
         {
           q: '¿Cuál es el pedido mínimo para mordazas ligeras?',
@@ -308,31 +308,31 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'specialty',
       navLabel: 'Mordazas especiales',
-      metaTitle: 'Mordazas especiales personalizadas — Precisión y máquina OEM | Stavalk',
+      metaTitle: 'Mordazas de banco especiales personalizadas — Giratorias, yunque y banco OEM | Stavalk',
       metaDescription:
-        'Mordazas de precisión y máquina personalizadas — cruz, fresadora, taladro y CNC con precisión 0.001″, OEM desde 20-50 uds.',
+        'Mordazas de banco especiales personalizadas — giratorias industriales ADI, de mesa con yunque redondo o cuadrado, estilo francés y yunques de banco — además de mordazas de máquina de precisión bajo pedido. OEM desde 20-50 uds.',
       kicker: 'Serie · Especial',
-      h1: 'Mordazas especiales personalizadas — Sujección de precisión para mecanizado y fresado',
+      h1: 'Mordazas de banco especiales personalizadas — Sujección giratoria, de yunque y de banco',
       intro: [
-        'Las mordazas especiales sirven para aplicaciones de mecanizado de precisión: mordazas de cruces para posicionamiento compuesto, mordazas de fresadora para montaje en mesa CNC y mordazas de taladro para taladrado centrado. Todas cuentan con acero endurecido y rectificado para precisión de 0.001″.',
-        'Fabricamos mordazas especiales bajo tu marca desde 20-50 uds. por modelo, con caras de acero endurecido GCr15 o Cr12MoV y mecanismos de doble bloqueo.',
+        'Las mordazas especiales cubren el posicionamiento y el trabajo de banco: giratorias de acero ADI para sujeción en ángulo y montaje, de mesa con yunque redondo y cuadrado para talleres de acabado y escuelas, tipo francés y yunques de acompañamiento para bancos listos para martillar.',
+        'Fabricamos plataformas especiales bajo tu marca desde 20-50 uds. por modelo, con cuerpos de acero ADI o hierro dúctil, mordazas endurecidas y bases giratorias con bloqueo positivo. También producimos mordazas de máquina de precisión (cruz, fresadora, taladro y CNC) bajo pedido.',
       ],
       faqs: [
         {
-          q: '¿Qué precisión logran?',
-          a: 'Paralelismo dentro de 0.001″ (0.025mm). Todas las mordazas se inspeccionan en máquinas de medición por coordenadas (CMM) antes del envío.',
+          q: '¿Qué tipos de mordazas de banco especiales fabrican?',
+          a: 'Giratorias industriales ADI, de mesa con yunque redondo móvil, de mesa con yunque cuadrado, alicates con yunque fijo estilo francés y yunques de banco — para sujeción en ángulo, acabado, escuelas y trabajo de banco de producción.',
         },
         {
-          q: '¿Qué tipos fabrican?',
-          a: 'Mordazas de cruces (posicionamiento X-Y), fresadoras (estilo Kurt), taladros (sujección centrada) y CNC (alta velocidad, doble bloqueo).',
+          q: '¿También fabrican mordazas de máquina de precisión?',
+          a: 'Sí. De cruces (posicionamiento X-Y), de fresadora (estilo Kurt), de taladro y CNC bajo pedido, con acero endurecido y rectificado e inspección CMM con paralelismo dentro de 0.001″.',
         },
         {
-          q: '¿Se pueden personalizar para nuestras máquinas CNC?',
-          a: 'Sí. Ajustamos dimensiones de T-slot, patrones de pernos y perfiles de mandíbula a sus requisitos específicos.',
+          q: '¿Se pueden personalizar las giratorias y de yunque para nuestra marca?',
+          a: 'Sí. Adaptamos el ancho y el perfil de mordaza, el tamaño y la forma del yunque, el bloqueo de giro, el acabado, la colocación del logo y el embalaje. Los patrones de T-slot y montaje se ajustan a tu banco.',
         },
         {
           q: '¿Cuál es el pedido mínimo?',
-          a: 'Desde 20 uds. para mordazas de precisión estándar; utillaje desde 50+ uds. Muestras en 7-14 días, producción en 25-35 días.',
+          a: 'Desde 20 uds. para modelos especiales estándar; utillaje desde 50+ uds. Muestras en 7-14 días, producción en 25-35 días.',
         },
       ],
     },
@@ -347,13 +347,13 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       kicker: 'Série · Léger',
       h1: "Étaux d'établi légers personnalisés — Compacts pour bricoleurs et passionnés",
       intro: [
-        "Les étaux d'établi légers sont le point d'entrée pour les bricoleurs, ateliers domestiques et passionnés de DIY : largeurs de mâchoires compactes de 4″-5″, force de serrage de 1200-1500 lbs et bases orientables à 360° qui gèrent un large éventail de tâches de serrage légères — ébénisterie, montage d'électronique, projets d'artisanat et métallurgie légère.",
+        "Les étaux d'établi légers sont le point d'entrée pour les bricoleurs, ateliers domestiques et passionnés de DIY : largeurs de mâchoires compactes de 2″-5″, force de serrage de 1200-1500 lbs et plaques d'enclume fixes ou mobiles qui gèrent un large éventail de tâches de serrage légères — ébénisterie, montage d'électronique, projets d'artisanat et métallurgie légère.",
         "Nous fabriquons des étaux légers sous votre marque dès 50-200 pièces par modèle, avec des échantillons disponibles en 7-14 jours. Le corps est coulé en fonte grise HT200 ; les inserts de mâchoires, le style de manivelle, la base orientable, la finition et l'emballage sont spécifiés par projet.",
       ],
       faqs: [
         {
           q: 'Puis-je personnaliser un étau d\'établi léger pour ma marque ?',
-          a: "Oui. Chaque étau léger est une base de fabrication : vous spécifiez la largeur de mâchoire (4″ ou 5″), le motif de surface (serré ou lisse), la couleur du corps, le style de manivelle (T à glissière ou barre), l'angle de la base orientable, le positionnement du logo (gravure laser, marque de moulage ou étiquette) et l'emballage. L'outillage personnalisé commence à 200+ pcs ; les modèles standard à 50 pcs.",
+          a: "Oui. Chaque étau léger est une base de fabrication : vous spécifiez la largeur de mâchoire (2″ à 5″), le motif de surface (serré ou lisse), la couleur du corps, le style de manivelle (T à glissière ou barre), l'angle de la base orientable, le positionnement du logo (gravure laser, marque de moulage ou étiquette) et l'emballage. L'outillage personnalisé commence à 200+ pcs ; les modèles standard à 50 pcs.",
         },
         {
           q: 'Quel est le MOQ pour les étaux d\'établi légers ?',
@@ -465,31 +465,31 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'specialty',
       navLabel: 'Étaux spéciaux',
-      metaTitle: "Étaux spéciaux personnalisés — Précision et machine OEM | Stavalk",
+      metaTitle: "Étaux d'établi spéciaux personnalisés — Pivotants, enclume et établi OEM | Stavalk",
       metaDescription:
-        "Étaux de précision et machine personnalisés — à chariot, de fraiseuse, de perceuse et CNC avec précision de 0.001″, acier durci rectifié, OEM dès 20-50 pcs.",
+        "Étaux d'établi spéciaux personnalisés — pivotants industriels ADI, de table à enclume ronde ou carrée, à patte française et enclumes d'établi — plus étaux de machine de précision sur demande. OEM dès 20-50 pcs.",
       kicker: 'Série · Spécial',
-      h1: "Étaux spéciaux personnalisés — Serrage de précision pour usinage et fraisage",
+      h1: "Étaux d'établi spéciaux personnalisés — Serrage pivotant, à enclume et d'établi",
       intro: [
-        "Les étaux spéciaux répondent aux applications d'usinage de précision : étaux à chariot pour le positionnement composé, étaux de fraiseuse pour le montage sur table CNC, étaux de perceuse pour le perçage centré et étaux de machine avec mécanisme de double verrouillage pour les environnements de production. Tous dotés d'acier durci et rectifié pour une précision de 0.001″.",
-        "Nous fabriquons des étaux spéciaux sous votre marque dès 20-50 pièces par modèle, avec des faces en acier GCr15 durci et rectifié ou acier à outils Cr12MoV, des corps de style Kurt et des mécanismes de double verrouillage.",
+        "Les étaux spéciaux couvrent le positionnement et le travail d'établi : étaux pivotants en acier moulé ADI pour le bridage en angle et l'assemblage, étaux de table à enclume ronde et carrée pour les ateliers de finition et les écoles, pinces à patte française et enclumes d'accompagnement pour des établis prêts au marteau.",
+        "Nous fabriquons des plateformes spéciales sous votre marque dès 20-50 pièces par modèle, avec des corps en acier moulé ADI ou fonte ductile, des mâchoires trempées et des bases pivotantes à blocage positif. Nous produisons également des étaux de machine de précision (à chariot, de fraiseuse, de perceuse et CNC) sur demande.",
       ],
       faqs: [
         {
-          q: 'Quelle précision vos étaux spéciaux peuvent-ils atteindre ?',
-          a: "Les faces de mâchoires et les corps rectifiés avec précision offrent un parallélisme inférieur à 0.001″ (0,025 mm). Tous les étaux sont inspectés sur des machines de mesure par coordonnées (CMM) avant expédition, avec certificats d'inspection disponibles.",
+          q: "Quels types d'étaux d'établi spéciaux fabriquez-vous ?",
+          a: "Étaux pivotants industriels ADI, étaux de table à enclume ronde mobile, étaux de table à enclume carrée, pinces à enclume fixe à patte française et enclumes d'établi — conçus pour le bridage en angle, la finition, les écoles et le travail d'établi de production.",
         },
         {
-          q: 'Quels types d\'étaux spéciaux fabriquez-vous ?',
-          a: "Étaux à chariot (positionnement composé X-Y), étaux de fraiseuse (style Kurt, simple ou double poste), étaux de perceuse (serrage centré), étaux de machine CNC (haute vitesse, double verrouillage) et solutions de serrage personnalisées.",
+          q: 'Fabriquez-vous aussi des étaux de machine de précision ?',
+          a: "Oui. Les étaux à chariot (positionnement composé X-Y), de fraiseuse (style Kurt), de perceuse et CNC sont disponibles sur demande, avec acier durci et rectifié et parallélisme inspecté CMM à moins de 0.001″.",
         },
         {
-          q: 'Les étaux spéciaux peuvent-ils être personnalisés pour nos machines CNC ?',
-          a: "Oui. Nous adaptons les dimensions des rainures en T, les patrons de boulons de montage et les profils de mâchoires aux exigences spécifiques de votre table CNC et de vos pièces. Les inserts de mâchoires personnalisés (aluminium mou, rainure V, profilés) sont courants.",
+          q: "Les étaux pivotants et à enclume peuvent-ils être personnalisés pour notre marque ?",
+          a: "Oui. Nous adaptons la largeur et le profil des mâchoires, la taille et la forme de l'enclume, le blocage du pivotement, la finition, le placement du logo et l'emballage. Les rainures en T et les motifs de montage s'ajustent à votre établi.",
         },
         {
-          q: 'Quel est le MOQ pour les étaux spéciaux ?',
-          a: "À partir de 20 pcs pour les étaux de précision standard ; les outillages personnalisés à partir de 50+ pcs. Échantillons en 7-14 jours, production en 25-35 jours après confirmation du PO.",
+          q: "Quel est le MOQ pour les étaux spéciaux ?",
+          a: "À partir de 20 pcs pour les modèles spéciaux standard ; les outillages personnalisés à partir de 50+ pcs. Échantillons en 7-14 jours, production en 25-35 jours après confirmation du PO.",
         },
       ],
     },
