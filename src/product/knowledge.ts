@@ -158,7 +158,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Knowledge',
       h1: 'Bench Vise Maintenance: What Keeps a Vise Working for Decades',
       intro:
-        'A quality bench vise is meant to last a generation. Most premature failures come from neglect, not use. This guide covers the maintenance that keeps vises from seizing up and wearing out — the partner to [choosing a vise that fits the job](/knowledge/how-to-choose-a-bench-vise).',
+        'A quality bench vise is meant to last a generation. Most premature failures come from neglect, not use. This guide covers the maintenance that keeps vises from seizing up and wearing out.',
       sections: [
         {
           title: 'Lubricate the Screw Thread',
@@ -185,7 +185,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Anvil and Storage',
           body: [
             'The [anvil](/products/vise-specialty-anvil) surface is for light hammering, not heavy forging — treating it as a forging anvil cracks cast iron bodies. Keep it clean and lightly oiled to prevent rust.',
-            'Store vises under cover in humid environments. A light coat of oil on unpainted surfaces prevents corrosion and keeps the finish fresh.',
+            'Store vises under cover in humid environments. A light coat of oil on unpainted surfaces prevents corrosion and keeps the finish fresh. Choosing a vise rather than maintaining one? Start at [how to choose a bench vise](/knowledge/how-to-choose-a-bench-vise).',
           ],
         },
       ],
@@ -199,7 +199,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Knowledge',
       h1: 'OEM Bench Vise Manufacturing: How Custom Vises Get Made',
       intro:
-        'Whether you need a branded private label run or a fully custom vise, understanding the manufacturing pipeline — from casting to quality testing — sets the right expectations for cost, lead time and MOQ. Start from a [reference model](/products/vise-medium-6) to anchor your spec, or go straight to the [OEM manufacturing](/oem-manufacturing) overview.',
+        'Whether you need a branded private label run or a fully custom vise, understanding the manufacturing pipeline — from casting to quality testing — sets the right expectations for cost, lead time and MOQ.',
       sections: [
         {
           title: 'The Manufacturing Pipeline',
@@ -212,7 +212,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'MOQ and Lead Times',
           body: [
             'Standard models run from 50-200 pcs depending on series; custom-tooling runs start higher. Samples ship in 7-14 days and bulk production runs 25-35 days after confirmed PO and deposit.',
-            'Combining several models in one order spreads fixed costs and improves unit pricing — a common way brands test multiple SKUs at once.',
+            'Combining several models in one order spreads fixed costs and improves unit pricing — a common way brands test multiple SKUs at once. Start from a [reference model](/products/vise-medium-6) to anchor your spec.',
           ],
         },
         {
@@ -371,7 +371,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Centro de conocimiento',
       h1: 'Mantenimiento de mordazas: qué mantiene una mordaza en uso durante décadas',
       intro:
-        'Una mordaza de calidad está pensada para durar toda una generación. La mayoría de fallos prematuros vienen de la negligencia, no del uso. Esta guía cubre el mantenimiento que evita que las mordazas se atasquen — la compañera de [elegir una mordaza que encaja con el trabajo](/knowledge/how-to-choose-a-bench-vise).',
+        'Una mordaza de calidad está pensada para durar toda una generación. La mayoría de fallos prematuros vienen de la negligencia, no del uso. Esta guía cubre el mantenimiento que evita que las mordazas se atasquen.',
       sections: [
         {
           title: 'Lubrica el husillo',
@@ -398,7 +398,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Yunque y almacenamiento',
           body: [
             'El [yunque](/products/vise-specialty-anvil) es para martillar ligero, no para forja pesada. Mantenlo limpio y ligeramente aceitado contra el óxido.',
-            'Guarda las mordazas a cubierto en ambientes húmedos. Una capa ligera de aceite previene la corrosión.',
+            'Guarda las mordazas a cubierto en ambientes húmedos. Una capa ligera de aceite previene la corrosión. ¿Estás eligiendo una mordaza en lugar de mantenerla? Empieza en [cómo elegir una mordaza de banco](/knowledge/how-to-choose-a-bench-vise).',
           ],
         },
       ],
@@ -412,7 +412,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Centro de conocimiento',
       h1: 'Fabricación OEM de mordazas: cómo se fabrican las mordazas personalizadas',
       intro:
-        'Necesites una tirada de marca privada o una mordaza totalmente personalizada, entender el proceso de fabricación — de la fundición a las pruebas de calidad — fija expectativas correctas de coste y plazo. Empieza desde un [modelo de referencia](/products/vise-medium-6) para anclar tu especificación, o ve directo al resumen de [fabricación OEM](/oem-manufacturing).',
+        'Necesites una tirada de marca privada o una mordaza totalmente personalizada, entender el proceso de fabricación — de la fundición a las pruebas de calidad — fija expectativas correctas de coste y plazo.',
       sections: [
         {
           title: 'El proceso de fabricación',
@@ -425,7 +425,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Pedidos mínimos y plazos',
           body: [
             'Los modelos estándar van de 50-200 uds. según la serie; el utillaje personalizado parte de más. Las muestras salen en 7-14 días y la producción en 25-35 días tras el PO y el depósito.',
-            'Combinar varios modelos en un pedido reparte los costes fijos y mejora el precio unitario.',
+            'Combinar varios modelos en un pedido reparte los costes fijos y mejora el precio unitario. Empieza desde un [modelo de referencia](/products/vise-medium-6) para anclar tu especificación.',
           ],
         },
         {
@@ -584,7 +584,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Knowledge',
       h1: "Entretien de l'étau d'établi : ce qui fait durer un étau pendant des décennies",
       intro:
-        "Un étau d'établi de qualité est conçu pour durer une génération. La plupart des défaillances prématurées viennent de la négligence, pas de l'usage. Ce guide couvre l'entretien qui empêche les étaux de se gripper et de s'user — la jumelle de [choisir un étau qui convient au travail](/knowledge/how-to-choose-a-bench-vise).",
+        "Un étau d'établi de qualité est conçu pour durer une génération. La plupart des défaillances prématurées viennent de la négligence, pas de l'usage. Ce guide couvre l'entretien qui empêche les étaux de se gripper et de s'user.",
       sections: [
         {
           title: 'Lubrifier le filet de la vis',
@@ -611,7 +611,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Enclume et stockage',
           body: [
             "La surface de l'[enclume](/products/vise-specialty-anvil) est destinée au martelage léger, pas à la forge lourde — l'utiliser comme enclume de forge fissure les corps en fonte. Gardez-la propre et légèrement huilée pour prévenir la rouille.",
-            "Rangez les étaux à l'abri dans les environnements humides. Une fine couche d'huile sur les surfaces non peintes prévient la corrosion et maintient la finition.",
+            "Rangez les étaux à l'abri dans les environnements humides. Une fine couche d'huile sur les surfaces non peintes prévient la corrosion et maintient la finition. Vous choisissez un étau plutôt que de l'entretenir ? Commencez par [comment choisir un étau d'établi](/knowledge/how-to-choose-a-bench-vise).",
           ],
         },
       ],
@@ -625,7 +625,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       kicker: 'Knowledge',
       h1: "Fabrication OEM d'étaux d'établi : comment les étaux personnalisés sont fabriqués",
       intro:
-        "Que vous ayez besoin d'une production à marque privée ou d'un étau entièrement personnalisé, comprendre le processus de fabrication — de la fonderie aux tests de qualité — fixe les bonnes attentes en termes de coût, délai et MOQ. Partez d'un [modèle de référence](/products/vise-medium-6) pour ancrer votre spécification, ou allez directement à l'aperçu [fabrication OEM](/oem-manufacturing).",
+        "Que vous ayez besoin d'une production à marque privée ou d'un étau entièrement personnalisé, comprendre le processus de fabrication — de la fonderie aux tests de qualité — fixe les bonnes attentes en termes de coût, délai et MOQ.",
       sections: [
         {
           title: 'Le processus de fabrication',
@@ -638,7 +638,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'MOQ et délais de livraison',
           body: [
             "Les modèles standard vont de 50 à 200 pièces selon la série ; les outillages personnalisés partent de quantités supérieures. Les échantillons sont expédiés en 7 à 14 jours et la production en série prend 25 à 35 jours après confirmation du PO et du versement.",
-            "Combiner plusieurs modèles dans une seule commande répartit les coûts fixes et améliore le prix unitaire — un moyen courant pour les marques de tester plusieurs SKUs à la fois.",
+            "Combiner plusieurs modèles dans une seule commande répartit les coûts fixes et améliore le prix unitaire — un moyen courant pour les marques de tester plusieurs SKUs à la fois. Partez d'un [modèle de référence](/products/vise-medium-6) pour ancrer votre spécification.",
           ],
         },
         {
