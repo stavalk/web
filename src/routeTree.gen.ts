@@ -71,6 +71,7 @@ import { Route as Char123LocaleChar125KnowledgeIndexRouteImport } from './routes
 import { Route as Char123LocaleChar125AppIndexRouteImport } from './routes/{-$locale}/app/index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
 import { Route as Char123LocaleChar125AboutIndexRouteImport } from './routes/{-$locale}/about/index'
+import { Route as Char123LocaleChar125SolutionsSlugRouteImport } from './routes/{-$locale}/solutions/$slug'
 import { Route as Char123LocaleChar125ProjectsSlugRouteImport } from './routes/{-$locale}/projects/$slug'
 import { Route as Char123LocaleChar125ProductsSeriesRouteImport } from './routes/{-$locale}/products/$series'
 import { Route as Char123LocaleChar125KnowledgeSlugRouteImport } from './routes/{-$locale}/knowledge/$slug'
@@ -444,6 +445,12 @@ const Char123LocaleChar125AboutIndexRoute =
     path: '/about/',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
+const Char123LocaleChar125SolutionsSlugRoute =
+  Char123LocaleChar125SolutionsSlugRouteImport.update({
+    id: '/$slug',
+    path: '/$slug',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any)
 const Char123LocaleChar125ProjectsSlugRoute =
   Char123LocaleChar125ProjectsSlugRouteImport.update({
     id: '/projects/$slug',
@@ -626,6 +633,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
+  '/{-$locale}/solutions/$slug': typeof Char123LocaleChar125SolutionsSlugRoute
   '/{-$locale}/about/': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
@@ -705,6 +713,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
+  '/{-$locale}/solutions/$slug': typeof Char123LocaleChar125SolutionsSlugRoute
   '/{-$locale}/about': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app': typeof Char123LocaleChar125AppIndexRoute
@@ -788,6 +797,7 @@ export interface FileRoutesById {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
+  '/{-$locale}/solutions/$slug': typeof Char123LocaleChar125SolutionsSlugRoute
   '/{-$locale}/about/': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
@@ -872,6 +882,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
+    | '/{-$locale}/solutions/$slug'
     | '/{-$locale}/about/'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
@@ -951,6 +962,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
+    | '/{-$locale}/solutions/$slug'
     | '/{-$locale}/about'
     | '/{-$locale}/admin'
     | '/{-$locale}/app'
@@ -1033,6 +1045,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
+    | '/{-$locale}/solutions/$slug'
     | '/{-$locale}/about/'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
@@ -1526,6 +1539,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125AboutIndexRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
+    '/{-$locale}/solutions/$slug': {
+      id: '/{-$locale}/solutions/$slug'
+      path: '/$slug'
+      fullPath: '/{-$locale}/solutions/$slug'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsSlugRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
     '/{-$locale}/projects/$slug': {
       id: '/{-$locale}/projects/$slug'
       path: '/projects/$slug'
@@ -1681,11 +1701,14 @@ const Char123LocaleChar125AdminRouteRouteWithChildren =
   )
 
 interface Char123LocaleChar125SolutionsRouteChildren {
+  Char123LocaleChar125SolutionsSlugRoute: typeof Char123LocaleChar125SolutionsSlugRoute
   Char123LocaleChar125SolutionsIndexRoute: typeof Char123LocaleChar125SolutionsIndexRoute
 }
 
 const Char123LocaleChar125SolutionsRouteChildren: Char123LocaleChar125SolutionsRouteChildren =
   {
+    Char123LocaleChar125SolutionsSlugRoute:
+      Char123LocaleChar125SolutionsSlugRoute,
     Char123LocaleChar125SolutionsIndexRoute:
       Char123LocaleChar125SolutionsIndexRoute,
   }
