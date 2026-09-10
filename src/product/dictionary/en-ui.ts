@@ -315,9 +315,9 @@ export const enUi = {
       faqDesc: 'Frequently asked questions about stavalk cast iron bench vise OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale supply.',
       waitlistTitle: 'Join the waitlist',
       waitlistDesc: "We'll let you know the moment we launch.",
-      homeTitle: 'Custom Cast Iron Bench Vise Manufacturing | OEM/ODM for Brands & Distributors',
-      homeDesc: '{siteName} builds custom cast iron bench vises for brands and distributors: specification, samples, QC, packaging and export-ready production.',
-      homeOgTitle: '{siteName} — Custom Cast Iron Bench Vise Manufacturing',
+      homeTitle: 'Bench Vise Specialist | OEM, ODM & Private Label | Stavalk',
+      homeDesc: '{siteName} develops and manufactures custom bench vises for brands and distributors — OEM, ODM and private label, from specification and prototyping to quality-controlled batch production in Qingdao, China.',
+      homeOgTitle: '{siteName} — Bench Vise Specialist | OEM, ODM & Private Label',
     },
     jsonld: {
       moq: 'Minimum order quantity (MOQ)',

@@ -305,9 +305,9 @@ export const esUi = {
       faqDesc: 'Preguntas frecuentes sobre la fabricación OEM/ODM de tornillos de banco de hierro fundido stavalk — materiales, certificaciones, cantidades mínimas de pedido y logística mayorista.',
       waitlistTitle: 'Únete a la lista de espera',
       waitlistDesc: 'Te avisaremos en cuanto lancemos.',
-      homeTitle: 'Fabricante de tornillos de banco de hierro fundido a medida | OEM/ODM para marcas',
-      homeDesc: '{siteName} fabrica tornillos de banco de hierro fundido de marca propia: especificación, muestras, QC, packaging y producción lista para exportar.',
-      homeOgTitle: '{siteName} — Fabricante de tornillos de banco de hierro fundido a medida',
+      homeTitle: 'Especialista en tornillos de banco | OEM, ODM y marca privada | Stavalk',
+      homeDesc: '{siteName} desarrolla y fabrica tornillos de banco personalizados para marcas y distribuidores — OEM, ODM y marca privada, desde la especificación y el prototipado hasta la producción en serie con control de calidad en Qingdao, China.',
+      homeOgTitle: '{siteName} — Especialista en tornillos de banco | OEM, ODM y marca privada',
     },
     jsonld: {
       moq: 'Cantidad mínima de pedido (MOQ)',

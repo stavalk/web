@@ -305,9 +305,9 @@ export const frUi = {
       faqDesc: 'Foire aux questions sur la fabrication OEM/ODM d\'étaux d\'établi en fonte stavalk — matériaux, certifications, quantités minimales de commande et approvisionnement en gros.',
       waitlistTitle: 'Rejoignez la liste d\'attente',
       waitlistDesc: 'Nous vous préviendrons dès le lancement.',
-      homeTitle: 'Fabrication d\'étaux d\'établi en fonte personnalisés | OEM/ODM pour marques et distributeurs',
-      homeDesc: '{siteName} fabrique des étaux d\'établi en fonte personnalisés pour des marques et distributeurs : spécification, échantillons, contrôle qualité, emballage et production prête pour l\'export.',
-      homeOgTitle: '{siteName} — Fabrication d\'étaux d\'établi en fonte personnalisés',
+      homeTitle: 'Spécialiste des étaux d\'établi | OEM, ODM et marque privée | Stavalk',
+      homeDesc: '{siteName} développe et fabrique des étaux d\'établi personnalisés pour marques et distributeurs — OEM, ODM et marque privée, de la spécification et du prototypage à la production en série sous contrôle qualité à Qingdao, en Chine.',
+      homeOgTitle: '{siteName} — Spécialiste des étaux d\'établi | OEM, ODM et marque privée',
     },
     jsonld: {
       moq: 'Quantité minimale de commande (MOQ)',
