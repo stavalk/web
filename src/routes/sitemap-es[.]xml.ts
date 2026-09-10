@@ -26,8 +26,6 @@ const handler = async () => {
     .map((path: string) => ({ path }))
   const detailEs = [
     { path: '/evidence/case-studies' },
-    { path: '/terms' },
-    { path: '/privacy' },
     ...loader.getLocaleContentPaths('es').map((p: string) => ({ path: p })),
     ...GUIDES_ES.map((g: { slug: string }) => ({ path: `/guides/${g.slug}` })),
     ...projects.es.map((p: { slug: string }) => ({ path: `/projects/${p.slug}` })),

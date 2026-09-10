@@ -223,9 +223,7 @@ export function llmAfarierIndex(origin: string): string {
     '',
     '## FAQ',
     ...staticLines,
-    '',
-    '## Research',
-    ...researchLines,
+    ...(researchLines.length > 0 ? ['', '## Research', ...researchLines] : []),
     '',
     '## Latest News',
     ...newsLines,
@@ -248,10 +246,6 @@ export function llmsAfarerFull(): string {
     '/partners', '/news', '/technology', '/size-guide',
     '/warranty', '/knowledge',
     '/randdcenter', '/oem-onboarding-guide', '/product-development',
-    '/research/sand-casting-process',
-    '/research/cnc-machining-precision', '/research/heat-treatment-jaw-hardness',
-    '/research/surface-coating-and-finishing', '/research/quality-testing-standards',
-    '/research/oem-buyer-guide',
   ])
 
   function pageBodyText(p: { path: string; content?: Record<string, unknown> }): string[] {

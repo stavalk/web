@@ -10,7 +10,10 @@ interface PublicPathEntry {
   lastmod: string
 }
 
-/** Marketing pages in the sitemap (bilingual, hreflang-linked). */
+/** Marketing pages in the sitemap (bilingual, hreflang-linked).
+ *  Only dedicated-route pages live here — registry/sheet pages are emitted by
+ *  the sitemap routes from `getContentPages()` with their real lastmod, and
+ *  redirected (LEGACY_REDIRECTS) or 404 URLs are never listed. */
 const RAW_PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/', lastmod: '2026-08-11' },
   { path: '/solutions', lastmod: '2026-06-20' },
@@ -21,70 +24,11 @@ const RAW_PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/about', lastmod: '2026-08-07' },
   { path: '/contact', lastmod: '2026-08-07' },
   { path: '/customizer', lastmod: '2026-08-07' },
-  { path: '/product-development', lastmod: '2026-08-11' },
-  { path: '/solutions/private-label-sup', lastmod: '2026-06-01' },
-  { path: '/solutions/resort-sup', lastmod: '2026-06-01' },
-  { path: '/solutions/club-sup', lastmod: '2026-06-01' },
-  { path: '/solutions/school-sup', lastmod: '2026-06-01' },
   { path: '/projects', lastmod: '2026-08-15' },
   { path: '/knowledge', lastmod: '2026-06-25' },
-  { path: '/oem-moq-guide', lastmod: '2026-08-20' },
-  { path: '/oem-sup-moq', lastmod: '2026-08-20' },
-  { path: '/inflatable-sup-certification', lastmod: '2026-08-20' },
-  { path: '/oem-trust-assurance', lastmod: '2026-08-20' },
-  { path: '/proof-center', lastmod: '2026-08-20' },
-  { path: '/sup-oem-moq-lead-time', lastmod: '2026-08-20' },
-  { path: '/oem-odm-private-label-comparison', lastmod: '2026-08-20' },
-  { path: '/start-sup-project', lastmod: '2026-08-20' },
-  { path: '/oem-onboarding-guide', lastmod: '2026-08-20' },
-  { path: '/sup-construction-comparison', lastmod: '2026-08-21' },
-  { path: '/sup-compliance-by-market', lastmod: '2026-08-21' },
-  { path: '/factory-audit-checklist', lastmod: '2026-08-21' },
-  { path: '/about/identity', lastmod: '2026-08-21' },
-  { path: '/about/afarer', lastmod: '2026-08-20' },
-  { path: '/factory', lastmod: '2026-08-20' },
-  { path: '/factory/capacity', lastmod: '2026-08-20' },
-  { path: '/factory/equipment', lastmod: '2026-08-20' },
-  { path: '/factory/oem-capability', lastmod: '2026-08-20' },
-  { path: '/factory/process', lastmod: '2026-08-20' },
-  { path: '/factory/quality-lab', lastmod: '2026-08-20' },
-  { path: '/factory/quality-inspection', lastmod: '2026-08-20' },
-  { path: '/factory/quality-change-control', lastmod: '2026-08-20' },
-  { path: '/factory/non-conforming-control', lastmod: '2026-08-20' },
-  { path: '/oem-manufacturing', lastmod: '2026-08-20' },
-  { path: '/odm-development', lastmod: '2026-08-20' },
-  { path: '/oem-paddle', lastmod: '2026-08-20' },
-  { path: '/b2b-solutions-matrix', lastmod: '2026-08-20' },
-  { path: '/solutions/rental-operators', lastmod: '2026-08-20' },
-  { path: '/solutions/retail-partners', lastmod: '2026-08-20' },
-  { path: '/solutions/distributors', lastmod: '2026-08-20' },
-  { path: '/randdcenter', lastmod: '2026-08-20' },
-  { path: '/randdcenter/hull-engineering', lastmod: '2026-08-20' },
-  { path: '/randdcenter/hydrodynamic-test-tank', lastmod: '2026-08-20' },
-  { path: '/randdcenter/prototype-workshop', lastmod: '2026-08-20' },
-  { path: '/randdcenter/pvc-fabric-lab', lastmod: '2026-08-20' },
-  { path: '/randdcenter/quality-inspection-lab', lastmod: '2026-08-20' },
-  { path: '/randdcenter/rf-welding', lastmod: '2026-08-20' },
-  { path: '/research/drop-stitch-technology', lastmod: '2026-08-20' },
-  { path: '/research/pvc-vs-hypalon', lastmod: '2026-08-20' },
-  { path: '/research/ce-certification-guide', lastmod: '2026-08-20' },
-  { path: '/research/sup-thickness-guide', lastmod: '2026-08-20' },
-  { path: '/research/oem-buyer-guide', lastmod: '2026-08-20' },
-  { path: '/oem/sup-oem-north-america', lastmod: '2026-08-20' },
-  { path: '/oem/sup-oem-europe', lastmod: '2026-08-20' },
-  { path: '/oem/sup-oem-australia', lastmod: '2026-08-20' },
-  { path: '/oem/sup-oem-canada', lastmod: '2026-08-20' },
-  { path: '/quality', lastmod: '2026-08-20' },
-  { path: '/partners', lastmod: '2026-08-20' },
-  { path: '/news', lastmod: '2026-08-20' },
-  { path: '/technology', lastmod: '2026-08-20' },
-  { path: '/size-guide', lastmod: '2026-08-20' },
-  { path: '/fishing', lastmod: '2026-08-20' },
-  { path: '/inflatable-vs-hardboard', lastmod: '2026-08-20' },
-  { path: '/tourism-recreation', lastmod: '2026-08-20' },
-  { path: '/warranty', lastmod: '2026-08-20' },
-  { path: '/what-is-sup', lastmod: '2026-08-20' },
-  { path: '/new-brand-trial-order', lastmod: '2026-08-20' },
+  { path: '/faq', lastmod: '2026-06-01' },
+  { path: '/terms', lastmod: '2026-08-15' },
+  { path: '/privacy', lastmod: '2026-08-15' },
   { path: ENTITY_PAGE_PATH, lastmod: '2026-06-30' },
 ]
 
@@ -173,6 +117,8 @@ export interface SitemapEntry {
   lastmod?: string
   /** Emit the Spanish sibling as an hreflang alternate (must have a real es variant). */
   es?: boolean
+  /** Emit the full trilingual alternate set (needs real es and fr variants). */
+  fr?: boolean
 }
 
 type SingleLocalePath = string | SitemapEntry
@@ -201,7 +147,9 @@ export function buildSitemap(
     const entry = typeof p === 'string' ? { loc: p } : p
     const lastmod = entry.lastmod ? `<lastmod>${entry.lastmod}</lastmod>` : ''
     const links = entry.es
-      ? `<xhtml:link rel="alternate" hreflang="${HREFLANG.en}" href="${origin}${entry.loc}"/><xhtml:link rel="alternate" hreflang="${HREFLANG.es}" href="${origin}${localizePath('es', entry.loc)}"/><xhtml:link rel="alternate" hreflang="x-default" href="${origin}${entry.loc}"/>`
+      ? entry.fr
+        ? alternates(origin, entry.loc)
+        : `<xhtml:link rel="alternate" hreflang="${HREFLANG.en}" href="${origin}${entry.loc}"/><xhtml:link rel="alternate" hreflang="${HREFLANG.es}" href="${origin}${localizePath('es', entry.loc)}"/><xhtml:link rel="alternate" hreflang="x-default" href="${origin}${entry.loc}"/>`
       : ''
     return `<url><loc>${origin}${entry.loc}</loc>${lastmod}${links}</url>`
   })

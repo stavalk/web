@@ -136,6 +136,8 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/research/drop-stitch-technology': '/knowledge',
   '/research/pvc-vs-hypalon': '/knowledge',
   '/research/sup-thickness-guide': '/size-guide',
+  '/research/ce-certification-guide': '/quality',
+  '/research/oem-buyer-guide': '/oem-moq-guide',
   '/oem/sup-oem-north-america': '/oem-manufacturing',
   '/oem/sup-oem-europe': '/oem-manufacturing',
   '/oem/sup-oem-australia': '/oem-manufacturing',
