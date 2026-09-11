@@ -25,6 +25,9 @@ export const LLM_FAQ_DESCRIPTION = 'Answers to the most common questions about b
 export const LLM_SPANISH_HOMEPAGE_DESCRIPTION =
   'Fabricante de tornillos de banco de precisión, con exportación mundial'
 
+export const LLM_FRENCH_HOMEPAGE_DESCRIPTION =
+  'Fabricant de précision d\'étaux d\'établi, exportation mondiale'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a bench vise OEM/ODM manufacturer.`
 
