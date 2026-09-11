@@ -257,6 +257,282 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
     {
+      slug: 'bench-vise-size-guide',
+      navLabel: 'Bench Vise Size Guide',
+      metaTitle: 'Bench Vise Size Guide: Jaw Width, Opening, Throat',
+      metaDescription:
+        'How bench vise sizes work: jaw width is the name, opening and throat depth are the reach. Size ranges by duty class and what to measure before buying.',
+      kicker: 'Knowledge',
+      h1: 'Bench Vise Size Guide',
+      intro:
+        'A "6-inch" vise is not 6 inches of everything — the number is the jaw width, and opening and throat depth are separate numbers that decide what the vise can actually hold. This guide explains how to read vise sizes.',
+      sections: [
+        {
+          title: 'How a Vise Is Sized',
+          body: [
+            'The naming number on a bench vise is the width of the jaws — a "6″ bench vise" has jaws roughly 6 inches wide. Everything else (opening, throat depth, weight) is a separate specification printed below it.',
+            'Because jaw width is the headline number, it dominates a first comparison. But two vises with the same jaw width can have very different openings and throat depths.',
+          ],
+        },
+        {
+          title: 'The Duty Ladder and Typical Sizes',
+          body: [
+            'Bench vises cluster into light, medium and heavy duty, each with a familiar size range: light-duty vises run 2″-5″ jaws, medium-duty 5″-8″, and heavy-duty 8″ and up. A [4″ light-duty bench vise](/products/vise-light-4) suits hobby work, the [6″ medium-duty bench vise](/products/vise-medium-6) is the workshop standard, and an [8″ heavy-duty bench vise](/products/vise-heavy-8) handles fabrication.',
+            'Bigger jaws mean more mass, which means more rigidity — but also more bench. The heavier the vise, the stronger the bench top it needs.',
+          ],
+        },
+        {
+          title: 'Opening: The Corner You Actually Hit',
+          body: [
+            'The jaw opening is the biggest gap between the jaws, and it is the number that really matters when you clamp a thick workpiece. A generous opening swallows pipe, castings and assemblies that an undersized vise simply cannot hold. The dedicated guide covers it in full: [how much jaw opening you need](/knowledge/how-much-jaw-opening-do-you-need).',
+          ],
+        },
+        {
+          title: 'Throat Depth: How Far the Work Can Reach',
+          body: [
+            'Throat depth is the reach from the top edge of the jaws back to the body — the space into which a workpiece stands while you work the top surface. It limits files, saws and grinding work on vertical faces. Details are in [how much throat depth you need](/knowledge/how-much-throat-depth-do-you-need).',
+          ],
+        },
+        {
+          title: 'Weight, Mounting and the Bench',
+          body: [
+            'A heavy-duty vise can weigh 50-80 lbs and puts real load through the bench. Match bolt size and spacing to the top, and reinforce thin faces. Mounting quality decides whether the [clamping force](/engineering/clamping-force) ends up in the workpiece or in a flexing table.',
+          ],
+        },
+        {
+          title: 'Size Is Only Part of the Spec',
+          body: [
+            'Size tells you capacity, not longevity. The [body material](/engineering/materials) and jaw construction decide how long that capacity lasts under use, which is why the full decision process starts with [how to choose a bench vise](/knowledge/how-to-choose-a-bench-vise).',
+            'For volume or OEM programs, the [manufacturing team](/oem-manufacturing) can size a custom opening and throat for your application from a proven platform.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: '4-inch-vs-6-inch-bench-vise',
+      navLabel: '4″ vs 6″ Bench Vise',
+      metaTitle: '4″ vs 6″ Bench Vise: Which Size Do You Need?',
+      metaDescription:
+        '4-inch vs 6-inch bench vise: jaw width, opening, clamping force and the work each handles. Hobby work or general workshop use — which to buy.',
+      kicker: 'Knowledge',
+      h1: '4″ vs 6″ Bench Vise',
+      intro:
+        'The 4-inch and 6-inch vises are the two most common workshop sizes, and the jump between them is bigger than the difference in jaw width. Knowing what the extra two inches buy tells you which one your bench needs.',
+      sections: [
+        {
+          title: 'The Real Difference',
+          body: [
+            'A 4″ bench vise is a light-duty tool: smaller jaws, a smaller opening and lower mass, sized for hobby work, electronics and small repairs. A [6″ medium-duty bench vise](/products/vise-medium-6) sits a class up, with wider jaws, a bigger opening and a heavier body built for general metalwork and auto repair.',
+          ],
+        },
+        {
+          title: 'Jaw Width vs What You Can Hold',
+          body: [
+            'The extra two inches add jaw area, but the opening matters just as much. A 4″ light vise typically opens around 2-3″, a [4″ light-duty model](/products/vise-light-4) handles small stock, while a 6″ vise opens far wider and holds castings, pipe and assembled parts the small vise cannot.',
+          ],
+        },
+        {
+          title: 'Clamping Force',
+          body: [
+            'Mass is force: the 6″ body delivers noticeably more [clamping force](/engineering/clamping-force) and rigidity for sawing and filing under load. If your work regularly pushes hard against the jaws, the 6″ wins without argument.',
+          ],
+        },
+        {
+          title: 'Materials and Build',
+          body: [
+            'Both sizes come in gray iron bodies with hardened jaws, but the 6″ class gets more body mass and often a swivel base as standard. The trade-offs of the [body materials](/engineering/materials) apply across both.',
+          ],
+        },
+        {
+          title: 'Which One Fits Your Work',
+          body: [
+            'Go 4″ for small work, tight budgets and light benches; go 6″ if you do general workshop, automotive or metalwork or if you intend to grow into it. The full [choosing process](/knowledge/how-to-choose-a-bench-vise) walks through every factor.',
+            'Sourcing for a product line? The [OEM team](/oem-manufacturing) builds both sizes and can tune jaw, opening and finish to your spec.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: '6-inch-vs-8-inch-bench-vise',
+      navLabel: '6″ vs 8″ Bench Vise',
+      metaTitle: '6″ vs 8″ Bench Vise: When to Step Up in Size',
+      metaDescription:
+        '6-inch vs 8-inch bench vise: jaw width, opening, clamping force, weight and the heavy work the 8-inch class is built for. When to step up.',
+      kicker: 'Knowledge',
+      h1: '6″ vs 8″ Bench Vise',
+      intro:
+        'Stepping from a 6-inch to an 8-inch bench vise is a jump in mass, reach and price. It is worth it exactly when the work keeps hitting the limits of the smaller model.',
+      sections: [
+        {
+          title: 'What Steps Up',
+          body: [
+            'The 8″ class adds jaw area, opening, throat depth and — most importantly — body mass. A [6″ medium-duty bench vise](/products/vise-medium-6) covers general workshop work, while an [8″ heavy-duty bench vise](/products/vise-heavy-8) is built for fabrication, heavier stock and constant hammering.',
+          ],
+        },
+        {
+          title: 'Opening and Throat Follow',
+          body: [
+            'Bigger jaws go with a wider jaw opening and deeper throat, so the 8″ takes pipe, thick sections and tall assemblies the 6″ cannot. If those are regular in your shop, the capacity is the reason to pay for the jump — see [what opening](/knowledge/how-much-jaw-opening-do-you-need) and [throat depth](/knowledge/how-much-throat-depth-do-you-need) you actually need.',
+          ],
+        },
+        {
+          title: 'Clamping Force and Rigidity',
+          body: [
+            'The heavier body delivers higher [clamping force](/engineering/clamping-force) and less flex under load, which matters for filing and grinding heavy work where a lighter vise walks on the bench.',
+          ],
+        },
+        {
+          title: 'Weight and the Bench Cost',
+          body: [
+            'An 8″ heavy-duty vise is a serious mounting job: expect 60-80 lbs of iron bolted to a reinforced bench. Budget both the price and the bench work before stepping up.',
+          ],
+        },
+        {
+          title: 'The Verdict',
+          body: [
+            'Choose 6″ for a general workshop and auto repair; choose 8″ for fabrication and industrial maintenance where the work is genuinely heavy. The [materials library](/engineering/materials) explains why the heavy class uses the bodies it does.',
+            'Buying at volume? The [OEM manufacturing](/oem-manufacturing) route offers the 8″ platform with custom jaws, base and branding for private-label programs.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-much-jaw-opening-do-you-need',
+      navLabel: 'How Much Jaw Opening Do You Need?',
+      metaTitle: 'How Much Jaw Opening Do You Need? | Vise Opening Guide',
+      metaDescription:
+        'Jaw opening is the biggest gap a bench vise can clamp. How to measure your largest workpiece and pick an opening range by duty class.',
+      kicker: 'Knowledge',
+      h1: 'How Much Jaw Opening Do You Need?',
+      intro:
+        'The jaw opening is the maximum gap between the jaws — the biggest workpiece the vise can physically hold. It is the spec that most often surprises buyers, because it is smaller than the jaw width implies.',
+      sections: [
+        {
+          title: 'Opening vs Jaw Width',
+          body: [
+            'Jaw width is sideways room; jaw opening is the vertical gap between the jaws. A 6″ vise with 6-inch-wide jaws might open only 4-6 inches. Buyers who want to clamp a thick casting must shop by opening, not by the headline size number.',
+            'The difference matters enough that it runs through the whole [size guide](/knowledge/bench-vise-size-guide).',
+          ],
+        },
+        {
+          title: 'Measure Your Largest Workpiece',
+          body: [
+            'First, measure the thickest thing you will clamp — a casting, a pipe section, a stack of angle iron. That dimension plus a little clearance is your minimum opening. Everything else the vise does is secondary to clearing your biggest part.',
+          ],
+        },
+        {
+          title: 'Typical Openings by Class',
+          body: [
+            'Light-duty vises typically open 2-3″, medium-duty 4-6″, and heavy-duty 6-10″. The [6″ medium-duty bench vise](/products/vise-medium-6) opens enough for most workshop parts; an [8″ heavy-duty bench vise](/products/vise-heavy-8) swallows assembled work and pipe that the smaller class cannot.',
+          ],
+        },
+        {
+          title: 'When Max Opening Is the Whole Game',
+          body: [
+            'Pipe, castings, jigs and partially assembled work all need the jaws to clear the complete profile, not just a thin slice of it. Applications that do this constantly — fabrication, plumbing, maintenance — should weight opening higher than jaw width in [how to choose a bench vise](/knowledge/how-to-choose-a-bench-vise).',
+          ],
+        },
+        {
+          title: 'Opening and Force Trade Hands',
+          body: [
+            'A wide opening is useless without the [clamping force](/engineering/clamping-force) to hold the part, and both depend on [body materials](/engineering/materials) that keep the frame rigid under load. Check all three on the same model, not separately.',
+            'If your largest workpiece dictates a non-standard opening, the [OEM team](/oem-manufacturing) can specify one for your program.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-much-throat-depth-do-you-need',
+      navLabel: 'How Much Throat Depth Do You Need?',
+      metaTitle: 'How Much Throat Depth Do You Need? | Vise Reach Guide',
+      metaDescription:
+        'Throat depth is how deep a workpiece can stand in a bench vise. What it measures, why it matters for vertical work, and typical depths by class.',
+      kicker: 'Knowledge',
+      h1: 'How Much Throat Depth Do You Need?',
+      intro:
+        'Throat depth is the reach from the top edge of the jaws back to the body — the room a workpiece has to stand up while you work it. It decides how comfortably you can file, saw and grind vertical faces.',
+      sections: [
+        {
+          title: 'What Throat Depth Measures',
+          body: [
+            'Sit a plate in the jaws and it stands in the space between the jaw faces and the body bars. How far it can reach before the body blocks it is the throat depth. Deeper throat means deeper work before you would need to re-position.',
+            'Throat teams up with jaw opening in the [size guide](/knowledge/bench-vise-size-guide) as the two real "reach" numbers.',
+          ],
+        },
+        {
+          title: 'Why Depth Matters',
+          body: [
+            'Filing or dressing the top of a tall piece, sawing off a long blank, or working the end of a deep casting all depend on how far the work can stand up in the jaws. Too-shallow throats force awkward re-clamps or bench gymnastics.',
+            'It matters most to metalworkers and woodworkers who dress vertical surfaces at height—the very work an [8″ heavy-duty bench vise](/products/vise-heavy-8) is built for.',
+          ],
+        },
+        {
+          title: 'Typical Depths by Class',
+          body: [
+            'Light-duty vises reach about 2-2.5″, medium-duty about 3″, and heavy-duty around 3.5-4″ or more. The differences are inches, but for tall work those inches are the difference between one setup and two.',
+          ],
+        },
+        {
+          title: 'Depth vs Opening: Read Both',
+          body: [
+            'Opening is how thick a part the jaws can hold; throat is how deep a part can stand. One wide-and-shallow vise will not do the job of a deep-throat model, so balance both against your work — the same logic as [choosing jaw opening](/knowledge/how-much-jaw-opening-do-you-need).',
+          ],
+        },
+        {
+          title: 'Reach Is Also Rigidity',
+          body: [
+            'A deep throat only helps if the body stays rigid when you push on the work. That rigidity comes from mass and the [body materials](/engineering/materials), holding the [clamping force](/engineering/clamping-force) at full depth instead of flexing away.',
+            'Need a custom throat for a specific product? The [OEM route](/oem-manufacturing) adapts a platform to your geometry.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-much-clamping-force-do-you-need',
+      navLabel: 'How Much Clamping Force Do You Need?',
+      metaTitle: 'How Much Clamping Force Do You Need? | Vise Force Guide',
+      metaDescription:
+        'Clamping force is how hard a bench vise grips under work. Force ranges by duty class, why too much can be a problem, and how to verify published numbers.',
+      kicker: 'Knowledge',
+      h1: 'How Much Clamping Force Do You Need?',
+      intro:
+        'Clamping force is how hard the jaws actually grip the work under load. It decides whether the part stays put when you push, and reputable manufacturers publish it per model.',
+      sections: [
+        {
+          title: 'What Clamping Force Is',
+          body: [
+            'Clamping force is the load the closed jaws deliver on a workpiece, usually measured in pounds of force (lbf) under controlled torque. It is the mechanical advantage of the [screw](/knowledge/how-does-a-bench-vise-work) turned into actual grip.',
+            'A manufacturer that rates force is telling you what the vise can hold; a manufacturer that prints only "strong" is not. The measurement method is explained on the [clamping force](/engineering/clamping-force) engineering page.',
+          ],
+        },
+        {
+          title: 'Typical Ranges by Duty',
+          body: [
+            'Light-duty vises rate around 1,200-1,500 lbf, medium-duty a few thousand lbf, and heavy-duty models up to 6,000-8,000 lbf. The [6″ medium-duty bench vise](/products/vise-medium-6) holds general workshop work; the [6″ heavy-duty bench vise](/products/vise-heavy-6) carries the force for fabrication and hammering.',
+          ],
+        },
+        {
+          title: 'More Is Not Always Better',
+          body: [
+            'Excess force crushes delicate parts and distorts thin-walled work. Match the force to the material: soft or finished work needs controlled grip, brutal stock needs everything the jaw can give. Part of matching is choosing the right jaw surface, which is covered in [jaw design](/engineering/jaw-design) logic.',
+          ],
+        },
+        {
+          title: 'Force Needs a Strong Frame',
+          body: [
+            'A jaw that squeezes is only as good as the body that holds the squeeze. High force requires a rigid, often heavier [body material](/engineering/materials), which is why force ratings are inseparable from the frame behind them.',
+          ],
+        },
+        {
+          title: 'Putting It Together',
+          body: [
+            'Estimate the hardest push your work will take, add a safety margin, then pick the class that delivers it comfortably. Run the whole decision through [how to choose a bench vise](/knowledge/how-to-choose-a-bench-vise) so force, width, opening and throat all line up.',
+            'For OEM programs the [engineering team](/oem-manufacturing) will confirm the rated force on the exact platform and jaw set you plan to ship.',
+          ],
+        },
+      ],
+    },
+    {
       slug: 'how-to-choose-a-bench-vise',
       navLabel: 'How to Choose a Bench Vise',
       metaTitle: 'How to Choose a Bench Vise | Jaw Width & Clamping Force',
@@ -706,6 +982,282 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
     {
+      slug: 'bench-vise-size-guide',
+      navLabel: 'Guía de tamaños de mordazas de banco',
+      metaTitle: 'Guía de tamaños de mordaza de banco: ancho, abertura y garganta',
+      metaDescription:
+        'Cómo funcionan los tamaños de las mordazas de banco: el ancho de mordaza es el número, la abertura y la garganta son el alcance. Rangos por clase y qué medir antes de comprar.',
+      kicker: 'Conocimiento',
+      h1: 'Guía de tamaños de mordaza de banco',
+      intro:
+        'Una mordaza de "6 pulgadas" no mide 6 pulgadas en todo — el número es el ancho de las mordazas, y la abertura y la garganta son números aparte que deciden lo que la mordaza puede sujetar de verdad. Esta guía explica cómo leer los tamaños.',
+      sections: [
+        {
+          title: 'Cómo se mide una mordaza',
+          body: [
+            'El número de identificación de una mordaza de banco es el ancho de las mordazas — una "mordaza de banco de 6 pulgadas" tiene mordazas de unas 6 pulgadas de ancho. Todo lo demás (abertura, garganta, peso) es una especificación aparte.',
+            'Como el ancho es el número principal, domina la primera comparación. Pero dos mordazas con el mismo ancho pueden tener aberturas y gargantas muy distintas.',
+          ],
+        },
+        {
+          title: 'La escala de clases y los tamaños típicos',
+          body: [
+            'Las mordazas de banco se agrupan en clase ligera, media y pesada, cada una con un rango de anchos habitual: ligeras de 2-5 pulgadas, medias de 5-8 y pesadas de 8 en adelante. Una [mordaza ligera de 4 pulgadas](/products/vise-light-4) sirve para afición, la [mordaza media de 6 pulgadas](/products/vise-medium-6) es el estándar del taller y una [mordaza pesada de 8 pulgadas](/products/vise-heavy-8) aguanta la fabricación.',
+            'Mordazas mayores significan más masa, más rigidez — pero también más banco. Cuanto más pesada, más reforzada necesita la superficie.',
+          ],
+        },
+        {
+          title: 'La abertura: la medida que realmente choca',
+          body: [
+            'La abertura de mordaza es el hueco máximo entre las mordazas y es el número que de verdad importa al sujetar una pieza gruesa. Una abertura generosa admite tubos, piezas fundidas y montajes que una mordaza pequeña no puede contener. La guía completa está en [cuánta abertura de mordaza necesita](/knowledge/how-much-jaw-opening-do-you-need).',
+          ],
+        },
+        {
+          title: 'Garganta: hasta dónde llega la pieza',
+          body: [
+            'La garganta es la distancia desde el borde superior de las mordazas hasta el cuerpo — el espacio donde una pieza se mantiene en pie mientras trabaja la superficie superior. Limita el limado, el serrado y el amolado en caras verticales. Detalles en [cuánta garganta necesita](/knowledge/how-much-throat-depth-do-you-need).',
+          ],
+        },
+        {
+          title: 'Peso, montaje y el banco',
+          body: [
+            'Una mordaza pesada puede pesar 25-35 kg y transmite carga real al banco. Ajuste el tamaño y la separación de los pernos a la superficie y refuerce los tableros finos. La calidad del montaje decide si la [fuerza de cierre](/engineering/clamping-force) llega a la pieza o se pierde en una mesa que cede.',
+          ],
+        },
+        {
+          title: 'El tamaño es solo parte de la especificación',
+          body: [
+            'El tamaño indica capacidad, no durabilidad. El [material del cuerpo](/engineering/materials) y la construcción de las mordazas deciden cuánto dura esa capacidad con el uso, por eso el proceso completo empieza con [cómo elegir una mordaza de banco](/knowledge/how-to-choose-a-bench-vise).',
+            'Para programas OEM o de volumen, el [equipo de fabricación](/oem-manufacturing) puede dimensionar una abertura y una garganta a medida para su aplicación sobre una plataforma probada.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: '4-inch-vs-6-inch-bench-vise',
+      navLabel: 'Mordaza de 4 vs 6 pulgadas',
+      metaTitle: 'Mordaza de banco de 4 vs 6 pulgadas: ¿cuál necesita?',
+      metaDescription:
+        'Mordaza de banco de 4 vs 6 pulgadas: ancho de mordaza, abertura, fuerza de cierre y el trabajo que hace cada una. Afición o taller general — cuál comprar.',
+      kicker: 'Conocimiento',
+      h1: 'Mordaza de banco de 4 vs 6 pulgadas',
+      intro:
+        'Las mordazas de banco de 4 y 6 pulgadas son los dos tamaños de taller más comunes, y el salto entre ellas es mayor de lo que sugiere la diferencia de ancho. Saber qué aportan las pulgadas extra indica cuál necesita su banco.',
+      sections: [
+        {
+          title: 'La diferencia real',
+          body: [
+            'Una mordaza de banco de 4 pulgadas es de clase ligera: mordazas más pequeñas, menos abertura y menos masa, pensada para afición, electrónica y reparaciones pequeñas. Una [mordaza media de 6 pulgadas](/products/vise-medium-6) sube de clase, con mordazas más anchas, más abertura y un cuerpo más pesado para metalurgia general y reparación de automoción.',
+          ],
+        },
+        {
+          title: 'Ancho frente a lo que puede sujetar',
+          body: [
+            'Las dos pulgadas extra suman superficie, pero la abertura importa tanto o más. Una ligera de 4 pulgadas abre normalmente entre 2 y 3 pulgadas, una [mordaza ligera de 4 pulgadas](/products/vise-light-4) admite piezas pequeñas, mientras que una de 6 abre mucho más y sujeta fundiciones, tubos y conjuntos que la pequeña no puede.',
+          ],
+        },
+        {
+          title: 'Fuerza de cierre',
+          body: [
+            'La masa es fuerza: el cuerpo de 6 pulgadas entrega notablemente más [fuerza de cierre](/engineering/clamping-force) y rigidez para serrar y limar bajo carga. Si su trabajo empuja con fuerza contra las mordazas, la de 6 gana sin discusión.',
+          ],
+        },
+        {
+          title: 'Materiales y construcción',
+          body: [
+            'Ambos tamaños se fabrican en hierro gris con mordazas templadas, pero la clase de 6 pulgadas recibe más masa de cuerpo y a menudo base giratoria de serie. Los pros y contras de los [materiales del cuerpo](/engineering/materials) aplican a las dos.',
+          ],
+        },
+        {
+          title: 'Cuál encaja con su trabajo',
+          body: [
+            'Elija 4 pulgadas para trabajo pequeño, presupuesto ajustado y bancos ligeros; elija 6 si hace taller general, automoción o metalurgia o si piensa crecer con ella. El [proceso completo de elección](/knowledge/how-to-choose-a-bench-vise) repasa cada factor.',
+            '¿Comprando para una línea de producto? El [equipo OEM](/oem-manufacturing) fabrica ambos tamaños y puede ajustar mordaza, abertura y acabado a su especificación.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: '6-inch-vs-8-inch-bench-vise',
+      navLabel: 'Mordaza de 6 vs 8 pulgadas',
+      metaTitle: 'Mordaza de banco de 6 vs 8 pulgadas: cuándo subir de tamaño',
+      metaDescription:
+        'Mordaza de banco de 6 vs 8 pulgadas: ancho de mordaza, abertura, fuerza de cierre, peso y el trabajo pesado para el que está hecha la clase de 8. Cuándo subir.',
+      kicker: 'Conocimiento',
+      h1: 'Mordaza de banco de 6 vs 8 pulgadas',
+      intro:
+        'Pasar de 6 a 8 pulgadas es un salto de masa, alcance y precio. Vale la pena exactamente cuando el trabajo choca una y otra vez contra los límites del modelo pequeño.',
+      sections: [
+        {
+          title: 'Qué sube de nivel',
+          body: [
+            'La clase de 8 pulgadas suma área de mordaza, abertura, garganta y — sobre todo — masa de cuerpo. Una [mordaza media de 6 pulgadas](/products/vise-medium-6) cubre el taller general, mientras que una [mordaza pesada de 8 pulgadas](/products/vise-heavy-8) está hecha para fabricación, material más grueso y martilleo constante.',
+          ],
+        },
+        {
+          title: 'Abertura y garganta siguen al tamaño',
+          body: [
+            'Mordazas mayores van con abertura más amplia y garganta más profunda, así que la de 8 admite tubos, secciones gruesas y montajes altos que la de 6 no puede. Si eso es habitual en su taller, la capacidad es la razón del sobreprecio — vea [qué abertura](/knowledge/how-much-jaw-opening-do-you-need) y [qué garganta](/knowledge/how-much-throat-depth-do-you-need) necesita de verdad.',
+          ],
+        },
+        {
+          title: 'Fuerza de cierre y rigidez',
+          body: [
+            'El cuerpo más pesado entrega más [fuerza de cierre](/engineering/clamping-force) y menos flexión bajo carga, lo que importa para limar y amolar trabajo pesado donde una mordaza ligera camina sobre el banco.',
+          ],
+        },
+        {
+          title: 'Peso y el costo del banco',
+          body: [
+            'Una mordaza pesada de 8 pulgadas es un montaje serio: espere 27-35 kg de hierro atornillado a un banco reforzado. Tenga en cuenta el precio y el trabajo del banco antes de subir.',
+          ],
+        },
+        {
+          title: 'El veredicto',
+          body: [
+            'Elija 6 pulgadas para un taller general y reparación de automoción; elija 8 para fabricación y mantenimiento industrial donde el trabajo es verdaderamente pesado. La [biblioteca de materiales](/engineering/materials) explica por qué la clase pesada usa los cuerpos que usa.',
+            '¿Comprando a volumen? La vía [OEM](/oem-manufacturing) ofrece la plataforma de 8 pulgadas con mordazas, base y marca a medida para programas de marca privada.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-much-jaw-opening-do-you-need',
+      navLabel: '¿Cuánta abertura de mordaza necesita?',
+      metaTitle: '¿Cuánta abertura de mordaza necesita? | Guía de abertura',
+      metaDescription:
+        'La abertura de mordaza es el hueco máximo que puede sujetar una mordaza de banco. Cómo medir su pieza más grande y elegir un rango por clase.',
+      kicker: 'Conocimiento',
+      h1: '¿Cuánta abertura de mordaza necesita?',
+      intro:
+        'La abertura de mordaza es el hueco máximo entre las mordazas — la pieza más grande que la mordaza puede sujetar físicamente. Es la especificación que más sorprende a los compradores, porque es menor de lo que sugiere el ancho.',
+      sections: [
+        {
+          title: 'Abertura frente a ancho de mordaza',
+          body: [
+            'El ancho es el espacio lateral; la abertura es el hueco vertical entre las mordazas. Una mordaza de 6 pulgadas con mordazas de 6 pulgadas de ancho puede abrir solo entre 4 y 6 pulgadas. Quien quiera sujetar una fundición gruesa debe comprar por abertura, no por el número principal.',
+            'La diferencia pesa lo bastante como para recorrer toda la [guía de tamaños](/knowledge/bench-vise-size-guide).',
+          ],
+        },
+        {
+          title: 'Mida su pieza más grande',
+          body: [
+            'Primero mida lo más grueso que vaya a sujetar — una fundición, un tramo de tubo, un montón de angular. Esa dimensión más un pequeño margen es su abertura mínima. Todo lo demás que haga la mordaza es secundario frente a caber con su pieza mayor.',
+          ],
+        },
+        {
+          title: 'Aberturas típicas por clase',
+          body: [
+            'Las mordazas ligeras abren normalmente 2-3 pulgadas, las medias 4-6 y las pesadas 6-10. La [mordaza media de 6 pulgadas](/products/vise-medium-6) abre lo suficiente para la mayoría de piezas de taller; una [mordaza pesada de 8 pulgadas](/products/vise-heavy-8) engulle piezas montadas y tubos que la clase pequeña no puede.',
+          ],
+        },
+        {
+          title: 'Cuando la abertura máxima lo es todo',
+          body: [
+            'Los tubos, las fundiciones, las plantillas y el trabajo parcialmente montado necesitan que las mordazas cubran el perfil completo, no solo una rebanada. Las aplicaciones que lo hacen constantemente — fabricación, fontanería, mantenimiento — deben pesar la abertura por encima del ancho al [elegir una mordaza de banco](/knowledge/how-to-choose-a-bench-vise).',
+          ],
+        },
+        {
+          title: 'Abertura y fuerza van de la mano',
+          body: [
+            'Una abertura amplia es inútil sin la [fuerza de cierre](/engineering/clamping-force) para sujetar la pieza, y ambas dependen de los [materiales del cuerpo](/engineering/materials) que mantienen el marco rígido bajo carga. Compruebe las tres en el mismo modelo, no por separado.',
+            'Si su pieza más grande exige una abertura no estándar, el [equipo OEM](/oem-manufacturing) puede especificarla para su programa.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-much-throat-depth-do-you-need',
+      navLabel: '¿Cuánta garganta necesita?',
+      metaTitle: '¿Cuánta garganta necesita? | Guía de alcance',
+      metaDescription:
+        'La garganta es lo que una pieza puede adentrarse en una mordaza de banco. Qué mide, por qué importa para el trabajo vertical y profundidades típicas por clase.',
+      kicker: 'Conocimiento',
+      h1: '¿Cuánta garganta necesita?',
+      intro:
+        'La garganta es la distancia desde el borde superior de las mordazas hasta el cuerpo — el espacio que una pieza tiene para ponerse en pie mientras trabaja. Decide lo cómodamente que limar, serrar y amolar caras verticales.',
+      sections: [
+        {
+          title: 'Qué mide la garganta',
+          body: [
+            'Coloque una placa en las mordazas y se mantiene en el espacio entre las caras y las barras del cuerpo. Hasta dónde llega antes de que el cuerpo la bloquee es la garganta. Más garganta significa trabajo más profundo antes de tener que recolocar.',
+            'La garganta trabaja junto a la abertura en la [guía de tamaños](/knowledge/bench-vise-size-guide) como los dos números reales de alcance.',
+          ],
+        },
+        {
+          title: 'Por qué importa la profundidad',
+          body: [
+            'Limar o repasar la parte superior de una pieza alta, serrar un trozo largo o trabajar el extremo de una fundición profunda dependen de cuánto puede levantarse la pieza entre las mordazas. Gargantas demasiado cortas obligan a aprietos incómodos o acrobacias en el banco.',
+            'Importa sobre todo a metalúrgicos y carpinteros que repasan superficies verticales en altura — el trabajo para el que está hecha una [mordaza pesada de 8 pulgadas](/products/vise-heavy-8).',
+          ],
+        },
+        {
+          title: 'Profundidades típicas por clase',
+          body: [
+            'Las ligeras alcanzan unas 2-2,5 pulgadas, las medias unas 3 y las pesadas alrededor de 3,5-4 o más. Las diferencias son pulgadas, pero para piezas altas esas pulgadas son la diferencia entre un montaje y dos.',
+          ],
+        },
+        {
+          title: 'Garganta frente a abertura: lea las dos',
+          body: [
+            'La abertura es lo grueso que la mordaza puede sujetar; la garganta es lo profundo que una pieza puede ponerse en pie. Una mordaza ancha y baja no hará el trabajo de una de garganta profunda, así que equilibre ambas contra su trabajo — la misma lógica que al [elegir la abertura](/knowledge/how-much-jaw-opening-do-you-need).',
+          ],
+        },
+        {
+          title: 'El alcance también es rigidez',
+          body: [
+            'Una garganta profunda solo ayuda si el cuerpo se mantiene rígido al empujar la pieza. Esa rigidez viene de la masa y de los [materiales del cuerpo](/engineering/materials), manteniendo la [fuerza de cierre](/engineering/clamping-force) a plena profundidad en lugar de ceder.',
+            '¿Necesita una garganta a medida para un producto concreto? La vía [OEM](/oem-manufacturing) adapta una plataforma a su geometría.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-much-clamping-force-do-you-need',
+      navLabel: '¿Cuánta fuerza de cierre necesita?',
+      metaTitle: '¿Cuánta fuerza de cierre necesita? | Guía de fuerza',
+      metaDescription:
+        'La fuerza de cierre es lo fuerte que agarra una mordaza de banco bajo carga. Rangos por clase, por qué el exceso puede ser un problema y cómo verificar las cifras publicadas.',
+      kicker: 'Conocimiento',
+      h1: '¿Cuánta fuerza de cierre necesita?',
+      intro:
+        'La fuerza de cierre es lo fuerte que agarran de verdad las mordazas bajo carga. Decide si la pieza se queda quieta cuando empuja, y los fabricantes serios la publican por modelo.',
+      sections: [
+        {
+          title: 'Qué es la fuerza de cierre',
+          body: [
+            'La fuerza de cierre es la carga que entregan las mordazas cerradas sobre una pieza, normalmente medida en libras de fuerza (lbf) bajo par controlado. Es la ventaja mecánica del [tornillo](/knowledge/how-does-a-bench-vise-work) convertida en sujeción real.',
+            'Un fabricante que da una cifra le dice lo que la mordaza puede sujetar; uno que imprime solo "fuerte" no. El método de medición está explicado en la página de [fuerza de cierre](/engineering/clamping-force).',
+          ],
+        },
+        {
+          title: 'Rangos típicos por clase',
+          body: [
+            'Las ligeras rondan 1.200-1.500 lbf, las medias unos miles de lbf y las pesadas hasta 6.000-8.000 lbf. La [mordaza media de 6 pulgadas](/products/vise-medium-6) sujeta el trabajo general de taller; la [mordaza pesada de 6 pulgadas](/products/vise-heavy-6) lleva la fuerza para fabricación y martilleo.',
+          ],
+        },
+        {
+          title: 'Más no siempre es mejor',
+          body: [
+            'El exceso de fuerza aplasta piezas delicadas y deforma trabajo de pared fina. Ajuste la fuerza al material: las piezas blandas o acabadas necesitan sujeción controlada, el material bruto necesita todo lo que den las mordazas. Parte del ajuste es elegir la superficie de mordaza correcta, cubierta en la lógica de [diseño de mordazas](/engineering/jaw-design).',
+          ],
+        },
+        {
+          title: 'La fuerza necesita un marco fuerte',
+          body: [
+            'Una mordaza que aprieta solo vale lo que vale el cuerpo que sostiene el apriete. La fuerza alta exige un [material de cuerpo](/engineering/materials) rígido, a menudo más pesado, y por eso las cifras de fuerza son inseparables del conjunto.',
+          ],
+        },
+        {
+          title: 'Uniéndolo todo',
+          body: [
+            'Estime el empuje más fuerte que recibirá su trabajo, añada un margen de seguridad y elija la clase que lo entregue con comodidad. Lleve toda la decisión por [cómo elegir una mordaza de banco](/knowledge/how-to-choose-a-bench-vise) para que fuerza, ancho, abertura y garganta encajen.',
+            'En programas OEM el [equipo de ingeniería](/oem-manufacturing) confirmará la fuerza medida en la plataforma y el juego de mordazas exactos que planea enviar.',
+          ],
+        },
+      ],
+    },
+    {
       slug: 'how-to-choose-a-bench-vise',
       navLabel: 'Cómo elegir una mordaza de banco',
       metaTitle: 'Cómo elegir una mordaza de banco | Boca y fuerza',
@@ -1150,6 +1702,282 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           body: [
             "Au-delà des familles droites, il y a les étaux à enclume, les variantes à mâchoires rondes ou carrées et les formes polyvalentes. Ce sont des modèles de catalogue à part entière et aussi des plateformes de départ pour le travail OEM. L'[étau spécial à mâchoires carrées](/products/vise-specialty-square) et la [bibliothèque des matériaux](/engineering/materials) donnent le cadre de référence.",
             "Si votre plan produit ou votre marché exige une configuration qui n'est pas en page, la voie [OEM](/oem-manufacturing) transforme une plateforme éprouvée en votre propre spécification.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'bench-vise-size-guide',
+      navLabel: "Guide des tailles d'étaux d'établi",
+      metaTitle: "Guide des tailles d'étau d'établi : largeur, ouverture, gorge",
+      metaDescription:
+        "Comment fonctionnent les tailles d'étau d'établi : la largeur de mâchoires est le chiffre, l'ouverture et la gorge sont la portée. Fourchettes par classe et quoi mesurer avant d'acheter.",
+      kicker: 'Connaissances',
+      h1: "Guide des tailles d'étau d'établi",
+      intro:
+        "Un étau de \"6 pouces\" ne mesure pas 6 pouces partout — le chiffre est la largeur des mâchoires, et l'ouverture et la gorge sont des nombres à part qui décident de ce que l'étau peut réellement tenir. Ce guide explique comment lire les tailles.",
+      sections: [
+        {
+          title: 'Comment un étau est dimensionné',
+          body: [
+            "Le chiffre qui donne son nom à un étau d'établi est la largeur des mâchoires — un \"étau d'établi de 6 pouces\" a des mâchoires d'environ 6 pouces de large. Tout le reste (ouverture, gorge, poids) est une spécification distincte.",
+            "Comme la largeur est le chiffre principal, elle domine la première comparaison. Mais deux étaux de même largeur peuvent avoir des ouvertures et des gorges très différentes.",
+          ],
+        },
+        {
+          title: "L'échelle des classes et les tailles typiques",
+          body: [
+            "Les étaux d'établi se regroupent en classes légère, moyenne et lourde, chacune avec une fourchette de largeurs habituelle : légers de 2 à 5 pouces, moyens de 5 à 8 et lourds de 8 et plus. Un [étau léger de 4 pouces](/products/vise-light-4) convient au bricolage, l'[étau moyen de 6 pouces](/products/vise-medium-6) est la norme de l'atelier et un [étau lourd de 8 pouces](/products/vise-heavy-8) encaisse la fabrication.",
+            "Des mâchoires plus grandes veulent dire plus de masse et plus de rigidité — mais aussi plus d'établi. Plus l'étau est lourd, plus le plateau doit être solide.",
+          ],
+        },
+        {
+          title: "L'ouverture : la mesure qui bloque vraiment",
+          body: [
+            "L'ouverture de mâchoires est le plus grand écart possible entre les mâchoires et c'est le chiffre qui importe vraiment quand on serre une pièce épaisse. Une ouverture généreuse avale les tubes, les pièces moulées et les assemblages qu'un étau trop petit ne peut tout simplement pas tenir. Le guide complet est dans [quelle ouverture de mâchoires vous faut-il](/knowledge/how-much-jaw-opening-do-you-need).",
+          ],
+        },
+        {
+          title: "La gorge : jusqu'où la pièce peut remonter",
+          body: [
+            "La gorge est la distance entre le bord supérieur des mâchoires et le corps — l'espace dans lequel une pièce se tient debout pendant qu'on travaille sa surface supérieure. Elle limite le limage, le sciage et le meulage sur faces verticales. Les détails sont dans [quelle gorge vous faut-il](/knowledge/how-much-throat-depth-do-you-need).",
+          ],
+        },
+        {
+          title: "Poids, fixation et établi",
+          body: [
+            "Un étau lourd peut peser 22-35 kg et transmet une charge réelle au plateau. Adaptez la taille et l'écartement des boulons au dessus et renforcez les plateaux minces. La qualité de la fixation décide si la [force de serrage](/engineering/clamping-force) arrive dans la pièce ou se perd dans une table qui fléchit.",
+          ],
+        },
+        {
+          title: "La taille n'est qu'une partie de la fiche",
+          body: [
+            "La taille indique la capacité, pas la longévité. Le [matériau du corps](/engineering/materials) et la construction des mâchoires décident de la durée de cette capacité à l'usage, et c'est pourquoi le processus complet commence par [comment choisir un étau d'établi](/knowledge/how-to-choose-a-bench-vise).",
+            "Pour les programmes OEM ou en volume, l'[équipe de fabrication](/oem-manufacturing) peut dimensionner une ouverture et une gorge sur mesure pour votre application à partir d'une plateforme éprouvée.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: '4-inch-vs-6-inch-bench-vise',
+      navLabel: "Étau de 4 vs 6 pouces",
+      metaTitle: "Étau d'établi de 4 vs 6 pouces : lequel choisir ?",
+      metaDescription:
+        "Étau d'établi de 4 vs 6 pouces : largeur de mâchoires, ouverture, force de serrage et le travail de chacun. Bricolage ou atelier général — lequel acheter.",
+      kicker: 'Connaissances',
+      h1: "Étau d'établi de 4 vs 6 pouces",
+      intro:
+        "Les étaux de 4 et 6 pouces sont les deux tailles d'atelier les plus courantes, et le bond entre eux est plus grand que la différence de largeur. Savoir ce que les pouces supplémentaires offrent indique celui dont votre établi a besoin.",
+      sections: [
+        {
+          title: 'La vraie différence',
+          body: [
+            "Un étau de 4 pouces est un outil de classe légère : mâchoires plus petites, ouverture réduite et masse moindre, pensé pour le bricolage, l'électronique et les petites réparations. Un [étau moyen de 6 pouces](/products/vise-medium-6) monte d'une classe, avec des mâchoires plus larges, une plus grande ouverture et un corps plus lourd pour la métallurgie générale et l'auto.",
+          ],
+        },
+        {
+          title: "Largeur contre ce que vous pouvez tenir",
+          body: [
+            "Les deux pouces supplémentaires ajoutent de la surface, mais l'ouverture compte tout autant. Un léger de 4 pouces ouvre généralement de 2 à 3 pouces, un [étau léger de 4 pouces](/products/vise-light-4) tient les petites pièces, tandis qu'un 6 pouces ouvre bien plus et retient les pièces moulées, les tubes et les assemblages que le petit ne peut pas.",
+          ],
+        },
+        {
+          title: 'Force de serrage',
+          body: [
+            "La masse est de la force : le corps de 6 pouces fournit nettement plus de [force de serrage](/engineering/clamping-force) et de rigidité pour scier et limer sous charge. Si votre travail pousse fort contre les mâchoires, le 6 pouces gagne sans discussion.",
+          ],
+        },
+        {
+          title: 'Matériaux et construction',
+          body: [
+            "Les deux tailles se font en fonte grise avec mâchoires trempées, mais la classe 6 pouces reçoit plus de masse de corps et souvent une base pivotante de série. Les compromis des [matériaux du corps](/engineering/materials) s'appliquent aux deux.",
+          ],
+        },
+        {
+          title: "Lequel convient à votre travail",
+          body: [
+            "Choisissez le 4 pouces pour le travail petit, les budgets serrés et les plateaux légers ; choisissez le 6 pouces pour l'atelier général, l'automobile ou la métallurgie ou si vous comptez grandir avec lui. Le [processus de choix complet](/knowledge/how-to-choose-a-bench-vise) passe chaque facteur en revue.",
+            "Vous approvisionnez une ligne de produits ? L'[équipe OEM](/oem-manufacturing) fabrique les deux tailles et peut régler mâchoires, ouverture et finition à votre spécification.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: '6-inch-vs-8-inch-bench-vise',
+      navLabel: "Étau de 6 vs 8 pouces",
+      metaTitle: "Étau d'établi de 6 vs 8 pouces : quand passer à la taille au-dessus",
+      metaDescription:
+        "Étau d'établi de 6 vs 8 pouces : largeur, ouverture, force de serrage, poids et le travail lourd pour lequel la classe 8 est faite. Quand passer à la taille au-dessus.",
+      kicker: 'Connaissances',
+      h1: "Étau d'établi de 6 vs 8 pouces",
+      intro:
+        "Passer d'un étau de 6 à un étau de 8 pouces est un bond de masse, de portée et de prix. Cela vaut le coup exactement quand le travail touche sans cesse les limites du petit modèle.",
+      sections: [
+        {
+          title: 'Ce qui monte de niveau',
+          body: [
+            "La classe 8 ajoute de la surface de mâchoires, de l'ouverture, de la gorge et — surtout — de la masse de corps. Un [étau moyen de 6 pouces](/products/vise-medium-6) couvre l'atelier général, tandis qu'un [étau lourd de 8 pouces](/products/vise-heavy-8) est fait pour la fabrication, les barres plus épaisses et le martelage constant.",
+          ],
+        },
+        {
+          title: "Ouverture et gorge suivent",
+          body: [
+            "Des mâchoires plus grandes vont avec une ouverture plus large et une gorge plus profonde, donc le 8 pouces prend les tubes, les sections épaisses et les assemblages hauts que le 6 ne peut pas. Si c'est courant dans votre atelier, la capacité est la raison de payer le supplément — voyez [quelle ouverture](/knowledge/how-much-jaw-opening-do-you-need) et [quelle gorge](/knowledge/how-much-throat-depth-do-you-need) il vous faut vraiment.",
+          ],
+        },
+        {
+          title: 'Force de serrage et rigidité',
+          body: [
+            "Le corps plus lourd fournit plus de [force de serrage](/engineering/clamping-force) et plie moins sous charge, ce qui compte pour limer et meuler du travail lourd où un étau léger balade sur l'établi.",
+          ],
+        },
+        {
+          title: "Le poids et le coût de l'établi",
+          body: [
+            "Un étau lourd de 8 pouces est une fixation sérieuse : comptez 27-35 kg de fonte boulonnée à un plateau renforcé. Budgetez le prix et le travail d'établi avant de monter de taille.",
+          ],
+        },
+        {
+          title: 'Le verdict',
+          body: [
+            "Choisissez le 6 pouces pour un atelier général et l'auto ; choisissez le 8 pouces pour la fabrication et la maintenance industrielle où le travail est vraiment lourd. La [bibliothèque de matériaux](/engineering/materials) explique pourquoi la classe lourde utilise les corps qu'elle utilise.",
+            "Vous achetez en volume ? La voie [OEM](/oem-manufacturing) offre la plateforme 8 pouces avec mâchoires, base et marque sur mesure pour les programmes en marque de distributeur.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-much-jaw-opening-do-you-need',
+      navLabel: "Quelle ouverture de mâchoires vous faut-il ?",
+      metaTitle: "Quelle ouverture de mâchoires faut-il ? | Guide d'ouverture",
+      metaDescription:
+        "L'ouverture de mâchoires est le plus grand écart qu'un étau d'établi peut serrer. Comment mesurer votre pièce la plus grande et choisir une fourchette par classe.",
+      kicker: 'Connaissances',
+      h1: "Quelle ouverture de mâchoires faut-il ?",
+      intro:
+        "L'ouverture de mâchoires est l'écart maximal entre les mâchoires — la pièce la plus grande que l'étau peut tenir physiquement. C'est la spécification qui surprend le plus les acheteurs, car elle est plus petite que ce que suggère la largeur.",
+      sections: [
+        {
+          title: "Ouverture contre largeur de mâchoires",
+          body: [
+            "La largeur est l'espace latéral ; l'ouverture est l'écart vertical entre les mâchoires. Un étau de 6 pouces avec des mâchoires de 6 pouces de large peut n'ouvrir que de 4 à 6 pouces. Ceux qui veulent serrer une pièce moulée épaisse doivent acheter selon l'ouverture, pas selon le chiffre principal.",
+            "La différence compte assez pour parcourir tout le [guide des tailles](/knowledge/bench-vise-size-guide).",
+          ],
+        },
+        {
+          title: 'Mesurez votre pièce la plus grande',
+          body: [
+            "D'abord, mesurez la chose la plus épaisse que vous allez serrer — une pièce moulée, un tronçon de tube, une pile de cornières. Cette dimension plus un petit jeu est votre ouverture minimale. Tout le reste de l'étau est secondaire face au fait de contenir votre pièce la plus grande.",
+          ],
+        },
+        {
+          title: 'Ouvertures typiques par classe',
+          body: [
+            "Les étaux légers ouvrent généralement de 2 à 3 pouces, les moyens de 4 à 6 et les lourds de 6 à 10. L'[étau moyen de 6 pouces](/products/vise-medium-6) ouvre assez pour la plupart des pièces d'atelier ; un [étau lourd de 8 pouces](/products/vise-heavy-8) avale les pièces montées et les tubes que la petite classe ne peut pas.",
+          ],
+        },
+        {
+          title: "Quand l'ouverture maximale est toute la partie",
+          body: [
+            "Les tubes, les pièces moulées, les gabarits et le travail partiellement assemblé exigent que les mâchoires couvrent le profil complet, pas seulement une tranche. Les applications qui le font constamment — fabrication, plomberie, maintenance — doivent peser l'ouverture plus que la largeur dans le [choix d'un étau d'établi](/knowledge/how-to-choose-a-bench-vise).",
+          ],
+        },
+        {
+          title: "Ouverture et force se passent la main",
+          body: [
+            "Une ouverture large est inutile sans la [force de serrage](/engineering/clamping-force) pour tenir la pièce, et les deux dépendent des [matériaux du corps](/engineering/materials) qui gardent le bâti rigide sous charge. Vérifiez les trois sur le même modèle, pas séparément.",
+            "Si votre plus grande pièce impose une ouverture non standard, l'[équipe OEM](/oem-manufacturing) peut la spécifier pour votre programme.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-much-throat-depth-do-you-need',
+      navLabel: "Quelle gorge faut-il ?",
+      metaTitle: "Quelle gorge faut-il ? | Guide de portée",
+      metaDescription:
+        "La gorge est la profondeur à laquelle une pièce peut se tenir dans un étau d'établi. Ce qu'elle mesure, pourquoi elle compte pour le travail vertical et les profondeurs typiques par classe.",
+      kicker: 'Connaissances',
+      h1: 'Quelle gorge faut-il ?',
+      intro:
+        "La gorge est la portée entre le bord supérieur des mâchoires et le corps — l'espace qu'une pièce a pour se tenir debout pendant que vous travaillez. Elle décide du confort pour limer, scier et meuler les faces verticales.",
+      sections: [
+        {
+          title: 'Ce que mesure la gorge',
+          body: [
+            "Posez une plaque dans les mâchoires et elle se tient dans l'espace entre les faces et les barres du corps. Jusqu'où elle peut monter avant que le corps ne la bloque, c'est la gorge. Une gorge plus profonde veut dire un travail plus profond avant de devoir repositionner.",
+            "La gorge travaille avec l'ouverture dans le [guide des tailles](/knowledge/bench-vise-size-guide) comme les deux vrais chiffres de portée.",
+          ],
+        },
+        {
+          title: 'Pourquoi la profondeur compte',
+          body: [
+            "Limer ou reprendre le dessus d'une pièce haute, scier une barre longue ou travailler l'extrémité d'une pièce moulée profonde dépendent de la hauteur à laquelle la pièce peut se dresser dans les mâchoires. Des gorges trop courtes forcent des re-serrages maladroits ou des acrobaties d'établi.",
+            "Cela compte surtout pour les métallurgistes et les menuisiers qui reprennent des surfaces verticales en hauteur — le travail pour lequel un [étau lourd de 8 pouces](/products/vise-heavy-8) est fait.",
+          ],
+        },
+        {
+          title: 'Profondeurs typiques par classe',
+          body: [
+            "Les légers atteignent environ 5-6 cm, les moyens environ 7,5 et les lourds autour de 9-10 cm ou plus. Les différences sont des centimètres, mais pour les pièces hautes ces centimètres font la différence entre un montage et deux.",
+          ],
+        },
+        {
+          title: 'Gorge contre ouverture : lisez les deux',
+          body: [
+            "L'ouverture est l'épaisseur que l'étau peut tenir ; la gorge est la profondeur à laquelle une pièce peut se dresser. Un étau large et peu profond ne fera pas le travail d'un modèle à gorge profonde, donc équilibrez les deux face à votre travail — la même logique que pour [choisir l'ouverture](/knowledge/how-much-jaw-opening-do-you-need).",
+          ],
+        },
+        {
+          title: 'La portée, c\'est aussi la rigidité',
+          body: [
+            "Une gorge profonde n'aide que si le corps reste rigide quand on pousse sur la pièce. Cette rigidité vient de la masse et des [matériaux du corps](/engineering/materials), qui maintiennent la [force de serrage](/engineering/clamping-force) à pleine profondeur au lieu de fléchir.",
+            "Besoin d'une gorge sur mesure pour un produit précis ? La voie [OEM](/oem-manufacturing) adapte une plateforme à votre géométrie.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-much-clamping-force-do-you-need',
+      navLabel: "Quelle force de serrage faut-il ?",
+      metaTitle: "Quelle force de serrage faut-il ? | Guide de force",
+      metaDescription:
+        "La force de serrage est la vigueur avec laquelle un étau d'établi tient sous charge. Fourchettes par classe, pourquoi l'excès peut être un problème et comment vérifier les chiffres publiés.",
+      kicker: 'Connaissances',
+      h1: 'Quelle force de serrage faut-il ?',
+      intro:
+        "La force de serrage est la vigueur avec laquelle les mâchoires tiennent réellement la pièce sous charge. Elle décide si la pièce reste en place quand on pousse, et les fabricants sérieux la publient par modèle.",
+      sections: [
+        {
+          title: 'Ce qu\'est la force de serrage',
+          body: [
+            "La force de serrage est la charge que les mâchoires fermées exercent sur une pièce, généralement mesurée en livres-force (lbf) sous couple contrôlé. C'est l'avantage mécanique de la [vis](/knowledge/how-does-a-bench-vise-work) transformé en prise réelle.",
+            "Un fabricant qui publie un chiffre vous dit ce que l'étau peut tenir ; un fabricant qui imprime seulement \"solide\" ne le fait pas. La méthode de mesure est expliquée sur la page [force de serrage](/engineering/clamping-force).",
+          ],
+        },
+        {
+          title: 'Fourchettes typiques par classe',
+          body: [
+            "Les légers tournent autour de 1 200-1 500 lbf, les moyens de quelques milliers de lbf et les lourds jusqu'à 6 000-8 000 lbf. L'[étau moyen de 6 pouces](/products/vise-medium-6) tient le travail général d'atelier ; l'[étau lourd de 6 pouces](/products/vise-heavy-6) porte la force pour la fabrication et le martelage.",
+          ],
+        },
+        {
+          title: "Plus n'est pas toujours mieux",
+          body: [
+            "L'excès de force écrase les pièces délicates et déforme le travail à paroi mince. Adaptez la force au matériau : les pièces tendres ou finies exigent une prise contrôlée, le brut a besoin de tout ce que les mâchoires peuvent donner. Une partie de l'adaptation est le choix de la bonne surface de mâchoire, couvert par la logique de [conception des mâchoires](/engineering/jaw-design).",
+          ],
+        },
+        {
+          title: 'La force a besoin d\'un bâti solide',
+          body: [
+            "Une mâchoire qui serre ne vaut que ce que vaut le corps qui tient le serrage. Une force élevée exige un [matériau de corps](/engineering/materials) rigide, souvent plus lourd, et c'est pourquoi les chiffres de force sont inséparables du bâti.",
+          ],
+        },
+        {
+          title: 'Tout assembler',
+          body: [
+            "Estimez la poussée la plus dure que votre travail recevra, ajoutez une marge de sécurité, puis choisissez la classe qui la fournit confortablement. Faites passer toute la décision par [comment choisir un étau d'établi](/knowledge/how-to-choose-a-bench-vise) pour que force, largeur, ouverture et gorge s'alignent.",
+            "Pour les programmes OEM, l'[équipe d'ingénierie](/oem-manufacturing) confirmera la force mesurée sur la plateforme et le jeu de mâchoires exacts que vous prévoyez d'expédier.",
           ],
         },
       ],
