@@ -38,6 +38,42 @@ featured_guides:
     - [Guía de tornillos para tubería](/es/guides/pipe-vise-guide)
     - [Guía de pedidos OEM de tornillos de banco](/es/guides/oem-bench-vise-order-guide)
     - [Guía de tornillos de precisión](/es/guides/precision-vise-guide)
+buyer_guides:
+  tagline: Artículos
+  title: Artículos de conocimiento sobre tornillos de banco
+  subtitle: |-
+    Fundamentos, selección, materiales, diseño, aplicaciones y abastecimiento OEM — cada artículo enlaza un producto, la ingeniería detrás, opciones OEM y lectura relacionada.
+  items:
+    - title: ¿Qué es un tornillo de banco?
+      body: La herramienta fija que sujeta piezas para cortar, taladrar, rectificar y ensamblar.
+      href: /knowledge/what-is-a-bench-vise
+    - title: ¿Cómo funciona un tornillo de banco?
+      body: La vis, la corredera y las mordazas — cómo la fuerza de la mano se vuelve sujeción.
+      href: /knowledge/how-does-a-bench-vise-work
+    - title: Piezas de la mordaza explicadas
+      body: Cada pieza, qué hace, qué se desgasta y qué se reemplaza.
+      href: /knowledge/bench-vise-parts-explained
+    - title: ¿Para qué se usa un tornillo de banco?
+      body: Ocho oficios clave y la clase de tornillo que usa cada uno.
+      href: /knowledge/what-is-a-bench-vise-used-for
+    - title: Tipos de tornillos de banco, explicados
+      body: Ligeros, medianos, pesados, para tubería y formas especiales.
+      href: /knowledge/types-of-bench-vises-explained
+    - title: Cómo elegir un tornillo de banco
+      body: Ancho, apertura, fuerza de sujeción, material y base.
+      href: /knowledge/how-to-choose-a-bench-vise
+    - title: Fundición vs. hierro dúctil
+      body: Qué cuerpo encaja con tu carga — rigidez, impacto y coste.
+      href: /knowledge/cast-iron-vs-ductile-vises
+    - title: Fundición vs. acero forjado
+      body: Coste, durabilidad, peso y resistencia al impacto, comparados.
+      href: /knowledge/cast-iron-vs-steel-vises
+    - title: Mantenimiento del tornillo de banco
+      body: Lubricación, alineación y cuidado para décadas de servicio.
+      href: /knowledge/bench-vise-maintenance
+    - title: Fabricación OEM de tornillos de banco
+      body: MOQ, personalización, plazos y estándares de calidad.
+      href: /knowledge/oem-bench-vise-manufacturing
 cta:
   title: '¿Aún indeciso? Habla con un ingeniero de tornillos de banco'
   subtitle: 'Envíanos tu mix de piezas de trabajo y configuración de taller, y te recomendaremos la serie, el ancho de mandíbula y el acabado adecuados para tu proyecto.'

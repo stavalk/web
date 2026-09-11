@@ -38,6 +38,42 @@ featured_guides:
     - [Guide du serre-joint à tuberie](/fr/guides/pipe-vise-guide)
     - [Guide de commande OEM de serre-joints](/fr/guides/oem-bench-vise-order-guide)
     - [Guide des serre-joints de précision](/fr/guides/precision-vise-guide)
+buyer_guides:
+  tagline: Articles
+  title: Articles de connaissances sur les étaux d'établi
+  subtitle: |-
+    Fondamentaux, sélection, matériaux, conception, applications et approvisionnement OEM — chaque article relie un produit, l'ingénierie derrière, des options OEM et une lecture connexe.
+  items:
+    - title: Qu'est-ce qu'un étau d'établi ?
+      body: L'outil de bridage fixe qui maintient les pièces pour couper, percer, meuler et assembler.
+      href: /knowledge/what-is-a-bench-vise
+    - title: Comment fonctionne un étau d'établi ?
+      body: La vis, le coulisseau et les mâchoires — comment la force de la main devient serrage.
+      href: /knowledge/how-does-a-bench-vise-work
+    - title: Les pièces d'un étau expliquées
+      body: Chaque pièce, son rôle, ce qui s'use et ce qui se remplace.
+      href: /knowledge/bench-vise-parts-explained
+    - title: À quoi sert un étau d'établi ?
+      body: Huit métiers clés et la classe d'étau qu'ils utilisent.
+      href: /knowledge/what-is-a-bench-vise-used-for
+    - title: Les types d'étaux d'établi expliqués
+      body: Légers, moyens, lourds, à tube et formes spéciales.
+      href: /knowledge/types-of-bench-vises-explained
+    - title: Comment choisir un étau d'établi
+      body: Largeur, ouverture, force de serrage, matériau et base.
+      href: /knowledge/how-to-choose-a-bench-vise
+    - title: Fonte vs fonte ductile
+      body: Quel corps convient à votre charge — rigidité, impact et coût.
+      href: /knowledge/cast-iron-vs-ductile-vises
+    - title: Fonte vs acier forgé
+      body: Coût, durabilité, poids et résistance aux chocs, comparés.
+      href: /knowledge/cast-iron-vs-steel-vises
+    - title: Entretien de l'étau d'établi
+      body: Lubrification, alignement et soins pour des décennies de service.
+      href: /knowledge/bench-vise-maintenance
+    - title: Fabrication OEM d'étaux d'établi
+      body: MOQ, personnalisation, délais et normes de qualité.
+      href: /knowledge/oem-bench-vise-manufacturing
 cta:
   title: 'Toujours indécis ? Parlez à un ingénieur serre-joint'
   subtitle: 'Envoyez-nous votre mix de pièces et la configuration de votre atelier, et nous recommanderons la série, la largeur de mâchoire et la finition adaptées à votre projet.'

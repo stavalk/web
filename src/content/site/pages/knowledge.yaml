@@ -38,6 +38,42 @@ featured_guides:
     - [Pipe Vise Guide](/guides/pipe-vise-guide)
     - [OEM Bench Vise Order Guide](/guides/oem-bench-vise-order-guide)
     - [Precision Vise Guide](/guides/precision-vise-guide)
+buyer_guides:
+  tagline: Articles
+  title: Bench Vise Knowledge Articles
+  subtitle: |-
+    Fundamentals, selection, materials, design, applications and OEM sourcing — each article links a product, the engineering behind it, OEM options and related reading.
+  items:
+    - title: What Is a Bench Vise?
+      body: The fixed workholding tool that clamps workpieces for cutting, drilling, grinding and assembly.
+      href: /knowledge/what-is-a-bench-vise
+    - title: How Does a Bench Vise Work?
+      body: The screw, slide and jaw faces explained — how handle force becomes clamping force.
+      href: /knowledge/how-does-a-bench-vise-work
+    - title: Bench Vise Parts Explained
+      body: Every part, what it does, what wears out and what to replace.
+      href: /knowledge/bench-vise-parts-explained
+    - title: What Is a Bench Vise Used For?
+      body: Eight core trades and the vise class each one relies on.
+      href: /knowledge/what-is-a-bench-vise-used-for
+    - title: Types of Bench Vises Explained
+      body: Light, medium and heavy duty, pipe vises and specialist forms.
+      href: /knowledge/types-of-bench-vises-explained
+    - title: How to Choose a Bench Vise
+      body: Jaw width, opening, clamping force, body material and base.
+      href: /knowledge/how-to-choose-a-bench-vise
+    - title: Cast Iron vs. Ductile Iron
+      body: Which body material fits your workload — rigidity, impact and cost.
+      href: /knowledge/cast-iron-vs-ductile-vises
+    - title: Cast Iron vs. Forged Steel
+      body: Cost, durability, weight and impact resistance compared.
+      href: /knowledge/cast-iron-vs-steel-vises
+    - title: Bench Vise Maintenance
+      body: Lubrication, jaw alignment and care for decades of service.
+      href: /knowledge/bench-vise-maintenance
+    - title: OEM Bench Vise Manufacturing
+      body: MOQ, customization, lead times and quality standards.
+      href: /knowledge/oem-bench-vise-manufacturing
 cta:
   title: 'Still deciding? Talk to a bench vise engineer'
   subtitle: 'Send us your workpiece mix and workshop setup, and we will recommend the right series, jaw width and finish for your project.'
