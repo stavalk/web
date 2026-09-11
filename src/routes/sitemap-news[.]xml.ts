@@ -10,10 +10,12 @@ const handler = async () => {
   ])
   const origin = new URL(env.BETTER_AUTH_URL).origin
   const es = new Set(loader.getLocaleContentPaths('es'))
+  const fr = new Set(loader.getLocaleContentPaths('fr'))
   const paths = loader.getNewsPosts().map((p: { slug: string; date: string }) => ({
     loc: `/news/${p.slug}`,
     lastmod: p.date.slice(0, 10),
     es: es.has(`/news/${p.slug}`),
+    fr: fr.has(`/news/${p.slug}`),
   }))
   return new Response(buildSitemap(origin, paths, { locale: 'none' }), {
     headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600' },
