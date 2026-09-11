@@ -597,7 +597,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Hardness Means Wear Resistance',
           body: [
-            'Hardness is measured on the Rockwell scale, and vise jaws purpose-built for grip are hardened to 58-62 HRC. At that level the face resists indentation from the [clamping force](/engineering/clamping-force) and stays flat under repeated use. The number itself is decoded here: [what does 60 HRC mean](/knowledge/what-does-60-hrc-mean).',
+            'Hardness is measured on the Rockwell scale, and vise jaws purpose-built for grip are hardened to 58-62 HRC. At that level the face resists indentation from the [clamping force](/engineering/clamping-force) and stays flat under repeated use. It is the spec on the jaws of the [6″ heavy-duty bench vise](/products/vise-heavy-6) and the rest of the heavy series. The number itself is decoded here: [what does 60 HRC mean](/knowledge/what-does-60-hrc-mean).',
           ],
         },
         {
@@ -1456,7 +1456,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'Dureza significa resistencia al desgaste',
           body: [
-            'La dureza se mide en la escala Rockwell y las mordazas hechas para agarrar se templan a 58-62 HRC. A ese nivel la cara resiste la indentación de la [fuerza de sujeción](/engineering/clamping-force) y se mantiene plana con el uso repetido. El número se descifra aquí: [qué significa 60 HRC](/knowledge/what-does-60-hrc-mean).',
+            'La dureza se mide en la escala Rockwell y las mordazas hechas para agarrar se templan a 58-62 HRC. A ese nivel la cara resiste la indentación de la [fuerza de sujeción](/engineering/clamping-force) y se mantiene plana con el uso repetido. Es la especificación de las mordazas del [tornillo pesado de banco de 6 pulgadas](/products/vise-heavy-6) y del resto de la serie pesada. El número se descifra aquí: [qué significa 60 HRC](/knowledge/what-does-60-hrc-mean).',
           ],
         },
         {
@@ -2315,7 +2315,7 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
         {
           title: 'La dureté, c\'est la résistance à l\'usure',
           body: [
-            "La dureté se mesure sur l'échelle Rockwell, et les mâchoires conçues pour tenir sont trempées à 58-62 HRC. À ce niveau, la face résiste à l'indentation de la [force de serrage](/engineering/clamping-force) et reste plane sous l'usage répété. Le chiffre est décodé ici : [ce que signifie 60 HRC](/knowledge/what-does-60-hrc-mean).",
+            "La dureté se mesure sur l'échelle Rockwell, et les mâchoires conçues pour tenir sont trempées à 58-62 HRC. À ce niveau, la face résiste à l'indentation de la [force de serrage](/engineering/clamping-force) et reste plane sous l'usage répété. C'est la spécification des mâchoires de l'[étau lourd de 6 pouces](/products/vise-heavy-6) et du reste de la série lourde. Le chiffre est décodé ici : [ce que signifie 60 HRC](/knowledge/what-does-60-hrc-mean).",
           ],
         },
         {
