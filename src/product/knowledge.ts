@@ -648,13 +648,13 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'The Typical Jaw Range',
           body: [
             'Quality vise jaws are heat-treated to 58-62 HRC — 60 sits in the middle. That range is deliberate: hard enough to grip for years, tempered enough not to chip under hammering. How that treatment is applied is covered by [heat treatment](/engineering/heat-treatment).',
-            'In practice this is why a good jaw wears slowly even at full [clamping force](/engineering/clamping-force): the workpiece gets the marks, not the jaw.',
+            'In practice this is why a good jaw wears slowly even at full [clamping force](/engineering/clamping-force): the workpiece gets the marks, not the jaw. It is the same grade of insert you find in the [8″ heavy-duty bench vise](/products/vise-heavy-8) and across the heavy series.',
           ],
         },
         {
           title: 'Hardness vs Toughness',
           body: [
-            'HRC measures one axis only. A part can be extremely hard and still brittle, which is why tempering pulls hardness down slightly to buy toughness. Reading 60 HRC on a sheet means reading it together with the steel grade — the [body materials](/engineering/materials) article shows the same logic applied to frames.',
+            'HRC measures one axis only. A part can be extremely hard and still brittle, which is why tempering pulls hardness down slightly to buy toughness. That trade is the reason behind [why bench vise jaws are hardened](/knowledge/why-are-bench-vise-jaws-hardened) at all. Reading 60 HRC on a sheet means reading it together with the steel grade — the [body materials](/engineering/materials) article shows the same logic applied to frames.',
           ],
         },
         {
@@ -1507,13 +1507,13 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'El rango típico de las mordazas',
           body: [
             'Las mordazas de calidad se templan a 58-62 HRC — 60 está en el centro. Ese rango es deliberado: bastante dureza para agarrar años, bastante revenido para no saltar con el martilleo. Cómo se aplica el tratamiento lo cubre el [tratamiento térmico](/engineering/heat-treatment).',
-            'En la práctica, por eso una buena mordaza se desgasta despacio incluso a plena [fuerza de sujeción](/engineering/clamping-force): las marcas las recibe la pieza, no la mordaza.',
+            'En la práctica, por eso una buena mordaza se desgasta despacio incluso a plena [fuerza de sujeción](/engineering/clamping-force): las marcas las recibe la pieza, no la mordaza. Es el mismo grado de inserto del [tornillo pesado de banco de 8 pulgadas](/products/vise-heavy-8) y de toda la serie pesada.',
           ],
         },
         {
           title: 'Dureza frente a tenacidad',
           body: [
-            'El HRC mide un solo eje. Una pieza puede ser extremadamente dura y aun así frágil, por eso el revenido baja ligeramente la dureza para comprar tenacidad. Leer 60 HRC en una ficha significa leerlo junto al grado de acero — el artículo de [materiales del cuerpo](/engineering/materials) muestra la misma lógica aplicada a los marcos.',
+            'El HRC mide un solo eje. Una pieza puede ser extremadamente dura y aun así frágil, por eso el revenido baja ligeramente la dureza para comprar tenacidad. Ese compromiso es la razón de que [las mordazas de los tornillos se endurezcan](/knowledge/why-are-bench-vise-jaws-hardened). Leer 60 HRC en una ficha significa leerlo junto al grado de acero — el artículo de [materiales del cuerpo](/engineering/materials) muestra la misma lógica aplicada a los marcos.',
           ],
         },
         {
@@ -2366,13 +2366,13 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: "La fourchette typique des mâchoires",
           body: [
             "Les mâchoires de qualité sont traitées à 58-62 HRC — 60 est au centre. Cette fourchette est délibérée : assez dure pour tenir des années, assez revenue pour ne pas éclater sous le martelage. Comment le traitement est appliqué est couvert par le [traitement thermique](/engineering/heat-treatment).",
-            "En pratique, voilà pourquoi une bonne mâchoire s'use lentement même à pleine [force de serrage](/engineering/clamping-force) : les marques vont sur la pièce, pas sur la mâchoire.",
+            "En pratique, voilà pourquoi une bonne mâchoire s'use lentement même à pleine [force de serrage](/engineering/clamping-force) : les marques vont sur la pièce, pas sur la mâchoire. C'est la même nuance d'insertion que l'on trouve dans l'[étau lourd de 8 pouces](/products/vise-heavy-8) et dans toute la série lourde.",
           ],
         },
         {
           title: 'Dureté contre ténacité',
           body: [
-            "Le HRC mesure un seul axe. Une pièce peut être extrêmement dure et pourtant cassante, c'est pourquoi le revenu ramène légèrement la dureté pour acheter de la ténacité. Lire 60 HRC sur une fiche, c'est le lire avec la nuance d'acier — l'article sur les [matériaux du corps](/engineering/materials) montre la même logique pour les bâtis.",
+            "Le HRC mesure un seul axe. Une pièce peut être extrêmement dure et pourtant cassante, c'est pourquoi le revenu ramène légèrement la dureté pour acheter de la ténacité. Ce compromis est la raison d'être des [mâchoires d'étau trempées](/knowledge/why-are-bench-vise-jaws-hardened). Lire 60 HRC sur une fiche, c'est le lire avec la nuance d'acier — l'article sur les [matériaux du corps](/engineering/materials) montre la même logique pour les bâtis.",
           ],
         },
         {
