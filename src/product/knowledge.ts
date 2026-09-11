@@ -533,6 +533,140 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
     {
+      slug: 'bench-vise-jaw-materials',
+      navLabel: 'What Are Vise Jaws Made Of?',
+      metaTitle: 'What Are Vise Jaws Made Of? | Bench Vise Jaw Materials',
+      metaDescription:
+        'Replaceable jaw materials compared: gray cast, tool steels like GCr15 and Cr12MoV, and when hardened or soft jaws are the right choice.',
+      kicker: 'Knowledge',
+      h1: 'What Are Vise Jaws Made Of?',
+      intro:
+        'The jaws are the one part of a bench vise that actually touches your work. Their material decides how long they grip without wearing, whether a part slides or holds, and how much abuse they take before they need replacing.',
+      sections: [
+        {
+          title: 'Jaws Are a Wear Part',
+          body: [
+            'Jaws are replaceable working surfaces bolted to the body casting. Treating them as a wear part instead of part of the frame is the first step — a [medium-duty bench vise](/products/vise-medium-6) should get years of hard gripping from its standard jaws, but the set is designed to be swapped when it finally wears.',
+            'To build a mental picture of the whole assembly including jaws, the [parts explainer](/knowledge/bench-vise-parts-explained) walks through each component.',
+          ],
+        },
+        {
+          title: 'What Vise Jaws Are Made Of',
+          body: [
+            'Quality bench vises use hardened tool steel inserts: high-carbon bearing steel GCr15 and high-chromium cold-work steel Cr12MoV are the two common grades, heat-treated to 58-62 HRC. These are the same families used in cutting tools, and they keep a toothed face biting into work for years.',
+            'The wrong material — mild steel or soft cast — glazes, burrs and stretches under the pressure instead of holding.',
+          ],
+        },
+        {
+          title: 'Hardened Faces, Striated Grip',
+          body: [
+            'Hard inserts carry the cross-hatched pattern that bites into the workpiece. The geometry of that gripping surface is covered in [jaw design](/engineering/jaw-design); the heat treating that reaches the hardness is covered in [heat treatment](/engineering/heat-treatment).',
+          ],
+        },
+        {
+          title: 'Hard vs Soft Jaws',
+          body: [
+            'Hard jaws hold and wear well on raw material. For finished or delicate work, replace the set with soft, plain or copper-backed jaws that protect the surface. Which [body material](/engineering/materials) sits behind them matters too — a rigid frame is what turns a hard jaw into a firm grip instead of a rocking one.',
+          ],
+        },
+        {
+          title: 'Specifying Jaws for Your Program',
+          body: [
+            'Jaw grade, hardness, pattern and dimensions are all selectable when you build a product line. The [OEM manufacturing](/oem-manufacturing) route lets you choose the jaw set that matches your market without redesigning the body.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'why-are-bench-vise-jaws-hardened',
+      navLabel: 'Why Are Bench Vise Jaws Hardened?',
+      metaTitle: 'Why Are Bench Vise Jaws Hardened? | Jaw Hardness Explained',
+      metaDescription:
+        'Hardened jaws resist wear, embedding and galling, and keep their bite under clamping force. What hardness does and when you want the opposite.',
+      kicker: 'Knowledge',
+      h1: 'Why Are Bench Vise Jaws Hardened?',
+      intro:
+        'A vise jaw is hardened for one reason: to keep working after years of pressure. Soft metal gives under load, and a jaw that gives stops holding straight, quiet and safe.',
+      sections: [
+        {
+          title: 'The Price of Soft Jaws',
+          body: [
+            'An unhardened jaw dents, burrs and embeds workpiece grit into its face. The bite degrades, particles get crushed into the surface, and a hard corner presses a deep score into the next part. Hardening is what stops that cycle.',
+          ],
+        },
+        {
+          title: 'Hardness Means Wear Resistance',
+          body: [
+            'Hardness is measured on the Rockwell scale, and vise jaws purpose-built for grip are hardened to 58-62 HRC. At that level the face resists indentation from the [clamping force](/engineering/clamping-force) and stays flat under repeated use. The number itself is decoded here: [what does 60 HRC mean](/knowledge/what-does-60-hrc-mean).',
+          ],
+        },
+        {
+          title: 'The Striated Face',
+          body: [
+            'Hardness alone is not enough — the face is machined or struck with a cross-hatch pattern that bites into the work. That pattern, plus the hardness keeping its edges sharp, is the whole [jaw-design](/engineering/jaw-design) story.',
+          ],
+        },
+        {
+          title: 'Hard but Not Brittle',
+          body: [
+            'Hardening is a balance: too soft wears, too brittle chips. Tempering pulls the hardness back from the extreme to where the insert takes hammering without snapping. The [heat-treatment](/engineering/heat-treatment) page explains how the balance is struck.',
+          ],
+        },
+        {
+          title: 'When You Want the Opposite',
+          body: [
+            'Hard jaws are wrong for finished surfaces and delicate parts. That is why soft, plain or copper-clad jaw sets exist — swap them in and the hardened set stays in the drawer. Everything in the [materials library](/engineering/materials) applies to the choices around them.',
+            'Choosing jaw hardness for a product range? The [OEM tools](/oem-manufacturing) offer several grades and treatments per model.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'what-does-60-hrc-mean',
+      navLabel: 'What Does 60 HRC Mean?',
+      metaTitle: 'What Does 60 HRC Mean? | Hardness Numbers Explained',
+      metaDescription:
+        'The Rockwell C scale decoded: what an HRC number is, what 60 HRC means for a vise jaw, and how to read hardness on a spec sheet.',
+      kicker: 'Knowledge',
+      h1: 'What Does 60 HRC Mean?',
+      intro:
+        'HRC is the hardness shorthand on almost every quality vise spec sheet. 60 HRC means a specific, testable level of hardness — and for a jaw it is the difference between "bites for years" and "wears out in a season".',
+      sections: [
+        {
+          title: 'The Rockwell C Scale',
+          body: [
+            'The Rockwell C test presses a diamond cone into the surface under a fixed load and measures how far it penetrates. A bigger number means a shallower indentation — harder material. The scale is used for hardened steels all the way from knives to jaws.',
+          ],
+        },
+        {
+          title: 'What 60 HRC Feels Like',
+          body: [
+            'At 60 HRC a hardened tool-steel file will skate across the surface without cutting. It is tool-steel territory, the same hardness class as good metal-cutting tools, and it resists the dents and burrs that ruin softer faces.',
+          ],
+        },
+        {
+          title: 'The Typical Jaw Range',
+          body: [
+            'Quality vise jaws are heat-treated to 58-62 HRC — 60 sits in the middle. That range is deliberate: hard enough to grip for years, tempered enough not to chip under hammering. How that treatment is applied is covered by [heat treatment](/engineering/heat-treatment).',
+            'In practice this is why a good jaw wears slowly even at full [clamping force](/engineering/clamping-force): the workpiece gets the marks, not the jaw.',
+          ],
+        },
+        {
+          title: 'Hardness vs Toughness',
+          body: [
+            'HRC measures one axis only. A part can be extremely hard and still brittle, which is why tempering pulls hardness down slightly to buy toughness. Reading 60 HRC on a sheet means reading it together with the steel grade — the [body materials](/engineering/materials) article shows the same logic applied to frames.',
+          ],
+        },
+        {
+          title: 'Reading the Spec Sheet',
+          body: [
+            'When a spec sheet says "jaws hardened to 58-62 HRC", it is telling you the inserts are in the tool-steel class and will hold their bite under load. A vise that omits hardness entirely is telling you something too.',
+            'Need the treatment and grade documented for your own product? The [OEM route](/oem-manufacturing) can certify the hardness that ships in your brand.',
+          ],
+        },
+      ],
+    },
+    {
       slug: 'how-to-choose-a-bench-vise',
       navLabel: 'How to Choose a Bench Vise',
       metaTitle: 'How to Choose a Bench Vise | Jaw Width & Clamping Force',
@@ -1258,6 +1392,140 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
     {
+      slug: 'bench-vise-jaw-materials',
+      navLabel: '¿De qué están hechas las mordazas?',
+      metaTitle: '¿De qué están hechas las mordazas? | Materiales de mordaza',
+      metaDescription:
+        'Materiales de mordaza reemplazables comparados: fundición gris, aceros de herramienta como GCr15 y Cr12MoV, y cuándo elegir mordazas templadas o blandas.',
+      kicker: 'Conocimiento',
+      h1: '¿De qué están hechas las mordazas?',
+      intro:
+        'Las mordazas son la única parte de un tornillo de banco que toca de verdad su trabajo. Su material decide cuánto duran sujetando sin desgastarse, si una pieza resbala o se agarra, y cuánto castigo aguantan antes de necesitar cambio.',
+      sections: [
+        {
+          title: 'Las mordazas son una pieza de desgaste',
+          body: [
+            'Las mordazas son superficies de trabajo reemplazables atornilladas al cuerpo de fundición. Tratarlas como pieza de desgaste en lugar de parte del marco es el primer paso — un [tornillo de banco medio de 6 pulgadas](/products/vise-medium-6) debe dar años de sujeción firme con sus mordazas de serie, pero el juego está diseñado para cambiarse cuando por fin se desgasta.',
+            'Para hacerse una imagen de todo el conjunto, el [explicador de piezas](/knowledge/bench-vise-parts-explained) recorre cada componente.',
+          ],
+        },
+        {
+          title: 'De qué se hacen las mordazas',
+          body: [
+            'Los tornillos de banco de calidad usan insertos de acero de herramienta templado: el acero de rodamientos de alto carbono GCr15 y el acero de trabajo en frío de alto cromo Cr12MoV son los dos grados habituales, tratados a 58-62 HRC. Son las mismas familias de los útiles de corte y mantienen una cara dentada mordiendo el trabajo durante años.',
+            'El material equivocado — acero dulce o fundición blanda — se bruñe, rebaba y estira bajo presión en lugar de sujetar.',
+          ],
+        },
+        {
+          title: 'Caras templadas, agarre estriado',
+          body: [
+            'Los insertos templados llevan el patrón cruzado que muerde la pieza. La geometría de esa superficie de agarre está cubierta en [diseño de mordazas](/engineering/jaw-design); el tratamiento térmico que alcanza la dureza está en [tratamiento térmico](/engineering/heat-treatment).',
+          ],
+        },
+        {
+          title: 'Mordazas duras frente a blandas',
+          body: [
+            'Las mordazas duras sujetan y desgastan bien el material bruto. Para trabajo acabado o delicado, sustituya el juego por mordazas blandas, lisas o con respaldo de cobre que protejan la superficie. El [material del cuerpo](/engineering/materials) que va detrás también importa — un marco rígido convierte una mordaza dura en sujeción firme en lugar de una que se mece.',
+          ],
+        },
+        {
+          title: 'Especificar mordazas para su programa',
+          body: [
+            'El grado, la dureza, el patrón y las dimensiones de la mordaza son seleccionables al construir una línea de producto. La vía de [fabricación OEM](/oem-manufacturing) permite elegir el juego adecuado a su mercado sin rediseñar el cuerpo.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'why-are-bench-vise-jaws-hardened',
+      navLabel: '¿Por qué se endurecen las mordazas?',
+      metaTitle: '¿Por qué se endurecen las mordazas? | Dureza explicada',
+      metaDescription:
+        'Las mordazas endurecidas resisten el desgaste, la incrustación y el bruñido, y mantienen su mordisco bajo la fuerza de sujeción. Qué hace la dureza y cuándo quiere lo contrario.',
+      kicker: 'Conocimiento',
+      h1: '¿Por qué se endurecen las mordazas?',
+      intro:
+        'Una mordaza de tornillo se endurece por una razón: seguir funcionando después de años de presión. El metal blando cede bajo carga, y una mordaza que cede deja de sujetar recto, en silencio y con seguridad.',
+      sections: [
+        {
+          title: 'El precio de las mordazas blandas',
+          body: [
+            'Una mordaza sin templar se abolla, rebaba e incrusta partículas de la pieza en su cara. El mordisco se degrada, la suciedad se aplasta contra la superficie y una esquina dura marca la siguiente pieza. El templado detiene ese ciclo.',
+          ],
+        },
+        {
+          title: 'Dureza significa resistencia al desgaste',
+          body: [
+            'La dureza se mide en la escala Rockwell y las mordazas hechas para agarrar se templan a 58-62 HRC. A ese nivel la cara resiste la indentación de la [fuerza de sujeción](/engineering/clamping-force) y se mantiene plana con el uso repetido. El número se descifra aquí: [qué significa 60 HRC](/knowledge/what-does-60-hrc-mean).',
+          ],
+        },
+        {
+          title: 'La cara estriada',
+          body: [
+            'La dureza sola no basta — la cara se mecaniza o se estampa con un patrón cruzado que muerde la pieza. Ese patrón, más la dureza que mantiene sus filos afilados, es toda la historia del [diseño de mordazas](/engineering/jaw-design).',
+          ],
+        },
+        {
+          title: 'Dura pero no frágil',
+          body: [
+            'El templado es un equilibrio: demasiado blando se desgasta, demasiado duro salta. El revenido baja la dureza del extremo para que el inserto aguante el martilleo sin romperse. La página de [tratamiento térmico](/engineering/heat-treatment) explica cómo se logra el equilibrio.',
+          ],
+        },
+        {
+          title: 'Cuándo quiere lo contrario',
+          body: [
+            'Las mordazas duras son un error para superficies acabadas y piezas delicadas. Por eso existen juegos blandos, lisos o con revestimiento de cobre — cámbielos y el juego templado se queda en el cajón. Todo lo de la [biblioteca de materiales](/engineering/materials) aplica a las elecciones que los rodean.',
+            '¿Eligiendo dureza de mordaza para una gama de producto? Las [herramientas OEM](/oem-manufacturing) ofrecen varios grados y tratamientos por modelo.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'what-does-60-hrc-mean',
+      navLabel: '¿Qué significa 60 HRC?',
+      metaTitle: '¿Qué significa 60 HRC? | Dureza explicada',
+      metaDescription:
+        'La escala Rockwell C descifrada: qué es un número HRC, qué significa 60 HRC para una mordaza y cómo leer la dureza en una ficha.',
+      kicker: 'Conocimiento',
+      h1: '¿Qué significa 60 HRC?',
+      intro:
+        'HRC es la abreviatura de dureza en casi toda ficha de tornillo de banco de calidad. 60 HRC significa un nivel de dureza concreto y comprobable — y para una mordaza es la diferencia entre "muerde durante años" y "se desgasta en una temporada".',
+      sections: [
+        {
+          title: 'La escala Rockwell C',
+          body: [
+            'La prueba Rockwell C presiona un cono de diamante sobre la superficie bajo una carga fija y mide cuánto penetra. Un número mayor significa una indentación más superficial — material más duro. La escala se usa para aceros templados desde cuchillos hasta mordazas.',
+          ],
+        },
+        {
+          title: 'Cómo se siente 60 HRC',
+          body: [
+            'A 60 HRC una lima de acero de herramienta templado resbala por la superficie sin cortar. Es territorio de acero de herramienta, la misma clase de dureza que los buenos útiles de corte, y resiste los abollones y rebabas que arruinan las caras más blandas.',
+          ],
+        },
+        {
+          title: 'El rango típico de las mordazas',
+          body: [
+            'Las mordazas de calidad se templan a 58-62 HRC — 60 está en el centro. Ese rango es deliberado: bastante dureza para agarrar años, bastante revenido para no saltar con el martilleo. Cómo se aplica el tratamiento lo cubre el [tratamiento térmico](/engineering/heat-treatment).',
+            'En la práctica, por eso una buena mordaza se desgasta despacio incluso a plena [fuerza de sujeción](/engineering/clamping-force): las marcas las recibe la pieza, no la mordaza.',
+          ],
+        },
+        {
+          title: 'Dureza frente a tenacidad',
+          body: [
+            'El HRC mide un solo eje. Una pieza puede ser extremadamente dura y aun así frágil, por eso el revenido baja ligeramente la dureza para comprar tenacidad. Leer 60 HRC en una ficha significa leerlo junto al grado de acero — el artículo de [materiales del cuerpo](/engineering/materials) muestra la misma lógica aplicada a los marcos.',
+          ],
+        },
+        {
+          title: 'Leer la ficha técnica',
+          body: [
+            'Cuando una ficha dice "mordazas templadas a 58-62 HRC", está diciendo que los insertos están en la clase de los aceros de herramienta y mantendrán su mordisco bajo carga. Un tornillo que omite la dureza por completo le está diciendo algo también.',
+            '¿Necesita documentado el tratamiento y el grado para su producto? La vía [OEM](/oem-manufacturing) puede certificar la dureza que sale con su marca.',
+          ],
+        },
+      ],
+    },
+    {
       slug: 'how-to-choose-a-bench-vise',
       navLabel: 'Cómo elegir una mordaza de banco',
       metaTitle: 'Cómo elegir una mordaza de banco | Boca y fuerza',
@@ -1978,6 +2246,140 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           body: [
             "Estimez la poussée la plus dure que votre travail recevra, ajoutez une marge de sécurité, puis choisissez la classe qui la fournit confortablement. Faites passer toute la décision par [comment choisir un étau d'établi](/knowledge/how-to-choose-a-bench-vise) pour que force, largeur, ouverture et gorge s'alignent.",
             "Pour les programmes OEM, l'[équipe d'ingénierie](/oem-manufacturing) confirmera la force mesurée sur la plateforme et le jeu de mâchoires exacts que vous prévoyez d'expédier.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'bench-vise-jaw-materials',
+      navLabel: 'En quoi sont faites les mâchoires ?',
+      metaTitle: "En quoi sont faites les mâchoires ? | Matériaux de mâchoires",
+      metaDescription:
+        "Matériaux de mâchoires remplaçables comparés : fonte grise, aciers à outils comme le GCr15 et le Cr12MoV, et quand choisir du trempé ou du doux.",
+      kicker: 'Connaissances',
+      h1: 'En quoi sont faites les mâchoires ?',
+      intro:
+        "Les mâchoires sont la seule partie d'un étau d'établi qui touche réellement votre pièce. Leur matériau décide de combien de temps elles tiennent sans s'user, si une pièce glisse ou se bloque, et combien d'abus elles encaissent avant d'avoir besoin d'être remplacées.",
+      sections: [
+        {
+          title: 'Les mâchoires sont une pièce d\'usure',
+          body: [
+            "Les mâchoires sont des surfaces de travail remplaçables boulonnées sur le corps de fonderie. Les traiter comme une pièce d'usure plutôt que comme partie du bâti est la première étape — un [étau moyen de 6 pouces](/products/vise-medium-6) doit donner des années de serrage ferme avec ses mâchoires de série, mais le jeu est conçu pour être échangé quand il s'use enfin.",
+            "Pour bâtir une image mentale de tout l'ensemble, l'[explicateur de pièces](/knowledge/bench-vise-parts-explained) parcourt chaque composant.",
+          ],
+        },
+        {
+          title: 'En quoi sont faites les mâchoires',
+          body: [
+            "Les étaux de qualité utilisent des insertions en acier à outils trempé : l'acier à roulements à haute teneur en carbone GCr15 et l'acier de travail à froid à haute teneur en chrome Cr12MoV sont les deux nuances courantes, traitées à 58-62 HRC. Ce sont les mêmes familles que les outils de coupe, et elles gardent une face striée qui mord la pièce pendant des années.",
+            "Le mauvais matériau — acier doux ou fonte tendre — se frotte, perce et s'étire sous la pression au lieu de tenir.",
+          ],
+        },
+        {
+          title: 'Faces trempées, prise striée',
+          body: [
+            "Les insertions trempées portent le motif entrecroisé qui mord la pièce. La géométrie de cette surface de prise est couverte par la [conception des mâchoires](/engineering/jaw-design) ; le traitement thermique qui atteint cette dureté est couvert par le [traitement thermique](/engineering/heat-treatment).",
+          ],
+        },
+        {
+          title: 'Mâchoires dures contre mâchoires tendres',
+          body: [
+            "Les mâchoires dures tiennent et s'usent bien sur le brut. Pour le travail fini ou délicat, remplacez le jeu par des mâchoires tendres, lisses ou à dos cuivré qui protègent la surface. Le [matériau du corps](/engineering/materials) derrière compte aussi — un bâti rigide transforme une mâchoire dure en prise ferme au lieu d'une prise qui balance.",
+          ],
+        },
+        {
+          title: 'Spécifier les mâchoires pour votre programme',
+          body: [
+            "La nuance, la dureté, le motif et les dimensions des mâchoires sont tous sélectionnables quand on construit une gamme. La voie de [fabrication OEM](/oem-manufacturing) permet de choisir le jeu adapté à votre marché sans redessiner le corps.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'why-are-bench-vise-jaws-hardened',
+      navLabel: 'Pourquoi durcit-on les mâchoires ?',
+      metaTitle: 'Pourquoi durcit-on les mâchoires ? | Dureté expliquée',
+      metaDescription:
+        "Les mâchoires trempées résistent à l'usure, à l'incrustation et au frotissement, et gardent leur prise sous la force de serrage. Ce que fait la dureté et quand on veut l'inverse.",
+      kicker: 'Connaissances',
+      h1: 'Pourquoi durcit-on les mâchoires ?',
+      intro:
+        "Une mâchoire d'étau est durcie pour une raison : continuer à travailler après des années de pression. Le métal tendre cède sous la charge, et une mâchoire qui cède cesse de tenir droit, silencieusement et en sécurité.",
+      sections: [
+        {
+          title: 'Le prix des mâchoires tendres',
+          body: [
+            "Une mâchoire non trempée se bosselle, perce et incruste les particules de la pièce dans sa face. La prise se dégrade, les saletés s'écrasent dans la surface, et un angle dur marque la pièce suivante. Le durcissement arrête ce cycle.",
+          ],
+        },
+        {
+          title: 'La dureté, c\'est la résistance à l\'usure',
+          body: [
+            "La dureté se mesure sur l'échelle Rockwell, et les mâchoires conçues pour tenir sont trempées à 58-62 HRC. À ce niveau, la face résiste à l'indentation de la [force de serrage](/engineering/clamping-force) et reste plane sous l'usage répété. Le chiffre est décodé ici : [ce que signifie 60 HRC](/knowledge/what-does-60-hrc-mean).",
+          ],
+        },
+        {
+          title: 'La face striée',
+          body: [
+            "La dureté seule ne suffit pas — la face est usinée ou frappée d'un motif entrecroisé qui mord la pièce. Ce motif, plus la dureté qui garde ses arêtes vives, est toute l'histoire de la [conception des mâchoires](/engineering/jaw-design).",
+          ],
+        },
+        {
+          title: 'Dur mais pas cassant',
+          body: [
+            "Le durcissement est un équilibre : trop tendre s'use, trop dur éclate. Le revenu ramène la dureté depuis l'extrême pour que l'insertion encaisse le martelage sans casser. La page [traitement thermique](/engineering/heat-treatment) explique comment l'équilibre est atteint.",
+          ],
+        },
+        {
+          title: 'Quand on veut le contraire',
+          body: [
+            "Les mâchoires dures sont fausses pour les surfaces finies et les pièces délicates. C'est pourquoi des jeux tendres, lisses ou plaqués cuivre existent — échangez-les et le jeu trempé reste au tiroir. Tout ce qui est dans la [bibliothèque de matériaux](/engineering/materials) s'applique aux choix qui les entourent.",
+            "Vous choisissez la dureté de mâchoires pour une gamme ? Les [outils OEM](/oem-manufacturing) offrent plusieurs nuances et traitements par modèle.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'what-does-60-hrc-mean',
+      navLabel: 'Que signifie 60 HRC ?',
+      metaTitle: 'Que signifie 60 HRC ? | Nombre de dureté expliqué',
+      metaDescription:
+        "L'échelle Rockwell C décodée : ce qu'est un nombre HRC, ce que 60 HRC signifie pour une mâchoire d'étau et comment lire la dureté sur une fiche.",
+      kicker: 'Connaissances',
+      h1: 'Que signifie 60 HRC ?',
+      intro:
+        "HRC est le raccourci de dureté sur presque toutes les fiches d'étau de qualité. 60 HRC signifie un niveau de dureté précis et testable — et pour une mâchoire, c'est la différence entre \"mord pendant des années\" et \"s'use en une saison\".",
+      sections: [
+        {
+          title: "L'échelle Rockwell C",
+          body: [
+            "Le test Rockwell C presse un cône de diamant dans la surface sous une charge fixe et mesure la profondeur de pénétration. Un nombre plus grand signifie une indentation plus faible — un matériau plus dur. L'échelle sert pour les aciers trempés, des couteaux aux mâchoires.",
+          ],
+        },
+        {
+          title: 'Ce que 60 HRC donne en pratique',
+          body: [
+            "À 60 HRC, une lime en acier à outils trempé glisse sur la surface sans couper. C'est le territoire de l'acier à outils, la même classe de dureté que les bons outils de coupe, et elle résiste aux bosses et aux bavures qui ruinent les faces plus tendres.",
+          ],
+        },
+        {
+          title: "La fourchette typique des mâchoires",
+          body: [
+            "Les mâchoires de qualité sont traitées à 58-62 HRC — 60 est au centre. Cette fourchette est délibérée : assez dure pour tenir des années, assez revenue pour ne pas éclater sous le martelage. Comment le traitement est appliqué est couvert par le [traitement thermique](/engineering/heat-treatment).",
+            "En pratique, voilà pourquoi une bonne mâchoire s'use lentement même à pleine [force de serrage](/engineering/clamping-force) : les marques vont sur la pièce, pas sur la mâchoire.",
+          ],
+        },
+        {
+          title: 'Dureté contre ténacité',
+          body: [
+            "Le HRC mesure un seul axe. Une pièce peut être extrêmement dure et pourtant cassante, c'est pourquoi le revenu ramène légèrement la dureté pour acheter de la ténacité. Lire 60 HRC sur une fiche, c'est le lire avec la nuance d'acier — l'article sur les [matériaux du corps](/engineering/materials) montre la même logique pour les bâtis.",
+          ],
+        },
+        {
+          title: 'Lire la fiche technique',
+          body: [
+            "Quand une fiche dit \"mâchoires trempées à 58-62 HRC\", elle dit que les insertions sont dans la classe des aciers à outils et garderont leur prise sous charge. Un étau qui omet totalement la dureté vous dit aussi quelque chose.",
+            "Besoin que le traitement et la nuance soient documentés pour votre produit ? La voie [OEM](/oem-manufacturing) peut certifier la dureté qui part sous votre marque.",
           ],
         },
       ],

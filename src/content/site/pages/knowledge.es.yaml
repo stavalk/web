@@ -77,6 +77,15 @@ buyer_guides:
     - title: ¿Cuánta fuerza de sujeción necesita?
       body: Rangos de fuerza, por qué más no es mejor y cómo verificar.
       href: /knowledge/how-much-clamping-force-do-you-need
+    - title: ¿De qué están hechas las mordazas?
+      body: Fonte gris, GCr15 y Cr12MoV — aceros de herramienta templados para mordazas que agarran años.
+      href: /knowledge/bench-vise-jaw-materials
+    - title: ¿Por qué se endurecen las mordazas?
+      body: Qué hace la dureza bajo carga y cuándo quiere lo contrario.
+      href: /knowledge/why-are-bench-vise-jaws-hardened
+    - title: ¿Qué significa 60 HRC?
+      body: La escala Rockwell descifrada y cómo leer la dureza en una ficha.
+      href: /knowledge/what-does-60-hrc-mean
     - title: Cómo elegir un tornillo de banco
       body: Ancho, apertura, fuerza de sujeción, material y base.
       href: /knowledge/how-to-choose-a-bench-vise

@@ -77,6 +77,15 @@ buyer_guides:
     - title: Quelle force de serrage vous faut-il ?
       body: Fourchettes de force, pourquoi plus n'est pas mieux et comment vérifier.
       href: /knowledge/how-much-clamping-force-do-you-need
+    - title: En quoi sont faites les mâchoires ?
+      body: Fonte grise, GCr15 et Cr12MoV — des aciers à outils trempés pour des mâchoires qui tiennent des années.
+      href: /knowledge/bench-vise-jaw-materials
+    - title: Pourquoi durcit-on les mâchoires ?
+      body: Ce que fait la dureté sous charge, et quand on veut l'inverse.
+      href: /knowledge/why-are-bench-vise-jaws-hardened
+    - title: Que signifie 60 HRC ?
+      body: L'échelle Rockwell décodée et comment lire la dureté sur une fiche.
+      href: /knowledge/what-does-60-hrc-mean
     - title: Comment choisir un étau d'établi
       body: Largeur, ouverture, force de serrage, matériau et base.
       href: /knowledge/how-to-choose-a-bench-vise
