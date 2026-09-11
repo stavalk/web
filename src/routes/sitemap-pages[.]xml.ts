@@ -29,7 +29,7 @@ const handler = async () => {
       return { loc: p.path, lastmod: p.meta?.dateModified ?? seo?.dateModified ?? '2026-06-01', es: esPaths.has(p.path), fr: frPaths.has(p.path) }
     })
   const staticPages = [
-    ...GUIDES.map((g: { slug: string }) => ({ loc: `/guides/${g.slug}`, lastmod: '2026-06-01', es: true })),
+    ...GUIDES.map((g: { slug: string }) => ({ loc: `/guides/${g.slug}`, lastmod: '2026-06-01', es: true, fr: true })),
     ...projects.en.map((p: { slug: string }) => ({ loc: `/projects/${p.slug}`, lastmod: '2026-08-15', es: true, fr: true })),
     ...knowledge.en.map((a: { slug: string }) => ({ loc: `/knowledge/${a.slug}`, lastmod: '2026-09-10', es: true, fr: true })),
     ...seriesPages.en.map((s: { slug: string }) => ({ loc: `/products/${s.slug}`, lastmod: '2026-08-15', es: true, fr: true })),
