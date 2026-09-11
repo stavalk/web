@@ -891,6 +891,315 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
     {
+      slug: 'automotive-repair-bench-vise',
+      navLabel: 'Automotive Repair Bench Vise',
+      metaTitle: 'Automotive Repair Bench Vise: Garage Workholding',
+      metaDescription:
+        'Why a bench vise is the garage workholding standard — brake parts, brackets, hoses, frame work and the vise class that covers general automotive repair.',
+      kicker: 'Knowledge',
+      h1: 'Automotive Repair Bench Vise',
+      intro:
+        'A bench vise is the permanent clamping station in most automotive workshops and home garages. It holds what your hands cannot — brake components, brackets, hoses and fabricated parts — while you cut, drill, grind and assemble.',
+      sections: [
+        {
+          title: 'The Garage Workhorse',
+          body: [
+            'A [6″ medium-duty bench vise](/products/vise-medium-6) is the classic garage specification: wide enough for most brake parts, a jaw opening that swallows brackets, and a body heavy enough to take hammering. It is the tool that appears first in the shop and never gets put away.',
+            'That same tool is covered in the [workshop applications](/knowledge/what-is-a-bench-vise-used-for) guide.',
+          ],
+        },
+        {
+          title: 'What It Holds',
+          body: [
+            'Brake calipers, brackets, small frame sections, hoses, fittings, springs — almost everything clamped in a garage passes through vise jaws. A [heavy-duty 6″ bench vise](/products/vise-heavy-6) covers the thicker parts and delivers the [clamping force](/engineering/clamping-force) to hold them under the hammer.',
+          ],
+        },
+        {
+          title: 'Why a Vise Beats a Clamp',
+          body: [
+            'An auto part is three-dimensional and reaches in all directions. A vise holds it once, in any orientation, without the part shifting. Replaceable [jaws](/knowledge/bench-vise-replaceable-jaws) protect finished surfaces while gripping hard enough to stop rotation.',
+          ],
+        },
+        {
+          title: 'Choosing the Right Class',
+          body: [
+            'Light-duty vises cover small parts and tight budgets; medium-duty covers most auto repair; heavy-duty handles frame work and larger castings. The [size guide](/knowledge/bench-vise-size-guide) walks through the dimensions, and the [choosing guide](/knowledge/how-to-choose-a-bench-vise) matches duty class to workload.',
+          ],
+        },
+        {
+          title: 'Making It Last in a Garage',
+          body: [
+            'Automotive grime is abrasive. A little [maintenance](/knowledge/bench-vise-maintenance) — clean the screw, light oil on the slide — keeps the mechanism from wearing prematurely. The [body material](/engineering/materials) and [jaw hardness](/knowledge/what-does-60-hrc-mean) determine how long the vise stays tight under constant use.',
+            'For OEM garage lines, the [production team](/oem-manufacturing) supplies the body, base and finish your market needs.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'metalworking-bench-vise',
+      navLabel: 'Metalworking Bench Vise',
+      metaTitle: 'Metalworking Bench Vise: Filing, Sawing and Clamping',
+      metaDescription:
+        'How a bench vise supports metalworking — filing, sawing, drilling and grinding. Why rigidity, jaw hardness and mounting decide the quality of cut.',
+      kicker: 'Knowledge',
+      h1: 'Metalworking Bench Vise',
+      intro:
+        'Metalworking is where a bench vise earns its reputation. A vise that sits dead-solid under the file, holds the saw straight and takes the grinder without moving — that is the difference between a clean finish and a ruined edge.',
+      sections: [
+        {
+          title: 'The Foundation of Metalwork',
+          body: [
+            'Drilling, reaming, threading, filing and sawing all need a workpiece that cannot move. A [6″ heavy-duty bench vise](/products/vise-heavy-6) bolted to a solid bench is the simplest, cheapest way to create that dead-solid workholding for metal. The applications overview is in [what a vise is used for](/knowledge/what-is-a-bench-vise-used-for).',
+          ],
+        },
+        {
+          title: 'Rigidity Is the Quality Control',
+          body: [
+            'A vise that flexes pushes the workpiece out of square and ruins the cut. The amount of [clamping force](/engineering/clamping-force) the frame delivers, and how well it is mounted to the bench, decide whether the vise moves or the file does.',
+            'That is why heavier vises have more body mass — the [body material](/engineering/materials) is the rigidity source.',
+          ],
+        },
+        {
+          title: 'Jaws That Bite and Jaws That Protect',
+          body: [
+            'Hardened, serrated jaws grip raw stock firmly. For finished or polished parts, swap in [replaceable soft jaws](/knowledge/bench-vise-replaceable-jaws). The jaw hardness and pattern are covered in [jaw design](/engineering/jaw-design) and [60 HRC explained](/knowledge/what-does-60-hrc-mean).',
+          ],
+        },
+        {
+          title: 'Sawing and Filing',
+          body: [
+            'A throat deep enough to clear a saw blade matters when cutting long sections — the [throat depth guide](/knowledge/how-much-throat-depth-do-you-need) shows what to measure. Filing the top of a clamped piece demands a vise that does not rock, which brings the choice back to mass and [mounting](/knowledge/bench-vise-maintenance).',
+          ],
+        },
+        {
+          title: 'Spec for the Job',
+          body: [
+            'Metalworking is a broad trade. The [choosing guide](/knowledge/how-to-choose-a-bench-vise) balances jaw width, opening and throat against the kinds of metalwork you do. For OEM product lines the [manufacturing team](/oem-manufacturing) can specify the exact platform.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'welding-prep-bench-vise',
+      navLabel: 'Welding Prep Bench Vise',
+      metaTitle: 'Welding Prep Bench Vise: Holding Before the Arc',
+      metaDescription:
+        'How a bench vise supports welding preparation — holding parts for fit-up, tack welding, grinding and grinding. What body material and base to choose.',
+      kicker: 'Knowledge',
+      h1: 'Welding Prep Bench Vise',
+      intro:
+        'A bench vise does not replace welding clamps, but it is where fit-up, tacking, grinding and edge preparation happen before the arc. It holds the part at the right angle while the fit is set.',
+      sections: [
+        {
+          title: 'The Vise Before the Arc',
+          body: [
+            'Fit-up, tacking, grinding the root face and cleaning spatter all happen before the torch fires. An [8″ heavy-duty bench vise](/products/vise-heavy-8) is big enough for most welded assemblies, heavy enough to absorb hammering, and stays put while you work a grinding wheel against the frame.',
+            'The broader role of a vise in metalwork is covered in [what a bench vise is used for](/knowledge/what-is-a-bench-vise-used-for).',
+          ],
+        },
+        {
+          title: 'Heat and Body Material',
+          body: [
+            'Spatter and welding heat reach the vise body occasionally. Gray cast iron handles it without much concern; forged steel absorbs impacts better if hammering is frequent. The comparison is covered in [cast iron vs. forged steel](/knowledge/cast-iron-vs-steel-vises) and the [body materials](/engineering/materials) library.',
+          ],
+        },
+        {
+          title: 'Holding Round and Structural Sections',
+          body: [
+            'Weldments often involve pipe, round bar and structural sections. A vise with [pipe jaws](/knowledge/bench-vise-pipe-jaws) centers the work; a heavy-duty [swivel base](/knowledge/fixed-vs-swivel-base-bench-vise) lets you angle the piece without unclamping — saving time on every joint.',
+          ],
+        },
+        {
+          title: 'What This Does to the Vise',
+          body: [
+            'Welding prep is abrasive: grinding dust, spatter and repeated hammer blows all wear on the jaws. Replaceable [jaws](/knowledge/bench-vise-replaceable-jaws) and a little [maintenance](/knowledge/bench-vise-maintenance) keep the vise functional. The [jaw materials](/knowledge/bench-vise-jaw-materials) article explains why hardened inserts outlast the rest.',
+          ],
+        },
+        {
+          title: 'Choosing for Welding Work',
+          body: [
+            'Welding work rewards mass and rigidity. The [choosing guide](/knowledge/how-to-choose-a-bench-vise) covers the trade-offs; for a product range the [OEM team](/oem-manufacturing) supplies the heavy platform with the finish your market needs.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'garage-workshop-bench-vise',
+      navLabel: 'Garage & Workshop Bench Vise',
+      metaTitle: 'Garage & Workshop Bench Vise: The Do-Everything Vise',
+      metaDescription:
+        'Why every workshop and garage needs a bench vise, what size covers the most jobs, and how to mount and maintain a garage vise.',
+      kicker: 'Knowledge',
+      h1: 'Garage & Workshop Bench Vise',
+      intro:
+        'A garage vise is the one tool that never gets put away. It holds pipe for threading, wood for drilling, metal for filing, and a dozen other jobs you did not plan when the bench went in.',
+      sections: [
+        {
+          title: 'Why Every Workshop Needs One',
+          body: [
+            'A bench vise is the only workholding that turns the bench itself into a workstation. A [6″ medium-duty bench vise](/products/vise-medium-6) covers most workshop jobs without dominating the bench — and it is the single most-recommended first tool for any new workshop.',
+            'The range of jobs it can handle is listed in [what a bench vise is used for](/knowledge/what-is-a-bench-vise-used-for).',
+          ],
+        },
+        {
+          title: 'Size for the Most Jobs',
+          body: [
+            'A medium-duty 6″ vise takes the majority of what a workshop sees — small parts, pipe, sheet and light fabrication. A [light 4″ vise](/products/vise-light-4) handles hobby-scale work. The [size guide](/knowledge/bench-vise-size-guide) breaks the dimensions down.',
+          ],
+        },
+        {
+          title: 'Base and Positioning',
+          body: [
+            'Fixed or swivel? For a garage that sees varied work, a [swivel base](/knowledge/fixed-vs-swivel-base-bench-vise) pays for itself in saved time. Mount it where the light is best and the bench is thickest, with bolts that match the base holes.',
+          ],
+        },
+        {
+          title: 'Keep It Running',
+          body: [
+            'The garage is dusty, and dust is abrasive. A little [maintenance](/knowledge/bench-vise-maintenance) — clean the screw, wipe the slide — keeps the vise from wearing out before its time. Hardened [jaws](/knowledge/what-does-60-hrc-mean) and replaceable [jaw sets](/knowledge/bench-vise-replaceable-jaws) complete the service picture.',
+          ],
+        },
+        {
+          title: 'Buying for Your Market',
+          body: [
+            'Garages are a global market. The [choosing guide](/knowledge/how-to-choose-a-bench-vise) helps end users; the [OEM route](/oem-manufacturing) helps brands build a garage line.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'schools-training-bench-vise',
+      navLabel: 'Schools & Training Bench Vise',
+      metaTitle: 'Schools & Training Bench Vise: Safe Workholding for Students',
+      metaDescription:
+        'How a bench vise is used in schools and training — the vise that teaches workholding safely, what size to buy and how to maintain a classroom set.',
+      kicker: 'Knowledge',
+      h1: 'Schools & Training Bench Vise',
+      intro:
+        'In a school workshop the vise teaches workholding itself. It teaches students how to clamp, how to position, and how to stay safe — and it must do it a hundred times a day, year after year.',
+      sections: [
+        {
+          title: 'The Vise That Teaches',
+          body: [
+            'A bench vise is often the first tool a student uses independently. It introduces the discipline of clamping properly, and a [4″ light-duty bench vise](/products/vise-light-4) or a [medium-duty 5″ model](/products/vise-medium-5) suits classroom height, student strength and the scale of education projects.',
+            'The same models are covered in the [size guide](/knowledge/bench-vise-size-guide) and the [types overview](/knowledge/types-of-bench-vises-explained).',
+          ],
+        },
+        {
+          title: 'Safety and Durability',
+          body: [
+            'A student workshop beats tools hard: wrong clamping, sudden hammering and dropping parts. A robust [body material](/engineering/materials), hardened [jaws](/knowledge/what-does-60-hrc-mean) and replaceable [jaw sets](/knowledge/bench-vise-replaceable-jaws) mean the set lasts multiple classes without losing grip.',
+          ],
+        },
+        {
+          title: 'Mounting and Classroom Layout',
+          body: [
+            'A school bench is often thinner than a professional shop bench, so bolting the vise securely and reinforcing the top is essential. One fixed-position vise per station, positioned to keep students facing the right way and away from rotating equipment.',
+          ],
+        },
+        {
+          title: 'Maintaining a Classroom Set',
+          body: [
+            'Light [maintenance](/knowledge/bench-vise-maintenance) on a schedule — weekly screw wipe, monthly oil — keeps a class set running. Teach the students the same habit: wipe the vise when you finish. It is a maintenance lesson as much as a tool lesson.',
+          ],
+        },
+        {
+          title: 'Spec for Education',
+          body: [
+            'Education pricing, bulk supply and replacement availability matter as much as the vise itself. The [OEM route](/oem-manufacturing) handles classroom-volume orders and branded sets.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'woodworking-bench-vise',
+      navLabel: 'Woodworking Bench Vise',
+      metaTitle: 'Woodworking Bench Vise: Workholding for Wood',
+      metaDescription:
+        'How a woodworking bench vise holds wood for sawing, drilling, planing and carving — when a metalworking vise is the wrong choice and what to use instead.',
+      kicker: 'Knowledge',
+      h1: 'Woodworking Bench Vise',
+      intro:
+        'Woodworking needs a different kind of grip. The finish matters, the material is soft, and the wrong vise can crush the grain before the cut starts. A woodworking vise holds firm without leaving marks.',
+      sections: [
+        {
+          title: 'Why Woodworking Is Different',
+          body: [
+            'Wood is softer than metal but more sensitive to surface damage. Hardened serrated jaws — perfect for steel — will chew into walnut. The solution is flat, smooth [jaws](/knowledge/bench-vise-jaw-materials) or replaceable [soft jaws](/knowledge/bench-vise-replaceable-jaws) that protect the surface while still holding the work.',
+            'The broader workholding context is in [what a bench vise is used for](/knowledge/what-is-a-bench-vise-used-for).',
+          ],
+        },
+        {
+          title: 'Jaw Opening for Lumber',
+          body: [
+            'A plank or cabinet side may exceed the jaw opening of a small vise. A [medium-duty 5″ or 6″ model](/products/vise-medium-6) gives the room; a [light 4″ vise](/products/vise-light-4) covers smaller stock. The [opening guide](/knowledge/how-much-jaw-opening-do-you-need) explains what to measure.',
+          ],
+        },
+        {
+          title: 'Holding and Positioning',
+          body: [
+            'A [swivel base](/knowledge/fixed-vs-swivel-base-bench-vise) helps when working long boards from different angles. Pipe jaws are less useful here, but a flat-faced set of [replaceable jaws](/knowledge/bench-vise-replaceable-jaws) with a wide opening covers most woodwork.',
+          ],
+        },
+        {
+          title: 'Avoiding Damage',
+          body: [
+            'Low [clamping force](/engineering/clamping-force) is often enough for wood — you want enough grip to hold, not enough to crush. This means the vise does not need heavy-duty mass, and the choice sits in the light-to-medium range of the [choosing guide](/knowledge/how-to-choose-a-bench-vise).',
+          ],
+        },
+        {
+          title: 'For OEM Ranges',
+          body: [
+            'Woodworking vises often sell with smooth jaw faces, woodworking base plates and a different branding tone. The [OEM team](/oem-manufacturing) supplies woodworking-focused variants on proven platforms.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'private-label-bench-vise-guide',
+      navLabel: 'Private Label Bench Vise Guide',
+      metaTitle: 'Private Label Bench Vise Guide | OEM & Custom Vises',
+      metaDescription:
+        'How to build a private-label bench vise line — platform selection, jaw customization, MOQ, certification, and the OEM vs private label difference.',
+      kicker: 'Knowledge',
+      h1: 'Private Label Bench Vise Guide',
+      intro:
+        'Private label is how many brands enter the bench vise market: pick a proven platform, customize the details, ship it under your name. The process is faster and cheaper than designing from scratch — if you know what to specify.',
+      sections: [
+        {
+          title: 'What Private Label Means',
+          body: [
+            'A private-label program takes a manufacturer\'s existing platform and stamps your branding, finish, jaw set and packaging onto it. The vise is proven; the label is yours. It is the faster, lower-risk alternative to building a vise from nothing — and it starts on the same [manufacturing](/oem-manufacturing) floor.',
+          ],
+        },
+        {
+          title: 'Platform Selection',
+          body: [
+            'Start with the platform that matches your market: light duty for hardware retail, medium for workshops, heavy for industrial. A [6″ medium-duty bench vise](/products/vise-medium-6) covers the broadest market; heavy-duty models cover fabrication. The [choosing guide](/knowledge/how-to-choose-a-bench-vise) walks through the parameters.',
+          ],
+        },
+        {
+          title: 'What You Can Customize',
+          body: [
+            'Jaw width, opening, jaw material and hardness, base type, paint or powder-coat, logo and packaging — all are selectable on the same frame. The [body materials](/engineering/materials) and [jaw materials](/knowledge/bench-vise-jaw-materials) explain the trade-offs behind each option.',
+          ],
+        },
+        {
+          title: 'MOQ, Lead Time and Certification',
+          body: [
+            'MOQ, lead time, sample approval and certifications are the commercial details that decide the program. They are laid out on the [OEM manufacturing](/oem-manufacturing) page and depend on volume, finish and the certifications your market requires.',
+          ],
+        },
+        {
+          title: 'Private Label vs OEM vs ODM',
+          body: [
+            'Private label uses an existing platform. OEM builds to your drawing. ODM starts from a concept. For bench vises, private label is the most common entry point because the tooling already exists. The [full OEM comparison](/knowledge/oem-bench-vise-manufacturing) explains where each route fits.',
+            'Whichever route you choose, the [product range](/knowledge/types-of-bench-vises-explained) shows the breadth of platforms available.',
+          ],
+        },
+      ],
+    },
+    {
       slug: 'how-to-choose-a-bench-vise',
       navLabel: 'How to Choose a Bench Vise',
       metaTitle: 'How to Choose a Bench Vise | Jaw Width & Clamping Force',
@@ -1974,6 +2283,315 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
     {
+      slug: 'automotive-repair-bench-vise',
+      navLabel: 'Tornillo de banco para reparación automotriz',
+      metaTitle: 'Tornillo de banco para reparación automotriz: sujeción en taller',
+      metaDescription:
+        'Por qué un tornillo de banco es el estándar de sujeción en garajes — piezas de freno, soportes, mangueras y la clase de tornillo que cubre la reparación general.',
+      kicker: 'Centro de conocimiento',
+      h1: 'Tornillo de banco para reparación automotriz',
+      intro:
+        'Un tornillo de banco es la estación de sujeción permanente en la mayoría de talleres de reparación y garajes. Sujeta lo que sus manos no pueden — componentes de freno, soportes, mangueras y piezas fabricadas — mientras corta, perfora, amola y monta.',
+      sections: [
+        {
+          title: 'El caballo de batalla del garaje',
+          body: [
+            'Un [tornillo de banco medio de 6 pulgadas](/products/vise-medium-6) es la especificación clásica de garaje: lo suficientemente ancho para la mayoría de piezas de freno, con una abertura que traga soportes y un cuerpo lo suficientemente pesado para aguantar martillazos. Es la herramienta que aparece primero en el taller y nunca se guarda.',
+            'Esa misma herramienta se cubre en la guía de [aplicaciones de taller](/knowledge/what-is-a-bench-vise-used-for).',
+          ],
+        },
+        {
+          title: 'Lo que sujeta',
+          body: [
+            'Pastillas, soportes, secciones de chasis, mangueras, accesorios, resortes — casi todo lo que se sujeta en un garaje pasa por las mordazas. Un [tornillo pesado de 6 pulgadas](/products/vise-heavy-6) cubre las piezas más gruesas y entrega la [fuerza de sujeción](/engineering/clamping-force) necesaria para aguantar bajo el martillo.',
+          ],
+        },
+        {
+          title: 'Por qué un tornillo supera a una abrazadera',
+          body: [
+            'Una pieza automotriz es tridimensional y se extiende en todas direcciones. Un tornillo la sujeta una vez, en cualquier orientación, sin que se mueva. Las [mordazas reemplazables](/knowledge/bench-vise-replaceable-jaws) protegen superficies acabadas mientras agarran lo suficiente para detener la rotación.',
+          ],
+        },
+        {
+          title: 'Elegir la clase correcta',
+          body: [
+            'Los tornillos ligeros cubren piezas pequeñas y presupuestos ajustados; los medios cubren la reparación general; los pesados manejan trabajo de chasis y fundiciones más gruesas. La [guía de tamaños](/knowledge/bench-vise-size-guide) recorre las dimensiones y la [guía de elección](/knowledge/how-to-choose-a-bench-vise) ajusta la clase al trabajo.',
+          ],
+        },
+        {
+          title: 'Hacerlo durar en un garaje',
+          body: [
+            'La suciedad automotriz es abrasiva. Un poco de [mantenimiento](/knowledge/bench-vise-maintenance) — limpiar el tornillo, aceitar el carril — evita que el mecanismo se desgaste prematuramente. El [material del cuerpo](/engineering/materials) y la [dureza de mordaza](/knowledge/what-does-60-hrc-mean) deciden cuánto dura el tornillo bajo uso constante.',
+            'Para gamas OEM de garaje, el [equipo de producción](/oem-manufacturing) suministra el cuerpo, la base y el acabado que su mercado necesita.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'metalworking-bench-vise',
+      navLabel: 'Tornillo de banco para metalurgia',
+      metaTitle: 'Tornillo de banco para metalurgia: limado, serrado y sujeción',
+      metaDescription:
+        'Cómo un tornillo de banco soporta la metalurgia — limado, serrado, perforación y amolado. Por qué la rigidez, la dureza de mordaza y el montaje deciden la calidad del corte.',
+      kicker: 'Centro de conocimiento',
+      h1: 'Tornillo de banco para metalurgia',
+      intro:
+        'La metalurgia es donde un tornillo de banco gana su reputación. Un tornillo que se mantiene sólido bajo la lima, sujeta la sierra recta y toma el amolador sin moverse — esa es la diferencia entre un acabado limpio y un borde arruinado.',
+      sections: [
+        {
+          title: 'La base del metal',
+          body: [
+            'Perforar, roscar, limar y serrar todos necesitan una pieza que no se mueva. Un [tornillo pesado de 6 pulgadas](/products/vise-heavy-6) atornillado a un banco sólido es la forma más simple de crear esa sujeción muerta para metal. Las aplicaciones se cubren en [para qué sirve un tornillo](/knowledge/what-is-a-bench-vise-used-for).',
+          ],
+        },
+        {
+          title: 'La rigidez es el control de calidad',
+          body: [
+            'Un tornillo que cede saca la pieza de escuadra y arruina el corte. La cantidad de [fuerza de sujeción](/engineering/clamping-force) que entrega el marco y lo bien que esté montado al banco deciden si el tornillo se mueve o la lima lo hace.',
+            'Por eso los tornillos más pesados tienen más masa — el [material del cuerpo](/engineering/materials) es la fuente de rigidez.',
+          ],
+        },
+        {
+          title: 'Mordazas que muerden y mordazas que protegen',
+          body: [
+            'Las mordazas templadas y estriadas sujetan material bruto firmemente. Para piezas acabadas o pulidas, cambie a [mordazas blandas reemplazables](/knowledge/bench-vise-replaceable-jaws). La dureza y el patrón se cubren en [diseño de mordazas](/engineering/jaw-design) y [qué significa 60 HRC](/knowledge/what-does-60-hrc-mean).',
+          ],
+        },
+        {
+          title: 'Serrar y limar',
+          body: [
+            'Una garganta lo suficientemente profunda para despejar la hoja de sierra importa al cortar secciones largas — la [guía de garganta](/knowledge/how-much-throat-depth-do-you-need) muestra qué medir. Limar la parte superior de una pieza sujeta exige un tornillo que no se balancee, lo que vuelve a masa y [montaje](/knowledge/bench-vise-maintenance).',
+          ],
+        },
+        {
+          title: 'Especificación para el trabajo',
+          body: [
+            'La metalurgia es un oficio amplio. La [guía de elección](/knowledge/how-to-choose-a-bench-vise) equilibra ancho, abertura y garganta contra los tipos de metal que se trabajan. Para líneas OEM, el [equipo de fabricación](/oem-manufacturing) puede especificar la plataforma exacta.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'welding-prep-bench-vise',
+      navLabel: 'Tornillo de banco para preparación de soldadura',
+      metaTitle: 'Tornillo de banco para preparación de soldadura: antes del arco',
+      metaDescription:
+        'Cómo un tornillo de banco soporta la preparación de soldadura — ajuste, punteado, amolado y limpieza. Qué material de cuerpo y base elegir.',
+      kicker: 'Centro de conocimiento',
+      h1: 'Tornillo de banco para preparación de soldadura',
+      intro:
+        'Un tornillo de banco no reemplaza las abrazaderas de soldar, pero es donde se realizan el ajuste, el punteado, el amolado y la preparación de bordes antes de que se encienda el arco.',
+      sections: [
+        {
+          title: 'El tornillo antes del arco',
+          body: [
+            'El ajuste, el punteado, el amolado de la raíz y la limpieza de salpicaduras ocurren antes de que el soplete se encienda. Un [tornillo pesado de 8 pulgadas](/products/vise-heavy-8) es lo suficientemente grande para la mayoría de ensamblajes soldados y lo suficientemente pesado para absorber martillazos.',
+            'El rol amplio del tornillo en la metalurgia se cubre en [para qué sirve un tornillo de banco](/knowledge/what-is-a-bench-vise-used-for).',
+          ],
+        },
+        {
+          title: 'Calor y material del cuerpo',
+          body: [
+            'Las salpicaduras y el calor de soldadura alcanzan el cuerpo ocasionalmente. La fundición gris lo aguanta sin preocupación; el acero forjado absorbe impactos mejor si se martilla con frecuencia. La comparación está en [fundición vs. acero forjado](/knowledge/cast-iron-vs-steel-vises) y la biblioteca de [materiales del cuerpo](/engineering/materials).',
+          ],
+        },
+        {
+          title: 'Sujetar secciones redondas y estructurales',
+          body: [
+            'Las soldaduras a menudo involucran tubería, barras redondas y secciones estructurales. Un tornillo con [mordazas para tubería](/knowledge/bench-vise-pipe-jaws) centra la pieza; una [base giratoria](/knowledge/fixed-vs-swivel-base-bench-vise) permite inclinarla sin soltar el apriete.',
+          ],
+        },
+        {
+          title: 'Lo que esto le hace al tornillo',
+          body: [
+            'La preparación de soldadura es abrasiva: polvo de amolar, salpicaduras y martillazos repetidos desgastan las mordazas. Las [mordazas reemplazables](/knowledge/bench-vise-replaceable-jaws) y un poco de [mantenimiento](/knowledge/bench-vise-maintenance) mantienen el tornillo funcional. Los [materiales de mordaza](/knowledge/bench-vise-jaw-materials) explican por qué las templadas duran más.',
+          ],
+        },
+        {
+          title: 'Elegir para trabajo de soldadura',
+          body: [
+            'El trabajo de soldadura premia masa y rigidez. La [guía de elección](/knowledge/how-to-choose-a-bench-vise) cubre las compensaciones; para una gama, el [equipo OEM](/oem-manufacturing) suministra la plataforma pesada con el acabado que su mercado necesita.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'garage-workshop-bench-vise',
+      navLabel: 'Tornillo de banco para garaje y taller',
+      metaTitle: 'Tornillo de banco para garaje y taller: el que lo hace todo',
+      metaDescription:
+        'Por qué todo taller y garaje necesita un tornillo de banco, qué tamaño cubre más trabajos y cómo montar y mantener un tornillo de garaje.',
+      kicker: 'Centro de conocimiento',
+      h1: 'Tornillo de banco para garaje y taller',
+      intro:
+        'Un tornillo de garaje es la única herramienta que nunca se guarda. Sujeta tubería para roscar, madera para perforar, metal para limar y una docena de trabajos que no planeó cuando construyó el banco.',
+      sections: [
+        {
+          title: 'Por qué todo taller lo necesita',
+          body: [
+            'Un tornillo de banco es la única sujeción que convierte el banco en estación de trabajo. Un [tornillo medio de 6 pulgadas](/products/vise-medium-6) cubre la mayoría de trabajos de taller sin dominar el banco — y es la herramienta que más se recomienda como primera compra.',
+            'El rango de trabajos se lista en [para qué sirve un tornillo de banco](/knowledge/what-is-a-bench-vise-used-for).',
+          ],
+        },
+        {
+          title: 'Tamaño para más trabajos',
+          body: [
+            'Un tornillo medio de 6 pulgadas toma la mayoría de lo que un taller ve — piezas pequeñas, tubería, lámina y fabricación ligera. Un [tornillo ligero de 4 pulgadas](/products/vise-light-4) maneja trabajo de afición. La [guía de tamaños](/knowledge/bench-vise-size-guide) desglosa las dimensiones.',
+          ],
+        },
+        {
+          title: 'Base y posición',
+          body: [
+            '¿Fija o giratoria? Para un garaje con trabajo variado, una [base giratoria](/knowledge/fixed-vs-swivel-base-bench-vise) se paga sola. Montelo donde la luz sea mejor y el banco más grueso, con pernos que coincidan con los agujeros de la base.',
+          ],
+        },
+        {
+          title: 'Mantenerlo funcionando',
+          body: [
+            'El garaje es polvoso y el polvo es abrasivo. Un poco de [mantenimiento](/knowledge/bench-vise-maintenance) — limpiar el tornillo, limpiar el carril — evita que se desgaste antes de tiempo. Las [mordazas templadas](/knowledge/what-does-60-hrc-mean) y los [juegos reemplazables](/knowledge/bench-vise-replaceable-jaws) completan el cuadro.',
+          ],
+        },
+        {
+          title: 'Comprar para su mercado',
+          body: [
+            'Los garajes son un mercado global. La [guía de elección](/knowledge/how-to-choose-a-bench-vise) ayuda al usuario final; la vía [OEM](/oem-manufacturing) ayuda a las marcas a construir una línea de garaje.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'schools-training-bench-vise',
+      navLabel: 'Tornillo de banco para escuelas y formación',
+      metaTitle: 'Tornillo de banco para escuelas: sujeción segura para alumnos',
+      metaDescription:
+        'Cómo se usa un tornillo de banco en escuelas y formación — la herramienta que enseña la sujeción de forma segura, qué tamaño comprar y cómo mantener un juego de aula.',
+      kicker: 'Centro de conocimiento',
+      h1: 'Tornillo de banco para escuelas y formación',
+      intro:
+        'En un aula de taller el tornillo enseña la sujeción por sí mismo. Enseña a los alumnos a sujetar, posicionar y mantenerse seguros — y debe hacerlo cien veces al día, año tras año.',
+      sections: [
+        {
+          title: 'El tornillo que enseña',
+          body: [
+            'Un tornillo de banco es a menudo la primera herramienta que un alumno usa de forma independiente. Introduce la disciplina de sujetar correctamente, y un [tornillo ligero de 4 pulgadas](/products/vise-light-4) o un [medio de 5 pulgadas](/products/vise-medium-5) se adapta a la altura de aula, la fuerza de los alumnos y la escala de los proyectos.',
+            'Los mismos modelos se cubren en la [guía de tamaños](/knowledge/bench-vise-size-guide) y la [visión general de tipos](/knowledge/types-of-bench-vises-explained).',
+          ],
+        },
+        {
+          title: 'Seguridad y durabilidad',
+          body: [
+            'Un aula golpea las herramientas fuerte: sujeción incorrecta, martillazos repentinos y piezas caídas. Un [material de cuerpo](/engineering/materials) robusto, [mordazas templadas](/knowledge/what-does-60-hrc-mean) y [juegos reemplazables](/knowledge/bench-vise-replaceable-jaws) significan que el juego dure múltiples clases sin perder agarre.',
+          ],
+        },
+        {
+          title: 'Montaje y distribución del aula',
+          body: [
+            'Un banco de aula suele ser más delgado que uno profesional, por lo que atornillar el tornillo con seguridad y reforzar la superficie es esencial. Un tornillo por estación, posicionado para que los alumnos miren la dirección correcta y estén lejos de equipos rotatorios.',
+          ],
+        },
+        {
+          title: 'Mantener un juego de aula',
+          body: [
+            'Un poco de [mantenimiento](/knowledge/bench-vise-maintenance) programado — limpieza semanal del tornillo, aceite mensual — mantiene el juego funcionando. Enseñe el mismo hábito a los alumnos: limpie el tornillo al terminar.',
+          ],
+        },
+        {
+          title: 'Especificación para educación',
+          body: [
+            'Precios de educación, suministro en volumen y disponibilidad de repuestos importan tanto como el tornillo. La vía [OEM](/oem-manufacturing) maneja pedidos de volumen de aula y juegos con marca.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'woodworking-bench-vise',
+      navLabel: 'Tornillo de banco para carpintería',
+      metaTitle: 'Tornillo de banco para carpintería: sujeción de madera',
+      metaDescription:
+        'Cómo un tornillo de banco sujeta madera para serrar, perforar, cepillar y tallar — cuándo un tornillo de metalurgia es la elección incorrecta y qué usar en su lugar.',
+      kicker: 'Centro de conocimiento',
+      h1: 'Tornillo de banco para carpintería',
+      intro:
+        'La carpintería necesita un tipo de agarre diferente. El acabado importa, el material es blando y el tornillo equivocado puede aplastar la veta antes de que empiece el corte. Un tornillo de carpintería sujeta firme sin dejar marcas.',
+      sections: [
+        {
+          title: 'Por qué la carpintería es diferente',
+          body: [
+            'La madera es más blanda que el metal pero más sensible al daño superficial. Las mordazas templadas y estriadas — perfectas para acero — masticarán la nuez. La solución es mordazas lisas y [planas](/knowledge/bench-vise-jaw-materials) o [mordazas blandas reemplazables](/knowledge/bench-vise-replaceable-jaws) que protegen la superficie mientras sujetan.',
+            'El contexto general de sujeción está en [para qué sirve un tornillo](/knowledge/what-is-a-bench-vise-used-for).',
+          ],
+        },
+        {
+          title: 'Abertura para madera',
+          body: [
+            'Una tabla o lateral de armario puede superar la abertura de un tornillo pequeño. Un [modelo medio de 5 o 6 pulgadas](/products/vise-medium-6) da el espacio; un [tornillo ligero de 4 pulgadas](/products/vise-light-4) cubre material más pequeño. La [guía de abertura](/knowledge/how-much-jaw-opening-do-you-need) explica qué medir.',
+          ],
+        },
+        {
+          title: 'Sujetar y posicionar',
+          body: [
+            'Una [base giratoria](/knowledge/fixed-vs-swivel-base-bench-vise) ayuda al trabajar tablas largas desde distintos ángulos. Las mordazas para tubería son menos útiles aquí, pero un juego de [mordazas reemplazables](/knowledge/bench-vise-replaceable-jaws) con abertura amplia cubre la mayoría de trabajos de carpintería.',
+          ],
+        },
+        {
+          title: 'Evitar daños',
+          body: [
+            'Una [fuerza de sujeción](/engineering/clamping-force) baja suele ser suficiente para madera — quiere el agarre justo para sujetar, no lo suficiente para aplastar. Esto significa que el tornillo no necesita masa pesada, y la elección se sitúa en el rango ligero a medio de la [guía de elección](/knowledge/how-to-choose-a-bench-vise).',
+          ],
+        },
+        {
+          title: 'Para gamas OEM',
+          body: [
+            'Los tornillos de carpintería a menudo se venden con caras lisas, placas de banco de madera y un tono de marca diferente. El [equipo OEM](/oem-manufacturing) suministra variantes centradas en carpintería sobre plataformas probadas.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'private-label-bench-vise-guide',
+      navLabel: 'Guía de tornillo de marca privada',
+      metaTitle: 'Guía de tornillo de marca privada | OEM y tornillos personalizados',
+      metaDescription:
+        'Cómo construir una línea de tornillos de marca privada — selección de plataforma, personalización de mordazas, MOQ, certificación y la diferencia OEM vs marca privada.',
+      kicker: 'Centro de conocimiento',
+      h1: 'Guía de tornillo de marca privada',
+      intro:
+        'La marca privada es como muchas marcas entran al mercado de tornillos de banco: elijen una plataforma probada, personalizan los detalles y la envían bajo su nombre. El proceso es más rápido y barato que diseñar desde cero — si sabe qué especificar.',
+      sections: [
+        {
+          title: 'Qué significa marca privada',
+          body: [
+            'Un programa de marca privada toma una plataforma existente del fabricante y estampa su marca, acabado, juego de mordazas y embalaje. El tornillo está probado; la etiqueta es suya. Es la alternativa más rápida y de menor riesgo a construir un tornillo desde nada — y empieza en el mismo [piso de fabricación](/oem-manufacturing).',
+          ],
+        },
+        {
+          title: 'Selección de plataforma',
+          body: [
+            'Empiece con la plataforma que se adapte a su mercado: ligera para retail, media para talleres, pesada para industrial. Un [tornillo medio de 6 pulgadas](/products/vise-medium-6) cubre el mercado más amplio. La [guía de elección](/knowledge/how-to-choose-a-bench-vise) recorre los parámetros.',
+          ],
+        },
+        {
+          title: 'Lo que puede personalizar',
+          body: [
+            'Ancho de mordaza, abertura, material y dureza de mordaza, tipo de base, pintura o recubrimiento en polvo, logo y embalaje — todo es seleccionable sobre el mismo marco. Los [materiales del cuerpo](/engineering/materials) y los [materiales de mordaza](/knowledge/bench-vise-jaw-materials) explican las compensaciones.',
+          ],
+        },
+        {
+          title: 'MOQ, tiempo de entrega y certificación',
+          body: [
+            'MOQ, tiempo de entrega, aprobación de muestras y certificaciones son los detalles comerciales que deciden el programa. Están en la página de [fabricación OEM](/oem-manufacturing) y dependen de volumen, acabado y las certificaciones que su mercado requiera.',
+          ],
+        },
+        {
+          title: 'Marca privada vs OEM vs ODM',
+          body: [
+            'La marca privada usa una plataforma existente. El OEM construye según su dibujo. El ODM parte de un concepto. Para tornillos, la marca privada es la entrada más común porque el herramental ya existe. La [comparación completa](/knowledge/oem-bench-vise-manufacturing) explica dónde encaja cada vía.',
+            'Sea cual sea la vía que elija, el [rango de productos](/knowledge/types-of-bench-vises-explained) muestra la amplitud de plataformas disponibles.',
+          ],
+        },
+      ],
+    },
+    {
       slug: 'how-to-choose-a-bench-vise',
       navLabel: 'Cómo elegir una mordaza de banco',
       metaTitle: 'Cómo elegir una mordaza de banco | Boca y fuerza',
@@ -3052,6 +3670,315 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           title: 'Spécifier la fonction',
           body: [
             "Que la surface soit lisse, à étages ou une plaque séparée est une décision de [conception](/engineering/heat-treatment) et d'outillage. Pour une gamme, l'[équipe OEM](/oem-manufacturing) peut ajouter ou sculpter la surface d'enclume selon votre marché.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'automotive-repair-bench-vise',
+      navLabel: "Étau d'établi pour réparation automobile",
+      metaTitle: "Étau d'établi pour réparation automobile : maintenance en garage",
+      metaDescription:
+        "Pourquoi un étau d'établi est le standard de maintien en garage — pièces de frein, supports, durites et la classe d'étau pour la réparation générale.",
+      kicker: 'Connaissances',
+      h1: "Étau d'établi pour réparation automobile",
+      intro:
+        "Un étau d'établi est la station de maintien permanente dans la plupart des ateliers de réparation et garages. Il tient ce que vos mains ne peuvent pas — composants de frein, supports, durites et pièces fabriquées — pendant que vous sciez, percez, meulez et assemblez.",
+      sections: [
+        {
+          title: 'Le cheval de bataille du garage',
+          body: [
+            "Un [étau moyen de 6 pouces](/products/vise-medium-6) est la spécification classique de garage : assez large pour la plupart des pièces de frein, une ouverture qui avale les supports et un corps assez lourd pour encaisser les coups. C'est l'outil qui apparaît en premier dans l'atelier et ne se range jamais.",
+            "Le même outil est couvert dans le guide des [applications d'atelier](/knowledge/what-is-a-bench-vise-used-for).",
+          ],
+        },
+        {
+          title: 'Ce qu\'il tient',
+          body: [
+            "Plaquettes, supports, sections de châssis, durites, raccords, ressorts — presque tout ce qui est serré dans un garage passe par les mâchoires. Un [étau lourd de 6 pouces](/products/vise-heavy-6) prend les pièces les plus épaisses et fournit la [force de serrage](/engineering/clamping-force) nécessaire pour résister au marteau.",
+          ],
+        },
+        {
+          title: 'Pourquoi un étau bat un serre-joint',
+          body: [
+            "Une pièce automobile est tridimensionnelle et s'étend dans toutes les directions. Un étau la tient une fois, dans n'importe quelle orientation, sans bouger. Des [mâchoires remplaçables](/knowledge/bench-vise-replaceable-jaws) protègent les surfaces finies tout en tenant assez pour arrêter la rotation.",
+          ],
+        },
+        {
+          title: 'Choisir la bonne classe',
+          body: [
+            "Les étaux légers couvrent les petites pièces et les budgets serrés ; les moyens couvrent la réparation générale ; les lourds gèrent le châssis et les pièces moulées plus épaisses. Le [guide des tailles](/knowledge/bench-vise-size-guide) parcourt les dimensions et le [guide de choix](/knowledge/how-to-choose-a-bench-vise) ajuste la classe au travail.",
+          ],
+        },
+        {
+          title: 'Le faire durer dans un garage',
+          body: [
+            "La crasse automobile est abrasive. Un peu d'[entretien](/knowledge/bench-vise-maintenance) — nettoyer la vis, huiler le glissement — empêche l'usure prématurée du mécanisme. Le [matériau du corps](/engineering/materials) et la [dureté des mâchoires](/knowledge/what-does-60-hrc-mean) décident de la durée de vie sous usage constant.",
+            "Pour les gammes OEM garage, l'[équipe de production](/oem-manufacturing) fournit le corps, la base et la finition dont votre marché a besoin.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'metalworking-bench-vise',
+      navLabel: "Étau d'établi pour métallurgie",
+      metaTitle: "Étau d'établi pour métallurgie : limage, sciage et maintien",
+      metaDescription:
+        "Comment un étau d'établi supporte la métallurgie — limage, sciage, perçage et meulage. Pourquoi la rigidité, la dureté et le montage décident de la qualité de la coupe.",
+      kicker: 'Connaissances',
+      h1: "Étau d'établi pour métallurgie",
+      intro:
+        "La métallurgie est l'endroit où un étau d'établi gagne sa réputation. Un étau qui reste solide sous la lime, tient la scie droite et prend le meuleur sans bouger — c'est la différence entre une finition nette et un bords abîmé.",
+      sections: [
+        {
+          title: 'La base du métal',
+          body: [
+            "Percer, tarauder, limer et scier nécessitent tous une pièce qui ne bouge pas. Un [étau lourd de 6 pouces](/products/vise-heavy-6) boulonné à un plateau solide est le moyen le plus simple de créer ce maintien mort pour le métal. Les applications sont couvertes dans [à quoi sert un étau](/knowledge/what-is-a-bench-vise-used-for).",
+          ],
+        },
+        {
+          title: 'La rigidité, c\'est le contrôle qualité',
+          body: [
+            "Un étau qui fléchit sort la pièce de l'équerre et gâche la coupe. La quantité de [force de serrage](/engineering/clamping-force) que le bâti délivre et la qualité du montage sur l'établi décident si c'est l'étau ou la lime qui bouge.",
+            "Voilà pourquoi les étaux plus lourds ont plus de masse — le [matériau du corps](/engineering/materials) est la source de rigidité.",
+          ],
+        },
+        {
+          title: 'Mâchoires qui mordent et mâchoires qui protègent',
+          body: [
+            "Des mâchoires trempées et striées tiennent le brut fermement. Pour les pièces finies ou polies, échangez contre des [mâchoires tendres remplaçables](/knowledge/bench-vise-replaceable-jaws). La dureté et le motif sont couverts dans la [conception des mâchoires](/engineering/jaw-design) et [que signifie 60 HRC](/knowledge/what-does-60-hrc-mean).",
+          ],
+        },
+        {
+          title: 'Scier et limer',
+          body: [
+            "Une gorge assez profonde pour dégager la lame de scie importe lors du sciage de sections longues — le [guide de gorge](/knowledge/how-much-throat-depth-do-you-need) montre quoi mesurer. Limer le dessus d'une pièce serrée exige un étau qui ne balance pas, ce qui ramène à la masse et au [montage](/knowledge/bench-vise-maintenance).",
+          ],
+        },
+        {
+          title: 'Spécification pour le métier',
+          body: [
+            "La métallurgie est un métier large. Le [guide de choix](/knowledge/how-to-choose-a-bench-vise) équilibre largeur, ouverture et gorge contre les types de métal travaillés. Pour les gammes OEM, l'[équipe de fabrication](/oem-manufacturing) peut spécifier la plateforme exacte.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'welding-prep-bench-vise',
+      navLabel: "Étau d'établi pour préparation de soudure",
+      metaTitle: "Étau pour préparation de soudure : avant l'arc",
+      metaDescription:
+        "Comment un étau d'établi supporte la préparation de soudure — ajustage, points de soudure, meulage et nettoyage. Quel matériau de corps et quelle base choisir.",
+      kicker: 'Connaissances',
+      h1: "Étau d'établi pour préparation de soudure",
+      intro:
+        "Un étau d'établi ne remplace pas les pinces à souder, mais c'est là que l'ajustage, le pointage, le meulage et la préparation des bords se font avant que l'arc ne s'allume.",
+      sections: [
+        {
+          title: 'L\'étau avant l\'arc',
+          body: [
+            "L'ajustage, le pointage, le meulage de la racine et le nettoyage des projections se font avant que le chalumeau ne s'allume. Un [étau lourd de 8 pouces](/products/vise-heavy-8) est assez grand pour la plupart des assemblages soudés et assez lourd pour absorber les coups de marteau.",
+            "Le rôle large de l'étau dans la métallurgie est couvert dans [à quoi sert un étau d'établi](/knowledge/what-is-a-bench-vise-used-for).",
+          ],
+        },
+        {
+          title: 'Chaleur et matériau du corps',
+          body: [
+            "Les projections et la chaleur de soudure atteignent parfois le corps. La fonte grise tient sans problème ; l'acier forgé absorbe mieux les impacts si le martelage est fréquent. La comparaison est dans [fonte vs. acier forgé](/knowledge/cast-iron-vs-steel-vises) et la bibliothèque des [matériaux du corps](/engineering/materials).",
+          ],
+        },
+        {
+          title: 'Tenir les sections rondes et structurelles',
+          body: [
+            "Les soudures impliquent souvent des tubes, des barres rondes et des sections structurelles. Un étau avec [mâchoires à tube](/knowledge/bench-vise-pipe-jaws) centre la pièce ; une [base pivotante](/knowledge/fixed-vs-swivel-base-bench-vise) permet de l'incliner sans desserrer.",
+          ],
+        },
+        {
+          title: 'Ce que ça fait à l\'étau',
+          body: [
+            "La préparation de soudure est abrasive : poussière de meulage, projections et coups répétés usent les mâchoires. Des [mâchoires remplaçables](/knowledge/bench-vise-replaceable-jaws) et un peu d'[entretien](/knowledge/bench-vise-maintenance) gardent l'étau fonctionnel. Les [matériaux de mâchoires](/knowledge/bench-vise-jaw-materials) expliquent pourquoi les trempées durent plus.",
+          ],
+        },
+        {
+          title: 'Choisir pour le travail de soudure',
+          body: [
+            "Le travail de soudure récompense la masse et la rigidité. Le [guide de choix](/knowledge/how-to-choose-a-bench-vise) parcourt les compromis ; pour une gamme, l'[équipe OEM](/oem-manufacturing) fournit la plateforme lourde avec la finition dont votre marché a besoin.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'garage-workshop-bench-vise',
+      navLabel: "Étau d'établi pour garage et atelier",
+      metaTitle: "Étau d'établi pour garage et atelier : le tout-en-un",
+      metaDescription:
+        "Pourquoi tout garage et atelier a besoin d'un étau d'établi, quelle taille couvre le plus de travaux et comment le monter et l'entretenir.",
+      kicker: 'Connaissances',
+      h1: "Étau d'établi pour garage et atelier",
+      intro:
+        "Un étau de garage est le seul outil qui ne se range jamais. Il tient le tube pour le filetage, le bois pour le perçage, le métal pour le limage et une douzaine de travaux que vous n'aviez pas prévus quand vous avez installé l'établi.",
+      sections: [
+        {
+          title: 'Pourquoi tout atelier en a besoin',
+          body: [
+            "Un étau d'établi est le seul maintien qui transforme l'établi en poste de travail. Un [étau moyen de 6 pouces](/products/vise-medium-6) couvre la plupart des travaux sans dominer l'établi — et c'est l'outil le plus recommandé comme premier achat.",
+            "L'éventail de travaux est listé dans [à quoi sert un étau](/knowledge/what-is-a-bench-vise-used-for).",
+          ],
+        },
+        {
+          title: 'La taille pour le plus de travaux',
+          body: [
+            "Un étau moyen de 6 pouces prend la majorité de ce que voit un atelier — petites pièces, tubes, tôle et fabrication légère. Un [étau léger de 4 pouces](/products/vise-light-4) gère le bricolage. Le [guide des tailles](/knowledge/bench-vise-size-guide) détaille les dimensions.",
+          ],
+        },
+        {
+          title: 'Base et positionnement',
+          body: [
+            "Fixe ou pivotante ? Pour un garage avec du travail varié, une [base pivotante](/knowledge/fixed-vs-swivel-base-bench-vise) se rentabilise toute seule. Montez-la là où la lumière est meilleure et l'établi le plus épais, avec des boulons qui correspondent aux trous de la base.",
+          ],
+        },
+        {
+          title: 'Le garder en marche',
+          body: [
+            "Le garage est poussiéreux et la poussière est abrasive. Un peu d'[entretien](/knowledge/bench-vise-maintenance) — nettoyer la vis, essuyer le glissement — empêche l'usure anticipée. Les [mâchoires trempées](/knowledge/what-does-60-hrc-mean) et les [jeux remplaçables](/knowledge/bench-vise-replaceable-jaws) complètent le tableau.",
+          ],
+        },
+        {
+          title: 'Acheter pour votre marché',
+          body: [
+            "Les garages sont un marché mondial. Le [guide de choix](/knowledge/how-to-choose-a-bench-vise) aide l'utilisateur final ; la voie [OEM](/oem-manufacturing) aide les marques à construire une gamme garage.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'schools-training-bench-vise',
+      navLabel: "Étau d'établi pour écoles et formation",
+      metaTitle: "Étau d'établi pour écoles : maintien sûr pour étudiants",
+      metaDescription:
+        "Comment un étau d'établi est utilisé dans les écoles et la formation — l'outil qui enseigne le maintien en toute sécurité, quelle taille acheter et comment entretenir un jeu de classe.",
+      kicker: 'Connaissances',
+      h1: "Étau d'établi pour écoles et formation",
+      intro:
+        "Dans un atelier scolaire, l'étau enseigne le maintien lui-même. Il apprend aux étudiants à serrer, à positionner et à rester en sécurité — et il doit le faire cent fois par jour, année après année.",
+      sections: [
+        {
+          title: 'L\'étau qui enseigne',
+          body: [
+            "Un étau d'établi est souvent le premier outil qu'un étudiant utilise seul. Il introduit la discipline du serrage correct, et un [étau léger de 4 pouces](/products/vise-light-4) ou un [modèle moyen de 5 pouces](/products/vise-medium-5) convient à la hauteur de classe, à la force des étudiants et à l'échelle des projets.",
+            "Les mêmes modèles sont couverts dans le [guide des tailles](/knowledge/bench-vise-size-guide) et la [présentation des types](/knowledge/types-of-bench-vises-explained).",
+          ],
+        },
+        {
+          title: 'Sécurité et durabilité',
+          body: [
+            "Un atelier scolaire maltraite les outils : serrage incorrect, coups de marteau soudains et pièces qui tombent. Un [matériau de corps](/engineering/materials) robuste, des [mâchoires trempées](/knowledge/what-does-60-hrc-mean) et des [jeux remplaçables](/knowledge/bench-vise-replaceable-jaws) signifient que le jeu dure plusieurs classes sans perdre sa prise.",
+          ],
+        },
+        {
+          title: 'Montage et disposition de la classe',
+          body: [
+            "Un plateau de classe est souvent plus mince qu'un plateau professionnel, donc boulonner solidement et renforcer la surface est essentiel. Un étau par poste, positionné pour que les étudiants regardent dans la bonne direction et s'éloignent des équipements rotatifs.",
+          ],
+        },
+        {
+          title: 'Entretenir un jeu de classe',
+          body: [
+            "Un peu d'[entretien](/knowledge/bench-vise-maintenance) planifié — nettoyage hebdomadaire de la vis, huile mensuelle — garde le jeu en marche. Enseignez le même réflexe aux étudiants : nettoyez l'étau en finissant.",
+          ],
+        },
+        {
+          title: 'Spécification pour l\'éducation',
+          body: [
+            "Les tarifs éducation, l'approvisionnement en volume et la disponibilité des pièces comptent autant que l'étau lui-même. La voie [OEM](/oem-manufacturing) gère les commandes de volume de classe et les jeux marqués.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'woodworking-bench-vise',
+      navLabel: "Étau d'établi pour menuiserie",
+      metaTitle: "Étau d'établi pour menuiserie : maintien du bois",
+      metaDescription:
+        "Comment un étau d'établi tient le bois pour scier, percer, raboter et sculpter — quand un étau de métallurgie est le mauvais choix et quoi utiliser à la place.",
+      kicker: 'Connaissances',
+      h1: "Étau d'établi pour menuiserie",
+      intro:
+        "La menuiserie a besoin d'une prise différente. Le fini compte, le matériau est tendre et le mauvais étau peut écraser la veine avant même que la coupe ne commence. Un étau de menuiserie tient fermement sans laisser de marques.",
+      sections: [
+        {
+          title: 'Pourquoi la menuiserie est différente',
+          body: [
+            "Le bois est plus tendre que le métal mais plus sensible aux dommages de surface. Des mâchoires trempées striées — parfaites pour l'acier — mordront la noix. La solution est des mâchoires [lisses et planes](/knowledge/bench-vise-jaw-materials) ou des [mâchoires tendres remplaçables](/knowledge/bench-vise-replaceable-jaws) qui protègent la surface tout en tenant.",
+            "Le contexte général du maintien est dans [à quoi sert un étau](/knowledge/what-is-a-bench-vise-used-for).",
+          ],
+        },
+        {
+          title: 'Ouverture pour le bois',
+          body: [
+            "Une planche ou un panneau de meuble peut dépasser l'ouverture d'un petit étau. Un [modèle moyen de 5 ou 6 pouces](/products/vise-medium-6) donne l'espace ; un [étau léger de 4 pouces](/products/vise-light-4) couvre le plus petit. Le [guide d'ouverture](/knowledge/how-much-jaw-opening-do-you-need) explique quoi mesurer.",
+          ],
+        },
+        {
+          title: 'Serrer et positionner',
+          body: [
+            "Une [base pivotante](/knowledge/fixed-vs-swivel-base-bench-vise) aide pour travailler des planches longues sous différents angles. Les mâchoires à tube sont moins utiles ici, mais un jeu de [mâchoires remplaçables](/knowledge/bench-vise-replaceable-jaws) avec ouverture large couvre la plupart des travaux de menuiserie.",
+          ],
+        },
+        {
+          title: 'Éviter les dommages',
+          body: [
+            "Une [force de serrage](/engineering/clamping-force) faible suffit souvent pour le bois — il faut juste assez de prise pour tenir, pas assez pour écraser. Cela signifie que l'étau n'a pas besoin de masse lourde, et le choix se situe dans la fourchette légère à moyenne du [guide de choix](/knowledge/how-to-choose-a-bench-vise).",
+          ],
+        },
+        {
+          title: 'Pour les gammes OEM',
+          body: [
+            "Les étaux de menuiserie se vendent souvent avec des faces lisses, des plaques de plateau en bois et un ton de marque différent. L'[équipe OEM](/oem-manufacturing) fournit des variantes orientées menuiserie sur des plateformes éprouvées.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'private-label-bench-vise-guide',
+      navLabel: "Guide d'étau de marque distributeur",
+      metaTitle: "Guide d'étau de marque distributeur | OEM et étaux personnalisés",
+      metaDescription:
+        "Comment construire une gamme d'étaux de marque distributeur — sélection de plateforme, personnalisation des mâchoires, MOQ, certification et la différence OEM vs marque distributeur.",
+      kicker: 'Connaissances',
+      h1: "Guide d'étau de marque distributeur",
+      intro:
+        "La marque distributeur est la façon dont de nombreuses marques entrent sur le marché des étaux : elles choisissent une plateforme éprouvée, personnalisent les détails et l'expédient sous leur propre nom. Le processus est plus rapide et moins coûteux que de concevoir de zéro — si vous savez quoi spécifier.",
+      sections: [
+        {
+          title: 'Ce que signifie marque distributeur',
+          body: [
+            "Un programme de marque distributeur prend une plateforme existante du fabricant et applique votre marque, finition, jeu de mâchoires et emballage. L'étau est éprouvé ; l'étiquette est la vôtre. C'est l'alternative la plus rapide et à moindre risque à construire un étau de zéro — et ça commence sur le même [plan de fabrication](/oem-manufacturing).",
+          ],
+        },
+        {
+          title: 'Sélection de la plateforme',
+          body: [
+            "Commencez par la plateforme qui correspond à votre marché : légère pour la distribution, moyenne pour les ateliers, lourde pour l'industrie. Un [étau moyen de 6 pouces](/products/vise-medium-6) couvre le marché le plus large. Le [guide de choix](/knowledge/how-to-choose-a-bench-vise) parcourt les paramètres.",
+          ],
+        },
+        {
+          title: 'Ce que vous pouvez personnaliser',
+          body: [
+            "Largeur de mâchoires, ouverture, matériau et dureté des mâchoires, type de base, peinture ou revêtement, logo et emballage — tout est sélectionnable sur le même bâti. Les [matériaux du corps](/engineering/materials) et les [matériaux de mâchoires](/knowledge/bench-vise-jaw-materials) expliquent les compromis.",
+          ],
+        },
+        {
+          title: 'MOQ, délais et certification',
+          body: [
+            "Le MOQ, les délais, l'approbation des échantillons et les certifications sont les détails commerciaux qui décident du programme. Ils sont sur la page de [fabrication OEM](/oem-manufacturing) et dépendent du volume, de la finition et des certifications que votre marché exige.",
+          ],
+        },
+        {
+          title: 'Marque distributeur vs OEM vs ODM',
+          body: [
+            "La marque distributeur utilise une plateforme existante. L'OEM construit selon votre dessin. L'ODM part d'un concept. Pour les étaux, la marque distributeur est la voie la plus courante car l'outillage existe déjà. La [comparaison complète](/knowledge/oem-bench-vise-manufacturing) explique où chaque voie s'inscrit.",
+            "Quelle que soit la voie choisie, la [gamme de produits](/knowledge/types-of-bench-vises-explained) montre l'étendue des plateformes disponibles.",
           ],
         },
       ],
