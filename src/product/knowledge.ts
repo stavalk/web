@@ -667,6 +667,230 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
     {
+      slug: 'fixed-vs-swivel-base-bench-vise',
+      navLabel: 'Fixed vs. Swivel Base Bench Vise',
+      metaTitle: 'Fixed vs. Swivel Base Bench Vise: Which to Choose?',
+      metaDescription:
+        'Fixed base or swivel base on a bench vise: rigidity, working angles and when the ability to rotate the vise is worth the trade-off.',
+      kicker: 'Knowledge',
+      h1: 'Fixed vs. Swivel Base Bench Vise',
+      intro:
+        'The base is the joint between the vise and the bench. Fixed or swivel changes whether you can turn the work or must reach around it — and how firm the whole vise feels under load.',
+      sections: [
+        {
+          title: 'What the Base Does',
+          body: [
+            'The base bolts the vise to the bench and carries every load you put into the jaws. Its design is one of the first things to compare, alongside jaw and [body construction](/knowledge/bench-vise-parts-explained).',
+          ],
+        },
+        {
+          title: 'Fixed Base: Nothing Moves',
+          body: [
+            'A fixed base is a single casting bolted straight to the bench. There is no swivel joint to shift or loosen, so it gives the most direct, dead-solid feel — and it usually costs less. For work where the jaws only ever point one way, it is the stronger choice.',
+          ],
+        },
+        {
+          title: 'Swivel Base: Rotate to the Work',
+          body: [
+            'A swivel base adds a locking plate: loosen two bolts, turn the vise to the angle you want, and lock it down. Instead of walking around a long part, you swing the [6″ medium-duty bench vise](/products/vise-medium-6) to meet it. Standard on most medium and heavy workshop vises.',
+          ],
+        },
+        {
+          title: 'When Swivel Is Worth It',
+          body: [
+            'Long or awkward parts, automotive work and any job where you approach from several sides all favor a swivel. The ability to reposition without unclamping and re-clamping saves time on every piece. The [heavy-duty 6″ model](/products/vise-heavy-6) adds the mass to keep those angles rigid.',
+          ],
+        },
+        {
+          title: 'Rigidity Is the Whole Trade',
+          body: [
+            'A swivel joint is only as good as its lock: a weak lock flexes and steals [clamping force](/engineering/clamping-force) from the workpiece. That is why base mass and the [body material](/engineering/materials) matter more, not less, on a swivel model — the joint must be as solid as a fixed base.',
+          ],
+        },
+        {
+          title: 'Making the Call',
+          body: [
+            'Choose fixed for maximum rigidity and simplicity; choose swivel for versatility. The [choosing guide](/knowledge/how-to-choose-a-bench-vise) balances the base against jaw, opening and duty class. A dedicated [swivel-specialist model](/products/vise-specialty-swivel) covers jobs built around rotation.',
+            'For OEM ranges, the [manufacturing team](/oem-manufacturing) supplies either base on the same body platform.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'quick-release-bench-vise-mechanism',
+      navLabel: 'Quick-Release Bench Vise Mechanism',
+      metaTitle: 'Quick-Release Bench Vise Mechanism: How It Works',
+      metaDescription:
+        'How a quick-release bench vise disengages the screw to slide the jaw free, the trade-offs versus a standard screw, and when it is worth choosing.',
+      kicker: 'Knowledge',
+      h1: 'Quick-Release Bench Vise Mechanism',
+      intro:
+        'A standard vise opens and closes by turning the handle the whole way. A quick-release mechanism lets the sliding jaw move freely in an instant, then re-engage to clamp — useful when parts change size constantly.',
+      sections: [
+        {
+          title: 'The Standard Screw',
+          body: [
+            'On a conventional vise the handle turns an Acme-threaded screw that drives the sliding jaw. It is simple, strong and self-locking, but changing from a thin part to a thick one means many turns. The mechanism is described in [how a bench vise works](/knowledge/how-does-a-bench-vise-work).',
+          ],
+        },
+        {
+          title: 'What Quick-Release Adds',
+          body: [
+            'A quick-release system adds a split or disengaging nut around the screw. Pull a lever and the nut releases the thread so the jaw slides by hand; release the lever and the nut re-engages to clamp normally. The [parts explainer](/knowledge/bench-vise-parts-explained) shows where the nut sits in the mechanism.',
+          ],
+        },
+        {
+          title: 'How It Works',
+          body: [
+            'A lever or trigger under the body drops a half-nut away from the screw. With the thread disengaged the jaw travels freely; when the lever is released, a spring pushes the half-nut back into the thread so turning the handle works as usual. One motion, no handle spinning.',
+          ],
+        },
+        {
+          title: 'The Trade-offs',
+          body: [
+            'Quick-release adds a moving part in the load path. It is more mechanism to keep clean and lubricated, and on a very heavily loaded vise it must be built well to hold rated [clamping force](/engineering/clamping-force). The half-nut and screw are wear surfaces — see [jaw materials](/knowledge/bench-vise-jaw-materials) for the same hardness logic applied to the frame.',
+          ],
+        },
+        {
+          title: 'Do You Need It?',
+          body: [
+            'If you swap between very different part sizes all day, quick-release earns its keep. If you clamp the same thick stock for long stretches, the standard screw is simpler and just as strong. The decision sits alongside duty class in the [choosing guide](/knowledge/how-to-choose-a-bench-vise).',
+            'Most catalog models use a standard screw; a quick-release variant is normally an OEM decision. The [production team](/oem-manufacturing) can adapt a platform with the mechanism and finish you need.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'bench-vise-pipe-jaws',
+      navLabel: 'Pipe Jaw Design',
+      metaTitle: 'Pipe Jaw Design: How Bench Vise Pipe Jaws Work',
+      metaDescription:
+        'Pipe jaws add a V-groove under the flat jaws to grip round stock without crushing it. How the design works and when to choose a pipe vise.',
+      kicker: 'Knowledge',
+      h1: 'Pipe Jaw Design',
+      intro:
+        'Round stock is the hardest thing to hold in flat jaws — it rolls. Pipe jaws are the fix: a second, V-shaped gripping surface that centers and bites a tube or pipe so it cannot spin.',
+      sections: [
+        {
+          title: 'Two Sets of Jaws',
+          body: [
+            'Many bench vises carry two gripping surfaces: the main flat jaws for general work and a set of pipe jaws tucked below or behind them. The [bench vise parts](/knowledge/bench-vise-parts-explained) breakdown places both on the body.',
+          ],
+        },
+        {
+          title: 'The V-Groove Principle',
+          body: [
+            'Pipe jaws are cut as a V. Lay a round bar or pipe into the V and it self-centers — the two angled faces seat the tube along its axis instead of letting it roll. The angle and the tooth pattern follow the same [jaw design](/engineering/jaw-design) rules as flat jaws, tuned for curved contact.',
+          ],
+        },
+        {
+          title: 'Where Pipe Jaws Sit',
+          body: [
+            'On a combined vise, pipe jaws sit in the throat below the flat jaws, so you can switch from a flat part to a tube without changing tools. On a dedicated pipe vise the whole tool is built around the V and the tube, with capacity sized to pipe diameters rather than general work.',
+          ],
+        },
+        {
+          title: 'Pipe Vise vs Bench Vise with Pipe Jaws',
+          body: [
+            'A dedicated [4″ pipe vise](/products/vise-pipe-4) or [6″ pipe vise](/products/vise-pipe-6) holds and rotates pipe for threading and cutting, often with a hinged or bench stand. A [6″ bench vise with pipe jaws](/products/vise-medium-6) covers occasional tube work alongside normal jobs. Match the tool to how often pipe appears in your work.',
+          ],
+        },
+        {
+          title: 'Grip, Force and Safety',
+          body: [
+            'A round part wants to turn under the handle, so pipe jaws need both a firm V and enough [clamping force](/engineering/clamping-force) to stop rotation — delivered through a rigid [body](/engineering/materials). A pipe that slips under a saw is a safety problem, not just a nuisance.',
+            'Sizing pipe-jaw capacity for a product line is an [OEM specification](/oem-manufacturing) decision on the same platform.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'bench-vise-replaceable-jaws',
+      navLabel: 'Replaceable Jaw Design',
+      metaTitle: 'Replaceable Jaw Design: Serviceable Bench Vise Jaws',
+      metaDescription:
+        'How replaceable bench vise jaws are held, why serviceable jaws beat fixed ones, and what to match when ordering a replacement set.',
+      kicker: 'Knowledge',
+      h1: 'Replaceable Jaw Design',
+      intro:
+        'The jaws take every scratch, score and impact a vise ever sees. Designing them to be replaced — rather than cast into the body — is what lets a good vise outlive its first set of teeth.',
+      sections: [
+        {
+          title: 'Jaws Are a Wear Part',
+          body: [
+            'The gripping faces are the hardest-worked surfaces on the tool. Treating them as replaceable is the difference between renewing a vise and replacing it. The material story behind those inserts is in [vise jaw materials](/knowledge/bench-vise-jaw-materials).',
+          ],
+        },
+        {
+          title: 'How Replaceable Jaws Are Held',
+          body: [
+            'Replaceable jaws are separate inserts seated on machined flats and fastened with countersunk socket-head screws, sometimes located by dowels or a shoulder so they cannot shift. Undo the screws and the set lifts off — no machining, no welding.',
+          ],
+        },
+        {
+          title: 'Why Replaceable Beats Fixed',
+          body: [
+            'A replaceable set can be renewed when teeth dull, upgraded to soft or copper-faced jaws for finished work, or swapped to suit a job. That serviceability is a [jaw-design](/engineering/jaw-design) choice, and the heat treatment that keeps the set hard is covered in [heat treatment](/engineering/heat-treatment).',
+          ],
+        },
+        {
+          title: 'Buying and Fitting Replacements',
+          body: [
+            'Match the model, jaw width, screw spacing and hardness when ordering. Since the seats are machined to the [body](/engineering/materials), genuine replacements drop in flat and parallel. Keep the screws clean and lightly oiled so the set comes off easily next time — part of the routine in [bench vise maintenance](/knowledge/bench-vise-maintenance).',
+          ],
+        },
+        {
+          title: 'Design for Service',
+          body: [
+            'Designing for service is a selling point, not a cost: customers stay with a brand that keeps spare jaws available. The [OEM team](/oem-manufacturing) builds replaceable-jaw platforms and can supply branded spare sets.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'bench-vise-anvil-surface',
+      navLabel: 'Bench Vise Anvil Surface',
+      metaTitle: 'Bench Vise Anvil Surface: What It Is For',
+      metaDescription:
+        'The anvil surface on a bench vise: what the machined flat is for, fixed vs movable anvil plates, and its limits on a cast-iron body.',
+      kicker: 'Knowledge',
+      h1: 'Bench Vise Anvil Surface',
+      intro:
+        'Many bench vises finish with a flat machined pad at the back of the body — the anvil surface. It turns the vise into a small striking and shaping station, within limits.',
+      sections: [
+        {
+          title: 'The Anvil on the Body',
+          body: [
+            'The anvil surface is a ground-flat area, usually behind the rear jaw, on the top of the body. It is one of the features listed in the [bench vise parts](/knowledge/bench-vise-parts-explained) breakdown, and it costs nothing to include on a good casting.',
+          ],
+        },
+        {
+          title: 'What It Is For',
+          body: [
+            'It is a spot for light striking and shaping: tapping a pin, flattening a strip, peening a rivet, straightening thin stock. It saves a trip to the bench block for small jobs because the vise is already holding the part.',
+          ],
+        },
+        {
+          title: 'Fixed vs Movable Anvil Plate',
+          body: [
+            'Light-duty vises sometimes fit a separate anvil plate — either fixed or movable with the sliding jaw. A movable plate travels with the jaw to keep the striking area useful as the vise opens. Dedicated [anvil specialist vises](/products/vise-specialty-anvil) build the feature in from the start.',
+          ],
+        },
+        {
+          title: 'Its Real Limits',
+          body: [
+            'A bench vise anvil is a convenience, not a blacksmith anvil. Bodies are gray iron, which is rigid but brittle — a heavy blow can crack a casting. Use it for controlled taps and light shaping, and save the sledgehammer for a proper anvil. The [body material](/engineering/materials) article explains why cast iron behaves this way.',
+          ],
+        },
+        {
+          title: 'Sourcing the Feature',
+          body: [
+            'Whether the pad is plain, stepped or a separate plate is a [design](/engineering/heat-treatment) and tooling choice. For a product range, the [OEM team](/oem-manufacturing) can add or shape the anvil surface to match your market.',
+          ],
+        },
+      ],
+    },
+    {
       slug: 'how-to-choose-a-bench-vise',
       navLabel: 'How to Choose a Bench Vise',
       metaTitle: 'How to Choose a Bench Vise | Jaw Width & Clamping Force',
@@ -1526,6 +1750,230 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
     {
+      slug: 'fixed-vs-swivel-base-bench-vise',
+      navLabel: 'Tornillo con base fija vs giratoria',
+      metaTitle: 'Base fija vs giratoria en tornillo de banco: ¿cuál elegir?',
+      metaDescription:
+        'Base fija o giratoria en un tornillo de banco: rigidez, ángulos de trabajo y cuándo vale la pena poder girar la mordaza.',
+      kicker: 'Conocimiento',
+      h1: 'Tornillo de banco con base fija vs giratoria',
+      intro:
+        'La base es la unión entre el tornillo y el banco. Fija o giratoria cambia si puede girar la pieza o tiene que llegar hasta ella — y la firmeza de todo el tornillo bajo carga.',
+      sections: [
+        {
+          title: 'Qué hace la base',
+          body: [
+            'La base atornilla el tornillo al banco y carga toda la fuerza de las mordazas. Su diseño es uno de los primeros aspectos a comparar, junto con las mordazas y la [construcción del cuerpo](/knowledge/bench-vise-parts-explained).',
+          ],
+        },
+        {
+          title: 'Base fija: nada se mueve',
+          body: [
+            'Una base fija es una sola pieza fundida atornillada directamente al banco. No hay junta giratoria que se afloje ni desplace, por lo que ofrece el tacto más directo y sólido — y suele costar menos. Para trabajo donde las mordazas siempre apuntan al mismo lado, es la opción más fuerte.',
+          ],
+        },
+        {
+          title: 'Base giratoria: gire hacia la pieza',
+          body: [
+            'Una base giratoria añade una placa de bloqueo: afloje dos tuercas, gire el tornillo al ángulo que necesite y bloquee. En vez de rodear una pieza larga, gire el [tornillo medio de 6 pulgadas](/products/vise-medium-6) para llegar a ella. Es de serie en la mayoría de tornillos de taller.',
+          ],
+        },
+        {
+          title: 'Cuándo vale la pena girar',
+          body: [
+            'Piezas largas o incómodas, reparación de automoción y cualquier trabajo con múltiples ángulos favorecen la giratoria. La capacidad de reposicionar sin soltar el apriete ahorra tiempo. El [tornillo pesado de 6 pulgadas](/products/vise-heavy-6) aporta la masa para que esas ángulos sean rígidos.',
+          ],
+        },
+        {
+          title: 'La rigidez es la compensación',
+          body: [
+            'Una unión giratoria solo es tan buena como su bloqueo: un bloqueo flojo cede y resta [fuerza de sujeción](/engineering/clamping-force). Por eso la masa de base y el [material del cuerpo](/engineering/materials) importan más, no menos, en un modelo giratorio — la unión debe ser tan sólida como una base fija.',
+          ],
+        },
+        {
+          title: 'Llegar a la decisión',
+          body: [
+            'Elija fija para máxima rigidez y simplicidad; elija giratoria para versatilidad. La [guía de elección](/knowledge/how-to-choose-a-bench-vise) equilibra la base contra mordaza, abertura y clase. Un [modelo especialista giratorio](/products/vise-specialty-swivel) cubre trabajos centrados en la rotación.',
+            'Para gamas OEM, el [equipo de fabricación](/oem-manufacturing) ofrece ambas bases sobre la misma plataforma.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'quick-release-bench-vise-mechanism',
+      navLabel: 'Mecanismo de liberación rápida',
+      metaTitle: 'Mecanismo de liberación rápida de tornillo de banco: cómo funciona',
+      metaDescription:
+        'Cómo una mordaza de liberación rápida desengancha el tornillo para deslizar la mordaza libre, las compensaciones frente al tornillo estándar y cuándo vale elegirlo.',
+      kicker: 'Conocimiento',
+      h1: 'Mecanismo de liberación rápida de tornillo de banco',
+      intro:
+        'Un tornillo estándar abre y cierra girando manivela por todo el hilo. Un mecanismo de liberación rápida permite mover la mordaza libremente al instante, luego volver a enganchar para sujetar — útil cuando las piezas cambian de tamaño constantemente.',
+      sections: [
+        {
+          title: 'El tornillo estándar',
+          body: [
+            'En un tornillo convencional la manivela acciona un tornillo roscado tipo Acme que empuja la mordaza. Es simple, fuerte y se bloquea solo, pero pasar de una pieza fina a una gruesa requiere muchas vueltas. El mecanismo se describe en [cómo funciona un tornillo de banco](/knowledge/how-does-a-bench-vise-work).',
+          ],
+        },
+        {
+          title: 'Qué añade la liberación rápida',
+          body: [
+            'Un sistema de liberación rápida añade una tuerca dividida o desenganchable alrededor del tornillo. Tire de una palanca y la tuerca suelta la rosca para que la mordaza se desplace a mano; suelte la palanca y vuelve a enganchar para apretar. El [explicador de piezas](/knowledge/bench-vise-parts-explained) muestra dónde se sitúa la tuerca.',
+          ],
+        },
+        {
+          title: 'Cómo funciona',
+          body: [
+            'Una palanca bajo el cuerpo desplaza una media tuerca fuera del tornillo. Con la rosca desenganchada la mordaza viaja libre; al soltar la palanca, un muelle devuelve la media tuerca a la rosca y girar la manivela vuelve a funcionar como siempre. Un movimiento, sin vueltas de manivela.',
+          ],
+        },
+        {
+          title: 'Las compensaciones',
+          body: [
+            'La liberación rápida añade una pieza móvil en la ruta de carga. Hay más mecanismo que limpiar y lubricar, y en un tornillo muy cargado debe estar bien construido para mantener la [fuerza de sujeción](/engineering/clamping-force) nominal. La media tuerca y el tornillo son superficies de desgaste — vea los mismos principios en los [materiales de mordaza](/knowledge/bench-vise-jaw-materials).',
+          ],
+        },
+        {
+          title: '¿La necesita?',
+          body: [
+            'Si cambia entre tamaños muy distintos todo el día, la liberación rápida vale la pena. Si sujeta el mismo material grueso durante largos tramos, el tornillo estándar es más simple y igual de fuerte. La decisión va junto a la clase en la [guía de elección](/knowledge/how-to-choose-a-bench-vise).',
+            'La mayoría de modelos de catálogo usan tornillo estándar; la variante de liberación rápida es normalmente una decisión OEM. El [equipo de producción](/oem-manufacturing) puede adaptar una plataforma con el mecanismo y el acabado que necesite.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'bench-vise-pipe-jaws',
+      navLabel: 'Diseño de mordazas para tubería',
+      metaTitle: 'Diseño de mordazas para tubería: cómo funcionan',
+      metaDescription:
+        'Las mordazas para tubería añaden una ranura en V bajo las mordazas planas para sujetar material redondo sin aplastarlo. Cómo funciona el diseño y cuándo elegir un tornillo para tubería.',
+      kicker: 'Conocimiento',
+      h1: 'Diseño de mordazas para tubería',
+      intro:
+        'El material redondo es lo más difícil de sujetar en mordazas planas — rueda. Las mordazas para tubería son la solución: una segunda superficie de agarre en V que centra y muerde un tubo para que no gire.',
+      sections: [
+        {
+          title: 'Dos juegos de mordazas',
+          body: [
+            'Muchos tornillos de banco llevan dos superficies de agarre: las mordazas planas principales para trabajo general y un juego de mordazas para tubería oculto debajo o detrás. El [explicador de piezas](/knowledge/bench-vise-parts-explained) ubica ambas en el cuerpo.',
+          ],
+        },
+        {
+          title: 'El principio de la ranura en V',
+          body: [
+            'Las mordazas para tubería se mecanizan en V. Coloque una barra redonda o un tubo en la V y se centra solo — las dos caras anguladas apoyan el tubo en su eje en lugar de dejarlo rodar. El ángulo y el patrón de dientes siguen las mismas reglas de [diseño de mordazas](/engineering/jaw-design) que las planas, adaptados para contacto curvo.',
+          ],
+        },
+        {
+          title: 'Dónde se sitúan',
+          body: [
+            'En un tornillo combinado, las mordazas para tubería se ubican en la garganta debajo de las planas, así que puede pasar de una pieza plana a un tubo sin cambiar de herramienta. En un tornillo dedicado para tubería toda la herramienta está construida alrededor de la V y el tubo, con capacidad dimensionada a diámetros de tubería.',
+          ],
+        },
+        {
+          title: 'Tornillo para tubería vs tornillo con mordazas para tubería',
+          body: [
+            'Un [tornillo para tubería de 4 pulgadas](/products/vise-pipe-4) o [de 6 pulgadas](/products/vise-pipe-6) sujeta y gira tubería para roscar y cortar, a menudo con soporte o adaptador. Un [tornillo medio de 6 pulgadas](/products/vise-medium-6) con mordazas para tubería cubre trabajo de tubería ocasional junto a los trabajos normales. Ajuste la herramienta a la frecuencia con que aparece la tubería.',
+          ],
+        },
+        {
+          title: 'Agarre, fuerza y seguridad',
+          body: [
+            'Una pieza redonda quiere girar bajo la manivela, así que las mordazas para tubería necesitan una V firme y suficiente [fuerza de sujeción](/engineering/clamping-force) para detener la rotación — a través de un [cuerpo](/engineering/materials) rígido. Un tubo que se suelta bajo una sierra es un problema de seguridad.',
+            'Dimensionar la capacidad de las mordazas para tubería para una línea de producto es una decisión de [especificación OEM](/oem-manufacturing) sobre la misma plataforma.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'bench-vise-replaceable-jaws',
+      navLabel: 'Mordazas reemplazables',
+      metaTitle: 'Diseño de mordazas reemplazables: servicio de mordaza',
+      metaDescription:
+        'Cómo se fijan las mordazas reemplazables, por qué superan a las fijas y qué comprobar al pedir un juego de repuesto.',
+      kicker: 'Conocimiento',
+      h1: 'Diseño de mordazas reemplazables',
+      intro:
+        'Las mordazas reciben cada rasguño, marca y impacto que un tornillo alguna vez ve. Diseñarlas para ser reemplazadas — en vez de fusionadas al cuerpo — es lo que permite que un buen tornillo sobreviva a su primer juego de dientes.',
+      sections: [
+        {
+          title: 'Las mordazas son una pieza de desgaste',
+          body: [
+            'Las caras de agarre son las superficies más trabajadas de la herramienta. Tratarlas como reemplazables es la diferencia entre renovar un tornillo y reemplazarlo. La historia del material detrás de esos insertos está en [materiales de mordaza](/knowledge/bench-vise-jaw-materials).',
+          ],
+        },
+        {
+          title: 'Cómo se fijan',
+          body: [
+            'Las mordazas reemplazables son inserciones separadas asentadas en planos mecanizados y fijadas con tornillos hexagonales avellanados, a menudo ubicadas con pasadores para que no se desplacen. Afloje los tornillos y el juego se levanta — sin mecanizado ni soldadura.',
+          ],
+        },
+        {
+          title: 'Por qué superan a las fijas',
+          body: [
+            'Un juego reemplazable puede renovarse cuando los dientes se desgastan, actualizarse a mordazas blandas o con respaldo de cobre para trabajo acabado, o cambiarse para adaptarse a una tarea. Esa mantenibilidad es una decisión de [diseño de mordazas](/engineering/jaw-design), y el tratamiento térmico que mantiene la dureza se cubre en [tratamiento térmico](/engineering/heat-treatment).',
+          ],
+        },
+        {
+          title: 'Comprar y montar repuestos',
+          body: [
+            'Compruebe modelo, ancho de mordaza, espaciado de tornillos y dureza al pedir repuestos. Como los asientos se mecanizan según el [cuerpo](/engineering/materials), los repuestos originales encajan planos y paralelos. Mantenga los tornillos limpios y aceitados para que el juego salga fácil la próxima vez — parte de la rutina de [mantenimiento](/knowledge/bench-vise-maintenance).',
+          ],
+        },
+        {
+          title: 'Diseñar para servicio',
+          body: [
+            'Diseñar para servicio es una ventaja, no un coste: el cliente se queda con una marca que mantiene piezas de repuesto disponibles. El [equipo OEM](/oem-manufacturing) construye plataformas con mordazas reemplazables y puede suministrar juegos de repuesto con su marca.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'bench-vise-anvil-surface',
+      navLabel: 'Superficie de yunque',
+      metaTitle: 'Superficie de yunque en tornillo de banco: para qué sirve',
+      metaDescription:
+        'La superficie de yunque en un tornillo de banco: para qué sirve la base mecanizada, yunque fijo vs móvil y sus límites en un cuerpo de fundición.',
+      kicker: 'Conocimiento',
+      h1: 'Superficie de yunque en tornillo de banco',
+      intro:
+        'Muchos tornillos de banco terminan con una plancha mecanizada plana en la parte trasera del cuerpo — la superficie de yunque. Convierte el tornillo en una estación pequeña de golpeado y conformado, con límites.',
+      sections: [
+        {
+          title: 'El yunque en el cuerpo',
+          body: [
+            'La superficie de yunque es una zona mecanizada plana, normalmente detrás de las mordazas traseras, en la parte superior del cuerpo. Es una de las características enumeradas en el [explicador de piezas](/knowledge/bench-vise-parts-explained) y no cuesta nada incluirla en una buena pieza fundida.',
+          ],
+        },
+        {
+          title: 'Para qué sirve',
+          body: [
+            'Es un sitio para golpes ligeros y conformado: dar un toque a un pasador, aplanar una tira, peinar un remache, enderezar material delgado. Ahorra un viaje al yunque de banco para trabajos pequeños porque el tornillo ya tiene la pieza sujeta.',
+          ],
+        },
+        {
+          title: 'Yunque fijo frente a placa móvil',
+          body: [
+            'Los tornillos ligeros a veces montan una placa de yunque aparte — fija o móvil con la mordaza. Una placa móvil viaja con la mordaza para mantener el área de golpeado accesible. Los [tornillos especialistas con yunque](/products/vise-specialty-anvil) incorporan la función desde el principio.',
+          ],
+        },
+        {
+          title: 'Sus límites reales',
+          body: [
+            'El yunque de un tornillo de banco es una comodidad, no un yunque de herrero. Los cuerpos son de fundición gris, que es rígida pero frágil — un golpe fuerte puede agrietar la pieza. Úselo para toques controlados y conformado ligero, y guarde los golpes fuertes para un yunque real. El artículo de [materiales del cuerpo](/engineering/materials) explica por qué la fundición se comporta así.',
+          ],
+        },
+        {
+          title: 'Especificar la función',
+          body: [
+            'Si la plancha es lisa, escalonada o una pieza aparte es una decisión de [diseño](/engineering/heat-treatment) y herramientas. Para una gama de producto, el [equipo OEM](/oem-manufacturing) puede añadir o moldear la superficie de yunque según su mercado.',
+          ],
+        },
+      ],
+    },
+    {
       slug: 'how-to-choose-a-bench-vise',
       navLabel: 'Cómo elegir una mordaza de banco',
       metaTitle: 'Cómo elegir una mordaza de banco | Boca y fuerza',
@@ -2380,6 +2828,230 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
           body: [
             "Quand une fiche dit \"mâchoires trempées à 58-62 HRC\", elle dit que les insertions sont dans la classe des aciers à outils et garderont leur prise sous charge. Un étau qui omet totalement la dureté vous dit aussi quelque chose.",
             "Besoin que le traitement et la nuance soient documentés pour votre produit ? La voie [OEM](/oem-manufacturing) peut certifier la dureté qui part sous votre marque.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'fixed-vs-swivel-base-bench-vise',
+      navLabel: 'Étau à base fixe vs. pivotante',
+      metaTitle: "Base fixe vs. pivotante sur étau d'établi : lequel choisir ?",
+      metaDescription:
+        "Base fixe ou pivotante sur un étau d'établi : rigidité, angles de travail et quand la possibilité de tourner l'étau vaut le compromis.",
+      kicker: 'Connaissances',
+      h1: "Étau d'établi à base fixe vs. pivotante",
+      intro:
+        "La base est l'articulation entre l'étau et l'établi. Fixe ou pivotante change si l'on peut tourner la pièce ou si l'on doit la rejoindre — et la fermeté de l'ensemble sous charge.",
+      sections: [
+        {
+          title: 'Ce que fait la base',
+          body: [
+            "La base boulonne l'étau à l'établi et porte toutes les charges que l'on met dans les mâchoires. Son conception est l'un des premiers points à comparer, aux côtés des mâchoires et de la [construction du corps](/knowledge/bench-vise-parts-explained).",
+          ],
+        },
+        {
+          title: 'Base fixe : rien ne bouge',
+          body: [
+            "Une base fixe est une seule fonte boulonnée directement à l'établi. Il n'y a pas de joint pivotant pour se desserrer ou se déplacer, ce qui donne le contact le plus direct et le plus solide — et elle coûte généralement moins cher. Pour un travail où les mâchoires pointent toujours dans la même direction, c'est le choix le plus robuste.",
+          ],
+        },
+        {
+          title: 'Base pivotante : tournez vers la pièce',
+          body: [
+            "Une base pivotante ajoute une plaque de blocage : desserrez deux boulons, tournez l'étau à l'angle voulu et bloquez. Au lieu de contourner une pièce longue, faites pivoter l'[étau moyen de 6 pouces](/products/vise-medium-6) pour l'atteindre. Standard sur la plupart des étaux d'atelier.",
+          ],
+        },
+        {
+          title: 'Quand la pivotante vaut la peine',
+          body: [
+            "Pièces longues ou encombrantes, réparation automobile et tout travail qui nécessite plusieurs angles favorisent la pivotante. La capacité de repositionner sans desserrer économise du temps sur chaque pièce. Le [modèle lourd de 6 pouces](/products/vise-heavy-6) apporte la masse pour maintenir ces angles rigides.",
+          ],
+        },
+        {
+          title: "La rigidité, c'est tout le compromis",
+          body: [
+            "Un joint pivotant n'est aussi bon que son blocage : un blocage faible fléchit et vole de la [force de serrage](/engineering/clamping-force) à la pièce. C'est pourquoi la masse de la base et le [matériau du corps](/engineering/materials) comptent plus, pas moins, sur un modèle pivotant — le joint doit être aussi solide qu'une base fixe.",
+          ],
+        },
+        {
+          title: 'Arriver à la décision',
+          body: [
+            "Choisissez la fixe pour la rigidité maximale et la simplicité ; choisissez la pivotante pour la polyvalence. Le [guide de choix](/knowledge/how-to-choose-a-bench-vise) équilibre la base face aux mâchoires, à l'ouverture et à la classe. Un [modèle spécialiste pivotant](/products/vise-specialty-swivel) couvre les travaux centrés sur la rotation.",
+            "Pour les gammes OEM, l'[équipe de fabrication](/oem-manufacturing) fournit les deux bases sur la même plateforme.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'quick-release-bench-vise-mechanism',
+      navLabel: "Mécanisme de libération rapide",
+      metaTitle: "Mécanisme de libération rapide d'étau d'établi : fonctionnement",
+      metaDescription:
+        "Comment une étau à libération rapide désengage la vis pour glisser les mâchoires librement, les compromis par rapport à la vis standard et quand la choisir.",
+      kicker: 'Connaissances',
+      h1: "Mécanisme de libération rapide d'étau d'établi",
+      intro:
+        "Une vis conventionnelle ouvre et ferme en tournant la manivelle sur toute la file. Un mécanisme de libération rapide permet de déplacer les mâchoires librement en un instant, puis de raccrocher pour serrer — utile quand les pièces changent constamment de taille.",
+      sections: [
+        {
+          title: 'La vis standard',
+          body: [
+            "Sur un étau classique la manivelle entraîne une vis filetée type Acme qui pousse les mâchoires. C'est simple, fort et auto-bloquant, mais passer d'une pièce mince à une épaisse demande beaucoup de tours. Le mécanisme est décrit dans [comment fonctionne un étau d'établi](/knowledge/how-does-a-bench-vise-work).",
+          ],
+        },
+        {
+          title: "Ce qu'ajoute la libération rapide",
+          body: [
+            "Un système de libération rapide ajoute un écrou fendu ou désenclenchable autour de la vis. Tirez sur un levier et l'écrou libère le filetage pour que les mâchoires glissent à la main ; relâchez le levier et il raccroche pour serrer normalement. L'[explicateur de pièces](/knowledge/bench-vise-parts-explained) montre où se situe l'écrou.",
+          ],
+        },
+        {
+          title: 'Comment ça marche',
+          body: [
+            "Un levier sous le corps déplace un demi-écrou hors de la vis. Avec le filetage désengagé, les mâchoires voyagent librement ; en relâchant le levier, un ressort remet le demi-écrou en place et tourner la manivelle fonctionne comme d'habitude. Un mouvement, plus besoin de tourner la manivelle.",
+          ],
+        },
+        {
+          title: 'Les compromis',
+          body: [
+            "La libération rapide ajoute une pièce mobile dans le chemin de charge. C'est plus de mécanisme à nettoyer et à lubrifier, et sur un étau très chargé il doit être bien construit pour maintenir la [force de serrage](/engineering/clamping-force) nominale. Le demi-écrou et la vis sont des surfaces d'usure — voir les mêmes principes dans les [matériaux de mâchoires](/knowledge/bench-vise-jaw-materials).",
+          ],
+        },
+        {
+          title: 'En avez-vous besoin ?',
+          body: [
+            "Si vous changez constamment entre tailles très différentes, la libération rapide gagne sa place. Si vous serrez le même brut pendant de longues durées, la vis standard est plus simple et tout aussi forte. La décision se place aux côtés de la classe dans le [guide de choix](/knowledge/how-to-choose-a-bench-vise).",
+            "La plupart des modèles de catalogue utilisent une vis standard ; la variante à libération rapide est généralement une décision OEM. L'[équipe de production](/oem-manufacturing) peut adapter une plateforme avec le mécanisme et la finition dont vous avez besoin.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'bench-vise-pipe-jaws',
+      navLabel: "Conception des mâchoires à tube",
+      metaTitle: "Conception des mâchoires à tube : fonctionnement",
+      metaDescription:
+        "Les mâchoires à tube ajoutent un rainurage en V sous les mâchoires plates pour tenir le rond sans l'écraser. Comment le fonctionne et quand choisir un étau à tube.",
+      kicker: 'Connaissances',
+      h1: 'Conception des mâchoires à tube',
+      intro:
+        "Le rond est la pièce la plus difficile à tenir dans des mâchoires plates — il roule. Les mâchoires à tube sont la solution : une deuxième surface de prise en V qui centre et mord un tube pour qu'il ne tourne pas.",
+      sections: [
+        {
+          title: 'Deux jeux de mâchoires',
+          body: [
+            "Beaucoup d'étaux d'établi portent deux surfaces de prise : les mâchoires plates principales pour le travail général et un jeu de mâchoires à tube encastré dessous ou derrière. L'[explicateur de pièces](/knowledge/bench-vise-parts-explained) les situe toutes les deux sur le corps.",
+          ],
+        },
+        {
+          title: 'Le principe de la rainure en V',
+          body: [
+            "Les mâchoires à tube sont usinées en V. Posez une barre ronde ou un tube dans la V et il se centre tout seul — les deux faces angulaires maintiennent le tube sur son axe au lieu de le laisser rouler. L'angle et le motif de dents suivent les mêmes règles de [conception des mâchoires](/engineering/jaw-design) que les plates, adaptées pour un contact courbe.",
+          ],
+        },
+        {
+          title: 'Où elles se situent',
+          body: [
+            "Sur un étau combiné, les mâchoires à tube se trouvent dans la gorge sous les mâchoires plates, pour passer d'une pièce plate à un tube sans changer d'outil. Sur un étau dédié à tube, tout l'outil est construit autour de la V et du tube, avec une capacité dimensionnée aux diamètres de tube.",
+          ],
+        },
+        {
+          title: "Étau à tube vs étau avec mâchoires à tube",
+          body: [
+            "Un [étau à tube de 4 pouces](/products/vise-pipe-4) ou [de 6 pouces](/products/vise-pipe-6) tient et tourne le tube pour le filetage et le sciage, souvent avec un support. Un [étau moyen de 6 pouces](/products/vise-medium-6) avec mâchoires à tube couvre le travail occasionnel de tube aux côtés des travaux normaux. Adaptez l'outil à la fréquence à laquelle la tube apparaît.",
+          ],
+        },
+        {
+          title: 'Prise, force et sécurité',
+          body: [
+            "Une pièce ronde veut tourner sous la manivelle, donc les mâchoires à tube ont besoin d'une V ferme et de suffisamment de [force de serrage](/engineering/clamping-force) pour arrêter la rotation — à travers un [corps](/engineering/materials) rigide. Un tube qui lâche sous une scie est un problème de sécurité.",
+            "Dimensionner la capacité des mâchoires à tube pour une gamme est une décision de [spécification OEM](/oem-manufacturing) sur la même plateforme.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'bench-vise-replaceable-jaws',
+      navLabel: "Mâchoires remplaçables",
+      metaTitle: "Conception de mâchoires remplaçables : entretien",
+      metaDescription:
+        "Comment les mâchoires remplaçables sont fixées, pourquoi elles sont meilleures que les fixes et quoi vérifier lors de la commande.",
+      kicker: 'Connaissances',
+      h1: 'Conception de mâchoires remplaçables',
+      intro:
+        "Les mâchoires prennent chaque rayure, marque et impact que l'étau ait jamais vu. Les concevoir comme remplaçables — plutôt que moulées dans le corps — est ce qui permet à un bon étau de survivre à son premier jeu de dents.",
+      sections: [
+        {
+          title: 'Les mâchoires sont une pièce d\'usure',
+          body: [
+            "Les faces de prise sont les surfaces les plus sollicitées de l'outil. Les traiter comme remplaçables est la différence entre renouveler un étau et le remplacer. L'histoire du matériau derrière ces insertions est dans les [matériaux de mâchoires](/knowledge/bench-vise-jaw-materials).",
+          ],
+        },
+        {
+          title: 'Comment elles sont fixées',
+          body: [
+            "Les mâchoires remplaçables sont des insertions séparées posées sur des planus usinés et fixées par des vis hexagonales à tête plongée, parfois localisées par des goupilles pour qu'elles ne glissent pas. Désserrez les vis et le jeu se lève — ni usinage ni soudure.",
+          ],
+        },
+        {
+          title: 'Pourquoi elles sont meilleures que les fixes',
+          body: [
+            "Un jeu remplaçable peut être renouvelé quand les dents s'usent, mis à niveau avec des mâchoires tendres ou plaquées cuivre pour le travail fini, ou échangé pour un usage particulier. Cette maintenabilité est un choix de [conception des mâchoires](/engineering/jaw-design) et le traitement thermique qui garde la prise est couvert par le [traitement thermique](/engineering/heat-treatment).",
+          ],
+        },
+        {
+          title: 'Acheter et monter les pièces',
+          body: [
+            "Vérifiez le modèle, la largeur, l'espacement des vis et la dureté à la commande. Les surfaces d'appui étant usinées au [corps](/engineering/materials), les pièces d'origine s'emboîtent planes et parallèles. Gardez les vis propres et légèrement huilées — c'est aussi de l'[entretien](/knowledge/bench-vise-maintenance).",
+          ],
+        },
+        {
+          title: 'Concevoir pour le service',
+          body: [
+            "Concevoir pour le service est un atout, pas un coût : le client reste avec une marque qui maintient les pièces de rechange disponibles. L'[équipe OEM](/oem-manufacturing) construit des plateformes avec mâchoires remplaçables et fournit des jeux de rechange sous votre marque.",
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'bench-vise-anvil-surface',
+      navLabel: "Surface d'enclume",
+      metaTitle: "Surface d'enclume d'étau d'établi : à quoi ça sert",
+      metaDescription:
+        "La surface d'enclume sur un étau d'établi : à quoi sert la surface usinée, enclume fixe vs mobile et ses limites sur un corps en fonte.",
+      kicker: 'Connaissances',
+      h1: "Surface d'enclume d'étau d'établi",
+      intro:
+        "Beaucoup d'étaux d'établi se terminent par une surface plane usinée à l'arrière du corps — la surface d'enclume. Elle transforme l'étau en une petite station de frappe et de formage, dans les limites du corps.",
+      sections: [
+        {
+          title: "L'enclume sur le corps",
+          body: [
+            "La surface d'enclume est une zone plane rodée, généralement à l'arrière des mâchoires, sur le dessus du corps. C'est l'une des caractéristiques énumérées dans l'[explicateur de pièces](/knowledge/bench-vise-parts-explained), et elle ne coûte rien à inclure sur une bonne fonte.",
+          ],
+        },
+        {
+          title: "À quoi ça sert",
+          body: [
+            "C'est un endroit pour des frappes légères et du formage : enfoncer un goupille, aplatir une bande, peiner un rivet, redresser une bande mince. Cela évite un déplacement vers l'enclume de l'atelier pour les petits travaux.",
+          ],
+        },
+        {
+          title: "Enclume fixe vs plaque mobile",
+          body: [
+            "Certains étaux légers montrent une plaque d'enclume séparée — soit fixe, soit mobile avec les mâchoires. Une plaque mobile suit les mâchoires pour garder la zone de frappe accessible. Les [étaux spécialistes à enclume](/products/vise-specialty-anvil) intègrent la fonction dès le départ.",
+          ],
+        },
+        {
+          title: 'Ses vraies limites',
+          body: [
+            "L'enclume d'un étau d'établi est un confort, pas une enclume de forgeron. Les corps sont en fonte grise, rigide mais cassante — un coup violent peut fendre la pièce. Utilisez-la pour des taps contrôlés et du formage léger. L'article sur les [matériaux du corps](/engineering/materials) explique pourquoi la fonte se comporte ainsi.",
+          ],
+        },
+        {
+          title: 'Spécifier la fonction',
+          body: [
+            "Que la surface soit lisse, à étages ou une plaque séparée est une décision de [conception](/engineering/heat-treatment) et d'outillage. Pour une gamme, l'[équipe OEM](/oem-manufacturing) peut ajouter ou sculpter la surface d'enclume selon votre marché.",
           ],
         },
       ],
