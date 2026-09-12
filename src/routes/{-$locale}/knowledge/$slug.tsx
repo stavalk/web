@@ -25,6 +25,7 @@ export const Route = createFileRoute('/{-$locale}/knowledge/$slug')({
       path: `/knowledge/${slug}`,
       title: article.metaTitle,
       description: article.metaDescription,
+      ogType: 'article',
     })
     return { meta, links }
   },

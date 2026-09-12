@@ -97,4 +97,7 @@ test('localeHead: canonical + hreflang alternates + og', () => {
   expect(alternates).toHaveLength(1)
   expect(alternates[0].content).toContain('en_US')
   expect(alternates[0].content).toContain('fr_FR')
+  expect(head.meta.find((m) => m.property === 'og:type')?.content).toBe('website')
+  const article = localeHead({ origin, locale: 'en', path: '/knowledge/x', title: 'T', description: 'D', ogType: 'article' })
+  expect(article.meta.find((m) => m.property === 'og:type')?.content).toBe('article')
 })
