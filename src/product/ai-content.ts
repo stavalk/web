@@ -22,6 +22,12 @@ export const LLM_FACT_BLOCK =
 
 export const LLM_FAQ_DESCRIPTION = 'Answers to the most common questions about bench vise manufacturing'
 
+export const LLM_SPANISH_FAQ_DESCRIPTION =
+  'Respuestas a las preguntas más frecuentes sobre la fabricación de tornillos de banco'
+
+export const LLM_FRENCH_FAQ_DESCRIPTION =
+  'Réponses aux questions les plus fréquentes sur la fabrication d\'étaux d\'établi'
+
 export const LLM_SPANISH_HOMEPAGE_DESCRIPTION =
   'Fabricante de tornillos de banco de precisión, con exportación mundial'
 

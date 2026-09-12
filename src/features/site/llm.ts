@@ -4,6 +4,7 @@ import { projects } from '@/product/projects'
 import { knowledge } from '@/product/knowledge'
 import {
   getContentPages,
+  getContentPage,
   getContentProducts,
   getNewsPosts,
   getTechArticles,
@@ -11,6 +12,7 @@ import {
   getResearchTopics,
   getGeoFacts,
   getSiteFaqs,
+  isContentPageTranslated,
   brandify,
 } from '@/features/content/loader'
 import { GUIDES_ES } from '@/features/content/guide-content'
@@ -19,13 +21,60 @@ import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_SPANISH_FAQ_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_FAQ_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GUIDES_FR } from '@/features/content/guide-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
 
 const mdBody = (body: string) => body.split('\n').map((l) => l.trim()).filter(Boolean)
+
+/** Single-segment brand/technical pages whose full body text goes into `/llms-full.txt`. */
+const DEEP_PAGES = new Set([
+  '/factory', '/quality', '/oem-moq-guide',
+  '/oem-trust-assurance',
+  '/proof-center', '/oem-odm-private-label-comparison',
+  '/factory/capacity', '/factory/equipment', '/factory/oem-capability',
+  '/factory/process', '/factory/quality-lab', '/factory/quality-inspection',
+  '/factory/quality-change-control', '/factory/non-conforming-control',
+  '/odm-development', '/oem-manufacturing',
+  '/new-brand-trial-order',
+  '/factory-audit-checklist', '/about/identity', '/about/stavalk',
+  '/partners', '/news', '/technology', '/size-guide',
+  '/warranty', '/knowledge',
+  '/randdcenter', '/oem-onboarding-guide', '/product-development',
+])
+
+/** Flatten a structured content-page body into plain text lines (used by all locale full variants). */
+function pageBodyText(p: { path: string; content?: Record<string, unknown> }): string[] {
+  const c = p.content
+  if (!c || typeof c !== 'object') return []
+  const lines: string[] = []
+  for (const [key, val] of Object.entries(c)) {
+    if (key === 'meta' || key === 'evidence_review') continue
+    if (typeof val === 'string') { lines.push(flat(val)); continue }
+    if (typeof val !== 'object' || !val) continue
+    if (Array.isArray(val)) {
+      for (const item of val) {
+        if (typeof item === 'string') { lines.push(flat(item)); continue }
+        if (typeof item === 'object' && item) {
+          const obj = item as Record<string, unknown>
+          for (const v of Object.values(obj)) {
+            if (typeof v === 'string') lines.push(flat(v))
+            else if (Array.isArray(v)) for (const s of v) if (typeof s === 'string') lines.push(flat(s))
+          }
+        }
+      }
+      continue
+    }
+    const obj = val as Record<string, unknown>
+    for (const v of Object.values(obj)) {
+      if (typeof v === 'string') lines.push(flat(v))
+      else if (Array.isArray(v)) for (const s of v) if (typeof s === 'string') lines.push(flat(s))
+    }
+  }
+  return lines
+}
 
 /** Recursive bullet renderer for the structured geo facts (arrays → comma lists). */
 function fmt(v: unknown, key: string, depth = 0): string[] {
@@ -199,6 +248,23 @@ export function llmSolutionsFull(): string {
 /** `/llms.txt` index sections link to absolute URLs (llmstxt.org) so LLMs can explore directly. */
 const abs = (origin: string, path: string) => `${origin}${path}`
 
+/**
+ * `/llms.txt` index lines for the translated brand/factory/technical pages — the
+ * same coverage as the English `llmAfarierIndex` section, localized. Only pages
+ * that actually render in the locale are listed (no dead links).
+ */
+function localeResourceLines(locale: 'es' | 'fr', origin: string): string[] {
+  const url = (path: string) => abs(origin, `/${locale}${path}`)
+  return getContentPages()
+    .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS) && isContentPageTranslated(p.path, locale))
+    .map((p) => {
+      const localized = getContentPage(p.path, locale)
+      const title = localized?.meta?.title ?? PAGE_TITLES[p.path] ?? brandify(p.label)
+      const description = localized?.meta?.description ?? p.meta?.description ?? ''
+      return `- [${title}](${url(p.path)}): ${flat(brandify(description))}`
+    })
+}
+
 /** Index entries for the ported afarer brand pages (in /llms.txt). */
 export function llmAfarierIndex(origin: string): string {
   // Derived from the loader (not a hand-maintained list) so revived pages and
@@ -234,50 +300,6 @@ export function llmAfarierIndex(origin: string): string {
 
 /** Full text for the afarer factory/technology pages + products + articles. */
 export function llmsAfarerFull(): string {
-  const DEEP_PAGES = new Set([
-    '/factory', '/quality', '/oem-moq-guide',
-    '/oem-trust-assurance',
-    '/proof-center', '/oem-odm-private-label-comparison',
-    '/factory/capacity', '/factory/equipment', '/factory/oem-capability',
-    '/factory/process', '/factory/quality-lab', '/factory/quality-inspection',
-    '/factory/quality-change-control', '/factory/non-conforming-control',
-    '/odm-development', '/oem-manufacturing',
-    '/new-brand-trial-order',
-    '/factory-audit-checklist', '/about/identity', '/about/stavalk',
-    '/partners', '/news', '/technology', '/size-guide',
-    '/warranty', '/knowledge',
-    '/randdcenter', '/oem-onboarding-guide', '/product-development',
-  ])
-
-  function pageBodyText(p: { path: string; content?: Record<string, unknown> }): string[] {
-    const c = p.content
-    if (!c || typeof c !== 'object') return []
-    const lines: string[] = []
-    for (const [key, val] of Object.entries(c)) {
-      if (key === 'meta' || key === 'evidence_review') continue
-      if (typeof val === 'string') { lines.push(flat(val)); continue }
-      if (typeof val !== 'object' || !val) continue
-      if (Array.isArray(val)) {
-        for (const item of val) {
-          if (typeof item === 'string') { lines.push(flat(item)); continue }
-          if (typeof item === 'object' && item) {
-            const obj = item as Record<string, unknown>
-            for (const v of Object.values(obj)) {
-              if (typeof v === 'string') lines.push(flat(v))
-              else if (Array.isArray(v)) for (const s of v) if (typeof s === 'string') lines.push(flat(s))
-            }
-          }
-        }
-        continue
-      }
-      const obj = val as Record<string, unknown>
-      for (const v of Object.values(obj)) {
-        if (typeof v === 'string') lines.push(flat(v))
-        else if (Array.isArray(v)) for (const s of v) if (typeof s === 'string') lines.push(flat(s))
-      }
-    }
-    return lines
-  }
   // Edge-301'd source paths (/brand/afarer, /brand/story, /oem-odm, …) and
   // legacy thestavalk-era paths must not appear as canonical URLs in the LLM
   // corpus — same rule as the sitemap.
@@ -336,6 +358,9 @@ export function llmsAfarerFull(): string {
 export function llmSpanishIndex(origin: string): string {
   const es = (path: string) => abs(origin, `/es${path}`)
   const productLines = getContentProducts('es').map((p) => `- [${p.title}](${es(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const solutionLines = solutionPages.es.map((p) => `- [${p.metaTitle}](${es(solutionPath(p.slug))}): ${flat(p.metaDescription)}`)
+  const knowledgeLines = knowledge.es.map((a) => `- [${a.metaTitle}](${es(`/knowledge/${a.slug}`)}): ${flat(a.metaDescription)}`)
+  const projectLines = projects.es.map((p) => `- [${p.metaTitle}](${es(`/projects/${p.slug}`)}): ${flat(p.metaDescription)}`)
   const techLines = getTechArticles('es').map((a) => `- [${a.title}](${es(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
   const caseLines = getCaseUses('es').map((c) => `- [${c.title}](${es(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
   const guideLines = GUIDES_ES.map((g) => `- [${g.title}](${es(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
@@ -351,8 +376,20 @@ export function llmSpanishIndex(origin: string): string {
     '',
     `- [${SITE_NAME} — inicio](${es('/')}): ${LLM_SPANISH_HOMEPAGE_DESCRIPTION}`,
     '',
+    '### Español: Fábrica, Tecnología y Recursos',
+    ...localeResourceLines('es', origin),
+    '',
     '### Español: Productos',
     ...productLines,
+    '',
+    '### Español: Soluciones',
+    ...solutionLines,
+    '',
+    '### Español: Clase de conocimientos',
+    ...knowledgeLines,
+    '',
+    '### Español: Proyectos',
+    ...projectLines,
     '',
     '### Español: Tecnología',
     ...techLines,
@@ -367,6 +404,7 @@ export function llmSpanishIndex(origin: string): string {
     ...newsLines,
     '',
     '### Español: Preguntas frecuentes',
+    `- [Preguntas frecuentes](${es('/faq')}): ${LLM_SPANISH_FAQ_DESCRIPTION}`,
     ...faqLines,
     '',
   ].join('\n')
@@ -374,6 +412,16 @@ export function llmSpanishIndex(origin: string): string {
 
 /** Full Spanish text for products, news, tech, cases and guides (in /llms-full.txt). */
 export function llmsAfarerSpanishFull(): string {
+  const resourceBlocks = getContentPages()
+    .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS) && isContentPageTranslated(p.path, 'es'))
+    .map((p) => {
+      const localized = getContentPage(p.path, 'es') ?? p
+      const title = localized?.meta?.title ?? PAGE_TITLES[p.path] ?? brandify(p.label)
+      const bodyLines = DEEP_PAGES.has(p.path) ? pageBodyText(localized) : []
+      const block = [`# ${title}`, '', flat(brandify(localized?.meta?.description ?? p.meta?.description ?? '')), '', `URL: /es${p.path}`]
+      if (bodyLines.length > 0) block.push('', ...bodyLines)
+      return block.join('\n')
+    })
   const productBlocks = getContentProducts('es').map((p) =>
     [
       `## Producto: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
@@ -405,6 +453,9 @@ export function llmsAfarerSpanishFull(): string {
   return [
     '',
     '# Español',
+    ...resourceBlocks,
+    '',
+    '# Español: Productos',
     ...productBlocks,
     '',
     '# Español: Noticias',
@@ -444,6 +495,9 @@ export function llmFrenchIndex(origin: string): string {
     '',
     `- [${SITE_NAME} — accueil](${fr('/')}): ${LLM_FRENCH_HOMEPAGE_DESCRIPTION}`,
     '',
+    '### Français: Usine, Technologie et Ressources',
+    ...localeResourceLines('fr', origin),
+    '',
     '### Français: Produits',
     ...productLines,
     '',
@@ -469,6 +523,7 @@ export function llmFrenchIndex(origin: string): string {
     ...newsLines,
     '',
     '### Français: Questions fréquentes',
+    `- [Questions fréquentes](${fr('/faq')}): ${LLM_FRENCH_FAQ_DESCRIPTION}`,
     ...faqLines,
     '',
   ].join('\n')
@@ -476,6 +531,16 @@ export function llmFrenchIndex(origin: string): string {
 
 /** Full French text for products, solutions, knowledge, projects, news, tech, cases and guides (in /llms-full.txt). */
 export function llmsAfarerFrenchFull(): string {
+  const resourceBlocks = getContentPages()
+    .filter((p) => !(p.path in EDGE_REDIRECTS) && !(p.path in LEGACY_REDIRECTS) && isContentPageTranslated(p.path, 'fr'))
+    .map((p) => {
+      const localized = getContentPage(p.path, 'fr') ?? p
+      const title = localized?.meta?.title ?? PAGE_TITLES[p.path] ?? brandify(p.label)
+      const bodyLines = DEEP_PAGES.has(p.path) ? pageBodyText(localized) : []
+      const block = [`# ${title}`, '', flat(brandify(localized?.meta?.description ?? p.meta?.description ?? '')), '', `URL: /fr${p.path}`]
+      if (bodyLines.length > 0) block.push('', ...bodyLines)
+      return block.join('\n')
+    })
   const productBlocks = getContentProducts('fr').map((p) =>
     [
       `## Produit: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
@@ -558,6 +623,9 @@ export function llmsAfarerFrenchFull(): string {
   return [
     '',
     '# Français',
+    ...resourceBlocks,
+    '',
+    '# Français: Produits',
     ...productBlocks,
     '',
     '# Français: Solutions',
