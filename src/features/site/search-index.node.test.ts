@@ -14,7 +14,7 @@ import { hero, galleryPage, products, solutions } from '@/product/content'
 
 describe('buildExtendedIndex', () => {
   test('every entry carries a non-empty searchable surface', () => {
-    for (const locale of ['en', 'es'] as const) {
+    for (const locale of ['en', 'es', 'fr'] as const) {
       const entries = buildExtendedIndex(locale)
       expect(entries.length).toBeGreaterThan(80)
       for (const it of entries) {
@@ -26,10 +26,11 @@ describe('buildExtendedIndex', () => {
   })
 
   test('body-only keywords are searchable (Stavalk, Qingdao)', () => {
-    for (const locale of ['en', 'es'] as const) {
+    for (const locale of ['en', 'es', 'fr'] as const) {
       const hits = buildExtendedIndex(locale).filter((it) => (it.content ?? '').includes('Stavalk'))
       expect(hits.length, `locale ${locale}`).toBeGreaterThanOrEqual(2)
-      expect(hits.some((h) => h.url === (locale === 'es' ? '/es/faq' : '/faq'))).toBe(true)
+      const faqUrl = locale === 'es' ? '/es/faq' : locale === 'fr' ? '/fr/faq' : '/faq'
+      expect(hits.some((h) => h.url === faqUrl)).toBe(true)
       expect(hits.some((h) => h.url.includes('/proof-center') || h.url.includes('/oem-trust'))).toBe(true)
     }
   })
@@ -84,6 +85,8 @@ describe('buildFullIndex', () => {
     }
     const esHits = buildExtendedIndex('es')
     expect(esHits.some((it) => it.url === '/es/products' && (it.content ?? '').includes(pick(products, 'es').items[0].name))).toBe(true)
+    const frHits = buildExtendedIndex('fr')
+    expect(frHits.some((it) => it.url === '/fr/products' && (it.content ?? '').includes(pick(products, 'fr').items[0].name))).toBe(true)
   })
 
   test('deduplicates urls across locales and keeps content', () => {

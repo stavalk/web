@@ -18,7 +18,7 @@ vi.mock('@tanstack/react-router', async (importOriginal) => {
 import { ProjectPage } from '@/components/marketing/project-page'
 import { I18nProvider } from '@/features/i18n/provider'
 
-const html = (slug: string, locale: 'en' | 'es' = 'en'): string => {
+const html = (slug: string, locale: 'en' | 'es' | 'fr' = 'en'): string => {
   const page = projects[locale].find((p) => p.slug === slug)
   expect(page, `${slug} (${locale}) not found`).toBeTruthy()
   return renderToString(
@@ -26,9 +26,10 @@ const html = (slug: string, locale: 'en' | 'es' = 'en'): string => {
   )
 }
 
-test('en/es project sets stay structurally symmetric and complete', () => {
+test('en/es/fr project sets stay structurally symmetric and complete', () => {
   expect(projects.es.map((p) => p.slug)).toEqual(projects.en.map((p) => p.slug))
-  for (const locale of ['en', 'es'] as const) {
+  expect(projects.fr.map((p) => p.slug)).toEqual(projects.en.map((p) => p.slug))
+  for (const locale of ['en', 'es', 'fr'] as const) {
     for (const p of projects[locale]) {
       expect(p.customizations.length, `${p.slug} (${locale}) customizations`).toBeGreaterThanOrEqual(5)
       expect(p.inspectionFocus.length, `${p.slug} (${locale}) inspectionFocus`).toBeGreaterThanOrEqual(4)
@@ -42,8 +43,8 @@ test('en/es project sets stay structurally symmetric and complete', () => {
   }
 })
 
-test('every project page renders without error (en + es)', () => {
-  for (const locale of ['en', 'es'] as const) {
+test('every project page renders without error (en + es + fr)', () => {
+  for (const locale of ['en', 'es', 'fr'] as const) {
     for (const p of projects[locale]) {
       expect(() => html(p.slug, locale), `${p.slug} (${locale}) throws during render`).not.toThrow()
     }
@@ -62,6 +63,13 @@ test('es flagship case renders metrics and takeaways in Spanish', () => {
   const out = html('german-hardware-brand-oem', 'es')
   for (const s of ['3', '600', '90', 'CE', 'Conclusiones clave', 'Lo que muestra este proyecto', 'Tu proyecto puede seguir el mismo camino', 'Proyectos similares que hemos entregado', '¿Te enfrentas a un reto similar?']) {
     expect(out, `german-hardware-brand-oem (es) missing "${s}"`).toContain(s)
+  }
+})
+
+test('fr flagship case renders metrics and takeaways in French', () => {
+  const out = html('german-hardware-brand-oem', 'fr')
+  for (const s of ['3', '600', '90', 'CE', 'Points Clés', 'Ce Que Ce Projet Démontre', 'Votre Projet Pourrait Suivre le Même Chemin', 'Projets Similaires Que Nous Avons Livrés', 'Vous faites face à un défi similaire ?']) {
+    expect(out, `german-hardware-brand-oem (fr) missing "${s}"`).toContain(s)
   }
 })
 

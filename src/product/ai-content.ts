@@ -97,6 +97,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/es/knowledge', title: '', excerpt: '' },
     { url: '/es/gallery', title: 'Galería', excerpt: 'Fábrica y galería de productos Stavalk: talleres, laboratorios de calidad, mecanizado y tornillos de banco en producción.' },
   ],
+  fr: [
+    { url: '/fr', title: 'Spécialiste des étaux d\'établi | OEM, ODM et marque privée | Stavalk', excerpt: 'Stavalk développe et fabrique des étaux d\'établi personnalisés pour marques et distributeurs — OEM, ODM et marque privée, de la spécification et du prototypage à la production en série sous contrôle qualité à Qingdao, en Chine.' },
+    { url: '/fr/products', title: 'Produits étaux | Séries personnalisables — Stavalk', excerpt: 'Des séries d\'étaux d\'établi éprouvées — des classiques à usage léger aux étaux lourds et pour tube, chacune une plateforme de fabrication prête pour la personnalisation.' },
+    { url: '/fr/solutions', title: 'Solutions d\'étaux d\'établi personnalisés | Étaux, marques et packages', excerpt: 'Personnalisation de l\'étau, identité de marque et packages complets — chaque élément de votre étau est personnalisable : largeur de mâchoires, modèles, finitions, accessoires.' },
+    { url: '/fr/projects', title: '', excerpt: '' },
+    { url: '/fr/knowledge', title: '', excerpt: '' },
+    { url: '/fr/gallery', title: 'Galerie de projets | Projets d\'étaux d\'établi personnalisés — Stavalk', excerpt: 'Projets de fabrication d\'étaux d\'établi réalisés par Stavalk pour des marques, distributeurs, ateliers et écoles — des mâchoires aux lignes de production complètes.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -107,6 +115,7 @@ export const CASE_STUDY_STATS = {
 export const FAQ_EXCERPTS: Record<string, string> = {
   en: 'Frequently asked questions about bench vise OEM/ODM manufacturing — materials, certifications, minimum order quantities and wholesale supply.',
   es: 'Preguntas frecuentes sobre fabricación OEM/ODM de tornillos de banco — materiales, certificaciones, cantidades mínimas de pedido y suministro al por mayor.',
+  fr: 'Foire aux questions sur la fabrication OEM/ODM d\'étaux d\'établi — matériaux, certifications, quantités minimales de commande et approvisionnement en gros.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

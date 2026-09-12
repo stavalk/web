@@ -117,8 +117,8 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
   const entries: SearchEntry[] = [...buildContentIndex(locale), ...contentEntries(locale), ...buildHubEntries(locale)]
   for (const p of getContentPages()) {
     if (p.path in EDGE_REDIRECTS) continue
-    const seo = p.content.seo as { title?: string; description?: string } | undefined
     if (locale === 'en') {
+      const seo = p.content.seo as { title?: string; description?: string } | undefined
       entries.push({
         url: p.path,
         title: (seo?.title ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label),
@@ -127,19 +127,18 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
         type: 'page',
         locale: 'en',
       })
-    }
-    if (locale === 'es' && isContentPageTranslated(p.path, 'es')) {
-      const es = getContentPage(p.path, 'es')!
-      const esMeta = es.content.meta as { title?: string; description?: string } | undefined
-      const esSeo = es.content.seo as { headline?: string; description?: string } | undefined
-      const esTitle = (esMeta?.title ?? esSeo?.headline ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label)
+    } else if (isContentPageTranslated(p.path, locale)) {
+      const cp = getContentPage(p.path, locale)!
+      const meta = cp.content.meta as { title?: string; description?: string } | undefined
+      const seo = cp.content.seo as { headline?: string; description?: string } | undefined
+      const title = (meta?.title ?? seo?.headline ?? '').replace(/[|–—-].*$/, '').trim() || humanize(p.label)
       entries.push({
-        url: `/es${p.path}`,
-        title: esTitle,
-        excerpt: esMeta?.description ?? esSeo?.description ?? '',
-        content: squeeze(brandify(pageText(es.content))),
+        url: `/${locale}${p.path}`,
+        title,
+        excerpt: meta?.description ?? seo?.description ?? '',
+        content: squeeze(brandify(pageText(cp.content))),
         type: 'page',
-        locale: 'es',
+        locale,
       })
     }
   }
@@ -152,14 +151,14 @@ export function buildExtendedIndex(locale: Locale): SearchEntry[] {
       type: 'page',
       locale: 'en',
     })
-  } else if (isContentPageTranslated('/faq', 'es') && getSiteFaqs('es').length > 0) {
+  } else if (isContentPageTranslated('/faq', locale) && getSiteFaqs(locale).length > 0) {
     entries.push({
-      url: '/es/faq',
-      title: 'Preguntas frecuentes',
-      excerpt: FAQ_EXCERPTS.es,
-      content: squeeze(brandify(getSiteFaqs('es').map((f) => `Q: ${f.q} A: ${f.a}`).join(' '))),
+      url: `/${locale}/faq`,
+      title: locale === 'es' ? 'Preguntas frecuentes' : 'FAQ — Fabrication OEM d\'étau d\'établi',
+      excerpt: FAQ_EXCERPTS[locale] ?? FAQ_EXCERPTS.en,
+      content: squeeze(brandify(getSiteFaqs(locale).map((f) => `Q: ${f.q} A: ${f.a}`).join(' '))),
       type: 'page',
-      locale: 'es',
+      locale,
     })
   }
   return entries

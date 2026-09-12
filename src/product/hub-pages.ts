@@ -126,38 +126,36 @@ function galleryContent(locale: Locale): string {
   )
 }
 
+/** Strip any active-locale prefix so hub template lookups stay locale-neutral. */
+function hubBase(url: string): string {
+  const m = /^\/[a-z]{2}(?=\/|$)/.exec(url)
+  if (!m) return url
+  return url.slice(m[0].length) || '/'
+}
+
 export function buildHubEntries(locale: Locale): SearchEntry[] {
   const templates = HUB_PAGE_ENTRIES[locale] ?? HUB_PAGE_ENTRIES.en
   const projectsMetaData = pickVal(projectsMeta, locale)
   const knowledgeMetaData = pickVal(knowledgeMeta, locale)
   const contentFns: Record<string, (l: Locale) => string> = {
     '/': homeContent,
-    '/es': homeContent,
     '/products': productsContent,
-    '/es/products': productsContent,
     '/solutions': solutionsContent,
-    '/es/solutions': solutionsContent,
     '/projects': projectsContent,
-    '/es/projects': projectsContent,
     '/knowledge': knowledgeContent,
-    '/es/knowledge': knowledgeContent,
     '/gallery': galleryContent,
-    '/es/gallery': galleryContent,
   }
-  return templates.map((t) => ({
-    url: t.url,
-    title: t.url === '/projects' || t.url === '/es/projects'
-      ? projectsMetaData.metaTitle
-      : t.url === '/knowledge' || t.url === '/es/knowledge'
-        ? knowledgeMetaData.metaTitle
-        : t.title,
-    excerpt: t.url === '/projects' || t.url === '/es/projects'
-      ? projectsMetaData.metaDescription
-      : t.url === '/knowledge' || t.url === '/es/knowledge'
-        ? knowledgeMetaData.metaDescription
-        : t.excerpt,
-    content: (contentFns[t.url] ?? homeContent)(locale),
-    type: 'page' as const,
-    locale,
-  }))
+  return templates.map((t) => {
+    const base = hubBase(t.url)
+    const projects = base === '/projects'
+    const knowledge = base === '/knowledge'
+    return {
+      url: t.url,
+      title: projects ? projectsMetaData.metaTitle : knowledge ? knowledgeMetaData.metaTitle : t.title,
+      excerpt: projects ? projectsMetaData.metaDescription : knowledge ? knowledgeMetaData.metaDescription : t.excerpt,
+      content: (contentFns[base] ?? homeContent)(locale),
+      type: 'page' as const,
+      locale,
+    }
+  })
 }
