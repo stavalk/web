@@ -38,7 +38,7 @@ export function stableHash(s: string): string {
 
 /** Generate a URL-safe slug from a question for anchor links. */
 export function faqSlug(question: string): string {
-  return question
+  return foldDiacritics(question)
     .toLowerCase()
     .replace(/[^\p{L}\p{N}]+/gu, '-')
     .replace(/^-+|-+$/g, '')
@@ -77,7 +77,7 @@ export function buildAskPrompt(input: AskPromptInput): { system: string; user: s
     'For pricing, certification scope, or project-specific MOQ/lead-time questions, always add: "These details are project-confirmed. Request a quote for your specific requirements."',
     AI_DISCLOSURE,
     AI_INQUIRY_PROMPT.replaceAll('{SITE_URL}', SITE_URL),
-    'Answer in the same language as the buyer\'s question (English or Spanish). Be concise and helpful: state the answer first, then 2-5 short bullets of supporting detail.',
+    'Answer in the same language as the buyer\'s question (English, Spanish or French). Be concise and helpful: state the answer first, then 2-5 short bullets of supporting detail.',
     '',
     'Knowledge base:',
     context,
@@ -122,7 +122,10 @@ function expandCjkToEn(question: string): string {
 }
 
 function tokenizeForMatch(text: string): string[] {
-  const norm = text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
+  const norm = foldDiacritics(text)
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .trim()
   if (!norm) return []
   const tokens: string[] = []
   for (const segment of norm.split(' ')) {
@@ -141,8 +144,13 @@ function tokenizeForMatch(text: string): string[] {
   return tokens
 }
 
+/** Fold diacritics so FR/ES questions typed without accents still match the corpus. */
+function foldDiacritics(text: string): string {
+  return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+}
+
 export function normalizeQuestion(question: string): string {
-  return question
+  return foldDiacritics(question)
     .toLowerCase()
     .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim()

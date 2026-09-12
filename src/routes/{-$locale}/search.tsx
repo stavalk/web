@@ -5,7 +5,7 @@ import { getOrigin } from '@/features/seo/seo.fns'
 import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
-import { searchIndexServer, type SearchEntry } from '@/features/site/search'
+import { searchIndexServer, matchSearchEntry, type SearchEntry } from '@/features/site/search'
 import { TYPE_CLASS } from '@/features/site/search-type-class'
 import { PageHero } from '@/components/marketing/section-head'
 import { MarketingShell } from '@/components/marketing/shell'
@@ -45,16 +45,9 @@ function SearchPage() {
   const { locale, t } = useTranslation()
   const { entries } = Route.useLoaderData()
   const { q } = Route.useSearch()
-  const query = (q ?? '').trim().toLowerCase()
+  const query = (q ?? '').trim()
   const results: SearchEntry[] = query
-    ? entries
-        .filter(
-          (it) =>
-            it.title.toLowerCase().includes(query) ||
-            it.excerpt.toLowerCase().includes(query) ||
-            (it.content ?? '').toLowerCase().includes(query),
-        )
-        .slice(0, MAX_SEARCH_RESULTS)
+    ? entries.filter((it) => matchSearchEntry(query, it)).slice(0, MAX_SEARCH_RESULTS)
     : []
 
   return (

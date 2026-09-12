@@ -31,6 +31,10 @@ describe('normalizeQuestion', () => {
   test('lowers case, strips punctuation, keeps letters/numbers', () => {
     expect(normalizeQuestion('  What,   is  the MOQ?  ')).toBe('what is the moq')
   })
+  test('folds diacritics so unaccented fr/es questions still match', () => {
+    expect(normalizeQuestion('Établi — Étaux de précision ?')).toBe('etabli etaux de precision')
+    expect(normalizeQuestion('¿Cómo se fija el tornillo de banco?')).toBe('como se fija el tornillo de banco')
+  })
 })
 
 describe('buildAskPrompt', () => {
@@ -131,6 +135,24 @@ describe('matchCorpus', () => {
     const hit = matchCorpus('有什么认证', chunks)
     expect(hit).not.toBeNull()
     expect(hit!.answer).toContain('CE')
+  })
+  test('French question without accents matches accented corpus text', () => {
+    const fr = [
+      { id: 'f1', text: 'La durée de vie des mâchoires en acier trempé (60 HRC) est bien supérieure à celle de la fonte.', url: '/fr/knowledge/bench-vise-jaw-materials', title: 'Matériaux de mâchoire' },
+      { id: 'f2', text: 'Le marquage au laser standard est inclus pour les commandes OEM.', url: '/fr/oem-manufacturing', title: 'Fabrication OEM' },
+    ]
+    const hit = matchCorpus('quels materiaux pour les machoires', fr)
+    expect(hit).not.toBeNull()
+    expect(hit!.chunk.url).toBe('/fr/knowledge/bench-vise-jaw-materials')
+  })
+  test('French FAQ question without accents matches accented FAQ text', () => {
+    const faq = [
+      { q: 'Quelle est la quantité minimale de commande (MOQ) pour les étaux de banque OEM ?', a: 'La quantité minimale de commande est de 50–200 pièces par série de production standard.' },
+      { q: 'Combien de temps prend un échantillon ?', a: 'Les échantillons sont expédiés sous 7–14 jours.' },
+    ]
+    const hit = matchFaq('quelle est la quantite minimale de commande', faq)
+    expect(hit).not.toBeNull()
+    expect(hit!.answer).toContain('50')
   })
 })
 
