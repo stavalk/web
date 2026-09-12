@@ -1,4 +1,6 @@
 import React, { useMemo } from 'react'
+import { useTranslation } from '@/features/i18n/provider'
+import { localizePath, type Locale } from '@/features/i18n/locale'
 
 /**
  * Minimal markdown renderer for afarer article bodies (products, news,
@@ -6,12 +8,14 @@ import React, { useMemo } from 'react'
  * small, regular subset: #/##/### headings, paragraphs, `-` and `1.` lists,
  * blockquotes, `---` rules, plus inline **bold**, `code` and [links](url).
  *
- * Content is trusted (our own marketing copy) — no sanitization needed.
+ * Content is trusted (our own marketing copy) —no sanitization needed.
+ * Internal links are written locale-neutral and localized at render time so
+ * body links follow the page locale instead of landing on English pages.
  */
 
 const INLINE_RE = /(\*\*[^*]+\*\*|`[^`]+`|\[[^\]]+\]\([^)\s]+\))/g
 
-function renderInline(text: string, keyBase: string): React.ReactNode[] {
+function renderInline(text: string, keyBase: string, locale: Locale): React.ReactNode[] {
   const parts = text.split(INLINE_RE)
   return parts.map((part, i) => {
     if (!part) return null
@@ -27,8 +31,9 @@ function renderInline(text: string, keyBase: string): React.ReactNode[] {
     }
     const link = /^\[([^\]]+)\]\(([^)\s]+)\)$/.exec(part)
     if (link) {
-      const href = link[2]
-      const isExternal = href.startsWith('http')
+      const raw = link[2]
+      const isExternal = raw.startsWith('http')
+      const href = isExternal ? raw : localizePath(locale, raw)
       return (
         <a key={`${keyBase}-${i}`} href={href} className="font-semibold text-primary underline-offset-4 hover:underline" {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
           {link[1]}
@@ -73,6 +78,7 @@ function splitBlocks(text: string): Block[] {
 }
 
 export function Markdown({ text, className }: { text: string; className?: string }) {
+  const { locale } = useTranslation()
   const blocks = useMemo(() => splitBlocks(text), [text])
   let li = 0
   return (
@@ -90,7 +96,7 @@ export function Markdown({ text, className }: { text: string; className?: string
           case 'p':
             return (
               <p key={i} className="mt-5 text-[15px] leading-relaxed text-fg-2">
-                {renderInline(b.lines.join(' '), `p${i}`)}
+                {renderInline(b.lines.join(' '), `p${i}`, locale)}
               </p>
             )
           case 'quote':
@@ -98,7 +104,7 @@ export function Markdown({ text, className }: { text: string; className?: string
               <blockquote key={i} className="mt-5 border-l-4 border-primary/50 pl-4 text-[15px] italic leading-relaxed text-fg-2">
                 {b.lines.map((l, j) => (
                   <React.Fragment key={j}>
-                    {renderInline(l.replace(/^>\s?/, ''), `q${i}-${j}`)}
+                    {renderInline(l.replace(/^>\s?/, ''), `q${i}-${j}`, locale)}
                     {j < b.lines.length - 1 ? <br /> : null}
                   </React.Fragment>
                 ))}
@@ -110,7 +116,7 @@ export function Markdown({ text, className }: { text: string; className?: string
             return (
               <Tag key={i} className={`mt-5 space-y-2 ${b.kind === 'ol' ? 'list-decimal' : 'list-disc'} pl-6 text-[15px] leading-relaxed text-fg-2 marker:text-primary`}>
                 {b.lines.map((l) => (
-                  <li key={`${i}-${li++}`}>{renderInline(l.replace(/^(\d+\.|\s*[-*])\s*/, ''), `li${i}-${li}`)}</li>
+                  <li key={`${i}-${li++}`}>{renderInline(l.replace(/^(\d+\.|\s*[-*])\s*/, ''), `li${i}-${li}`, locale)}</li>
                 ))}
               </Tag>
             )

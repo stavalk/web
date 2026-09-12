@@ -144,3 +144,30 @@ test('every /assets/ link in afarer content resolves to a real file', () => {
     `content links pointing at missing asset files:\n${missing.map((b) => `${b.file}: ${b.link}`).join('\n')}`,
   ).toEqual([])
 })
+
+test('every internal link in knowledge article bodies points at a live route', () => {
+  const bad: { locale: string; slug: string; link: string }[] = []
+  for (const loc of ['en', 'es', 'fr'] as const) {
+    const arts = knowledge[loc] ?? knowledge.en
+    for (const a of arts) {
+      const raw = [a.intro, ...a.sections.flatMap((s) => s.body)].join('\n')
+      for (const link of extractLinks(raw)) {
+        const path = normalize(link)
+        if (!path) continue
+        if (path.startsWith('/api') || path.startsWith('/app') || path.startsWith('/admin')) continue
+        if (path.startsWith('/es') || path.startsWith('/fr')) {
+          bad.push({ locale: loc, slug: a.slug, link })
+          continue
+        }
+        if (LIVE.has(path)) continue
+        bad.push({ locale: loc, slug: a.slug, link })
+      }
+    }
+  }
+  expect(
+    bad.map((b) => `${b.locale}/${b.slug}: ${b.link}`),
+    `knowledge body links that should resolve to a live route (written locale-neutral, localized at render):\n${bad
+      .map((b) => `${b.locale}/${b.slug}: ${b.link}`)
+      .join('\n')}`,
+  ).toEqual([])
+})
