@@ -191,6 +191,15 @@ export interface HeadMeta {
   content?: string
 }
 
+function ogLocaleAlternates(locale: Locale): HeadMeta {
+  return {
+    property: 'og:locale:alternate',
+    // Single comma-joined tag: the head renderer dedupes repeated
+    // og:locale:alternate metas to the last one, dropping all but one alternate.
+    content: locales.filter((l) => l !== locale).map((l) => OG_LOCALE[l]).join(', '),
+  }
+}
+
 export function localeHead(input: {
   origin: string
   locale: Locale
@@ -222,7 +231,7 @@ export function localeHead(input: {
     { property: 'og:description', content: description },
     { property: 'og:url', content: canonical },
     { property: 'og:locale', content: OG_LOCALE[locale] },
-    ...locales.filter((l) => l !== locale).map((l) => ({ property: 'og:locale:alternate', content: OG_LOCALE[l] })),
+    ogLocaleAlternates(locale),
     { property: 'og:image', content: image },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },

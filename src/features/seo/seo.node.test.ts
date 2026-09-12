@@ -93,4 +93,8 @@ test('localeHead: canonical + hreflang alternates + og', () => {
   expect(head.links.some((l) => l.hreflang === 'x-default')).toBe(true)
   expect(head.meta.some((m) => m.title === 'T')).toBe(true)
   expect(head.meta.some((m) => m.property === 'og:url' && m.content === `${origin}/es/products`)).toBe(true)
+  const alternates = head.meta.filter((m) => m.property === 'og:locale:alternate')
+  expect(alternates).toHaveLength(1)
+  expect(alternates[0].content).toContain('en_US')
+  expect(alternates[0].content).toContain('fr_FR')
 })

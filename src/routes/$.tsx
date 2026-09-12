@@ -63,7 +63,7 @@ export const Route = createFileRoute('/$')({
       { property: 'og:description', content: description },
       { property: 'og:url', content: canonical },
       { property: 'og:locale', content: OG_LOCALE[locale] ?? 'en_US' },
-      ...ACTIVE_LOCALES.filter((l) => l !== locale).map((l) => ({ property: 'og:locale:alternate', content: OG_LOCALE[l] })),
+      { property: 'og:locale:alternate', content: ACTIVE_LOCALES.filter((l) => l !== locale).map((l) => OG_LOCALE[l]).join(', ') },
       { property: 'og:type', content: loaderData.kind === 'post' || loaderData.kind === 'article' ? 'article' : 'website' },
       ...(loaderData.kind === 'post' && loaderData.post.date ? [{ property: 'article:published_time', content: loaderData.post.date }] : []),
       ...(loaderData.kind === 'page' && loaderData.page.meta?.datePublished ? [{ property: 'article:published_time', content: loaderData.page.meta.datePublished }] : []),

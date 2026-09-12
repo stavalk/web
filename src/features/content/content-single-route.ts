@@ -1,7 +1,7 @@
 import { ErrorComponent } from '@tanstack/react-router'
 import { OG_IMAGE } from '@/features/seo/seo'
 import { SITE_NAME } from '@/config/site'
-import { OG_LOCALE } from '@/config/locales'
+import { OG_LOCALE, ACTIVE_LOCALES } from '@/config/locales'
 import type { CatchAllData } from './catchall'
 
 export function contentSingleRoute(path: string) {
@@ -32,7 +32,7 @@ export function contentSingleRoute(path: string) {
           { property: 'og:description', content: description },
           { property: 'og:url', content: canonical },
           { property: 'og:locale', content: OG_LOCALE.en },
-          { property: 'og:locale:alternate', content: OG_LOCALE.es },
+          { property: 'og:locale:alternate', content: ACTIVE_LOCALES.filter((l) => l !== 'en').map((l) => OG_LOCALE[l]).join(', ') },
           { property: 'og:type', content: loaderData.kind === 'post' || loaderData.kind === 'article' ? 'article' : 'website' },
           { property: 'og:image', content: absImage },
           { property: 'og:image:width', content: '1200' },
