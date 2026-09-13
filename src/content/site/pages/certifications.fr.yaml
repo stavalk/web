@@ -1,11 +1,11 @@
 ﻿meta:
-  title: 'Qualité et certifications — Normes d''usine des serre-joints | {SITE}'
+  title: 'Qualité et certifications — Normes d''usine des étaux d''établi | {SITE}'
   description: 'Système qualité et certifications Stavalk : CE (EN ISO 12100, MD 2006/42/CE), ISO 9001:2015, ISO 14001 et RoHS, avec un parcours d''inspection en 7 étapes et des essais tiers.'
   dateModified: '2026-09-01'
   keywords:
-    - 'certifications serre-joints'
-    - 'usine serre-joints ISO 9001'
-    - 'CE serre-joint'
+    - 'certifications étaux d''établi'
+    - 'usine étaux d''établi ISO 9001'
+    - 'CE étau d''établi'
     - 'système qualité d''usine'
 hero:
   tagline: Qualité et certifications
@@ -46,7 +46,7 @@ quality_basis:
       description: Force de serrage, couple de pivotement, durée de vie et sécurité vérifiés par commande.
 tests:
   title: Essais et procédures
-  subtitle: Les contrôles derrière chaque serre-joint Stavalk.
+  subtitle: Les contrôles derrière chaque étau d'établi Stavalk.
   items:
     - title: Essai de force de serrage
       description: Confirme que la vis et les mâchoires maintiennent la charge de travail nominale sans glissement ni déformation.
@@ -120,21 +120,21 @@ qc_flow:
       record: Enregistrement d''inspection du revêtement
     - stage: '06'
       title: Montage et essai fonctionnel
-      summary: Les serre-joints assemblés passent des essais fonctionnels et de performance.
+      summary: Les étaux d'établi assemblés passent des essais fonctionnels et de performance.
       checks:
         - Force de serrage et couple de pivotement
         - Essai de cycle d''ouverture/fermeture
-      object: Serre-joints assemblés
+      object: Étaux d'établi assemblés
       method: Essai fonctionnel sur banc
       criteria: Respecte la performance nominale
       record: Enregistrement d''essai fonctionnel
     - stage: '07'
       title: Inspection finale et emballage
-      summary: Serre-joints finis inspectés, emballés et prêts pour l''expédition.
+      summary: Étaux d'établi finis inspectés, emballés et prêts pour l''expédition.
       checks:
         - Contrôle cosmétique et de complétude
         - Emballage, marquage et documentation vérifiés
-      object: Serre-joints finis
+      object: Étaux d'établi finis
       method: Liste de contrôle qualité finale
       criteria: Prêt pour FOB Qingdao
       record: Inspection finale et liste d''emballage
@@ -227,13 +227,13 @@ third_party:
 content_certifications:
   title: Certifications en un coup d''œil
   body: |
-    Stavalk produit des serre-joints conformes à la **CE** (EN ISO 12100 et MD 2006/42/CE), à **l''ISO 9001:2015**, à **l''ISO 14001** et au **RoHS**. Le système qualité est documenté, mesuré et auditable — de la réception des matériaux à travers un parcours d''inspection en 7 étapes jusqu''à l''inspection tierce et l''expédition FOB Qingdao.
+    Stavalk produit des étaux d'établi conformes à la **CE** (EN ISO 12100 et MD 2006/42/CE), à **l'ISO 9001:2015**, à **l'ISO 14001** et au **RoHS**. Le système qualité est documenté, mesuré et auditable — de la réception des matériaux à travers un parcours d''inspection en 7 étapes jusqu''à l''inspection tierce et l''expédition FOB Qingdao.
 
     Les certificats scannés avec portée sont disponibles sur demande avant commande, et les acheteurs peuvent organiser une inspection SGS, TÜV, BV ou Intertek à l''usine avant l''expédition.
 faqs:
   title: Questions fréquentes
   questions:
-    - q: Quelles normes respectent les serre-joints Stavalk ?
+    - q: Quelles normes respectent les étaux d'établi Stavalk ?
       a: CE (EN ISO 12100, MD 2006/42/CE), ISO 9001:2015, ISO 14001 et RoHS.
     - q: Quelle est la dureté des mâchoires ?
       a: Les mâchoires GCr15/Cr12MoV sont trempées à l''huile et revenues à 58–62 HRC.

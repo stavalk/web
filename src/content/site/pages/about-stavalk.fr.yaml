@@ -1,16 +1,16 @@
 meta:
-  title: 'À propos de Stavalk — Fabricant de serre-joints à Qingdao, Chine'
-  description: 'Stavalk est un fabricant de serre-joints à Jimo, Qingdao, Chine — 8 000 m², 200+ ouvriers, 80 000+ serre-joints/an. OEM, ODM et marque privée.'
+  title: 'À propos de Stavalk — Fabricant d''étaux d''établi à Qingdao, Chine'
+  description: 'Stavalk est un fabricant d''étaux d''établi à Jimo, Qingdao, Chine — 8 000 m², 200+ ouvriers, 80 000+ étaux d''établi/an. OEM, ODM et marque privée.'
   dateModified: '2026-09-01'
   keywords:
     - 'stavalk'
-    - 'fabricant de serre-joint chine'
-    - 'usine de serre-joint qingdao'
-    - 'serre-joint oem'
+    - 'fabricant d''étau d''établi chine'
+    - 'usine d''étau d''établi qingdao'
+    - 'étau d''établi oem'
 hero:
   tagline: À propos de Stavalk
-  title: 'Stavalk — le fabricant de serre-joints derrière {SITE}'
-  subtitle: 'Basé à Jimo, Qingdao, Chine, Stavalk conçoit et fabrique des serre-joints pour des clients OEM, ODM et en marque privée dans plus de 50 pays — une installation de 8 000 m², 200+ ouvriers et 80 000+ serre-joints de capacité annuelle.'
+  title: 'Stavalk — le fabricant d''étaux d''établi derrière {SITE}'
+  subtitle: 'Basé à Jimo, Qingdao, Chine, Stavalk conçoit et fabrique des étaux d''établi pour des clients OEM, ODM et en marque privée dans plus de 50 pays — une installation de 8 000 m², 200+ ouvriers et 80 000+ étaux d''établi de capacité annuelle.'
   actions:
     - text: 'Lancer un projet OEM'
       href: /fr/contact
@@ -19,9 +19,9 @@ hero:
       href: /fr/factory
       variant: secondary
 intro: |
-  <p><strong>Stavalk</strong> est un fabricant de serre-joints basé à Jimo, Qingdao, Shandong, Chine. Depuis une installation de production de 8 000 m², l''entreprise fabrique des serre-joints allant des modèles légers de 4″ aux serre-joints industriels de 10″, ainsi que des serre-joints à tuberie et des outils de maintien spécialisés.</p>
+  <p><strong>Stavalk</strong> est un fabricant d'étaux d'établi basé à Jimo, Qingdao, Shandong, Chine. Depuis une installation de production de 8 000 m², l'entreprise fabrique des étaux d'établi allant des modèles légers de 4″ aux étaux d'établi industriels de 10″, ainsi que des étaux d'établi à tuberie et des outils de maintien spécialisés.</p>
   <p>Chaque projet Stavalk —d''un premier échantillon à la production OEM en volume— est fabriqué dans la même installation, par les mêmes équipes et sous le même système qualité décrit ici. Nous fabriquons exclusivement pour nos clients et ne les concurrençons jamais sous notre propre marque.</p>
-  <p>L''usine couvre 8 000 m² avec des ateliers dédiés à la coulée en sable vert et sable aggloméré, l''usinage CNC et conventionnel, le traitement thermique, le revêtement de surface et l''assemblage. La capacité annuelle dépasse 80 000 serre-joints, et l''installation fonctionne sous un système de management de la qualité ISO 9001:2015 avec conformité CE (EN ISO 12100, Directive Machines 2006/42/CE) et RoHS.</p>
+  <p>L''usine couvre 8 000 m² avec des ateliers dédiés à la coulée en sable vert et sable aggloméré, l''usinage CNC et conventionnel, le traitement thermique, le revêtement de surface et l''assemblage. La capacité annuelle dépasse 80 000 étaux d'établi, et l'installation fonctionne sous un système de management de la qualité ISO 9001:2015 avec conformité CE (EN ISO 12100, Directive Machines 2006/42/CE) et RoHS.</p>
   <p>Plus de 200 ouvriers qualifiés et une équipe R&D dédiée soutiennent toute la chaîne de production : coulée de corps en fonte grise HT200/HT250, usinage d''arbres en acier forgé 45#, trempe des mâchoires en acier GCr15/Cr12MoV à 58–62 HRC, application de revêtements de surface et inspection en 7 étapes avant expédition.</p>
 stats:
   title: Stavalk en chiffres
@@ -33,7 +33,7 @@ stats:
     - title: Pays desservis
       amount: '50+'
     - title: Capacité annuelle
-      amount: '80 000+ serre-joints'
+      amount: '80 000+ étaux d''établi'
     - title: Employés
       amount: '200+'
     - title: Séries de produits
@@ -51,7 +51,7 @@ factory_details:
 factory_section:
   title: L''usine en un coup d''œil
   body: |
-    L''installation de Jimo, Qingdao est spécifiquement conçue pour la production de serre-joints. Les matières premières —fonte grise HT200/HT250, acier forgé 45#, acier de mâchoire GCr15 et Cr12MoV— proviennent d''aciéries chinoises certifiées et sont vérifiées par spectromètre à leur réception.
+    L'installation de Jimo, Qingdao est spécifiquement conçue pour la production d'étaux d'établi. Les matières premières —fonte grise HT200/HT250, acier forgé 45#, acier de mâchoire GCr15 et Cr12MoV— proviennent d''aciéries chinoises certifiées et sont vérifiées par spectromètre à leur réception.
 
     Les inspections tierces de SGS, TÜV, Bureau Veritas et Intertek sont les bienvenues et facilitées régulièrement. Les acheteurs reçoivent un dossier documentaire complet avec chaque expédition : certificat de conformité, certificat de matière, rapport dimensionnel et enregistrements d''inspection.
 values_section:
@@ -63,27 +63,27 @@ values_section:
       description: 'Chaque projet commence par des exigences, des plans et un échantillon physique — largeur de mâchoire, matériau du corps, dureté, finition et emballage sont validés avant toute série de production, et non découverts sur la chaîne.'
       icon: 'tabler:settings'
     - title: Une équipe, une usine
-      description: 'Coulée, usinage, traitement thermique, revêtement, assemblage et essais se déroulent dans une installation de 8 000 m². Aucun intermédiaire : les personnes qui répondent à vos questions sont celles qui fabriquent vos serre-joints.'
+      description: 'Coulée, usinage, traitement thermique, revêtement, assemblage et essais se déroulent dans une installation de 8 000 m². Aucun intermédiaire : les personnes qui répondent à vos questions sont celles qui fabriquent vos étaux d''établi.'
       icon: 'tabler:building-factory-2'
     - title: Petites séries initiales
-      description: 'Le MOQ standard commence à 50–200 pièces ; les serre-joints lourds et spéciaux à partir de 20–50 pièces. Les échantillons sont expédiés en 7–14 jours, la production en volume en 25–35 jours, pour que les marques valident le marché avant de s''engager sur le volume complet.'
+      description: 'Le MOQ standard commence à 50–200 pièces ; les étaux d''établi lourds et spéciaux à partir de 20–50 pièces. Les échantillons sont expédiés en 7–14 jours, la production en volume en 25–35 jours, pour que les marques valident le marché avant de s''engager sur le volume complet.'
       icon: 'tabler:layers-intersect'
 services_section:
   title: Ce que livre l''usine
   subtitle: 'Services de fabrication disponibles pour les clients de Stavalk.'
   columns: 2
   items:
-    - title: Développement de serre-joint personnalisé
-      description: 'Évaluation des exigences, spécifications, sélection des matériaux, prototypage, approbation des échantillons et production de serre-joints personnalisés avec votre marque et emballage.'
+    - title: Développement d'étau d'établi personnalisé
+      description: 'Évaluation des exigences, spécifications, sélection des matériaux, prototypage, approbation des échantillons et production d''étaux d''établi personnalisés avec votre marque et emballage.'
       icon: 'tabler:bulb'
     - title: Production en marque privée
-      description: 'Votre logo, vos couleurs et votre emballage sur des plateformes de serre-joint éprouvées — corps, mâchoires, arbre, base pivotante et cartons portent votre identité, sans marque d''usine.'
+      description: 'Votre logo, vos couleurs et votre emballage sur des plateformes d''étau d''établi éprouvées — corps, mâchoires, arbre, base pivotante et cartons portent votre identité, sans marque d''usine.'
       icon: 'tabler:tag'
     - title: Fabrication OEM / ODM
-      description: 'Fabrication complète OEM et ODM de serre-joints à partir de plans clients ou de conceptions co-développées, y compris les profils de mâchoire, géométries d''arbre et configurations de base pivotante personnalisés.'
+      description: 'Fabrication complète OEM et ODM d''étaux d''établi à partir de plans clients ou de conceptions co-développées, y compris les profils de mâchoire, géométries d''arbre et configurations de base pivotante personnalisés.'
       icon: 'tabler:package'
     - title: Approvisionnement en volume
-      description: 'Approvisionnement en serre-joints pour chaînes de quincaillerie, distributeurs industriels et acheteurs institutionnels, avec qualité constante sur des commandes multiples.'
+      description: 'Approvisionnement en étaux d''établi pour chaînes de quincaillerie, distributeurs industriels et acheteurs institutionnels, avec qualité constante sur des commandes multiples.'
       icon: 'tabler:users-group'
 certifications_section:
   title: Certification et conformité
@@ -91,7 +91,7 @@ certifications_section:
   columns: 2
   items:
     - title: Marquage CE
-      description: 'Les serre-joints sont conformes à EN ISO 12100 et à la Directive Machines 2006/42/CE pour le marché européen. Documentation fournie pour chaque commande.'
+      description: 'Les étaux d''établi sont conformes à EN ISO 12100 et à la Directive Machines 2006/42/CE pour le marché européen. Documentation fournie pour chaque commande.'
       icon: 'tabler:certificate'
     - title: ISO 9001:2015
       description: 'Système de management de la qualité certifié ISO 9001:2015, couvrant l''entrée des matières, le contrôle en cours et l''inspection finale sur les cinq séries de produits.'
@@ -113,13 +113,13 @@ values:
   title: Ce qui anime Stavalk
   items:
     - title: Ingénierie de précision
-      description: 'Usinage CNC, essais de dureté Rockwell et vérification dimensionnelle par CMM garantissent que chaque serre-joint respecte les tolérances publiées.'
+      description: 'Usinage CNC, essais de dureté Rockwell et vérification dimensionnelle par CMM garantissent que chaque étau d''établi respecte les tolérances publiées.'
       icon: 'tabler:ruler'
     - title: Intégrité des matériaux
       description: 'Fonte grise HT200/HT250, acier forgé 45#, mâchoires trempées GCr15/Cr12MoV — aucun compromis sur les matériaux, jamais.'
       icon: 'tabler:metal'
     - title: Confidentialité de l''acheteur
-      description: 'Nous ne vendons jamais sous notre propre marque. Chaque serre-joint porte votre identité. Vos designs et spécifications sont protégés par NDA.'
+      description: 'Nous ne vendons jamais sous notre propre marque. Chaque étau d''établi porte votre identité. Vos designs et spécifications sont protégés par NDA.'
       icon: 'tabler:lock'
     - title: Amélioration continue
       description: 'L''investissement R&D en matériaux de mâchoire, géométrie d''arbre, technologie de revêtement et optimisation de la force de serrage propulse chaque génération de produit.'
@@ -129,26 +129,26 @@ services:
   title: Services de fabrication
   items:
     - title: Fabrication OEM
-      description: 'Production de serre-joints selon vos spécifications, matériaux, finition et marque. Documentation et traçabilité complètes avec chaque expédition.'
+      description: 'Production d''étaux d''établi selon vos spécifications, matériaux, finition et marque. Documentation et traçabilité complètes avec chaque expédition.'
       icon: 'tabler:package'
     - title: Développement ODM
-      description: 'Co-développement de nouveaux designs de serre-joints depuis votre concept jusqu''au prototypage, essais et mise en production.'
+      description: 'Co-développement de nouveaux designs d''étaux d''établi depuis votre concept jusqu''au prototypage, essais et mise en production.'
       icon: 'tabler:pencil'
     - title: Marque privée
-      description: 'Appliquez votre marque sur nos plateformes de serre-joint éprouvées. Emballage personnalisé, manuels et étiquetage disponibles.'
+      description: 'Appliquez votre marque sur nos plateformes d''étau d''établi éprouvées. Emballage personnalisé, manuels et étiquetage disponibles.'
       icon: 'tabler:tag'
     - title: Support après-vente
-      description: 'Pièces de rechange, service de garantie et support technique pour chaque serre-joint expédié, avec réponse sous 48 heures.'
+      description: 'Pièces de rechange, service de garantie et support technique pour chaque étau d''établi expédié, avec réponse sous 48 heures.'
       icon: 'tabler:headset'
 certifications:
   tagline: Certifications
   title: Certifications qualité
   items:
     - title: CE (EN ISO 12100)'
-      description: 'Conformité à la Directive Machines 2006/42/CE pour les serre-joints exportés vers l''Union européenne.'
+      description: 'Conformité à la Directive Machines 2006/42/CE pour les étaux d''établi exportés vers l''Union européenne.'
       icon: 'tabler:certificate'
     - title: ISO 9001:2015'
-      description: 'Système de management de la qualité couvrant la conception, la production, l''inspection et l''expédition de serre-joints.'
+      description: 'Système de management de la qualité couvrant la conception, la production, l''inspection et l''expédition d''étaux d''établi.'
       icon: 'tabler:clipboard-check'
     - title: ISO 14001'
       description: 'Système de management environnemental pour des opérations de fabrication durables.'
@@ -157,8 +157,8 @@ certifications:
       description: 'Conformité aux substances restreintes pour les matériaux et revêtements applicables.'
       icon: 'tabler:shield-check'
 cta:
-  title: 'Construisez votre projet de serre-joint avec Stavalk'
-  subtitle: 'Envoyez vos exigences —type de serre-joint, taille, quantité et marque— et recevez un devis détaillé sous un jour ouvré.'
+  title: 'Construisez votre projet d''étau d''établi avec Stavalk'
+  subtitle: 'Envoyez vos exigences —type d''étau d''établi, taille, quantité et marque— et recevez un devis détaillé sous un jour ouvré.'
   actions:
     - text: Identité de marque
       href: /fr/about/identity

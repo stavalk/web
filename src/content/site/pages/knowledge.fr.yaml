@@ -1,16 +1,16 @@
 ﻿meta:
-  title: 'Connaissances — Guides d''achat, de taille et d''entretien des serre-joints | {SITE}'
-  description: 'Guides et connaissances Stavalk : choisir un serre-joint, dimensionner la largeur de mâchoire, matériaux et dureté, entretien, et travailler avec un fabricant OEM de serre-joints.'
+  title: 'Connaissances — Guides d''achat, de taille et d''entretien des étaux d''établi | {SITE}'
+  description: 'Guides et connaissances Stavalk : choisir un étau d''établi, dimensionner la largeur de mâchoire, matériaux et dureté, entretien, et travailler avec un fabricant OEM d''étaux d''établi.'
   dateModified: '2026-09-01'
   keywords:
-    - 'connaissances serre-joint'
-    - 'comment choisir un serre-joint'
-    - 'entretien serre-joint'
-    - 'guides serre-joint'
+    - 'connaissances étau d''établi'
+    - 'comment choisir un étau d''établi'
+    - 'entretien étau d''établi'
+    - 'guides étau d''établi'
 hero:
   tagline: Connaissances
-  title: Centre de connaissances des serre-joints
-  subtitle: Guides pratiques pour acheter, dimensionner, utiliser et entretenir des serre-joints — ainsi que le fonctionnement de l''approvisionnement OEM et de la production en marque privée avec Stavalk.
+  title: Centre de connaissances des étaux d'établi
+  subtitle: Guides pratiques pour acheter, dimensionner, utiliser et entretenir des étaux d'établi — ainsi que le fonctionnement de l'approvisionnement OEM et de la production en marque privée avec Stavalk.
   actions:
     - variant: primary
       text: Lire les principaux guides
@@ -19,8 +19,8 @@ clusters:
   title: Ce que vous trouverez ici
   subtitle: Des réponses directes aux questions que nous entendons le plus des ateliers, distributeurs et marques.
   items:
-    - title: Choisir un serre-joint
-      description: Comment choisir le bon serre-joint pour votre établi — largeur de mâchoire, série, matériaux et classe d''usage.
+    - title: Choisir un étau d'établi
+      description: Comment choisir le bon étau d'établi pour votre établi — largeur de mâchoire, série, matériaux et classe d'usage.
     - title: Tailles et montage
       description: Référence de largeur de mâchoire, gammes d''ouverture, poids, tailles de boulons et montage sur établi.
     - title: Matériaux et dureté
@@ -28,16 +28,16 @@ clusters:
     - title: Entretien et maintenance
       description: Lubrification, protection contre la corrosion et maintien de la vis et des mâchoires en bon état.
     - title: OEM et marque privée
-      description: MOQ, délais, échantillons, certifications et comment créer votre propre marque de serre-joints.
+      description: MOQ, délais, échantillons, certifications et comment créer votre propre marque d'étaux d'établi.
 featured_guides:
   title: Commencez ici
   body: |
-    - [Comment choisir un serre-joint](/fr/guides/how-to-choose-a-bench-vise)
-    - [Guide des tailles de serre-joint](/fr/guides/bench-vise-size-guide)
-    - [Guide d''entretien des serre-joints](/fr/guides/bench-vise-maintenance-guide)
-    - [Guide du serre-joint à tuberie](/fr/guides/pipe-vise-guide)
-    - [Guide de commande OEM de serre-joints](/fr/guides/oem-bench-vise-order-guide)
-    - [Guide des serre-joints de précision](/fr/guides/precision-vise-guide)
+    - [Comment choisir un étau d'établi](/fr/guides/how-to-choose-a-bench-vise)
+    - [Guide des tailles d'étau d'établi](/fr/guides/bench-vise-size-guide)
+    - [Guide d'entretien des étaux d'établi](/fr/guides/bench-vise-maintenance-guide)
+    - [Guide de l'étau à tuberie](/fr/guides/pipe-vise-guide)
+    - [Guide de commande OEM d'étaux d'établi](/fr/guides/oem-bench-vise-order-guide)
+    - [Guide des étaux d'établi de précision](/fr/guides/precision-vise-guide)
 buyer_guides:
   tagline: Articles
   title: Articles de connaissances sur les étaux d'établi
@@ -138,11 +138,11 @@ buyer_guides:
       body: MOQ, personnalisation, délais et normes de qualité.
       href: /knowledge/oem-bench-vise-manufacturing
 cta:
-  title: 'Toujours indécis ? Parlez à un ingénieur serre-joint'
+  title: 'Toujours indécis ? Parlez à un ingénieur étau d''établi'
   subtitle: 'Envoyez-nous votre mix de pièces et la configuration de votre atelier, et nous recommanderons la série, la largeur de mâchoire et la finition adaptées à votre projet.'
   actions:
     - variant: primary
       text: Obtenir une recommandation
       href: /fr/contact
-    - text: Voir les séries de serre-joints
+    - text: Voir les séries d'étaux d'établi
       href: /fr/products

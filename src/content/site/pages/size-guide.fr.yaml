@@ -1,30 +1,30 @@
 meta:
-  title: 'Guide des tailles de serre-joint — Largeur de mâchoire et spécifications | {SITE}'
-  description: 'Dimensions, gammes de poids et usages recommandés pour chaque serre-joint Stavalk. Trouvez la largeur de mâchoire adaptée à votre établi et à votre pièce.'
+  title: 'Guide des tailles d''étau d''établi — Largeur de mâchoire et spécifications | {SITE}'
+  description: 'Dimensions, gammes de poids et usages recommandés pour chaque étau d''établi Stavalk. Trouvez la largeur de mâchoire adaptée à votre établi et à votre pièce.'
   dateModified: '2026-09-01'
   keywords:
-    - 'guide tailles serre-joint'
-    - 'largeur mâchoire serre-joint'
-    - 'dimensions serre-joint'
-    - 'tableau tailles serre-joint'
+    - 'guide tailles étau d''établi'
+    - 'largeur mâchoire étau d''établi'
+    - 'dimensions étau d''établi'
+    - 'tableau tailles étau d''établi'
 hero:
-  title: Guide des tailles de serre-joint
-  subtitle: Largeur de mâchoire, ouverture, poids et usages recommandés pour chaque serre-joint Stavalk.
+  title: Guide des tailles d'étau d'établi
+  subtitle: Largeur de mâchoire, ouverture, poids et usages recommandés pour chaque étau d'établi Stavalk.
   actions:
     - variant: primary
-      text: Voir les séries de serre-joints
+      text: Voir les séries d'étaux d'établi
       href: /fr/products
 categories:
   title: Catégories de tailles
   subtitle: Faites correspondre la série de mâchoires à votre établi et à votre plus grande pièce de travail habituelle.
   items:
     - title: Léger — 2″–5″
-      description: Serre-joints à mâchoires remplaçables pour l''électronique, la joaillerie, l''artisanat, le petit travail du bois et les maquettes. Compacts, portables et doux pour les petites pièces.
+      description: Étaux d'établi à mâchoires remplaçables pour l'électronique, la joaillerie, l'artisanat, le petit travail du bois et les maquettes. Compacts, portables et doux pour les petites pièces.
     - title: Moyen — 6″–8″
       description: Le choix le plus polyvalent pour la métallurgie générale, la réparation auto, la fabrication et le travail du bois. Couvre la plupart des besoins d''ateliers et de garages à un poids raisonnable.
     - title: Lourd — 8″–10″
       description: Corps en acier forgé, faces d''enclume et force de serrage maximale pour la plomberie, le travail naval, la maintenance minière et la fabrication lourde.
-    - title: Serre-joint à tuberie
+    - title: Étau à tuberie
       description: Mâchoires en V trempées et dentelées qui acceptent les tuyaux de 1/8″–2″ pour une prise sûre et sans glissement sur le stock rond.
 table:
   title: Tableau de référence des tailles
@@ -60,25 +60,25 @@ how_to_choose:
   body: |
     Faites correspondre la largeur de mâchoire à votre établi et à votre plus grande pièce de travail habituelle :
 
-    - **Largeur de mâchoire** détermine la pièce maximale que vous pouvez maintenir en toute sécurité. Un serre-joint léger de 2″–5″ convient au travail de loisir et de petite taille ; le moyen 6″–8″ couvre la plupart des ateliers ; le lourd 8″–10″ est pour la fabrication industrielle.
+    - **Largeur de mâchoire** détermine la pièce maximale que vous pouvez maintenir en toute sécurité. Un étau d'établi léger de 2″–5″ convient au travail de loisir et de petite taille ; le moyen 6″–8″ couvre la plupart des ateliers ; le lourd 8″–10″ est pour la fabrication industrielle.
     - **Gamme d''ouverture** doit dépasser votre plus grand matériau. Vérifiez l''ouverture maximale par rapport à votre stock le plus épais avant de choisir une série.
-    - **Poids et établi** — les serre-joints légers font 3–5 kg, les moyens 5–8 kg, les lourds 8–14 kg. Renforcez le dessus de l''établi pour les serre-joints lourds.
+    - **Poids et établi** — les étaux d'établi légers font 3–5 kg, les moyens 5–8 kg, les lourds 8–14 kg. Renforcez le dessus de l'établi pour les étaux d'établi lourds.
     - **Montage** — faites correspondre la taille des boulons (typiquement 4–12 mm) et l''espacement avec votre établi. Une base pivotante à 360° ajoute de la flexibilité de serrage ; une base fixe est plus rigide pour les martèlements lourds.
-    - **Mâchoires à tuberie** — si vous tenez régulièrement du stock rond, choisissez un modèle avec mâchoires à tuberie ou un serre-joint dédié acceptant les tuyaux de 1/8″–2″.
+    - **Mâchoires à tuberie** — si vous tenez régulièrement du stock rond, choisissez un modèle avec mâchoires à tuberie ou un étau d'établi dédié acceptant les tuyaux de 1/8″–2″.
 
     ### Choix courants
     - Travail petit et de précision → 2″–5″ léger avec mâchoires remplaçables
     - Usage général d''atelier → 6″ moyen
     - Travail lourd et industriel → 8″–10″ lourd avec face d''enclume
-    - Stock rond → mâchoires à tuberie ou serre-joint dédié
+    - Stock rond → mâchoires à tuberie ou étau d'établi dédié
 cta:
-  title: 'Parcourez les serre-joints par taille, ou parlez à un ingénieur'
+  title: 'Parcourez les étaux d''établi par taille, ou parlez à un ingénieur'
   subtitle: 'Comparez les modèles légers, moyens et lourds dans notre gamme — ou envoyez votre mix de pièces et nous recommanderons les largeurs de mâchoire adaptées à votre projet.'
   actions:
     - variant: primary
-      text: Voir les séries de serre-joints
+      text: Voir les séries d'étaux d'établi
       href: /fr/products
     - text: Plus de connaissances sur le maintien du travail
       href: /fr/knowledge
-    - text: Comment les serre-joints sont fabriqués
+    - text: Comment les étaux d'établi sont fabriqués
       href: /fr/quality

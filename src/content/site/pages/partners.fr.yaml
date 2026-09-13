@@ -1,16 +1,16 @@
 ﻿meta:
-  title: 'Partenaires — Fabrication OEM et marque privée de serre-joints | {SITE}'
-  description: 'Partenariat avec Stavalk, fabricant de serre-joints à Qingdao, Chine : OEM/ODM, marque privée, séries co-développées et programmes d''échantillonnage rapide pour distributeurs et marques.'
+  title: 'Partenaires — Fabrication OEM et marque privée d''étaux d''établi | {SITE}'
+  description: 'Partenariat avec Stavalk, fabricant d''étaux d''établi à Qingdao, Chine : OEM/ODM, marque privée, séries co-développées et programmes d''échantillonnage rapide pour distributeurs et marques.'
   dateModified: '2026-09-01'
   keywords:
-    - 'partenaires OEM serre-joints'
-    - 'serre-joint marque privée'
-    - 'fabricant serre-joints Chine'
+    - 'partenaires OEM étaux d''établi'
+    - 'étau d''établi marque privée'
+    - 'fabricant étaux d''établi Chine'
     - 'partenaires Stavalk'
 hero:
   tagline: Partenaires
-  title: Créez votre marque de serre-joints avec nous
-  subtitle: De la commande d''un échantillon unique à une série entièrement co-développée, Stavalk s''associe à des distributeurs, importateurs et marques pour fournir des serre-joints certifiés fabriqués selon leur spécification.
+  title: Créez votre marque d'étaux d'établi avec nous
+  subtitle: De la commande d'un échantillon unique à une série entièrement co-développée, Stavalk s'associe à des distributeurs, importateurs et marques pour fournir des étaux d'établi certifiés fabriqués selon leur spécification.
   actions:
     - variant: primary
       text: Démarrer un projet
@@ -22,7 +22,7 @@ content_programs:
   subtitle: Travaillez avec nous au niveau qui convient à votre activité — chaque programme ajuste l''engagement, les prix et le support de développement.
   body: |
     ### Fabrication OEM
-    Produisez votre serre-joint sous votre propre marque. Nous gérons la coulée, l''usinage, le traitement thermique, le revêtement, les essais et l''inspection qualité selon votre spécification à Qingdao, Chine. MOQ dès 50 unités (20 pour les modèles lourds et spéciaux).
+    Produisez votre étau d'établi sous votre propre marque. Nous gérons la coulée, l''usinage, le traitement thermique, le revêtement, les essais et l''inspection qualité selon votre spécification à Qingdao, Chine. MOQ dès 50 unités (20 pour les modèles lourds et spéciaux).
 
     ### Marque privée
     Séries standard Stavalk marquées à votre marque et votre emballage. La voie la plus rapide vers le marché avec un support de certification complet et une garantie de fond.
@@ -50,7 +50,7 @@ content_process:
     4. **Passez une commande en volume** — production avec inspection en 7 étapes pendant le processus et traçabilité de lot.
     5. **Expédition et support** — expédition FOB Qingdao, registre de documents, garantie et service de réapprovisionnement.
 cta:
-  title: 'Démarrez votre projet de serre-joints'
+  title: 'Démarrez votre projet d''étaux d''établi'
   subtitle: 'Parlez-nous de votre marché cible, de la quantité et de la spécification, et nous répondrons avec une proposition en quelques jours ouvrés.'
   actions:
     - variant: primary

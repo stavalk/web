@@ -1,23 +1,23 @@
 ﻿meta:
-  title: 'Garantie de serre-joint — Limitée 1 et 2 ans | {SITE}'
-  description: 'Garantie de serre-joint Stavalk et support après-vente pour serre-joints OEM et marque privée. Notre engagement qualité pour un usage commercial et domestique.'
+  title: 'Garantie d''étau d''établi — Limitée 1 et 2 ans | {SITE}'
+  description: 'Garantie d''étau d''établi Stavalk et support après-vente pour étaux d''établi OEM et marque privée. Notre engagement qualité pour un usage commercial et domestique.'
   dateModified: '2026-09-01'
   keywords:
-    - 'garantie serre-joint'
+    - 'garantie étau d''établi'
     - 'garantie étau réglable'
-    - 'support après-vente serre-joint'
-    - 'garantie serre-joint oem'
-label: 'Garantie'
-headline: 'Garantie de serre-joint et support après-vente'
-subtitle: 'Stavalk soutient la qualité de chaque serre-joint que nous fabriquons. Cette Garantie Limitée définit les termes et la couverture de votre produit Stavalk.'
+    - 'support après-vente étau d''établi'
+    - 'garantie étau d''établi oem'
+  label: 'Garantie'
+headline: 'Garantie d''étau d''établi et support après-vente'
+subtitle: 'Stavalk soutient la qualité de chaque étau d''établi que nous fabriquons. Cette Garantie Limitée définit les termes et la couverture de votre produit Stavalk.'
 seo:
-  headline: 'Garantie de serre-joint Stavalk — Garantie limitée 1 et 2 ans | Stavalk'
-  description: 'Stavalk offre une garantie limitée sur la structure et les composants du serre-joint. 1 an sur les défauts de matériaux ou de fabrication pour un usage commercial, 2 ans pour un usage domestique de loisir. Termes et conditions complets de la garantie de serre-joint Stavalk.'
+  headline: 'Garantie d''étau d''établi Stavalk — Garantie limitée 1 et 2 ans | Stavalk'
+  description: 'Stavalk offre une garantie limitée sur la structure et les composants de l''étau d''établi. 1 an sur les défauts de matériaux ou de fabrication pour un usage commercial, 2 ans pour un usage domestique de loisir. Termes et conditions complets de la garantie d''étau d''établi Stavalk.'
   datePublished: '2024-01-01'
   dateModified: '2026-06-01'
 body: |
   <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
-    Cette Garantie Limitée s'applique aux nouveaux serre-joints Stavalk achetés directement auprès de Stavalk ou d'un revendeur ou distributeur agréé Stavalk. La date d'entrée en vigueur est la date vérifiable d'achat d'origine.
+    Cette Garantie Limitée s'applique aux nouveaux étaux d'établi Stavalk achetés directement auprès de Stavalk ou d'un revendeur ou distributeur agréé Stavalk. La date d'entrée en vigueur est la date vérifiable d'achat d'origine.
   </p>
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
@@ -37,7 +37,7 @@ body: |
 
   <h2>Ce qui est couvert</h2>
   <h3>Structure du corps (2 ans domestique / 1 an commercial)</h3>
-  <p>Stavalk garantit la structure du corps du serre-joint —y compris le corps en fonte grise HT200/HT250, l'arbre en acier forgé 45# et le canal de glissement— contre toute défaillance structurelle due à des défauts de matériaux ou de fabrication.</p>
+  <p>Stavalk garantit la structure du corps de l'étau d'établi —y compris le corps en fonte grise HT200/HT250, l'arbre en acier forgé 45# et le canal de glissement— contre toute défaillance structurelle due à des défauts de matériaux ou de fabrication.</p>
 
   <h3>Faces de mâchoire et inserts trempés</h3>
   <p>Les faces de mâchoire trempées GCr15/Cr12MoV (58–62 HRC) sont garanties contre les défauts de fabrication provoquant une fissuration prématurée ou une usure excessive en usage normal.</p>
@@ -77,12 +77,12 @@ body: |
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
     <h2 class="text-xl font-bold mb-3">Appuyé par un système qualité documenté</h2>
-    <p class="text-sm text-gray-600 dark:text-gray-400">Chaque serre-joint est testé avant l'emballage — force de serrage, dureté de mâchoire, couple de pivotage et durabilité de 10 000+ cycles sont enregistrés par lot, et les lots conservent une traçabilité ERP sur 10 ans. Les réclamations de garantie sont traitées sur la base de ces enregistrements de lot, pas de suppositions. Voir le <a href="/fr/quality" class="text-sky-600 underline">système qualité complet</a> et télécharger les <a href="https://assets.Stavalk.com/site/downloads/STAVALK_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">rapports d'inspection finale</a>.</p>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Chaque étau d'établi est testé avant l'emballage — force de serrage, dureté de mâchoire, couple de pivotage et durabilité de 10 000+ cycles sont enregistrés par lot, et les lots conservent une traçabilité ERP sur 10 ans. Les réclamations de garantie sont traitées sur la base de ces enregistrements de lot, pas de suppositions. Voir le <a href="/fr/quality" class="text-sky-600 underline">système qualité complet</a> et télécharger les <a href="https://assets.Stavalk.com/site/downloads/STAVALK_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">rapports d'inspection finale</a>.</p>
   </div>
 
   <h2>Articles tiers</h2>
   <p>Les équipements, composants ou systèmes fabriqués par des tiers (même s'ils sont installés par Stavalk) sont couverts exclusivement par la garantie offerte par leur fabricant respectif. Stavalk décline expressément toute responsabilité de garantie pour ces articles tiers.</p>
 
   <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
-    Cette déclaration de garantie est un résumé de la Garantie Limitée complète du fabricant Stavalk. Le document légal complet de la garantie régit tous les termes et conditions. Les spécifications peuvent changer sans préavis. Stavalk est un fabricant de serre-joints à Jimo, Qingdao, Chine.
+    Cette déclaration de garantie est un résumé de la Garantie Limitée complète du fabricant Stavalk. Le document légal complet de la garantie régit tous les termes et conditions. Les spécifications peuvent changer sans préavis. Stavalk est un fabricant d'étaux d'établi à Jimo, Qingdao, Chine.
   </p>

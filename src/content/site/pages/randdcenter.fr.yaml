@@ -1,16 +1,16 @@
 ﻿meta:
-  title: 'Centre de R&D — Ingénierie et laboratoire de matériaux des serre-joints | {SITE}'
-  description: 'R&D Stavalk : science des matériaux, ingénierie de coulée et traitement thermique, et développement de serre-joints personnalisés. Les ressources d''ingénierie derrière chaque série de serre-joints.'
+  title: 'Centre de R&D — Ingénierie et laboratoire de matériaux des étaux d''établi | {SITE}'
+  description: 'R&D Stavalk : science des matériaux, ingénierie de coulée et traitement thermique, et développement d''étaux d''établi personnalisés. Les ressources d''ingénierie derrière chaque série d''étaux d''établi.'
   dateModified: '2026-09-01'
   keywords:
-    - 'R&D serre-joints'
-    - 'ingénierie serre-joints'
-    - 'développement serre-joints'
+    - 'R&D étaux d''établi'
+    - 'ingénierie étaux d''établi'
+    - 'développement étaux d''établi'
     - 'centre de R&D Stavalk'
 hero:
   tagline: Centre de R&D
   title: Ingénierie, matériaux et conception au même endroit
-  subtitle: Le centre de R&D de Stavalk développe des serre-joints grâce à l''ingénierie de coulée, la métallurgie du traitement thermique et la conception mécanique — transformant l''esquisse d''un acheteur en une série certifiée et productive.
+  subtitle: Le centre de R&D de Stavalk développe des étaux d'établi grâce à l'ingénierie de coulée, la métallurgie du traitement thermique et la conception mécanique — transformant l'esquisse d'un acheteur en une série certifiée et productive.
   actions:
     - variant: primary
       text: Démarrer un projet de développement
@@ -20,11 +20,11 @@ intro:
   body: |
     Le centre de R&D de Stavalk se trouve dans notre usine à Qingdao, en Chine, de sorte que les équipes de conception, de prototypage et de production travaillent sur le même étage. Les ingénieurs couvrent la conception de coulée, la programmation CNC, le traitement thermique et la finition de surface, ainsi que le laboratoire de métrologie qui vérifie chaque prototype par rapport à la spécification.
 
-    Le centre soutient à la fois nos cinq séries standard de serre-joints et les projets OEM personnalisés — d''un simple changement de largeur de mâchoire à une gamme industrielle entièrement co-développée.
+    Le centre soutient à la fois nos cinq séries standard d'étaux d'établi et les projets OEM personnalisés — d'un simple changement de largeur de mâchoire à une gamme industrielle entièrement co-développée.
 mission:
   title: Mission
   body: |
-    Transformer les exigences des clients en serre-joints qui maintiennent le travail en toute sécurité, durent des années d''usage en atelier et expédient avec une qualité entièrement documentée. Nous concevons pour la performance de serrage, la dureté de mâchoire et la résistance à la corrosion tout en gardant le développement en marque privée rentable et rapide.
+    Transformer les exigences des clients en étaux d'établi qui maintiennent le travail en toute sécurité, durent des années d'usage en atelier et expédient avec une qualité entièrement documentée. Nous concevons pour la performance de serrage, la dureté de mâchoire et la résistance à la corrosion tout en gardant le développement en marque privée rentable et rapide.
 pillars:
   title: Piliers d''ingénierie
   subtitle: Les quatre principes qui guident chaque projet.
@@ -58,7 +58,7 @@ rd_numbers:
       label: Séries standard
       detail: Léger, moyen, lourd, tuberie et précision
     - value: 80,000+
-      label: Serre-joints par an
+      label: Étaux d'établi par an
       detail: Capacité de l''usine
     - value: 200+
       label: Ouvriers
@@ -83,7 +83,7 @@ rd_services:
 vision:
   title: Vision
   body: |
-    Être le partenaire de R&D de serre-joints privilégié des marques de maintien du travail dans le monde entier — combinant fabrication certifiée avec la profondeur d''ingénierie pour construire leur produit exact, à chaque fois.
+    Être le partenaire de R&D d'étaux d'établi privilégié des marques de maintien du travail dans le monde entier — combinant fabrication certifiée avec la profondeur d'ingénierie pour construire leur produit exact, à chaque fois.
 labs_section:
   title: Laboratoires et équipements
   subtitle: Installations internes qui maintiennent un développement rapide et une qualité documentée.

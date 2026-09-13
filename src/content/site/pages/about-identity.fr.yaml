@@ -1,16 +1,16 @@
 ﻿meta:
   title: 'À propos — Identité, mission et portée de fabrication de Stavalk | {SITE}'
-  description: 'Qui est Stavalk : un fabricant de serre-joints à Qingdao, en Chine, avec 8 000 m² de surface, plus de 200 ouvriers et plus de 80 000 serre-joints produits chaque année.'
+  description: 'Qui est Stavalk : un fabricant d''étaux d''établi à Qingdao, en Chine, avec 8 000 m² de surface, plus de 200 ouvriers et plus de 80 000 étaux d''établi produits chaque année.'
   dateModified: '2026-09-01'
   keywords:
     - 'à propos de Stavalk'
-    - 'fabricant serre-joints Qingdao'
+    - 'fabricant étaux d''établi Qingdao'
     - 'entreprise Stavalk'
-    - 'producteur serre-joints Chine'
+    - 'producteur étaux d''établi Chine'
 hero:
   tagline: À propos de Stavalk
-  title: Un fabricant de serre-joints bâti sur la précision
-  subtitle: Stavalk conçoit et produit des serre-joints à Qingdao, en Chine — de la coulée et du traitement thermique à l''usinage, au revêtement et à l''inspection finale sous un même toit.
+  title: Un fabricant d'étaux d'établi bâti sur la précision
+  subtitle: Stavalk conçoit et produit des étaux d'établi à Qingdao, en Chine — de la coulée et du traitement thermique à l'usinage, au revêtement et à l'inspection finale sous un même toit.
   actions:
     - variant: primary
       text: Notre histoire
@@ -19,7 +19,7 @@ hero:
       href: /fr/products
 answer:
   label: En bref
-  text: Stavalk est un fabricant professionnel de serre-joints à Qingdao, en Chine, exploitant une usine de 8 000 m² avec plus de 200 ouvriers et une capacité de plus de 80 000 serre-joints par an dans les séries léger, moyen, lourd, tuberie et précision — certifié CE, ISO 9001:2015, ISO 14001 et RoHS.
+  text: Stavalk est un fabricant professionnel d'étaux d'établi à Qingdao, en Chine, exploitant une usine de 8 000 m² avec plus de 200 ouvriers et une capacité de plus de 80 000 étaux d'établi par an dans les séries léger, moyen, lourd, tuberie et précision — certifié CE, ISO 9001:2015, ISO 14001 et RoHS.
   verified: '2026-09-01'
 identity_detail:
   title: Qui nous sommes
@@ -36,7 +36,7 @@ identity_detail:
 manufacturing_scope:
   title: Portée de fabrication
   body: |
-    L''usine de Stavalk couvre toute la chaîne de production des serre-joints :
+    L'usine de Stavalk couvre toute la chaîne de production des étaux d'établi :
 
     - **Coulée** — corps en fonte grise HT200/HT250 via les lignes de sable vert et aggloméré, validés par spectromètre.
     - **Usinage** — faces de mâchoire, vis et bases sur tours et centres de fraisage CNC avec dimensions vérifiées par CMM.
@@ -63,13 +63,13 @@ faqs:
     - q: Où se trouve Stavalk ?
       a: Stavalk exploite une usine de 8 000 m² à Qingdao, en Chine, couvrant la coulée, l''usinage, le traitement thermique, le revêtement et le montage.
     - q: Que fabrique Stavalk ?
-      a: Des serre-joints dans les séries léger, moyen, lourd, tuberie et précision, plus le développement OEM et en marque privée personnalisé.
+      a: Des étaux d'établi dans les séries léger, moyen, lourd, tuberie et précision, plus le développement OEM et en marque privée personnalisé.
     - q: Quelle est votre capacité de production ?
-      a: Plus de 80 000 serre-joints par an, avec plus de 200 ouvriers en production.
+      a: Plus de 80 000 étaux d'établi par an, avec plus de 200 ouvriers en production.
     - q: Soutenez-vous l''OEM et la marque privée ?
       a: Oui — des séries standard sous votre marque ou des modèles co-développés personnalisés, avec échantillons en 7–14 jours et commandes en volume en 25–35 jours.
 cta:
-  title: 'Travaillez avec un fabricant de serre-joints que vous pouvez auditer'
+  title: 'Travaillez avec un fabricant d''étaux d''établi que vous pouvez auditer'
   subtitle: 'Visitez l''usine, consultez les preuves ou démarrez un projet — notre équipe à Qingdao est prête à vous aider.'
   actions:
     - variant: primary

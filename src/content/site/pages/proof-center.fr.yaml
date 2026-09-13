@@ -3,10 +3,10 @@
   description: 'Centre de preuves Stavalk : chaîne d''entités, statistiques d''usine vérifiables, certificats et portée, dossiers de preuves, traçabilité de lots et FAQ acheteurs — tout est auditable à Qingdao, en Chine.'
   dateModified: '2026-09-01'
   keywords:
-    - 'preuves usine serre-joints'
+    - 'preuves usine étaux d''établi'
     - 'statistiques usine vérifiables'
     - 'certification Stavalk'
-    - 'audit serre-joints'
+    - 'audit étaux d''établi'
 hero:
   tagline: Centre de preuves
   title: Des preuves que vous pouvez vérifier
@@ -17,7 +17,7 @@ hero:
       href: /fr/factory-audit-checklist
 answer:
   label: Réponse directe
-  text: Stavalk est un fabricant de serre-joints avec usine à Qingdao, en Chine, avec 8 000 m² d''installations, plus de 200 ouvriers et plus de 80 000 serre-joints par an. Toutes les affirmations de certification, de capacité et de qualité sont appuyées par des enregistrements de production horodatés, des rapports de laboratoire et des options d''inspection tierces accessibles aux acheteurs.
+  text: Stavalk est un fabricant d'étaux d'établi avec usine à Qingdao, en Chine, avec 8 000 m² d'installations, plus de 200 ouvriers et plus de 80 000 étaux d'établi par an. Toutes les affirmations de certification, de capacité et de qualité sont appuyées par des enregistrements de production horodatés, des rapports de laboratoire et des options d'inspection tierces accessibles aux acheteurs.
   verified: '2026-09-01'
 entities:
   title: Une chaîne légale, une usine
@@ -41,7 +41,7 @@ proof_stats:
       label: Ouvriers
       detail: Production et qualité
     - value: 80,000+
-      label: Serre-joints par an
+      label: Étaux d'établi par an
       detail: Capacité de l''usine
     - value: 7
       label: Étapes de contrôle qualité
