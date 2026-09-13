@@ -117,6 +117,7 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
   expect(gatePath('/guides/sup-yoga')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/knowledge' })
+  expect(gatePath('/fr/research')).toEqual({ action: 'redirect', to: '/fr/knowledge' })
   expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/solutions' })
   expect(gatePath('/use-cases/disaster-relief')).toEqual({
     action: 'redirect',
