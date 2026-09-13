@@ -32,7 +32,7 @@ features:
     - title: Graphismes et marque
       description: 'Finition de surface, couleur de peinture, placement du logo et emballage retail développés par notre équipe de design interne autour de votre marque.'
       icon: 'tabler:palette'
-    - title: Développement de gabarit et d''outillage
+    - title: Développement de gabarit et d'outillage
       description: 'Nouveaux corps moulés commencent par un outillage de gabarit conçu et découpé en interne - l''outillage ajoute 15-20 jours au calendrier du projet.'
       icon: 'tabler:shapes'
     - title: Validation du prototype
@@ -41,7 +41,7 @@ features:
     - title: Tests et conformité
       description: 'Essais par unité de force de serrage, dureté de mâchoire, couple de rotation, plus de 10 000 cycles de durabilité et plus de 48 heures de brouillard salin, avec documentation CE, ISO 9001:2015, ISO 14001 et RoHS pour l''export.'
       icon: 'tabler:certificate'
-    - title: Options de propriété de l''outillage
+    - title: Options de propriété de l'outillage
       description: 'Clauses de propriété ou de rachat du gabarit écrites dans le contrat - votre design reste le vôtre, et l''outillage est conservé pour les ré-commandes.'
       icon: 'tabler:lock'
     - title: Du prototype à la commande expédiée
@@ -66,9 +66,9 @@ faq_section:
   tagline: FAQ
   title: Questions sur le développement ODM
   questions:
-    - q: En quoi l''ODM diffère-t-il de l''OEM ?
+    - q: En quoi l'ODM diffère-t-il de l'OEM ?
       a: 'ODM (Fabrication de design original) part de votre brief - nos ingénieurs développent la structure du corps, la spécification de mâchoire, la finition et l''emballage, que ce soit à partir d''un concept de marché, d''un objectif de performance ou d''une adaptation d''une plateforme éprouvée. Vous approuvez le design avant la production. OEM (Fabrication d''équipement d''origine) fabrique selon votre spécification approuvée - vos dessins, dimensions, matériaux et emballage. Vous possédez le design et la propriété intellectuelle. Les deux passent par la même usine, le même système de QC et la même équipe d''export ; ODM est la voie la plus rapide vers un étau marqué quand vous n''avez pas encore de design.'
-    - q: Je n''ai qu''une idée grossière - par où commençons-nous ?
+    - q: Je n'ai qu'une idée grossière - par où commençons-nous ?
       a: 'Envoyez un court brief : applications cibles, cas d''usage, gamme de tailles, marchés et volumes. Nos ingénieurs reviennent avec un concept, une direction d''étau de référence et un plan de développement sous un jour ouvré - une NDA est signée avant tout échange détaillé sur demande.'
     - q: Combien de temps faut-il pour développer un nouvel étau à main ?
       a: 'Les échantillons de prototype partent en 7-12 jours. Un nouveau corps avec outillage de gabarit personnalisé ajoute 15-20 jours d''ingénierie avant les échantillons. La production s''exécute en 25-35 jours après le bon de commande et l''acompte.'
@@ -76,9 +76,9 @@ faq_section:
       a: 'La production en volume standard s''exécute à 50-200 unités par lot pour des étaux de gamme moyenne ; les séries pilotes démarrent à 20-50 unités sur les plateformes existantes. Les étaux lourds et spéciaux s''exécutent à 20-50 unités minimum. Voir notre Guide MOQ & Marque Flexible pour le calcul complet.'
     - q: Qui possède le design et le gabarit ?
       a: 'Votre brief, votre design et votre outillage sont protégés par NDA, conditions de licence de marque et clauses de propriété ou de rachat du gabarit écrites dans le contrat. L''outillage est conservé pour votre marque et transférable.'
-    - q: Pouvez-vous développer un type d''étau spécifique (lourd, à tuyaux, spécialisé) ?
+    - q: Pouvez-vous développer un type d'étau spécifique (lourd, à tuyaux, spécialisé) ?
       a: 'Oui. Notre ingénierie couvre toutes les catégories principales d''étaux - légère (2"-5"), moyenne (6"-8"), lourde (8"-10"), à tuyaux et configurations spéciales - avec validation de la force de serrage et de la durabilité pour chacune.'
-    - q: Quelles certifications l''étau développé portera-t-il ?
+    - q: Quelles certifications l'étau développé portera-t-il ?
       a: 'CE (EN ISO 12100, Directive Machines 2006/42/CE), ISO 9001:2015, ISO 14001 et RoHS. Les documents de certification sont préparés par commande pour vos marchés d''export.'
 
 process:
@@ -125,7 +125,7 @@ process:
 
 geo:
   tagline: Avec qui nous travaillons
-  title: Partenaires ODM dans toute l''industrie de l''étau
+  title: Partenaires ODM dans toute l'industrie de l'étau
   sentence: 'ODM chez Stavalk associe votre brief à la même équipe d''ingénieurs, de designers et de production qui a fabriqué des étaux pour ces types d''entreprises - voici qui nous servons.'
   audiences:
     - 'Marques d''outillage et de quincaillerie'
@@ -142,9 +142,9 @@ cta:
       href: /fr/contact#custom-oem
     - text: Voir le pipeline de développement produit en six étapes
       href: /fr/product-development
-    - text: Vérifier l''usine et le système qualité
+    - text: Vérifier l'usine et le système qualité
       href: /fr/oem-trust-assurance
     - text: Guide MOQ & marque flexible
       href: /fr/oem-moq-guide
-    - text: Comparaison des Séries d''Étaux
+    - text: Comparaison des Séries d'Étaux
       href: /fr/products

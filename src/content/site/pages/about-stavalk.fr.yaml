@@ -20,9 +20,9 @@ hero:
       variant: secondary
 intro: |
   <p><strong>Stavalk</strong> est un fabricant d'étaux d'établi basé à Jimo, Qingdao, Shandong, Chine. Depuis une installation de production de 8 000 m², l'entreprise fabrique des étaux d'établi allant des modèles légers de 4″ aux étaux d'établi industriels de 10″, ainsi que des étaux d'établi à tuberie et des outils de maintien spécialisés.</p>
-  <p>Chaque projet Stavalk —d''un premier échantillon à la production OEM en volume— est fabriqué dans la même installation, par les mêmes équipes et sous le même système qualité décrit ici. Nous fabriquons exclusivement pour nos clients et ne les concurrençons jamais sous notre propre marque.</p>
-  <p>L''usine couvre 8 000 m² avec des ateliers dédiés à la coulée en sable vert et sable aggloméré, l''usinage CNC et conventionnel, le traitement thermique, le revêtement de surface et l''assemblage. La capacité annuelle dépasse 80 000 étaux d'établi, et l'installation fonctionne sous un système de management de la qualité ISO 9001:2015 avec conformité CE (EN ISO 12100, Directive Machines 2006/42/CE) et RoHS.</p>
-  <p>Plus de 200 ouvriers qualifiés et une équipe R&D dédiée soutiennent toute la chaîne de production : coulée de corps en fonte grise HT200/HT250, usinage d''arbres en acier forgé 45#, trempe des mâchoires en acier GCr15/Cr12MoV à 58–62 HRC, application de revêtements de surface et inspection en 7 étapes avant expédition.</p>
+  <p>Chaque projet Stavalk —d'un premier échantillon à la production OEM en volume— est fabriqué dans la même installation, par les mêmes équipes et sous le même système qualité décrit ici. Nous fabriquons exclusivement pour nos clients et ne les concurrençons jamais sous notre propre marque.</p>
+  <p>L'usine couvre 8 000 m² avec des ateliers dédiés à la coulée en sable vert et sable aggloméré, l'usinage CNC et conventionnel, le traitement thermique, le revêtement de surface et l'assemblage. La capacité annuelle dépasse 80 000 étaux d'établi, et l'installation fonctionne sous un système de management de la qualité ISO 9001:2015 avec conformité CE (EN ISO 12100, Directive Machines 2006/42/CE) et RoHS.</p>
+  <p>Plus de 200 ouvriers qualifiés et une équipe R&D dédiée soutiennent toute la chaîne de production : coulée de corps en fonte grise HT200/HT250, usinage d'arbres en acier forgé 45#, trempe des mâchoires en acier GCr15/Cr12MoV à 58–62 HRC, application de revêtements de surface et inspection en 7 étapes avant expédition.</p>
 stats:
   title: Stavalk en chiffres
   stats:
@@ -41,21 +41,21 @@ stats:
 factory_details:
   title: Capacité de fabrication
   body: |
-    L''usine Stavalk exploite cinq ateliers spécialisés sous un même toit :
+    L'usine Stavalk exploite cinq ateliers spécialisés sous un même toit :
 
-    - **Atelier de coulée** : Lignes de coulée en sable vert et sable aggloméré versant 100% HT200/HT250 selon spécification, avec vérification spectrométrique de la composition de l''alliage.
-    - **Atelier d''usinage** : Tours et centres de fraisage CNC pour les faces de mâchoire, les arbres et les bases, plus l''usinage conventionnel pour les opérations secondaires.
-    - **Atelier de traitement thermique** : Lignes de trempe à l''huile et de revenu produisant une dureté de mâchoire de 58–62 HRC sur acier trempé GCr15 et Cr12MoV.
+    - **Atelier de coulée** : Lignes de coulée en sable vert et sable aggloméré versant 100% HT200/HT250 selon spécification, avec vérification spectrométrique de la composition de l'alliage.
+    - **Atelier d'usinage** : Tours et centres de fraisage CNC pour les faces de mâchoire, les arbres et les bases, plus l'usinage conventionnel pour les opérations secondaires.
+    - **Atelier de traitement thermique** : Lignes de trempe à l'huile et de revenu produisant une dureté de mâchoire de 58–62 HRC sur acier trempé GCr15 et Cr12MoV.
     - **Atelier de revêtement** : Lignes de peinture par pulvérisation, revêtement en poudre et Parkerizing pour la protection contre la corrosion et la qualité de finition.
-    - **Assemblage et essai** : Lignes d''assemblage manuel avec stations de presse hydraulique pour vérification de la force de serrage, contrôle du couple de pivotage et essais de durabilité de 10 000+ cycles.
+    - **Assemblage et essai** : Lignes d'assemblage manuel avec stations de presse hydraulique pour vérification de la force de serrage, contrôle du couple de pivotage et essais de durabilité de 10 000+ cycles.
 factory_section:
-  title: L''usine en un coup d''œil
+  title: L'usine en un coup d'œil
   body: |
-    L'installation de Jimo, Qingdao est spécifiquement conçue pour la production d'étaux d'établi. Les matières premières —fonte grise HT200/HT250, acier forgé 45#, acier de mâchoire GCr15 et Cr12MoV— proviennent d''aciéries chinoises certifiées et sont vérifiées par spectromètre à leur réception.
+    L'installation de Jimo, Qingdao est spécifiquement conçue pour la production d'étaux d'établi. Les matières premières —fonte grise HT200/HT250, acier forgé 45#, acier de mâchoire GCr15 et Cr12MoV— proviennent d'aciéries chinoises certifiées et sont vérifiées par spectromètre à leur réception.
 
-    Les inspections tierces de SGS, TÜV, Bureau Veritas et Intertek sont les bienvenues et facilitées régulièrement. Les acheteurs reçoivent un dossier documentaire complet avec chaque expédition : certificat de conformité, certificat de matière, rapport dimensionnel et enregistrements d''inspection.
+    Les inspections tierces de SGS, TÜV, Bureau Veritas et Intertek sont les bienvenues et facilitées régulièrement. Les acheteurs reçoivent un dossier documentaire complet avec chaque expédition : certificat de conformité, certificat de matière, rapport dimensionnel et enregistrements d'inspection.
 values_section:
-  title: Comment l''usine travaille avec les marques
+  title: Comment l'usine travaille avec les marques
   subtitle: 'Trois principes qui façonnent chaque projet construit par Stavalk.'
   columns: 3
   items:
@@ -69,7 +69,7 @@ values_section:
       description: 'Le MOQ standard commence à 50–200 pièces ; les étaux d''établi lourds et spéciaux à partir de 20–50 pièces. Les échantillons sont expédiés en 7–14 jours, la production en volume en 25–35 jours, pour que les marques valident le marché avant de s''engager sur le volume complet.'
       icon: 'tabler:layers-intersect'
 services_section:
-  title: Ce que livre l''usine
+  title: Ce que livre l'usine
   subtitle: 'Services de fabrication disponibles pour les clients de Stavalk.'
   columns: 2
   items:
@@ -118,7 +118,7 @@ values:
     - title: Intégrité des matériaux
       description: 'Fonte grise HT200/HT250, acier forgé 45#, mâchoires trempées GCr15/Cr12MoV — aucun compromis sur les matériaux, jamais.'
       icon: 'tabler:metal'
-    - title: Confidentialité de l''acheteur
+    - title: Confidentialité de l'acheteur
       description: 'Nous ne vendons jamais sous notre propre marque. Chaque étau d''établi porte votre identité. Vos designs et spécifications sont protégés par NDA.'
       icon: 'tabler:lock'
     - title: Amélioration continue

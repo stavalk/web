@@ -27,7 +27,7 @@ identity_detail:
   items:
     - title: Production en usine
       description: Coulée, usinage, traitement thermique, revêtement et montage se déroulent dans notre propre installation de 8 000 m² à Qingdao, en Chine.
-    - title: Profondeur d''ingénierie
+    - title: Profondeur d'ingénierie
       description: Un centre de R&D interne couvre la conception de coulée, la programmation CNC, la métallurgie et les essais.
     - title: Qualité certifiée
       description: CE (EN ISO 12100, MD 2006/42/CE), ISO 9001:2015, ISO 14001 et RoHS dans toute la ligne de production.
@@ -40,7 +40,7 @@ manufacturing_scope:
 
     - **Coulée** — corps en fonte grise HT200/HT250 via les lignes de sable vert et aggloméré, validés par spectromètre.
     - **Usinage** — faces de mâchoire, vis et bases sur tours et centres de fraisage CNC avec dimensions vérifiées par CMM.
-    - **Traitement thermique** — mâchoires en acier GCr15/Cr12MoV trempées à l''huile et revenues à 58–62 HRC.
+    - **Traitement thermique** — mâchoires en acier GCr15/Cr12MoV trempées à l'huile et revenues à 58–62 HRC.
     - **Revêtement** — peinture par pulvérisation, revêtement en poudre et Parkerizing avec essais au brouillard salin de plus de 48 heures.
     - **Inspection** — un parcours qualité en 7 étapes avec traçabilité de lot et options tierces.
 
@@ -48,11 +48,11 @@ manufacturing_scope:
 brand_positioning:
   title: Positionnement de marque
   body: |
-    Stavalk se positionne comme une source OEM fiable et certifiée pour les marques et distributeurs de maintien du travail — pas un revendeur, mais l''usine qui conçoit, coule, usine et teste le produit. Nous nous distinguons par la profondeur d''ingénierie, la qualité documentée et le développement en marque privée réactif, avec des échantillons en 7–14 jours et des commandes en volume en 25–35 jours, FOB Qingdao.
+    Stavalk se positionne comme une source OEM fiable et certifiée pour les marques et distributeurs de maintien du travail — pas un revendeur, mais l'usine qui conçoit, coule, usine et teste le produit. Nous nous distinguons par la profondeur d'ingénierie, la qualité documentée et le développement en marque privée réactif, avec des échantillons en 7–14 jours et des commandes en volume en 25–35 jours, FOB Qingdao.
 evidence_review:
   title: Preuves et vérification
   body: |
-    Les affirmations ci-dessus sont appuyées par des preuves d''usine vérifiables : JSON de données de fabrication, JSON de données de certification, photos de production horodatées et rapports d''inspection tiers. Les acheteurs peuvent auditer ces enregistrements directement ou via notre centre de preuves :
+    Les affirmations ci-dessus sont appuyées par des preuves d'usine vérifiables : JSON de données de fabrication, JSON de données de certification, photos de production horodatées et rapports d'inspection tiers. Les acheteurs peuvent auditer ces enregistrements directement ou via notre centre de preuves :
 
     - [Centre de preuves](/fr/proof-center)
     - [Certifications](/fr/quality)
@@ -61,12 +61,12 @@ faqs:
   title: Questions fréquentes
   questions:
     - q: Où se trouve Stavalk ?
-      a: Stavalk exploite une usine de 8 000 m² à Qingdao, en Chine, couvrant la coulée, l''usinage, le traitement thermique, le revêtement et le montage.
+      a: Stavalk exploite une usine de 8 000 m² à Qingdao, en Chine, couvrant la coulée, l'usinage, le traitement thermique, le revêtement et le montage.
     - q: Que fabrique Stavalk ?
       a: Des étaux d'établi dans les séries léger, moyen, lourd, tuberie et précision, plus le développement OEM et en marque privée personnalisé.
     - q: Quelle est votre capacité de production ?
       a: Plus de 80 000 étaux d'établi par an, avec plus de 200 ouvriers en production.
-    - q: Soutenez-vous l''OEM et la marque privée ?
+    - q: Soutenez-vous l'OEM et la marque privée ?
       a: Oui — des séries standard sous votre marque ou des modèles co-développés personnalisés, avec échantillons en 7–14 jours et commandes en volume en 25–35 jours.
 cta:
   title: 'Travaillez avec un fabricant d''étaux d''établi que vous pouvez auditer'

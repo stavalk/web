@@ -10,10 +10,10 @@
 hero:
   tagline: Centre de preuves
   title: Des preuves que vous pouvez vérifier
-  subtitle: Chaque affirmation de Stavalk sur son usine, sa capacité, ses certifications et sa qualité est appuyée par des documents, des photos et des enregistrements d''essais que vous pouvez auditer — sans boîtes noires.
+  subtitle: Chaque affirmation de Stavalk sur son usine, sa capacité, ses certifications et sa qualité est appuyée par des documents, des photos et des enregistrements d'essais que vous pouvez auditer — sans boîtes noires.
   actions:
     - variant: primary
-      text: Démarrer un audit d''usine
+      text: Démarrer un audit d'usine
       href: /fr/factory-audit-checklist
 answer:
   label: Réponse directe
@@ -24,25 +24,25 @@ entities:
   subtitle: Trois noms commerciaux, une entité propriétaire — pour que les marchandises, les documents et les responsabilités correspondent.
   items:
     - title: Entité de fabrication
-      description: L''usine de Qingdao possède la coulée, l''usinage, le traitement thermique, le revêtement et le montage.
+      description: L'usine de Qingdao possède la coulée, l'usinage, le traitement thermique, le revêtement et le montage.
     - title: Entité commerciale
-      description: Gère la documentation d''exportation, les factures et la communication avec les acheteurs de la même usine.
+      description: Gère la documentation d'exportation, les factures et la communication avec les acheteurs de la même usine.
     - title: Marque enregistrée
       description: La marque sous laquelle les séries standard et les commandes de marque privée sont expédiées.
     - title: Une seule chaîne
-      description: Les trois noms relèvent d''une seule propriété légale, gardant responsabilité, qualité et traçabilité alignées.
+      description: Les trois noms relèvent d'une seule propriété légale, gardant responsabilité, qualité et traçabilité alignées.
 proof_stats:
-  title: Statistiques d''usine vérifiables
+  title: Statistiques d'usine vérifiables
   items:
     - value: 8 000 m²
-      label: Surface d''usine
+      label: Surface d'usine
       detail: Coulée, usinage, revêtement et montage sous un même toit
     - value: 200+
       label: Ouvriers
       detail: Production et qualité
     - value: 80,000+
       label: Étaux d'établi par an
-      detail: Capacité de l''usine
+      detail: Capacité de l'usine
     - value: 7
       label: Étapes de contrôle qualité
       detail: Inspection pendant le processus par commande
@@ -50,19 +50,19 @@ certifications:
   title: Certificats et portée
   body: |
     - **CE** — EN ISO 12100 et MD 2006/42/CE pour la sécurité des machines.
-    - **ISO 9001:2015** — système de management de la qualité dans toute l''usine.
+    - **ISO 9001:2015** — système de management de la qualité dans toute l'usine.
     - **ISO 14001** — management environnemental dans la fabrication.
     - **RoHS** — conformité aux substances restreintes.
 
     Les certificats scannés avec portée sont disponibles sur demande avant commande.
 evidence_gates:
   title: Dossiers de preuves
-  subtitle: Quatre catégories d''enregistrements audibles qu''un acheteur peut demander.
+  subtitle: Quatre catégories d'enregistrements audibles qu'un acheteur peut demander.
   items:
     - title: Équipements et installations
-      description: Photos du site, listes d''équipements de coulée et d''usinage, et documentation de ligne.
+      description: Photos du site, listes d'équipements de coulée et d'usinage, et documentation de ligne.
     - title: Jalons de production
-      description: Photos horodatées pendant le processus à la coulée, l''usinage, le traitement thermique et le revêtement.
+      description: Photos horodatées pendant le processus à la coulée, l'usinage, le traitement thermique et le revêtement.
     - title: Rapports de laboratoire
       description: Chimie par spectromètre, dureté Rockwell, force de serrage et résultats au brouillard salin.
     - title: Traçabilité
@@ -72,23 +72,23 @@ traceability:
   body: |
     Chaque commande porte une chaîne de traçabilité de la matière première au produit fini :
 
-    - **Réception des matériaux** — les grades de fonte grise et d''acier sont enregistrés avec certificat de conformité.
+    - **Réception des matériaux** — les grades de fonte grise et d'acier sont enregistrés avec certificat de conformité.
     - **Lot de coulée** — la validation par spectromètre et le numéro de coulée sont notés par lot.
     - **Usinage et traitement thermique** — les paramètres de processus et les résultats de dureté sont enregistrés par lot.
-    - **Inspection finale** — liste de contrôle en 7 étapes et enregistrements d''essais liés au lot d''expédition.
+    - **Inspection finale** — liste de contrôle en 7 étapes et enregistrements d'essais liés au lot d'expédition.
 
-    Les acheteurs ayant signé un accord peuvent demander des échantillons anonimisés d''enregistrements couvrant chaque jalon.
+    Les acheteurs ayant signé un accord peuvent demander des échantillons anonimisés d'enregistrements couvrant chaque jalon.
 faqs:
   title: Questions fréquentes
   questions:
-    - q: Puis-je visiter l''usine ?
-      a: Oui. Nous accueillons volontiers les visites et audits d''usine dans notre installation à Qingdao, en Chine.
+    - q: Puis-je visiter l'usine ?
+      a: Oui. Nous accueillons volontiers les visites et audits d'usine dans notre installation à Qingdao, en Chine.
     - q: Quelles preuves puis-je demander avant de commander ?
-      a: Certificats scannés, photos d''usine et d''équipements, rapports de laboratoire et enregistrements de traçabilité anonimisés.
-    - q: Qui effectue l''inspection tierce ?
-      a: SGS, TÜV, BV ou Intertek, organisée par vous ou par nous, à l''usine avant l''expédition.
+      a: Certificats scannés, photos d'usine et d'équipements, rapports de laboratoire et enregistrements de traçabilité anonimisés.
+    - q: Qui effectue l'inspection tierce ?
+      a: SGS, TÜV, BV ou Intertek, organisée par vous ou par nous, à l'usine avant l'expédition.
     - q: Les statistiques sont-elles vérifiées ?
-      a: La surface d''usine, l''effectif et la capacité sont documentés et corroborés lors des audits sur site.
+      a: La surface d'usine, l'effectif et la capacité sont documentés et corroborés lors des audits sur site.
 cta:
   title: 'Auditez les preuves vous-même'
   subtitle: 'Demandez des dossiers de preuves, réservez une visite d''usine ou démarrez une commande — notre équipe à Qingdao est prête à ouvrir les portes.'
@@ -96,5 +96,5 @@ cta:
     - variant: primary
       text: Demander des preuves
       href: /fr/contact
-    - text: Liste de contrôle d''audit d''usine
+    - text: Liste de contrôle d'audit d'usine
       href: /fr/factory-audit-checklist

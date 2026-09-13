@@ -10,20 +10,20 @@
 hero:
   tagline: Qualité et certifications
   title: Les normes selon lesquelles nous fabriquons
-  subtitle: Stavalk exploite un système qualité documenté selon CE, ISO 9001:2015, ISO 14001 et RoHS — soutenu par un parcours d''inspection en 7 étapes, des documents contrôlés et des essais tiers.
+  subtitle: Stavalk exploite un système qualité documenté selon CE, ISO 9001:2015, ISO 14001 et RoHS — soutenu par un parcours d'inspection en 7 étapes, des documents contrôlés et des essais tiers.
   actions:
     - variant: primary
       text: Voir les essais certifiés
       href: /fr/quality
 stats:
-  title: En un coup d''œil
+  title: En un coup d'œil
   items:
     - value: 4
       label: Normes actives
       detail: CE, ISO 9001, ISO 14001, RoHS
     - value: 7
       label: Étapes de contrôle qualité
-      detail: Parcours d''inspection par commande
+      detail: Parcours d'inspection par commande
     - value: 48h+
       label: Essai au brouillard salin
       detail: Durabilité du revêtement
@@ -37,7 +37,7 @@ quality_basis:
     - title: Grade de matériau
       description: Fonte grise HT200/HT250 et acier forgé 45# vérifiés par spectromètre avant usinage.
     - title: Dureté de mâchoire
-      description: Mâchoires GCr15/Cr12MoV trempées à l''huile et revenues à 58–62 HRC, vérifiées par Rockwell.
+      description: Mâchoires GCr15/Cr12MoV trempées à l'huile et revenues à 58–62 HRC, vérifiées par Rockwell.
     - title: Précision dimensionnelle
       description: Dimensions critiques vérifiées par CMM et pieds à coulisse par rapport au dessin approuvé.
     - title: Durabilité du revêtement
@@ -51,26 +51,26 @@ tests:
     - title: Essai de force de serrage
       description: Confirme que la vis et les mâchoires maintiennent la charge de travail nominale sans glissement ni déformation.
     - title: Essai de dureté de mâchoire
-      description: L''essai Rockwell vérifie 58–62 HRC sur toute la surface de mâchoire trempée.
+      description: L'essai Rockwell vérifie 58–62 HRC sur toute la surface de mâchoire trempée.
     - title: Essai de couple de pivotement
       description: Vérifie que la base pivote et se verrouille en douceur au couple spécifié.
     - title: Essai de durée de vie en cycle
-      description: Plus de 10 000 cycles d''ouverture/fermeture confirment la durée de vie de la vis et du coulisseau.
+      description: Plus de 10 000 cycles d'ouverture/fermeture confirment la durée de vie de la vis et du coulisseau.
     - title: Essai au brouillard salin
       description: Une exposition de plus de 48 heures confirme la résistance du revêtement et à la corrosion.
     - title: Conformité de sécurité
       description: Conçu selon CE conformément à EN ISO 12100 et MD 2006/42/CE.
 qc_flow:
-  title: Parcours d''inspection en 7 étapes
+  title: Parcours d'inspection en 7 étapes
   subtitle: Un parcours qualité documenté par commande avec enregistrements à chaque jalon.
-  obj_label: Objet d''inspection
-  method_label: Méthode d''inspection
-  criteria_label: Critère d''acceptation
+  obj_label: Objet d'inspection
+  method_label: Méthode d'inspection
+  criteria_label: Critère d'acceptation
   record_label: Enregistrement de sortie
   stages:
     - stage: '01'
       title: Matériaux entrants
-      summary: La fonte grise et l''acier bruts sont vérifiés par rapport aux certificats de matériaux.
+      summary: La fonte grise et l'acier bruts sont vérifiés par rapport aux certificats de matériaux.
       checks:
         - Grade et certificat de conformité vérifiés
         - Contrôle chimique par spectromètre sur les lots de fonte grise
@@ -89,18 +89,18 @@ qc_flow:
       criteria: Aucun défaut structurel ; dimensions selon dessin
       record: Enregistrement de lot de coulée
     - stage: '03'
-      title: Inspection d''usinage
-      summary: Faces de mâchoire, vis et bases vérifiées après l''usinage CNC.
+      title: Inspection d'usinage
+      summary: Faces de mâchoire, vis et bases vérifiées après l'usinage CNC.
       checks:
         - Dimensions critiques mesurées avec CMM/étalons
         - Finition de surface et ajustement vérifiés
       object: Pièces usinées
       method: Métrologie CMM + étalons
       criteria: Dans la tolérance du dessin
-      record: Enregistrement d''inspection d''usinage
+      record: Enregistrement d'inspection d'usinage
     - stage: '04'
       title: Traitement thermique
-      summary: Dureté de mâchoire vérifiée après trempe à l''huile et revenu.
+      summary: Dureté de mâchoire vérifiée après trempe à l'huile et revenu.
       checks:
         - Dureté Rockwell sur la surface de mâchoire trempée
         - Paramètres de processus du lot enregistrés
@@ -115,54 +115,54 @@ qc_flow:
         - Épaisseur et aspect du revêtement
         - Échantillonnage au brouillard salin pour la résistance à la corrosion
       object: Corps et mâchoires revêtus
-      method: Jauge d''épaisseur + brouillard salin
+      method: Jauge d'épaisseur + brouillard salin
       criteria: 48h+ sans échec
-      record: Enregistrement d''inspection du revêtement
+      record: Enregistrement d'inspection du revêtement
     - stage: '06'
       title: Montage et essai fonctionnel
       summary: Les étaux d'établi assemblés passent des essais fonctionnels et de performance.
       checks:
         - Force de serrage et couple de pivotement
-        - Essai de cycle d''ouverture/fermeture
+        - Essai de cycle d'ouverture/fermeture
       object: Étaux d'établi assemblés
       method: Essai fonctionnel sur banc
       criteria: Respecte la performance nominale
-      record: Enregistrement d''essai fonctionnel
+      record: Enregistrement d'essai fonctionnel
     - stage: '07'
       title: Inspection finale et emballage
-      summary: Étaux d'établi finis inspectés, emballés et prêts pour l''expédition.
+      summary: Étaux d'établi finis inspectés, emballés et prêts pour l'expédition.
       checks:
         - Contrôle cosmétique et de complétude
         - Emballage, marquage et documentation vérifiés
       object: Étaux d'établi finis
       method: Liste de contrôle qualité finale
       criteria: Prêt pour FOB Qingdao
-      record: Inspection finale et liste d''emballage
+      record: Inspection finale et liste d'emballage
 system_map:
   title: Carte du système qualité
-  subtitle: Les quatre normes qui structurent notre système qualité d''usine.
+  subtitle: Les quatre normes qui structurent notre système qualité d'usine.
   items:
     - title: CE — EN ISO 12100
       description: Conception de sécurité des machines et réduction des risques sur toute la gamme.
     - title: MD 2006/42/CE
-      description: Conformité à la Directive Machines pour la sécurité sur le marché de l''UE.
+      description: Conformité à la Directive Machines pour la sécurité sur le marché de l'UE.
     - title: ISO 9001:2015
       description: Système de management de la qualité régissant tout notre processus de production.
     - title: ISO 14001 et RoHS
       description: Management environnemental et conformité aux substances restreintes.
 intelligence_cards:
   title: Documentation et traçabilité
-  subtitle: Documents contrôlés et échantillons anonimisés d''enregistrements disponibles pour les acheteurs.
+  subtitle: Documents contrôlés et échantillons anonimisés d'enregistrements disponibles pour les acheteurs.
   cards:
     - title: Documents contrôlés
       icon: doc
-      desc: Tous les dessins, spécifications et enregistrements d''inspection sont versionnés et traçables.
+      desc: Tous les dessins, spécifications et enregistrements d'inspection sont versionnés et traçables.
       metrics:
         - label: Registres
           value: '00–15'
     - title: Traçabilité
       icon: trace
-      desc: Les enregistrements de lot relient les lots de matières premières à travers chaque jalon qualité jusqu''à la commande finie.
+      desc: Les enregistrements de lot relient les lots de matières premières à travers chaque jalon qualité jusqu'à la commande finie.
       metrics:
         - label: Jalons
           value: '7'
@@ -177,27 +177,27 @@ doc_register:
   subtitle: Documents versionnés gérés dans tout le système qualité.
   items:
     - title: '00 – Manuel qualité'
-      description: Décrit la portée et la politique du système qualité de l''usine.
+      description: Décrit la portée et la politique du système qualité de l'usine.
     - title: '01 – Spécifications des matériaux'
-      description: Grades de fonte grise et d''acier et limites d''acceptation.
+      description: Grades de fonte grise et d'acier et limites d'acceptation.
     - title: '03 – Contrôle des dessins'
       description: Dessins et spécifications de produit versionnés.
     - title: '05 – Plans d''inspection'
-      description: Plans d''inspection en 7 étapes et listes de contrôle par commande.
+      description: Plans d'inspection en 7 étapes et listes de contrôle par commande.
     - title: '08 – Méthodes d''essai'
       description: Procédures standard pour la dureté, le couple, le cycle et le brouillard salin.
     - title: '12 – Enregistrements de traçabilité'
       description: Traçabilité de lot reliant le matériau au produit fini.
 traceability:
   title: Matrice de traçabilité
-  subtitle: Comment un produit reste traçable de la matière première à l''expédition.
+  subtitle: Comment un produit reste traçable de la matière première à l'expédition.
   items:
     - title: Lot de matériaux
       description: Certificats de matières premières et numéros de coulée enregistrés à la réception.
     - title: Lot de coulée
       description: Résultats de spectromètre et numéros de coulée enregistrés par lot.
     - title: Jalons de processus
-      description: Enregistrements d''usinage, de traitement thermique et de revêtement par lot.
+      description: Enregistrements d'usinage, de traitement thermique et de revêtement par lot.
     - title: Série finie
       description: Des enregistrements anonimisés relient chaque jalon à la commande finie.
 non_conformance:
@@ -207,44 +207,44 @@ non_conformance:
     - title: Détection
       description: Les défauts trouvés à tout jalon qualité sont signalés et mis en quarantaine.
     - title: Contention
-      description: Le lot concerné est isolé et tracé jusqu''aux matériaux et processus.
+      description: Le lot concerné est isolé et tracé jusqu'aux matériaux et processus.
     - title: Disposition
-      description: Reprise, réparation ou rejet décidés par l''inspection et l''acheteur.
+      description: Reprise, réparation ou rejet décidés par l'inspection et l'acheteur.
     - title: Action corrective
-      description: La cause racine et l''action corrective préviennent la récurrence sur les commandes futures.
+      description: La cause racine et l'action corrective préviennent la récurrence sur les commandes futures.
 third_party:
-  title: Inspection tierce et par l''acheteur
+  title: Inspection tierce et par l'acheteur
   subtitle: Vérification indépendante disponible à chaque étape.
   items:
     - title: Pré-expédition
-      description: Inspection SGS, TÜV, BV ou Intertek avant l''expédition FOB.
+      description: Inspection SGS, TÜV, BV ou Intertek avant l'expédition FOB.
     - title: En cours de processus
       description: Acheteur ou tiers aux jalons qualité clés pendant la production.
     - title: Essai en laboratoire
       description: Vérification indépendante en laboratoire de la dureté, du couple et du revêtement.
     - title: Remise des rapports
-      description: Rapports d''inspection remis avec les documents d''expédition.
+      description: Rapports d'inspection remis avec les documents d'expédition.
 content_certifications:
-  title: Certifications en un coup d''œil
+  title: Certifications en un coup d'œil
   body: |
-    Stavalk produit des étaux d'établi conformes à la **CE** (EN ISO 12100 et MD 2006/42/CE), à **l'ISO 9001:2015**, à **l'ISO 14001** et au **RoHS**. Le système qualité est documenté, mesuré et auditable — de la réception des matériaux à travers un parcours d''inspection en 7 étapes jusqu''à l''inspection tierce et l''expédition FOB Qingdao.
+    Stavalk produit des étaux d'établi conformes à la **CE** (EN ISO 12100 et MD 2006/42/CE), à **l'ISO 9001:2015**, à **l'ISO 14001** et au **RoHS**. Le système qualité est documenté, mesuré et auditable — de la réception des matériaux à travers un parcours d'inspection en 7 étapes jusqu'à l'inspection tierce et l'expédition FOB Qingdao.
 
-    Les certificats scannés avec portée sont disponibles sur demande avant commande, et les acheteurs peuvent organiser une inspection SGS, TÜV, BV ou Intertek à l''usine avant l''expédition.
+    Les certificats scannés avec portée sont disponibles sur demande avant commande, et les acheteurs peuvent organiser une inspection SGS, TÜV, BV ou Intertek à l'usine avant l'expédition.
 faqs:
   title: Questions fréquentes
   questions:
     - q: Quelles normes respectent les étaux d'établi Stavalk ?
       a: CE (EN ISO 12100, MD 2006/42/CE), ISO 9001:2015, ISO 14001 et RoHS.
     - q: Quelle est la dureté des mâchoires ?
-      a: Les mâchoires GCr15/Cr12MoV sont trempées à l''huile et revenues à 58–62 HRC.
+      a: Les mâchoires GCr15/Cr12MoV sont trempées à l'huile et revenues à 58–62 HRC.
     - q: Puis-je organiser une inspection tierce ?
-      a: Oui — SGS, TÜV, BV ou Intertek, organisée par vous ou par nous, à l''usine avant l''expédition.
+      a: Oui — SGS, TÜV, BV ou Intertek, organisée par vous ou par nous, à l'usine avant l'expédition.
     - q: Puis-je voir les enregistrements qualité ?
       a: Les acheteurs ayant signé un accord peuvent demander des enregistrements de traçabilité et de contrôle qualité anonimisés par commande.
 evidence_review:
   title: Preuves et vérification
   body: |
-    Nos affirmations de qualité et de certification sont appuyées par des preuves d''usine vérifiables :
+    Nos affirmations de qualité et de certification sont appuyées par des preuves d'usine vérifiables :
 
     - [Centre de preuves](/fr/proof-center)
     - [Usine et qualité](/fr/quality)
@@ -254,7 +254,7 @@ cta:
   subtitle: 'Demandez des certificats scannés, organisez une inspection ou planifiez une visite de l''usine Stavalk à Qingdao, en Chine.'
   actions:
     - variant: primary
-      text: Contacter l''équipe
+      text: Contacter l'équipe
       href: /fr/contact
     - text: Centre de preuves
       href: /fr/proof-center

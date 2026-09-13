@@ -22,23 +22,23 @@ sections:
     - title: Procédé de coulée en sable
       description: Les corps en fonte grise HT200/HT250 sont coulés sur des lignes de sable vert et aggloméré, validés selon spécification par spectromètre. Le résultat est un corps solide et amortissant les vibrations, la colonne vertébrale de chaque étau d'établi.
       link: /fr/technology/sand-casting-process
-      link_label: Lire l''article
+      link_label: Lire l'article
     - title: Précision d'usinage CNC
       description: Les faces de mâchoire, les arbres et les bases sont usinés sur des tours et centres de fraisage CNC pour une précision dimensionnelle constante, avec CMM et pieds à coulisse qui vérifient chaque dimension critique.
       link: /fr/technology/cnc-machining-precision
-      link_label: Lire l''article
+      link_label: Lire l'article
     - title: Dureté de mâchoire par traitement thermique
-      description: Les mâchoires en acier trempé GCr15 et Cr12MoV sont trempées à l''huile et revenues à 58–62 HRC, vérifiées par essai de dureté Rockwell pour la résistance à l''usure et une longue durée de vie.
+      description: Les mâchoires en acier trempé GCr15 et Cr12MoV sont trempées à l'huile et revenues à 58–62 HRC, vérifiées par essai de dureté Rockwell pour la résistance à l'usure et une longue durée de vie.
       link: /fr/technology/heat-treatment-jaw-hardness
-      link_label: Lire l''article
+      link_label: Lire l'article
     - title: Revêtement et finition de surface
-      description: Les lignes de peinture par pulvérisation, de revêtement en poudre et de Parkerizing protègent les corps et les mâchoires de la corrosion et de l''usure. Les finitions sont testées au brouillard salin pendant plus de 48 heures pour confirmer leur durabilité.
+      description: Les lignes de peinture par pulvérisation, de revêtement en poudre et de Parkerizing protègent les corps et les mâchoires de la corrosion et de l'usure. Les finitions sont testées au brouillard salin pendant plus de 48 heures pour confirmer leur durabilité.
       link: /fr/technology/surface-coating-and-finishing
-      link_label: Lire l''article
+      link_label: Lire l'article
 related:
   title: Lié
   body: |
-    - [Centre de R&D](/fr/randdcenter) — ingénierie, science des matériaux et développement d''outillage
+    - [Centre de R&D](/fr/randdcenter) — ingénierie, science des matériaux et développement d'outillage
     - [Qualité et essais](/fr/quality) — les essais derrière chaque étau d'établi Stavalk
     - [Garantie](/fr/warranty) — couverture et processus de réclamation
     - [Connaissances](/fr/knowledge) — guides de maintien du travail et conseils de taille

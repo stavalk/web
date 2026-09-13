@@ -26,15 +26,15 @@ mission:
   body: |
     Transformer les exigences des clients en étaux d'établi qui maintiennent le travail en toute sécurité, durent des années d'usage en atelier et expédient avec une qualité entièrement documentée. Nous concevons pour la performance de serrage, la dureté de mâchoire et la résistance à la corrosion tout en gardant le développement en marque privée rentable et rapide.
 pillars:
-  title: Piliers d''ingénierie
+  title: Piliers d'ingénierie
   subtitle: Les quatre principes qui guident chaque projet.
   items:
-    - title: Le matériau d''abord
-      description: Le bon alliage de fonte grise, d''acier forgé et de durcissement pour chaque classe d''usage et application.
+    - title: Le matériau d'abord
+      description: Le bon alliage de fonte grise, d'acier forgé et de durcissement pour chaque classe d'usage et application.
     - title: Usinage de précision
       description: Tolérances CNC qui maintiennent les faces de mâchoire parallèles et la vis stable sous charge.
     - title: Contrôle de dureté
-      description: Trempe à l''huile et revenu qui maintiennent les mâchoires à 58–62 HRC, vérifiées par essai Rockwell.
+      description: Trempe à l'huile et revenu qui maintiennent les mâchoires à 58–62 HRC, vérifiées par essai Rockwell.
     - title: Conception validée par essais
       description: Chaque prototype est validé pour la force de serrage, le couple de pivotement et la durée de vie avant production.
 capabilities:
@@ -43,14 +43,14 @@ capabilities:
   groups:
     - title: Coulée et usinage
       items:
-        - Modèles en sable vert et aggloméré, canaux d''alimentation et masselottes pour corps en fonte grise HT200/HT250
+        - Modèles en sable vert et aggloméré, canaux d'alimentation et masselottes pour corps en fonte grise HT200/HT250
         - Faces de mâchoire, vis, bases et accessoires usinés avec une précision dimensionnelle constante
         - Géométrie de mâchoire et de base personnalisée développée à partir de votre dessin
     - title: Métallurgie et laboratoire
       items:
-        - Lignes de trempe à l''huile et de revenu pour mâchoires GCr15/Cr12MoV à 58–62 HRC
+        - Lignes de trempe à l'huile et de revenu pour mâchoires GCr15/Cr12MoV à 58–62 HRC
         - Finition par pulvérisation, poudre et Parkerizing validée au brouillard salin
-        - Spectromètre, CMM, dureté, couple et équipements d''essais de cycle pour valider chaque conception
+        - Spectromètre, CMM, dureté, couple et équipements d'essais de cycle pour valider chaque conception
 rd_numbers:
   title: R&D en chiffres
   items:
@@ -59,7 +59,7 @@ rd_numbers:
       detail: Léger, moyen, lourd, tuberie et précision
     - value: 80,000+
       label: Étaux d'établi par an
-      detail: Capacité de l''usine
+      detail: Capacité de l'usine
     - value: 200+
       label: Ouvriers
       detail: Coulée, usinage et montage
@@ -71,10 +71,10 @@ rd_services:
   subtitle: Support de développement disponible pour les partenaires OEM et de marque privée.
   services:
     - title: Conception de mâchoire et de base personnalisée
-      desc: Adaptez la largeur de mâchoire, l''ouverture et le montage à votre application et à votre établi.
+      desc: Adaptez la largeur de mâchoire, l'ouverture et le montage à votre application et à votre établi.
     - title: Sélection de matériaux et de finition
-      desc: Choisissez le grade du corps, l''acier de mâchoire et le revêtement pour la résistance, la dureté et la protection contre la corrosion appropriées.
-    - title: Du dessin à l''échantillon
+      desc: Choisissez le grade du corps, l'acier de mâchoire et le revêtement pour la résistance, la dureté et la protection contre la corrosion appropriées.
+    - title: Du dessin à l'échantillon
       desc: Nos ingénieurs transforment votre esquisse ou référence en prototype vérifié.
     - title: Support de certification
       desc: Concevez le produit pour respecter CE, ISO et RoHS dès la phase de dessin, pas après.
@@ -89,10 +89,10 @@ labs_section:
   subtitle: Installations internes qui maintiennent un développement rapide et une qualité documentée.
   items:
     - title: Laboratoire spectromètre
-      description: Valide la chimie de la fonte grise et de l''acier selon spécification avant d''usiner une seule pièce.
+      description: Valide la chimie de la fonte grise et de l'acier selon spécification avant d'usiner une seule pièce.
     - title: Laboratoire de métrologie
       description: La CMM et les étalons de précision vérifient chaque dimension critique sur les prototypes et les lots de production.
     - title: Laboratoire de dureté et matériaux
-      description: L''essai Rockwell confirme la dureté de mâchoire dans la trempe à l''huile et le revenu.
+      description: L'essai Rockwell confirme la dureté de mâchoire dans la trempe à l'huile et le revenu.
     - title: Laboratoire de durabilité
       description: Les essais de force de serrage, de couple de pivotement et de cycle de 10 000+ confirment une longue durée de vie.

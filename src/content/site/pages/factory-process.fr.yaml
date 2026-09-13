@@ -23,7 +23,7 @@ steps:
     duration: 1–2 jours
   - step: '02'
     title: Fonderie automatique au sable
-    description: <p>Le métal approuvé est fondu et coulé sur la ligne automatique de fonderie au sable dans des corps, coulisseaux et bases en fonte grise HT200/HT250. La coulée surveillée par ordinateur maintient chaque coulée dans son standard chimique. Les pièces sont décochées, ébarbées et grenailées, puis contrôlées en dureté avant libération vers l''atelier d''usinage.</p>
+    description: <p>Le métal approuvé est fondu et coulé sur la ligne automatique de fonderie au sable dans des corps, coulisseaux et bases en fonte grise HT200/HT250. La coulée surveillée par ordinateur maintient chaque coulée dans son standard chimique. Les pièces sont décochées, ébarbées et grenailées, puis contrôlées en dureté avant libération vers l'atelier d'usinage.</p>
     duration: 1–2 jours par lot
   - step: '03'
     title: Usinage CNC et filetage
