@@ -1,6 +1,6 @@
 import { createRootRoute, ErrorComponent, HeadContent, Outlet, Scripts, useRouterState } from '@tanstack/react-router'
 import { Suspense, useEffect } from 'react'
-import { isLocale, defaultLocale } from '@/features/i18n/locale'
+import { isLocale, defaultLocale, type Locale } from '@/features/i18n/locale'
 import { getPreferences } from '@/server/preferences'
 import { getOptionalUser } from '@/features/auth/middleware'
 import { getAnalyticsToken, getGa4MeasurementId } from '@/features/analytics/analytics'
@@ -71,7 +71,7 @@ function RootComponent() {
         <HeadContent />
       </head>
       <body>
-        {siteLd().map((d) => (
+        {siteLd(lang as Locale).map((d) => (
           <JsonLd key={d['@id'] as string} data={d} />
         ))}
         <Suspense fallback={<div className="min-h-[60svh]" />}>

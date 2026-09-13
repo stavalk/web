@@ -5,7 +5,7 @@ import { localizePath, DEFAULT_LOCALE, type Locale } from '@/config/locales'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT, BRAND_PARENT_URL } from '@/config/branding'
 import { LLM_SITE_DESCRIPTION } from './ai-content'
 
-export function siteLd(): Record<string, unknown>[] {
+export function siteLd(locale?: Locale): Record<string, unknown>[] {
   return [
     {
       '@context': 'https://schema.org',
@@ -83,7 +83,7 @@ export function siteLd(): Record<string, unknown>[] {
       publisher: { '@id': `${SITE_ORIGIN}/#organization` },
       potentialAction: {
         '@type': 'SearchAction',
-        target: `${SITE_ORIGIN}/search?q={search_term_string}`,
+        target: `${SITE_ORIGIN}${localizePath(locale ?? DEFAULT_LOCALE, '/search')}?q={search_term_string}`,
         'query-input': 'required name=search_term_string',
       },
     },

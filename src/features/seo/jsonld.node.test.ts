@@ -1,6 +1,6 @@
 import { test, expect } from 'vitest'
 import { breadcrumbLd, siteBreadcrumbLd, itemListLd, articleLd, SITE_ORIGIN } from '@/features/seo/jsonld'
-import { serviceLd, projectLd } from '@/product/product-jsonld'
+import { serviceLd, projectLd, siteLd } from '@/product/product-jsonld'
 
 type ListItem = { item?: string; url?: string }
 const itemsOf = (ld: Record<string, unknown>): ListItem[] => ld.itemListElement as ListItem[]
@@ -46,6 +46,16 @@ test('articleLd: url + mainEntityOfPage localize', () => {
   expect(frMain['@id']).toBe(`${SITE_ORIGIN}/fr/knowledge/x`)
   const en = articleLd({ title: 'T', description: 'D', path: '/knowledge/x' })
   expect(en.url).toBe(`${SITE_ORIGIN}/knowledge/x`)
+})
+
+test('siteLd: WebSite SearchAction target localizes the search path', () => {
+  const websiteEs = siteLd('es').find((d) => d['@type'] === 'WebSite')!
+  const websiteFr = siteLd('fr').find((d) => d['@type'] === 'WebSite')!
+  const websiteEn = siteLd().find((d) => d['@type'] === 'WebSite')!
+  const target = (d: Record<string, unknown>) => (d.potentialAction as { target?: string }).target
+  expect(target(websiteEs)).toBe(`${SITE_ORIGIN}/es/search?q={search_term_string}`)
+  expect(target(websiteFr)).toBe(`${SITE_ORIGIN}/fr/search?q={search_term_string}`)
+  expect(target(websiteEn)).toBe(`${SITE_ORIGIN}/search?q={search_term_string}`)
 })
 
 test('serviceLd + projectLd: url + mainEntityOfPage localize', () => {
