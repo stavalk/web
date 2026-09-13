@@ -83,6 +83,7 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
           title: article.h1,
           description: article.metaDescription,
           path: `/knowledge/${article.slug}`,
+          locale,
         })}
       />
       <JsonLd
@@ -90,7 +91,7 @@ export function KnowledgeArticlePage({ article }: { article: KnowledgeArticle })
           { name: t('bench.breadcrumb.home'), path: '/' },
           { name: t('bench.breadcrumb.knowledge'), path: '/knowledge' },
           { name: article.h1, path: `/knowledge/${article.slug}` },
-        ])}
+        ], locale)}
       />
     </MarketingShell>
   )

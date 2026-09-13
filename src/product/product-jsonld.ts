@@ -1,6 +1,7 @@
 import { FACTS, MOQ_SHORT, CERTIFICATION_NAMES } from '@/product/facts'
 import { SITE_NAME } from '@/config/site'
 import { SITE_ORIGIN } from '@/features/seo/jsonld'
+import { localizePath, DEFAULT_LOCALE, type Locale } from '@/config/locales'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT, BRAND_PARENT_URL } from '@/config/branding'
 import { LLM_SITE_DESCRIPTION } from './ai-content'
 
@@ -93,6 +94,7 @@ export function serviceLd(input: {
   serviceType: string
   description: string
   path: string
+  locale?: Locale
 }): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
@@ -100,7 +102,7 @@ export function serviceLd(input: {
     name: input.serviceType,
     serviceType: input.serviceType,
     description: input.description,
-    url: `${SITE_ORIGIN}${input.path}`,
+    url: `${SITE_ORIGIN}${localizePath(input.locale ?? DEFAULT_LOCALE, input.path)}`,
     provider: { '@id': `${SITE_ORIGIN}/#organization` },
     areaServed: 'Worldwide',
     audience: {
@@ -116,8 +118,9 @@ export function projectLd(input: {
   path: string
   industry: string
   outcome: string
+  locale?: Locale
 }): Record<string, unknown> {
-  const url = `${SITE_ORIGIN}${input.path}`
+  const url = `${SITE_ORIGIN}${localizePath(input.locale ?? DEFAULT_LOCALE, input.path)}`
   return {
     '@context': 'https://schema.org',
     '@type': ['Article', 'CaseStudy'],

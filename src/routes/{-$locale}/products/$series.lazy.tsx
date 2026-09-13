@@ -243,9 +243,9 @@ function SeriesPage() {
             { name: t('content.nav.home'), path: '/' },
             { name: t('content.nav.products'), path: '/products' },
             { name: page.h1, path: `/products/${page.slug}` },
-          ])}
+          ], locale)}
         />
-        <JsonLd data={itemListLd(items.map((p) => ({ name: p.name, path: `/products/${p.slug}` })))} />
+        <JsonLd data={itemListLd(items.map((p) => ({ name: p.name, path: `/products/${p.slug}` })), locale)} />
         <JsonLd data={faqLd(page.faqs, locale)} />
       </section>
 

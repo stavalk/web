@@ -39,7 +39,7 @@ function ServePage() {
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
       <WhoWeServe />
       <CtaBand />
-      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: c.title, path: '/who-we-serve' }])} />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: c.title, path: '/who-we-serve' }], locale)} />
     </MarketingShell>
   )
 }

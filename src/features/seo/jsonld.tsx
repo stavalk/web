@@ -1,6 +1,7 @@
 import React from 'react'
 import { getNonce } from '@/lib/csp'
 import { SITE_NAME, SITE_URL } from '@/config/site'
+import { localizePath, DEFAULT_LOCALE, type Locale } from '@/config/locales'
 import { PRODUCT_BUILD_LINE } from '@/product/brand-constants'
 
 export interface FaqQa {
@@ -49,7 +50,7 @@ export function aboutPageLd(origin: string, path: string, description: string): 
   }
 }
 
-export function breadcrumbLd(origin: string, crumbs: { name: string; path: string }[]): Record<string, unknown> {
+export function breadcrumbLd(origin: string, crumbs: { name: string; path: string }[], locale: Locale = DEFAULT_LOCALE): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -57,16 +58,16 @@ export function breadcrumbLd(origin: string, crumbs: { name: string; path: strin
       '@type': 'ListItem',
       position: i + 1,
       name: c.name,
-      item: `${origin}${c.path}`,
+      item: `${origin}${localizePath(locale, c.path)}`,
     })),
   }
 }
 
-export function siteBreadcrumbLd(crumbs: { name: string; path: string }[]): Record<string, unknown> {
-  return breadcrumbLd(SITE_ORIGIN, crumbs)
+export function siteBreadcrumbLd(crumbs: { name: string; path: string }[], locale: Locale = DEFAULT_LOCALE): Record<string, unknown> {
+  return breadcrumbLd(SITE_ORIGIN, crumbs, locale)
 }
 
-export function itemListLd(items: { name: string; path: string }[]): Record<string, unknown> {
+export function itemListLd(items: { name: string; path: string }[], locale: Locale = DEFAULT_LOCALE): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -74,7 +75,7 @@ export function itemListLd(items: { name: string; path: string }[]): Record<stri
       '@type': 'ListItem',
       position: i + 1,
       name: it.name,
-      url: `${SITE_ORIGIN}${it.path}`,
+      url: `${SITE_ORIGIN}${localizePath(locale, it.path)}`,
     })),
   }
 }
@@ -112,8 +113,9 @@ export function articleLd(input: {
   title: string
   description: string
   path: string
+  locale?: Locale
 }): Record<string, unknown> {
-  const url = `${SITE_ORIGIN}${input.path}`
+  const url = `${SITE_ORIGIN}${localizePath(input.locale ?? DEFAULT_LOCALE, input.path)}`
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',

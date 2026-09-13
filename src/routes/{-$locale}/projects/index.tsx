@@ -38,7 +38,7 @@ export const Route = createFileRoute('/{-$locale}/projects/')({
 })
 
 function ProjectsIndex() {
-  const { t } = useTranslation()
+  const { locale, t } = useTranslation()
   const { items, meta } = Route.useLoaderData()
   const fl = useLocalizePath()
   const [customer, setCustomer] = useState('')
@@ -132,10 +132,10 @@ function ProjectsIndex() {
         data={siteBreadcrumbLd([
           { name: t('bench.breadcrumb.home'), path: '/' },
           { name: t('bench.breadcrumb.projects'), path: '/projects' },
-        ])}
+        ], locale)}
       />
       <JsonLd
-        data={itemListLd(items.map((p) => ({ name: p.h1, path: `/projects/${p.slug}` })))}
+        data={itemListLd(items.map((p) => ({ name: p.h1, path: `/projects/${p.slug}` })), locale)}
       />
     </MarketingShell>
   )

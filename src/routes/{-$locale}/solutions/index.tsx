@@ -77,11 +77,12 @@ function SolutionsIndex() {
         data={siteBreadcrumbLd([
           { name: t('bench.breadcrumb.home'), path: '/' },
           { name: t('bench.breadcrumb.solutions'), path: '/solutions' },
-        ])}
+        ], locale)}
       />
       <JsonLd
         data={itemListLd(
           solutionCards.map((p) => ({ name: p.navLabel, path: p.path })),
+          locale,
         )}
       />
     </>

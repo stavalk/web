@@ -136,6 +136,7 @@ export function SolutionPage({ page, path }: { page: SolutionPageData; path: str
           serviceType: page.serviceType,
           description: page.metaDescription,
           path,
+          locale,
         })}
       />
       <JsonLd
@@ -143,7 +144,7 @@ export function SolutionPage({ page, path }: { page: SolutionPageData; path: str
           { name: t('bench.breadcrumb.home'), path: '/' },
           { name: t('bench.breadcrumb.solutions'), path: '/solutions' },
           { name: page.h1, path },
-        ])}
+        ], locale)}
       />
 
       {/* CTA + related paths */}

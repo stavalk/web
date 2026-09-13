@@ -44,7 +44,7 @@ function GalleryPage() {
       </section>
 
       <CtaBand />
-      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: c.title, path: '/gallery' }])} />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: c.title, path: '/gallery' }], locale)} />
     </MarketingShell>
   )
 }

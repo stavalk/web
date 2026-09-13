@@ -121,7 +121,7 @@ function CustomizerPage() {
           </div>
         </div>
       </section>
-      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('bench.nav.customizer'), path: '/customizer' }])} />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('bench.nav.customizer'), path: '/customizer' }], locale)} />
     </MarketingShell>
   )
 }

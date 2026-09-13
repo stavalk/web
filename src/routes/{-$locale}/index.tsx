@@ -57,7 +57,7 @@ function Home() {
       <Suspense fallback={null}><ProjectsShowcase /></Suspense>
       <Suspense fallback={null}><FaqSection data={homeFaq} /></Suspense>
       <Suspense fallback={null}><CtaBand /></Suspense>
-      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }])} />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }], locale)} />
       <JsonLd data={faqLd(pick(homeFaq, locale).items, locale)} />
     </MarketingShell>
   )

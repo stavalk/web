@@ -131,14 +131,14 @@ function KnowledgeIndex() {
         data={siteBreadcrumbLd([
           { name: t('bench.breadcrumb.home'), path: '/' },
           { name: t('bench.breadcrumb.knowledge'), path: '/knowledge' },
-        ])}
+        ], locale)}
       />
       <JsonLd
         data={itemListLd([
           ...articles.map((a) => ({ name: a.h1, path: `/knowledge/${a.slug}` })),
           ...guides.map((g) => ({ name: g.title, path: `/guides/${g.slug}` })),
           ...mfg.guides.map((g) => ({ name: g.title, path: g.href })),
-        ])}
+        ], locale)}
       />
     </MarketingShell>
   )

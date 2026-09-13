@@ -81,9 +81,9 @@ function ProductsPage() {
           })
         }
       />
-      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('bench.nav.products'), path: '/products' }])} />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('bench.nav.products'), path: '/products' }], locale)} />
       <JsonLd
-        data={itemListLd(pick(products, locale).items.map((p) => ({ name: p.name, path: `/products/${p.slug}` })))}
+        data={itemListLd(pick(products, locale).items.map((p) => ({ name: p.name, path: `/products/${p.slug}` })), locale)}
       />
 
       {/* everything is customizable */}

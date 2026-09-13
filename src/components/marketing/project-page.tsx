@@ -14,7 +14,7 @@ import { PRIMARY_CTA } from './cta-styles'
  * strip, a mid-page CTA, key takeaways and related-case links.
  */
 export function ProjectPage({ page, related }: { page: ProjectData; related: ProjectRelated[] }) {
-  const { t } = useTranslation()
+  const { locale, t } = useTranslation()
   const fl = useLocalizePath()
 
   const snapshot = [
@@ -292,6 +292,7 @@ export function ProjectPage({ page, related }: { page: ProjectData; related: Pro
           path: `/projects/${page.slug}`,
           industry: page.industry,
           outcome: page.outcome,
+          locale,
         })}
       />
       <JsonLd
@@ -299,7 +300,7 @@ export function ProjectPage({ page, related }: { page: ProjectData; related: Pro
           { name: t('bench.breadcrumb.home'), path: '/' },
           { name: t('bench.breadcrumb.projects'), path: '/projects' },
           { name: page.h1, path: `/projects/${page.slug}` },
-        ])}
+        ], locale)}
       />
 
       <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-2 gap-y-1 px-5 py-12 md:px-7">

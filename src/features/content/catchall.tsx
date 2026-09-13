@@ -17,6 +17,7 @@ import { notFound } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import {  I18nProvider, useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
+import { localizePath } from '@/config/locales'
 import { type Locale } from '@/features/i18n/locale'
 import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
@@ -60,7 +61,7 @@ function FaqDetails({ q, a, anchor, className, defaultOpen = false, summaryClass
   )
 }
 
-function breadcrumbEntries(origin: string, path: string, title: string, t: (k: string) => string) {
+function breadcrumbEntries(origin: string, path: string, title: string, t: (k: string) => string, locale: Locale) {
   const entries = [{ name: t('content.nav.home'), path: '/' }]
   const segments = path.split('/').filter(Boolean)
   if (segments.length > 1) {
@@ -69,7 +70,7 @@ function breadcrumbEntries(origin: string, path: string, title: string, t: (k: s
     if (parent) entries.push(parent)
   }
   entries.push({ name: title, path })
-  return breadcrumbLd(origin, entries)
+  return breadcrumbLd(origin, entries, locale)
 }
 
 const SERVICE_SCHEMA_PAGES: Record<string, { serviceType: string; description: string }> = {
@@ -294,7 +295,7 @@ function renderContent(data: CatchAllData, t: (key: string, params?: Record<stri
           <ContentSections page={page} />
           {!page.sections.some((s) => s.type === 'cta') && <CtaBand />}
           <JsonLd
-            data={breadcrumbEntries(data.origin, data.path, data.title, t)}
+            data={breadcrumbEntries(data.origin, data.path, data.title, t, data.locale)}
           />
           {data.path.startsWith('/research/') && (
             <JsonLd data={researchArticleLd(data.origin, data.path, data.title, data.description, page)} />
@@ -316,7 +317,7 @@ function renderContent(data: CatchAllData, t: (key: string, params?: Record<stri
           )}
           {faqs.length > 0 && <JsonLd data={faqLd(faqs, data.locale)} />}
           {SERVICE_SCHEMA_PAGES[data.path] && (
-            <JsonLd data={serviceLd({ ...SERVICE_SCHEMA_PAGES[data.path], path: data.path })} />
+            <JsonLd data={serviceLd({ ...SERVICE_SCHEMA_PAGES[data.path], path: data.path, locale: data.locale })} />
           )}
           {data.path === '/quality' && <JsonLd data={qcHowToLd()} />}
         </>
@@ -354,11 +355,11 @@ function renderContent(data: CatchAllData, t: (key: string, params?: Record<stri
           />
           <CaseStudiesIndex />
           <JsonLd
-            data={breadcrumbEntries(data.origin, data.path, t('content.cases.title', { brand: BRAND_PARENT_BRAND }), t)}
+            data={breadcrumbEntries(data.origin, data.path, t('content.cases.title', { brand: BRAND_PARENT_BRAND }), t, data.locale)}
           />
           {data.index.cases && data.index.cases.length > 0 && (
             <JsonLd
-              data={itemListLd(data.index.cases.map((c) => ({ name: c.title, path: `/evidence/case-studies/${c.slug}` })))}
+              data={itemListLd(data.index.cases.map((c) => ({ name: c.title, path: `/evidence/case-studies/${c.slug}` })), data.locale)}
             />
           )}
         </>
@@ -373,11 +374,11 @@ function renderContent(data: CatchAllData, t: (key: string, params?: Record<stri
           />
           <ResearchIndex />
           <JsonLd
-            data={breadcrumbEntries(data.origin, data.path, t('content.research.title'), t)}
+            data={breadcrumbEntries(data.origin, data.path, t('content.research.title'), t, data.locale)}
           />
           {data.index.topics && data.index.topics.length > 0 && (
             <JsonLd
-              data={itemListLd(data.index.topics.map((t) => ({ name: t.slug.replace(/-/g, ' '), path: `/research/${t.slug}` })))}
+              data={itemListLd(data.index.topics.map((t) => ({ name: t.slug.replace(/-/g, ' '), path: `/research/${t.slug}` })), data.locale)}
             />
           )}
         </>
@@ -447,7 +448,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                 { name: t('content.nav.home'), path: '/' },
                 { name: t('content.nav.products'), path: '/products' },
                 { name: product.title, path: `/products/${product.slug}` },
-              ])}
+              ], locale)}
             />
             <JsonLd data={productLd(origin, product, locale, t)} />
 
@@ -680,7 +681,7 @@ function PostView({ post, relatedPosts, origin, path, locale }: { post: ContentP
             { name: t('content.nav.home'), path: '/' },
             { name: t('content.nav.news'), path: '/news' },
             { name: post.title, path },
-          ])}
+          ], locale)}
         />
         <JsonLd
           data={newsArticleLd({
@@ -688,7 +689,7 @@ function PostView({ post, relatedPosts, origin, path, locale }: { post: ContentP
             title: post.title,
             description: post.excerpt ?? '',
             image: post.image,
-            url: `${origin}${path}`,
+            url: `${origin}${localizePath(locale, path)}`,
             datePublished: post.date,
             author: post.author,
             inLanguage: locale,
@@ -736,9 +737,9 @@ function ArticleView({ article, origin, title, path, locale }: { article: Conten
             { name: t('content.nav.home'), path: '/' },
             { name: t('content.nav.technology'), path: '/technology' },
             { name: title, path },
-          ])}
+          ], locale)}
         />
-        <JsonLd data={articleLd(`${origin}/technology/${article.slug}`, title, article.description ?? article.summary ?? '', locale, article.dateModified)} />
+        <JsonLd data={articleLd(`${origin}${localizePath(locale, `/technology/${article.slug}`)}`, title, article.description ?? article.summary ?? '', locale, article.dateModified)} />
         <ContentCta />
       </article>
     </>
@@ -769,9 +770,9 @@ function CaseView({ c, origin, title, path, locale }: { c: ContentCaseUse; origi
             { name: t('content.nav.home'), path: '/' },
             { name: t('content.nav.caseStudies'), path: '/evidence/case-studies' },
             { name: title, path },
-          ])}
+          ], locale)}
         />
-        <JsonLd data={articleLd(`${origin}${path}`, title, c.summary ?? '', locale)} />
+        <JsonLd data={articleLd(`${origin}${localizePath(locale, path)}`, title, c.summary ?? '', locale)} />
         <ContentCta />
       </article>
     </>
@@ -836,9 +837,9 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
             { name: t('content.nav.home'), path: '/' },
             { name: t('content.nav.guides'), path: '/knowledge' },
             { name: guide.title, path },
-          ])}
+          ], locale)}
         />
-        <JsonLd data={articleLd(`${origin}/guides/${guide.slug}`, guide.title, guide.intro[0] ?? '', locale)} />
+        <JsonLd data={articleLd(`${origin}${localizePath(locale, `/guides/${guide.slug}`)}`, guide.title, guide.intro[0] ?? '', locale)} />
         {guide.faqs.length > 0 && <JsonLd data={faqLd(guide.faqs, locale)} />}
         <ContentCta />
       </article>
@@ -898,7 +899,7 @@ function FaqView({ faqs, origin, path, locale }: { faqs: { q: string; a: string 
       <div className="mx-auto max-w-3xl px-5 pb-4">
         <ContentCta />
       </div>
-      <JsonLd data={breadcrumbLd(origin, [{ name: t('content.nav.home'), path: '/' }, { name: 'FAQ', path }])} />
+      <JsonLd data={breadcrumbLd(origin, [{ name: t('content.nav.home'), path: '/' }, { name: 'FAQ', path }], locale)} />
       <JsonLd data={faqLd(faqs, locale)} />
     </>
   )

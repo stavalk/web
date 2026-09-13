@@ -180,7 +180,7 @@ function EntityPage() {
         data={siteBreadcrumbLd([
           { name: t('bench.breadcrumb.home'), path: '/' },
           { name: t('bench.breadcrumb.company'), path: ENTITY_PAGE_PATH },
-        ])}
+        ], locale)}
       />
     </MarketingShell>
   )
