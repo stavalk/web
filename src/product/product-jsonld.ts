@@ -365,20 +365,55 @@ export function productVariantFaqLd(input: {
   }
 }
 
-export function qcHowToLd(): Record<string, unknown> {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'HowTo',
+const QC_HOWTO_COPY: Partial<Record<Locale, { name: string; description: string; step: { name: string; text: string }[] }>> = {
+  en: {
     name: '7-Stage Bench Vise Quality Control Inspection',
     description: 'Every bench vise passes seven inspection gates with documented pass/fail criteria before shipment. Each gate has quantitative standards and traceability records.',
     step: [
-      { '@type': 'HowToStep', position: 1, name: 'Incoming Material Inspection', text: 'HT200/HT250 gray cast iron, 45# carbon steel and GCr15/Cr12MoV jaw steel verified against specification and batch certificates before entering production.' },
-      { '@type': 'HowToStep', position: 2, name: 'Casting Inspection', text: 'Casting quality, gating and defect checks on bodies and bases, and dimensional checks against pattern approval.' },
-      { '@type': 'HowToStep', position: 3, name: 'Machining Inspection', text: 'Jaw faces, slides, spindle threads and mounting surfaces checked to 0.05 mm CNC accuracy with documented pass/fail criteria.' },
-      { '@type': 'HowToStep', position: 4, name: 'Heat Treatment', text: 'Jaw blanks quenched and tempered to 58–62 HRC; hardness verified per batch on the hardness tester.' },
-      { '@type': 'HowToStep', position: 5, name: 'Surface Coating', text: 'Spray, powder-coat or Parkerizing finish verified — film thickness and corrosion resistance validated by 48-hour salt-spray testing.' },
-      { '@type': 'HowToStep', position: 6, name: 'Assembly & Functional Test', text: 'Clamping force, swivel torque and 10,000+ cycle durability tested; units failing clamping force or jaw hardness checks are auto-rejected.' },
-      { '@type': 'HowToStep', position: 7, name: 'Final Inspection & Packing', text: 'A 100-point assembly checklist, export packaging and compliance documentation (CE, ISO 9001, RoHS) plus 10-year ERP traceability verified before shipment.' },
+      { name: 'Incoming Material Inspection', text: 'HT200/HT250 gray cast iron, 45# carbon steel and GCr15/Cr12MoV jaw steel verified against specification and batch certificates before entering production.' },
+      { name: 'Casting Inspection', text: 'Casting quality, gating and defect checks on bodies and bases, and dimensional checks against pattern approval.' },
+      { name: 'Machining Inspection', text: 'Jaw faces, slides, spindle threads and mounting surfaces checked to 0.05 mm CNC accuracy with documented pass/fail criteria.' },
+      { name: 'Heat Treatment', text: 'Jaw blanks quenched and tempered to 58–62 HRC; hardness verified per batch on the hardness tester.' },
+      { name: 'Surface Coating', text: 'Spray, powder-coat or Parkerizing finish verified — film thickness and corrosion resistance validated by 48-hour salt-spray testing.' },
+      { name: 'Assembly & Functional Test', text: 'Clamping force, swivel torque and 10,000+ cycle durability tested; units failing clamping force or jaw hardness checks are auto-rejected.' },
+      { name: 'Final Inspection & Packing', text: 'A 100-point assembly checklist, export packaging and compliance documentation (CE, ISO 9001, RoHS) plus 10-year ERP traceability verified before shipment.' },
     ],
+  },
+  fr: {
+    name: "Inspection de contrôle qualité des étaux d'établi en 7 étapes",
+    description: "Chaque étau d'établi franchit sept points de contrôle avec des critères de conformité documentés avant expédition. Chaque étape applique des normes quantitatives et des enregistrements de traçabilité.",
+    step: [
+      { name: 'Inspection des matières entrantes', text: "Fonte grise HT200/HT250, acier au carbone 45# et acier de mâchoires GCr15/Cr12MoV vérifiés contre la spécification et les certificats de lot avant d'entrer en production." },
+      { name: "Inspection de la fonderie", text: 'Qualité des pièces moulées, vérification des canaux et des défauts sur corps et embases, et contrôles dimensionnels par rapport à l\u2019agrément du modèle.' },
+      { name: "Inspection de l'usinage", text: 'Surfaces de mâchoires, glissières, filetages de broche et surfaces de montage contrôlés à 0,05 mm de précision CNC avec critères de conformité documentés.' },
+      { name: 'Traitement thermique', text: 'Ébauches de mâchoires trempées et revenues à 58–62 HRC ; dureté vérifiée par lot sur le duromètre.' },
+      { name: 'Revêtement de surface', text: 'Finition par pulvérisation, poudrage ou parkérisation vérifiée — épaisseur de film et résistance à la corrosion validées par un test au brouillard salin de 48 h.' },
+      { name: 'Assemblage et essai fonctionnel', text: 'Force de serrage, couple de pivotement et durabilité testés sur plus de 10 000 cycles ; les unités hors tolérances de serrage ou de dureté des mâchoires sont rejetées automatiquement.' },
+      { name: 'Inspection finale et emballage', text: "Checklist d'assemblage en 100 points, emballage export et documentation de conformité (CE, ISO 9001, RoHS) plus traçabilité ERP sur 10 ans vérifiés avant expédition." },
+    ],
+  },
+  es: {
+    name: 'Inspección de control de calidad en 7 etapas de los tornillos de banco',
+    description: 'Cada tornillo de banco supera siete puntos de inspección con criterios de aceptación documentados antes del envío. Cada etapa aplica estándares cuantitativos y registros de trazabilidad.',
+    step: [
+      { name: 'Inspección de materiales entrantes', text: 'Fundición gris HT200/HT250, acero al carbono 45# y acero de mordazas GCr15/Cr12MoV verificados contra especificación y certificados de lote antes de entrar en producción.' },
+      { name: 'Inspección de fundición', text: 'Calidad de piezas fundidas, comprobación de mazarotas y defectos en cuerpos y bases, y controles dimensionales contra la aprobación del modelo.' },
+      { name: 'Inspección de mecanizado', text: 'Caras de mordaza, guías, roscas de husillo y superficies de montaje verificadas a 0,05 mm de precisión CNC con criterios de aceptación documentados.' },
+      { name: 'Tratamiento térmico', text: 'Bases de mordaza templadas y revenidas a 58–62 HRC; dureza verificada por lote en el durómetro.' },
+      { name: 'Recubrimiento de superficie', text: 'Acabado por pulverización, pintura en polvo o parkerización verificado: espesor de película y resistencia a la corrosión validados mediante niebla salina de 48 h.' },
+      { name: 'Ensamblaje y prueba funcional', text: 'Se prueban fuerza de sujeción, par de giro y durabilidad de más de 10 000 ciclos; las unidades que no cumplen la fuerza de sujeción o la dureza de mordazas se rechazan automáticamente.' },
+      { name: 'Inspección final y embalaje', text: 'Checklist de ensamblaje de 100 puntos, embalaje de exportación y documentación de cumplimiento (CE, ISO 9001, RoHS) más trazabilidad ERP de 10 años verificados antes del envío.' },
+    ],
+  },
+}
+
+export function qcHowToLd(locale: Locale = DEFAULT_LOCALE): Record<string, unknown> {
+  const c = QC_HOWTO_COPY[locale] ?? QC_HOWTO_COPY.en!
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: c.name,
+    description: c.description,
+    step: c.step.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: s.name, text: s.text })),
   }
 }

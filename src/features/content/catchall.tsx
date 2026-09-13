@@ -87,6 +87,40 @@ const SERVICE_SCHEMA_PAGES: Record<string, { serviceType: string; description: s
   '/size-guide': { serviceType: 'Bench Vise Size Guide', description: 'Bench vise sizing by jaw width and clamping force: light, medium, heavy and pipe vise series for the right workholding job.' },
 }
 
+const SERVICE_SCHEMA_PAGES_FR: Record<string, { serviceType: string; description: string }> = {
+  '/oem-manufacturing': { serviceType: 'Fabrication OEM', description: "Fabrication OEM d'étaux d'établi — designs appartenant à l'acheteur, outillage sur mesure et production sous votre marque." },
+  '/odm-development': { serviceType: 'Développement ODM', description: "Développement produit ODM — l'équipe d'ingénierie de l'usine conçoit à partir de votre cahier des charges ; vous approuvez chaque élément avant production." },
+  '/oem-odm-private-label-comparison': { serviceType: 'Comparaison OEM / ODM / Marque privée', description: "Comparaison côte à côte des modèles de collaboration : fabrication OEM, développement ODM et co-branding en marque privée." },
+  '/factory/oem-capability': { serviceType: 'Capacité OEM de l\u2019usine', description: "Capacités OEM de l'usine : moulage en sable, usinage CNC, traitement thermique et points de contrôle qualité pour la fabrication d'étaux d'établi sur mesure." },
+  '/oem-moq-guide': { serviceType: 'Guide MOQ OEM', description: "Quantités minimales de commande pour la fabrication OEM : seuils par configuration, options de lot pilote et considérations d'outillage." },
+  '/oem-trust-assurance': { serviceType: "Assurance de confiance OEM", description: "Assurance de confiance pour les acheteurs OEM : inspections tierces, points de contrôle qualité, certifications et transparence des audits d'usine." },
+  '/oem-onboarding-guide': { serviceType: "Processus d'intégration OEM", description: "Intégration OEM étape par étape : processus par étapes, de la demande initiale à la première série de production puis au partenariat continu." },
+  '/factory-audit-checklist': { serviceType: "Checklist d'audit d'usine", description: "Checklist d'audit d'usine en huit domaines pour les acheteurs d'étaux : système qualité, capacité, traçabilité, essais de dureté, contrôles d'usinage, conformité sociale, documentation et support après livraison." },
+  '/product-development': { serviceType: 'Développement produit', description: "Développement d'étaux d'établi sur mesure — du concept et du design au prototypage, aux tests et à la première série de production." },
+  '/factory-quality-inspection': { serviceType: 'Inspection qualité', description: "Inspection qualité par étapes des étaux d'établi : force de serrage, dureté des mâchoires, couple de pivotement et durabilité cyclique par lot." },
+  '/size-guide': { serviceType: "Guide de tailles d'étau", description: "Dimensionnement des étaux par largeur de mâchoires et force de serrage : séries légère, moyenne, lourde et étau à tuyau pour chaque poste de travail." },
+}
+
+const SERVICE_SCHEMA_PAGES_ES: Record<string, { serviceType: string; description: string }> = {
+  '/oem-manufacturing': { serviceType: 'Fabricación OEM', description: 'Fabricación OEM de tornillos de banco: diseños del comprador, utillaje personalizado y producción bajo tu marca.' },
+  '/odm-development': { serviceType: 'Desarrollo ODM', description: 'Desarrollo de producto ODM: el equipo de ingeniería de la fábrica diseña desde tu brief y tú apruebas cada elemento antes de la producción.' },
+  '/oem-odm-private-label-comparison': { serviceType: 'Comparativa OEM / ODM / Marca privada', description: 'Comparativa lado a lado de los modelos de colaboración: fabricación OEM, desarrollo ODM y co-branding en marca privada.' },
+  '/factory/oem-capability': { serviceType: 'Capacidad OEM de fábrica', description: 'Capacidades OEM de la fábrica: fundición en arena, mecanizado CNC, tratamiento térmico y controles de calidad para la fabricación de tornillos de banco personalizados.' },
+  '/oem-moq-guide': { serviceType: 'Guía MOQ OEM', description: 'Cantidades mínimas de pedido para fabricación OEM: umbrales por configuración, opciones de lote piloto y consideraciones de utillaje.' },
+  '/oem-trust-assurance': { serviceType: 'Garantía de confianza OEM', description: 'Garantía de confianza para compradores OEM: inspecciones de terceros, controles de calidad, certificaciones y transparencia en auditorías de fábrica.' },
+  '/oem-onboarding-guide': { serviceType: 'Proceso de onboarding OEM', description: 'Onboarding OEM paso a paso: proceso por fases desde la primera consulta hasta la primera producción y la alianza continua.' },
+  '/factory-audit-checklist': { serviceType: 'Checklist de auditoría de fábrica', description: 'Checklist de auditoría de fábrica en ocho áreas para compradores de tornillos de banco: sistema de calidad, capacidad, trazabilidad, ensayos de dureza, controles de mecanizado, cumplimiento social, documentación y soporte post-entrega.' },
+  '/product-development': { serviceType: 'Desarrollo de producto', description: 'Desarrollo de tornillos de banco personalizados: desde concepto y diseño hasta prototipado, pruebas y primera producción.' },
+  '/factory-quality-inspection': { serviceType: 'Inspección de calidad', description: 'Inspección de calidad por etapas para tornillos de banco: fuerza de sujeción, dureza de mordazas, par de giro y durabilidad cíclica por lote.' },
+  '/size-guide': { serviceType: 'Guía de tamaño de tornillo de banco', description: 'Selección de tornillos de banco por ancho de mordaza y fuerza de sujeción: series ligera, media, pesada y de tubo para el trabajo correcto.' },
+}
+
+const SERVICE_SCHEMA_PAGES_BY_LOCALE: Partial<Record<Locale, Record<string, { serviceType: string; description: string }>>> = {
+  en: SERVICE_SCHEMA_PAGES,
+  es: SERVICE_SCHEMA_PAGES_ES,
+  fr: SERVICE_SCHEMA_PAGES_FR,
+}
+
 /** Minimal product card for the "related platforms" strip on product pages. */
 export type RelatedProduct = { slug: string; title: string; image: string; amount?: string }
 
@@ -196,7 +230,7 @@ function vatradTechArticleLd(
     headline: title,
     alternativeHeadline,
     description,
-    url: `${origin}${path}`,
+    url: `${origin}${localizePath(locale, path)}`,
     author: { '@type': 'Organization', name: BRAND_COMPANY_NAME.toUpperCase() },
     publisher: { '@type': 'Organization', name: BRAND_COMPANY_NAME.toUpperCase() },
     dateModified: page.meta?.dateModified,
@@ -310,16 +344,16 @@ function renderContent(data: CatchAllData, t: (key: string, params?: Record<stri
               data={{
                 '@context': 'https://schema.org',
                 '@type': 'WebPage',
-                url: `${data.origin}${data.path}`,
+                url: `${data.origin}${localizePath(data.locale, data.path)}`,
                 dateModified: page.meta.dateModified,
               }}
             />
           )}
           {faqs.length > 0 && <JsonLd data={faqLd(faqs, data.locale)} />}
           {SERVICE_SCHEMA_PAGES[data.path] && (
-            <JsonLd data={serviceLd({ ...SERVICE_SCHEMA_PAGES[data.path], path: data.path, locale: data.locale })} />
+            <JsonLd data={serviceLd({ ...(SERVICE_SCHEMA_PAGES_BY_LOCALE[data.locale] ?? SERVICE_SCHEMA_PAGES)[data.path], path: data.path, locale: data.locale })} />
           )}
-          {data.path === '/quality' && <JsonLd data={qcHowToLd()} />}
+          {data.path === '/quality' && <JsonLd data={qcHowToLd(data.locale)} />}
         </>
       )
     }

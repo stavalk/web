@@ -1,6 +1,6 @@
 import { test, expect } from 'vitest'
 import { breadcrumbLd, siteBreadcrumbLd, itemListLd, articleLd, SITE_ORIGIN } from '@/features/seo/jsonld'
-import { serviceLd, projectLd, siteLd } from '@/product/product-jsonld'
+import { serviceLd, projectLd, siteLd, qcHowToLd } from '@/product/product-jsonld'
 
 type ListItem = { item?: string; url?: string }
 const itemsOf = (ld: Record<string, unknown>): ListItem[] => ld.itemListElement as ListItem[]
@@ -56,6 +56,16 @@ test('siteLd: WebSite SearchAction target localizes the search path', () => {
   expect(target(websiteEs)).toBe(`${SITE_ORIGIN}/es/search?q={search_term_string}`)
   expect(target(websiteFr)).toBe(`${SITE_ORIGIN}/fr/search?q={search_term_string}`)
   expect(target(websiteEn)).toBe(`${SITE_ORIGIN}/search?q={search_term_string}`)
+})
+
+test('qcHowToLd: localized name/description/steps follow locale', () => {
+  const fr = qcHowToLd('fr') as { name: string; step: { name: string }[] }
+  expect(fr.name).toContain('Inspection de contrôle qualité')
+  expect(fr.step[0].name).toBe('Inspection des matières entrantes')
+  const es = qcHowToLd('es') as { name: string; step: { name: string }[] }
+  expect(es.name).toContain('Inspección de control de calidad')
+  expect(es.step[0].name).toBe('Inspección de materiales entrantes')
+  expect((qcHowToLd() as { name: string }).name).toBe('7-Stage Bench Vise Quality Control Inspection')
 })
 
 test('serviceLd + projectLd: url + mainEntityOfPage localize', () => {
