@@ -143,6 +143,7 @@ function AboutPage() {
            SITE_URL,
            localizePath(locale, '/about'),
           BRAND_BOILERPLATE,
+          locale,
         )}
       />
 

@@ -164,7 +164,7 @@ function ContactPage() {
       </section>
 
       <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('bench.nav.contact'), path: '/contact' }], locale)} />
-      <JsonLd data={contactPageLd(SITE_URL, localizePath(locale, '/contact'))} />
+      <JsonLd data={contactPageLd(SITE_URL, localizePath(locale, '/contact'), locale)} />
       <JsonLd data={faqLd([...dictionaries[locale].bench.contact.trustFaqs], locale)} />
 
     </MarketingShell>

@@ -30,21 +30,27 @@ export function faqLd(faqs: FaqQa[], locale?: string): Record<string, unknown> {
   }
 }
 
-export function contactPageLd(origin: string, path: string): Record<string, unknown> {
+const PAGE_LD_NAMES: Partial<Record<Locale, { about: string; contact: string }>> = {
+  en: { about: 'About', contact: 'Contact' },
+  es: { about: 'Sobre', contact: 'Contacto' },
+  fr: { about: 'À propos de', contact: 'Contact' },
+}
+
+export function contactPageLd(origin: string, path: string, locale: Locale = DEFAULT_LOCALE): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
-    name: 'Contact ' + SITE_NAME,
+    name: `${PAGE_LD_NAMES[locale]?.contact ?? 'Contact'} ${SITE_NAME}`,
     url: `${origin}${path}`,
     about: PRODUCT_BUILD_LINE,
   }
 }
 
-export function aboutPageLd(origin: string, path: string, description: string): Record<string, unknown> {
+export function aboutPageLd(origin: string, path: string, description: string, locale: Locale = DEFAULT_LOCALE): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
     '@type': 'AboutPage',
-    name: 'About ' + SITE_NAME,
+    name: `${PAGE_LD_NAMES[locale]?.about ?? 'About'} ${SITE_NAME}`,
     url: `${origin}${path}`,
     description,
   }

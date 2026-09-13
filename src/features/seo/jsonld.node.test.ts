@@ -1,5 +1,5 @@
 import { test, expect } from 'vitest'
-import { breadcrumbLd, siteBreadcrumbLd, itemListLd, articleLd, SITE_ORIGIN } from '@/features/seo/jsonld'
+import { breadcrumbLd, siteBreadcrumbLd, itemListLd, articleLd, aboutPageLd, contactPageLd, SITE_ORIGIN } from '@/features/seo/jsonld'
 import { serviceLd, projectLd, siteLd, qcHowToLd } from '@/product/product-jsonld'
 
 type ListItem = { item?: string; url?: string }
@@ -77,4 +77,12 @@ test('serviceLd + projectLd: url + mainEntityOfPage localize', () => {
   expect(frp.url).toBe(`${SITE_ORIGIN}/fr/projects/p1`)
   const frpMain = frp.mainEntityOfPage as { '@id': string }
   expect(frpMain['@id']).toBe(`${SITE_ORIGIN}/fr/projects/p1`)
+})
+
+test('aboutPageLd + contactPageLd: localized names follow locale', () => {
+  expect(aboutPageLd(SITE_ORIGIN, '/about', 'D').name).toBe(`About Stavalk`)
+  expect(aboutPageLd(SITE_ORIGIN, '/es/about', 'D', 'es').name).toBe('Sobre Stavalk')
+  expect(aboutPageLd(SITE_ORIGIN, '/fr/about', 'D', 'fr').name).toBe('À propos de Stavalk')
+  expect(contactPageLd(SITE_ORIGIN, '/es/contact', 'es').name).toBe('Contacto Stavalk')
+  expect(contactPageLd(SITE_ORIGIN, '/contact').name).toBe('Contact Stavalk')
 })
