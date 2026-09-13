@@ -136,6 +136,8 @@ export type CatchAllData = {
   translated: boolean
   /** True when a real Spanish variant exists for this path. */
   esTranslated: boolean
+  /** True when a real French variant exists for this path. */
+  frTranslated: boolean
   /** Server-resolved widget index payloads for the page's sections. */
   index: AferIndexData
 } & (

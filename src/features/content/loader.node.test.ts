@@ -16,6 +16,7 @@ import {
   getLocalePaths,
 } from '@/features/content/loader'
 import { getGuide } from '@/features/content/guide-content'
+import { resolveCatchAll } from './catchall.server'
 import { buildExtendedIndex, buildFullIndex } from '@/features/site/search-index.server'
 
 test('products: es overlay swaps title and keeps canonical slug', () => {
@@ -100,6 +101,20 @@ test('hasLocaleVariant covers registry, faq and sidecar content', () => {
   expect(hasLocaleVariant('/technology/sand-casting-process', 'es')).toBe(true)
   expect(hasLocaleVariant('/evidence/case-studies/german-hardware-brand-oem', 'es')).toBe(true)
   expect(hasLocaleVariant('/products/does-not-exist', 'es')).toBe(false)
+})
+
+test('fr variants: genuine French content is flagged frTranslated on catchall pages', () => {
+  expect(hasLocaleVariant('/quality', 'fr')).toBe(true)
+  expect(hasLocaleVariant('/quality', 'es')).toBe(true)
+  expect(hasLocaleVariant('/factory/oem-capability', 'fr')).toBe(true)
+  const fr = resolveCatchAll('/quality', 'fr')
+  expect(fr).not.toBeNull()
+  expect(fr!.translated).toBe(true)
+  expect(fr!.esTranslated).toBe(true)
+  expect(fr!.frTranslated).toBe(true)
+  const en = resolveCatchAll('/quality')
+  expect(en!.esTranslated).toBe(true)
+  expect(en!.frTranslated).toBe(true)
 })
 
 test('product-development page: registered EN+ES with structured sections', () => {

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Server-only content catch-all resolver.
  *
  * The `/$` route handler (catchall.tsx) imports this module dynamically from
@@ -133,13 +133,20 @@ function indexFor(page?: ContentPage, locale?: Locale): AferIndexData {
 }
 
 export function resolveCatchAll(path: string, locale: Locale = defaultLocale): CatchAllData | null {
-  const hasLocaleContent =
+  const hasEsVariant =
     hasLocaleVariant(path, 'es') ||
     (path.startsWith('/guides/') && !!getGuide(path, 'es')) ||
     path === '/research' ||
     path === '/evidence/case-studies'
+  const hasFrVariant =
+    hasLocaleVariant(path, 'fr') ||
+    (path.startsWith('/guides/') && !!getGuide(path, 'fr')) ||
+    path === '/research' ||
+    path === '/evidence/case-studies'
+  const hasLocaleContent = hasEsVariant || hasFrVariant
   const translated = locale !== 'en' && hasLocaleContent
-  const esTranslated = hasLocaleContent
+  const esTranslated = hasEsVariant
+  const frTranslated = hasFrVariant
   const page = getContentPage(path, locale)
   if (page) {
     return {
@@ -148,6 +155,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       locale,
       translated,
       esTranslated,
+      frTranslated,
       slug: page.slug,
       title: brandify(page.meta?.title ?? `${page.label} — ${SITE_NAME}`),
       description: brandify(page.meta?.description ?? ''),
@@ -165,6 +173,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         locale,
         translated,
         esTranslated,
+        frTranslated,
         product,
         title: brandify(product.metadata?.title ?? `${product.title} — ${SITE_NAME}`),
         description: brandify(product.metadata?.description ?? product.description ?? product.summary ?? ''),
@@ -184,6 +193,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         locale,
         translated,
         esTranslated,
+        frTranslated,
         post,
         title: brandify(post.metadata?.title ?? `${post.title} — ${SITE_NAME}`),
         description: brandify(post.metadata?.description ?? post.excerpt ?? ''),
@@ -203,6 +213,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         locale,
         translated,
         esTranslated,
+        frTranslated,
         slug: article.slug,
         title: brandify(`${article.title} — ${SITE_NAME}`),
         description: brandify(article.description ?? article.summary ?? ''),
@@ -221,6 +232,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         locale,
         translated,
         esTranslated,
+        frTranslated,
         slug: c.slug,
         title: brandify(`${c.title} — ${SITE_NAME}`),
         description: brandify(c.description ?? c.summary ?? ''),
@@ -238,6 +250,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       locale,
       translated,
       esTranslated,
+      frTranslated,
       origin: '',
       title: translate(d, 'content.seo.casesTitle', { siteName: SITE_NAME }),
       description: translate(d, 'content.seo.casesDesc'),
@@ -252,6 +265,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
       locale,
       translated,
       esTranslated,
+      frTranslated,
       origin: '',
       title: translate(d, 'content.seo.researchTitle', { siteName: SITE_NAME }),
       description: translate(d, 'content.seo.researchDesc'),
@@ -267,6 +281,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         locale,
         translated,
         esTranslated,
+        frTranslated,
         slug: guide.slug,
         title: brandify(`${guide.title} — ${SITE_NAME}`),
         description: brandify(guide.intro[0] ?? ''),
@@ -284,6 +299,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         locale,
         translated,
         esTranslated,
+        frTranslated,
         origin: '',
         title: translate(d, 'content.seo.faqTitle', { siteName: SITE_NAME }),
         description: translate(d, 'content.seo.faqDesc'),

@@ -1,7 +1,7 @@
 import { ErrorComponent } from '@tanstack/react-router'
 import { OG_IMAGE } from '@/features/seo/seo'
 import { SITE_NAME } from '@/config/site'
-import { OG_LOCALE, ACTIVE_LOCALES } from '@/config/locales'
+import { OG_LOCALE, ACTIVE_LOCALES, HREFLANG } from '@/config/locales'
 import type { CatchAllData } from './catchall'
 
 export function contentSingleRoute(path: string) {
@@ -20,8 +20,10 @@ export function contentSingleRoute(path: string) {
       const links: { rel: string; href: string; hreflang?: string }[] = [{ rel: 'canonical', href: canonical }]
       links.push({ rel: 'alternate', hreflang: 'en-US', href: canonical })
       links.push({ rel: 'alternate', hreflang: 'x-default', href: canonical })
-      if (loaderData.esTranslated) {
-        links.push({ rel: 'alternate', hreflang: 'es-ES', href: `${origin}/es${path}` })
+      for (const l of ['es', 'fr'] as const) {
+        if (loaderData[`${l}Translated`]) {
+          links.push({ rel: 'alternate', hreflang: HREFLANG[l], href: `${origin}/${l}${path}` })
+        }
       }
       return {
         meta: [

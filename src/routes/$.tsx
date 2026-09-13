@@ -1,7 +1,7 @@
 import { createFileRoute, redirect, ErrorComponent } from '@tanstack/react-router'
 import { OG_IMAGE, localeHead } from '@/features/seo/seo'
 import { isLocale, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
-import { OG_LOCALE, ACTIVE_LOCALES } from '@/config/locales'
+import { OG_LOCALE, ACTIVE_LOCALES, HREFLANG } from '@/config/locales'
 import { SITE_NAME } from '@/config/site'
 import { ContentCatchAll } from '@/features/content/catchall'
 
@@ -85,14 +85,17 @@ export const Route = createFileRoute('/$')({
     if (loaderData.localized) {
       meta.push({ name: 'robots', content: 'noindex, follow' })
     }
-    // en twin of a page with a real /es translation: emit the es alternate so
-    // hreflang is bidirectional (sitemap already cross-links; the page head
-    // must mirror it �?Google requires the return tag on both sides).
-    const hasEsTwin = !loaderData.localized && loaderData.esTranslated
+// en twin of a page with a real /es or /fr translation: emit alternates
+    // for every translated locale so hreflang is bidirectional (sitemap
+    // already cross-links; the page head must mirror it — Google requires
+    // the return tag on both sides).
+    const twinLocales = !loaderData.localized ? (['es', 'fr'] as const).filter((l) => loaderData[`${l}Translated`]) : []
     const links: Record<string, string>[] = [{ rel: 'canonical', href: canonical }]
-    if (hasEsTwin) {
+    if (twinLocales.length > 0) {
       links.push({ rel: 'alternate', hreflang: 'en-US', href: canonical })
-      links.push({ rel: 'alternate', hreflang: 'es-ES', href: `${origin}${localizePath('es', loaderData.path)}` })
+      for (const l of twinLocales) {
+        links.push({ rel: 'alternate', hreflang: HREFLANG[l], href: `${origin}${localizePath(l, loaderData.path)}` })
+      }
       links.push({ rel: 'alternate', hreflang: 'x-default', href: canonical })
     }
     return { meta, links }
