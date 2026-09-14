@@ -26,4 +26,9 @@ export const EXTRA_PATHS: Record<string, string> = {
   '/oem-manufacturing': 'oem-manufacturing',
   '/odm-development': 'odm-development',
   '/product-development': 'product-development',
+  '/research/sand-casting-process': 'research-sand-casting',
+  '/research/cnc-machining-precision': 'research-cnc-machining',
+  '/research/heat-treatment-jaw-hardness': 'research-heat-treatment',
+  '/research/surface-coating-and-finishing': 'research-surface-coating',
+  '/research/quality-testing-standards': 'research-quality-testing',
 }

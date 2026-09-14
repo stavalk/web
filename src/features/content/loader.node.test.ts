@@ -14,8 +14,11 @@ import {
   getLocaleContentPaths,
   getPublicPaths,
   getLocalePaths,
+  isContentPageTranslated,
 } from '@/features/content/loader'
 import { getGuide } from '@/features/content/guide-content'
+import { EDGE_REDIRECTS } from '@/product/edge-redirects'
+import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { resolveCatchAll } from './catchall.server'
 import { buildExtendedIndex, buildFullIndex } from '@/features/site/search-index.server'
 
@@ -92,6 +95,32 @@ test('research topics: es localization swaps category/readTime labels', () => {
   expect(es.map((t) => t.slug)).toEqual(en.map((t) => t.slug))
   expect(es[0]?.category).not.toBe(en[0]?.category)
   expect(es[0]?.readTime).toMatch(/min de lectura/)
+})
+
+test('research topics: all non-redirected topics render as trilingual content pages (404 regression)', () => {
+  const topics = getResearchTopics()
+  const gated = topics.filter((t) => `/research/${t.slug}` in EDGE_REDIRECTS || `/research/${t.slug}` in LEGACY_REDIRECTS)
+  const live = topics.filter((t) => !gated.includes(t))
+  expect(gated.map((t) => t.slug)).toEqual(['oem-buyer-guide'])
+  for (const t of gated) expect(getContentPage(`/research/${t.slug}`)).toBeUndefined()
+  for (const t of live) {
+    const path = `/research/${t.slug}`
+    for (const locale of ['en', 'es', 'fr'] as const) {
+      const page = getContentPage(path, locale)
+      expect(page, `${path} (${locale})`).toBeDefined()
+      expect(page!.meta?.title).toBeTruthy()
+      expect(page!.meta?.title).not.toContain('— Stavalk')
+    }
+    expect(isContentPageTranslated(path, 'es')).toBe(true)
+    expect(isContentPageTranslated(path, 'fr')).toBe(true)
+    expect(getLocalePaths('es')).toContain(path)
+    expect(getLocalePaths('fr')).toContain(path)
+    const resolved = resolveCatchAll(path, 'es')
+    expect(resolved).not.toBeNull()
+    expect(resolved!.kind).toBe('page')
+    expect(resolved!.esTranslated).toBe(true)
+    expect(resolved!.frTranslated).toBe(true)
+  }
 })
 
 test('hasLocaleVariant covers registry, faq and sidecar content', () => {
