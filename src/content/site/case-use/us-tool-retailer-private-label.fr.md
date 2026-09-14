@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-04-25
 title: Détaillant d'outils américain — Étaux de service moyen en marque privée
-summary: Un détaillant d'outils américain a lancé une gamme d'étaux de banc de service moyen en marque privée en largeurs de mâchoire de 5" et 6" avec peinture personnalisée, logo du détaillant moulé et emballage prêt pour la distribution. Voici comment le programme est passé de l'échantillon au conteneur.
-description: Comment un détaillant d'outils américain a lancé un programme d'étaux de banc de service moyen en marque privée avec peinture personnalisée, marquage moulé et emballage retail.
+summary: Un détaillant d'outils américain a lancé une gamme d'étaux d'établi de service moyen en marque privée en largeurs de mâchoire de 5" et 6" avec peinture personnalisée, logo du détaillant moulé et emballage prêt pour la distribution. Voici comment le programme est passé de l'échantillon au conteneur.
+description: Comment un détaillant d'outils américain a lancé un programme d'étaux d'établi de service moyen en marque privée avec peinture personnalisée, marquage moulé et emballage retail.
 category: private-label
 environment: retail
 skill: private-label
@@ -17,7 +17,7 @@ tags:
 entityType: case-use
 ---
 
-Un détaillant d'outils américain voulait entrer dans la catégorie des étaux de banc sous sa propre marque sans supporter le risque de stock d'un conteneur entier. Le plan : une gamme de service moyen en largeurs de mâchoire de 5" et 6", fabriquée selon les attentes des ateliers nord-américains, différenciée par une finition de peinture personnalisée et le logo du détaillant moulé directement dans le corps.
+Un détaillant d'outils américain voulait entrer dans la catégorie des étaux d'établi sous sa propre marque sans supporter le risque de stock d'un conteneur entier. Le plan : une gamme de service moyen en largeurs de mâchoire de 5" et 6", fabriquée selon les attentes des ateliers nord-américains, différenciée par une finition de peinture personnalisée et le logo du détaillant moulé directement dans le corps.
 
 ## Verrouiller la spécification
 

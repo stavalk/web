@@ -33,4 +33,4 @@ La fourniture du bâtiment en Australie s'accompagne d'un appétit pour la paper
 
 ## Résultat et réassort
 
-La première commande couvrait des étaux à tuyaux trépied dans deux plages de capacité de mâchoire et est devenue une ligne stockée dans l'entrepôt central du distributeur en un trimestre. La ligne a depuis été réassortie en cycle, et le distributeur a demandé à Stavalk de chiffrer une gamme complémentaire d'étaux de banc fixes pour le même réseau de succursales — preuve d'une relation d'approvisionnement produit qui a évolué vers une conversation de gamme plus large.
+La première commande couvrait des étaux à tuyaux trépied dans deux plages de capacité de mâchoire et est devenue une ligne stockée dans l'entrepôt central du distributeur en un trimestre. La ligne a depuis été réassortie en cycle, et le distributeur a demandé à Stavalk de chiffrer une gamme complémentaire d'étaux d'établi fixes pour le même réseau de succursales — preuve d'une relation d'approvisionnement produit qui a évolué vers une conversation de gamme plus large.

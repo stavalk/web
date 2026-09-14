@@ -2,8 +2,8 @@
 publishDate: 2026-06-18
 dateModified: 2026-06-18
 title: Traitement thermique — Durcissement des mâchoires à 58–62 HRC
-summary: Durcissement par induction, revenu et relaxation de contraintes dans la production d'étaux de banc — comment les mâchoires en acier forgé 45# atteignent 58–62 HRC et pourquoi le traitement thermique pilote la durabilité de tout l'étau.
-description: 'Les processus de traitement thermique pour étaux de banc : durcissement par induction des mâchoires en acier forgé 45# à 58-62 HRC, revenu et relaxation des contraintes pour les corps en fonte.'
+summary: Durcissement par induction, revenu et relaxation de contraintes dans la production d'étaux d'établi — comment les mâchoires en acier forgé 45# atteignent 58–62 HRC et pourquoi le traitement thermique pilote la durabilité de tout l'étau.
+description: 'Les processus de traitement thermique pour étaux d''établi : durcissement par induction des mâchoires en acier forgé 45# à 58-62 HRC, revenu et relaxation des contraintes pour les corps en fonte.'
 category: manufacturing
 tags:
   - traitement thermique
@@ -14,11 +14,11 @@ tags:
 entityType: technology
 ---
 
-Le traitement thermique est ce qui décide de la durabilité d'un étau de banc. Le corps en fonte est résistant tel qu'il sort de fonderie, mais les mâchoires, la vis et les pièces coulissantes nécessitent une métallurgie délibérée pour tenir des années d'usage d'atelier. Cet article explique les opérations de traitement thermique de la ligne de production Stavalk — pourquoi elles existent, ce qu'elles apportent et comment les valeurs sont vérifiées.
+Le traitement thermique est ce qui décide de la durabilité d'un étau d'établi. Le corps en fonte est résistant tel qu'il sort de fonderie, mais les mâchoires, la vis et les pièces coulissantes nécessitent une métallurgie délibérée pour tenir des années d'usage d'atelier. Cet article explique les opérations de traitement thermique de la ligne de production Stavalk — pourquoi elles existent, ce qu'elles apportent et comment les valeurs sont vérifiées.
 
 ## Ce que signifie réellement 58–62 HRC
 
-La dureté est mesurée sur l'échelle Rockwell C, et 58–62 HRC est la plage de travail des mâchoires d'étaux de banc trempées. En dessous de cette plage, les mâchoires se déforment ou se marquent sous la pression de serrage sur des matériaux durs ; au-dessus, elles deviennent cassantes et peuvent se fissurer sous les coups de marteau et les efforts de levier que les étaux d'atelier absorbent régulièrement. La fenêtre 58–62 est le point optimal métallurgique : assez dur pour marquer l'acier, assez tenace pour ne pas se fracturer.
+La dureté est mesurée sur l'échelle Rockwell C, et 58–62 HRC est la plage de travail des mâchoires d'étaux d'établi trempées. En dessous de cette plage, les mâchoires se déforment ou se marquent sous la pression de serrage sur des matériaux durs ; au-dessus, elles deviennent cassantes et peuvent se fissurer sous les coups de marteau et les efforts de levier que les étaux d'atelier absorbent régulièrement. La fenêtre 58–62 est le point optimal métallurgique : assez dur pour marquer l'acier, assez tenace pour ne pas se fracturer.
 
 ## Durcissement par induction des mâchoires
 
@@ -38,4 +38,4 @@ Le traitement thermique ne vaut que par sa vérification. Chaque lot de mâchoir
 
 ## Comment le traitement thermique protège votre produit
 
-Pour un acheteur OEM, la conclusion pratique est simple. Les mâchoires d'un étau sont la surface qui serre réellement la pièce de vos clients, et le traitement thermique est ce qui les rend durables au lieu de décoratives. Lorsque vous évaluez un étau de banc, demandez à l'usine son rapport d'essai de dureté — le chiffre vous dit si les mâchoires tiendront pendant la période de garantie et au-delà. Chez Stavalk, ce rapport est une documentation standard sur chaque expédition.
+Pour un acheteur OEM, la conclusion pratique est simple. Les mâchoires d'un étau sont la surface qui serre réellement la pièce de vos clients, et le traitement thermique est ce qui les rend durables au lieu de décoratives. Lorsque vous évaluez un étau d'établi, demandez à l'usine son rapport d'essai de dureté — le chiffre vous dit si les mâchoires tiendront pendant la période de garantie et au-delà. Chez Stavalk, ce rapport est une documentation standard sur chaque expédition.

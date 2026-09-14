@@ -1,9 +1,9 @@
 ---
 publishDate: 2026-07-22
 dateModified: 2026-07-22
-title: Revêtement de surface et finition — Protéger les étaux de banc de la corrosion
-summary: Revêtement en poudre et zingage sur les étaux de banc — le système de finition que Stavalk utilise pour protéger les corps HT200/HT250 et les composants pivotants, vérifié par des essais au brouillard salin de 48 heures.
-description: 'Le processus de revêtement et de finition des étaux de banc : revêtement en poudre sur les corps en fonte, zingage de la base pivotante et des vis, avec vérification au brouillard salin.'
+title: Revêtement de surface et finition — Protéger les étaux d'établi de la corrosion
+summary: Revêtement en poudre et zingage sur les étaux d'établi — le système de finition que Stavalk utilise pour protéger les corps HT200/HT250 et les composants pivotants, vérifié par des essais au brouillard salin de 48 heures.
+description: 'Le processus de revêtement et de finition des étaux d''établi : revêtement en poudre sur les corps en fonte, zingage de la base pivotante et des vis, avec vérification au brouillard salin.'
 category: manufacturing
 tags:
   - revêtement de surface
@@ -14,11 +14,11 @@ tags:
 entityType: technology
 ---
 
-Un étau de banc vit une vie dure : humidité de garage, brume de liquide de refroidissement, air côtier salé, pluie sur un chantier. La finition est ce qui empêche la fonderie de rouiller pendant des années de ce traitement. Cet article présente le système de revêtement que Stavalk applique à ses étaux, pourquoi chaque couche est là et comment la protection est prouvée.
+Un étau d'établi vit une vie dure : humidité de garage, brume de liquide de refroidissement, air côtier salé, pluie sur un chantier. La finition est ce qui empêche la fonderie de rouiller pendant des années de ce traitement. Cet article présente le système de revêtement que Stavalk applique à ses étaux, pourquoi chaque couche est là et comment la protection est prouvée.
 
 ## Deux fronts de corrosion, deux défenses
 
-Un étau de banc présente deux surfaces différentes à la corrosion. Le corps principal — fonte grise HT200 ou HT250 — est grand, exposé et encaisse la punition visuelle de la vie d'atelier. Les pièces mobiles — la base pivotante, la vis et la quincaillerie de la poignée — travaillent les unes contre les autres sous charge et nécessitent une finition qui survit à la fois à la friction et à l'humidité. Une seule finition ne peut pas faire les deux correctement, alors nous en utilisons deux : le revêtement en poudre sur le corps, le zingage sur la quincaillerie.
+Un étau d'établi présente deux surfaces différentes à la corrosion. Le corps principal — fonte grise HT200 ou HT250 — est grand, exposé et encaisse la punition visuelle de la vie d'atelier. Les pièces mobiles — la base pivotante, la vis et la quincaillerie de la poignée — travaillent les unes contre les autres sous charge et nécessitent une finition qui survit à la fois à la friction et à l'humidité. Une seule finition ne peut pas faire les deux correctement, alors nous en utilisons deux : le revêtement en poudre sur le corps, le zingage sur la quincaillerie.
 
 ## Revêtement en poudre du corps en fonte
 

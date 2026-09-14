@@ -2,8 +2,8 @@
 publishDate: 2026-05-15
 dateModified: 2026-05-15
 title: Usinage CNC — Précision sur les coulisseaux, mâchoires et vis
-summary: Comment l'usinage CNC offre une précision de 0,05 mm sur les coulisseaux, mâchoires et vis à filetage acme des étaux de banc — les étapes d'usinage qui transforment les pièces brutes de fonderie et de forgeage en sujétion précise.
-description: Le processus d'usinage CNC des composants d'étaux de banc, notamment les coulisseaux, mâchoires et vis acme, atteignant une précision de 0,05 mm à l'échelle.
+summary: Comment l'usinage CNC offre une précision de 0,05 mm sur les coulisseaux, mâchoires et vis à filetage acme des étaux d'établi — les étapes d'usinage qui transforment les pièces brutes de fonderie et de forgeage en sujétion précise.
+description: Le processus d'usinage CNC des composants d'étaux d'établi, notamment les coulisseaux, mâchoires et vis acme, atteignant une précision de 0,05 mm à l'échelle.
 category: manufacturing
 tags:
   - cnc
@@ -14,7 +14,7 @@ tags:
 entityType: technology
 ---
 
-Les pièces de fonderie et de forgeage brutes ne sont pas encore un étau de banc. Entre la fonderie et le banc d'assemblage se déroule le processus d'usinage qui transforme le métal brut en coulisseaux, mâchoires et vis ajustés avec précision — et c'est là qu'un étau se gagne ou se perd. Cet article présente les opérations CNC que Stavalk utilise pour maintenir une précision de 0,05 mm là où elle compte.
+Les pièces de fonderie et de forgeage brutes ne sont pas encore un étau d'établi. Entre la fonderie et le banc d'assemblage se déroule le processus d'usinage qui transforme le métal brut en coulisseaux, mâchoires et vis ajustés avec précision — et c'est là qu'un étau se gagne ou se perd. Cet article présente les opérations CNC que Stavalk utilise pour maintenir une précision de 0,05 mm là où elle compte.
 
 ## Pourquoi la précision commence au coulisseau
 
@@ -26,11 +26,11 @@ Les mâchoires sont usinées à partir d'ébauches en acier forgé 45#. La face 
 
 ## La vis à filetage acme
 
-Le mécanisme de fermeture repose sur une vis à filetage acme usinée dans des barres d'acier 45#. Nous produisons le filetage en deux passes : une passe d'ébauche sur tour CNC pour enlever la matière efficacement, puis une passe de finition qui maintient les tolérances du profil de filetage. La vis est ensuite appariée à son écrou usiné pour confirmer un fonctionnement fluide et sans jeu sur toute la course. C'est ce qui donne à un étau de banc Stavalk sa fermeture douce caractéristique sous charge.
+Le mécanisme de fermeture repose sur une vis à filetage acme usinée dans des barres d'acier 45#. Nous produisons le filetage en deux passes : une passe d'ébauche sur tour CNC pour enlever la matière efficacement, puis une passe de finition qui maintient les tolérances du profil de filetage. La vis est ensuite appariée à son écrou usiné pour confirmer un fonctionnement fluide et sans jeu sur toute la course. C'est ce qui donne à un étau d'établi Stavalk sa fermeture douce caractéristique sous charge.
 
 ## Perçage, taraudage et trous critiques d'assemblage
 
-Un corps d'étau de banc accumule de nombreux trous pendant l'usinage : trous de boulons de fixation dans la base, trous de vis des mâchoires, trous du mécanisme de verrouillage de la base pivotante et les fixations de la mâchoire fixe. Ils sont percés et taraudés sur des centres de perçage CNC utilisant des gabarits positionnés sur les mêmes références que les faces du coulisseau, pour que chaque trou tombe exactement là où le dessin l'indique — important car l'utilisateur final boulonne l'étau à un établi et serre les accessoires de mâchoire à tuyaux contre ces mêmes trous.
+Un corps d'étau d'établi accumule de nombreux trous pendant l'usinage : trous de boulons de fixation dans la base, trous de vis des mâchoires, trous du mécanisme de verrouillage de la base pivotante et les fixations de la mâchoire fixe. Ils sont percés et taraudés sur des centres de perçage CNC utilisant des gabarits positionnés sur les mêmes références que les faces du coulisseau, pour que chaque trou tombe exactement là où le dessin l'indique — important car l'utilisateur final boulonne l'étau à un établi et serre les accessoires de mâchoire à tuyaux contre ces mêmes trous.
 
 ## Inspection et vérification en MMT
 

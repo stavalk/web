@@ -2,8 +2,8 @@
 publishDate: 2026-04-02
 dateModified: 2026-04-02
 title: Fonderie au sable — Comment sont fabriqués les corps en fonte HT200 et HT250
-summary: Le processus de fonderie au sable derrière les corps d'étaux de banc Stavalk, de la modélisation au moulage, jusqu'à la coulée et le démoulage, en fonte grise HT200 et HT250.
-description: 'Une explication technique de la fonderie au sable pour les corps d''étaux de banc : modèles, moulage en sable vert, coulée au cubilot et propriétés de la fonte grise HT200 et HT250.'
+summary: Le processus de fonderie au sable derrière les corps d'étaux d'établi Stavalk, de la modélisation au moulage, jusqu'à la coulée et le démoulage, en fonte grise HT200 et HT250.
+description: 'Une explication technique de la fonderie au sable pour les corps d''étaux d''établi : modèles, moulage en sable vert, coulée au cubilot et propriétés de la fonte grise HT200 et HT250.'
 category: manufacturing
 tags:
   - fonderie au sable
@@ -14,11 +14,11 @@ tags:
 entityType: technology
 ---
 
-La fonderie au sable est la voie la plus directe d'un dessin à un corps d'étau de banc, et elle reste le procédé derrière pratiquement tous les étaux en fonte en production. Cet article présente comment Stavalk produit des corps en fonte grise HT200 et HT250, de la construction du modèle à la pièce de fonderie finie prête à usiner.
+La fonderie au sable est la voie la plus directe d'un dessin à un corps d'étau d'établi, et elle reste le procédé derrière pratiquement tous les étaux en fonte en production. Cet article présente comment Stavalk produit des corps en fonte grise HT200 et HT250, de la construction du modèle à la pièce de fonderie finie prête à usiner.
 
 ## Modèles et moulage
 
-Chaque conception de corps commence par un modèle — une réplique grandeur nature de la pièce, fabriquée en bois haute densité ou en aluminium, qui produit la cavité dans le moule en sable. Le corps d'un étau de banc n'étant pas symétrique, le modèle est divisé et les deux moitiés sont montées sur des plaques de division qui indexent les châssis de moulage. Pour les modèles à fort volume, nous utilisons le moulage sur plaque modèle, où les deux moitiés du modèle reposent sur une seule plaque et le moule est formé dans un seul châssis.
+Chaque conception de corps commence par un modèle — une réplique grandeur nature de la pièce, fabriquée en bois haute densité ou en aluminium, qui produit la cavité dans le moule en sable. Le corps d'un étau d'établi n'étant pas symétrique, le modèle est divisé et les deux moitiés sont montées sur des plaques de division qui indexent les châssis de moulage. Pour les modèles à fort volume, nous utilisons le moulage sur plaque modèle, où les deux moitiés du modèle reposent sur une seule plaque et le moule est formé dans un seul châssis.
 
 ## Moulage en sable vert
 
@@ -34,7 +34,7 @@ La charge métallique de la fonte grise est un mélange de fonte brute, de ferra
 
 ## Des propriétés HT200 et HT250 qui valent la coulée
 
-La fonte grise gagne sa place dans les corps d'étaux de banc pour trois raisons : un excellent amortissement des vibrations qui élimine le bavochage des pièces, une bonne usinabilité qui garantit des surfaces de glissement et des filetages précis, et une structure en graphite qui lubrifie les surfaces en mouvement. La différence de grade — HT200 à environ 200 MPa de résistance à la traction et HT250 à 250 MPa — nous permet d'adapter la résistance au cycle de travail. Les corps d'atelier standard utilisent de l'HT200 ; les gammes heavy-duty et professionnelles utilisent de l'HT250.
+La fonte grise gagne sa place dans les corps d'étaux d'établi pour trois raisons : un excellent amortissement des vibrations qui élimine le bavochage des pièces, une bonne usinabilité qui garantit des surfaces de glissement et des filetages précis, et une structure en graphite qui lubrifie les surfaces en mouvement. La différence de grade — HT200 à environ 200 MPa de résistance à la traction et HT250 à 250 MPa — nous permet d'adapter la résistance au cycle de travail. Les corps d'atelier standard utilisent de l'HT200 ; les gammes heavy-duty et professionnelles utilisent de l'HT250.
 
 ## De la fonderie au corps fini
 
