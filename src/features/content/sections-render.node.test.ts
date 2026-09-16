@@ -5,7 +5,7 @@ import { getContentPage, getContentPages, getLocalePaths } from '@/features/cont
 import { ContentSections } from '@/features/content/render/sections'
 import { I18nProvider } from '@/features/i18n/provider'
 
-const html = (path: string, locale: 'en' | 'es' = 'en'): string => {
+const html = (path: string, locale: 'en' | 'es' | 'fr' = 'en'): string => {
   const page = getContentPage(path, locale)
   expect(page, `${path} not found in registry`).toBeTruthy()
   return renderToString(
@@ -64,5 +64,21 @@ test('/quality es twin renders gates in Spanish', () => {
     'Inspección final y embalaje',
   ]) {
     expect(out, `es gate "${t}" not rendered`).toContain(t)
+  }
+})
+
+test('research topic headline renders as clean h1 text without markup leakage (en/es/fr)', () => {
+  const cases: [string, 'en' | 'es' | 'fr', string][] = [
+    ['/research/sand-casting-process', 'en', 'Sand Casting — The Foundation of Vise Body Manufacturing'],
+    ['/research/cnc-machining-precision', 'es', 'Mecanizado CNC — Precisión en cada componente del tornillo'],
+    ['/research/heat-treatment-jaw-hardness', 'fr', 'Traitement thermique — Mâchoires durcies pour un serrage durable'],
+  ]
+  for (const [path, locale, expected] of cases) {
+    const out = html(path, locale)
+    expect(out, `${path} (${
+      locale
+    }) must not leak the raw emphasis markup`).not.toContain('&lt;strong&gt;')
+    expect(out, `${path} (${locale}) must not re-emit raw tags`).not.toMatch(/<strong>/i)
+    expect(out, `${path} (${locale}) headline text missing`).toContain(`>${expected}</h1>`)
   }
 })

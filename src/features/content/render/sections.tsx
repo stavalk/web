@@ -1661,6 +1661,9 @@ export function ContentSection({ def, content }: { def: ContentSectionDef; conte
 /** Section keys rendered as the fallback hero — never output twice. */
 const HEADLINE_KEYS = new Set(['label', 'headline', 'subtitle', 'seo'])
 
+/** Long-article headlines may carry simple emphasis tags — keep the text, drop the markup. */
+const stripTags = (s: string): string => s.replace(/<[^>]*>/g, '')
+
 export function ContentSections({ page }: { page: ContentPage }) {
   const hasHero = page.sections.some((def) => def.type === 'hero' || def.type === 'hero_text' || def.type === 'hero_carousel')
   // Long-article template pages (label/headline/subtitle/seo/body) have no hero
@@ -1672,7 +1675,7 @@ export function ContentSections({ page }: { page: ContentPage }) {
         const c = page.content
         const headline = str(c.headline) || (isObj(c.seo) ? str((c.seo as Record<string, unknown>).headline) : '')
         if (!headline) return null
-        return <PageHero kicker={str(c.label) || ''} title={brandify(headline)} sub={str(c.subtitle) || str(c.sub) || ''} />
+        return <PageHero kicker={str(c.label) || ''} title={brandify(stripTags(headline))} sub={str(c.subtitle) || str(c.sub) || ''} />
       })()
     : null
   return (
