@@ -225,18 +225,33 @@ test('fr solution pages are French with en slug parity', () => {
   expect(failures).toEqual([])
 })
 
-test('fr guides fall back to en content with matching slug parity (guides are en-only)', () => {
+test('fr guides are fully translated (no en fallback) with slug parity', () => {
   const en = localizedGuides('en')
   const fr = localizedGuides('fr')
   expect(fr.length).toBe(en.length)
+  const failures: string[] = []
   for (const g of en) {
     const f = fr.find((x) => x.slug === g.slug)
-    expect(f, g.slug).toBeDefined()
-    expect(f?.title).toBe(g.title)
-    expect(f?.intro).toEqual(g.intro)
+    if (!f) { failures.push(`${g.slug}: missing in fr`); continue }
+    assertFrench(failures, `${g.slug}`, `${f.title} ${f.intro.join(' ')} ${f.sections.map((s) => `${s.title} ${s.body}`).join(' ')} ${f.faqs.map((fa) => `${fa.q} ${fa.a}`).join(' ')}`)
+    expect(f.title, g.slug).not.toBe(g.title)
   }
   const cards = GUIDE_CARDS.fr
   expect(cards.length).toBe(GUIDE_CARDS.en.length)
+  expect(failures).toEqual([])
+})
+
+test('es guides are fully translated (no en fallback) with slug parity', () => {
+  const en = localizedGuides('en')
+  const es = localizedGuides('es')
+  expect(es.length).toBe(en.length)
+  const SPANISH_RE = /[áéíóúñ¿¡]|\b(como|cómo|qué|cuál|para|con|una|del|mordaza|guía|mecanizado|tubería|fabricación|muestra|pedido|mantenimiento)\b/i
+  for (const g of en) {
+    const s = es.find((x) => x.slug === g.slug)
+    expect(s, g.slug).toBeDefined()
+    expect(`${s?.title} ${s?.intro.join(' ')}`, g.slug).toMatch(SPANISH_RE)
+    expect(s?.title, g.slug).not.toBe(g.title)
+  }
 })
 
 test('fr home & catalog content is French', () => {

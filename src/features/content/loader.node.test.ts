@@ -76,14 +76,22 @@ test('case-use: es overlay swaps title and keeps slug', () => {
   expect(getCaseUses('es')).toHaveLength(getCaseUses().length)
 })
 
-test('guides: every guide slug resolves for any locale (en-only fallback)', () => {
+test('guides: every guide slug resolves per locale with localized content', () => {
+  const SPANISH_RE = /[áéíóúñ¿¡]|\b(como|cómo|qué|cuál|para|con|una|del|mordaza|guía|mecanizado|tubería|fabricación|muestra|pedido|mantenimiento)\b/i
   for (const g of ['how-to-choose-a-bench-vise', 'bench-vise-size-guide', 'bench-vise-maintenance-guide', 'pipe-vise-guide', 'oem-bench-vise-order-guide', 'precision-vise-guide']) {
     const gd = getGuide(`/guides/${g}`)
     expect(gd, g).toBeDefined()
+    for (const locale of ['en', 'es', 'fr']) {
+      const localized = getGuide(`/guides/${g}`, locale)
+      expect(localized, `${g}/${locale}`).toBeDefined()
+      expect(localized?.slug, `${g}/${locale}`).toBe(g)
+    }
     const es = getGuide(`/guides/${g}`, 'es')
-    expect(es, g).toBeDefined()
-    expect(es?.slug).toBe(g)
-    expect(es?.title).toBe(gd?.title)
+    const fr = getGuide(`/guides/${g}`, 'fr')
+    expect(es?.title, g).not.toBe(gd?.title)
+    expect(fr?.title, g).not.toBe(gd?.title)
+    expect(es?.title ?? '', g).toMatch(SPANISH_RE)
+    expect(es?.intro.join(' '), g).toMatch(SPANISH_RE)
   }
   expect(getGuide('/guides/how-to-choose-a-bench-vise', 'en')?.title).toBe(getGuide('/guides/how-to-choose-a-bench-vise')?.title)
 })

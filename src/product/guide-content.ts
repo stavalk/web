@@ -5,6 +5,9 @@
  * The slugs align with the knowledge-hub content for buyers new to workholding.
  */
 
+import { GUIDES_ES } from './guide-content.es'
+import { GUIDES_FR } from './guide-content.fr'
+
 export interface GuideSection {
   title: string
   body: string
@@ -224,8 +227,8 @@ export const GUIDES: Guide[] = [
 
 /**
  * Compact card form of each guide, used by hub pages and the knowledge index.
- * Guides ship in English; the localized maps mirror the same cards so every
- * locale's index/sitemap stays consistent with the base set.
+ * Cards ship fully translated per locale so every locale's index, sitemap and
+ * search corpus stay in the visitor's language.
  */
 export interface GuideCard {
   slug: string
@@ -238,24 +241,33 @@ function toCards(g: Guide): GuideCard {
 }
 
 const CARDS = GUIDES.map(toCards)
+const CARDS_ES = GUIDES_ES.map(toCards)
+const CARDS_FR = GUIDES_FR.map(toCards)
 
-/** @deprecated use GUIDE_CARDS */
-export const localizedGuides: (locale: string) => Guide[] = () => GUIDES
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = {
+  en: GUIDES,
+  es: GUIDES_ES,
+  fr: GUIDES_FR,
+}
+
+/** Guides for a locale (falls back to English for locales without translations). */
+export const localizedGuides: (locale: string) => Guide[] = (locale) => GUIDES_BY_LOCALE[locale] ?? GUIDES
 
 export const GUIDE_CARDS: import('./content').Localized<GuideCard[]> = {
   en: CARDS,
-  es: CARDS,
-  fr: CARDS,
+  es: CARDS_ES,
+  fr: CARDS_FR,
 }
 
 export function getGuideBySlug(slug: string): Guide | undefined {
   return GUIDES.find((g) => g.slug === slug)
 }
 
-export function getGuide(path: string, _locale?: string): Guide | undefined {
+export function getGuide(path: string, locale?: string): Guide | undefined {
   const slug = path.replace(/^\/guides\//, '')
-  return getGuideBySlug(slug)
+  const list = GUIDES_BY_LOCALE[locale ?? 'en'] ?? GUIDES
+  return list.find((g) => g.slug === slug)
 }
 
-export const GUIDES_ES: Guide[] = GUIDES
-export const GUIDES_FR: Guide[] = GUIDES
+export { GUIDES_ES } from './guide-content.es'
+export { GUIDES_FR } from './guide-content.fr'
