@@ -139,7 +139,7 @@ jobs:
           CDN_DOMAIN: ${{ steps.config.outputs.cdn_domain }}
         run: |
           echo "--- images/stavalk/products (sample) ---"
-          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/stavalk/products/afarer-og-default&per_page=20" \
+          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/stavalk/products/benchvise-og-default&per_page=20" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             | jq '{success, keys: [.result[].key]}'
           echo "--- site/downloads (compressed PDFs) ---"
@@ -147,7 +147,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             | jq '{success, keys: [.result[].key]}'
           echo "--- CDN reachability (hero responsive variants) ---"
-          for f in afarer-og-default.avif afarer-og-default-768.avif afarer-og-default-480.avif afarer-og-default.webp; do
+          for f in benchvise-og-default.avif benchvise-og-default-768.avif benchvise-og-default-480.avif benchvise-og-default.webp; do
             code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/stavalk/products/$f?v=$(date +%s)")
             echo "$code https://$CDN_DOMAIN/images/stavalk/products/$f"
           done
