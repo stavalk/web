@@ -28,8 +28,8 @@ jobs:
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
           SITE_ID: ${{ vars.SITE_ID }}
         run: |
-          R2_BUCKET="${CF_PROD_R2_BUCKET:-${SITE_ID:-Stavalk}-files-prod}"
-          CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-${SITE_ID:-Stavalk}.com}"
+          R2_BUCKET="${CF_PROD_R2_BUCKET:-${SITE_ID:-stavalk}-files-prod}"
+          CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-${SITE_ID:-stavalk}.com}"
           echo "r2_bucket=$R2_BUCKET" >> "$GITHUB_OUTPUT"
           echo "cdn_domain=$CDN_DOMAIN" >> "$GITHUB_OUTPUT"
 
