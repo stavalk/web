@@ -121,13 +121,15 @@ export function articleLd(input: {
   path: string
   locale?: Locale
 }): Record<string, unknown> {
-  const url = `${SITE_ORIGIN}${localizePath(input.locale ?? DEFAULT_LOCALE, input.path)}`
+  const locale = input.locale ?? DEFAULT_LOCALE
+  const url = `${SITE_ORIGIN}${localizePath(locale, input.path)}`
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: input.title,
     description: input.description,
     url,
+    inLanguage: locale,
     author: { '@id': `${SITE_ORIGIN}/#organization` },
     publisher: { '@type': 'Organization', name: SITE_NAME },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },

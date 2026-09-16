@@ -48,6 +48,12 @@ test('articleLd: url + mainEntityOfPage localize', () => {
   expect(en.url).toBe(`${SITE_ORIGIN}/knowledge/x`)
 })
 
+test('articleLd: inLanguage follows locale (en default, es/fr localized)', () => {
+  expect(articleLd({ title: 'T', description: 'D', path: '/knowledge/x' }).inLanguage).toBe('en')
+  expect(articleLd({ title: 'T', description: 'D', path: '/knowledge/x', locale: 'es' }).inLanguage).toBe('es')
+  expect(articleLd({ title: 'T', description: 'D', path: '/knowledge/x', locale: 'fr' }).inLanguage).toBe('fr')
+})
+
 test('siteLd: WebSite SearchAction target localizes the search path', () => {
   const websiteEs = siteLd('es').find((d) => d['@type'] === 'WebSite')!
   const websiteFr = siteLd('fr').find((d) => d['@type'] === 'WebSite')!
