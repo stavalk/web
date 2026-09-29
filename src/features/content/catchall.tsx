@@ -35,6 +35,7 @@ import { ArrowRight } from 'lucide-react'
 import { ContentSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
 import { faqSlug } from '@/features/ai/rag'
+import { productFaqs } from './product-faqs'
 import type { ContentArticle, ContentCaseUse, ContentPage, ContentPost, ContentProduct } from './types'
 
 const BREADCRUMB_PARENTS: Record<string, { name: string; path: string }> = {
@@ -640,48 +641,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
   )
 }
 
-/** Product FAQ pool: product-specific entries + shared fallbacks (≥5 total). */
-function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: string }[] {
-  const specific = product.faqs ?? []
-  const pool: { q: string; a: string }[] = locale !== 'en'
-    ? [
-        {
-          q: '¿Cuál es el pedido mínimo para personalizar este torno de banco?',
-          a: `El MOQ de producción estándar es de ${MOQ_SHORT.standardRun} por modelo aprobado, con lotes piloto desde ${MOQ_SHORT.trialStandard} y ${MOQ_SHORT.customMould} para un nuevo molde a medida.`,
-        },
-        {
-          q: '¿Cuánto tardan las muestras y la producción?',
-          a: `Las muestras tardan ${FACTS.sampleTime}; la producción en serie se completa en ${FACTS.leadTime} tras confirmar el pedido y el depósito.`,
-        },
-        {
-          q: '¿Puedo cambiar colores, acabado y el logo?',
-          a: 'Sí — el acabado, el color de pintura, el grabado del logo, el embalaje y los accesorios se personalizan en cada modelo. Comparte tu logo y te haremos una prueba visual antes de la producción.',
-        },
-        {
-          q: '¿Cómo se controla la calidad antes del envío?',
-          a: `Cada torno pasa por una lista de verificación de ${FACTS.assemblyChecklist} y una prueba de ${FACTS.pressureTest} antes de empaquetar; los fallos de apriete o dureza se rechazan automáticamente.`,
-        },
-      ]
-    : [
-        {
-          q: 'What is the minimum order to customize this bench vise?',
-          a: `MOQ is ${MOQ_SHORT.standardRun} per approved model for standard volume production, with pilot runs from ${MOQ_SHORT.trialStandard} and ${MOQ_SHORT.customMould} for a new custom mould.`,
-        },
-        {
-          q: 'How long do samples and production take?',
-          a: `Samples are ready in ${FACTS.sampleTime}; batch production completes in ${FACTS.leadTime} after confirmed PO and deposit.`,
-        },
-        {
-          q: 'Can I change finish, color and the logo?',
-          a: 'Yes — finish, paint color, engraved logo, packaging and accessories are all customizable on every model. Share your logo and we produce a visual proof before production.',
-        },
-        {
-          q: 'How is quality controlled before shipment?',
-          a: `Every vise passes a ${FACTS.assemblyChecklist} assembly checklist and a ${FACTS.pressureTest} before packing; units failing clamping force or jaw hardness checks are auto-rejected.`,
-        },
-      ]
-  return [...specific, ...pool]
-}
+
 
 /** Customization points available on every OEM platform (product detail pages). */
 function customizationOptions(locale: Locale): { title: string; body: string }[] {
